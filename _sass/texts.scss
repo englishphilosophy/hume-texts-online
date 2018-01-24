@@ -1,0 +1,30 @@
+.text {
+  background: #fff;
+  padding: 1em;
+  h1, h2, h3, h4, h5, h6, p {
+    font-family: 'IM Fell English';
+    margin-bottom: 1rem;
+  }
+  p {
+    &:not(.first) {
+      text-indent: 2em;
+    }
+  }
+  .ref {
+    display: none;
+  }
+  .sc {
+    font-style: normal;
+    font-family: 'IM Fell English SC';
+  }
+  .dc {
+    float: left;
+    font-size: 3.35em;
+    line-height: 1;
+    margin-top: -0.03em;
+    margin-bottom: -0.1em;
+  }
+  @include for-tablet-portrait-up {
+    border: 1px solid $black;
+  }
+}

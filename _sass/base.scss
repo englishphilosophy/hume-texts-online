@@ -1,0 +1,67 @@
+*, ::before, ::after {
+	box-sizing: inherit;
+	font: inherit;
+	border: 0;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+	cursor: default;
+}
+
+body {
+	color: $black;
+	background: $gray;
+  font-family: $sans;
+  font-size: 16px;
+	line-height: 1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 600;
+	line-height: 1;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+b, strong {
+	font-weight: 600;
+}
+
+em, i {
+	font-style: italic;
+}
+
+a {
+  color: $red;
+	text-decoration: none;
+}
+
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -.25em;
+}
+
+sup {
+	top: -.5em;
+}
+
+img {
+	display: inline-block;
+	max-width: 100%;
+}
+
+table {
+	border-collapse: collapse;
+}

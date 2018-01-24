@@ -1,0 +1,31 @@
+// colours
+$black: #282828;
+$gray: #e2e2e2;
+$red: #920000;
+
+// fonts
+$sans: "Nobile", helvetica, arial, sans-serif;
+$mono: "Inconsolata", courier, monospace;
+
+// little things
+$box-shadow: 0 0 .2rem rgba(0, 0, 0, 0.5);
+$border-radius: .4rem;
+$black-border: .2rem solid $black;
+$white-border: .3rem solid #fff;
+
+// break points
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (min-width: 600px) { @content; }
+}
+@mixin for-tablet-landscape-up {
+  @media (min-width: 900px) { @content; }
+}
+@mixin for-desktop-up {
+  @media (min-width: 1200px) { @content; }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) { @content; }
+}

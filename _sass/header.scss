@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 1rem .75rem .5rem;
+  background: #fff;
+  border-bottom: .5rem solid $red;
+  h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+  }
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    a {
+      display: block;
+      padding: .5em 1em;
+    }
+  }
+}

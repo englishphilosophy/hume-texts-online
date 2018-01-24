@@ -1,0 +1,4 @@
+---
+section: scholarship
+---
+Hume scholarship.

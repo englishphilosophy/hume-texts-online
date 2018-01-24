@@ -1,0 +1,10 @@
+main {
+  line-height: 1.5;
+	text-align: justify;
+  @include for-tablet-portrait-up {
+    padding: 20px;
+    padding: 1em;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+}
