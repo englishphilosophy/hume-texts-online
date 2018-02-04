@@ -1,10 +1,73 @@
 main {
   line-height: 1.5;
-	text-align: justify;
-  @include for-tablet-portrait-up {
-    padding: 20px;
-    padding: 1em;
-    margin: 0 auto;
-    max-width: 600px;
+  margin: 0 auto;
+  max-width: $break1 - 2;
+  @media(min-width: $break1) {
+    margin: 1rem auto;
+  }
+  @media(min-width: $break2) {
+    max-width: $break2 - 2;
+  }
+}
+
+.row {
+  @media(min-width: $break2) {
+    display: flex;
+  }
+}
+
+.box {
+  background: #fff;
+  @media(min-width: $break1) {
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    margin: .5em;
+  }
+  @media(min-width: $break2) {
+    flex: 1;
+  }
+}
+
+.search {
+  display: flex;
+  border: 1px solid $gray;
+  margin: .5em;
+  input {
+    flex: 1;
+  }
+  @media(min-width: $break1) {
+    border: 0;
+  }
+}
+
+.padded {
+  padding: 1em;
+}
+
+.hidden {
+  display: none;
+}
+
+.options {
+  label {
+    display: block;
+    padding-right: .5em;
+    white-space: nowrap;
+    input {
+      margin-right: .5em;
+    }
+  }
+  @media(min-width: $break1) {
+    .row2 {
+      display: flex;
+      label {
+        flex: 1;
+      }
+    }
+  }
+  @media(min-width: $break2) {
+    display: flex;
+    .row2 {
+      flex: 1;
+    }
   }
 }

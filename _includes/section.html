@@ -1,0 +1,6 @@
+{% for paragraph in include.section.paragraphs %}
+  <div class="{{ paragraph.type }}" id="{{ include.section.id }}-{{ paragraph.id }}">
+    <div class="ref">{{ include.section.id }}-{{ paragraph.id }}</div>
+    <p class="paragraph">{{ paragraph.text }}</p>
+  </div>
+{% endfor %}

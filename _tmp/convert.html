@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    textarea {
+      width: 100%;
+      height: 400px;
+    }
+  </style>
+</head>
+<body>
+  <div><button id="go">GO</button></div>
+  <div><textarea id="input"></textarea></div>
+  <div><textarea id="output"></textarea></div>
+  <script>
+    const go = document.getElementById('go');
+    const input = document.getElementById('input');
+    const output = document.getElementById('output');
+    const convert = (dhot) => {
+      var result = dhot;
+      // outline
+      result = result.replace(/<dhot id="(.*?)">(.*)<\/dhot>/, '    id: "$1"\n    text: "$2"');
+      // units
+      result = result.replace(/<(\/?)title>/g, '');
+      result = result.replace(/<(\/?)para>/g, '');
+      result = result.replace(/text: "<note sym="(.*?)">/, 'type: "note"\n    symbol: "$1"\n    text: "');
+      result = result.replace(/<(\/?)note>/g, '');
+      // formatting
+      result = result.replace(/<dc>(.*?)<\/dc>/g, '^$1^');
+      result = result.replace(/<em>(.*?)<\/em>/g, '_$1_');
+      result = result.replace(/<sc>(.*?)<\/sc>/g, '*$1*');
+      result = result.replace(/<wide>(.*?)<\/wide>/g, '~$1~');
+      result = result.replace(/<greek>(.*?)<\/greek>/g, t => `$${t.replace(/<greek>(.*?)<\/greek>/, '$1')}$`);
+      result = result.replace(/<tab\/>/g, '¬');
+      result = result.replace(/<nbsp\/>/g, '&nbsp;');
+      result = result.replace(/<ac>(.*?)<\/ac>/g, t => t.replace(/<ac>(.*?)<\/ac>/, '$1').toUpperCase());
+      // notes and quotes
+      result = result.replace(/<blockquote>(.*?)<\/blockquote>/g, '>$1<');
+      result = result.replace(/<br\/>/g, '//');
+      result = result.replace(/<footnote num="(.*?)" sym="(.*?)"\/>/g, '[$1,$2]');
+      // page breaks
+      result = result.replace(/<OPB num="(.*?)"\/>/g, '<#$1>');
+      result = result.replace(/<MSPB num="(.*?)"\/>/g, '<#$1>');
+      result = result.replace(/<MPB ed="(.*?)" num="(.*?)"\/>/g, '<$1#$2>');
+      // edits
+      result = result.replace(/<del>æ<\/del><ins comment="originally 'æ'; separated to make searching the text easier">ae<\/ins>/g, 'æ');
+      result = result.replace(/<del>Æ<\/del><ins comment="originally 'Æ'; separated to make searching the text easier">AE<\/ins>/g, 'Æ');
+      result = result.replace(/<del>œ<\/del><ins comment="originally 'œ'; separated to make searching the text easier">oe<\/ins>/g, 'œ');
+      result = result.replace(/<del>(.*?)<\/del><ins comment="(.*?)">(.*?)<\/ins>/g, '[-$1 +$3 @$2]');
+      result = result.replace(/<ins comment="(.*?)">(.*?)<\/ins>/g, '[+$2 @$1]');
+      return `  -\n${result}`;
+    };
+    go.addEventListener('click', (e) => {
+      output.value = input.value.split('\n').map(convert).join('\n');
+    });
+  </script>
+</body>
+</html>

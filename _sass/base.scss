@@ -14,7 +14,6 @@ html {
 
 body {
 	color: $black;
-	background: $gray;
   font-family: $sans;
   font-size: 16px;
 	line-height: 1;
@@ -23,10 +22,17 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 600;
 	line-height: 1;
+	margin-bottom: 1em;
 }
 
-ul, ol {
-	list-style-type: none;
+ul,
+ol {
+	margin-left: 2em;
+	margin-bottom: 1em;
+}
+
+ul ul {
+	margin-bottom: .5em;
 }
 
 b, strong {
@@ -40,6 +46,9 @@ em, i {
 a {
   color: $red;
 	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
 }
 
 sub, sup {
@@ -64,4 +73,29 @@ img {
 
 table {
 	border-collapse: collapse;
+}
+
+input[type="text"],
+button {
+	height: 2.25rem;
+}
+
+input[type="text"] {
+	padding: 1em 1em 1.25em;
+}
+
+button {
+	background: #fff;
+	cursor: pointer;
+	color: $gray;
+	width: 2.25em;
+	&:hover {
+		color: $red;
+	}
+}
+
+@media(min-width: $break1) {
+	body {
+		background: $lightgray;
+	}
 }

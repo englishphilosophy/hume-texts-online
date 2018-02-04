@@ -4,26 +4,31 @@ layout: compress
 <!doctype html>
 <html lang="en">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="keywords" content="hume, david hume, texts, scholarship">
     <meta name="description" content="{{ site.description }}">
     <link rel="shortcut icon" href="{% link assets/hume.ico %}">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata|Nobile:400,700|Open+Sans:400italic,400,700|IM+Fell+English+SC|IM+Fell+English:400,400italic|GFS+Didot">
-    <link rel="stylesheet" href="{% link assets/css/hume.scss %}">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=IM+Fell+English+SC|IM+Fell+English:400,400italic|GFS+Didot">
+    <link rel="stylesheet" href="{% link assets/hume.scss %}">
     <title>{{ site.title }}</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script defer src="{% link assets/data.js %}"></script>
+    <script defer src="{% link assets/hume.js %}"></script>
   </head>
   <body>
     <header>
       <h1>davidhume.org</h1>
       <nav>
-        {% for section in site.data.sections %}
-          <a class="{% if page.section == section.id %}active{% endif %}" href="{{ section.url }}">{{ section.title }}</a>
-        {% endfor %}
+        <a class="{% if page.section == 'texts' %}active{% endif %}" href="{% link index.html %}">Texts</a>
+        <a class="{% if page.section == 'notes' %}active{% endif %}" href="{% link notes.html %}">Notes</a>
+        <a class="{% if page.section == 'scholarship' %}active{% endif %}" href="{% link scholarship.html %}">Scholarship</a>
+        <a class="{% if page.section == 'about' %}active{% endif %}" href="{% link about.html %}">About</a>
       </nav>
     </header>
     <main>
       {{ content }}
     </main>
-    <script src="{% link assets/js/hume.js %}"></script>
   </body>
 </html>
