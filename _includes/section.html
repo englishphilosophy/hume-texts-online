@@ -1,6 +1,17 @@
-{% for paragraph in include.section.paragraphs %}
-  <div class="{{ paragraph.type }}" id="{{ include.section.id }}-{{ paragraph.id }}">
-    <div class="ref">{{ include.section.id }}-{{ paragraph.id }}</div>
-    <p class="paragraph">{{ paragraph.text }}</p>
+<div class="text box">
+  <div data-format id="{{ include.section.id }}">
+    {{ include.section.title[1] }}
   </div>
-{% endfor %}
+  {% for paragraph in include.section.paragraphs %}
+    {% if paragraph.id == 'n1' %}
+      <hr>
+    {% endif %}
+    <div id="{{ include.section.id }}.{{ paragraph.id }}">
+      <div class="ref">{{ include.section.id }}.{{ paragraph.id }}{% if include.section.pages %}, {{ include.section.pages }} {{ paragraph.page }}{% endif %}</div>
+      <p data-format class="{{ paragraph.type }}">
+        {% if paragraph.type == 'note' %}<sup>[{{ paragraph.id | remove: 'n' }}]</sup>{% endif %}
+        {{ paragraph.text }}
+      </p>
+    </div>
+  {% endfor %}
+</div>

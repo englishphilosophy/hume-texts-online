@@ -20,7 +20,7 @@ Formatting is represented with the use of special characters, ones that Hume him
 - `$greek text$` (formatted with a different font)
 - `¬` (a tab)
 - `//` (a line break)
-- `>blockquote<`
+- ``blockquote``
 
 Some paragraphs are given `type: "title"`, and marked up with HTML <h> tags. Some paragraphs are given `type: "first"`, which means they are not to have the text indent that all other paragraphs have by default. These paragraphs typically start with a dropped capital letter. Some paragraphs are also given `style: "italic"`; these are paragraphs rendered in italics (with any italics within them rendered in normal font style).
 

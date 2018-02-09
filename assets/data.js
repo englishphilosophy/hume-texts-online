@@ -1,7 +1,7 @@
 ---
 layout: compress
 ---
-const paragraphs = [
+const data = [
   {% for section_hash in site.data %}
     {% assign section = section_hash[1] %}
     {% for paragraph in section.paragraphs %}

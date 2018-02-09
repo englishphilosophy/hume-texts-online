@@ -1,17 +1,37 @@
 .text {
-  background: #fff;
+  font-size: 1.25em;
   padding: 1em;
+  > div:not(:last-child) {
+    margin-bottom: 1em;
+  }
   h1, h2, h3, h4, h5, h6, p {
     font-family: 'IM Fell English';
-    margin-bottom: 1rem;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+  h1 {
+    font-size: 1.25em;
   }
   p {
+    text-align: justify;
     &:not(.first) {
       text-indent: 2em;
     }
+    &.note {
+      font-size: .875em;
+    }
+  }
+  blockquote {
+    margin-left: 2em;
+    margin-top: 1em;
+    text-indent: 0;
   }
   .ref {
-    display: none;
+    font-size: .825em;
+    color: $red;
+    text-align: right;
+    margin-bottom: .5em;
   }
   .sc {
     font-style: normal;
@@ -23,5 +43,30 @@
     line-height: 1;
     margin-top: -0.03em;
     margin-bottom: -0.1em;
+  }
+  .greek {
+    font-family: 'GFS Didot';
+  }
+  .tab {
+    display: inline-block;
+    width: 2em;
+  }
+  sup {
+    color: $red;
+  }
+  hr {
+    border-top: 1px solid $gray;
+    margin-bottom: 1em;
+  }
+  @media(min-width: $break2) {
+    font-size: 1.375em;
+    padding: 3rem;
+    h1, h2, h3, h4, h5, h6, p {
+      padding-left: 28rem;
+    }
+    .ref {
+      float: left;
+      text-align: left;
+    }
   }
 }

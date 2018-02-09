@@ -45,7 +45,7 @@ section: texts
       <li>A Treatise of Human Nature (1739-40)
         <ul>
           <li><a href="{% link texts/ad1739.html %}">Advertisement (1739)</a></li>
-          <li><a href="{% link texts/tintro.html %}">Introduction (1739)</a></li>
+          <li><a href="{% link texts/t0.html %}">Introduction (1739)</a></li>
           <li><a href="{% link texts/t1/index.html %}">Book 1, Of the Understanding (1739)</a></li>
           <li><a href="{% link texts/t2/index.html %}">Book 2, Of the Passions (1739)</a></li>
           <li><a href="{% link texts/ad1740.html %}">Advertisement (1740)</a></li>
@@ -91,66 +91,36 @@ section: texts
       <li><a href="{% link texts/ad1742.html %}">Advertisement (1742)</a></li>
     </ul>
     <ol>
-      <li><a href="{% link texts/dt.html %}">Of the Delicacy of Taste and Passion (1741, 1777)</a></li>
-      <li><a href="{% link texts/lp.html %}">Of the Liberty of the Press (1741, 1777)</a></li>
-      <li><a href="{% link texts/pr.html %}">That Politics may be reduced to a Science (1741, 1777)</a></li>
-      <li><a href="{% link texts/fp.html %}">Of the First Principles of Government (1741, 1777)</a></li>
-      <li><a href="{% link texts/ip.html %}">Of the Independency of Parliament (1741, 1777)</a></li>
-      <li><a href="{% link texts/bg.html %}">Whether the British Government inclines more to absolute Monarchy, or to a Republic (1741, 1777)</a></li>
-      <li><a href="{% link texts/pg.html %}">Of Parties in General (1741, 1777)</a></li>
-      <li><a href="{% link texts/pgb.html %}">Of the Parties of Great Britain (1741, 1777)</a></li>
-      <li><a href="{% link texts/se.html %}">Of Superstition and Enthusiasm (1741, 1777)</a></li>
-      <li><a href="{% link texts/dm.html %}">Of the Dignity or Meanness of Human Nature (1741, 1777)</a></li>
-      <li><a href="{% link texts/cl.html %}">Of Civil Liberty (1741, 1777)</a></li>
-      <li><a href="{% link texts/el.html %}">Of Eloquence (1742, 1777)</a></li>
-      <li><a href="{% link texts/rp.html %}">Of the Rise and Progress of the Arts and Sciences (1742, 1777)</a></li>
-      <li><a href="{% link texts/ep.html %}">The Epicurean (1742, 1777)</a></li>
-      <li><a href="{% link texts/st.html %}">The Stoic (1742, 1777)</a></li>
-      <li><a href="{% link texts/pl.html %}">The Platonist (1742, 1777)</a></li>
-      <li><a href="{% link texts/sc.html %}">The Sceptic (1742, 1777)</a></li>
-      <li><a href="{% link texts/pd.html %}">Of Polygamy and Divorces (1742, 1777)</a></li>
-      <li><a href="{% link texts/sr.html %}">Of Simplicity and Refinement in Writing (1742, 1777)</a></li>
-      <li><a href="{% link texts/nc.html %}">Of National Characters (1748, 1777)</a></li>
-      <li><a href="{% link texts/tr.html %}">Of Tragedy (1757, 1777)</a></li>
-      <li><a href="{% link texts/st.html %}">Of the Standard of Taste (1757, 1777)</a></li>
+      {% for id in site.data.texts.ess1 %}
+        {% assign essay = site.data.sections[id] %}
+        <li><a href="/texts/{{ id }}">{{ essay.title[0] }} ({% if essay.first != essay.source %}{{ essay.first }}, {% endif %}{{ essay.source }})</a></li>
+      {% endfor %}
     </ol>
-    <h2>Autobiography</h2>
-    <ul>
-      <li><a href="{% link texts/mol.html %}">My Own Life (1777)</a></li>
-    </ul>
   </div>
   <div class="padded box">
     <h2>Essays, Moral, Political, and Literary, Part 2 (1752-77)</h2>
     <ol>
-      <li><a href="{% link texts/co.html %}">Of Commerce (1752, 1777)</a></li>
-      <li><a href="{% link texts/ra.html %}">Of Refinement in the Arts (1752, 1777)</a></li>
-      <li><a href="{% link texts/mo.html %}">Of Money (1752, 1777)</a></li>
-      <li><a href="{% link texts/in.html %}">Of Interest (1752, 1777)</a></li>
-      <li><a href="{% link texts/bt.html %}">Of the Balance of Trade (1752, 1777)</a></li>
-      <li><a href="{% link texts/jt.html %}">Of the Jealousy of Trade (1760, 1777)</a></li>
-      <li><a href="{% link texts/bp.html %}">Of the Balance of Power (1752, 1777)</a></li>
-      <li><a href="{% link texts/ta.html %}">Of Taxes (1752, 1777)</a></li>
-      <li><a href="{% link texts/pc.html %}">Of Public Credit (1752, 1777)</a></li>
-      <li><a href="{% link texts/rc.html %}">Of some remarkable Customs (1752, 1777)</a></li>
-      <li><a href="{% link texts/pa.html %}">Of the Populousness of Ancient Nations (1752, 1777)</a></li>
-      <li><a href="{% link texts/oc.html %}">Of the Original Contract (1748, 1777)</a></li>
-      <li><a href="{% link texts/po.html %}">Of Passive Obedience (1748, 1777)</a></li>
-      <li><a href="{% link texts/cp.html %}">Of the Coalition of Parties (1758, 1777)</a></li>
-      <li><a href="{% link texts/ps.html %}">Of the Protestant Succession (1752, 1777)</a></li>
-      <li><a href="{% link texts/ipc.html %}">Idea of a perfect Commonwealth (1752, 1777)</a></li>
+      {% for id in site.data.texts.ess2 %}
+        {% assign essay = site.data.sections[id] %}
+        <li><a href="/texts/{{ id }}">{{ essay.title[0] }} ({% if essay.first != essay.source %}{{ essay.first }}, {% endif %}{{ essay.source }})</a></li>
+      {% endfor %}
     </ol>
-    <h2>Posthumous and Withdrawn Essays</h2>
+  </div>
+</div>
+<div class="row">
+  <div class="padded box">
+    <h2>Posthumous and Withdrawn Essays (1741-68)</h2>
     <ul>
-      <li><a href="{% link texts/im.html %}">Of Impudence and Modesty (1741, 1760)</a></li>
-      <li><a href="{% link texts/lm.html %}">Of Love and Marriage (1741, 1760)</a></li>
-      <li><a href="{% link texts/sh.html %}">Of the Study of History (1741, 1760)</a></li>
-      <li><a href="{% link texts/av.html %}">Of Avarice (1741, 1768)</a></li>
-      <li><a href="{% link texts/ew.html %}">Of Essay-Writing (1742)</a></li>
-      <li><a href="{% link texts/mp.html %}">Of Moral Prejudices (1742)</a></li>
-      <li><a href="{% link texts/ms.html %}">Of the Middle Station of Life (1742)</a></li>
-      <li><a href="{% link texts/cr.html %}">A Character of Sir Robert Walpole (1742, 1768)</a></li>
-      <li><a href="{% link texts/su.html %}">Of Suicide (1755, 1777)</a></li>
-      <li><a href="{% link texts/is.html %}">Of the Immortality of the Soul (1755, 1777)</a></li>
+      {% for id in site.data.texts.ess3 %}
+        {% assign essay = site.data.sections[id] %}
+        <li><a href="/texts/{{ id }}">{{ essay.title[0] }} ({% if essay.first != essay.source %}{{ essay.first }}, {% endif %}{{ essay.source }})</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  <div class="padded box">
+    <h2>Autobiography (1777)</h2>
+    <ul>
+      <li><a href="{% link texts/mol.html %}">My Own Life (1777)</a></li>
     </ul>
   </div>
 </div>
