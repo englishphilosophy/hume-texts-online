@@ -1,11 +1,7 @@
 ---
 section: texts
 ---
-<div class="text">
-  {% include section.html section=site.data.late.p-1 %}
-  {% include section.html section=site.data.late.p-2 %}
-  {% include section.html section=site.data.late.p-3 %}
-  {% include section.html section=site.data.late.p-4 %}
-  {% include section.html section=site.data.late.p-5 %}
-  {% include section.html section=site.data.late.p-6 %}
-</div>
+{% for id in site.data.texts.p %}
+  {% assign section = site.data.sections[id] %}
+  {% include section.html section=section %}
+{% endfor %}

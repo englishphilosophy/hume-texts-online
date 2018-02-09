@@ -4,11 +4,15 @@
   > div:not(:last-child) {
     margin-bottom: 1em;
   }
+  .title {
+    margin-top: 2em;
+  }
   h1, h2, h3, h4, h5, h6, p {
     font-family: 'IM Fell English';
   }
   h1, h2, h3, h4, h5, h6 {
     text-align: center;
+    font-weight: 400;
   }
   h1 {
     font-size: 1.25em;
@@ -33,9 +37,8 @@
     text-align: right;
     margin-bottom: .5em;
   }
-  .sc {
-    font-style: normal;
-    font-family: 'IM Fell English SC';
+  .wide {
+    letter-spacing: 1rem;
   }
   .dc {
     float: left;
@@ -43,6 +46,10 @@
     line-height: 1;
     margin-top: -0.03em;
     margin-bottom: -0.1em;
+  }
+  .sc {
+    font-style: normal;
+    font-family: 'IM Fell English SC';
   }
   .greek {
     font-family: 'GFS Didot';

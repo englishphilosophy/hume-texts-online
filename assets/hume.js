@@ -1,28 +1,36 @@
 // convert text into HTML formatted text (for display)
 const format = (text) =>
-  text.replace(/~(.*?)~/g, '<span class="wide">$1</span>')
-    .replace(/_(.*?)_/g, '<em>$1</em>')
-    .replace(/\*(.*?)\*/g, '<em class="sc">$1</em>')
+  text.replace(/_(.*?)_/g, '<em>$1</em>')
+    .replace(/~(.*?)~/g, '<span class="wide">$1</span>')
+    .replace(/\*(.*?)\*/g, '<span class="sc">$1</span>')
     .replace(/\^(.*?)\^/g, '<span class="dc">$1</span>')
+    .replace(/\$(.*?)\$/g, '<span class="greek">$1</span>')
     .replace(/`(.*?)`/g, '<blockquote>$1</blockquote>')
     .replace(/\/\//g, '<br>')
     .replace(/¬/g, '<span class="tab"></span>')
-    .replace(/\[(\d+),..?\]/g, '<sup>[$1]</sup>')
+    .replace(/\[(\d+?)\]/g, '<sup>[$1]</sup>')
     .replace(/\|/g, '<span class="page-break">|</span>')
-    .replace(/\[-(.*?) +(.*?) @(.*?)\]/g, '<del>$1</del><ins title="$3">$2</ins>');
+    .replace(/\[#\d+?\]/g, '')
+    .replace(/\[\-(.*?) \+(.*?) @(.*?)\]/g, '<del>$1</del> <ins title="$3">$2</ins>')
+    .replace(/\[\-(.*?) @(.*?)\]/g, '<del title="$2">$1</del>')
+    .replace(/\[\+(.*?) @(.*?)\]/g, '<ins title="$2">$1</ins>');
 
 // convert text to plain text (for searching)
 const plain = (text) =>
-  text.replace(/~/g, '')
-    .replace(/_/g, '')
+  text.replace(/_/g, '')
+    .replace(/~/g, '')
     .replace(/\*/g, '')
     .replace(/\^/g, '')
+    .replace(/\$/g, '')
     .replace(/`/g, '')
     .replace(/\/\//g, ' ')
     .replace(/¬/g, '')
-    .replace(/\[(\d+),..?\]/g, '')
+    .replace(/\[#\d+?\]/g, '')
+    .replace(/\[(\d+?)\]/g, '')
     .replace(/<\/>/g, '')
     .replace(/\|/g, '')
+    .replace(/\[-(.*?) @(.*?)\]/g, '$2')
+    .replace(/\[+(.*?) @(.*?)\]/g, '$2')
     .replace(/\[-(.*?) +(.*?) @(.*?)\]/g, '$2');
 
 // search paragraphs

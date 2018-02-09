@@ -6,8 +6,11 @@
     {% if paragraph.id == 'n1' %}
       <hr>
     {% endif %}
+    {% if paragraph.title %}
+      <div data-format class="title">{{ paragraph.title }}</div>
+    {% endif %}
     <div id="{{ include.section.id }}.{{ paragraph.id }}">
-      <div class="ref">{{ include.section.id }}.{{ paragraph.id }}{% if include.section.pages %}, {{ include.section.pages }} {{ paragraph.page }}{% endif %}</div>
+      <div class="ref">{{ include.section.id }}.{{ paragraph.id }}{% if paragraph.page %}, {{ include.section.pages }} {{ paragraph.page }}{% endif %}</div>
       <p data-format class="{{ paragraph.type }}">
         {% if paragraph.type == 'note' %}<sup>[{{ paragraph.id | remove: 'n' }}]</sup>{% endif %}
         {{ paragraph.text }}

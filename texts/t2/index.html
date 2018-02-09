@@ -1,4 +1,9 @@
 ---
 section: texts
 ---
-Treatise Book 2.
+{% for ids in site.data.texts.t2 %}
+  {% for id in ids %}
+    {% assign section = site.data.sections[id] %}
+    {% include section.html section=section %}
+  {% endfor %}
+{% endfor %}
