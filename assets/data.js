@@ -1,5 +1,5 @@
 ---
-layout: null
+layout: compress
 ---
 const data = {
   "t0": [
@@ -8,9 +8,30 @@ const data = {
       {% include paragraph.json section=section page='t0' %}
     {% endfor %}
   ],
-  "t1": [],
-  "t2": [],
-  "t3": [],
+  "t1": [
+    {% for ids in site.data.texts.t1 %}
+      {% for id in ids %}
+        {% assign section = site.data.sections[id] %}
+        {% include paragraph.json section=section page='t1' %}
+      {% endfor %}
+    {% endfor %}
+  ],
+  "t2": [
+    {% for ids in site.data.texts.t2 %}
+      {% for id in ids %}
+        {% assign section = site.data.sections[id] %}
+        {% include paragraph.json section=section page='t2' %}
+      {% endfor %}
+    {% endfor %}
+  ],
+  "t3": [
+    {% for ids in site.data.texts.t3 %}
+      {% for id in ids %}
+        {% assign section = site.data.sections[id] %}
+        {% include paragraph.json section=section page='t3' %}
+      {% endfor %}
+    {% endfor %}
+  ],
   "tapp": [
     {% for id in site.data.texts.tapp %}
       {% assign section = site.data.sections[id] %}

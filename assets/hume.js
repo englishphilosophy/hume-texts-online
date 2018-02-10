@@ -1,3 +1,16 @@
+// getters and setters for local storage variables
+const set = (item, value) => {
+  localStorage.setItem(item, JSON.stringify(value));
+};
+const get = (item) => {
+  return JSON.parse(localStorage.getItem(item));
+};
+
+// set default local storage values if they haven't yet been set
+set('breaks', get('breaks') || false);
+set('edits', get('edits') || false);
+set('search', get('search') || ['t0', 't1', 't2', 't3', 'tapp', 'a', 'l', 'e', 'm', 'n', 'p', 'd', 'ess1', 'ess2', 'ess3', 'other']);
+
 // convert text into HTML formatted text (for display)
 const format = (text) =>
   text.replace(/_(.*?)_/g, '<em>$1</em>')
@@ -31,12 +44,24 @@ const plain = (text) =>
     .replace(/\|/g, '')
     .replace(/\[-(.*?) @(.*?)\]/g, '$2')
     .replace(/\[+(.*?) @(.*?)\]/g, '$2')
-    .replace(/\[-(.*?) +(.*?) @(.*?)\]/g, '$2');
+    .replace(/\[-(.*?) +(.*?) @(.*?)\]/g, '$2')
+    .replace(/æ/ig, 'ae')
+    .replace(/œ/ig, 'oe')
+    .replace(/Œ/g, 'OE')
+    .replace(/[“|”]/g, '"')
+    .replace(/’/g, '\'');
+
+// create full HTML display of a paragraph (for showing search results)
+const display = (paragraph) => {
+  return `<div><div class="ref"><a href="texts/${paragraph.page}#${paragraph.id}">${paragraph.id}</a></div><p class="${paragraph.type}">${format(paragraph.text)}</p></div>`;
+};
 
 // search paragraphs
 const find = (query) => {
   const regex = new RegExp(`\\b${query}\\b`, 'gi');
-  return data.filter(p => plain(p.text).match(regex));
+  return get('search')
+    .map(x => data[x].filter(p => plain(p.text).match(regex)))
+    .reduce((a, b) => a.concat(b));
 };
 
 // parts of the page for formatting
@@ -61,7 +86,7 @@ if (search) {
       if (matches.length > 0) {
         hits.innerHTML = '';
         matches.forEach((paragraph) => {
-          hits.innerHTML += `<p>${format(paragraph.text)}</p>`;
+          hits.innerHTML += `<hr>${display(paragraph)}`;
         });
       } else {
         hits.innerHTML = '<p>No matches found.</p>';

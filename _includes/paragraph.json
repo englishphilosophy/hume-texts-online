@@ -1,6 +1,7 @@
 {% for paragraph in include.section.paragraphs %}
   {
     "id": "{{ include.section.id }}.{{ paragraph.id }}",
+    "type": "{{ paragraph.type }}",
     "text": "{{ paragraph.text }}",
     "page": "{{ include.page }}"
   },
