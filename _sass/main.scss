@@ -37,6 +37,9 @@ main {
   @media(min-width: $break1) {
     border: 0;
   }
+  @media(min-width: $break2) {
+    margin-top: 0;
+  }
 }
 
 .padded {
@@ -47,27 +50,21 @@ main {
   display: none;
 }
 
+.right {
+  float: right;
+}
+
 .options {
-  label {
-    display: block;
-    padding-right: .5em;
-    white-space: nowrap;
-    input {
-      margin-right: .5em;
-    }
+  .options-1,
+  .options-2 {
+    flex: 1;
   }
   @media(min-width: $break1) {
-    .row2 {
-      display: flex;
-      label {
-        flex: 1;
-      }
-    }
+    display: flex;
   }
   @media(min-width: $break2) {
-    display: flex;
-    .row2 {
-      flex: 1;
+    .options-1 {
+      display: flex;
     }
   }
 }

@@ -10,32 +10,27 @@ section: texts
 </div>
 <div class="row">
   <div class="padded box hidden" id="results">
-    <h2>Search Results</h2>
+    <h2>
+      Search Results
+      <label class="right" for="toggle-all"><input type="checkbox" id="toggle-all" data-toggle="all">Toggle All</label>
+    </h2>
     <div class="options">
-      <div class="row2">
-        <label for="include-t1"><input type="checkbox" id="include-t1">Treatise Book 1</label>
-        <label for="include-t2"><input type="checkbox" id="include-t2">Treatise Book 2</label>
-        <label for="include-t3"><input type="checkbox" id="include-t3">Treatise Book 3</label>
-      </div>
-      <div class="row2">
-        <label for="include-a"><input type="checkbox" id="include-a">Abstract</label>
-        <label for="include-l"><input type="checkbox" id="include-l">Letter</label>
-        <label for="include-es"><input type="checkbox" id="include-es">Essays</label>
-      </div>
+      {% for p in (0..1) %}
+        <div class="options-1">
+          {% for n in (0..1) %}
+            <div class="options-2">
+              {% for m in (0..3) %}
+                {% assign offset = p | times: 8 %}
+                {% assign index = n | times: 4 | plus: m | plus: offset %}
+                {% assign text = site.data.texts[index] %}
+                <label for="toggle-{{ text.id }}"><input type="checkbox" id="toggle-{{ text.id }}" data-toggle="{{ text.id }}">{{ text.label }}</label>
+              {% endfor %}
+            </div>
+          {% endfor %}
+        </div>
+      {% endfor %}
     </div>
-    <div class="options">
-      <div class="row2">
-        <label for="include-e"><input type="checkbox" id="include-e">First Enquiry</label>
-        <label for="include-p"><input type="checkbox" id="include-p">Dissertation</label>
-        <label for="include-m"><input type="checkbox" id="include-m">Moral Enquiry</label>
-      </div>
-      <div class="row2">
-        <label for="include-n"><input type="checkbox" id="include-n">Natural History</label>
-        <label for="include-d"><input type="checkbox" id="include-d">Dialogues</label>
-        <label for="include-ad"><input type="checkbox" id="include-ad">Advertisements</label>
-      </div>
-    </div>
-    <div class="text" id="hits"></div>
+    <div id="hits"></div>
   </div>
 </div>
 <div class="row">
@@ -45,12 +40,12 @@ section: texts
       <li>A Treatise of Human Nature (1739-40)
         <ul>
           <li><a href="texts/ad1739">Advertisement (1739)</a></li>
-          <li><a href="texts/t0">Introduction (1739)</a></li>
-          <li><a href="texts/t1">Book 1, Of the Understanding (1739)</a></li>
-          <li><a href="texts/t2">Book 2, Of the Passions (1739)</a></li>
+          <li><a href="texts/t/0">Introduction (1739)</a></li>
+          <li><a href="texts/t/1">Book 1, Of the Understanding (1739)</a></li>
+          <li><a href="texts/t/2">Book 2, Of the Passions (1739)</a></li>
           <li><a href="texts/ad1740">Advertisement (1740)</a></li>
-          <li><a href="texts/t3">Book 3, Of Morals (1740)</a></li>
-          <li><a href="texts/tapp">Appendix (1740)</a></li>
+          <li><a href="texts/t/3">Book 3, Of Morals (1740)</a></li>
+          <li><a href="texts/t/app">Appendix (1740)</a></li>
         </ul>
       </li>
       <li><a href="texts/a">Abstract of a Book lately Published (1740)</a></li>
@@ -75,8 +70,8 @@ section: texts
           <li><a href="texts/ad1757">Dedication (1757)</a></li>
           <li><a href="texts/n">The Natural History of Religion (1757, 1777)</a></li>
           <li><a href="texts/p">A Dissertation on the Passions (1757, 1777)</a></li>
-          <li><a href="texts/tr">Of Tragedy (1748, 1777)</a></li>
-          <li><a href="texts/st">Of the Standard of Taste (1751, 1777)</a></li>
+          <li><a href="texts/tr">Of Tragedy (1757, 1777)</a></li>
+          <li><a href="texts/st">Of the Standard of Taste (1757, 1777)</a></li>
         </ul>
       </li>
       <li><a href="texts/d">Dialogues concerning Natural Religion (1779)</a></li>
@@ -91,7 +86,7 @@ section: texts
       <li><a href="texts/ad1742">Advertisement (1742)</a></li>
     </ul>
     <ol>
-      {% for id in site.data.texts.ess1 %}
+      {% for id in site.data.texts[12].sections %}
         {% assign essay = site.data.sections[id] %}
         <li><a href="texts/{{ id }}">{{ essay.title[0] }} ({% if essay.first != essay.source %}{{ essay.first }}, {% endif %}{{ essay.source }})</a></li>
       {% endfor %}
@@ -100,7 +95,7 @@ section: texts
   <div class="padded box">
     <h2>Essays, Moral, Political, and Literary, Part 2 (1752-77)</h2>
     <ol>
-      {% for id in site.data.texts.ess2 %}
+      {% for id in site.data.texts[13].sections %}
         {% assign essay = site.data.sections[id] %}
         <li><a href="texts/{{ id }}">{{ essay.title[0] }} ({% if essay.first != essay.source %}{{ essay.first }}, {% endif %}{{ essay.source }})</a></li>
       {% endfor %}
@@ -111,7 +106,7 @@ section: texts
   <div class="padded box">
     <h2>Posthumous and Withdrawn Essays (1741-68)</h2>
     <ul>
-      {% for id in site.data.texts.ess3 %}
+      {% for id in site.data.texts[14].sections %}
         {% assign essay = site.data.sections[id] %}
         <li><a href="texts/{{ id }}">{{ essay.title[0] }} ({% if essay.first != essay.source %}{{ essay.first }}, {% endif %}{{ essay.source }})</a></li>
       {% endfor %}
