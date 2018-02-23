@@ -2,9 +2,6 @@
 id: "A"
 source: "1740"
 pages: "SBN"
-title:
-  - "An Abstract of a Book Lately Published"
-  - "<h4>AN</h4><h1>ABSTRACT</h1><h4>~O~F</h4><h3>A BOOK lately *Published*;</h3><h5>*entituled*,</h5><h5>A</h5><h2>~TREATIS~E</h2><h5>OF</h5><h2>_Human Nature_, &amp;c.</h2><h5>*wherein*</h5><h6>The CHIEF ARGUMENT of that BOOK is farther *illustrated* and *explained*.</h6>"
 paragraphs:
   -
     id: "i"

@@ -1,25 +1,35 @@
 .text {
   font-size: 1.25em;
-  padding: 1em;
-  hr {
-    border-top: 1px solid $gray;
-    margin-bottom: 1em;
-  }
   @media(min-width: $break2) {
     font-size: 1.375em;
     padding: 3rem;
   }
 }
 
-.paragraph {
+.block {
   &:not(:last-child) {
     margin-bottom: 1em;
   }
+  @media(min-width: $break2) {
+    display: flex;
+  }
+}
+
+.meta {
+  font-size: .825em;
+  color: $red;
+  text-align: right;
+  margin-bottom: .5em;
+  @media(min-width: $break2) {
+    flex: 1;
+    text-align: left;
+  }
+}
+
+.content {
+  font-family: 'IM Fell English';
   .title {
     margin-top: 2em;
-  }
-  h1, h2, h3, h4, h5, h6, p {
-    font-family: 'IM Fell English';
   }
   h1, h2, h3, h4, h5, h6 {
     text-align: center;
@@ -42,11 +52,12 @@
     margin-top: 1em;
     text-indent: 0;
   }
-  .ref {
-    font-size: .825em;
+  sup {
     color: $red;
-    text-align: right;
-    margin-bottom: .5em;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
   }
   .wide {
     letter-spacing: 1rem;
@@ -69,16 +80,7 @@
     display: inline-block;
     width: 2em;
   }
-  sup {
-    color: $red;
-  }
   @media(min-width: $break2) {
-    h1, h2, h3, h4, h5, h6, p {
-      padding-left: 28rem;
-    }
-    .ref {
-      float: left;
-      text-align: left;
-    }
+    flex-basis: 25.8em;
   }
 }

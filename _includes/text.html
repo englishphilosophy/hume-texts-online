@@ -1,0 +1,17 @@
+{% include tools.html id=include.id %}
+{% assign text = site.data.texts[include.id] %}
+<div class="text box">
+  <ul>
+    {% if text.sections %}
+      {% for id in text.sections %}
+        {% assign section = site.data.sections[id] %}
+        <li><a href="/texts/{{ id | replace: '-', '/' }}">{{ section.title[0] }}</a></li>
+      {% endfor %}
+    {% elsif text.texts %}
+      {% for id in text.texts %}
+        {% assign text = site.data.texts[id] %}
+        <li><a href="/texts/{{ id | replace: '-', '/' }}">{{ text.title[1] }}</a></li>
+      {% endfor %}
+    {% endif %}
+  </ul>
+</div>

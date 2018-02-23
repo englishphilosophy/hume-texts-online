@@ -1,11 +1,53 @@
--
-  id: "t0"
-  label: "Treatise Introduction"
+---
+all:
+  title:
+    - "Hume Texts Online"
+    - "Hume Texts Online"
+  texts:
+    - "t"
+    - "a"
+    - "l"
+    - "e"
+    - "m"
+    - "n"
+    - "p"
+    - "d"
+    - "ess1"
+    - "ess2"
+    - "ess3"
+    - "other"
+t:
+  title:
+    - "Treatise"
+    - "A Treatise of Human Nature"
+  texts:
+    - "t-0"
+    - "t-1"
+    - "t-2"
+    - "t-3"
+    - "t-app"
+t-0:
+  title:
+    - "Introduction"
+    - "Introduction"
+  parent: "t"
   sections:
     - "t-0"
--
-  id: "t1"
-  label: "Treatise Book 1"
+t-1:
+  title:
+    - "1. Of the Understanding"
+    - "Book 1, Of the Understanding"
+  parent: "t"
+  texts:
+    - "t-1-1"
+    - "t-1-2"
+    - "t-1-3"
+    - "t-1-4"
+t-1-1:
+  title:
+    - "1. Of Ideas"
+    - "Part 1. Of Ideas, their Origin, Composition, Abstraction, Connexion, &c."
+  parent: "t-1"
   sections:
     - "t-1-1-1"
     - "t-1-1-2"
@@ -14,12 +56,24 @@
     - "t-1-1-5"
     - "t-1-1-6"
     - "t-1-1-7"
+t-1-2:
+  title:
+    - "2. Of space and time"
+    - "Part 2. Of the ideas of space and time"
+  parent: "t-1"
+  sections:
     - "t-1-2-1"
     - "t-1-2-2"
     - "t-1-2-3"
     - "t-1-2-4"
     - "t-1-2-5"
     - "t-1-2-6"
+t-1-3:
+  title:
+    - "3. Of knowledge and probability"
+    - "Part 3. Of knowledge and probability"
+  parent: "t-1"
+  sections:
     - "t-1-3-1"
     - "t-1-3-2"
     - "t-1-3-3"
@@ -36,6 +90,12 @@
     - "t-1-3-14"
     - "t-1-3-15"
     - "t-1-3-16"
+t-1-4:
+  title:
+    - "4. Of Scepticism"
+    - "Part 4. Of the Sceptical and other systems of philosophy"
+  parent: "t-1"
+  sections:
     - "t-1-4-1"
     - "t-1-4-2"
     - "t-1-4-3"
@@ -43,9 +103,16 @@
     - "t-1-4-5"
     - "t-1-4-6"
     - "t-1-4-7"
--
-  id: "t2"
-  label: "Treatise Book 2"
+t-2:
+  title: "Book 2, Of the Passions"
+  parent: "t"
+  texts:
+    - "t-2-1"
+    - "t-2-2"
+    - "t-2-3"
+t-2-1:
+  title: "Part 1. Of Pride and Humility"
+  parent: "t-2"
   sections:
     - "t-2-1-1"
     - "t-2-1-2"
@@ -59,6 +126,10 @@
     - "t-2-1-10"
     - "t-2-1-11"
     - "t-2-1-12"
+t-2-2:
+  title: "Part 2. Of love and hatred"
+  parent: "t-2"
+  sections:
     - "t-2-2-1"
     - "t-2-2-2"
     - "t-2-2-3"
@@ -71,6 +142,10 @@
     - "t-2-2-10"
     - "t-2-2-11"
     - "t-2-2-12"
+t-2-3:
+  title: "Part 3. Of the will and direct passions"
+  parent: "t-2"
+  sections:
     - "t-2-3-1"
     - "t-2-3-2"
     - "t-2-3-3"
@@ -81,12 +156,23 @@
     - "t-2-3-8"
     - "t-2-3-9"
     - "t-2-3-10"
--
-  id: "t3"
-  label: "Treatise Book 3"
+t-3:
+  title: "Book 3, Of Morals"
+  parent: "t"
+  texts:
+    - "t-3-1"
+    - "t-3-2"
+    - "t-3-3"
+t-3-1:
+  title: "Part 1. Of Vice and Virtue in general"
+  parent: "t-3"
   sections:
     - "t-3-1-1"
     - "t-3-1-2"
+t-3-2:
+  title: "Part 2. Of justice and injustice"
+  parent: "t-3"
+  sections:
     - "t-3-2-1"
     - "t-3-2-2"
     - "t-3-2-3"
@@ -99,30 +185,55 @@
     - "t-3-2-10"
     - "t-3-2-11"
     - "t-3-2-12"
+t-3-3:
+  title: "Part 3. Of the other virtues and vices"
+  parent: "t-3"
+  sections:
     - "t-3-3-1"
     - "t-3-3-2"
     - "t-3-3-3"
     - "t-3-3-4"
     - "t-3-3-5"
     - "t-3-3-6"
--
-  id: "tapp"
-  label: "Treatise Appendix"
+t-app:
+  title: "Appendix"
+  parent: "t"
   sections:
     - "t-app"
--
-  id: "a"
-  label: "Treatise Abstract"
+a:
+  title:
+    - "Abstract of the Treatise"
+    - "Abstract of a Book Lately Published"
   sections:
     - "a"
--
-  id: "l"
-  label: "Letter from a Gentleman"
+l:
+  title:
+    - "A Letter from a Gentleman"
+    - "A Letter from a Gentleman to his Friend in Edinburgh"
   sections:
     - "l"
--
-  id: "e"
-  label: "First Enquiry"
+etss:
+  title:
+    - "Essays and Treatises"
+    - "Essays and Treatises on Several Subjects"
+  texts:
+    - "e"
+    - "p"
+    - "m"
+    - "n"
+fd:
+  title:
+    - "Four Dissertations"
+    - "Four Dissertations"
+  texts:
+    - "n"
+    - "p"
+    - "tr"
+    - "st"
+e:
+  title:
+    - "First Enquiry"
+    - "An Enquiry concerning Human Understanding"
   sections:
     - "e-1"
     - "e-2"
@@ -136,9 +247,21 @@
     - "e-10"
     - "e-11"
     - "e-12"
--
-  id: "m"
-  label: "Moral Enquiry"
+p:
+  title:
+    - "Dissertation"
+    - "A Dissertation on the Passions"
+  sections:
+    - "p-1"
+    - "p-2"
+    - "p-3"
+    - "p-4"
+    - "p-5"
+    - "p-6"
+m:
+  title:
+    - "Moral Enquiry"
+    - "An Enquiry concerning the Principles of Morals"
   sections:
     - "m-1"
     - "m-2"
@@ -154,9 +277,10 @@
     - "m-app3"
     - "m-app4"
     - "m-d"
--
-  id: "n"
-  label: "Natural History"
+n:
+  title:
+    - "Natural History"
+    - "The Natural History of Religion"
   sections:
     - "n-0"
     - "n-1"
@@ -174,19 +298,22 @@
     - "n-13"
     - "n-14"
     - "n-15"
--
-  id: "p"
-  label: "Dissertation"
+tr:
+  title:
+    - "Of Tragedy"
+    - "Of Tragedy"
   sections:
-    - "p-1"
-    - "p-2"
-    - "p-3"
-    - "p-4"
-    - "p-5"
-    - "p-6"
--
-  id: "d"
-  label: "Dialogues"
+    - "tr"
+st:
+  title:
+    - "Of the Standard of Taste"
+    - "Of the Standard of Taste"
+  sections:
+    - "st"
+d:
+  title:
+    - "Dialogues"
+    - "Dialogues concerning Natural Religion"
   sections:
     - "d-0"
     - "d-1"
@@ -201,9 +328,10 @@
     - "d-10"
     - "d-11"
     - "d-12"
--
-  id: "ess1"
-  label: "Essays Part 1"
+ess1:
+  title:
+    - "Essays, Part 1"
+    - "Essays, Moral, Political, and Literary, Part 1"
   sections:
     - "dt"
     - "lp"
@@ -222,15 +350,16 @@
     - "ep"
     - "sto"
     - "pl"
-    - "sc"
+    - 'sc'
     - "pd"
     - "sr"
     - "nc"
     - "tr"
     - "st"
--
-  id: "ess2"
-  label: "Essays Part 2"
+ess2:
+  title:
+    - "Essays, Part 2"
+    - "Essays, Moral, Political, and Literary, Part 2"
   sections:
     - "co"
     - "ra"
@@ -248,9 +377,10 @@
     - "cp"
     - "ps"
     - "ipc"
--
-  id: "ess3"
-  label: "Withdrawn Essays"
+ess3:
+  title:
+    - "Posthumous and Withdrawn Essays"
+    - "Posthumous and Withdrawn Essays"
   sections:
     - "im"
     - "lm"
@@ -262,15 +392,16 @@
     - "cr"
     - "su"
     - "is"
--
-  id: "other"
-  label: "Advertisements &amp; Autobiography"
+other:
+  title:
+    - "Miscellaneous"
+    - "Advertisements, Dedications, & Autobiography"
   sections:
-    - "ad1739"
-    - "ad1740"
-    - "ad1741"
-    - "ad1742"
-    - "ad1757"
-    - "ad1758"
-    - "ad1777"
+    - "Ad1739"
+    - "Ad1740"
+    - "Ad1741"
+    - "Ad1742"
+    - "Ad1757"
+    - "Ad1758"
+    - "Ad1777"
     - "mol"

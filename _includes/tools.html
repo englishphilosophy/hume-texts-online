@@ -1,0 +1,24 @@
+{% if site.data.sections[include.id] %}
+  {% assign text = site.data.sections[include.id] %}
+{% else %}
+  {% assign text = site.data.texts[include.id] %}
+{% endif %}
+<div class="tool box">
+  <h1 class="header">
+    {% if text.parent %}
+      {% assign parent = site.data.texts[text.parent] %}
+      <a href="/texts/{{ text.parent | replace: '-', '/' }}">{{ parent.title[0] }}</a> &gt;
+    {% endif %}
+    {{ text.title[0] }}
+  </h1>
+  <form id="search">
+    <input type="hidden" name="text" value="{{ include.id }}">
+    <input type="text" placeholder="search">
+    <button type="reset" class="hidden"><i class="fas fa-times"></i></button>
+    <button type="submit"><i class="fas fa-search"></i></button>
+    <button data-toggle="options"><i class="fas fa-cog"></i></button>
+  </form>
+  <div class="body options hidden" id="options">
+    text display options...
+  </div>
+</div>

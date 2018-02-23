@@ -21,7 +21,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
-  margin-bottom: 1em;
 }
 
 ul,
@@ -72,34 +71,6 @@ img {
 
 table {
   border-collapse: collapse;
-}
-
-input[type="text"],
-button {
-  height: 2.25rem;
-}
-
-input[type="text"] {
-  padding: 1em 1em 1.25em;
-}
-
-label {
-	cursor: pointer;
-	display: block;
-	white-space: nowrap;
-	input {
-		margin-right: .5em;
-	}
-}
-
-button {
-  background: #fff;
-	cursor: pointer;
-  color: $gray;
-  width: 2.25em;
-  &:hover {
-    color: $red;
-  }
 }
 
 @media(min-width: $break1) {

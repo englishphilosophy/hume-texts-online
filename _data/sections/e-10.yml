@@ -2,8 +2,9 @@
 id: "E 10"
 source: "1777"
 pages: "SBN"
+parent: "e"
 title:
-  - "Of Miracles"
+  - "10. Of Miracles"
   - "<h1>~SECTION ~X.</h1><h2>Of *Miracles*.</h2>"
 paragraphs:
   -

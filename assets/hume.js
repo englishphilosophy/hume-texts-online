@@ -3,18 +3,24 @@ layout: null
 ---
 const texts = {{ site.data.texts | jsonify }};
 const sections = {{ site.data.sections | jsonify }};
-const dom = {% include dom.js %}
-const regex = {% include regex.js %}
-const options = {% include options.js %}
-const format = {% include format.js %}
-const search = {% include search.js %}
+const regex = {% include js/regex.js %}
+const dom = {% include js/dom.js %}
+const format = {% include js/format.js %}
+
+dom.toggles.forEach((node) => {
+  const target = document.getElementById(node.getAttribute('data-toggle'));
+  node.addEventListener('click', (event) => {
+    event.preventDefault();
+    target.classList.toggle('hidden');
+  });
+});
 
 dom.sections.forEach((div) => {
   const id = div.getAttribute('data-section');
   const section = sections[id];
   const css = id.split('-')[0];
   if (section.title) { // remove this later - every section should have a title
-    div.innerHTML = `<div class="paragraph">${format.title(section.title[1])}</div>`;
+    div.innerHTML = format.title(section.title[1]);
   } else {
     div.innerHTML = '';
   }
@@ -23,6 +29,7 @@ dom.sections.forEach((div) => {
   div.classList.remove('hidden');
 });
 
+/*
 const doSearch = () => {
   var hits = [];
   if (dom.query.value.length > 0) {
@@ -66,3 +73,4 @@ if (dom.search) {
     dom.close.classList.add('hidden');
   });
 }
+*/

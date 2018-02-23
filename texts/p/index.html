@@ -1,7 +1,4 @@
 ---
 section: texts
 ---
-{% for id in site.data.texts[10].sections %}
-  {% assign section = site.data.sections[id] %}
-  {% include section.html section=section %}
-{% endfor %}
+{% include text.html id='p' %}

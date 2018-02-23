@@ -17,54 +17,28 @@ main {
 }
 
 .box {
-  background: #fff;
+  margin: .5rem;
+  .header {
+    background: $red;
+    color: #fff;
+    padding: .25em .5em;
+    a {
+      color: #fff;
+      text-decoration: underline;
+    }
+  }
   @media(min-width: $break1) {
+    background: #fff;
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-    margin: .5em;
+    .body {
+      padding: .5em;
+    }
   }
   @media(min-width: $break2) {
     flex: 1;
   }
-}
-
-.search {
-  display: flex;
-  border: 1px solid $gray;
-  margin: .5em;
-  input {
-    flex: 1;
-  }
-  @media(min-width: $break1) {
-    border: 0;
-  }
-  @media(min-width: $break2) {
-    margin-top: 0;
-  }
-}
-
-.padded {
-  padding: 1em;
 }
 
 .hidden {
   display: none;
-}
-
-.right {
-  float: right;
-}
-
-.options {
-  .options-1,
-  .options-2 {
-    flex: 1;
-  }
-  @media(min-width: $break1) {
-    display: flex;
-  }
-  @media(min-width: $break2) {
-    .options-1 {
-      display: flex;
-    }
-  }
 }

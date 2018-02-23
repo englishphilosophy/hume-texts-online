@@ -1,0 +1,61 @@
+.tool {
+  form {
+    border: 1px solid $gray;
+    display: flex;
+    flex: 1;
+    input {
+      flex: 1;
+    }
+    @media(min-width: $break1) {
+      border: 0;
+    }
+  }
+  input, button {
+    padding: .5em;
+  }
+  button {
+    cursor: pointer;
+    background: transparent;
+    color: $gray;
+    &:hover {
+      color: $red;
+    }
+  }
+  .options {
+    //
+  }
+  @media(min-width: $break1) {
+    padding: 0;
+  }
+}
+
+
+/*
+input[type="text"],
+button {
+  height: 2.25rem;
+}
+
+input[type="text"] {
+  padding: 1em 1em 1.25em;
+}
+
+label {
+	cursor: pointer;
+	display: block;
+	white-space: nowrap;
+	input {
+		margin-right: .5em;
+	}
+}
+
+button {
+  background: #fff;
+	cursor: pointer;
+  color: $gray;
+  width: 2.25em;
+  &:hover {
+    color: $red;
+  }
+}
+*/

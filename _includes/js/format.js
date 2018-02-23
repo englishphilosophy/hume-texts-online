@@ -32,17 +32,34 @@
   const formatTextWithQuery = (text, query) =>
     formatText(text).replace(regex(query), '<mark>$1</mark>');
 
+  /* create HTML display of a paragraph title */
+  const formatTitle = title =>
+    `<div class="block">
+      <div class="meta"></div>
+      <div class="content">${formatText(title)}</div>
+    </div>`;
+
+  /* create HTML display of paragraph content */
+  const formatContent = (section, paragraph) =>
+    `<div class="block" id="${paragraph.id}">
+      <div class="meta">${ref(section, paragraph)}</div>
+      <div class="content"><p class="${paragraph.type}">${formatText(paragraph.text)}</p></div>
+    </div>`
+
   /* create full HTML display of a paragraph */
   const formatForPage = (section, paragraph) =>
     paragraph.title
-      ? `<div class="paragraph">${formatText(paragraph.title)}</div><div class="paragraph"><div class="ref">${ref(section, paragraph)}</div><p class="${paragraph.type}">${formatText(paragraph.text)}</p></div>`
-      : `<div class="paragraph"><div class="ref">${ref(section, paragraph)}</div><p class="${paragraph.type}">${formatText(paragraph.text)}</p></div>`;
+      ? `${formatTitle(paragraph.title)}${formatContent(section, paragraph)}`
+      : `${formatContent(section, paragraph)}`;
 
   /* create full HTML display of a paragraph with query highlighted (for showing search results) */
   const formatForSearch = (section, query, paragraph) =>
-    `<div class="paragraph"><div class="ref"><a href="${url(section, paragraph)}">${ref(section, paragraph)}</a></div><p class="${paragraph.type}">${formatTextWithQuery(paragraph.text, query)}</p></div>`;
+    `<div class="block">
+      <div class="meta"><a href="${url(section, paragraph)}">${ref(section, paragraph)}</a></div>
+      <div class="content"><p class="${paragraph.type}">${formatTextWithQuery(paragraph.text, query)}</p></div>
+    </div>`;
 
   /* expose the two format functions */
-  return { title: formatText, page: formatForPage, search: formatForSearch };
+  return { title: formatTitle, page: formatForPage, search: formatForSearch };
 
 })(regex);

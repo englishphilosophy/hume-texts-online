@@ -2,8 +2,9 @@
 id: "E 6"
 source: "1777"
 pages: "SBN"
+parent: "e"
 title:
-  - "Of Probability"
+  - "6. Of Probability"
   - "<h1>~SECTION ~VI.</h1><h2>Of *Probability*[10].</h2>"
 paragraphs:
   -

@@ -2,9 +2,6 @@
 id: "L"
 source: "1745"
 pages: "Nor"
-title:
-  - "A Letter from a Gentleman to His Friend in Edinburgh"
-  - "<h3>A</h3><h1>~LETTE~R</h1><h3>~FROM ~A</h3><h2>~GENTLEMA~N</h2><h3>~T~O</h3><h2>~His *Friend* in ~_~Edinburg~h:_</h2><h3>*~containin~g*</h3><h3>~Some OBSERVATION~S</h3><h3>*~o~n*</h3><h4>A Specimen of the Principles concerning ~RELIGIO~N and ~MORALIT~Y, _said to be_ maintain’d in a Book lately publish’d, intituled, _A Treatise of Human Nature_, &c.</h4>"
 paragraphs:
   -
     id: "1"
@@ -56,7 +53,7 @@ paragraphs:
     text: "Mr. _Hobbs_, who was at Pains to shake loose all other natural Obligations, yet found it necessary to leave, or pretended to leave, the Obligation of Promises or Pactions; but our Author strikes a bolder Stroke: [#101]“That the Rule of Morality (says he) which enjoins the Performance of _Promises_, is not natural, will sufficiently appear from these two Propositions, which I proceed to prove, _viz. That a Promise would not be intelligible before human Conventions had established it; and that, [#114]even if it were intelligible, it would not be attended with any moral Obligation_.”"
   -
     id: "12"
-    page: "423"
+    page: "424"
     text: "And he concludes, “That Promises impose no natural Obligation.” And, _p._ 115. “I shall further observe, That since every new Promise imposes a new Obligation of Morality upon the Person who promises, and since this new Obligation arises from his Will, it is one of the most mysterious and incomprehensible Operations that can possibly be imagined, and may even be compared to Transubstantiation or _Holy Orders_, where a certain Form of Words, along with a certain Intention, changes entirely the Nature of an external Object, and even [#117]of a human Creature. In fine (says he) as Force is supposed to invalidate all Contracts, such a Principle is a Proof that Promises have no natural Obligation, and are mere artificial Contrivances, for the Conveniency and Advantage of Society.”"
   -
     id: "13"
@@ -125,6 +122,7 @@ paragraphs:
     text: "I say further, that even the metaphysical Arguments for a Deity are not affected by a Denial of the Proposition above-mentioned. It is only Dr. _Clark_’s Argument which can be supposed to be any way concerned. Many other Arguments of the same Kind still remain; _Des Cartes_’s for Instance, which has always been esteemed as solid and convincing as the other. I shall add, that a great Distinction ought always to be made betwixt a Man’s positive and avowed Opinions, and the Inferences which it may please others to draw from them. Had the Author really denied the Truth of the foregoing Proposition (which the most superficial Reader cannot think ever entred his Head) still he could not properly be charged as designing to invalidate any one Argument that any Philosopher has employed for a _Divine Existence_; that is only an Inference and Construction of others, which he may refuse if he thinks proper."
   -
     id: "29"
+    page: "427"
     text: "Thus you may judge of the Candor of the whole Charge, when you see the assigning of _one Kind of Evidence_ for a Proposition, instead of _another_, is called denying that Proposition; that the invalidating only _one Kind_ of Argument for the Divine Existence is called _positive Atheism_; nay, that the weakning only of _one individual Argument_ of that Kind is called rejecting that _whole Species of Argument_, and the Inferences of others are ascribed to the Author as his real Opinion."
   -
     id: "30"

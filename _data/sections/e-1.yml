@@ -2,8 +2,9 @@
 id: "E 1"
 source: "1777"
 pages: "SBN"
+parent: "e"
 title:
-  - "Of the Different Species of Philosophy"
+  - "1. Of the Different Species of Philosophy"
   - "<h1>~SECTION ~I.</h1><h2>Of the *Different Species* of *Philosophy*.</h2>"
 paragraphs:
   -

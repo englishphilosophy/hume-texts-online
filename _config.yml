@@ -1,6 +1,5 @@
 title: "Hume Texts Online"
 description: "A permanent online resource for Hume scholars and students, including reliable texts of almost everything written by David Hume, and links to secondary material on the web."
-baseurl: /davidhume.org
 defaults:
   - scope:
       path: ""
