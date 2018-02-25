@@ -1,8 +1,0 @@
----
-section: texts
----
-{% for n in (1..12) %}
-  {% assign id = 't-3-2-' | append: n %}
-  {% assign section = site.data.sections[id] %}
-  {% include section.html section=section %}
-{% endfor %}

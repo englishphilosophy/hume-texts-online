@@ -18,19 +18,29 @@ main {
 
 .box {
   margin: .5rem;
-  .header {
+  .box-head {
+    display: flex;
+    flex-wrap: wrap;
     background: $red;
     color: #fff;
     padding: .25em .5em;
     a {
       color: #fff;
-      text-decoration: underline;
+    }
+    h2:not(:last-child) {
+      a {
+        text-decoration: underline;
+      }
+      &::after {
+        content: '>';
+        padding: 0 .25em;
+      }
     }
   }
   @media(min-width: $break1) {
     background: #fff;
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-    .body {
+    .box-body {
       padding: .5em;
     }
   }
