@@ -1,5 +1,8 @@
 .text {
   font-size: 1.25em;
+  @media(min-width: $break1) {
+    padding: 1rem;
+  }
   @media(min-width: $break2) {
     font-size: 1.375em;
     padding: 3rem;
@@ -34,17 +37,29 @@
   h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-weight: 400;
+    margin-bottom: 1rem;
+    strong {
+      letter-spacing: 1rem;
+      font-weight: normal;
+    }
   }
   h1 {
     font-size: 1.25em;
   }
   p {
     text-align: justify;
-    &:not(.first) {
+    &:first-child {
       text-indent: 2em;
     }
     &.note {
       font-size: .875em;
+    }
+    strong {
+      float: left;
+      font-size: 3.35em;
+      line-height: 1;
+      margin-top: -0.03em;
+      margin-bottom: -0.1em;
     }
   }
   blockquote {
@@ -60,24 +75,30 @@
   }
   ul {
     list-style-type: none;
-    margin: 0;
   }
-  .wide {
-    letter-spacing: 1rem;
+  li {
+    text-indent: -1.5em;
   }
-  .dc {
-    float: left;
-    font-size: 3.35em;
-    line-height: 1;
-    margin-top: -0.03em;
-    margin-bottom: -0.1em;
+  del {
+    display: none;
   }
-  .sc {
-    font-style: normal;
+  ins {
+    text-decoration: none;
+  }
+  em {
+    font-style: italic;
+    em {
+      font-style: normal;
+    }
+  }
+  b {
     font-family: 'IM Fell English SC';
+    font-style: normal;
+    font-weight: normal;
   }
-  .greek {
+  i {
     font-family: 'GFS Didot';
+    font-style: normal;
   }
   .tab {
     display: inline-block;
@@ -85,5 +106,48 @@
   }
   @media(min-width: $break2) {
     flex-basis: 25.8em;
+  }
+}
+
+.first {
+  p:first-child {
+    text-indent: 0;
+  }
+}
+
+.sans .content {
+  font-family: $sans;
+  strong {
+    margin-top: -0.1em;
+  }
+  b {
+    font-family: $sans;
+    font-variant: small-caps;
+  }
+}
+
+.serif .content {
+  font-family: $serif;
+  b {
+    font-family: $serif;
+    font-variant: small-caps;
+  }
+}
+
+.original .content {
+  del {
+    display: inline;
+  }
+  ins {
+    display: none;
+  }
+}
+
+.changes .content {
+  del {
+    text-decoration: line-through;
+  }
+  ins {
+    text-decoration: underline;
   }
 }

@@ -1,0 +1,33 @@
+.settings {
+  h2 {
+    margin-bottom: 1em;
+    &:not(:first-child) {
+      margin-top: 1.5em;
+    }
+  }
+  @media(min-width: $break1) {
+    padding: 1rem;
+  }
+}
+
+.setting {
+  display: flex;
+  label {
+    flex-basis: 6em;
+    font-weight: 600;
+  }
+}
+
+.inputs {
+  label {
+    cursor: pointer;
+  }
+  label, select {
+    display: inline-block;
+    border: 1px solid $gray;
+    margin-right: .25em;
+    padding: .25em;
+    //height: 2.5em;
+    width: 10em;
+  }
+}

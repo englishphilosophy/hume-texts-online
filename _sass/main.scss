@@ -13,39 +13,40 @@ main {
 .row {
   @media(min-width: $break2) {
     display: flex;
+    margin-bottom: 1rem;
+    .box:first-child {
+      margin: 0 .5rem 0 1rem;
+    }
+    .box:last-child {
+      margin: 0 1rem 0 .5rem;
+    }
   }
 }
 
 .box {
   margin: .5rem;
-  .box-head {
-    display: flex;
-    flex-wrap: wrap;
-    background: $red;
-    color: #fff;
-    padding: .25em .5em;
-    a {
-      color: #fff;
-    }
-    h2:not(:last-child) {
-      a {
-        text-decoration: underline;
-      }
-      &::after {
-        content: '>';
-        padding: 0 .25em;
-      }
-    }
-  }
   @media(min-width: $break1) {
     background: #fff;
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-    .box-body {
-      padding: .5em;
-    }
+    margin: 1rem;
   }
   @media(min-width: $break2) {
     flex: 1;
+  }
+}
+
+.box-head {
+  background: $red;
+  color: #fff;
+  padding: .25em .5em;
+}
+
+.box-body {
+  h2 {
+    margin-bottom: 1em;
+  }
+  @media(min-width: $break1) {
+    padding: 1em;
   }
 }
 

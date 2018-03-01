@@ -1,149 +1,106 @@
 ---
 layout: null
 ---
-/* basics */
-const texts = {{ site.data | jsonify }};
-const $ = id => document.getElementById(id);
-const path = window.location.pathname.replace(/(^\/|\/$)/g, '').split('/');
-const text = $('text') ? texts[$('text').getAttribute('data-text')] : texts[path.slice(1).join('-')];
+const data = (() => {
+  const texts = {{ site.data | jsonify }};
+  const id = label =>
+    label.toLowerCase().replace(/\./g, '-');
+  const text = label =>
+    texts[id(label)];
+  const augment = (text, paragraph) =>
+    Object.assign({ section: text.label, reference: text.pages }, paragraph);
+  const paragraphs = text =>
+    text.paragraphs
+      ? text.paragraphs.map(augment.bind(null, text))
+      : text.texts.map(x => paragraphs(texts[x])).reduce((y, z) => y.concat(z), []);
+  const words = text =>
+    paragraphs(text).map(x => x.text.replace(/(<([^>]+)>)/g, '').split(' ')).reduce((y, z) => y.concat(z), []);
+  return { text: text, paragraphs: paragraphs, words: words };
+})();
 
-/* augment a paragraph with basic text data */
-const augment = (text, paragraph) =>
-  Object.assign({ section: text.label, reference: text.pages }, paragraph);
+const options = (() => {
+  const set = (item, value) =>
+    localStorage.setItem(item, JSON.stringify(value));
+  const get = item =>
+    JSON.parse(localStorage.getItem(item));
+  if (get('original') === null) set('original', false);
+  if (get('changes') === null) set('changes', false);
+  if (get('font') === null) set('font', 'imfell');
+  return { set: set, get: get };
+})();
 
-/* the basic unit of display */
-const block = (content, meta, id) =>
-  `<div class="block" id="${id || ''}">
-    <div class="meta">${meta || ''}</div>
-    <div class="content">${content}</div>
-  </div>`;
+const display = ((data) => {
+  const summary = (hits, paragraphs) =>
+    `<div class="block">
+      <div class="meta"><p>Query matched ${hits.length} of ${paragraphs.length} paragraphs.</p></div>
+      <div class="content"></div>
+    </div>`;
+  const url = text =>
+    `{{ site.baseurl }}/texts/${text.label.toLowerCase().replace(/(\.|-)/g, '/')}`;
+  const label = paragraph =>
+    `${paragraph.section}.${paragraph.id}`.replace('.', ' ');
+  const pages = paragraph =>
+    paragraph.pages ? `, ${paragraph.reference} ${paragraph.pages}` : '';
+  const ref = paragraph =>
+    `<a href="${url(data.text(paragraph.section))}/#${paragraph.id}">${label(paragraph)}${pages(paragraph)}</a>`;
+  const regex = query =>
+    new RegExp(`\\b(${query})\\b`, 'gi');
+  const paragraph = (query, paragraph) =>
+    `<div class="block">
+      <div class="meta">${ref(paragraph)}</div>
+      <div class="content ${paragraph.type}">${paragraph.text.replace(regex(query), '<mark>$1</mark>')}</div>
+    </div>`;
+  const paragraphs = (paragraphs, query) =>
+    paragraphs.map(paragraph.bind(null, query)).join('');
+  return { summary: summary, paragraphs: paragraphs };
+})(data);
 
-/* turn markdown-style text into pretty HTML */
-const pretty = text =>
-  text.replace(/_(.*?)_/g, '<em>$1</em>')
-    .replace(/~(.*?)~/g, '<span class="wide">$1</span>')
-    .replace(/\*(.*?)\*/g, '<span class="sc">$1</span>')
-    .replace(/\^(.*?)\^/g, '<span class="dc">$1</span>')
-    .replace(/\$(.*?)\$/g, '<span class="greek">$1</span>')
-    .replace(/`(.*?)`/g, '<blockquote>$1</blockquote>')
-    .replace(/\/\//g, '<br>')
-    .replace(/¬/g, '<span class="tab"></span>')
-    .replace(/\[(\d+?)\]/g, '<sup>[$1]</sup>')
-    .replace(/\|/g, '<span class="page-break">|</span>')
-    .replace(/\[#\d+?\]/g, '')
-    .replace(/\[\-(.*?) \+(.*?) @(.*?)\]/g, '<del>$1</del> <ins title="$3">$2</ins>')
-    .replace(/\[\-(.*?) @(.*?)\]/g, '<del title="$2">$1</del>')
-    .replace(/\[\+(.*?) @(.*?)\]/g, '<ins title="$2">$1</ins>');
+const search = ((options) => {
+  const plain = text =>
+    options.get('original')
+      ? text.replace(/\<ins( title='.*?')?\>(.*?)\<\/ins\>/g, '').replace(/(<([^>]+)>)/g, '')
+      : text.replace(/\<del( title='.*?')?\>(.*?)\<\/del\>/g, '').replace(/(<([^>]+)>)/g, '');
+  const regex = query =>
+    new RegExp(`\\b(${query})\\b`, 'gi');
+  const filter = (paragraphs, query) =>
+    (query.length > 0)
+      ? paragraphs.filter(paragraph => plain(paragraph.text).match(regex(query)))
+      : [];
+  return { filter: filter };
+})(options);
 
-/* title block */
-const titleBlock = title => title ? block(pretty(title)) : '';
+const page = ((data) => {
+  const $ = id =>
+    document.getElementById(id);
+  const $$ = selector =>
+    Array.from(document.querySelectorAll(selector));
+  const toggleTab = (what, tab) =>
+    (tab.getAttribute('data-show') === what) ? tab.classList.add('active') : tab.classList.remove('active');
+  const togglePane = (what, pane) =>
+    (pane.id === what) ? pane.classList.remove('hidden') : pane.classList.add('hidden');
+  const show = what => {
+    $$('.tab').forEach(toggleTab.bind(null, what));
+    $$('.tab-pane').forEach(togglePane.bind(null, what));
+  };
+  const clickTab = (event) => {
+      show(event.currentTarget.getAttribute('data-show'));
+    };
+  const submitSearch = (event) => {
+    event.preventDefault();
+    const text = data.text($('tools').getAttribute('data-text'));
+    const paragraphs = data.paragraphs(text);
+    const hits = search.filter(paragraphs, $('query').value);
+    $('results').innerHTML = display.summary(hits, paragraphs)
+      + display.paragraphs(hits, $('query').value);
+    show('results');
+  };
+  const init = () => {
+    if ($('tools')) {
+      $$('.tab').forEach(x => x.addEventListener('click', clickTab));
+      $('search').addEventListener('submit', submitSearch);
+    }
+  };
+  return { init: init };
+})(data);
 
-/* absolute path to a section (based on its id or label) */
-const url = id => `/texts/${id.toLowerCase().replace(/(\.|-)/g, '/')}`;
-
-/* paragraph label */
-const label = paragraph => `${paragraph.section}.${paragraph.id}`.replace('.', ' ');
-
-/* paragraph pages */
-const pages = paragraph => paragraph.pages ? `, ${paragraph.reference} ${paragraph.pages}` : '';
-
-/* paragraph reference (label plus pages, with a hyperlink) */
-const ref = paragraph =>
-  `<a href="${url(paragraph.section)}/#${paragraph.id}">${label(paragraph)}${pages(paragraph)}</a>`;
-
-/* paragraph block */
-const paraBlock = paragraph =>
-  block(`<p class="${paragraph.type}">${pretty(paragraph.text)}</p>`, ref(paragraph), paragraph.id);
-
-/* paragraph blocks (from array of paragraphs, plus titles) */
-const paraBlocks = paragraphs =>
-  paragraphs.map(paragraph => titleBlock(paragraph.title) + paraBlock(paragraph)).join('');
-
-/* table of contents block */
-const tocBlock = ids => block(`<ul>${ids.map(id => `<li><a href="${url(id)}">${texts[id].title[1]}</a></li>`).join('')}</ul>`);
-
-/* text display */
-const display = (text) => text.paragraphs
-  ? (titleBlock(text.title[2]) + paraBlocks(text.paragraphs.map(augment.bind(null, text))))
-  : (titleBlock(text.title[2]) + tocBlock(text.texts));
-
-/* text paragraphs (for searching) */
-const paragraphs = text =>
-  text.paragraphs
-    ? text.paragraphs.map(augment.bind(null, text))
-    : text.texts.map(x => paragraphs(texts[x])).reduce((y, z) => y.concat(z), []);
-
-/* turn markdown-style text into plain text (for searching) */
-const plain = text =>
-  text.replace(/_/g, '')
-    .replace(/~/g, '')
-    .replace(/\*/g, '')
-    .replace(/\^/g, '')
-    .replace(/\$/g, '')
-    .replace(/`/g, '')
-    .replace(/\/\//g, ' ')
-    .replace(/¬/g, '')
-    .replace(/\[#\d+?\]/g, '')
-    .replace(/\[(\d+?)\]/g, '')
-    .replace(/<\/>/g, '')
-    .replace(/\|/g, '')
-    .replace(/\[\-(.*?) \+(.*?) @(.*?)\]/g, '$2')
-    .replace(/\[\-(.*?) @(.*?)\]/g, '')
-    .replace(/\[\+(.*?) @(.*?)\]/g, '$1')
-    .replace(/æ/ig, 'ae')
-    .replace(/œ/ig, 'oe')
-    .replace(/Œ/g, 'OE')
-    .replace(/[“|”]/g, '')
-    .replace(/’/g, '\'');
-
-/* regular expression (from user search query input) */
-const regex = query => new RegExp(`\\b(${query})\\b`, 'gi');
-
-/* paragraphs matching user's search query */
-const search = (paragraphs, query) =>
-  paragraphs.filter(paragraph => plain(paragraph.text).match(regex(query)));
-
-/* display paragraph matching user's search query */
-const result = (query, paragraph) =>
-  block(`<p class="${paragraph.type}">${plain(paragraph.text).replace(regex(query), '<mark>$1</mark>')}</p>`, ref(paragraph));
-
-/* display all paragraphs matching user's search query */
-const results = (text, query) => {
-  const haystack = paragraphs(text);
-  const hits = search(haystack, query);
-  const count = block('', `Query matched in ${hits.length} of ${haystack.length} paragraphs.`);
-  return count + hits.map(result.bind(null, query)).join('');
-};
-
-/* breadcrumb for top of toolbox */
-const breadcrumb = text =>
-  (text.parent === undefined)
-    ? `<h2><a href="${url(text.label)}">${text.title[0]}</a></h2>`
-    : `${breadcrumb(texts[text.parent])}<h2><a href="${url(text.label)}">${text.title[0]}</a></h2>`;
-
-/* bootstrap */
-if ($('toolbox') && $('textbox')) {
-  if (text) {
-    $('title').innerHTML = breadcrumb(text);
-    $('cog').addEventListener('click', (event) => {
-      event.preventDefault();
-      $('options').classList.toggle('hidden');
-    });
-    $('search').addEventListener('submit', (event) => {
-      event.preventDefault();
-      if ($('query').value.length > 0) {
-        $('close').classList.remove('hidden');
-        $('textbox-body').innerHTML = results(text, $('query').value);
-      }
-    });
-    $('search').addEventListener('reset', (event) => {
-      $('close').classList.add('hidden');
-      $('textbox-body').innerHTML = display(text);
-    });
-    $('textbox-body').innerHTML = display(text);
-  } else {
-    $('textbox-body').innerHTML = '<p>Bad reference.</p>';
-  }
-  $('toolbox').classList.remove('hidden');
-  $('textbox').classList.remove('hidden');
-}
+page.init();

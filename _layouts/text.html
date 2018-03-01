@@ -1,0 +1,32 @@
+---
+layout: default
+section: texts
+---
+<div class="tool box" id="tools" data-text="{{ page.text }}">
+  {% include tools.html text=page.text %}
+</div>
+<div class="text box tab-pane hidden" id="results"></div>
+{% if page.text == 'all' %}
+  <div class="tab-pane" id="text">
+    <div class="row">
+      {% include contents.html text='tal' %}
+      {% include contents.html text='etss' %}
+    </div>
+    <div class="row">
+      {% include contents.html text='post' %}
+      {% include contents.html text='other' %}
+    </div>
+  </div>
+{% elsif site.data[page.text].texts %}
+  <div class="tab-pane" id="text">
+    {% include contents.html text=page.text %}
+  </div>
+{% else %}
+  <div class="text box tab-pane {{ page.text }}" id="text">
+    {% include text.html text=page.text %}
+  </div>
+{% endif %}
+<div class="settings box tab-pane hidden" id="settings">
+  {% include settings.html %}
+</div>
+</div>

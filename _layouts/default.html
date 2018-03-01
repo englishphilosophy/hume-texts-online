@@ -9,21 +9,21 @@ layout: compress
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="keywords" content="hume, david hume, texts, scholarship">
     <meta name="description" content="{{ site.description }}">
-    <link rel="shortcut icon" href="{% link assets/hume.ico %}">
+    <link rel="shortcut icon" href="{{ site.baseurl }}{% link assets/hume.ico %}">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=IM+Fell+English+SC|IM+Fell+English:400,400italic|GFS+Didot">
-    <link rel="stylesheet" href="{% link assets/hume.scss %}">
+    <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/hume.scss %}">
     <title>{{ site.title }}</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <script defer src="{% link assets/hume.js %}"></script>
+    <script defer src="{{ site.baseurl }}{% link assets/hume.js %}"></script>
   </head>
   <body>
     <header>
       <h1>davidhume.org</h1>
       <nav>
-        <a class="{% if page.section == 'texts' %}active{% endif %}" href="{% link index.html %}">Texts</a>
-        <a class="{% if page.section == 'notes' %}active{% endif %}" href="{% link notes.html %}">Notes</a>
-        <a class="{% if page.section == 'scholarship' %}active{% endif %}" href="{% link scholarship.html %}">Scholarship</a>
-        <a class="{% if page.section == 'about' %}active{% endif %}" href="{% link about.html %}">About</a>
+        <a class="{% if page.section == 'texts' %}active{% endif %}" href="{{ site.baseurl }}{% link index.html %}">Texts</a>
+        <a class="{% if page.section == 'notes' %}active{% endif %}" href="{{ site.baseurl }}{% link notes.html %}">Notes</a>
+        <a class="{% if page.section == 'scholarship' %}active{% endif %}" href="{{ site.baseurl }}{% link scholarship.html %}">Scholarship</a>
+        <a class="{% if page.section == 'about' %}active{% endif %}" href="{{ site.baseurl }}{% link about.html %}">About</a>
       </nav>
     </header>
     <main>

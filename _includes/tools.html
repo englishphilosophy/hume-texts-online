@@ -1,0 +1,16 @@
+{% assign text = site.data[include.text] %}
+<div class="box-head">
+  {% assign trail = include.text | append: ',' | split: ',' %}
+  {% include parents.html %}
+  {% include breadcrumb.html trail=trail %}
+</div>
+<form id="search">
+  <input type="text" placeholder="search" id="query">
+  <button class="tab" title="Search" type="submit" data-show="results"><i class="fas fa-search"></i></button>
+  {% if text.paragraphs %}
+    <a class="tab active" title="Text" data-show="text"><i class="fas fa-file-alt"></i></a>
+  {% else %}
+    <a class="tab active" title="Table of Contents" data-show="text"><i class="fas fa-list"></i></a>
+  {% endif %}
+  <a class="tab" title="Settings" data-show="settings"><i class="fas fa-cog"></i></a>
+</form>
