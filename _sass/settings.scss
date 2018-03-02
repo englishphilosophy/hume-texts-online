@@ -1,33 +1,29 @@
-.settings {
-  h2 {
-    margin-bottom: 1em;
-    &:not(:first-child) {
-      margin-top: 1.5em;
-    }
-  }
-  @media(min-width: $break1) {
-    padding: 1rem;
-  }
-}
-
 .setting {
   display: flex;
+  align-items: baseline;
   label {
-    flex-basis: 6em;
+    flex-basis: 8em;
     font-weight: 600;
   }
 }
 
 .inputs {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  label, select {
+    flex: 1;
+    border: 1px solid $gray;
+    margin: .25em 0 .25em .5em;
+    padding: .25em;
+  }
   label {
     cursor: pointer;
-  }
-  label, select {
-    display: inline-block;
-    border: 1px solid $gray;
-    margin-right: .25em;
-    padding: .25em;
-    //height: 2.5em;
-    width: 10em;
+    font-weight: normal;
+    white-space: nowrap;
+    input {
+      margin-right: .25em;
+    }
   }
 }

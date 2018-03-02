@@ -42,8 +42,12 @@ main {
 }
 
 .box-body {
-  h2 {
+  padding: .5em;
+  h2, p {
     margin-bottom: 1em;
+  }
+  p {
+    margin-top: 1em;
   }
   @media(min-width: $break1) {
     padding: 1em;
