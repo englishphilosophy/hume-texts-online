@@ -4,29 +4,29 @@
     <div class="setting">
       <label>Edition</label>
       <div class="inputs">
-        <label for="original"><input type="radio" name="edition" id="original">Original Text</label>
-        <label for="edited"><input type="radio" name="edition" id="edited">Edited Text</label>
+        <label for="original-edition"><input type="radio" name="edition" id="original-edition">Original Text</label>
+        <label for="edited-edition"><input type="radio" name="edition" id="edited-edition">Edited Text</label>
       </div>
     </div>
     <div class="setting">
       <label>Display Options</label>
       <div class="inputs">
-        <label for="breaks"><input type="checkbox" id="breaks">Show Page Breaks</label>
-        <label for="changes"><input type="checkbox" id="changes">Show Changes</label>
+        <label for="show-breaks"><input type="checkbox" id="show-breaks">Show Page Breaks</label>
+        <label for="show-changes"><input type="checkbox" id="show-changes">Show Changes</label>
       </div>
     </div>
     <div class="setting">
       <label>Search Type</label>
       <div class="inputs">
-        <label for="simple"><input type="radio" name="type" id="simple">Simple Search</label>
-        <label for="advanced"><input type="radio" name="type" id="advanced">Advanced Search</label>
+        <label for="simple-search"><input type="radio" name="type" id="simple-search">Simple Search</label>
+        <label for="advanced-search"><input type="radio" name="type" id="advanced-search">Advanced Search</label>
       </div>
     </div>
     <div class="setting">
       <label>Search Options</label>
       <div class="inputs">
-        <label for="punctuation"><input type="checkbox" id="punctuation">Ignore Punctation</label>
-        <label for="related"><input type="checkbox" id="related">Match Related Terms</label>
+        <label for="ignore-punctuation"><input type="checkbox" id="ignore-punctuation">Ignore Punctation</label>
+        <label for="match-related"><input type="checkbox" id="match-related">Match Related Terms</label>
       </div>
     </div>
   </div>
@@ -35,7 +35,7 @@
     <p>The edition you select effects the text displayed, and also the text against which search queries are tested.</p>
     <p>Page numbers from standard editions are shown alongside each paragraph. For paragraphs that range over more than one page, page breaks can be displayed in the text as a pipe (|), by checking 'Show Page Breaks'.</p>
     <p>When displaying the edited text, check 'Show Changes' to see the editorial interventions we have made. Deletions will appear with a line through them, and additions underlined; by hovering your mouse over the change, you will see a brief explanation of the edit. Our interventions are minimal, consisting mostly of changes sanctioned by Hume himself, together with corrections of just a few very obvious errors. For details, see the <a href="{{ '/notes' | relative_url }}">Notes</a> section.</p>
-    <p>There are two kinds of search, <em>simple</em> and <em>advanced</em>. The former is intended to help you find a single passage or quotation from Hume's works, the location of which you cannot remember. It will look for the complete phrase that you enter. It is best used with both 'Ignore Punctuation' and 'Match Equivalent Terms' both checked, unless you are certain that you have the exact phrase. The 'Ignore Punctuation' option is self-explanatory. The 'Match Equivalent Terms' will broaded your search in straightforward and presumptively helpful ways: "it is" will also match "tis", "though" will also match "tho'", and "-ed" at the end of a word will also match "-'d" (all common abbreviations in Hume's early publications); "ae" and "oe" will also match the ligatures "" and ""; "-ction" and "-xion" at the end of a word will be treated as equivalent, since Hume alternated these spellings (e.g. "reflection"/"reflexion", "connection"/"connexion").</p>
+    <p>There are two kinds of search, <em>simple</em> and <em>advanced</em>. The former is intended to help you find a single passage or quotation from Hume's works, the location of which you cannot remember. It will look for the complete phrase that you enter. It is best used with both 'Ignore Punctuation' and 'Match Equivalent Terms' both checked, unless you are certain that you have the exact phrase. The 'Ignore Punctuation' option is self-explanatory. The 'Match Related Terms' will broaded your search in straightforward and presumptively helpful ways: "it is" will also match "'tis", "though" will also match "tho'", and "-ed" at the end of a word will also match "-'d" (all common abbreviations in Hume's early publications); "ae" and "oe" will also match the ligatures "" and ""; "-ction" and "-xion" at the end of a word will be treated as equivalent, since Hume alternated these spellings (e.g. "reflection"/"reflexion", "connection"/"connexion").</p>
     <p>Advanced search is intended for scholarship purposes, to interrogate Hume's texts for the terms that he used and how often he used them. (The 'Ignore Punctation' and 'Match Equivalent Terms' options do not apply here, though the latter can be emulated as required.) This type of search treats your input query as a <em>regular expression</em>, which is a standard syntax for matching string patterns; if you look it up in your search engine of choice, you will find countless guides and tutorials on the web. For now, the following examples should be enough to get you started:</p>
     <ul>
       <li>"sceptic" - this matches all occurences of these letters in that order, e.g. "sceptic", "sceptical", "scepticism"</li>

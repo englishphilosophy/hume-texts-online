@@ -1,5 +1,9 @@
 .text {
   font-size: 1.25em;
+  hr {
+    border-bottom: 1px solid $gray;
+    margin-bottom: 1em;
+  }
   @media(min-width: $break1) {
     padding: 1rem;
   }
