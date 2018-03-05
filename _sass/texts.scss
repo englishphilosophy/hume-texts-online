@@ -109,6 +109,9 @@
     display: inline-block;
     width: 2em;
   }
+  .page-break {
+    display: none;
+  }
   @media(min-width: $break2) {
     flex-basis: 25.8em;
   }
@@ -120,22 +123,9 @@
   }
 }
 
-.sans .content {
-  font-family: $sans;
-  strong {
-    margin-top: -0.1em;
-  }
-  b {
-    font-family: $sans;
-    font-variant: small-caps;
-  }
-}
-
-.serif .content {
-  font-family: $serif;
-  b {
-    font-family: $serif;
-    font-variant: small-caps;
+.breaks .content {
+  .page-break {
+    display: inline;
   }
 }
 

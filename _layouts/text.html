@@ -9,12 +9,12 @@ section: texts
 {% if page.text == 'all' %}
   <div class="tab-pane" id="text">
     <div class="row">
-      {% include contents.html text='tal' %}
-      {% include contents.html text='etss' %}
+      {% include contents.html text='tal' all=true %}
+      {% include contents.html text='etss' all=true %}
     </div>
     <div class="row">
-      {% include contents.html text='post' %}
-      {% include contents.html text='other' %}
+      {% include contents.html text='post' all=true %}
+      {% include contents.html text='other' all=true %}
     </div>
   </div>
 {% elsif site.data[page.text].texts %}
@@ -26,7 +26,6 @@ section: texts
     {% include text.html text=page.text %}
   </div>
 {% endif %}
-<div class="tab-pane hidden" id="settings">
-  {% include settings.html %}
-</div>
+<div class="notes box tab-pane hidden" id="notes">
+  {% include notes.html text=page.text %}
 </div>

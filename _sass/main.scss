@@ -36,9 +36,25 @@ main {
 }
 
 .box-head {
+  display: flex;
+  flex-wrap: wrap;
   background: $red;
   color: #fff;
   padding: .25em .5em;
+  a {
+    color: #fff;
+  }
+  h2 {
+    &:not(:last-child) {
+      a {
+        text-decoration: underline;
+      }
+      &::after {
+        content: '>';
+        padding: 0 .25em;
+      }
+    }
+  }
 }
 
 .box-body {
@@ -55,5 +71,5 @@ main {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }

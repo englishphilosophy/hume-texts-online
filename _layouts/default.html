@@ -21,13 +21,36 @@ layout: compress
       <h1>davidhume.org</h1>
       <nav>
         <a class="{% if page.section == 'texts' %}active{% endif %}" href="{{ site.baseurl }}{% link index.html %}">Texts</a>
-        <a class="{% if page.section == 'notes' %}active{% endif %}" href="{{ site.baseurl }}{% link notes.html %}">Notes</a>
-        <a class="{% if page.section == 'scholarship' %}active{% endif %}" href="{{ site.baseurl }}{% link scholarship.html %}">Scholarship</a>
-        <a class="{% if page.section == 'about' %}active{% endif %}" href="{{ site.baseurl }}{% link about.html %}">About</a>
+        <a class="{% if page.section == 'scholarship' %}active{% endif %}" href="{{ site.baseurl }}{% link scholarship/index.html %}">Scholarship</a>
+        <a class="{% if page.section == 'about' %}active{% endif %}" href="{{ site.baseurl }}{% link about/index.html %}">About</a>
       </nav>
     </header>
     <main>
-      {{ content }}
+      {% case page.section %}
+        {% when 'scholarship' %}
+          <div class="notes box">
+            <nav>
+              <a href="{{ site.baseurl }}{% link scholarship/index.html %}">Bibliographies</a>
+              <a href="{{ site.baseurl }}{% link scholarship/papers.html %}">Papers</a>
+              <a href="{{ site.baseurl }}{% link scholarship/workshops.html %}">Workshops</a>
+              <a href="{{ site.baseurl }}{% link scholarship/links.html %}">Links</a>
+            </nav>
+            <div class="box-body">{{ content }}</div>
+          </div>
+        {% when 'about' %}
+          <div class="notes box">
+            <nav>
+              <a href="{{ site.baseurl }}{% link about/index.html %}">Welcome</a>
+              <a href="{{ site.baseurl }}{% link about/history.html %}">History of this Site</a>
+              <a href="{{ site.baseurl }}{% link about/update-2018.html %}">Update, March 2018</a>
+              <a href="{{ site.baseurl }}{% link about/update-2011.html %}">Update, May 2012</a>
+              <a href="{{ site.baseurl }}{% link about/leedshume.html %}">Leeds Hume Project, July 2001</a>
+            </nav>
+            <div class="box-body">{{ content }}</div>
+          </div>
+        {% else %}
+          {{ content }}
+      {% endcase %}
     </main>
   </body>
 </html>

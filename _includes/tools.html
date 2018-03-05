@@ -4,7 +4,17 @@
   {% include parents.html %}
   {% include breadcrumb.html trail=trail %}
 </div>
-<form id="search">
+<div class="options">
+  <div class="labels">
+    <label for="advanced"><input type="checkbox" id="advanced">Advanced Search</label>
+    <label for="edited"><input type="checkbox" id="edited">Edited Text</label>
+  </div>
+  <div class="labels">
+    <label for="changes"><input type="checkbox" id="changes">Show Changes</label>
+    <label for="breaks"><input type="checkbox" id="breaks">Show Page Breaks (|)</label>
+  </div>
+</div>
+<form class="search" id="search">
   <input type="text" placeholder="search" id="query">
   <button class="tab" title="Search" type="submit" data-show="results"><i class="fas fa-search"></i></button>
   {% if text.paragraphs %}
@@ -12,5 +22,5 @@
   {% else %}
     <a class="tab active" title="Table of Contents" data-show="text"><i class="fas fa-list"></i></a>
   {% endif %}
-  <a class="tab" title="Settings" data-show="settings"><i class="fas fa-cog"></i></a>
+  <a class="tab" title="Notes" data-show="notes"><i class="fas fa-info-circle"></i></a>
 </form>
