@@ -8,12 +8,10 @@ $red: #920000;
 $sans: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 $serif: "Times New Roman", times, serif;
 
-// little things
-$box-shadow: 0 0 .2rem rgba(0, 0, 0, 0.5);
-$border-radius: .4rem;
-$black-border: .2rem solid $black;
-$white-border: .3rem solid #fff;
+// box sizes
+$box-small: 36rem;
+$box-large: 70rem;
 
 // break points
-$break1: 38rem;
-$break2: 73rem;
+$break1: $box-small + 2;
+$break2: $box-large + 2;

@@ -1,0 +1,101 @@
+.content {
+  font-family: 'IM Fell English';
+  .title {
+    margin-top: 2em;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    strong {
+      letter-spacing: 1rem;
+      font-weight: normal;
+    }
+  }
+  h1 {
+    font-size: 1.25em;
+  }
+  p {
+    text-align: justify;
+    &:first-child {
+      text-indent: 2em;
+    }
+    &.note {
+      font-size: .875em;
+    }
+    strong {
+      float: left;
+      font-size: 3.35em;
+      font-weight: normal;
+      line-height: 1;
+      margin-top: -0.03em;
+      margin-bottom: -0.1em;
+    }
+  }
+  blockquote {
+    margin-left: 2em;
+    margin-top: 1em;
+    text-indent: 0;
+  }
+  sup {
+    color: $red;
+  }
+  del {
+    display: none;
+  }
+  ins {
+    text-decoration: none;
+  }
+  em {
+    font-style: italic;
+    em {
+      font-style: normal;
+    }
+  }
+  b {
+    font-family: 'IM Fell English SC';
+    font-style: normal;
+    font-weight: normal;
+  }
+  i {
+    font-family: 'GFS Didot';
+    font-style: normal;
+  }
+  .tab {
+    display: inline-block;
+    width: 2em;
+  }
+  .page-break {
+    display: none;
+  }
+}
+
+.first {
+  p:first-child {
+    text-indent: 0;
+  }
+}
+
+.breaks .content {
+  .page-break {
+    display: inline;
+  }
+}
+
+.original .content {
+  del {
+    display: inline;
+  }
+  ins {
+    display: none;
+  }
+}
+
+.changes .content {
+  del {
+    text-decoration: line-through;
+  }
+  ins {
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,33 @@
+.box {
+  margin: .5rem;
+  .box-body {
+    padding: .5rem;
+  }
+}
+
+@media(min-width: $break1) {
+  .box {
+    background: #fff;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    margin: 1rem;
+    .box-body {
+      padding: 1rem;
+    }
+  }
+}
+
+@media(min-width: $break2) {
+  .box-row {
+    display: flex;
+    margin-bottom: 1rem;
+    .box {
+      flex: 1;
+      &:first-child {
+        margin: 0 .5rem 0 1rem;
+      }
+      &:last-child {
+        margin: 0 1rem 0 .5rem;
+      }
+    }
+  }
+}

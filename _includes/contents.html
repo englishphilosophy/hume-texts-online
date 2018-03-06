@@ -1,5 +1,5 @@
 {% assign text = site.data[include.text] %}
-<div class="{% unless include.all %}notes {% endunless %}box">
+<div class="notes box">
   <div class="box-body">
     <h2><a href="{{ site.baseurl }}/texts/{{ include.text | replace: '-', '/' }}">{{ text.title[1] }}{% if text.year %} ({{ text.year }}){% endif %}</a></h2>
     <ul>

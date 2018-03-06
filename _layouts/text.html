@@ -2,30 +2,51 @@
 layout: default
 section: texts
 ---
+{% assign text = site.data[page.text] %}
+
 <div class="tool box" id="tools" data-text="{{ page.text }}">
   {% include tools.html text=page.text %}
 </div>
-<div class="text box tab-pane hidden" id="results"></div>
+
+<div class="tab-pane" id="results-pane">
+  <div class="text box">
+    <div class="box-body" id="results"></div>
+  </div>
+</div>
+
+<div class="tab-pane active" id="text-pane">
 {% if page.text == 'all' %}
-  <div class="tab-pane" id="text">
-    <div class="row">
+  <div id="text">
+    <div class="box-row">
       {% include contents.html text='tal' all=true %}
       {% include contents.html text='etss' all=true %}
     </div>
-    <div class="row">
+    <div class="box-row">
       {% include contents.html text='post' all=true %}
       {% include contents.html text='other' all=true %}
     </div>
   </div>
-{% elsif site.data[page.text].texts %}
-  <div class="tab-pane" id="text">
+{% elsif text.texts %}
+  <div id="text">
     {% include contents.html text=page.text %}
   </div>
 {% else %}
-  <div class="text box tab-pane {{ page.text }}" id="text">
-    {% include text.html text=page.text %}
+  <div class="text box">
+    <div class="box-body" id="text">
+      {% include text.html text=page.text %}
+    </div>
   </div>
 {% endif %}
-<div class="notes box tab-pane hidden" id="notes">
-  {% include notes.html text=page.text %}
+</div>
+
+{% if text.variants %}{% endif %}
+
+{% if text.images %}{% endif %}
+
+<div class="tab-pane" id="notes-pane">
+  <div class="notes box">
+    <div class="box-body" id="notes">
+      {% include notes.html text=page.text %}
+    </div>
+  </div>
 </div>

@@ -105,7 +105,7 @@ const page = ((data) => {
   const toggleTab = (what, tab) =>
     (tab.getAttribute('data-show') === what) ? tab.classList.add('active') : tab.classList.remove('active');
   const togglePane = (what, pane) =>
-    (pane.id === what) ? pane.classList.remove('hidden') : pane.classList.add('hidden');
+    (pane.id === what) ? pane.classList.add('active') : pane.classList.remove('active');
   const show = what => {
     $$('.tab').forEach(toggleTab.bind(null, what));
     $$('.tab-pane').forEach(togglePane.bind(null, what));
@@ -123,7 +123,7 @@ const page = ((data) => {
     } else {
       $('results').innerHTML = `<div class="meta"><p>Enter your query into the search box above, and press ENTER or click the search icon to see results.</p></div>`;
     }
-    show('results');
+    show('results-pane');
   };
   const updateText = () => {
     if (options.get('edited')) {

@@ -1,0 +1,63 @@
+.notes {
+  .box-tabs {
+    background: #fff;
+    display: flex;
+    border-bottom: .125em solid $red;
+    overflow-y: auto;
+    a {
+      display: block;
+      padding: .25em .5em .125em;
+      white-space: nowrap;
+      min-width: 2.25em;
+      text-align: center;
+      &.active, &:hover {
+        background: $red;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+  .box-body {
+    .icon {
+      color: $red;
+    }
+    h2, h3 {
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 1.25em;
+    }
+    h3 {
+      font-size: 1.125em;
+    }
+    p {
+      margin-bottom: 1em;
+    }
+    dl, ol, ul {
+      margin-left: 2em;
+      margin-bottom: 1em;
+    }
+    ul ul {
+      margin-bottom: .5em;
+    }
+    dt {
+      float: left;
+      width: 3em;
+    }
+    dd {
+      margin-left: 3em;
+    }
+  }
+}
+
+@media(min-width: $break2) {
+  .notes {
+    .box-body {
+      margin-left: 20rem;
+      margin-right: 6rem;
+    }
+  }
+  .box-row .notes .box-body {
+    margin: 0;
+  }
+}

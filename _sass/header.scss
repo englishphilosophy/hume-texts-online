@@ -1,21 +1,27 @@
 header {
-  padding: .75em;
   background: #fff;
   border-bottom: .5em solid $red;
   h1 {
     font-size: 1.5em;
     font-weight: normal;
     text-align: center;
-    margin-bottom: .5rem;
+    margin-bottom: .5em;
+    padding: .25em;
   }
   nav {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
+    padding: 0 .125em;
+    overflow-y: auto;
     a {
-      display: block;
-      padding: .5em;
+      padding: .5em .75em;
+      margin: 0 .125em;
+      white-space: nowrap;
+      &:hover, &.active {
+        background: $red;
+        color: #fff;
+        text-decoration: none;
+      }
     }
   }
 }
@@ -27,5 +33,10 @@ header {
     justify-content: space-between;
     align-items: baseline;
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    padding: .25em .5em 0;
+    h1 {
+      margin-bottom: 0;
+      padding: .25em;
+    }
   }
 }

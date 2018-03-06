@@ -1,75 +1,25 @@
 main {
   line-height: 1.5;
   margin: 0 auto;
-  max-width: $break1 - 2;
-  @media(min-width: $break1) {
+  max-width: $box-small;
+}
+
+.tab-pane {
+  display: none;
+  &.active {
+    display: block;
+  }
+}
+
+@media(min-width: $break1) {
+  main {
     margin: 1rem auto;
-  }
-  @media(min-width: $break2) {
-    max-width: $break2 - 2;
+    max-width: $break1;
   }
 }
 
-.row {
-  @media(min-width: $break2) {
-    display: flex;
-    margin-bottom: 1rem;
-    .box:first-child {
-      margin: 0 .5rem 0 1rem;
-    }
-    .box:last-child {
-      margin: 0 1rem 0 .5rem;
-    }
+@media(min-width: $break2) {
+  main {
+    max-width: $break2;
   }
-}
-
-.box {
-  margin: .5rem;
-  @media(min-width: $break1) {
-    background: #fff;
-    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-    margin: 1rem;
-  }
-  @media(min-width: $break2) {
-    flex: 1;
-  }
-}
-
-.box-head {
-  display: flex;
-  flex-wrap: wrap;
-  background: $red;
-  color: #fff;
-  padding: .25em .5em;
-  a {
-    color: #fff;
-  }
-  h2 {
-    &:not(:last-child) {
-      a {
-        text-decoration: underline;
-      }
-      &::after {
-        content: '>';
-        padding: 0 .25em;
-      }
-    }
-  }
-}
-
-.box-body {
-  padding: .5em;
-  h2, p {
-    margin-bottom: 1em;
-  }
-  p {
-    margin-top: 1em;
-  }
-  @media(min-width: $break1) {
-    padding: 1em;
-  }
-}
-
-.hidden {
-  display: none !important;
 }

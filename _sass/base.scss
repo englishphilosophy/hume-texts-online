@@ -10,6 +10,7 @@
 html {
   box-sizing: border-box;
   cursor: default;
+  overflow-y: scroll;
 }
 
 body {
@@ -21,16 +22,6 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
-}
-
-ul,
-ol {
-  margin-left: 2em;
-  margin-bottom: 1em;
-}
-
-ul ul {
-  margin-bottom: .5em;
 }
 
 b, strong {
@@ -62,15 +53,6 @@ sub {
 
 sup {
   top: -.5em;
-}
-
-img {
-  display: inline-block;
-  max-width: 100%;
-}
-
-table {
-  border-collapse: collapse;
 }
 
 @media(min-width: $break1) {

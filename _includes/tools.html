@@ -1,26 +1,39 @@
 {% assign text = site.data[include.text] %}
 <div class="box-head">
-  {% assign trail = include.text | append: ',' | split: ',' %}
-  {% include parents.html %}
-  {% include breadcrumb.html trail=trail %}
-</div>
-<div class="options">
-  <div class="labels">
-    <label for="advanced"><input type="checkbox" id="advanced">Advanced Search</label>
-    <label for="edited"><input type="checkbox" id="edited">Edited Text</label>
-  </div>
-  <div class="labels">
-    <label for="changes"><input type="checkbox" id="changes">Show Changes</label>
-    <label for="breaks"><input type="checkbox" id="breaks">Show Page Breaks (|)</label>
-  </div>
-</div>
-<form class="search" id="search">
-  <input type="text" placeholder="search" id="query">
-  <button class="tab" title="Search" type="submit" data-show="results"><i class="fas fa-search"></i></button>
-  {% if text.paragraphs %}
-    <a class="tab active" title="Text" data-show="text"><i class="fas fa-file-alt"></i></a>
+  <h1><a href="{{ site.baseurl }}{% link index.html %}"><i class="fas fa-file-alt"></i></a></h1>
+  {% if include.text == 'all' %}
+    <h2>Hume Texts Online</h2>
   {% else %}
-    <a class="tab active" title="Table of Contents" data-show="text"><i class="fas fa-list"></i></a>
+    {% assign trail = include.text | append: ',' | split: ',' %}
+    {% include parents.html %}
+    {% include breadcrumb.html trail=trail %}
   {% endif %}
-  <a class="tab" title="Notes" data-show="notes"><i class="fas fa-info-circle"></i></a>
-</form>
+</div>
+<div class="box-body">
+  <div class="options">
+    <div class="labels">
+      <label for="advanced"><input type="checkbox" id="advanced">Advanced Search</label>
+      <label for="edited"><input type="checkbox" id="edited">Edited Text</label>
+    </div>
+    <div class="labels">
+      <label for="changes"><input type="checkbox" id="changes">Show Changes</label>
+      <label for="breaks"><input type="checkbox" id="breaks">Show Page Breaks</label>
+    </div>
+  </div>
+  <form class="search" id="search">
+    <input type="text" placeholder="search" id="query">
+    <button class="tab" title="Search" type="submit" data-show="results-pane"><i class="fas fa-search"></i></button>
+    {% if text.paragraphs %}
+      <a class="tab active" title="Text" data-show="text-pane"><i class="fas fa-file-alt"></i></a>
+    {% else %}
+      <a class="tab active" title="Table of Contents" data-show="text-pane"><i class="fas fa-list"></i></a>
+    {% endif %}
+    {% if text.variants %}
+      <a class="tab" title="Variants" data-show="variants-pane"><i class="fas fa-file"></i></a>
+    {% endif %}
+    {% if text.images %}
+      <a class="tab" title="Images" data-show="images-pane"><i class="fas fa-image"></i></a>
+    {% endif %}
+    <a class="tab" title="Notes" data-show="notes-pane"><i class="fas fa-edit"></i></a>
+  </form>
+</div>
