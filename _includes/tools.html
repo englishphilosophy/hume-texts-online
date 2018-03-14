@@ -1,13 +1,11 @@
 {% assign text = site.data[include.text] %}
 <div class="box-head">
-  <h1><a href="{{ site.baseurl }}{% link index.html %}"><i class="fas fa-file-alt"></i></a></h1>
-  {% if include.text == 'all' %}
-    <h2>Hume Texts Online</h2>
-  {% else %}
+  <h2><a href="{{ site.baseurl }}{% link index.html %}">Texts</a></h2>
+  {% unless include.text == 'all' %}
     {% assign trail = include.text | append: ',' | split: ',' %}
     {% include parents.html %}
     {% include breadcrumb.html trail=trail %}
-  {% endif %}
+  {% endunless %}
 </div>
 <div class="box-body">
   <div class="options">

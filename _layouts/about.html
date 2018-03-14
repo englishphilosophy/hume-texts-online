@@ -4,11 +4,10 @@ section: about
 ---
 <div class="notes box">
   <nav class="box-tabs">
-    <a{% if page.subsection == 'about' %} class="active"{% endif %} href="{{ site.baseurl }}{% link about/index.html %}"><i class="fas fa-question-circle"></i></a>
-    <a{% if page.subsection == 'help' %} class="active"{% endif %} href="{{ site.baseurl }}{% link about/help.html %}">Help</a>
-    <a{% if page.subsection == 'history' %} class="active"{% endif %} href="{{ site.baseurl }}{% link about/history.html %}">History of this Site</a>
-    <a{% if page.subsection == 'update-2012' %} class="active"{% endif %} href="{{ site.baseurl }}{% link about/update-2012.html %}">Update 2012</a>
-    <a{% if page.subsection == 'update-2018' %} class="active"{% endif %} href="{{ site.baseurl }}{% link about/update-2018.html %}">Update 2018</a>
+    <a{% if page.subsection == 'about' %} class="active"{% endif %} href="{{ site.baseurl }}{% link about/index.md %}">About</a>
+    <a{% if page.subsection == 'history' %} class="active"{% endif %} href="{{ site.baseurl }}{% link about/history.md %}">History of this Site</a>
+    <a{% if page.subsection == 'update-2012' %} class="active"{% endif %} href="{{ site.baseurl }}{% link about/update-2012.md %}">Update 2012</a>
+    <a{% if page.subsection == 'update-2018' %} class="active"{% endif %} href="{{ site.baseurl }}{% link about/update-2018.md %}">Update 2018</a>
   </nav>
   <div class="box-body">{{ content }}</div>
 </div>

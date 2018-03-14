@@ -4,11 +4,11 @@ section: scholarship
 ---
 <div class="notes box">
   <nav class="box-tabs">
-    <a{% if page.subsection == 'scholarship' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/index.html %}"><i class="fas fa-graduation-cap"></i></a>
-    <a{% if page.subsection == 'bibliographies' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/bibliographies.html %}">Bibliographies</a>
-    <a{% if page.subsection == 'papers' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/papers.html %}">Papers</a>
-    <a{% if page.subsection == 'workshops' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/workshops.html %}">Workshops</a>
-    <a{% if page.subsection == 'links' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/links.html %}">Links</a>
+    <a{% if page.subsection == 'scholarship' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/index.md %}">Scholarship</a>
+    <a{% if page.subsection == 'bibliographies' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/bibliographies.md %}">Bibliographies</a>
+    <a{% if page.subsection == 'papers' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/papers.md %}">Papers</a>
+    <a{% if page.subsection == 'workshops' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/workshops.md %}">Workshops</a>
+    <a{% if page.subsection == 'links' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/links.md %}">Links</a>
   </nav>
   <div class="box-body">{{ content }}</div>
 </div>

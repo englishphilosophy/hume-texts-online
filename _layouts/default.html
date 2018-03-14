@@ -20,9 +20,10 @@ layout: compress
     <header>
       <h1>davidhume.org</h1>
       <nav>
-        <a{% if layout.section == 'texts' %} class="active"{% endif %} href="{{ site.baseurl }}{% link index.html %}"><i class="fas fa-file-alt"></i> Texts</a>
-        <a{% if layout.section == 'scholarship' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/index.html %}"><i class="fas fa-graduation-cap"></i> Scholarship</a>
-        <a{% if layout.section == 'about' %} class="active"{% endif %} href="{{ site.baseurl }}{% link about/index.html %}"><i class="fas fa-question-circle"></i> About</a>
+        <a{% if layout.section == 'texts' %} class="active"{% endif %} href="{{ site.baseurl }}{% link index.html %}">Texts</a>
+        <a{% if layout.section == 'notes' %} class="active"{% endif %} href="{{ site.baseurl }}{% link notes/index.md %}">Notes</a>
+        <a{% if layout.section == 'scholarship' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/index.md %}">Scholarship</a>
+        <a{% if layout.section == 'about' %} class="active"{% endif %} href="{{ site.baseurl }}{% link about/index.md %}">About</a>
       </nav>
     </header>
     <main>

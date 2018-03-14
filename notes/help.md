@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: notes
 subsection: help
 ---
 <h2>Help</h2>
