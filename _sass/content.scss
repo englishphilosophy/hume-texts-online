@@ -20,9 +20,6 @@
     &:first-child {
       text-indent: 2em;
     }
-    &.note {
-      font-size: .875em;
-    }
     strong {
       float: left;
       font-size: 3.35em;
@@ -76,6 +73,12 @@
   }
 }
 
+.note {
+  p:first-child {
+    text-indent: 1em;
+  }
+}
+
 .breaks .content {
   .page-break {
     display: inline;
@@ -85,6 +88,7 @@
 .original .content {
   del {
     display: inline;
+    text-decoration: none !important;
   }
   ins {
     display: none;
@@ -93,9 +97,13 @@
 
 .changes .content {
   del {
+    display: inline;
     text-decoration: line-through;
   }
   ins {
     text-decoration: underline;
+  }
+  del + ins {
+    margin-left: .25em;
   }
 }

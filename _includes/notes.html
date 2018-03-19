@@ -1,55 +1,56 @@
 {% assign key = include.text | split: '-' | first %}
 {% case key %}
   {% when 'all' %}
-    {% include notes/all.html %}
+    {% capture notes %}{% include notes/all.md %}{% endcapture %}
   {% when 'tal' %}
-    {% include notes/tal.html %}
+    {% capture notes %}{% include notes/tal.md %}{% endcapture %}
   {% when 't' %}
-    {% include notes/t.html %}
+    {% capture notes %}{% include notes/t.md %}{% endcapture %}
   {% when 'ad1739' %}
-    {% include notes/t.html %}
+    {% capture notes %}{% include notes/t.md %}{% endcapture %}
   {% when 'ad1740' %}
-    {% include notes/t.html %}
+    {% capture notes %}{% include notes/t.md %}{% endcapture %}
   {% when 'a' %}
-    {% include notes/a.html %}
+    {% capture notes %}{% include notes/a.md %}{% endcapture %}
   {% when 'l' %}
-    {% include notes/l.html %}
+    {% capture notes %}{% include notes/l.md %}{% endcapture %}
   {% when 'etss' %}
-    {% include notes/etss.html %}
+    {% capture notes %}{% include notes/etss.md %}{% endcapture %}
   {% when 'ad1758' %}
-    {% include notes/etss.html %}
+    {% capture notes %}{% include notes/etss.md %}{% endcapture %}
   {% when 'ad1777' %}
-    {% include notes/etss.html %}
+    {% capture notes %}{% include notes/etss.md %}{% endcapture %}
   {% when 'empl' %}
-    {% include notes/empl.html %}
+    {% capture notes %}{% include notes/empl.md %}{% endcapture %}
   {% when 'e' %}
-    {% include notes/e.html %}
+    {% capture notes %}{% include notes/e.md %}{% endcapture %}
   {% when 'p' %}
-    {% include notes/p.html %}
+    {% capture notes %}{% include notes/p.md %}{% endcapture %}
   {% when 'm' %}
-    {% include notes/m.html %}
+    {% capture notes %}{% include notes/m.md %}{% endcapture %}
   {% when 'n' %}
-    {% include notes/n.html %}
+    {% capture notes %}{% include notes/n.md %}{% endcapture %}
   {% when 'post' %}
-    {% include notes/post.html %}
+    {% capture notes %}{% include notes/post.md %}{% endcapture %}
   {% when 'mol' %}
-    {% include notes/mol.html %}
+    {% capture notes %}{% include notes/mol.md %}{% endcapture %}
   {% when 'su' %}
-    {% include notes/suis.html %}
+    {% capture notes %}{% include notes/suis.md %}{% endcapture %}
   {% when 'is' %}
-    {% include notes/suis.html %}
+    {% capture notes %}{% include notes/suis.md %}{% endcapture %}
   {% when 'd' %}
-    {% include notes/d.html %}
+    {% capture notes %}{% include notes/d.md %}{% endcapture %}
   {% when 'other' %}
-    {% include notes/other.html %}
+    {% capture notes %}{% include notes/other.md %}{% endcapture %}
   {% when 'emp' %}
-    {% include notes/empl.html %}
+    {% capture notes %}{% include notes/empl.md %}{% endcapture %}
   {% when 'empw' %}
-    {% include notes/empl.html %}
+    {% capture notes %}{% include notes/empl.md %}{% endcapture %}
   {% when 'pd' %}
-    {% include notes/empl.html %}
+    {% capture notes %}{% include notes/empl.md %}{% endcapture %}
   {% when 'fd' %}
-    {% include notes/fd.html %}
+    {% capture notes %}{% include notes/fd.md %}{% endcapture %}
   {% else %}
-    {% include notes/empl.html %}
+    {% capture notes %}{% include notes/empl.md %}{% endcapture %}
 {% endcase %}
+{{ notes | markdownify }}

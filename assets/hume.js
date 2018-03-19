@@ -41,35 +41,36 @@ const prepare = ((data, options) => {
       .replace(/<span class='marker'>(.*?)<\/span>/g, '');
   const plain = content =>
     rich(content).replace(/(<([^>]+)>)/g, '').replace(/\s\s/g, ' ').trim();
-  const plainer = content =>
-    plain(content).replace(/[.,;:?!]/g, '');
   const words = text =>
     data.blocks(text).map(x => plain(x.content).split(' ').length).reduce((y, z) => y + z, 0);
-  return { rich: rich, plain: plain, plainer: plainer, words: words };
+  return { rich: rich, plain: plain, words: words };
 })(data, options);
 
 const search = ((options, prepare) => {
-  const searchable = content =>
-    (options.get('advanced'))
-      ? prepare.plain(content)
-      : prepare.plainer(content);
   const simplify = query =>
-    prepare.plainer(query).replace(/(ct|x)ion\b/g, '(ction|xion)')
-      .replace(/\bcould\b/g, 'coul|\'d')
-      .replace(/\bshould\b/g, 'shoul|\'d')
-      .replace(/\bwould\b/g, 'woul|\'d')
-      .replace(/ied\b/g, '((ied)|(y\'d))')
+    query.replace(/[.,;:?!]/g, '')
+      .replace(/(ct|x)ion\b/g, '(ct|x)ion')
+      .replace(/\bcould\b/g, 'cou(l|\')d')
+      .replace(/\bshould\b/g, 'shou(l|\')d')
+      .replace(/\bwould\b/g, 'wou(l|\')d')
+      .replace(/ied\b/g, '(ied|y\'d)')
       .replace(/ed\b/g, '(ed|\'d)')
-      .replace(/though\b/g, 'tho((oug)|\')')
-      .replace(/\bbetw((ixt)|(een))\b/g, 'betw((ixt)|(een))')
-      .replace(/\bdispatch(t|(ed))\b/g, 'dispatch(t|(ed))')
-      .replace(/\bit ((is)|(was)|(were))\b/g, '((it $1)|(\'t$1))');
+      .replace(/though\b/g, 'tho(ugh|\')')
+      .replace(/\bbetw(ixt|een)\b/g, 'betw(ixt|een)')
+      .replace(/\bdispatch(t|ed)\b/g, 'dispatch(t|ed)')
+      .replace(/\bstop(t|ed)\b/g, 'stop(t|ed)')
+      .replace(/phenomen/g, 'ph(e|ae)nomen')
+      .replace(/ae/g, '(ae|æ)')
+      .replace(/economy/g, '(e|oe)conomy')
+      .replace(/oe/g, '(oe|œ)')
+      .replace(/\bit (is|was|were)\b/g, '(it $1|\'t$1)')
+      .replace(/\s/g, '[.,;:?!]? ');
   const regex = query =>
     options.get('advanced')
       ? new RegExp(`(${query})`, 'gi')
       : new RegExp(`(${simplify(query)})`, 'gi');
   const filter = (blocks, query) =>
-    blocks.filter(x => searchable(x.content).match(regex(query)));
+    blocks.filter(x => prepare.plain(x.content).match(regex(query)));
   return { regex: regex, filter: filter };
 })(options, prepare);
 
@@ -90,7 +91,7 @@ const display = ((data) => {
   const block = (query, block) =>
     `<div class="block">
       <div class="meta">${ref(block)}</div>
-      <div class="content ${block.type}">${prepare.rich(block.content).replace(search.regex(query), '<mark>$1</mark>')}</div>
+      <div class="content ${block.type}"><p>${prepare.plain(block.content).replace(search.regex(query), '<mark>$&</mark>')}</p></div>
     </div>`;
   const blocks = (blocks, query) =>
     blocks.map(block.bind(null, query)).join('');
@@ -120,6 +121,9 @@ const page = ((data) => {
       const blocks = data.blocks(text);
       const hits = search.filter(blocks, $('query').value);
       $('results').innerHTML = display.summary(hits, blocks) + display.blocks(hits, $('query').value);
+      Array.from($('results').querySelectorAll('a')).forEach((x) => {
+        x.addEventListener('click', (e) => { page.show('text-pane'); });
+      });
     } else {
       $('results').innerHTML = `<div class="meta"><p>Enter your query into the search box above, and press ENTER or click the search icon to see results.</p></div>`;
     }
@@ -172,7 +176,7 @@ const page = ((data) => {
       updateText();
     }
   };
-  return { init: init };
+  return { show: show, init: init };
 })(data);
 
 page.init();
