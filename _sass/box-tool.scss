@@ -35,13 +35,21 @@
     a, button, input[type='text'], label {
       padding: .25em .5em;
     }
-    input[type='text'] {
-      flex: 1;
-    }
-    button, a {
-      color: $gray;
-      &:hover, &.active {
-        color: $red;
+  }
+  .options {
+    margin: .5em 0;
+    border: 1px solid $gray;
+    .labels {
+      display: flex;
+      flex-wrap: wrap;
+      &:not(:last-child) {
+        border-bottom: 1px solid $gray;
+      }
+      label {
+        flex: 1;
+        &:not(:last-child) {
+          border-right: 1px solid $gray;
+        }
       }
     }
     input[type='checkbox'] {
@@ -51,26 +59,21 @@
       cursor: not-allowed;
       color: $gray;
     }
-    .options {
-      margin: .5em 0;
-      border: 1px solid $gray;
-      .labels {
-        display: flex;
-        flex-wrap: wrap;
-        &:not(:last-child) {
-          border-bottom: 1px solid $gray;
-        }
-        label {
-          flex: 1;
-          &:not(:last-child) {
-            border-right: 1px solid $gray;
-          }
-        }
-      }
+  }
+  .search {
+    border: 1px solid $gray;
+    display: flex;
+    input[type='text'] {
+      flex: 1;
     }
-    .search {
-      border: 1px solid $gray;
-      display: flex;
+    button, a {
+      flex-basis: 2em;
+      padding: .25em 0;
+      text-align: center;
+      color: $gray;
+      &:hover, &.active {
+        color: $red;
+      }
     }
   }
 }
@@ -79,15 +82,15 @@
   .tool {
     .box-body {
       padding: 0;
-      .search {
-        border: 0;
-      }
-      .options {
-        margin: 0;
-        border: 0;
-        .labels {
-          border-bottom: 1px solid $gray;
-        }
+    }
+    .search {
+      border: 0;
+    }
+    .options {
+      margin: 0;
+      border: 0;
+      .labels {
+        border-bottom: 1px solid $gray;
       }
     }
   }
@@ -95,14 +98,12 @@
 
 @media(min-width: $break2) {
   .tool {
-    .box-body {
-      .options {
-        display: flex;
-        .labels {
-          flex: 1;
-          &:not(:last-child) {
-            border-right: 1px solid $gray;
-          }
+    .options {
+      display: flex;
+      .labels {
+        flex: 1;
+        &:not(:last-child) {
+          border-right: 1px solid $gray;
         }
       }
     }

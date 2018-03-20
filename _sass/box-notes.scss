@@ -8,7 +8,6 @@
       display: block;
       padding: .25em .5em .125em;
       white-space: nowrap;
-      min-width: 2.25em;
       text-align: center;
       &.active, &:hover {
         background: $red;
@@ -30,22 +29,35 @@
     h3 {
       font-size: 1.125em;
     }
+    h4 {
+      margin-bottom: .5rem;
+    }
     p {
       margin-bottom: 1em;
     }
-    dl, ol, ul {
+    ol, ul {
       margin-left: 2em;
       margin-bottom: 1em;
     }
     ul ul {
       margin-bottom: .5em;
     }
-    dt {
-      float: left;
-      width: 3em;
+    li p {
+      margin-bottom: 0;
     }
-    dd {
-      margin-left: 3em;
+    table {
+      margin-bottom: 1em;
+    }
+    td {
+      vertical-align: top;
+      &:not(:last-child) {
+        padding-right: 1em;
+      }
+      .icon {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
     }
   }
 }

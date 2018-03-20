@@ -1,12 +1,23 @@
-<h2>A Treatise of Human Nature (1739-40)</h2>
-<p><em>edited by Amyas Merivale and Peter Millican</em></p>
-<p>Though relatively unsuccessful in its own time, Hume’s first publication, the <i>Treatise of Human Nature</i>, is now widely considered to be a philosophical masterpiece, and it is this work more than any other that has earned Hume his well-deserved reputation as the greatest English-speaking philosopher.</p>
-<p>The text here is taken from a scanned copy of the original edition held at Eighteenth Century Collections Online (ECCO). Departures from this copytext are of three kinds:</p>
-<ol>
-  <li>Departures common to all the texts on this site; see the Notes section of the home page.</li>
-  <li>Changes sanctioned by Hume. These include (i) changes noted in the ERRATA sheets, (ii) changes (to Volume 1) made in the Appendix to Volume 3, including several substantial additions, and (iii) written changes in Hume’s hand (the scan of Volume 3 on ECCO is of the copy held at the British Library, which contains several such changes; where these are illegible, owing to the quality of the scan, Nidditch’s textual notes to the revised Selby-Bigge edition have been consulted).</li>
-  <li>Changes not sanctioned by Hume. These have been kept to a minimum, but have been felt necessary in a few places. In the case of Volume 2, we have consulted the first edition of the <i>Dissertation on the Passions</i>; if something looked like an error, and was changed in the first edition of the <i>Dissertation</i>, we have generally gone with the <i>Dissertation</i> change. Of course all of these departures are a matter of judgement, and the reader may not agree with our judgement in every case. Since, however, all the departures are clearly documented within the text, and the unadulterated text can be reverted to at the touch of a button, we hope there is little room for complaint.</li>
-</ol>
-<p>It is thought that it will be helpful, when viewing the original version of the text, to see at a glance where Hume added new paragraphs to Book 1 (in the Appendix to Book 3). Therefore, gaps are left in the text in these places, and the paragraph number remains.</p>
-<p>There is one anomaly to be noted regarding the footnotes of the <i>Treatise</i>. Hume’s footnote markers have all been converted to numbers, for ease of reference, and the numbers here correspond to those in the Oxford Philosophical Texts edition (edited by David Fate Norton and Mary J. Norton, OUP, 2000), which leads to the first of the two complications. Norton and Norton delete a note at T&nbsp;2.2.7.6. Hume instructed that this note be replaced by note 22 (at T&nbsp;1.3.9.19) while the first two volumes of the <i>Treatise</i> were in press. We have retained both notes, but so as not to upset the numbering, the note at T&nbsp;2.2.7.6 has not been given a number; its marker remains an asterisk, as in the original. Since it is the only footnote in the <i>Treatise</i> with this marker, there is no risk of ambiguity.</p>
-<p>There is also one anomaly to be noted regarding the paragraphs of Book 1. The Appendix adds three paragraphs to the end of part 3, section 10 (T&nbsp;1.3.10.10-12). Although Hume does not specify, it seems clear from the sense that these were intended to <em>replace</em> the original final paragraph of this section, rather than supplement it. Norton and Norton agree, and therefore do not reprint this original paragraph. We have included it here (in the original, but not in the edited version of the text), and numbered it T&nbsp;1.3.10.10*.</p>
+## A Treatise of Human Nature (1739-40)
+
+_edited by Amyas Merivale and Peter Millican_
+
+Though relatively unsuccessful in its own time, Hume's first publication, the *Treatise of Human Nature*, is now widely considered to be a philosophical masterpiece, and it is this work more than any other that has earned Hume his well-deserved reputation as the greatest English-speaking philosopher.
+
+The text here is taken from a scanned copy of the original edition held at Eighteenth Century Collections Online (ECCO). Departures from this copytext are of three kinds:
+
+1. **Departures common to all the texts on this site**
+
+  See the page on [Original Versions]({{ site.baseurl }}{% link notes/original.md %}) in the [Notes]({{ site.baseurl }}{% link notes/index.md %}) section of this site.
+2. **Changes sanctioned by Hume**
+
+  These include (i) changes noted in the ERRATA sheets, (ii) changes (to Volume 1) made in the Appendix to Volume 3, including several substantial additions, and (iii) written changes in Hume's hand (the scan of Volume 3 on ECCO is of the copy held at the British Library, which contains several such changes; where these are illegible, owing to the quality of the scan, Nidditch's textual notes to the revised Selby-Bigge edition have been consulted).
+3. **Changes not sanctioned by Hume**
+
+  These have been kept to a minimum, but have been felt necessary in a few places. In the case of Volume 2, we have consulted the first edition of the *Dissertation on the Passions*; if something looked like an error, and was changed in the first edition of the *Dissertation*, we have generally gone with the *Dissertation* change. Of course all of these departures are a matter of judgement, and the reader may not agree with our judgement in every case. Since, however, all the departures are clearly documented within the text, and the unadulterated text can be reverted to at the touch of a button, we hope there is little room for complaint.
+
+It is thought that it will be helpful, when viewing the original version of the text, to see at a glance where Hume added new paragraphs to Book 1 (in the Appendix to Book 3). Therefore, gaps are left in the text in these places, and the paragraph number remains.
+
+There is one anomaly to be noted regarding the footnotes of the *Treatise*. Hume’s footnote markers have all been converted to numbers, for ease of reference, and the numbers here correspond to those in the Oxford Philosophical Texts edition (edited by David Fate Norton and Mary J. Norton, OUP, 2000), which leads to the first of the two complications. Norton and Norton delete a note at T&nbsp;2.2.7.6. Hume instructed that this note be replaced by note 22 (at T&nbsp;1.3.9.19) while the first two volumes of the *Treatise* were in press. We have retained both notes, but so as not to upset the numbering, the note at T&nbsp;2.2.7.6 has not been given a number; its marker remains an asterisk, as in the original. Since it is the only footnote in the *Treatise* with this marker, there is no risk of ambiguity.
+
+There is also one anomaly to be noted regarding the paragraphs of Book 1. The Appendix adds three paragraphs to the end of part 3, section 10 (T&nbsp;1.3.10.10-12). Although Hume does not specify, it seems clear from the sense that these were intended to _replace_ the original final paragraph of this section, rather than supplement it. Norton and Norton agree, and therefore do not reprint this original paragraph. We have included it here (in the original, but not in the edited version of the text), and numbered it T&nbsp;1.3.10.10*.

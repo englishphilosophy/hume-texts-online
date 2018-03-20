@@ -55,6 +55,10 @@ sup {
   top: -.5em;
 }
 
+table {
+  border-collapse: collapse;
+}
+
 @media(min-width: $break1) {
   body {
     background: $lightgray;
