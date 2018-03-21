@@ -19,12 +19,12 @@
 {% endfor %}
 {% if text.notes %}
   <hr>
-  {% for note in text.notes %}
-    <div class="block" id="n{{ note.id }}">
-      <div class="meta">
-        {{ text.label | append: '.' | append: 'n' | append: note.id | replace_first: '.', ' ' }}{% if note.pages %}, {{ text.pages }} {{ note.pages }}{% endif %}
-      </div>
-      <div class="content note">{{ note.content | replace_first: '<p>', '' | prepend: '. ' | prepend: note.id | prepend: '<p>' }}</div>
-    </div>
-  {% endfor %}
 {% endif %}
+{% for note in text.notes %}
+  <div class="block" id="n{{ note.id }}">
+    <div class="meta">
+      {{ text.label | append: '.' | append: 'n' | append: note.id | replace_first: '.', ' ' }}{% if note.pages %}, {{ text.pages }} {{ note.pages }}{% endif %}
+    </div>
+    <div class="content note">{{ note.content | replace_first: '<p>', '' | prepend: '. ' | prepend: note.id | prepend: '<p>' }}</div>
+  </div>
+{% endfor %}
