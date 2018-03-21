@@ -237,7 +237,7 @@ notes:
   -
     id: "21"
     symbol: "*"
-    content: "<p>“Decentior equus cujus astricta sunt ilia; sed idem velocior. Pulcher aspectu sit athleta, cujus lacertos execitatio expressit; idem certamini paratior. Nunquam enim <em>species</em> ab <em>utilitate</em> dividitur. Sed hoc quidem discernere modici judicii est.” <b>Quintilian</b>, Inst. lib. viii. cap. 3.</p>"
+    content: "<p><q>Decentior equus cujus astricta sunt ilia; sed idem velocior. Pulcher aspectu sit athleta, cujus lacertos execitatio expressit; idem certamini paratior. Nunquam enim <em>species</em> ab <em>utilitate</em> dividitur. Sed hoc quidem discernere modici judicii est.</q> <b>Quintilian</b>, Inst. lib. viii. cap. 3.</p>"
   -
     id: "22"
     symbol: "†"

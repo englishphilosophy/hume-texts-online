@@ -52,3 +52,12 @@ paragraphs:
     id: "10"
     pages: ""
     content: "<p><SBN#33><b>These</b> consequences we may carry one step farther, and conclude that all the pretended demonstrations for the infinite divisibility of extension are equally sophistical; since 'tis certain these demonstrations cannot be just without proving the impossibility of mathematical points; which 'tis an evident absurdity to pretend to.</p>"
+notes:
+  -
+    id: "6"
+    symbol: "*"
+    content: "<p>It has been objected to me, that infinite divisibility supposes only an infinite number of <em>proportional</em> not of <em>aliquot</em> parts, and that an infinite number of proportional parts does not form an infinite extension. But this distinction is entirely frivolous. Whether these parts be call'd <em>aliquot</em> or <em>proportional</em>, they cannot be inferior to those minute parts we conceive; and therefore cannot form a less extension by their conjunction.</p>"
+  -
+    id: "7"
+    symbol: "†"
+    content: "<p>Mons. <em>Malezieu</em>.</p>"

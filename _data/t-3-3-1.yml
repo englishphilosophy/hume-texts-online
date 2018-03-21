@@ -136,3 +136,8 @@ paragraphs:
     id: "31"
     pages: ""
     content: "<p><b>As</b> to the good or ill desert of virtue or vice, 'tis an evident consequence of the sentiments of pleasure or uneasiness. These sentiments produce love or hatred; and love or hatred, by the original constitution of human passion, is attended with benevolence or anger; that is, with a desire of making happy the person we love, and miserable the person we hate. We have treated of this more fully on another occasion.</p>"
+notes:
+  -
+    id: "83"
+    symbol: "a"
+    content: "<p>Decentior equus cujus astricta sunt ilia; sed idem velocior. Pulcher aspectu sit athleta, cujus lacertos exercitatio expressit; idem certamini paratior. Nunquam vero <em>species</em> ab <em>utilitate</em> dividitur. Sed hoc quidem discernere, modici judicii est. <br><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span><em>Quinct.</em> lib. 8.</p>"

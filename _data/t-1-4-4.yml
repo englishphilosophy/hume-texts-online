@@ -72,3 +72,8 @@ paragraphs:
     id: "15"
     pages: ""
     content: "<p><b>Thus</b> there is a direct and total opposition betwixt our reason and our senses; or more properly speaking, betwixt those conclusions we form from cause and effect, and those that persuade us of the continu'd and independent existence of body. When we reason from cause and effect, we conclude, that neither colour, sound, taste, nor smell have a continu'd and independent existence. When we exclude these sensible qualities there remains nothing in the universe, which has such an existence.</p>"
+notes:
+  -
+    id: "42"
+    symbol: "*"
+    content: "<p>Part II. Sect. 4.</p>"

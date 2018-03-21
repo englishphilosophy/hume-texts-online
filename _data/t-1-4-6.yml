@@ -104,3 +104,8 @@ paragraphs:
     id: "23"
     pages: ""
     content: "<p><b>Thus</b> we have finish'd our examination of the several systems of philosophy, both of the intellectual and <del>moral</del><ins title='originally 'moral'; Appendix change (N.B. the Appendix points to line 5 of page 447, where the word 'moral' does not appear; this is line 5 of page 457)'>natural</ins> world; and in our miscellaneous way of reasoning have been led into several topics; which will either illustrate and confirm some preceding part of this discourse, or prepare the way for our following opinions. 'Tis now time to return to a more close examination of our subject, and to proceed in the accurate anatomy of human nature, having fully explain'd the nature of our judgment and understanding.</p>"
+notes:
+  -
+    id: "50"
+    symbol: "*"
+    content: "<p>If the reader is desirous to see how a great genius may be influenc'd by these seemingly trivial principles of the imagination, as well as the mere vulgar, let him read my Lord <em>Shaftsbury</em>'s reasonings concerning the uniting principle of the universe, and the identity of plants and animals. See his <em>Moralists:</em> or, <em>Philosophical rhapsody</em>.</p>"

@@ -80,3 +80,12 @@ paragraphs:
     id: "17"
     pages: ""
     content: "<p><b>The</b> same reasoning will prove, that the indivisible moments of time must be fill'd with some real object or existence, whose succession forms the duration, and makes it be conceivable by the mind.</p>"
+notes:
+  -
+    id: "8"
+    symbol: "*"
+    content: "<p>Mr. <em>Locke</em>.</p>"
+  -
+    id: "9"
+    symbol: "*"
+    content: "<p>Sect. 5.</p>"

@@ -48,3 +48,16 @@ paragraphs:
     id: "9"
     pages: ""
     content: "<p><b>Since</b> it is not from knowledge or any scientific reasoning, that we derive the opinion of the necessity of a cause to every new production, that opinion must necessarily arise from observation and experience. The next question, then, shou'd naturally be, <em>how experience gives rise to such a principle?</em> But as I find it will be more convenient to sink this question in the following, <em>Why we conclude, that such particular causes must necessarily have such particular effects, and why we form an inference from one to another?</em> we shall make that the subject of our future enquiry. 'Twill, perhaps, be found in the end, that the same answer will serve for both questions.</p>"
+notes:
+  -
+    id: "17"
+    symbol: "*"
+    content: "<p>Mr. <em>Hobbes</em>.</p>"
+  -
+    id: "18"
+    symbol: "*"
+    content: "<p>Dr. <em>Clarke</em> and others.</p>"
+  -
+    id: "19"
+    symbol: "*"
+    content: "<p>Mr. <em>Locke</em>.</p>"

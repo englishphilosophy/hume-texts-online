@@ -124,3 +124,29 @@ paragraphs:
     id: "28"
     pages: ""
     content: "<p><b>Such</b> an exception as this is, therefore, rather a confirmation of the rule. And indeed, if we consider all the eight experiments I have explain'd, we shall find that the same principle <SBN#347>appears in all of them, and that 'tis by means of a transition arising from a double relation of impressions and ideas, pride and humility, love and hatred are produc'd. An object without<sup><a href='#n60'>[60]</a></sup> a relation, or<sup><a href='#n61'>[61]</a></sup> with but one, never produces either of these passions; and 'tis<sup><a href='#n62'>[62]</a></sup> found that the passion always varies in conformity to the relation. Nay we may observe, that where the relation, by any particular circumstance, has not its usual effect of producing a transition either of<sup><a href='#n63'>[63]</a></sup> ideas or of impressions, it ceases to operate upon the passions, and gives rise neither to pride nor love, humility nor hatred. This rule we find still to hold good<sup><a href='#n64'>[64]</a></sup>, even under the appearance of its contrary; and as relation is frequently experienc'd to have no effect; which upon examination is found to proceed from some particular circumstance, that prevents the transition; so even in instances, where that circumstance, tho' present, prevents not the transition, 'tis found to arise from some other circumstance, which counter-ballances it. Thus not only the variations resolve themselves into the general principle, but even the variations of these variations.</p>"
+notes:
+  -
+    id: "60"
+    pages: ""
+    symbol: "*"
+    content: "<p>First Experiment.</p>"
+  -
+    id: "61"
+    pages: ""
+    symbol: "†"
+    content: "<p>Second and Third Experiments.</p>"
+  -
+    id: "62"
+    pages: ""
+    symbol: "‡"
+    content: "<p>Fourth Experiment.</p>"
+  -
+    id: "63"
+    pages: ""
+    symbol: "<b></b>"
+    content: "<p>Sixth Experiment.</p>"
+  -
+    id: "64"
+    pages: ""
+    symbol: "††"
+    content: "<p>Seventh and Eighth Experiments.</p>"

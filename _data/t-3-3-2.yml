@@ -59,7 +59,7 @@ paragraphs:
   -
     id: "12"
     pages: ""
-    content: "<p><b>If</b> we pass from common life and conversation to history, this reasoning acquires new force, when we observe, that all those great actions and sentiments, which have become the admiration of mankind, are founded on nothing but pride and self-esteem. <em>Go</em>, says <em>Alexander</em> the Great to his soldiers, when they refus'd to follow him to the <em>Indies</em>, <em>go tell your countrymen, that you left Alexander compleating the conquest of the world</em>. This passage was always particularly admir'd by the prince of <em>Conde</em>, as we learn from <em>St. Evremond</em>. “<em>Alexander</em>,” said that prince, “abandon'd by his soldiers, among barbarians, not yet fully subdu'd, felt in himself such a dignity and right of empire, that he cou'd not believe it possible any one cou'd refuse to obey him. Whether in <em>Europe</em> or in <em>Asia</em>, among <em>Greeks</em> or <em>Persians</em>, all was indifferent to him: Wherever he found men, he fancied he had found subjects.”</p>"
+    content: "<p><b>If</b> we pass from common life and conversation to history, this reasoning acquires new force, when we observe, that all those great actions and sentiments, which have become the admiration of mankind, are founded on nothing but pride and self-esteem. <em>Go</em>, says <em>Alexander</em> the Great to his soldiers, when they refus'd to follow him to the <em>Indies</em>, <em>go tell your countrymen, that you left Alexander compleating the conquest of the world</em>. This passage was always particularly admir'd by the prince of <em>Conde</em>, as we learn from <em>St. Evremond</em>. <q><em>Alexander</em>,</q> said that prince, <q>abandon'd by his soldiers, among barbarians, not yet fully subdu'd, felt in himself such a dignity and right of empire, that he cou'd not believe it possible any one cou'd refuse to obey him. Whether in <em>Europe</em> or in <em>Asia</em>, among <em>Greeks</em> or <em>Persians</em>, all was indifferent to him: Wherever he found men, he fancied he had found subjects.</q></p>"
   -
     id: "13"
     pages: ""
@@ -80,3 +80,20 @@ paragraphs:
     id: "17"
     pages: ""
     content: "<p><b>No</b> one, who duly considers of this matter, will make any scruple of allowing, that any piece of ill-breeding, or any expression of pride and haughtiness, is displeasing to us, merely because it shocks our own pride, and leads us by sympathy into a comparison, which causes the disagreeable passion of humility. Now as an insolence of this kind is blam'd even in a person who has always been civil to ourselves in particular; nay, in one, whose name is only known to us in history; it follows, that our disapprobation proceeds from a sympathy with others, and from the reflection, that such a character is highly displeasing and odious to every <SBN#602>one, who converses or has any intercourse with the person possest of it. We sympathize with those people in their uneasiness; and as their uneasiness proceeds in part from a sympathy with the person who insults them, we may here observe a double rebound of the sympathy; which is a principle very similar to what we have observ'd on another occasion<sup><a href='#n87'>[87]</a></sup>.</p>"
+notes:
+  -
+    id: "84"
+    symbol: "a"
+    content: "<p>Book II. Part II. Sect. VIII.</p>"
+  -
+    id: "85"
+    symbol: "b"
+    content: "<p>Suave mari magno turbantibus æquora ventis <br>E terra magnum alterius spectare laborem; <br>Non quia vexari quenquam est jucunda voluptas, <br>Sed quibus ipse malis careas quia cernere suav' est. <span class='tab'></span><em>Lucret.</em></p>"
+  -
+    id: "86"
+    symbol: "c"
+    content: "<p>Book II. Part II. Sect. X.</p>"
+  -
+    id: "87"
+    symbol: "a"
+    content: "<p>Book II. Part II. Sect. V.</p>"

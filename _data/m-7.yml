@@ -35,7 +35,7 @@ paragraphs:
   -
     id: "6"
     pages: ""
-    content: "<p><em>Go!</em> cries the same hero to his soldiers, when they refused to follow him to the <b>Indies</b>, <em>go tell your countrymen, that you left</em> <b>Alexander</b> <em>compleating the conquest of the world</em>. “<b>Alexander</b>,” said the Prince of <b>Condé</b>, who always admired this passage, “abandoned by his soldiers, among Barbarians, not yet fully subdued, felt in himself such a dignity and right of empire, that he could not believe it possible, that any one would refuse to obey him. Whether in <b>Europe</b> or in <b>Asia</b>, among <b>Greeks</b> or <b>Persians</b>, all was indifferent to him: Wherever he found men, he fancied he should find subjects.”</p>"
+    content: "<p><em>Go!</em> cries the same hero to his soldiers, when they refused to follow him to the <b>Indies</b>, <em>go tell your countrymen, that you left</em> <b>Alexander</b> <em>compleating the conquest of the world</em>. <q><b>Alexander</b>,</q> said the Prince of <b>Condé</b>, who always admired this passage, <q>abandoned by his soldiers, among Barbarians, not yet fully subdued, felt in himself such a dignity and right of empire, that he could not believe it possible, that any one would refuse to obey him. Whether in <b>Europe</b> or in <b>Asia</b>, among <b>Greeks</b> or <b>Persians</b>, all was indifferent to him: Wherever he found men, he fancied he should find subjects.</q></p>"
   -
     id: "7"
     pages: ""
@@ -59,7 +59,7 @@ paragraphs:
   -
     id: "12"
     pages: ""
-    content: "<p>Under what shining colours does <b>Demosthenes</b><sup><a href='#n43'>[43]</a></sup> represent <b>Philip</b>; where the orator apologizes for his own administration, and justifies that pertinacious love of liberty, with which he had inspired the <b>Athenians</b>. “I beheld <b>Philip</b>,” says he, “he with whom was your contest, resolutely, while in pursuit of empire and dominion, exposing himself to every wound; his eye goared, his neck wrested, his arm, his thigh pierced, whatever part of his body fortune should seize on, that cheerfully relinquishing; provided that, with what remained, he might live in honour and renown. And shall it be said, that he, born in <b>Pella</b>, a place heretofore mean and ignoble, should be inspired with so high an ambition and thirst of fame: While you, <b>Athenians</b>, <em>&c.</em>” These praises excite the most lively admiration; but the views presented by the orator, carry us not, we see, beyond the hero himself, nor ever regard the future advantageous consequences of his valour.</p>"
+    content: "<p>Under what shining colours does <b>Demosthenes</b><sup><a href='#n43'>[43]</a></sup> represent <b>Philip</b>; where the orator apologizes for his own administration, and justifies that pertinacious love of liberty, with which he had inspired the <b>Athenians</b>. <q>I beheld <b>Philip</b>,</q> says he, <q>he with whom was your contest, resolutely, while in pursuit of empire and dominion, exposing himself to every wound; his eye goared, his neck wrested, his arm, his thigh pierced, whatever part of his body fortune should seize on, that cheerfully relinquishing; provided that, with what remained, he might live in honour and renown. And shall it be said, that he, born in <b>Pella</b>, a place heretofore mean and ignoble, should be inspired with so high an ambition and thirst of fame: While you, <b>Athenians</b>, <em>&c.</em></q> These praises excite the most lively admiration; but the views presented by the orator, carry us not, we see, beyond the hero himself, nor ever regard the future advantageous consequences of his valour.</p>"
   -
     id: "13"
     pages: ""
@@ -140,7 +140,7 @@ notes:
   -
     id: "36"
     symbol: "*"
-    content: "<p>“J'aime la vertu, sans rudesse; <br>J'aime le plaisir, sans molesse; <br>J'aime la vie, et n'en crains point la fin.” <span class='tab'></span>St. <b>Evremond</b>.</p>"
+    content: "<p><q>J'aime la vertu, sans rudesse; <br>J'aime le plaisir, sans molesse; <br>J'aime la vie, et n'en crains point la fin.</q> <span class='tab'></span>St. <b>Evremond</b>.</p>"
   -
     id: "37"
     symbol: "†"

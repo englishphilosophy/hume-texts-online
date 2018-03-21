@@ -135,7 +135,7 @@ paragraphs:
   -
     id: "31"
     pages: ""
-    content: "<p><b>There</b> may two definitions be given of this relation, which <SBN#170>are only different, by their presenting a different view of the same object, and making us consider it either as a <em>philosophical</em> or as a <em>natural</em> relation; either as a comparison of two ideas, or as an association betwixt them. We may define a <b>cause</b> to be “An object precedent and contiguous to another, and where all the objects resembling the former are plac'd in like relations of precedency and contiguity to those objects, that resemble the latter.” If this definition be esteem'd defective, because drawn from objects foreign to the cause, we may substitute this other definition in its place, <em>viz.</em> “A <b>cause</b> is an object precedent and contiguous to another, and so united with it, that the idea of the one determines the mind to form the idea of the other, and the impression of the one to form a more lively idea of the other.” Shou'd this definition also be rejected for the same reason, I know no other remedy, than that the persons, who express this delicacy, should substitute a juster definition in its place. But for my part I must own my incapacity for such an undertaking. When I examine with the utmost accuracy those objects, which are commonly denominated causes and effects, I find, in considering a single instance, that the one object is precedent and contiguous to the other; and in inlarging my view to consider several instances, I find only, that like objects are constantly plac'd in like relations of succession and contiguity. Again, when I consider the influence of this constant conjunction, I perceive, that such a relation can never be an object of reasoning, and can never operate upon the mind, but by means of custom, which determines the imagination to make a transition from the idea of one object to that of its usual attendant, and from the impression of one to a more lively idea of the other. However extraordinary these sentiments may appear, I think it fruitless to trouble myself with any farther enquiry or reasoning upon the subject, but shall repose myself on them as on establish'd maxims.</p>"
+    content: "<p><b>There</b> may two definitions be given of this relation, which <SBN#170>are only different, by their presenting a different view of the same object, and making us consider it either as a <em>philosophical</em> or as a <em>natural</em> relation; either as a comparison of two ideas, or as an association betwixt them. We may define a <b>cause</b> to be <q>An object precedent and contiguous to another, and where all the objects resembling the former are plac'd in like relations of precedency and contiguity to those objects, that resemble the latter.</q> If this definition be esteem'd defective, because drawn from objects foreign to the cause, we may substitute this other definition in its place, <em>viz.</em> <q>A <b>cause</b> is an object precedent and contiguous to another, and so united with it, that the idea of the one determines the mind to form the idea of the other, and the impression of the one to form a more lively idea of the other.</q> Shou'd this definition also be rejected for the same reason, I know no other remedy, than that the persons, who express this delicacy, should substitute a juster definition in its place. But for my part I must own my incapacity for such an undertaking. When I examine with the utmost accuracy those objects, which are commonly denominated causes and effects, I find, in considering a single instance, that the one object is precedent and contiguous to the other; and in inlarging my view to consider several instances, I find only, that like objects are constantly plac'd in like relations of succession and contiguity. Again, when I consider the influence of this constant conjunction, I perceive, that such a relation can never be an object of reasoning, and can never operate upon the mind, but by means of custom, which determines the imagination to make a transition from the idea of one object to that of its usual attendant, and from the impression of one to a more lively idea of the other. However extraordinary these sentiments may appear, I think it fruitless to trouble myself with any farther enquiry or reasoning upon the subject, but shall repose myself on them as on establish'd maxims.</p>"
   -
     id: "32"
     pages: ""
@@ -156,3 +156,28 @@ paragraphs:
     id: "36"
     pages: ""
     content: "<p><b>I shall</b> add as a fourth corrollary, that we can never have reason to believe that any object exists, of which we cannot form an idea. For as all our reasonings concerning existence are deriv'd from causation, and as all our reasonings concerning causation are deriv'd from the experienc'd conjunction of objects, not from any reasoning or reflection, the same experience must give us a notion of these objects, and must remove all mystery from our conclusions. This is so evident, that 'twou'd scarce have merited our attention, were it not to obviate certain objections of this kind, which might arise against the following reasonings concerning <em>matter</em> and <em>substance</em>. I need not observe, that a full knowledge of the object is not requisite, but only of those qualities of it, which we believe to exist.</p>"
+notes:
+  -
+    id: "27"
+    symbol: "*"
+    content: "<p>Sect. 2.</p>"
+  -
+    id: "28"
+    symbol: "*"
+    content: "<p>See Mr. <em>Locke</em>; chapter of power.</p>"
+  -
+    id: "29"
+    symbol: "*"
+    content: "<p>See Father <em>Malbranche</em>, Book vi. Part 2. chap. 3. and the illustrations upon it.</p>"
+  -
+    id: "30"
+    symbol: "added"
+    content: "<p>The same imperfection attends our ideas of the Deity; but this can have no effect either on religion or morals. The order of the universe proves an omnipotent mind; that is, a mind whose will is <em>constantly attended</em> with the obedience of every creature and being. Nothing more is requisite to give a foundation to all the articles of religion, nor is it necessary we shou'd form a distinct idea of the force and energy of the supreme Being.</p>"
+  -
+    id: "31"
+    symbol: "*"
+    content: "<p>Sect. 6.</p>"
+  -
+    id: "32"
+    symbol: "*"
+    content: "<p>Part IV. Sect. 5.</p>"
