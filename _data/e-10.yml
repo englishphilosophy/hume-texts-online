@@ -7,13 +7,16 @@ title:
   - "<h1><strong>SECTION </strong>X.</h1><h2>Of <b>Miracles</b>.</h2>"
 year: "1777"
 pages: "SBN"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
     type: "first"
     pages: ""
     title: "<h3><strong>PART </strong>I.</h3>"
-    content: "<p><SBN#109><strong>T</strong>HERE is, in Dr. <b>Tillotson’s</b> writings, an argument against the <em>real presence</em>, which is as concise, and elegant, and strong as any argument can possibly be supposed against a doctrine, so little worthy of a serious refutation. It is acknowledged on all hands, says that learned prelate, that the authority, either of the scripture or of tradition, is founded merely in the testimony of the apostles, who were eye-witnesses to those miracles of our Saviour, by which he proved his divine mission. Our evidence, then, for the truth of the <em>Christian</em> religion is less than the evidence for the truth of our senses; because, even in the first authors of our religion, it was no greater; and it is evident it must diminish in passing from them to their disciples; nor can any one rest such confidence in their testimony, as in the immediate object of his senses. But a weaker evidence can never destroy a stronger; and therefore, were the doctrine of the real presence ever so clearly revealed in scripture, it were directly contrary to the rules of just reasoning to give our assent to it. It contradicts sense, though both the scripture and tradition, on which it is supposed to be built, carry not such evidence with them as sense; when they are considered merely as external evidences, and are not brought home to every one’s breast, by the immediate operation of the Holy Spirit.</p>"
+    content: "<p><SBN#109><strong>T</strong>HERE is, in Dr. <b>Tillotson's</b> writings, an argument against the <em>real presence</em>, which is as concise, and elegant, and strong as any argument can possibly be supposed against a doctrine, so little worthy of a serious refutation. It is acknowledged on all hands, says that learned prelate, that the authority, either of the scripture or of tradition, is founded merely in the testimony of the apostles, who were eye-witnesses to those miracles of our Saviour, by which he proved his divine mission. Our evidence, then, for the truth of the <em>Christian</em> religion is less than the evidence for the truth of our senses; because, even in the first authors of our religion, it was no greater; and it is evident it must diminish in passing from them to their disciples; nor can any one rest such confidence in their testimony, as in the immediate object of his senses. But a weaker evidence can never destroy a stronger; and therefore, were the doctrine of the real presence ever so clearly revealed in scripture, it were directly contrary to the rules of just reasoning to give our assent to it. It contradicts sense, though both the scripture and tradition, on which it is supposed to be built, carry not such evidence with them as sense; when they are considered merely as external evidences, and are not brought home to every one's breast, by the immediate operation of the Holy Spirit.</p>"
   -
     id: "2"
     pages: ""
@@ -102,7 +105,7 @@ paragraphs:
   -
     id: "23"
     pages: ""
-    content: "<p>The advantages are so great, of starting an imposture among an ignorant people, that, even though the delusion should be too gross to impose on the generality of them <em>(which, though seldom, is sometimes the case)</em> it has a much better chance for succeeding in remote countries, than if the first scene had been laid in a city renowned for arts and <SBN#121>knowledge. The most ignorant and barbarous of these barbarians carry the report abroad. None of their countrymen have a large correspondence, or sufficient credit and authority to contradict and beat down the delusion. Men’s inclination to the marvellous has full opportunity to display itself. And thus a story, which is universally exploded in the place where it was first started, shall pass for certain at a thousand miles distance. But had <b>Alexander</b> fixed his residence at <b>Athens</b>, the philosophers of that renowned mart of learning had immediately spread, throughout the whole <b>Roman</b> empire, their sense of the matter; which, being supported by so great authority, and displayed by all the force of reason and eloquence, had entirely opened the eyes of mankind. It is true; <b>Lucian</b>, passing by chance through <b>Paphlagonia</b>, had an opportunity of performing this good office. But, though much to be wished, it does not always happen, that every <b>Alexander</b> meets with a <b>Lucian</b>, ready to expose and detect his impostures.</p>"
+    content: "<p>The advantages are so great, of starting an imposture among an ignorant people, that, even though the delusion should be too gross to impose on the generality of them <em>(which, though seldom, is sometimes the case)</em> it has a much better chance for succeeding in remote countries, than if the first scene had been laid in a city renowned for arts and <SBN#121>knowledge. The most ignorant and barbarous of these barbarians carry the report abroad. None of their countrymen have a large correspondence, or sufficient credit and authority to contradict and beat down the delusion. Men's inclination to the marvellous has full opportunity to display itself. And thus a story, which is universally exploded in the place where it was first started, shall pass for certain at a thousand miles distance. But had <b>Alexander</b> fixed his residence at <b>Athens</b>, the philosophers of that renowned mart of learning had immediately spread, throughout the whole <b>Roman</b> empire, their sense of the matter; which, being supported by so great authority, and displayed by all the force of reason and eloquence, had entirely opened the eyes of mankind. It is true; <b>Lucian</b>, passing by chance through <b>Paphlagonia</b>, had an opportunity of performing this good office. But, though much to be wished, it does not always happen, that every <b>Alexander</b> meets with a <b>Lucian</b>, ready to expose and detect his impostures.</p>"
   -
     id: "24"
     pages: ""
@@ -138,7 +141,7 @@ paragraphs:
   -
     id: "32"
     pages: ""
-    content: "<p>I need not mention the difficulty of detecting a falsehood in any private or even public history, at the place, where it is said to happen; much more when the scene is removed to ever so small a distance. Even a court of judicature, with all the authority, accuracy, and judgment, which they can employ, find themselves often at a loss to distinguish between truth and falsehood in the most recent actions. But the matter never comes to any issue, if trusted to the common method of altercation and debate and flying rumours; especially when men’s passions have taken part on either side.</p>"
+    content: "<p>I need not mention the difficulty of detecting a falsehood in any private or even public history, at the place, where it is said to happen; much more when the scene is removed to ever so small a distance. Even a court of judicature, with all the authority, accuracy, and judgment, which they can employ, find themselves often at a loss to distinguish between truth and falsehood in the most recent actions. But the matter never comes to any issue, if trusted to the common method of altercation and debate and flying rumours; especially when men's passions have taken part on either side.</p>"
   -
     id: "33"
     pages: ""
@@ -175,3 +178,74 @@ paragraphs:
     id: "41"
     pages: ""
     content: "<p>What we have said of miracles may be applied, without any variation, to prophecies; and indeed, all prophecies are <SBN#131>real miracles, and as such only, can be admitted as proofs of any revelation. If it did not exceed the capacity of human nature to foretel future events, it would be absurd to employ any prophecy as an argument for a divine mission or authority from heaven. So that, upon the whole, we may conclude, that the <em>Christian Religion</em> not only was at first attended with miracles, but even at this day cannot be believed by any reasonable person without one. Mere reason is insufficient to convince us of its veracity: And whoever is moved by <em>Faith</em> to assent to it, is conscious of a continued miracle in his own person, which subverts all the principles of his understanding, and gives him a determination to believe what is most contrary to custom and experience.</p>"
+notes:
+  -
+    id: "21"
+    symbol: "*"
+    content: "<p><b>Plutarch</b>, in vita Catonis.</p>"
+  -
+    id: "22"
+    symbol: "†"
+    content: "<p>See NOTE [I].</p>"
+  -
+    id: "[I].1"
+    content: "<p><strong>N</strong>O INDIAN, it is evident, could have experience that water did not freeze in cold climates. This is placing nature in a situation quite unknown to him; and it is impossible for him to tell <em>à priori</em> what will result from it. It is making a new experiment, the consequence of which is always uncertain. One may sometimes conjecture from analogy what will follow; but still this is but conjecture. And it must be confessed, that, in the present case of freezing, the event follows contrary to the rules of analogy, and is such as a rational <b>Indian</b> would not look for. The operations of cold upon water are not gradual, according to the degrees of cold; but whenever it comes to the freezing point, the water passes in a moment, from the utmost liquidity to perfect hardness. Such an event, therefore, may be denominated <em>extraordinary</em>, and requires a pretty strong testimony, to render it credible to people in a warm climate: But still it is not <em>miraculous</em>, nor contrary to uniform experience of the course of nature in cases where all the circumstances are the same. The inhabitants of <b>Sumatra</b> have always seen water fluid in their own climate, and the freezing of their rivers ought to be deemed a prodigy: But they never saw water in <b>Muscovy</b> during the winter; and therefore they cannot reasonably be positive what would there be the consequence.</p>"
+  -
+    id: "23"
+    symbol: "*"
+    content: "<p>See NOTE [K].</p>"
+  -
+    id: "[K].1"
+    content: "<p><strong>S</strong>OMETIMES an event may not, <em>in itself, seem</em> to be contrary to the laws of nature, and yet, if it were real, it might, by reason of some circumstances, be denominated a miracle; because, in <em>fact</em>, it is contrary to these laws. Thus if a person, claiming a divine authority, should command a sick person to be well, a healthful man to fall down dead, the clouds to pour rain, the winds to blow, in short, should order many natural events, which immediately follow upon his command; these might justly be esteemed miracles, because they are really, in this case, contrary to the laws of nature. For if any suspicion remain, that the event and command concurred by accident, there is no miracle and no transgression of the laws of nature. If this suspicion be removed, there is evidently a miracle, and a transgression of these laws; because nothing can be more contrary to nature than that the voice or command of a man should have such an influence. A miracle may be accurately defined, <em>a transgression of a law of nature by a particular volition of the Deity, or by the interposition of some invisible agent</em>. A miracle may either be discoverable by men or not. This alters not its nature and essence. The raising of a house or ship into the air is a visible miracle. The raising of a feather, when the wind wants ever so little of a force requisite for that purpose, is as real a miracle, though not so sensible with regard to us.</p>"
+  -
+    id: "24"
+    symbol: "*"
+    content: "<p>Hist. lib. v. cap. 8. <b>Suetonius</b> gives nearly the same account <em>in vita</em> <b>Vesp</b>.</p>"
+  -
+    id: "25"
+    symbol: "*"
+    content: "<p>See NOTE [L].</p>"
+  -
+    id: "[L].1"
+    content: "<p><strong>T</strong>HIS book was writ by Mons. <b>Montgeron</b>, counsellor or judge of the parliament of <b>Paris</b>, a man of figure and character, who was also a martyr to the cause, and is now said to be somewhere in a dungeon on account of his book.</p>"
+  -
+    id: "[L].2"
+    content: "<p>There is another book in three volumes (called <em>Recueil des Miracles de l'Abbé</em> <b>Paris</b>) giving an account of many of these miracles, and accompanied with prefatory discourses, which are very well written. There runs, however, through the whole of these a ridiculous comparison between the miracles of our Saviour and those of the Abbé; wherein it is asserted, that the evidence for the latter is equal to that for the former: As if the testimony of men could ever be put in the balance with that of God himself, who conducted the pen of the inspired writers. If these writers, indeed, were to be considered merely as human testimony, the <b>French</b> author is very moderate in his comparison; since he might, with some appearance of reason, pretend, that the <b>Jansenist</b> miracles much surpass the other in evidence and authority. The following circumstances are drawn from authentic papers, inserted in the above-mentioned book.</p>"
+  -
+    id: "[L].3"
+    content: "<p>Many of the miracles of <em>Abbé</em> <b>Paris</b> were proved immediately by witnesses before the officiality or bishop's court at <b>Paris</b>, under the eye of cardinal <b>Noailles</b>, whose character for integrity and capacity was never contested even by his enemies.</p>"
+  -
+    id: "[L].4"
+    content: "<p>His successor in the archbishopric was an enemy to the <b>Jansenists</b>, and for that reason promoted to the see by the court. Yet 22 rectors or <em>cures</em> of <b>Paris</b>, with infinite earnestness, press him to examine those miracles, which they assert to be known to the whole world, and undisputably certain: But he wisely forbore.</p>"
+  -
+    id: "[L].5"
+    content: "<p>The <b>Molinist</b> party had tried to discredit these miracles in one instance, that of Mademoiselle le <b>Franc</b>. But, besides that their proceedings were in many respects the most irregular in the world, particularly in citing only a few of the <b>Jansenist</b> witnesses, <SBN#345>whom they tampered with: Besides this, I say, they soon found themselves overwhelmed by a cloud of new witnesses, one hundred and twenty in number, most of them persons of credit and substance in <b>Paris</b>, who gave oath for the miracle. This was accompanied with a solemn and earnest appeal to the parliament. But the parliament were forbidden by authority to meddle in the affair. It was at last observed, that where men are heated by zeal and enthusiasm, there is no degree of human testimony so strong as may not be procured for the greatest absurdity: And those who will be so silly as to examine the affair by that medium, and seek particular flaws in the testimony, are almost sure to be confounded. It must be a miserable imposture, indeed, that does not prevail in that contest.</p>"
+  -
+    id: "[L].6"
+    content: "<p>All who have been in <b>France</b> about that time have heard of the reputation of Mons. <b>Heraut</b>, the <em>lieutenant de Police</em>, whose vigilance, penetration, activity, and extensive intelligence have been much talked of. This magistrate, who by the nature of his office is almost absolute, was invested with full powers, on purpose to suppress or discredit these miracles; and he frequently seized immediately, and examined the witnesses and subjects of them: But never could reach any thing satisfactory against them.</p>"
+  -
+    id: "[L].7"
+    content: "<p>In the case of Mademoiselle <b>Thibaut</b> he sent the famous <b>De Sylva</b> to examine her; whose evidence is very curious. The physician declares, that it was impossible she could have been so ill as was proved by witnesses; because it was impossible she could, in so short a time, have recovered so perfectly as he found her. He reasoned, like a man of sense, from natural causes; but the opposite party told him, that the whole was a miracle, and that his evidence was the very best proof of it.</p>"
+  -
+    id: "[L].8"
+    content: "<p>The <b>Molinists</b> were in a sad dilemma. They durst not assert the absolute insufficiency of human evidence, to prove a miracle. They were obliged to say, that these miracles were wrought by witchcraft and the devil. But they were told, that this was the resource of the <b>Jews</b> of old.</p>"
+  -
+    id: "[L].9"
+    content: "<p>No <b>Jansenist</b> was ever embarrassed to account for the cessation of the miracles, when the church-yard was shut up by the king's edict. It was the touch of the tomb, which produced these extraordinary effects; and when no one could approach the tomb, no effects could be expected. God, indeed, could have thrown down the walls in a moment; but he is master of his own graces and works, and it belongs not to us to account <SBN#346>for them. He did not throw down the walls of every city like those of <b>Jericho</b>, on the sounding of the rams horns, nor break up the prison of every apostle, like that of St. <b>Paul</b>.</p>"
+  -
+    id: "[L].10"
+    content: "<p>No less a man, than the Duc de <b>Chatillon</b>, a duke and peer of <b>France</b>, of the highest rank and family, gives evidence of a miraculous cure, performed upon a servant of his, who had lived several years in his house with a visible and palpable infirmity.</p>"
+  -
+    id: "[L].11"
+    content: "<p>I shall conclude with observing, that no clergy are more celebrated for strictness of life and manners than the secular clergy of <b>France</b>, particularly the rectors or curés of <b>Paris</b>, who bear testimony to these impostures.</p>"
+  -
+    id: "[L].12"
+    content: "<p>The learning, genius, and probity of the gentlemen, and the austerity of the nuns of <b>Port-Royal</b>, have been much celebrated all over <b>Europe</b>. Yet they all give evidence for a miracle, wrought on the niece of the famous <b>Pascal</b>, whose sanctity of life, as well as extraordinary capacity, is well known. The famous <b>Racine</b> gives an account of this miracle in his famous history of <b>Port Royal</b>, and fortifies it with all the proofs, which a multitude of nuns, priests, physicians, and men of the world, all of them of undoubted credit, could bestow upon it. Several men of letters, particularly the bishop of <b>Tournay</b>, thought this miracle so certain, as to employ it in the refutation of atheists and freethinkers. The queen-regent of <b>France</b>, who was extremely prejudiced against the <b>Port-Royal</b>, send her own physician to examine the miracle, who returned an absolute convert. In short, the supernatural cure was so uncontestable, that it saved, for a time, that famous monastery from the ruin with which it was threatened by the <b>Jesuits</b>. Had it been a cheat, it had certainly been detected by such sagacious and powerful antagonists, and must have hastened the ruin of the contrivers. Our divines, who can build up a formidable castle from such despicable materials; what a prodigious fabric could they have reared from these and many other circumstances, which I have not mentioned! How often would the great names of <b>Pascal</b>, <b>Racine</b>, <b>Arnaud</b>, <b>Nicole</b>, have resounded in our ears? But if they be wise, they had better adopt the miracle, as being more worth, a thousand times, than all the rest of their collection. Besides, it may serve very much to their purpose. For that miracle was really performed by the touch of an authentic holy prickle of the holy thorn, which composed the holy crown, which, <em>&c</em>.</p>"
+  -
+    id: "26"
+    symbol: "*"
+    content: "<p><b>Lucret</b>.</p>"
+  -
+    id: "27"
+    symbol: "*"
+    content: "<p>Nov. Org. lib. ii. aph. 29.</p>"

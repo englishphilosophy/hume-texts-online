@@ -7,6 +7,9 @@ title:
   - "<h1><b>Sect. VI.</b> <em>Origin of Theism from Polytheism.</em></h1>"
 year: "1777"
 pages: "Bea"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -27,7 +30,7 @@ paragraphs:
   -
     id: "5"
     pages: "53-4"
-    content: "<p>It may readily happen, in an idolatrous nation, that though men admit the existence of several limited deities, yet is there some one God, whom, in a particular manner, they make the object of their worship and adoration. They may either suppose, that, in the distribution of power and territory among the gods, their nation was subjected to the jurisdiction of that particular deity; or reducing heavenly objects to the model of things below, they may represent one god as the prince or supreme magistrate of the rest, who, though of the same nature, rules them with an authority, like that which an earthly sovereign exercises over his subjects and vassals. Whether this god, therefore, be considered as their peculiar patron, or as the general sovereign of heaven, his votaries will endeavour, by every art, to insinuate themselves into his favour; and supposing him to be pleased, like themselves, with praise and flattery, there is no eulogy or exaggeration, which will be spared in their addresses to him. In proportion as men’s fears or distresses become more urgent, they still invent new strains of adulation; and even he who outdoes his predecessor in swelling up the titles of his divinity, is sure to be outdone by his successor in newer and more pompous epithets of praise. Thus they proceed; till at last they arrive at infinity itself, beyond which there is no farther progress: And it is well, if, in striving to get farther, and to represent a magnificent simplicity, they run not into inexplicable mystery, and destroy the intelligent nature of their deity, on <span class='page-break'>|</span>which alone any rational worship or adoration can be founded. While they confine themselves to the notion of a perfect being, the creator of the world, they coincide, by chance, with the principles of reason and true philosophy; though they are guided to that notion, not by reason, of which they are in a great measure incapable, but by the adulation and fears of the most vulgar superstition.</p>"
+    content: "<p>It may readily happen, in an idolatrous nation, that though men admit the existence of several limited deities, yet is there some one God, whom, in a particular manner, they make the object of their worship and adoration. They may either suppose, that, in the distribution of power and territory among the gods, their nation was subjected to the jurisdiction of that particular deity; or reducing heavenly objects to the model of things below, they may represent one god as the prince or supreme magistrate of the rest, who, though of the same nature, rules them with an authority, like that which an earthly sovereign exercises over his subjects and vassals. Whether this god, therefore, be considered as their peculiar patron, or as the general sovereign of heaven, his votaries will endeavour, by every art, to insinuate themselves into his favour; and supposing him to be pleased, like themselves, with praise and flattery, there is no eulogy or exaggeration, which will be spared in their addresses to him. In proportion as men's fears or distresses become more urgent, they still invent new strains of adulation; and even he who outdoes his predecessor in swelling up the titles of his divinity, is sure to be outdone by his successor in newer and more pompous epithets of praise. Thus they proceed; till at last they arrive at infinity itself, beyond which there is no farther progress: And it is well, if, in striving to get farther, and to represent a magnificent simplicity, they run not into inexplicable mystery, and destroy the intelligent nature of their deity, on <span class='page-break'>|</span>which alone any rational worship or adoration can be founded. While they confine themselves to the notion of a perfect being, the creator of the world, they coincide, by chance, with the principles of reason and true philosophy; though they are guided to that notion, not by reason, of which they are in a great measure incapable, but by the adulation and fears of the most vulgar superstition.</p>"
   -
     id: "6"
     pages: "54"
@@ -56,9 +59,9 @@ paragraphs:
     id: "12"
     pages: "55"
     content: "<p>Were there a religion (and we may suspect Mahometanism of this inconsistence) which sometimes painted the Deity in the most sublime colours, as the creator of heaven and earth; sometimes degraded him nearly to a level with human creatures in his powers and faculties; while at the same time it ascribed to him suitable infirmities, passions, and partialities, of the moral kind: That religion, after it was extinct, would also be cited as an instance of those contradictions, which arise from the gross, vulgar, natural conceptions of mankind, opposed to their continual propensity towards flattery and exaggeration. Nothing indeed would prove more strongly the divine origin of any religion, than to find (and happily this is the case with Christianity) that it is free from a contradiction, so incident to human nature.</p>"
+notes:
   -
-    id: "n38"
-    type: "note"
+    id: "38"
     pages: "54"
     symbol: "*"
     content: "<p>Histoire abregée, p. 499.</p>"

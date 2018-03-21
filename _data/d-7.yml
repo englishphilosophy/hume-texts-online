@@ -7,6 +7,10 @@ title:
   - "<h1><strong>PART </strong>VII.</h1>"
 year: "1779"
 pages: "KS"
+images: [49, 50, 51, 52]
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -63,7 +67,7 @@ paragraphs:
   -
     id: "14"
     pages: "179-80"
-    content: "<p>But farther, <b>Demea</b>; this objection, which you urge, can never be made use of by <b>Cleanthes</b>, without renouncing a defence, which he has already made against one of my objections. When I enquired concerning the cause of that supreme reason and intelligence, into which he resolves every thing; he told me, that the impossibility of satisfying such enquiries could never be admitted as an objection in any species of philosophy. <em>We must stop somewhere</em>, says he; <em>nor is it ever within the reach of human capacity to explain ultimate causes, or show the last connections of any objects. It is sufficient, if the steps, so far as we go, are supported by experience and observation</em>. Now, that vegetation and generation, as well as reason, are experienced to be principles of order in nature, is undeniable. If I rest my system of cosmogony on the former, preferably to the latter, ’tis at my choice. The matter seems entirely arbitrary. And when <b>Cleanthes</b> asks me what is the cause of my great vegetative or generative faculty, I am equally intitled to ask him the cause of his great reasoning principle. These questions we have agreed to forbear on both sides; and it is chiefly his interest on the present occasion to stick to this agreement. Judging by our limited and imperfect experience, generation has some privileges above <span class='page-break'>|</span>reason: For we see every day the latter arise from the former, never the former from the latter.</p>"
+    content: "<p>But farther, <b>Demea</b>; this objection, which you urge, can never be made use of by <b>Cleanthes</b>, without renouncing a defence, which he has already made against one of my objections. When I enquired concerning the cause of that supreme reason and intelligence, into which he resolves every thing; he told me, that the impossibility of satisfying such enquiries could never be admitted as an objection in any species of philosophy. <em>We must stop somewhere</em>, says he; <em>nor is it ever within the reach of human capacity to explain ultimate causes, or show the last connections of any objects. It is sufficient, if the steps, so far as we go, are supported by experience and observation</em>. Now, that vegetation and generation, as well as reason, are experienced to be principles of order in nature, is undeniable. If I rest my system of cosmogony on the former, preferably to the latter, 'tis at my choice. The matter seems entirely arbitrary. And when <b>Cleanthes</b> asks me what is the cause of my great vegetative or generative faculty, I am equally intitled to ask him the cause of his great reasoning principle. These questions we have agreed to forbear on both sides; and it is chiefly his interest on the present occasion to stick to this agreement. Judging by our limited and imperfect experience, generation has some privileges above <span class='page-break'>|</span>reason: For we see every day the latter arise from the former, never the former from the latter.</p>"
   -
     id: "15"
     pages: "180"

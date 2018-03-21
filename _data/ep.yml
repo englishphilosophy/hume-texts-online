@@ -6,12 +6,15 @@ title:
   - "<h1>The <b>Epicurean</b><sup><a href='#n1'>[1]</a></sup>.</h1>"
 year: "1742, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
     type: "first"
     pages: "138"
-    content: "<p><strong>I</strong>T is a great mortification to the vanity of man, that his utmost art and industry can never equal the meanest of nature’s productions, either for beauty or value. Art is only the under-workman, and is employed to give a few strokes of embellishment to those pieces, which come from the hand of the master. Some of the drapery may be of his drawing; but he is not allowed to touch the principal figure. Art may make a suit of clothes: But nature must produce a man.</p>"
+    content: "<p><strong>I</strong>T is a great mortification to the vanity of man, that his utmost art and industry can never equal the meanest of nature's productions, either for beauty or value. Art is only the under-workman, and is employed to give a few strokes of embellishment to those pieces, which come from the hand of the master. Some of the drapery may be of his drawing; but he is not allowed to touch the principal figure. Art may make a suit of clothes: But nature must produce a man.</p>"
   -
     id: "2"
     pages: "139"
@@ -23,7 +26,7 @@ paragraphs:
   -
     id: "4"
     pages: "139"
-    content: "<p>You pretend to make me happy by reason, and by rules of art. You must, then, create me anew by rules of art. For on my original frame and structure does my happiness depend. But you want power to effect this; and skill too, I am afraid: Nor can I entertain a less opinion of nature’s wisdom than of yours. And let her conduct the machine, which she has so wisely framed. I find, that I should only spoil it by my tampering.</p>"
+    content: "<p>You pretend to make me happy by reason, and by rules of art. You must, then, create me anew by rules of art. For on my original frame and structure does my happiness depend. But you want power to effect this; and skill too, I am afraid: Nor can I entertain a less opinion of nature's wisdom than of yours. And let her conduct the machine, which she has so wisely framed. I find, that I should only spoil it by my tampering.</p>"
   -
     id: "5"
     pages: "139-40"
@@ -43,7 +46,7 @@ paragraphs:
   -
     id: "9"
     pages: "142"
-    content: "<p>But it will not do. The roses have lost their hue: The fruit its flavour: And that delicious wine, whose fumes, so late, intoxicated all my senses with such delight, now solicits in vain the sated palate. <em>Pleasure</em> smiles at my languor. She beckons her sister, <em>Virtue</em>, to come to her assistance. The gay, the frolic <em>Virtue</em> observes the call, and brings along the whole troop of my jovial friends. Welcome, thrice welcome, my ever dear companions, to these shady bowers, and to this luxurious repast. Your presence has restored to the rose its hue, and to the fruit its flavour. The vapours of this sprightly nectar now again play around my heart; while you partake of my delights, and discover in your chearful looks, the pleasure which you receive from my happiness and satisfaction. The like do I receive from yours; and encouraged by your joyous presence, shall again renew the feast, with which, from too much enjoyment, my senses were well nigh sated; while the mind kept not pace with the body, nor afforded relief to her o’erburthened partner.</p>"
+    content: "<p>But it will not do. The roses have lost their hue: The fruit its flavour: And that delicious wine, whose fumes, so late, intoxicated all my senses with such delight, now solicits in vain the sated palate. <em>Pleasure</em> smiles at my languor. She beckons her sister, <em>Virtue</em>, to come to her assistance. The gay, the frolic <em>Virtue</em> observes the call, and brings along the whole troop of my jovial friends. Welcome, thrice welcome, my ever dear companions, to these shady bowers, and to this luxurious repast. Your presence has restored to the rose its hue, and to the fruit its flavour. The vapours of this sprightly nectar now again play around my heart; while you partake of my delights, and discover in your chearful looks, the pleasure which you receive from my happiness and satisfaction. The like do I receive from yours; and encouraged by your joyous presence, shall again renew the feast, with which, from too much enjoyment, my senses were well nigh sated; while the mind kept not pace with the body, nor afforded relief to her o'erburthened partner.</p>"
   -
     id: "10"
     pages: "142"
@@ -72,21 +75,19 @@ paragraphs:
     id: "16"
     pages: "144-5"
     content: "<p>But why does your bosom heave with these sighs, while tears bathe your glowing cheeks? Why distract your heart with <span class='page-break'>|</span>such vain anxieties? Why so often ask me, <em>How long my love shall yet endure</em>? Alas, my <b>Cælia</b>, can I resolve this question? <em>Do I know how long my life shall yet endure?</em> But does this also disturb your tender breast? And is the image of our frail mortality for ever present with you, to throw a damp on your gayest hours, and poison even those joys which love inspires? Consider rather, that if life be frail, if youth be transitory, we should well employ the present moment, and lose no part of so perishable an existence. Yet a little moment and <em>these</em> shall be no more. We shall be, as if we had never been. Not a memory of us be left upon earth; and even the fabulous shades below will not afford us a habitation. Our fruitless anxieties, our vain projects, our uncertain speculations shall all be swallowed up and lost. Our present doubts, concerning the original cause of all things, must never, alas! be resolved. This alone we may be certain of, that, if any governing mind preside, he must be pleased to see us fulfil the ends of our being, and enjoy that pleasure, for which alone we were created. Let this reflection give ease to your anxious thoughts; but render not your joys too serious, by dwelling for ever upon it. It is sufficient, once, to be acquainted with this philosophy, in order to give an unbounded loose to love and jollity, and remove all the scruples of a vain superstition: But while youth and passion, my fair one, prompt our eager desires, we must find gayer subjects of discourse, to intermix with these amorous caresses.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "138"
     symbol: "*"
     content: "<p><b>Or</b>, <em>The man of elegance and pleasure</em><del>,</del><ins title='originally a comma; there is a full-stop here in earlier versions, and the change here is presumably an error'>.</ins> The intention of this and the three following essays is not so much to explain accurately the sentiments of the ancient sects of philosophy, as to deliver the sentiments of sects, that naturally form themselves in the world, and entertain different ideas of human life and of happiness. I have given each of them the name of the philosophical sect, to which it bears the greatest affinity.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "141"
     symbol: "*"
     content: "<p><em>Dia Voluptas</em>. <b>Lucret.</b></p>"
   -
-    id: "n3"
-    type: "note"
+    id: "3"
     pages: "143"
     symbol: "*"
-    content: "<p>An imitation of the <b>Syrens</b> song in <b>Tasso</b>. <br>“O Giovinetti, mentre <b>Aprile</b> & <b>Maggio</b> <br>V’ ammantan di fiorité & verde spoglie,” &c. <br><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span>Giuresalemme liberata, <em>Canto</em> 14.</p>"
+    content: "<p>An imitation of the <b>Syrens</b> song in <b>Tasso</b>. <br>“O Giovinetti, mentre <b>Aprile</b> & <b>Maggio</b> <br>V' ammantan di fiorité & verde spoglie,” &c. <br><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span>Giuresalemme liberata, <em>Canto</em> 14.</p>"

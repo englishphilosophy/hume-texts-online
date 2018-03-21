@@ -6,6 +6,9 @@ title:
   - "<h1>The <b>Platonist</b><sup><a href='#n1'>[1]</a></sup>.</h1>"
 year: "1742, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -36,9 +39,9 @@ paragraphs:
     id: "7"
     pages: "158"
     content: "<p>The most perfect happiness, surely, must arise from the contemplation of the most perfect object. But what more perfect than beauty and virtue? And where is beauty to be found equal to that of the universe? Or virtue, which can be compared to the benevolence and justice of the Deity? If aught can diminish the pleasure of this contemplation, it must be either the narrowness of our faculties, which conceals from us the greatest part of these beauties and perfections; or the shortness of our lives, which allows not time sufficient to instruct us in them. But it is our comfort, that, if we employ worthily the faculties here assigned us, they will be enlarged in another state of existence, so as to render us more suitable worshippers of our maker: And that the task, which can never be finished in time, will be the business of an eternity.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "155"
     symbol: "†"
     content: "<p>Or, the man of contemplation, and <em>philosophical</em> devotion.</p>"

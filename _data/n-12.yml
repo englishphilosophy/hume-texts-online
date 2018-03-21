@@ -7,6 +7,9 @@ title:
   - "<h1><b>Sect. XII.</b> <em>With regard to Doubt or Conviction.</em></h1>"
 year: "1777"
 pages: "Bea"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -23,7 +26,7 @@ paragraphs:
   -
     id: "4"
     pages: "67-8"
-    content: "<p>A famous general, at that time in the <b>Muscovite</b> service, having come to <b>Paris</b> for the recovery of his wounds, brought along with him a young <b>Turk</b>, whom he had taken prisoner. Some of the doctors of the <b>Sorbonne</b> (who are altogether as positive as the dervises of <b>Constantinople</b>) thinking <span class='page-break'>|</span>it a pity, that the poor <b>Turk</b> should be damned for want of instruction, solicited <b>Mustapha</b> very hard to turn Christian, and promised him, for his encouragement, plenty of good wine in this world, and paradise in the next. These allurements were too powerful to be resisted; and therefore, having been well instructed and catechized, he at last agreed to receive the sacraments of baptism and the Lord’s supper. The priest, however, to make every thing sure and solid, still continued his instructions; and began the next day with the usual question, <em>How many Gods are there?</em> <em>None at all,</em> replies <b>Benedict</b>; for that was his new name. <em>How! None at all!</em> cries the priest. <em>To be sure,</em> said the honest proselyte. <em>You have told me all along that there is but one God: And yesterday I eat him.</em></p>"
+    content: "<p>A famous general, at that time in the <b>Muscovite</b> service, having come to <b>Paris</b> for the recovery of his wounds, brought along with him a young <b>Turk</b>, whom he had taken prisoner. Some of the doctors of the <b>Sorbonne</b> (who are altogether as positive as the dervises of <b>Constantinople</b>) thinking <span class='page-break'>|</span>it a pity, that the poor <b>Turk</b> should be damned for want of instruction, solicited <b>Mustapha</b> very hard to turn Christian, and promised him, for his encouragement, plenty of good wine in this world, and paradise in the next. These allurements were too powerful to be resisted; and therefore, having been well instructed and catechized, he at last agreed to receive the sacraments of baptism and the Lord's supper. The priest, however, to make every thing sure and solid, still continued his instructions; and began the next day with the usual question, <em>How many Gods are there?</em> <em>None at all,</em> replies <b>Benedict</b>; for that was his new name. <em>How! None at all!</em> cries the priest. <em>To be sure,</em> said the honest proselyte. <em>You have told me all along that there is but one God: And yesterday I eat him.</em></p>"
   -
     id: "5"
     pages: "68"
@@ -35,7 +38,7 @@ paragraphs:
   -
     id: "7"
     pages: "68-9"
-    content: "<p>How can you worship leeks and onions? we shall suppose a <b>Sorbonnist</b> to say to a priest of <b>Sais</b>. If we worship them, replies the latter; at least, we do not, at the same time, eat them. But what strange objects of adoration are cats and monkies? says the learned doctor. They are at least as good as the relics or rotten bones of martyrs, answers his no less learned antagonist. Are you not mad, insists the Catholic, to cut one another’s throat about the preference of a <span class='page-break'>|</span>cabbage or a cucumber? Yes, says the pagan; I allow it, if you will confess, that those are still madder, who fight about the preference among volumes of sophistry, ten thousand of which are not equal in value to one cabbage or cucumber<sup><a href='#n58'>[58]</a></sup>.</p>"
+    content: "<p>How can you worship leeks and onions? we shall suppose a <b>Sorbonnist</b> to say to a priest of <b>Sais</b>. If we worship them, replies the latter; at least, we do not, at the same time, eat them. But what strange objects of adoration are cats and monkies? says the learned doctor. They are at least as good as the relics or rotten bones of martyrs, answers his no less learned antagonist. Are you not mad, insists the Catholic, to cut one another's throat about the preference of a <span class='page-break'>|</span>cabbage or a cucumber? Yes, says the pagan; I allow it, if you will confess, that those are still madder, who fight about the preference among volumes of sophistry, ten thousand of which are not equal in value to one cabbage or cucumber<sup><a href='#n58'>[58]</a></sup>.</p>"
   -
     id: "8"
     pages: "69"
@@ -43,7 +46,7 @@ paragraphs:
   -
     id: "9"
     pages: "70"
-    content: "<p>Notwithstanding the sanctity of our holy religion, says <b>Tully</b><sup><a href='#n61'>[61]</a></sup>, no crime is more common with us than sacrilege: But was it ever heard of, that an <b>Egyptian</b> violated the temple of a cat, an ibis, or a crocodile? There is no torture, an <b>Egyptian</b> would not undergo, says the same author in another place<sup><a href='#n62'>[62]</a></sup>, rather than injure an ibis, an aspic, a cat, a dog, or a crocodile. Thus it is strictly true, what <b>Dryden</b> observes, <blockquote>“Of whatsoe’er descent their godhead be,<br>“Stock, stone, or other homely pedigree,<br>“In his defence his servants are as bold,<br>“As if he had been born of beaten gold.”<br><span class='tab'></span><span class='tab'></span><span class='tab'></span><b>Absolom</b> and <b>Achitophel.</b></blockquote> Nay, the baser the materials are, of which the divinity is composed, the greater devotion is he likely to excite in the breasts of his deluded votaries. They exult in their shame, and make a merit with their deity, in braving, for his sake, all the ridicule and contumely of his enemies. Ten thousand Crusaders inlist themselves under the holy banners; and even openly triumph in those parts of their religion, which their adversaries regard as the most reproachful.</p>"
+    content: "<p>Notwithstanding the sanctity of our holy religion, says <b>Tully</b><sup><a href='#n61'>[61]</a></sup>, no crime is more common with us than sacrilege: But was it ever heard of, that an <b>Egyptian</b> violated the temple of a cat, an ibis, or a crocodile? There is no torture, an <b>Egyptian</b> would not undergo, says the same author in another place<sup><a href='#n62'>[62]</a></sup>, rather than injure an ibis, an aspic, a cat, a dog, or a crocodile. Thus it is strictly true, what <b>Dryden</b> observes, <blockquote>“Of whatsoe'er descent their godhead be,<br>“Stock, stone, or other homely pedigree,<br>“In his defence his servants are as bold,<br>“As if he had been born of beaten gold.”<br><span class='tab'></span><span class='tab'></span><span class='tab'></span><b>Absolom</b> and <b>Achitophel.</b></blockquote> Nay, the baser the materials are, of which the divinity is composed, the greater devotion is he likely to excite in the breasts of his deluded votaries. They exult in their shame, and make a merit with their deity, in braving, for his sake, all the ridicule and contumely of his enemies. Ten thousand Crusaders inlist themselves under the holy banners; and even openly triumph in those parts of their religion, which their adversaries regard as the most reproachful.</p>"
   -
     id: "10"
     pages: "70"
@@ -63,11 +66,11 @@ paragraphs:
   -
     id: "14"
     pages: "71"
-    content: "<p><b>Pompey</b>’s devotion was much more sincere: In all his conduct, during the civil wars, he paid a great regard to auguries, dreams, and prophesies<sup><a href='#n67'>[67]</a></sup>. <b>Augustus</b> was tainted with superstition of every kind. As it is reported of <b>Milton</b>, that his poetical genius never flowed with ease and abundance in the spring; so <b>Augustus</b> observed, that his own genius for dreaming never was so perfect during that season, nor was so much to be relied on, as during the rest of the year. That great and able emperor was also extremely uneasy, when he happened to change his shoes, and put the right foot shoe on the left foot<sup><a href='#n68'>[68]</a></sup>. In short it cannot be doubted, but the votaries of the established superstition of antiquity were as numerous in every state, as those of the modern religion are at present. Its influence was as universal; though it was not so great. As many people gave their assent to it; though that assent was not seemingly so strong, precise, and affirmative.</p>"
+    content: "<p><b>Pompey</b>'s devotion was much more sincere: In all his conduct, during the civil wars, he paid a great regard to auguries, dreams, and prophesies<sup><a href='#n67'>[67]</a></sup>. <b>Augustus</b> was tainted with superstition of every kind. As it is reported of <b>Milton</b>, that his poetical genius never flowed with ease and abundance in the spring; so <b>Augustus</b> observed, that his own genius for dreaming never was so perfect during that season, nor was so much to be relied on, as during the rest of the year. That great and able emperor was also extremely uneasy, when he happened to change his shoes, and put the right foot shoe on the left foot<sup><a href='#n68'>[68]</a></sup>. In short it cannot be doubted, but the votaries of the established superstition of antiquity were as numerous in every state, as those of the modern religion are at present. Its influence was as universal; though it was not so great. As many people gave their assent to it; though that assent was not seemingly so strong, precise, and affirmative.</p>"
   -
     id: "15"
     pages: "71-2"
-    content: "<p>We may observe, that, notwithstanding the dogmatical, imperious style of all superstition, the conviction of the religionists, in all ages, is more affected than real, and scarcely ever approaches, in any degree, to that solid belief and persuasion, which governs us in the common affairs of life. Men dare not avow, even to their own hearts, the doubts which they entertain on such <span class='page-break'>|</span>subjects: They make a merit of implicit faith; and disguise to themselves their real infidelity, by the strongest asseverations and most positive bigotry. But nature is too hard for all their endeavours, and suffers not the obscure, glimmering light, afforded in those shadowy regions, to equal the strong impressions, made by common sense and by experience. The usual course of men’s conduct belies their words, and shows, that their assent in these matters is some unaccountable operation of the mind between disbelief and conviction, but approaching much nearer to the former than to the latter.</p>"
+    content: "<p>We may observe, that, notwithstanding the dogmatical, imperious style of all superstition, the conviction of the religionists, in all ages, is more affected than real, and scarcely ever approaches, in any degree, to that solid belief and persuasion, which governs us in the common affairs of life. Men dare not avow, even to their own hearts, the doubts which they entertain on such <span class='page-break'>|</span>subjects: They make a merit of implicit faith; and disguise to themselves their real infidelity, by the strongest asseverations and most positive bigotry. But nature is too hard for all their endeavours, and suffers not the obscure, glimmering light, afforded in those shadowy regions, to equal the strong impressions, made by common sense and by experience. The usual course of men's conduct belies their words, and shows, that their assent in these matters is some unaccountable operation of the mind between disbelief and conviction, but approaching much nearer to the former than to the latter.</p>"
   -
     id: "16"
     pages: "72"
@@ -83,7 +86,7 @@ paragraphs:
   -
     id: "19"
     pages: "73"
-    content: "<p>The inference is by no means just, that, because a system of religion has made no deep impression on the minds of a people, it must therefore have been positively rejected by all men of common sense, and that opposite principles, in spite of the prejudices of education, were generally established by argument and reasoning. I know not, but a contrary inference may be more probable. The less importunate and assuming any species of superstition appears, the less will it provoke men’s spleen and indignation, or engage them into enquiries concerning its foundation and origin. This in the mean time is obvious, that the empire of all religious faith over the understanding is wavering and uncertain, subject to every variety of humour, and dependent on the present incidents, which strike the imagination. The difference is only in the degrees. An ancient will place a stroke of impiety and one of superstition alternately, throughout a whole discourse<sup><a href='#n69'>[69]</a></sup>: A modern often thinks in the same way, though he may be more guarded in his expression.</p>"
+    content: "<p>The inference is by no means just, that, because a system of religion has made no deep impression on the minds of a people, it must therefore have been positively rejected by all men of common sense, and that opposite principles, in spite of the prejudices of education, were generally established by argument and reasoning. I know not, but a contrary inference may be more probable. The less importunate and assuming any species of superstition appears, the less will it provoke men's spleen and indignation, or engage them into enquiries concerning its foundation and origin. This in the mean time is obvious, that the empire of all religious faith over the understanding is wavering and uncertain, subject to every variety of humour, and dependent on the present incidents, which strike the imagination. The difference is only in the degrees. An ancient will place a stroke of impiety and one of superstition alternately, throughout a whole discourse<sup><a href='#n69'>[69]</a></sup>: A modern often thinks in the same way, though he may be more guarded in his expression.</p>"
   -
     id: "20"
     pages: "73"
@@ -99,7 +102,7 @@ paragraphs:
   -
     id: "23"
     pages: "74"
-    content: "<p><b>Plato</b><sup><a href='#n76'>[76]</a></sup> introduces <b>Socrates</b> affirming, that the accusation of impiety raised against him was owing entirely to his rejecting such fables, as those of <b>Saturn</b>’s castrating his father <b>Uranus</b>, and <b>Jupiter</b>’s dethroning <b>Saturn</b>: Yet in a subsequent dialogue<sup><a href='#n77'>[77]</a></sup>, <b>Socrates</b> confesses, that the doctrine of the mortality of the soul was the received opinion of the people. Is there here any contradiction? Yes, surely: But the contradiction is not in <b>Plato</b>; it is in the people, whose religious principles in general are always composed of the most discordant parts; especially in an age, when superstition sate so easy and light upon them<sup><a href='#n78'>[78]</a></sup>.</p>"
+    content: "<p><b>Plato</b><sup><a href='#n76'>[76]</a></sup> introduces <b>Socrates</b> affirming, that the accusation of impiety raised against him was owing entirely to his rejecting such fables, as those of <b>Saturn</b>'s castrating his father <b>Uranus</b>, and <b>Jupiter</b>'s dethroning <b>Saturn</b>: Yet in a subsequent dialogue<sup><a href='#n77'>[77]</a></sup>, <b>Socrates</b> confesses, that the doctrine of the mortality of the soul was the received opinion of the people. Is there here any contradiction? Yes, surely: But the contradiction is not in <b>Plato</b>; it is in the people, whose religious principles in general are always composed of the most discordant parts; especially in an age, when superstition sate so easy and light upon them<sup><a href='#n78'>[78]</a></sup>.</p>"
   -
     id: "24"
     pages: "75"
@@ -111,10 +114,10 @@ paragraphs:
   -
     id: "26"
     pages: "75-6"
-    content: "<p>Upon the whole, the greatest and most observable differences between a <em>traditional, mythological</em> religion, and a <em>systematical, scholastic</em> one, are two: <span class='page-break'>|</span>The former is often more reasonable, as consisting only of a multitude of stories, which, however groundless, imply no express absurdity and demonstrative contradiction; and sits also so easy and light on men’s mind, that, though it may be as universally received, it happily makes no such deep impression on the affections and understanding.</p>"
+    content: "<p>Upon the whole, the greatest and most observable differences between a <em>traditional, mythological</em> religion, and a <em>systematical, scholastic</em> one, are two: <span class='page-break'>|</span>The former is often more reasonable, as consisting only of a multitude of stories, which, however groundless, imply no express absurdity and demonstrative contradiction; and sits also so easy and light on men's mind, that, though it may be as universally received, it happily makes no such deep impression on the affections and understanding.</p>"
+notes:
   -
-    id: "n58"
-    type: "endnote"
+    id: "58"
     symbol: "*"
     content: "<p>See NOTE [CCC].</p>"
   -
@@ -123,150 +126,126 @@ paragraphs:
     pages: "69"
     content: "<p><strong>I</strong>T is strange that the <b>Egyptian</b> religion, though so absurd, should yet have borne so great a resemblance to the <b>Jewish</b>, that ancient writers even of the greatest genius were not able to observe any difference between them. For it is remarkable that both <b>Tacitus</b>, and <b>Suetonius</b>, when they mention that decree of the senate, under <b>Tiberius</b>, by which the <b>Egyptian</b> and <b>Jewish</b> proselytes were banished from <b>Rome</b>, expressly treat these religions as the same; and it appears, that even the decree itself was founded on that supposition. “Actum & de sacris <b>Ægyptiis</b>, <b>Judaicisque</b> pellendis; factumque patrum consultum, ut quatuor millia libertini generis <em>ea superstitione</em> infecta, quis idonea ætas, in insulam Sardiniam veherentur, coercendis illic latrociniis; & si ob gravitatem cœli interissent, <em>vile damnum:</em> Ceteri cederent <b>Italia</b>, nisi certam ante diem profanos ritus exuissent.” <del>Tacit.</del><ins title='small capitals added, in keeping with formatting preferences elsewhere; the name is in small capitals in the 1772 edition, and is changed here presumably by mistake'><b>Tacit.</b></ins> ann. lib. ii, c. 85. “Externas cæremonias, <b>Ægyptios</b>, <b>Judaicosque</b> ritus compescuit; coactus qui <em>superstitione ea</em> tenebantur, religiosas vestes cum instrumento omni comburere, &c.” <b>Sueton. Tiber.</b> c. 36. These wise heathens, observing something in the general air, and genius, and spirit of the two religions to be the same, esteemed the differences of their dogmas too frivolous to deserve any attention.</p>"
   -
-    id: "n59"
-    type: "note"
+    id: "59"
     pages: "69"
     symbol: "†"
     content: "<p>Lib. i.</p>"
   -
-    id: "n60"
-    type: "note"
+    id: "60"
     pages: "69"
     symbol: "*"
-    content: "<p>When <b>Louis</b> the XIVth took on himself the protection of the Jesuits’ College of <b>Clermont</b>, the society ordered the king’s arms to be put up over the gate, and took down the cross, in order to make way for it: Which gave occasion to the following epigram: <br><span class='tab'></span>Sustulit hinc Christi, posuitque insignia Regis: <br><span class='tab'></span><span class='tab'></span>Impia gens, alium nescit habere Deum.</p>"
+    content: "<p>When <b>Louis</b> the XIVth took on himself the protection of the Jesuits' College of <b>Clermont</b>, the society ordered the king's arms to be put up over the gate, and took down the cross, in order to make way for it: Which gave occasion to the following epigram: <br><span class='tab'></span>Sustulit hinc Christi, posuitque insignia Regis: <br><span class='tab'></span><span class='tab'></span>Impia gens, alium nescit habere Deum.</p>"
   -
-    id: "n61"
-    type: "note"
+    id: "61"
     pages: "70"
     symbol: "†"
     content: "<p>De nat. Deor. l. i.</p>"
   -
-    id: "n62"
-    type: "note"
+    id: "62"
     pages: "70"
     symbol: "‡"
     content: "<p>Tusc. <del>Quest.</del><ins title='originally 'Quest.'; this typographical error first appeared in the 1777 edition'>Quaest.</ins> lib. v.</p>"
   -
-    id: "n63"
-    type: "note"
+    id: "63"
     pages: "70"
     symbol: "*"
     content: "<p>De civitate Dei, l. iii. c. 17.</p>"
   -
-    id: "n64"
-    type: "note"
+    id: "64"
     pages: "71"
     symbol: "†"
     content: "<p>Claudii Rutilii Numitiani iter, lib. i. l. 386.</p>"
   -
-    id: "n65"
-    type: "note"
+    id: "65"
     pages: "71"
     symbol: "‡"
     content: "<p>In vita Adriani.</p>"
   -
-    id: "n66"
-    type: "note"
+    id: "66"
     pages: "71"
     symbol: "ǁ"
     content: "<p>Lib. xiv. epist. 7.</p>"
   -
-    id: "n67"
-    type: "note"
+    id: "67"
     pages: "71"
     symbol: "§"
     content: "<p>Cicero de Divin lib. ii. c. 24.</p>"
   -
-    id: "n68"
-    type: "note"
+    id: "68"
     pages: "71"
     symbol: "*"
     content: "<p>Sueton. Aug. cap. 90, 91, 92. Plin. lib. ii. cap. 7.</p>"
   -
-    id: "n69"
-    type: "note"
+    id: "69"
     pages: "73"
     symbol: "*"
-    content: "<p>Witness this remarkable passage of <b>Tacitus</b>: “Præter multiplices rerum humanarum casus, cœlo terraque prodigia, & fulminum monitus & futurorum præsagia, læta, tristia, ambigua, manifesta. Nec enim unquam atrocioribus populi Romani cladibus, magisque justis judiciis approbatum est, non esse curæ Diis securitatem nostram, esse ultionem.” Hist. lib. i. <b>Augustus</b>’s quarrel with <b>Neptune</b> is an instance of the same kind. Had not the emperor believed <b>Neptune</b> to be a real being, and to have dominion over the sea, where had been the foundation of his anger? And if he believed it, what madness to provoke still farther that deity? The same observation may be made upon <b>Quintilian</b>’s exclamation, on account of the death of his children, lib. vi. Præf.</p>"
+    content: "<p>Witness this remarkable passage of <b>Tacitus</b>: “Præter multiplices rerum humanarum casus, cœlo terraque prodigia, & fulminum monitus & futurorum præsagia, læta, tristia, ambigua, manifesta. Nec enim unquam atrocioribus populi Romani cladibus, magisque justis judiciis approbatum est, non esse curæ Diis securitatem nostram, esse ultionem.” Hist. lib. i. <b>Augustus</b>'s quarrel with <b>Neptune</b> is an instance of the same kind. Had not the emperor believed <b>Neptune</b> to be a real being, and to have dominion over the sea, where had been the foundation of his anger? And if he believed it, what madness to provoke still farther that deity? The same observation may be made upon <b>Quintilian</b>'s exclamation, on account of the death of his children, lib. vi. Præf.</p>"
   -
-    id: "n70"
-    type: "note"
+    id: "70"
     pages: "73"
     symbol: "†"
     content: "<p>Philopseudes.</p>"
   -
-    id: "n71"
-    type: "note"
+    id: "71"
     pages: "73"
     symbol: "‡"
     content: "<p>Lib. x. cap. 40.</p>"
   -
-    id: "n72"
-    type: "note"
+    id: "72"
     pages: "74"
     symbol: "*"
     content: "<p>Cicero de Divin. lib. i. cap. 3 & 7.</p>"
   -
-    id: "n73"
-    type: "note"
+    id: "73"
     pages: "74"
     symbol: "†"
     content: "<p>Lib. i. §17.</p>"
   -
-    id: "n74"
-    type: "note"
+    id: "74"
     pages: "74"
     symbol: "‡"
     content: "<p>Ench. §17.</p>"
   -
-    id: "n75"
-    type: "note"
+    id: "75"
     pages: "74"
     symbol: "ǁ"
     content: "<p>The Stoics, I own, were not quite orthodox in the established religion; but one may see, from these instances, that they went a great way: And the people undoubtedly went every length.</p>"
   -
-    id: "n76"
-    type: "note"
+    id: "76"
     pages: "74"
     symbol: "*"
     content: "<p>Euthyphro.</p>"
   -
-    id: "n77"
-    type: "note"
+    id: "77"
     pages: "74"
     symbol: "†"
     content: "<p>Phædo.</p>"
   -
-    id: "n78"
-    type: "endnote"
+    id: "78"
     symbol: "*"
     content: "<p>See NOTE [DDD].</p>"
   -
     id: "[DDD].1"
     type: "first"
     pages: "74-5"
-    content: "<p><strong>X</strong>ENOPHON’s conduct, as related by himself, is, at once, an incontestable proof of the general credulity of mankind in those ages, and the incoherencies, in all ages, of men’s opinions in religious matters. That great captain and philosopher, the disciple of <b>Socrates</b>, and one who has delivered some of the most refined sentiments with regard to a deity, gave all the following marks of vulgar, pagan superstition. By <b>Socrates</b>’s advice, he consulted the oracle of <b>Delphi</b>, before he would engage in the expedition of <b>Cyrus</b>. De exped. lib. iii. p. 294. ex edit Leuncl. Sees a dream the night after the generals were seized; which he pays great regard to, but thinks ambiguous. Id. p. 295. He and the whole army regard sneezing as a very lucky omen. Id. p. 300. Has another dream, when he comes to the river <b>Centrites</b>, which his fellow-general, <b>Chirosophus</b>, also pays great regard to. Id. lib. iv. p. 323. The <b>Greeks</b>, suffering from a cold north wind, sacrifice to it; and the historian observes, that it immediately abated. Id. p. 329. <b>Xenophon</b> consults the sacrifices in <span class='page-break'>|</span>secret, before he would form any resolution with himself about settling a colony. Lib. v. p. 359. He was himself a very skilful augur. Id. p. 361. Is determined by the victims to refuse the sole command of the army which was offered him. Lib. vi. p. 273. <b>Cleander</b>, the <b>Spartan</b>, though very desirous of it, refuses it for the same reason. Id. p. 392. <b>Xenophon</b> mentions an old dream with the interpretation given him, when he first joined <b>Cyrus</b>, p. 373. Mentions also the place of <b>Hercules</b>’s descent into hell as believing it, and says the marks of it are still remaining. Id. p. 375. Had almost starved the army, rather than lead them to the field against the auspices. Id. p. 382, 383. His friend, <b>Euclides</b>, the augur, would not believe that he had brought no money from the expedition; till he (<b>Euclides</b>) sacrificed, and then he saw the matter clearly in the Exta. Lib. vii. p. 425. The same philosopher, proposing a project of mines for the encrease of the <b>Athenian</b> revenues, advises them first to consult the oracle. De rat. red. p. 392. That all this devotion was not a farce, in order to serve a political purpose, appears both from the facts themselves, and from the genius of that age, when little or nothing could be gained by hypocrisy. Besides, <b>Xenophon</b>, as appears from his Memorabilia, was a kind of heretic in those times, which no political devotee ever is. It is for the same reason, I maintain, that <b>Newton</b>, <b>Locke</b>, <b>Clarke</b>, &c. being <em>Arians</em> or <em>Socinians</em>, were very sincere in the creed they professed: And I always oppose this argument to some libertines, who will needs have it, that it was impossible but that these philosophers must have been hypocrites.</p>"
+    content: "<p><strong>X</strong>ENOPHON's conduct, as related by himself, is, at once, an incontestable proof of the general credulity of mankind in those ages, and the incoherencies, in all ages, of men's opinions in religious matters. That great captain and philosopher, the disciple of <b>Socrates</b>, and one who has delivered some of the most refined sentiments with regard to a deity, gave all the following marks of vulgar, pagan superstition. By <b>Socrates</b>'s advice, he consulted the oracle of <b>Delphi</b>, before he would engage in the expedition of <b>Cyrus</b>. De exped. lib. iii. p. 294. ex edit Leuncl. Sees a dream the night after the generals were seized; which he pays great regard to, but thinks ambiguous. Id. p. 295. He and the whole army regard sneezing as a very lucky omen. Id. p. 300. Has another dream, when he comes to the river <b>Centrites</b>, which his fellow-general, <b>Chirosophus</b>, also pays great regard to. Id. lib. iv. p. 323. The <b>Greeks</b>, suffering from a cold north wind, sacrifice to it; and the historian observes, that it immediately abated. Id. p. 329. <b>Xenophon</b> consults the sacrifices in <span class='page-break'>|</span>secret, before he would form any resolution with himself about settling a colony. Lib. v. p. 359. He was himself a very skilful augur. Id. p. 361. Is determined by the victims to refuse the sole command of the army which was offered him. Lib. vi. p. 273. <b>Cleander</b>, the <b>Spartan</b>, though very desirous of it, refuses it for the same reason. Id. p. 392. <b>Xenophon</b> mentions an old dream with the interpretation given him, when he first joined <b>Cyrus</b>, p. 373. Mentions also the place of <b>Hercules</b>'s descent into hell as believing it, and says the marks of it are still remaining. Id. p. 375. Had almost starved the army, rather than lead them to the field against the auspices. Id. p. 382, 383. His friend, <b>Euclides</b>, the augur, would not believe that he had brought no money from the expedition; till he (<b>Euclides</b>) sacrificed, and then he saw the matter clearly in the Exta. Lib. vii. p. 425. The same philosopher, proposing a project of mines for the encrease of the <b>Athenian</b> revenues, advises them first to consult the oracle. De rat. red. p. 392. That all this devotion was not a farce, in order to serve a political purpose, appears both from the facts themselves, and from the genius of that age, when little or nothing could be gained by hypocrisy. Besides, <b>Xenophon</b>, as appears from his Memorabilia, was a kind of heretic in those times, which no political devotee ever is. It is for the same reason, I maintain, that <b>Newton</b>, <b>Locke</b>, <b>Clarke</b>, &c. being <em>Arians</em> or <em>Socinians</em>, were very sincere in the creed they professed: And I always oppose this argument to some libertines, who will needs have it, that it was impossible but that these philosophers must have been hypocrites.</p>"
   -
-    id: "n79"
-    type: "note"
+    id: "79"
     pages: "75"
     symbol: "*"
     content: "<p>Pro <b>Cluentio</b>, cap. 61.</p>"
   -
-    id: "n80"
-    type: "note"
+    id: "80"
     pages: "75"
     symbol: "†"
     content: "<p>De bello <b>Catilin</b>.</p>"
   -
-    id: "n81"
-    type: "note"
+    id: "81"
     pages: "75"
     symbol: "‡"
     content: "<p><b>Cicero</b> (Tusc. Quæst.) lib. i. cap. 5, 6. and <b>Seneca</b> (Epist. 24), as also Juvenal (Satyr. 2.), maintain that there is no boy or old woman so ridiculous as to believe the poets in their accounts of a future state. Why then does <b>Lucretius</b> so highly exalt his master for freeing us from these terrors? Perhaps the generality of mankind were then in the disposition of <b>Cephalus</b> in <b>Plato</b> (de Rep. lib. i.) who while he was young and healthful could ridicule these stories; but as soon as he became old and infirm, began to entertain apprehensions of their truth. This we may observe not to be unusual even at present.</p>"
   -
-    id: "n82"
-    type: "note"
+    id: "82"
     pages: "75"
     symbol: "ǁ"
     content: "<p><b>Sext. Empir.</b> advers. <b>Mathem.</b> lib. viii.</p>"

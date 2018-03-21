@@ -7,6 +7,9 @@ title:
   - "<h1><strong>SECT </strong>II.</h1>"
 year: "1757, 1777"
 pages: "Bea"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -131,7 +134,7 @@ paragraphs:
   -
     id: "29"
     pages: "13"
-    content: "<p>The case is the same with the transmission of the honours and fortune, through a succession of males, without their passing through any female. It is an obvious quality of human nature, that the imagination naturally turns to whatever is important and considerable; and where two objects are presented, a small and a great, it usually leaves the former, and dwells entirely on the latter. This is the reason, why children commonly bear their father’s name, and are esteemed to be of a nobler or meaner birth, according to <em>his</em> family. And though the mother should be possessed of superior qualities to the father, as often happens, the <em>general rule</em> prevails, notwithstanding the exception, according to the doctrine, which shall be explained afterwards. Nay, even when a superiority of any kind is so great, or when any other reasons have such an effect, as to make the children rather represent the mother’s family than the father’s, the general rule still retains an efficacy, sufficient to weaken the relation, and make a kind of breach in the line of ancestors. The imagination runs not along them with the same facility, nor is able to transfer the honour and credit of the ancestors to their posterity of the same name and family so readily, as when the transition is conformable to the general rule, and passes through the male line, from father to son, or from brother to brother.</p>"
+    content: "<p>The case is the same with the transmission of the honours and fortune, through a succession of males, without their passing through any female. It is an obvious quality of human nature, that the imagination naturally turns to whatever is important and considerable; and where two objects are presented, a small and a great, it usually leaves the former, and dwells entirely on the latter. This is the reason, why children commonly bear their father's name, and are esteemed to be of a nobler or meaner birth, according to <em>his</em> family. And though the mother should be possessed of superior qualities to the father, as often happens, the <em>general rule</em> prevails, notwithstanding the exception, according to the doctrine, which shall be explained afterwards. Nay, even when a superiority of any kind is so great, or when any other reasons have such an effect, as to make the children rather represent the mother's family than the father's, the general rule still retains an efficacy, sufficient to weaken the relation, and make a kind of breach in the line of ancestors. The imagination runs not along them with the same facility, nor is able to transfer the honour and credit of the ancestors to their posterity of the same name and family so readily, as when the transition is conformable to the general rule, and passes through the male line, from father to son, or from brother to brother.</p>"
   -
     id: "30"
     pages: "13"
@@ -198,7 +201,7 @@ paragraphs:
   -
     id: "45"
     pages: "16"
-    content: "<p>We are ashamed of such maladies as affect others, and are either dangerous or disagreeable to them. Of the epilepsy; because it gives a horror to every one present: Of the itch; because it is infectious: Of the king’s evil; because it often goes to posterity. Men always consider the sentiments of others in their judgment of themselves.</p>"
+    content: "<p>We are ashamed of such maladies as affect others, and are either dangerous or disagreeable to them. Of the epilepsy; because it gives a horror to every one present: Of the itch; because it is infectious: Of the king's evil; because it often goes to posterity. Men always consider the sentiments of others in their judgment of themselves.</p>"
   -
     id: "46"
     pages: "16"
@@ -207,21 +210,19 @@ paragraphs:
     id: "47"
     pages: "16-7"
     content: "<p>It may not be amiss to observe on this occasion, that the influence of general rules and maxims on the passions very much contributes to facilitate the effects of all the principles or internal mechanism, which we here explain. For it seems evident, that, if a person full grown, and of the same nature with ourselves, were on a sudden transported into our world, he would be much embarrassed with every object, and would not readily determine what degree of love or hatred, of pride or humility, or of any other passion should be excited by it. The passions are often varied by very inconsiderable principles; and these do not always play with perfect regularity, especially on the first trial. But as custom or practice has brought to light all these principles, and has settled the just value of every thing; this must certainly <span class='page-break'>|</span>contribute to the easy production of the passions, and guide us, by means of general established rules, in the proportions, which we ought to observe in preferring one object to another. This remark may, perhaps, serve to obviate difficulties, that may arise concerning some causes, which we here ascribe to particular passions, and which may be esteemed too refined to operate so universally and certainly, as they are found to do.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "7"
     symbol: "*"
     content: "<p>See Enquiry concerning Human Understanding, Sect. III.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "8"
     symbol: "*"
     content: "<p><b>Addison</b>, Spectator, No. 412.</p>"
   -
-    id: "n3"
-    type: "endnote"
+    id: "3"
     symbol: "*"
     content: "<p>See NOTE [R].</p>"
   -

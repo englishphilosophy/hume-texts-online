@@ -7,6 +7,9 @@ title:
   - "<h1><b>Sect. II.</b> <em>Origin of Polytheism.</em></h1>"
 year: "1777"
 pages: "Bea"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -27,14 +30,14 @@ paragraphs:
   -
     id: "5"
     pages: "38-9"
-    content: "<p>It must necessarily, indeed, be allowed, that, in order to carry men’s attention beyond the present course of things, or lead them into any inference concerning invisible intelligent power, they must be actuated by some passion, which prompts their thought and reflection; some motive, which urges their first enquiry. But what passion shall we here have recourse to, for explaining an effect of such mighty consequence? Not speculative curiosity surely, or the pure love of truth. That motive is too refined for such gross apprehensions; and would lead men into enquiries concerning <span class='page-break'>|</span>the frame of nature, a subject too large and comprehensive for their narrow capacities. No passions, therefore, can be supposed to work upon such barbarians, but the ordinary affections of human life; the anxious concern for happiness, the dread of future misery, the terror of death, the thirst of revenge, the appetite for food and other necessaries. Agitated by hopes and fears of this nature, especially the latter, men scrutinize, with a trembling curiosity, the course of future causes, and examine the various and contrary events of human life. And in this disordered scene, with eyes still more disordered and astonished, they see the first obscure traces of divinity.</p>"
+    content: "<p>It must necessarily, indeed, be allowed, that, in order to carry men's attention beyond the present course of things, or lead them into any inference concerning invisible intelligent power, they must be actuated by some passion, which prompts their thought and reflection; some motive, which urges their first enquiry. But what passion shall we here have recourse to, for explaining an effect of such mighty consequence? Not speculative curiosity surely, or the pure love of truth. That motive is too refined for such gross apprehensions; and would lead men into enquiries concerning <span class='page-break'>|</span>the frame of nature, a subject too large and comprehensive for their narrow capacities. No passions, therefore, can be supposed to work upon such barbarians, but the ordinary affections of human life; the anxious concern for happiness, the dread of future misery, the terror of death, the thirst of revenge, the appetite for food and other necessaries. Agitated by hopes and fears of this nature, especially the latter, men scrutinize, with a trembling curiosity, the course of future causes, and examine the various and contrary events of human life. And in this disordered scene, with eyes still more disordered and astonished, they see the first obscure traces of divinity.</p>"
+notes:
   -
-    id: "n1"
-    type: "endnote"
+    id: "1"
     symbol: "*"
     content: "<p>See NOTE [YY].</p>"
   -
     id: "[YY].1"
     type: "first"
     pages: "38"
-    content: "<p><strong>“F</strong>RAGILIS & laboriosa mortalitas in partes ista digessit, infirmitatis suæ memor, ut portionibus quisquis coleret, quo maxime indigeret.” <b>Plin.</b> lib. ii. cap. 7. So early as <b>Hesiod</b>’s time there were 30,000 deities. <em>Oper. & Dier.</em> lib. i. ver. 250. But the task to be performed by these seems still too great for their number. The provinces of the deities were so subdivided, that there was even a God of <em>Sneezing</em>. See <b>Arist.</b> <em>Probl.</em> sect. 33. cap. 7. The province of copulation, suitably to the importance and dignity of it, was divided among several deities.</p>"
+    content: "<p><strong>“F</strong>RAGILIS & laboriosa mortalitas in partes ista digessit, infirmitatis suæ memor, ut portionibus quisquis coleret, quo maxime indigeret.” <b>Plin.</b> lib. ii. cap. 7. So early as <b>Hesiod</b>'s time there were 30,000 deities. <em>Oper. & Dier.</em> lib. i. ver. 250. But the task to be performed by these seems still too great for their number. The provinces of the deities were so subdivided, that there was even a God of <em>Sneezing</em>. See <b>Arist.</b> <em>Probl.</em> sect. 33. cap. 7. The province of copulation, suitably to the importance and dignity of it, was divided among several deities.</p>"

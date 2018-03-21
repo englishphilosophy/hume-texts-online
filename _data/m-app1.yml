@@ -7,6 +7,9 @@ title:
   - "<h1><strong>APPENDIX </strong>I.</h1><h2><b>Concerning Moral Sentiment</b>.</h2>"
 year: "1777"
 pages: "SBN"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -67,7 +70,7 @@ paragraphs:
   -
     id: "15"
     pages: ""
-    content: "<p>Attend to <b>Palladio</b> and <b>Perrault</b>, while they explain all the parts and proportions of a pillar: They talk of the cornice and frieze and base and entablature and shaft and architrave; and give the description and position of each of these members. But should you ask the description and position of its beauty, they would readily reply, that the beauty is not in any of the parts or members of a pillar, but results from the whole, when that complicated figure is presented to an intelligent mind, susceptible to those finer sensations. ’Till such a spectator appear, there is nothing but a figure of such particular dimensions and proportions: From his sentiments alone arise its elegance and beauty.</p>"
+    content: "<p>Attend to <b>Palladio</b> and <b>Perrault</b>, while they explain all the parts and proportions of a pillar: They talk of the cornice and frieze and base and entablature and shaft and architrave; and give the description and position of each of these members. But should you ask the description and position of its beauty, they would readily reply, that the beauty is not in any of the parts or members of a pillar, but results from the whole, when that complicated figure is presented to an intelligent mind, susceptible to those finer sensations. 'Till such a spectator appear, there is nothing but a figure of such particular dimensions and proportions: From his sentiments alone arise its elegance and beauty.</p>"
   -
     id: "16"
     pages: ""
@@ -92,3 +95,12 @@ paragraphs:
     id: "21"
     pages: ""
     content: "<p>Thus the distinct boundaries and offices of <em>reason</em> and of <em>taste</em> are easily ascertained. The former conveys the knowledge of truth and falsehood: The latter gives the sentiment of beauty and deformity, vice and virtue. The one discovers objects as they really stand in nature, without addition or diminution: The other has a productive faculty, and gilding or staining all natural objects with the colours, borrowed from internal sentiment, raises, in a manner, a new creation. Reason, being cool and disengaged, is no motive to action, and directs only the impulse received from appetite or inclination, by showing us the means of attaining happiness or avoiding misery: Taste, as it gives pleasure or pain, and thereby constitutes happiness or misery, becomes a motive to action, and is the first spring or impulse to desire and volition. From circumstances and relations, known or supposed, the former leads us to the discovery of the concealed and unknown: After all circumstances and relations are laid before us, the latter makes us feel from the whole a new sentiment of blame or approbation. The standard of the one, being founded on the nature of things, is eternal and inflexible, even by the will of the Supreme Being: The standard of the other, arising from the internal frame and constitution of animals, is ultimately derived from that Supreme Will, which bestowed on each being its peculiar nature, and arranged the several classes and orders of existence.</p>"
+notes:
+  -
+    id: "58"
+    symbol: "*"
+    content: "<p>Sect. I.</p>"
+  -
+    id: "59"
+    symbol: "†"
+    content: "<p>See Appendix III.</p>"

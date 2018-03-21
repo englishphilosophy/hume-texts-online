@@ -6,6 +6,9 @@ title:
   - "<h1>Of the <b>Original Contract</b>.</h1>"
 year: "1748, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -23,7 +26,7 @@ paragraphs:
   -
     id: "4"
     pages: "467-8"
-    content: "<p>When we consider how nearly equal all men are in their <span class='page-break'>|</span>bodily force, and even in their mental powers and faculties, till cultivated by education; we must necessarily allow, that nothing but their own consent could, at first, associate them together, and subject them to any authority. The people, if we trace government to its first origin in the woods and desarts, are the source of all power and jurisdiction, and voluntarily, for the sake of peace and order, abandoned their native liberty, and received laws from their equal and companion. The conditions, upon which they were willing to submit, were either expressed, or were so clear and obvious, that it might well be esteemed superfluous to express them. If this, then, be meant by the <em>original contract</em>, it cannot be denied, that all government is, at first, founded on a contract, and that the most ancient rude combinations of mankind were formed chiefly by that principle. In vain, are we asked in what records this charter of our liberties is registered. It was not written on parchment, nor yet on leaves or barks of trees. It preceded the use of writing and all the other civilized arts of life. But we trace it plainly in the nature of man, and in the equality, or something approaching equality, which we find in all the individuals of that species. The force, which now prevails, and which is founded on fleets and armies, is plainly political, and derived from authority, the effect of established government. A man’s natural force consists only in the vigour of his limbs, and the firmness of his courage; which could never subject multitudes to the command of one. Nothing but their own consent, and their sense of the advantages resulting from peace and order, could have had that influence.</p>"
+    content: "<p>When we consider how nearly equal all men are in their <span class='page-break'>|</span>bodily force, and even in their mental powers and faculties, till cultivated by education; we must necessarily allow, that nothing but their own consent could, at first, associate them together, and subject them to any authority. The people, if we trace government to its first origin in the woods and desarts, are the source of all power and jurisdiction, and voluntarily, for the sake of peace and order, abandoned their native liberty, and received laws from their equal and companion. The conditions, upon which they were willing to submit, were either expressed, or were so clear and obvious, that it might well be esteemed superfluous to express them. If this, then, be meant by the <em>original contract</em>, it cannot be denied, that all government is, at first, founded on a contract, and that the most ancient rude combinations of mankind were formed chiefly by that principle. In vain, are we asked in what records this charter of our liberties is registered. It was not written on parchment, nor yet on leaves or barks of trees. It preceded the use of writing and all the other civilized arts of life. But we trace it plainly in the nature of man, and in the equality, or something approaching equality, which we find in all the individuals of that species. The force, which now prevails, and which is founded on fleets and armies, is plainly political, and derived from authority, the effect of established government. A man's natural force consists only in the vigour of his limbs, and the firmness of his courage; which could never subject multitudes to the command of one. Nothing but their own consent, and their sense of the advantages resulting from peace and order, could have had that influence.</p>"
   -
     id: "5"
     pages: "468-9"
@@ -43,7 +46,7 @@ paragraphs:
   -
     id: "9"
     pages: "471"
-    content: "<p>Almost all the governments, which exist at present, or of which there remains any record in story, have been founded originally, either on usurpation or conquest, or both, without any pretence of a fair consent, or voluntary subjection of the people. When an artful and bold man is placed at the head of an army or faction, it is often easy for him, by employing, sometimes violence, sometimes false pretences, to establish his dominion over a people a hundred times more numerous than his partizans. He allows no such open communication, that his enemies can know, with certainty, their number or force. He gives them no leisure to assemble together in a body to oppose him. Even all those, who are the instruments of his usurpation, may wish his fall; but their ignorance of each other’s intention keeps them in awe, and is the sole cause of his security. By such arts as these, many governments have been established; and this is all the <em>original contract</em>, which they have to boast of.</p>"
+    content: "<p>Almost all the governments, which exist at present, or of which there remains any record in story, have been founded originally, either on usurpation or conquest, or both, without any pretence of a fair consent, or voluntary subjection of the people. When an artful and bold man is placed at the head of an army or faction, it is often easy for him, by employing, sometimes violence, sometimes false pretences, to establish his dominion over a people a hundred times more numerous than his partizans. He allows no such open communication, that his enemies can know, with certainty, their number or force. He gives them no leisure to assemble together in a body to oppose him. Even all those, who are the instruments of his usurpation, may wish his fall; but their ignorance of each other's intention keeps them in awe, and is the sole cause of his security. By such arts as these, many governments have been established; and this is all the <em>original contract</em>, which they have to boast of.</p>"
   -
     id: "10"
     pages: "471"
@@ -91,7 +94,7 @@ paragraphs:
   -
     id: "21"
     pages: "474"
-    content: "<p>Were all men possessed of so inflexible a regard to justice, that, of themselves, they would totally abstain from the properties of others; they had for ever remained in a state of absolute liberty, without subjection to any magistrate or political society: But this is a state of perfection, of which human nature is justly deemed incapable. Again; were all men possessed of so perfect an understanding, as always to know their own interests, no form of government had ever been submitted to, but what was established on consent, and was fully canvassed by every member of the society: But this state of perfection is likewise much superior to human nature. Reason, history, and experience shew us, that all political societies have had an origin much less accurate and regular; and were one to choose a period of time, when the people’s consent was the least regarded in public transactions, it would be precisely on the establishment of a new government. In a settled constitution, their inclinations are often consulted; but during the fury of revolutions, conquests, and public convulsions, military force or political craft usually decides the controversy.</p>"
+    content: "<p>Were all men possessed of so inflexible a regard to justice, that, of themselves, they would totally abstain from the properties of others; they had for ever remained in a state of absolute liberty, without subjection to any magistrate or political society: But this is a state of perfection, of which human nature is justly deemed incapable. Again; were all men possessed of so perfect an understanding, as always to know their own interests, no form of government had ever been submitted to, but what was established on consent, and was fully canvassed by every member of the society: But this state of perfection is likewise much superior to human nature. Reason, history, and experience shew us, that all political societies have had an origin much less accurate and regular; and were one to choose a period of time, when the people's consent was the least regarded in public transactions, it would be precisely on the establishment of a new government. In a settled constitution, their inclinations are often consulted; but during the fury of revolutions, conquests, and public convulsions, military force or political craft usually decides the controversy.</p>"
   -
     id: "22"
     pages: "474-5"
@@ -107,7 +110,7 @@ paragraphs:
   -
     id: "25"
     pages: "475-6"
-    content: "<p>What if the prince forbid his subjects to quit his dominions; as in <b>Tiberius</b>’s time, it was regarded as a crime in a <b>Roman</b> knight that he had attempted to fly to the <b>Parthians</b>, in order to escape the tyranny of that emperor<sup><a href='#n2'>[2]</a></sup>? Or as the ancient <b>Muscovites</b> prohibited all travelling under <span class='page-break'>|</span>pain of death? And did a prince observe, that many of his subjects were seized with the frenzy of migrating to foreign countries, he would doubtless, with great reason and justice, restrain them, in order to prevent the depopulation of his own kingdom. Would he forfeit the allegiance of all his subjects, by so wise and reasonable a law? Yet the freedom of their choice is surely, in that case, ravished from them.</p>"
+    content: "<p>What if the prince forbid his subjects to quit his dominions; as in <b>Tiberius</b>'s time, it was regarded as a crime in a <b>Roman</b> knight that he had attempted to fly to the <b>Parthians</b>, in order to escape the tyranny of that emperor<sup><a href='#n2'>[2]</a></sup>? Or as the ancient <b>Muscovites</b> prohibited all travelling under <span class='page-break'>|</span>pain of death? And did a prince observe, that many of his subjects were seized with the frenzy of migrating to foreign countries, he would doubtless, with great reason and justice, restrain them, in order to prevent the depopulation of his own kingdom. Would he forfeit the allegiance of all his subjects, by so wise and reasonable a law? Yet the freedom of their choice is surely, in that case, ravished from them.</p>"
   -
     id: "26"
     pages: "476"
@@ -115,7 +118,7 @@ paragraphs:
   -
     id: "27"
     pages: "476"
-    content: "<p>The truest <em>tacit</em> consent of this kind, that is ever observed, is when a foreigner settles in any country, and is beforehand acquainted with the prince, and government, and laws, to which he must submit: Yet is his allegiance, though more voluntary, much less expected or depended on, than that of a natural born subject. On the contrary, his native prince still asserts a claim to him. And if he punish not the renegade, when he seizes him in war with his new prince’s commission; this clemency is not founded on the municipal law, which in all countries condemns the prisoner; but on the consent of princes, who have agreed to this indulgence, in order to prevent reprisals.</p>"
+    content: "<p>The truest <em>tacit</em> consent of this kind, that is ever observed, is when a foreigner settles in any country, and is beforehand acquainted with the prince, and government, and laws, to which he must submit: Yet is his allegiance, though more voluntary, much less expected or depended on, than that of a natural born subject. On the contrary, his native prince still asserts a claim to him. And if he punish not the renegade, when he seizes him in war with his new prince's commission; this clemency is not founded on the municipal law, which in all countries condemns the prisoner; but on the consent of princes, who have agreed to this indulgence, in order to prevent reprisals.</p>"
   -
     id: "28"
     pages: "476-7"
@@ -123,7 +126,7 @@ paragraphs:
   -
     id: "29"
     pages: "477-8"
-    content: "<p>Suppose, that an usurper, after having banished his lawful prince and royal family, should establish his dominion for ten or a dozen years in any country, and should preserve so exact a discipline in his troops, and so regular a disposition in his garrisons, that no insurrection had ever been raised, or even murmur heard, against his administration: Can it be asserted, that the people, who in their hearts abhor his treason, have tacitly consented to his authority, and promised him allegiance, merely because, from necessity, they live under his dominion? Suppose again their native prince restored, by means of an army, which he levies in foreign countries: They receive him with joy and exultation, and shew plainly with what reluctance they had submitted to any other yoke. I may <span class='page-break'>|</span>now ask, upon what foundation the prince’s title stands? Not on popular consent surely: For though the people willingly acquiesce in his authority, they never imagine, that their consent made him sovereign. They consent; because they apprehend him to be already, by birth, their lawful sovereign. And as to that tacit consent, which may now be inferred from their living under his dominion, this is no more than what they formerly gave to the tyrant and usurper.</p>"
+    content: "<p>Suppose, that an usurper, after having banished his lawful prince and royal family, should establish his dominion for ten or a dozen years in any country, and should preserve so exact a discipline in his troops, and so regular a disposition in his garrisons, that no insurrection had ever been raised, or even murmur heard, against his administration: Can it be asserted, that the people, who in their hearts abhor his treason, have tacitly consented to his authority, and promised him allegiance, merely because, from necessity, they live under his dominion? Suppose again their native prince restored, by means of an army, which he levies in foreign countries: They receive him with joy and exultation, and shew plainly with what reluctance they had submitted to any other yoke. I may <span class='page-break'>|</span>now ask, upon what foundation the prince's title stands? Not on popular consent surely: For though the people willingly acquiesce in his authority, they never imagine, that their consent made him sovereign. They consent; because they apprehend him to be already, by birth, their lawful sovereign. And as to that tacit consent, which may now be inferred from their living under his dominion, this is no more than what they formerly gave to the tyrant and usurper.</p>"
   -
     id: "30"
     pages: "478"
@@ -171,11 +174,11 @@ paragraphs:
   -
     id: "41"
     pages: "483-4"
-    content: "<p><b>Commodus</b> mounted the throne after a pretty long succession of excellent emperors, who had acquired their title, not by birth, or public election, but by the fictitious rite of adoption. That bloody debauchee being murdered by a conspiracy suddenly formed between his wench and her gallant, who happened at that time to be <em>Prætorian Præfect</em>; these immediately deliberated about choosing a master to human kind, to speak in the style of those ages; and they cast their <span class='page-break'>|</span>eyes on <b>Pertinax</b>. Before the tyrant’s death was known, the <em>Præfect</em> went secretly to that senator, who, on the appearance of the soldiers, imagined that his execution had been ordered by <b>Commodus</b>. He was immediately saluted emperor by the officer and his attendants; chearfully proclaimed by the populace; unwillingly submitted to by the guards; formally recognized by the senate; and passively received by the provinces and armies of the empire.</p>"
+    content: "<p><b>Commodus</b> mounted the throne after a pretty long succession of excellent emperors, who had acquired their title, not by birth, or public election, but by the fictitious rite of adoption. That bloody debauchee being murdered by a conspiracy suddenly formed between his wench and her gallant, who happened at that time to be <em>Prætorian Præfect</em>; these immediately deliberated about choosing a master to human kind, to speak in the style of those ages; and they cast their <span class='page-break'>|</span>eyes on <b>Pertinax</b>. Before the tyrant's death was known, the <em>Præfect</em> went secretly to that senator, who, on the appearance of the soldiers, imagined that his execution had been ordered by <b>Commodus</b>. He was immediately saluted emperor by the officer and his attendants; chearfully proclaimed by the populace; unwillingly submitted to by the guards; formally recognized by the senate; and passively received by the provinces and armies of the empire.</p>"
   -
     id: "42"
     pages: "484"
-    content: "<p>The discontent of the <em>Prætorian</em> bands broke out in a sudden sedition, which occasioned the murder of that excellent prince: And the world being now without a master and without government, the guards thought proper to set the empire formally to sale. <b>Julian</b>, the purchaser, was proclaimed by the soldiers, recognized by the senate, and submitted to by the people; and must also have been submitted to by the provinces, had not the envy of the legions begotten opposition and resistance. <b>Pescennius Niger</b> in <b>Syria</b> elected himself emperor, gained the tumultuary consent of his army, and was attended with the secret good-will of the senate and people of <b>Rome</b>. <b>Albinus</b> in <b>Britain</b> found an equal right to set up his claim; but <b>Severus</b>, who governed <b>Pannonia</b>, prevailed in the end above both of them. That able politician and warrior, finding his own birth and dignity too much inferior to the imperial crown, professed, at first, an intention only of revenging the death of <b>Pertinax</b>. He marched as general into <b>Italy</b>; defeated <b>Julian</b>; and without our being able to fix any precise commencement even of the soldiers’ consent, he was from necessity acknowledged emperor by the senate and people; and fully established in his violent authority by subduing <b>Niger</b> and <b>Albinus</b><sup><a href='#n3'>[3]</a></sup>.</p>"
+    content: "<p>The discontent of the <em>Prætorian</em> bands broke out in a sudden sedition, which occasioned the murder of that excellent prince: And the world being now without a master and without government, the guards thought proper to set the empire formally to sale. <b>Julian</b>, the purchaser, was proclaimed by the soldiers, recognized by the senate, and submitted to by the people; and must also have been submitted to by the provinces, had not the envy of the legions begotten opposition and resistance. <b>Pescennius Niger</b> in <b>Syria</b> elected himself emperor, gained the tumultuary consent of his army, and was attended with the secret good-will of the senate and people of <b>Rome</b>. <b>Albinus</b> in <b>Britain</b> found an equal right to set up his claim; but <b>Severus</b>, who governed <b>Pannonia</b>, prevailed in the end above both of them. That able politician and warrior, finding his own birth and dignity too much inferior to the imperial crown, professed, at first, an intention only of revenging the death of <b>Pertinax</b>. He marched as general into <b>Italy</b>; defeated <b>Julian</b>; and without our being able to fix any precise commencement even of the soldiers' consent, he was from necessity acknowledged emperor by the senate and people; and fully established in his violent authority by subduing <b>Niger</b> and <b>Albinus</b><sup><a href='#n3'>[3]</a></sup>.</p>"
   -
     id: "43"
     pages: "484-5"
@@ -183,7 +186,7 @@ paragraphs:
   -
     id: "44"
     pages: "485"
-    content: "<p>Frequent instances of a like nature occur in the history of the emperors; in that of <b>Alexander</b>’s successors; and of many other countries: Nor can any thing be more unhappy than a despotic government of this kind; where the succession is disjointed and irregular, and must be determined, on every vacancy, by force or election. In a free government, the matter is often unavoidable, and is also much less dangerous. The interests of liberty may there frequently lead the people, in their own defence, to alter the succession of the crown. And the constitution, being compounded of parts, may still maintain a sufficient stability, by resting on the aristocratical or democratical members, though the monarchical be altered, from time to time, in order to accommodate it to the former.</p>"
+    content: "<p>Frequent instances of a like nature occur in the history of the emperors; in that of <b>Alexander</b>'s successors; and of many other countries: Nor can any thing be more unhappy than a despotic government of this kind; where the succession is disjointed and irregular, and must be determined, on every vacancy, by force or election. In a free government, the matter is often unavoidable, and is also much less dangerous. The interests of liberty may there frequently lead the people, in their own defence, to alter the succession of the crown. And the constitution, being compounded of parts, may still maintain a sufficient stability, by resting on the aristocratical or democratical members, though the monarchical be altered, from time to time, in order to accommodate it to the former.</p>"
   -
     id: "45"
     pages: "485-6"
@@ -195,7 +198,7 @@ paragraphs:
   -
     id: "47"
     pages: "487"
-    content: "<p>The only passage I meet with in antiquity, where the obligation of obedience to government is ascribed to a promise, is in <b>Plato</b>’s <em>Crito</em>: where <b>Socrates</b> refuses to escape from prison, because he had tacitly promised to obey the laws. Thus he builds a <em>tory</em> consequence of passive obedience, on a <em>whig</em> foundation of the original contract.</p>"
+    content: "<p>The only passage I meet with in antiquity, where the obligation of obedience to government is ascribed to a promise, is in <b>Plato</b>'s <em>Crito</em>: where <b>Socrates</b> refuses to escape from prison, because he had tacitly promised to obey the laws. Thus he builds a <em>tory</em> consequence of passive obedience, on a <em>whig</em> foundation of the original contract.</p>"
   -
     id: "48"
     pages: "487"
@@ -204,27 +207,24 @@ paragraphs:
     id: "49"
     pages: "487"
     content: "<p>The crime of rebellion among the ancients was commonly expressed by the terms <i>νεωτεριζειν</i>, <em>novas res moliri</em>.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "473"
     symbol: "*"
     content: "<p>Lib. ii. cap. 38.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "475"
     symbol: "†"
     content: "<p><b>Tacit.</b> Ann. vi. cap. 14.</p>"
   -
-    id: "n3"
-    type: "note"
+    id: "3"
     pages: "484"
     symbol: "†"
     content: "<p><b>Herodian</b>, lib. ii.</p>"
   -
-    id: "n4"
-    type: "endnote"
+    id: "4"
     symbol: "*"
     content: "<p>See NOTE [TT].</p>"
   -
@@ -233,14 +233,12 @@ paragraphs:
     pages: "485-6"
     content: "<p><strong>I</strong>T is remarkable, that, in the remonstrance of the duke of <b>Bourbon</b> and the legitimate princes, against this destination of <b>Louis</b> the XIVth, the doctrine of the <em>original contract</em> is insisted on, even in that absolute government. The <b>French</b> nation, say they, chusing <b>Hugh Capet</b> and his posterity to rule over them and their posterity, where the former line fails, there is a tacit right reserved to choose a new royal family; and this right is <span class='page-break'>|</span>invaded by calling the bastard princes to the throne, without the consent of the nation. But the Comte de <b>Boulainvilliers</b>, who wrote in defence of the bastard princes, ridicules this notion of an original contract, especially when applied to <b>Hugh Capet</b>; who mounted the throne, says he, by the same arts, which have ever been employed by all conquerors and usurpers. He got his title, indeed, recognized by the states after he had put himself in possession: But is this a choice or contract? The Comte de <b>Boulainvilliers</b>, we may observe, was a noted republican; but being a man of learning, and very conversant in history, he knew that the people were never almost consulted in these revolutions and new establishments, and that time alone bestowed right and authority on what was commonly at first founded on force and violence. See <em>Etat de la France</em>, Vol. III.</p>"
   -
-    id: "n5"
-    type: "note"
+    id: "5"
     pages: "487"
     symbol: "*"
     content: "<p>See <b>Locke</b> on Government, chap. vii. §90.</p>"
   -
-    id: "n6"
-    type: "note"
+    id: "6"
     pages: "487"
     symbol: "†"
     content: "<p>Id. chap. xi. §138, 139, 140.</p>"

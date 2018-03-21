@@ -8,6 +8,10 @@ title:
 year: "1779"
 parent: "d"
 pages: "KS"
+images: [33, 34, 35, 36, 37, 38]
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"

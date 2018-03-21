@@ -6,6 +6,9 @@ title:
   - "<h1>Of <b>some Remarkable Customs</b>.</h1>"
 year: "1752, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -43,7 +46,7 @@ paragraphs:
   -
     id: "9"
     pages: "370-1"
-    content: "<p>II. A wheel within a wheel, such as we observe in the <b>German</b> empire, is considered by Lord <b>Shaftesbury</b><sup><a href='#n10'>[10]</a></sup> as an absurdity in politics: But what must we say to two equal wheels, which govern the same political machine, without any mutual check, controul, or subordination; and yet preserve the greatest harmony and concord? To establish two distinct legislatures, each of which possesses full and absolute authority within itself, and stands in no need of the other’s assistance, in order to give validity to its acts; this may appear, before-hand, altogether impracticable, as long as men are actuated by the passions of ambition, emulation, and avarice, <span class='page-break'>|</span>which have hitherto been their chief governing principles. And should I assert, that the state I have in my eye was divided into two distinct factions, each of which predominated in a distinct legislature, and yet produced no clashing in these independent powers; the supposition may appear incredible. And if, to augment the paradox, I should affirm, that this disjointed, irregular government, was the most active, triumphant, and illustrious commonwealth, that ever yet appeared; I should certainly be told, that such a political chimera was as absurd as any vision of priests or poets. But there is no need for searching long, in order to prove the reality of the foregoing suppositions: For this was actually the case with the <b>Roman</b> republic.</p>"
+    content: "<p>II. A wheel within a wheel, such as we observe in the <b>German</b> empire, is considered by Lord <b>Shaftesbury</b><sup><a href='#n10'>[10]</a></sup> as an absurdity in politics: But what must we say to two equal wheels, which govern the same political machine, without any mutual check, controul, or subordination; and yet preserve the greatest harmony and concord? To establish two distinct legislatures, each of which possesses full and absolute authority within itself, and stands in no need of the other's assistance, in order to give validity to its acts; this may appear, before-hand, altogether impracticable, as long as men are actuated by the passions of ambition, emulation, and avarice, <span class='page-break'>|</span>which have hitherto been their chief governing principles. And should I assert, that the state I have in my eye was divided into two distinct factions, each of which predominated in a distinct legislature, and yet produced no clashing in these independent powers; the supposition may appear incredible. And if, to augment the paradox, I should affirm, that this disjointed, irregular government, was the most active, triumphant, and illustrious commonwealth, that ever yet appeared; I should certainly be told, that such a political chimera was as absurd as any vision of priests or poets. But there is no need for searching long, in order to prove the reality of the foregoing suppositions: For this was actually the case with the <b>Roman</b> republic.</p>"
   -
     id: "10"
     pages: "371-2"
@@ -63,7 +66,7 @@ paragraphs:
   -
     id: "14"
     pages: "373-4"
-    content: "<p>III. The <em>third</em> custom, which we purpose to remark, regards <b>England</b>, and though it be not so important as those which we have pointed out in <b>Athens</b> and <b>Rome</b>, is no less <span class='page-break'>|</span>singular and unexpected. It is a maxim in politics, which we readily admit as undisputed and universal, that a power, however great, when granted by law to an eminent magistrate, is not so dangerous to liberty, as an authority, however inconsiderable, which he acquires from violence and usurpation. For, besides that the law always limits every power which it bestows, the very receiving it as a concession establishes the authority whence it is derived, and preserves the harmony of the constitution. By the same right that one prerogative is assumed without law, another may also be claimed, and another, with still greater facility; while the first usurpations both serve as precedents to the following, and give force to maintain them. Hence the heroism of <b>Hampden</b>’s conduct, who sustained the whole violence of royal prosecution, rather than pay a tax of twenty shillings, not imposed by parliament; hence the care of all <b>English</b> patriots to guard against the first encroachments of the crown; and hence alone the existence, at this day, of <b>English</b> liberty.</p>"
+    content: "<p>III. The <em>third</em> custom, which we purpose to remark, regards <b>England</b>, and though it be not so important as those which we have pointed out in <b>Athens</b> and <b>Rome</b>, is no less <span class='page-break'>|</span>singular and unexpected. It is a maxim in politics, which we readily admit as undisputed and universal, that a power, however great, when granted by law to an eminent magistrate, is not so dangerous to liberty, as an authority, however inconsiderable, which he acquires from violence and usurpation. For, besides that the law always limits every power which it bestows, the very receiving it as a concession establishes the authority whence it is derived, and preserves the harmony of the constitution. By the same right that one prerogative is assumed without law, another may also be claimed, and another, with still greater facility; while the first usurpations both serve as precedents to the following, and give force to maintain them. Hence the heroism of <b>Hampden</b>'s conduct, who sustained the whole violence of royal prosecution, rather than pay a tax of twenty shillings, not imposed by parliament; hence the care of all <b>English</b> patriots to guard against the first encroachments of the crown; and hence alone the existence, at this day, of <b>English</b> liberty.</p>"
   -
     id: "15"
     pages: "374-5"
@@ -72,63 +75,54 @@ paragraphs:
     id: "16"
     pages: "375-6"
     content: "<p>I pretend not, by this reasoning, to exclude all possibility of contriving a register for seamen, which might man the navy, without being dangerous to liberty. I only observe, that no satisfactory scheme of that nature has yet been proposed. Rather than adopt any project hitherto invented, we continue a practice seemingly the most absurd and unaccountable. Authority, in times of full internal peace and concord, is armed against law. A continued violence is permitted in the crown, amidst the greatest jealousy and watchfulness in the people; nay proceeding from those very principles: Liberty, in a country of the highest liberty, is left entirely to its own defence, without any countenance or protection: The wild <span class='page-break'>|</span>state of nature is renewed, in one of the most civilized societies of mankind: And great violence and disorder are committed with impunity; while the one party pleads obedience to the supreme magistrate, the other the sanction of fundamental laws.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "367"
     symbol: "*"
     content: "<p>His harangue for it is still extant; <i>περι Συμμοριας</i>.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "367"
     symbol: "†"
     content: "<p>Pro <b>Ctesiphonte</b>.</p>"
   -
-    id: "n3"
-    type: "note"
+    id: "3"
     pages: "368"
     symbol: "*"
     content: "<p><b>Plutarchus</b> <em>in vita decem oratorum</em>. <b>Demosthenes</b> gives a different account of this law. <em>Contra</em> <b>Aristogiton</b>. <em>orat.</em> II. He says, that its purport was, to render the <i>ατιμοι επιτιμοι</i>, or to restore the privilege of bearing offices to those who had been declared incapable. Perhaps these were both clauses of the same law.</p>"
   -
-    id: "n4"
-    type: "note"
+    id: "4"
     pages: "368"
     symbol: "†"
     content: "<p>The senate of the Bean was only a less numerous mob, chosen by lot from among the people; and their authority was not great.</p>"
   -
-    id: "n5"
-    type: "note"
+    id: "5"
     pages: "369"
     symbol: "‡"
     content: "<p><em>In</em> <b>Ctesiphontem</b>. It is remarkable, that the first step after the dissolution of the Democracy by <b>Critias</b> and the Thirty, was to annul the <i>γραφη παρανομων</i>, as we learn from <b>Demosthenes</b> <i>κατα Τιμοκ</i>. The orator in this oration gives us the words of the law, establishing the <i>γραφη παρανομων</i>, pag. 297. <em>ex edit.</em> <b>Aldi</b>. And he accounts for it, from the same principles we here reason upon.</p>"
   -
-    id: "n6"
-    type: "note"
+    id: "6"
     pages: "369"
     symbol: "†"
     content: "<p><b>Plut.</b> <em>in vita</em> <b>Pelop.</b></p>"
   -
-    id: "n7"
-    type: "note"
+    id: "7"
     pages: "369"
     symbol: "*"
     content: "<p><b>Demost.</b> <em>Olynth.</em> I.2.</p>"
   -
-    id: "n8"
-    type: "note"
+    id: "8"
     pages: "370"
     symbol: "ǁ"
     content: "<p><b>Demost.</b> <em>contra</em> <b>Lept.</b></p>"
   -
-    id: "n9"
-    type: "note"
+    id: "9"
     pages: "370"
     symbol: "§"
     content: "<p><b>Demost.</b> <em>contra</em> <b>Aristocratem</b>.</p>"
   -
-    id: "n10"
-    type: "note"
+    id: "10"
     pages: "370"
     symbol: "†"
     content: "<p>Essay on the freedom of wit and humour, part 3. §2.</p>"

@@ -7,6 +7,9 @@ title:
   - "<h1><strong>SECTION </strong>VII.</h1><h2>Of <b>Qualities immediately agreeable</b> to <b>ourselves</b>.</h2>"
 year: "1777"
 pages: "SBN"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -20,7 +23,7 @@ paragraphs:
   -
     id: "3"
     pages: ""
-    content: "<p>Few men would envy the character, which <b>Cæsar</b> gives of <b>Cassius</b>. <blockquote><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span>He loves no play,<br>As thou do’st, <b>Anthony</b>: He hears no music:<br>Seldom he smiles; and smiles in such a sort,<br>As if he mock’d himself, and scorn’d his spirit<br>That could be mov’d to smile at any thing.</blockquote> Not only such men, as <b>Cæsar</b> adds, are commonly <em>dangerous</em>, but also, having little enjoyment within themselves, they can never become agreeable to others, or contribute to social entertainment. In all polite nations and ages, a relish for pleasure, if accompanied with temperance and decency, is esteemed a considerable merit, even in the greatest men; and becomes still more requisite in those of inferior rank and character. It is an agreeable representation, which a <b>French</b> writer gives of the situation of his own mind in this particular, <SBN#252><em>Virtue I love</em>, says he, <em>without austerity: Pleasure without effeminacy: And life, without fearing its end</em><sup><a href='#n36'>[36]</a></sup>.</p>"
+    content: "<p>Few men would envy the character, which <b>Cæsar</b> gives of <b>Cassius</b>. <blockquote><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span>He loves no play,<br>As thou do'st, <b>Anthony</b>: He hears no music:<br>Seldom he smiles; and smiles in such a sort,<br>As if he mock'd himself, and scorn'd his spirit<br>That could be mov'd to smile at any thing.</blockquote> Not only such men, as <b>Cæsar</b> adds, are commonly <em>dangerous</em>, but also, having little enjoyment within themselves, they can never become agreeable to others, or contribute to social entertainment. In all polite nations and ages, a relish for pleasure, if accompanied with temperance and decency, is esteemed a considerable merit, even in the greatest men; and becomes still more requisite in those of inferior rank and character. It is an agreeable representation, which a <b>French</b> writer gives of the situation of his own mind in this particular, <SBN#252><em>Virtue I love</em>, says he, <em>without austerity: Pleasure without effeminacy: And life, without fearing its end</em><sup><a href='#n36'>[36]</a></sup>.</p>"
   -
     id: "4"
     pages: ""
@@ -48,7 +51,7 @@ paragraphs:
   -
     id: "10"
     pages: ""
-    content: "<p>We never excuse the absolute want of spirit and dignity of character, or a proper sense of what is due to one’s self, in society and the common intercourse of life. This vice constitutes what we properly call <em>meanness</em>; when a man can submit to the basest slavery, in order to gain his ends; fawn upon those who abuse him; and degrade himself by intimacies and familiarities with undeserving inferiors. A certain degree of generous pride or self-value is so requisite, that the absence of it in the mind displeases, after the same manner as the want of a nose, eye, or any of the most material feature of the face or member of the body<sup><a href='#n42'>[42]</a></sup>.</p>"
+    content: "<p>We never excuse the absolute want of spirit and dignity of character, or a proper sense of what is due to one's self, in society and the common intercourse of life. This vice constitutes what we properly call <em>meanness</em>; when a man can submit to the basest slavery, in order to gain his ends; fawn upon those who abuse him; and degrade himself by intimacies and familiarities with undeserving inferiors. A certain degree of generous pride or self-value is so requisite, that the absence of it in the mind displeases, after the same manner as the want of a nose, eye, or any of the most material feature of the face or member of the body<sup><a href='#n42'>[42]</a></sup>.</p>"
   -
     id: "11"
     pages: ""
@@ -88,7 +91,7 @@ paragraphs:
   -
     id: "20"
     pages: ""
-    content: "<p>When poets form descriptions of <b>Elysian</b> fields, where the blessed inhabitants stand in no need of each other’s assistance, they yet represent them as maintaining a constant intercourse of love and friendship, and sooth our fancy with the pleasing image of these soft and gentle passions. The idea of tender tranquillity in a pastoral <b>Arcadia</b> is agreeable from a like principle, as has been observed above<sup><a href='#n48'>[48]</a></sup>.</p>"
+    content: "<p>When poets form descriptions of <b>Elysian</b> fields, where the blessed inhabitants stand in no need of each other's assistance, they yet represent them as maintaining a constant intercourse of love and friendship, and sooth our fancy with the pleasing image of these soft and gentle passions. The idea of tender tranquillity in a pastoral <b>Arcadia</b> is agreeable from a like principle, as has been observed above<sup><a href='#n48'>[48]</a></sup>.</p>"
   -
     id: "21"
     pages: ""
@@ -125,3 +128,76 @@ paragraphs:
     id: "29"
     pages: ""
     content: "<p>These are some instances of the several species of merit, that are valued for the immediate pleasure, which they communicate to the person possessed of them. No views of utility or of future beneficial consequences enter into this sentiment of approbation; yet is it of a kind similar to that other sentiment, which arises from views of a public or private utility. The same social sympathy, we may observe, or fellow-feeling with human happiness or misery, gives rise to both; and this analogy, in all the parts of the present theory, may justly be regarded as a confirmation of it.</p>"
+notes:
+  -
+    id: "35"
+    symbol: "*"
+    content: "<p>See NOTE [KK].</p>"
+  -
+    id: "[KK].1"
+    type: "first"
+    content: "<p><strong>T</strong>HERE is no man, who, on particular occasions, is not affected with all the disagreeable passions, fear, anger, dejection, grief, melancholy, anxiety, <em>&c.</em> But these, so far as they are natural, and universal, make no difference between one man and another, and can never be the object of blame. It is only when the disposition gives a <em>propensity</em> to any of these disagreeable passions, that they disfigure the character, and by giving uneasiness, convey the sentiment of disapprobation to the spectator.</p>"
+  -
+    id: "36"
+    symbol: "*"
+    content: "<p>“J'aime la vertu, sans rudesse; <br>J'aime le plaisir, sans molesse; <br>J'aime la vie, et n'en crains point la fin.” <span class='tab'></span>St. <b>Evremond</b>.</p>"
+  -
+    id: "37"
+    symbol: "†"
+    content: "<p>Cap. 9.</p>"
+  -
+    id: "38"
+    symbol: "‡"
+    content: "<p>Idem.</p>"
+  -
+    id: "39"
+    symbol: "*"
+    content: "<p>Reflexion 10 sur Longin.</p>"
+  -
+    id: "40"
+    symbol: "†"
+    content: "<p><b>Plutarch</b> in <b>Phoc.</b></p>"
+  -
+    id: "41"
+    symbol: "‡"
+    content: "<p>See NOTE [LL]<ins title='there is a full-stop missing here'>.</ins></p>"
+  -
+    id: "[LL].1"
+    type: "first"
+    content: "<p><strong>T</strong>ACIT. hist. lib. iii. The author entering upon the narration, says, <em>Laniata veste, fœdum spectaculum ducebatur, multis increpantibus, nullo inlacrimante:</em> deformatitas exitus misericordiam abstulerat. To enter thoroughly into this method of thinking, we must make allowance for the ancient maxims, that no one ought to prolong his life after it became dishonourable; but, as he had always a right to dispose of it, it then became a duty to part with it.</p>"
+  -
+    id: "42"
+    symbol: "*"
+    content: "<p>See NOTE [MM].</p>"
+  -
+    id: "[MM].1"
+    type: "first"
+    content: "<p><strong>T</strong>HE absence of virtue may often be a vice; and that of the highest kind; as in the instance of ingratitude, as well as meanness. Where we <SBN#254>expect a beauty, the disappointment gives an uneasy sensation, and produces a real deformity. An abjectness of character, likewise, is disgustful and contemptible in another view. Where a man has no sense of value in himself, we are not likely to have any higher esteem of him. And if the same person, who crouches to his superiors, is insolent to his inferiors (as often happens), this contrariety of behaviour, instead of correcting the former vice, aggravates it extremely by the addition of a vice still more odious. See sect. 8.</p>"
+  -
+    id: "43"
+    symbol: "†"
+    content: "<p>Pro corona.</p>"
+  -
+    id: "44"
+    symbol: "†"
+    content: "<p>De moribus Germ.</p>"
+  -
+    id: "45"
+    symbol: "‡"
+    content: "<p>Lib. iv.</p>"
+  -
+    id: "46"
+    symbol: "ǁ"
+    content: "<p>Lib. i.</p>"
+  -
+    id: "47"
+    symbol: "†"
+    content: "<p>It is a common use, says he, amongst their gentlemen's sons, that, as soon as they are able to use their weapons, they strait gather to themselves three or four stragglers or kern, with whom wandering a while up and down idly the country, taking only meat, he at last falleth into some bad occasion, that shall be offered; which being once made known, he is thenceforth counted a man of worth, in whom there is courage.</p>"
+  -
+    id: "48"
+    symbol: "*"
+    content: "<p>Sect. v. Part 2.</p>"
+  -
+    id: "49"
+    symbol: "†"
+    content: "<p>Chearfulness could scarce admit of blame from its excess, were it not that dissolute mirth, without a proper cause or subject, is a sure symptom and characteristic of folly, and on that account disgustful.</p>"

@@ -6,6 +6,9 @@ title:
   - "<h1>Of <b>Civil Liberty</b>.</h1>"
 year: "1741, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -31,11 +34,11 @@ paragraphs:
   -
     id: "6"
     pages: "90-1"
-    content: "<p>But the most eminent instance of the flourishing of learn<span class='page-break'>|</span>ing in absolute governments, is that of <b>France</b>, which scarcely ever enjoyed any established liberty, and yet has carried the arts and sciences as near perfection as any other nation. The <b>English</b> are, perhaps, greater philosophers; the <b>Italians</b> better painters and musicians; the <b>Romans</b> were greater orators: But the <b>French</b> are the only people, except the <b>Greeks</b>, who have been at once philosophers, poets, orators, historians, painters, architects, sculptors, and musicians. With regard to the stage, they have excelled even the <b>Greeks</b>, who far excelled the <b>English</b>. And, in common life, they have, in a great measure, perfected that art, the most useful and agreeable of any, <em>l’Art de Vivre</em>, the art of society and conversation.</p>"
+    content: "<p>But the most eminent instance of the flourishing of learn<span class='page-break'>|</span>ing in absolute governments, is that of <b>France</b>, which scarcely ever enjoyed any established liberty, and yet has carried the arts and sciences as near perfection as any other nation. The <b>English</b> are, perhaps, greater philosophers; the <b>Italians</b> better painters and musicians; the <b>Romans</b> were greater orators: But the <b>French</b> are the only people, except the <b>Greeks</b>, who have been at once philosophers, poets, orators, historians, painters, architects, sculptors, and musicians. With regard to the stage, they have excelled even the <b>Greeks</b>, who far excelled the <b>English</b>. And, in common life, they have, in a great measure, perfected that art, the most useful and agreeable of any, <em>l'Art de Vivre</em>, the art of society and conversation.</p>"
   -
     id: "7"
     pages: "91"
-    content: "<p>If we consider the state of the sciences and polite arts in our own country, <b>Horace</b>’s observation, with regard to the <b>Romans</b>, may, in a great measure, be applied to the <b>British</b>. <blockquote><em>—Sed in longum tamen ævum</em><br><em>Manserunt, hodieque manent</em> vestigia ruris<em>.</em></blockquote></p>"
+    content: "<p>If we consider the state of the sciences and polite arts in our own country, <b>Horace</b>'s observation, with regard to the <b>Romans</b>, may, in a great measure, be applied to the <b>British</b>. <blockquote><em>—Sed in longum tamen ævum</em><br><em>Manserunt, hodieque manent</em> vestigia ruris<em>.</em></blockquote></p>"
   -
     id: "8"
     pages: "91-2"
@@ -51,7 +54,7 @@ paragraphs:
   -
     id: "11"
     pages: "93-4"
-    content: "<p>Since I am upon this head, of the alterations which time has produced, or may produce in politics, I must observe, that all kinds of government, free and absolute, seem to have undergone, in modern times, a great change for the better, with regard both to foreign and domestic management. The <em>balance of power</em> is a secret in politics, fully known only to the present age; and I must add, that the internal <b>Police</b> of states has also received great improvements within the last century. We are informed by <b>Sallust</b>, that <b>Catiline</b>’s army was much augmented by the accession of the highwaymen about <b>Rome</b>; though I believe, that all of that profession, who are at present dispersed over <b>Europe</b>, would not amount to a regiment. In <b>Cicero</b>’s pleadings for <b>Milo</b>, I find this argument, among others, made use of to prove, that his client had not assassinated <b>Clodius</b>. Had <b>Milo</b>, said he, intended to have killed <b>Clodius</b>, he had not attacked him in the day-time, and at such a distance from the city: He had way-laid <span class='page-break'>|</span>him at night, near the suburbs, where it might have been pretended, that he was killed by robbers; and the frequency of the accident would have favoured the deceit. This is a surprizing proof of the loose police of <b>Rome</b>, and of the number and force of these robbers; since <b>Clodius</b><sup><a href='#n4'>[4]</a></sup> was at that time attended by thirty slaves, who were compleatly armed, and sufficiently accustomed to blood and danger in the frequent tumults excited by that seditious tribune.</p>"
+    content: "<p>Since I am upon this head, of the alterations which time has produced, or may produce in politics, I must observe, that all kinds of government, free and absolute, seem to have undergone, in modern times, a great change for the better, with regard both to foreign and domestic management. The <em>balance of power</em> is a secret in politics, fully known only to the present age; and I must add, that the internal <b>Police</b> of states has also received great improvements within the last century. We are informed by <b>Sallust</b>, that <b>Catiline</b>'s army was much augmented by the accession of the highwaymen about <b>Rome</b>; though I believe, that all of that profession, who are at present dispersed over <b>Europe</b>, would not amount to a regiment. In <b>Cicero</b>'s pleadings for <b>Milo</b>, I find this argument, among others, made use of to prove, that his client had not assassinated <b>Clodius</b>. Had <b>Milo</b>, said he, intended to have killed <b>Clodius</b>, he had not attacked him in the day-time, and at such a distance from the city: He had way-laid <span class='page-break'>|</span>him at night, near the suburbs, where it might have been pretended, that he was killed by robbers; and the frequency of the accident would have favoured the deceit. This is a surprizing proof of the loose police of <b>Rome</b>, and of the number and force of these robbers; since <b>Clodius</b><sup><a href='#n4'>[4]</a></sup> was at that time attended by thirty slaves, who were compleatly armed, and sufficiently accustomed to blood and danger in the frequent tumults excited by that seditious tribune.</p>"
   -
     id: "12"
     pages: "94"
@@ -64,33 +67,29 @@ paragraphs:
     id: "14"
     pages: "95-6"
     content: "<p>The source of degeneracy, which may be remarked in free governments, consists in the practice of contracting debt, and mortgaging the public revenues, by which taxes may, in time, become altogether intolerable, and all the property of the state be brought into the hands of the public. This practice is of modern date. The <b>Athenians</b>, though governed by a republic, paid near two hundred <em>per Cent.</em> for those sums of money, which any emergence made it necessary for them to borrow; as we learn from <b>Xenophon</b><sup><a href='#n5'>[5]</a></sup>. Among the moderns, the <span class='page-break'>|</span><b>Dutch</b> first introduced the practice of borrowing great sums at low interest, and have well nigh ruined themselves by it. Absolute princes have also contracted debt; but as an absolute prince may make a bankruptcy when he pleases, his people can never be oppressed by his debts. In popular governments, the people, and chiefly those who have the highest offices, being commonly the public creditors, it is difficult for the state to make use of this remedy, which, however it may sometimes be necessary, is always cruel and barbarous. This, therefore<ins title='a comma is missing here from the 1777 edition, but present in earlier editions'>,</ins> seems to be an inconvenience, which nearly threatens all free governments; especially our own, at the present juncture of affairs. And what a strong motive is this, to encrease our frugality of public money; lest for want of it, we be reduced, by the multiplicity of taxes, or what is worse, by our public impotence and inability for defence, to curse our very liberty, and wish ourselves in the same state of servitude with all the nations that surround us?</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "88"
     symbol: "†"
     content: "<p><b>Xenophon</b> mentions it; but with a doubt if it be of any advantage to a state. <i>Ει δε και εμπορια ωφελει τι πολιν</i>, &c. <b>Xen. Hiero</b>. <b>Plato</b> totally excludes it from his imaginary republic. De legibus, lib. iv.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "90"
     symbol: "†"
     content: "<p>Mr. <b>Addison</b> and <b>Lord Shaftesbury</b>.</p>"
   -
-    id: "n3"
-    type: "note"
+    id: "3"
     pages: "91"
     symbol: "*"
     content: "<p>Dr. <b>Swift</b>.</p>"
   -
-    id: "n4"
-    type: "note"
+    id: "4"
     pages: "94"
     symbol: "†"
     content: "<p><em>Vide Asc. Ped. in Orat. pro Milone.</em></p>"
   -
-    id: "n5"
-    type: "note"
+    id: "5"
     pages: "95-6"
     symbol: "*"
     content: "<p><i>Κτησιν δε απ ουδενος αν ουτω καλην κτησαιντο ωσπερ αφ ου αν προτελεσωσιν εις την αφορμην—οι δε γε πλειστοι Αθηναιων πλειονα <span class='page-break'>|</span>ληψονται κατ ενιαυτον η οςα αν εισενεγκωσιν οι γαρ μναν προτελεσαντες εγγυς δυοιν μναιν προσοδον εξουσι—ο δοκει των ανθρωπινων ασφαλεστατον τε και πολυχρονιωτατον ειναι. ΞΕΝ. ΠΟΡΟΙ.</i></p>"

@@ -7,6 +7,9 @@ title:
   - "<h1><strong>APPENDIX </strong>III.</h1><h2><b>Some farther Considerations</b> with regard to <b>Justice</b>.</h2>"
 year: "1777"
 pages: "SBN"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -20,7 +23,7 @@ paragraphs:
   -
     id: "3"
     pages: ""
-    content: "<p>The case is not the same with the social virtues of justice and fidelity. They are highly useful, or indeed absolutely necessary to the well-being of mankind: But the benefit, resulting from them, is not the consequence of every individual single act; but arises from the whole scheme or system, concurred in by the whole, or the greater part of the society. General peace and order are the attendants of justice or a general abstinence from the possessions of others: But a particular regard to the particular right of one individual citizen may frequently, considered in itself, be productive of pernicious consequences. The result of the individual acts is here, in many instances, directly opposite to that of the whole system of actions; and the former may be extremely hurtful, while the latter is, to the highest degree, advantageous. Riches, inherited from a parent, are, in a bad man’s hand, the instrument of mischief. The right of succession may, in one instance, be hurtful. Its benefit arises only from the observance of the general rule; and it is sufficient, if compensation be thereby made for all the ills and inconveniences, which flow from particular characters and situations.</p>"
+    content: "<p>The case is not the same with the social virtues of justice and fidelity. They are highly useful, or indeed absolutely necessary to the well-being of mankind: But the benefit, resulting from them, is not the consequence of every individual single act; but arises from the whole scheme or system, concurred in by the whole, or the greater part of the society. General peace and order are the attendants of justice or a general abstinence from the possessions of others: But a particular regard to the particular right of one individual citizen may frequently, considered in itself, be productive of pernicious consequences. The result of the individual acts is here, in many instances, directly opposite to that of the whole system of actions; and the former may be extremely hurtful, while the latter is, to the highest degree, advantageous. Riches, inherited from a parent, are, in a bad man's hand, the instrument of mischief. The right of succession may, in one instance, be hurtful. Its benefit arises only from the observance of the general rule; and it is sufficient, if compensation be thereby made for all the ills and inconveniences, which flow from particular characters and situations.</p>"
   -
     id: "4"
     pages: ""
@@ -44,7 +47,7 @@ paragraphs:
   -
     id: "9"
     pages: ""
-    content: "<p>The word, <em>natural</em>, is commonly taken in so many senses, and is of so loose a signification, that it seems vain to dispute whether justice be natural or not. If self-love, if benevolence be natural to man; if reason and forethought be also natural; then may the same epithet be applied to justice, order, fidelity, property, society. Men’s inclination, their necessities lead them to combine; their understanding and experience tell them, that this combination is impossible, where each governs himself by no rule, and pays no regard to the possessions of others: And from these passions and reflections conjoined, as soon as we observe like passions and reflections in others, the sentiment of justice, throughout all ages, has infallibly and certainly had place, to some degree or other, in every individual of the human species. In so sagacious an animal, what necessarily arises from the exertion of his intellectual faculties, may justly be esteemed natural<sup><a href='#n64'>[64]</a></sup>.</p>"
+    content: "<p>The word, <em>natural</em>, is commonly taken in so many senses, and is of so loose a signification, that it seems vain to dispute whether justice be natural or not. If self-love, if benevolence be natural to man; if reason and forethought be also natural; then may the same epithet be applied to justice, order, fidelity, property, society. Men's inclination, their necessities lead them to combine; their understanding and experience tell them, that this combination is impossible, where each governs himself by no rule, and pays no regard to the possessions of others: And from these passions and reflections conjoined, as soon as we observe like passions and reflections in others, the sentiment of justice, throughout all ages, has infallibly and certainly had place, to some degree or other, in every individual of the human species. In so sagacious an animal, what necessarily arises from the exertion of his intellectual faculties, may justly be esteemed natural<sup><a href='#n64'>[64]</a></sup>.</p>"
   -
     id: "10"
     pages: ""
@@ -53,3 +56,58 @@ paragraphs:
     id: "11"
     pages: ""
     content: "<p><SBN#310>We may just observe, before we conclude this subject, that, after the laws of justice are fixed by views of general utility, the injury, the hardship, the harm, which result to any individual from a violation of them, enter very much into consideration, and are a great source of that universal blame, which attends every wrong or iniquity. By the laws of society, this coat, this horse is mine, and <em>ought</em> to remain perpetually in my possession: I reckon on the secure enjoyment of it: By depriving me of it, you disappoint my expectations, and doubly displease me, and offend every bystander. It is a public wrong, so far as the rules of equity are violated: It is a private harm, so far as an individual is injured. And though the second consideration could have <SBN#311>no place, were not the former previously established: For otherwise the distinction of <em>mine</em> and <em>thine</em> would be unknown in society: Yet there is no question, but the regard to general good is much enforced by the respect to particular. What injures the community, without hurting any individual, is often more lightly thought of. But where the greatest public wrong is also conjoined with a considerable private one, no wonder the highest disapprobation attends so iniquitous a behaviour.</p>"
+notes:
+  -
+    id: "63"
+    symbol: "*"
+    content: "<p>See NOTE [PP].</p>"
+  -
+    id: "[PP].1"
+    type: "first"
+    content: "<p><strong>T</strong>HIS theory concerning the origin of property, and consequently of justice, is, in the main, the same with that hinted at and adopted by <b>Grotius</b>, “Hinc discimus, quæ fuerit causa, ob quam a primæva communione rerum primo mobilium, deinde & immobilium discessum est: nimirum quod cum non contenti homines vesci sponte natis, antra habitare, corpore aut nudo agere, aut corticibus arborum ferarumve pellibus vestito, vitæ genus exquisitius delegissent, industria opus fuit, quam singuli rebus singulis adhiberent. Quo minus autem fructus in commune conferrentur, primum obstitit locorum, in quæ homines discesserunt, distantia, deinde justitiæ & amoris defectus, per quem fiebat, ut nec in labore, nec in consumtione fructuum, quæ debebat, æqualitas servaretur. Simul discimus, quomodo res in proprietatem iverint; non animi actu solo, neque enim scire alii poterant, quid alii suum esse vellent, ut eo abstinerent, & idem velle plures poterant; sed pacto quodam aut expresso, ut per divisionem, aut tacito, ut per occupationem.” De jure belli & pacis. Lib. ii. cap. 2. §2. art. 4 & 5.</p>"
+  -
+    id: "64"
+    symbol: "†"
+    content: "<p>See NOTE [QQ].</p>"
+  -
+    id: "[QQ].1"
+    type: "first"
+    content: "<p><strong>N</strong>ATURAL may be opposed, either to what is <em>unusual</em>, <em>miraculous</em>, or <em>artificial</em>. In the two former senses, justice and property are undoubtedly natural. But as they suppose reason, forethought, design, and a social union and confederacy among men, perhaps, that epithet cannot <SBN#308>strictly, in the last sense, be applied to them. Had men lived without society, property had never been known, and neither justice nor injustice had ever existed. But society among human creatures, had been impossible, without reason, and forethought. Inferior animals, that unite, are guided by instinct, which supplies the place of reason. But all these disputes are merely verbal.</p>"
+  -
+    id: "65"
+    symbol: "*"
+    content: "<p>See NOTE [RR].</p>"
+  -
+    id: "[RR].1"
+    type: "first"
+    content: "<p><strong>T</strong>HAT there be a separation or distinction of possessions, and that this separation be steady and constant; this is absolutely required by the interests of society, and hence the origin of justice and property. What possessions are assigned to particular persons; this is, generally speaking, pretty indifferent; and is often determined by very frivolous views and considerations. We shall mention a few particulars.</p>"
+  -
+    id: "[RR].2"
+    content: "<p>Were a society formed among several independent members, the most obvious rule, which could be agreed on, would be to annex property to <em>present</em> possession, and leave every one a right to what he at present enjoys. The relation of possession, which takes place between the person and the object, naturally draws on the relation of property.</p>"
+  -
+    id: "[RR].3"
+    content: "<p>For a like reason, occupation or first possession becomes the foundation of property.</p>"
+  -
+    id: "[RR].4"
+    content: "<p>Where a man bestows labour and industry upon any object, which before belonged to no body; as in cutting down and shaping a tree, in cultivating a field, &c. the <del>alterations</del><ins title='originally 'alterations'; given the singular forms 'causes' and 'engages' that follow, this should presumably be the singular 'alteration', though both the 1770 and the 1772 editions have 'alterations' in the plural as well'>alteration</ins>, which he produces, causes a relation between him and the object, and naturally engages us to annex it to him by the new relation of property. This cause here concurs with the public utility, which consists in the encouragement given to industry and labour.</p>"
+  -
+    id: "[RR].5"
+    content: "<p>Perhaps too, private humanity towards the possessor, concurs, in this instance, with the other motives, and engages us to leave with him what he has acquired by his sweat and labour; and what he has flattered himself in the constant enjoyment of. For though private humanity can, by no means, be the origin of justice; since the latter virtue so often contradicts the former; yet when the rule of separate and constant possession is once formed by the indispensable necessities of society, private humanity, and an aversion to the doing a hardship to another, may, in a particular instance, give rise to a particular rule of property.</p>"
+  -
+    id: "[RR].6"
+    content: "<p>I am much inclined to think, that the right of succession or inheritance much depends on those connexions of the imagination, and that the relation to a former proprietor begetting a relation to the object, is the cause why the property is transferred to a man after the death of his kinsman. It is true; industry is more encouraged by the transference of possession to children or near relations: But this con<SBN#310>sideration will only have place in a cultivated society; whereas the right of succession is regarded even among the greatest Barbarians.</p>"
+  -
+    id: "[RR].7"
+    content: "<p>Acquisition of property by <em>accession</em> can be explained no way but by having recourse to the relations and connexions of the imagination.</p>"
+  -
+    id: "[RR].8"
+    content: "<p>The property of rivers, by the laws of most nations, and by the natural turn of our thought, is attributed to the proprietors of their banks, excepting such vast rivers as the <b>Rhine</b> or the <b>Danube</b>, which seem too large to follow as an accession to the property of the neighbouring fields. Yet even these rivers are considered as the property of that nation, through whose dominions they run; the idea of a nation being of a suitable bulk to correspond with them, and bear them such a relation in the fancy.</p>"
+  -
+    id: "[RR].9"
+    content: "<p>The accessions, which are made to land, bordering upon rivers, follow the land, say the civilians, provided it be made by what they call <em>alluvion</em>, that is; insensibly and imperceptibly; which are circumstances, that assist the imagination in the conjunction.</p>"
+  -
+    id: "[RR].10"
+    content: "<p>Where there is any considerable portion torn at once from one bank and added to another, it becomes not <em>his</em> property, whose land it falls on, till it unite with the land, and till the trees and plants have spread their roots into both. Before that, the thought does not sufficiently join them.</p>"
+  -
+    id: "[RR].11"
+    content: "<p>In short, we must ever distinguish between the necessity of a separation and constancy in men's possession, and the rules, which assign particular objects to particular persons. The first necessity is obvious, strong, and invincible: The latter may depend on a public utility more light and frivolous, on the sentiment of private humanity and aversion to private hardship, on positive laws, on precedents, analogies, and very fine connexions and turns of the imagination.</p>"

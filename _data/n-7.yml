@@ -7,6 +7,9 @@ title:
   - "<h1><b>Sect. VII.</b> <em>Confirmation of this Doctrine.</em></h1>"
 year: "1777"
 pages: "Bea"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -19,22 +22,20 @@ paragraphs:
   -
     id: "3"
     pages: "57"
-    content: "<p>The <b>Getes</b>, commonly called immortal, from their steady belief of the soul’s immortality, were genuine theists and unitarians. They affirmed <b>Zamolxis</b>, their deity, to be the only true god; and asserted the worship of all other nations to be addressed to mere fictions and chimeras. But were their religious principles any more refined, on account of these magnificent pretensions? Every fifth year they sacrificed a human victim, whom they sent as a messenger to their deity, in order to inform him of their wants and necessities. And when it thundered, they were so provoked, that, in order to return the defiance, they let fly arrows at him, and declined not the combat as unequal. Such at least is the account, which <b>Herodotus</b> gives of the theism of the immortal <b>Getes</b><sup><a href='#n41'>[41]</a></sup>.</p>"
+    content: "<p>The <b>Getes</b>, commonly called immortal, from their steady belief of the soul's immortality, were genuine theists and unitarians. They affirmed <b>Zamolxis</b>, their deity, to be the only true god; and asserted the worship of all other nations to be addressed to mere fictions and chimeras. But were their religious principles any more refined, on account of these magnificent pretensions? Every fifth year they sacrificed a human victim, whom they sent as a messenger to their deity, in order to inform him of their wants and necessities. And when it thundered, they were so provoked, that, in order to return the defiance, they let fly arrows at him, and declined not the combat as unequal. Such at least is the account, which <b>Herodotus</b> gives of the theism of the immortal <b>Getes</b><sup><a href='#n41'>[41]</a></sup>.</p>"
+notes:
   -
-    id: "n39"
-    type: "note"
+    id: "39"
     pages: "56"
     symbol: "*"
     content: "<p><b>Hyde</b> de Relig. veterum <b>Persarum</b>.</p>"
   -
-    id: "n40"
-    type: "note"
+    id: "40"
     pages: "56"
     symbol: "†"
     content: "<p>Called the Scapulaire.</p>"
   -
-    id: "n41"
-    type: "note"
+    id: "41"
     pages: ""
     symbol: "‡"
     content: "<p>Lib. iv.</p>"

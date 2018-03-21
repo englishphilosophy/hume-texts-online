@@ -7,6 +7,9 @@ title:
   - "<h1><b>Sect. XIV.</b> <em>Bad influence of popular religions on morality.</em></h1>"
 year: "1777"
 pages: "Bea"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -19,7 +22,7 @@ paragraphs:
   -
     id: "3"
     pages: "81-2"
-    content: "<p>Nay, if we should suppose, what never happens, that a popular religion were found, in which it was expressly declared, that nothing but morality could gain the divine favour; if an order of priests were instituted to inculcate this opinion, in daily sermons, and with all the arts of persuasion; yet so inveterate are the people’s prejudices, that, for want of some other superstition, they would make the very attendance on these sermons the essentials of religion, rather than place them in virtue and good morals. The <span class='page-break'>|</span>sublime prologue of <b>Zaleucus</b>’s laws<sup><a href='#n91'>[91]</a></sup> inspired not the <b>Locrians</b>, so far as we can learn, with any sounder notions of the measures of acceptance with the deity, than were familiar to the other <b>Greeks</b>.</p>"
+    content: "<p>Nay, if we should suppose, what never happens, that a popular religion were found, in which it was expressly declared, that nothing but morality could gain the divine favour; if an order of priests were instituted to inculcate this opinion, in daily sermons, and with all the arts of persuasion; yet so inveterate are the people's prejudices, that, for want of some other superstition, they would make the very attendance on these sermons the essentials of religion, rather than place them in virtue and good morals. The <span class='page-break'>|</span>sublime prologue of <b>Zaleucus</b>'s laws<sup><a href='#n91'>[91]</a></sup> inspired not the <b>Locrians</b>, so far as we can learn, with any sounder notions of the measures of acceptance with the deity, than were familiar to the other <b>Greeks</b>.</p>"
   -
     id: "4"
     pages: "82"
@@ -35,38 +38,34 @@ paragraphs:
   -
     id: "7"
     pages: "83"
-    content: "<p>Hence the greatest crimes have been found, in many instances, compatible with a superstitious piety and devotion: Hence, it is justly regarded as unsafe to draw any certain inference in favour of a man’s morals from the fervour or strictness of his religious exercises, even though he himself believe them sincere. Nay, it has been observed, that enormities of the blackest dye have been rather apt to produce superstitious terrors, and encrease the religious passion. <b>Bomilcar</b>, having formed a conspiracy for assassinating at once the whole senate of <b>Carthage</b>, and invading the liberties of his country, lost the opportunity, from a continual regard to omens and prophecies. <em>Those who undertake the most criminal and most dangerous enterprizes are commonly the most superstitious</em>; as an ancient historian<sup><a href='#n92'>[92]</a></sup> remarks on this occasion. Their devotion and spiritual faith rise with their fears. <b>Catiline</b> was not contented with the established deities, and received rites of the national religion: His anxious terrors made him seek new inventions of this kind<sup><a href='#n93'>[93]</a></sup>; which he never probably had dreamed of, had he remained a good citizen, and obedient to the laws of his country.</p>"
+    content: "<p>Hence the greatest crimes have been found, in many instances, compatible with a superstitious piety and devotion: Hence, it is justly regarded as unsafe to draw any certain inference in favour of a man's morals from the fervour or strictness of his religious exercises, even though he himself believe them sincere. Nay, it has been observed, that enormities of the blackest dye have been rather apt to produce superstitious terrors, and encrease the religious passion. <b>Bomilcar</b>, having formed a conspiracy for assassinating at once the whole senate of <b>Carthage</b>, and invading the liberties of his country, lost the opportunity, from a continual regard to omens and prophecies. <em>Those who undertake the most criminal and most dangerous enterprizes are commonly the most superstitious</em>; as an ancient historian<sup><a href='#n92'>[92]</a></sup> remarks on this occasion. Their devotion and spiritual faith rise with their fears. <b>Catiline</b> was not contented with the established deities, and received rites of the national religion: His anxious terrors made him seek new inventions of this kind<sup><a href='#n93'>[93]</a></sup>; which he never probably had dreamed of, had he remained a good citizen, and obedient to the laws of his country.</p>"
   -
     id: "8"
     pages: "83-4"
     content: "<p>To which we may add, that, after the commission of crimes, there arise remorses and secret horrors, which give no rest to the mind, but make it have recourse to religious rites and ceremonies, as expiations of its offences. <span class='page-break'>|</span>Whatever weakens or disorders the internal frame promotes the interests of superstition: And nothing is more destructive to them than a manly, steady virtue, which either preserves us from disastrous, melancholy accidents, or teaches us to bear them. During such calm sunshine of the mind, these spectres of false divinity never make their appearance. On the other hand, while we abandon ourselves to the natural undisciplined suggestions of our timid and anxious hearts, every kind of barbarity is ascribed to the supreme Being, from the terrors with which we are agitated; and every kind of caprice, from the methods which we embrace in order to appease him. <em>Barbarity</em>, <em>caprice</em>; these qualities, however nominally disguised, we may universally observe, form the ruling character of the deity in popular religions. Even priests, instead of correcting these depraved ideas of mankind, have often been found ready to foster and encourage them. The more tremendous the divinity is represented, the more tame and submissive do men become to his ministers: And the more unaccountable the measures of acceptance required by him, the more necessary does it become to abandon our natural reason, and yield to their ghostly guidance and direction. Thus it may be allowed, that the artifices of men aggravate our natural infirmities and follies of this kind, but never originally beget them. Their root strikes deeper into the mind, and springs from the essential and universal properties of human nature.</p>"
+notes:
   -
-    id: "n89"
-    type: "note"
+    id: "89"
     pages: "81"
     symbol: "†"
     content: "<p>Called Dictator clavis figendæ causa. <b>T. Livii</b>, l. vii. c. 3.</p>"
   -
-    id: "n90"
-    type: "note"
+    id: "90"
     pages: "81"
     symbol: "*"
     content: "<p>Lib. vi.</p>"
   -
-    id: "n91"
-    type: "note"
+    id: "91"
     pages: "82"
     symbol: "†"
     content: "<p>To be found in <b>Diod. Sic.</b> lib. xii.</p>"
   -
-    id: "n92"
-    type: "note"
+    id: "92"
     pages: "83"
     symbol: "*"
     content: "<p><b>Diod. Sic.</b> lib. xv.</p>"
   -
-    id: "n93"
-    type: "note"
+    id: "93"
     pages: "83"
     symbol: "†"
     content: "<p><b>Cic. Catil.</b> i. <b>Sallust.</b> de bello <b>Catil.</b></p>"

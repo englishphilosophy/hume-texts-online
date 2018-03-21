@@ -6,6 +6,9 @@ title:
   - "<h1>Of <b>National Characters</b>.</h1>"
 year: "1748, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -43,7 +46,7 @@ paragraphs:
   -
     id: "9"
     pages: "202-3"
-    content: "<p>The human mind is of a very imitative nature; nor is it possible for any set of men to converse often together, without acquiring a similitude of manners, and communicating to each other their vices as well as virtues. The propensity to company and society is strong in all rational creatures; and the same disposition, which gives us this propensity, makes us enter deeply into each other’s sentiments, and causes like passions and inclinations to run, as it were, by contagion, through the whole club or knot of companions. Where a number of men are united into one political body, the occasions of their intercourse must be so frequent, for defence, commerce, and government, that, together with the same speech or lan<span class='page-break'>|</span>guage, they must acquire a resemblance in their manners, and have a common or national character, as well as a personal one, peculiar to each individual. Now though nature produces all kinds of temper and understanding in great abundance, it does not follow, that she always produces them in like proportions, and that in every society the ingredients of industry and indolence, valour and cowardice, humanity and brutality, wisdom and folly, will be mixed after the same manner. In the infancy of society, if any of these dispositions be found in greater abundance than the rest, it will naturally prevail in the composition, and give a tincture to the national character. Or should it be asserted, that no species of temper can reasonably be presumed to predominate, even in those contracted societies, and that the same proportions will always be preserved in the mixture; yet surely the persons in credit and authority, being still a more contracted body, cannot always be presumed to be of the same character; and their influence on the manners of the people, must, at all times, be very considerable. If on the first establishment of a republic, a <b>Brutus</b> should be placed in authority, and be transported with such an enthusiasm for liberty and public good, as to overlook all the ties of nature, as well as private interest, such an illustrious example will naturally have an effect on the whole society, and kindle the same passion in every bosom. Whatever it be that forms the manners of one generation, the next must imbibe a deeper tincture of the same dye; men being more susceptible of all impressions during infancy, and retaining these impressions as long as they remain in the world. I assert, then, that all national characters, where they depend not on fixed <em>moral</em> causes, proceed from such accidents as these, and that physical causes have no discernible operation on the human mind. It is a maxim in all philosophy, that causes, which do not appear, are to be considered as not existing.</p>"
+    content: "<p>The human mind is of a very imitative nature; nor is it possible for any set of men to converse often together, without acquiring a similitude of manners, and communicating to each other their vices as well as virtues. The propensity to company and society is strong in all rational creatures; and the same disposition, which gives us this propensity, makes us enter deeply into each other's sentiments, and causes like passions and inclinations to run, as it were, by contagion, through the whole club or knot of companions. Where a number of men are united into one political body, the occasions of their intercourse must be so frequent, for defence, commerce, and government, that, together with the same speech or lan<span class='page-break'>|</span>guage, they must acquire a resemblance in their manners, and have a common or national character, as well as a personal one, peculiar to each individual. Now though nature produces all kinds of temper and understanding in great abundance, it does not follow, that she always produces them in like proportions, and that in every society the ingredients of industry and indolence, valour and cowardice, humanity and brutality, wisdom and folly, will be mixed after the same manner. In the infancy of society, if any of these dispositions be found in greater abundance than the rest, it will naturally prevail in the composition, and give a tincture to the national character. Or should it be asserted, that no species of temper can reasonably be presumed to predominate, even in those contracted societies, and that the same proportions will always be preserved in the mixture; yet surely the persons in credit and authority, being still a more contracted body, cannot always be presumed to be of the same character; and their influence on the manners of the people, must, at all times, be very considerable. If on the first establishment of a republic, a <b>Brutus</b> should be placed in authority, and be transported with such an enthusiasm for liberty and public good, as to overlook all the ties of nature, as well as private interest, such an illustrious example will naturally have an effect on the whole society, and kindle the same passion in every bosom. Whatever it be that forms the manners of one generation, the next must imbibe a deeper tincture of the same dye; men being more susceptible of all impressions during infancy, and retaining these impressions as long as they remain in the world. I assert, then, that all national characters, where they depend not on fixed <em>moral</em> causes, proceed from such accidents as these, and that physical causes have no discernible operation on the human mind. It is a maxim in all philosophy, that causes, which do not appear, are to be considered as not existing.</p>"
   -
     id: "10"
     pages: "204"
@@ -55,7 +58,7 @@ paragraphs:
   -
     id: "12"
     pages: "204"
-    content: "<p><em>Secondly</em>. In small governments, which are contiguous, the people have notwithstanding a different character, and are often as distinguishable in their manners as the most distant nations. <b>Athens</b> and <b>Thebes</b> were but a short day’s journey from each other; though the <b>Athenians</b> were as remarkable for ingenuity, politeness, and gaiety, as the <b>Thebans</b> for dulness, rusticity, and a phlegmatic temper. <b>Plutarch</b>, discoursing of the effects of air on the minds of men, observes, that the inhabitants of the <b>Piræum</b> possessed very different tempers from those of the higher town in <b>Athens</b>, which was distant about four miles from the former: But I believe no one attributes the difference of manners in <b>Wapping</b> and St. <b>James</b>’s, to a difference of air or climate.</p>"
+    content: "<p><em>Secondly</em>. In small governments, which are contiguous, the people have notwithstanding a different character, and are often as distinguishable in their manners as the most distant nations. <b>Athens</b> and <b>Thebes</b> were but a short day's journey from each other; though the <b>Athenians</b> were as remarkable for ingenuity, politeness, and gaiety, as the <b>Thebans</b> for dulness, rusticity, and a phlegmatic temper. <b>Plutarch</b>, discoursing of the effects of air on the minds of men, observes, that the inhabitants of the <b>Piræum</b> possessed very different tempers from those of the higher town in <b>Athens</b>, which was distant about four miles from the former: But I believe no one attributes the difference of manners in <b>Wapping</b> and St. <b>James</b>'s, to a difference of air or climate.</p>"
   -
     id: "13"
     pages: "204"
@@ -103,7 +106,7 @@ paragraphs:
   -
     id: "24"
     pages: "209-11"
-    content: "<p>Lord <b>Bacon</b> has observed, that the inhabitants of the south are, in general, more ingenious than those of the north; but that, where the native of a cold climate has genius, he rises to a higher pitch than can be reached by the southern wits. This observation a late<sup><a href='#n7'>[7]</a></sup> writer confirms, by comparing the southern wits to cucumbers, which are commonly all good in their kind; but at best are an insipid fruit: While the northern geniuses are like melons, of which not one in fifty is good; but when it is so, it has an exquisite relish. I believe this remark <span class='page-break'>|</span>may be allowed just, when confined to the <b>European</b> nations, and to the present age, or rather to the preceding one: But I think it may be accounted for from moral causes. All the sciences and liberal arts have been imported to us from the south; and it is easy to imagine, that, in the first ardor of application, when excited by emulation and by glory, the few, who were addicted to them, would carry them to the greatest height, and stretch every nerve, and every faculty, to reach the pinnacle of perfection. Such illustrious examples spread knowledge every where, and begot an universal esteem for the sciences: After which, it is no wonder, that industry relaxes; while men meet not with suitable encouragement, nor arrive at such distinction by their attainments. The universal diffusion of learning among a people, and the entire banishment of gross ignorance and rusticity, is, therefore, seldom attended with any remarkable perfection in particular persons. It seems to be taken for granted in the dialogue <em>de Oratoribus</em>, that knowledge was much more common in <b>Vespasian</b>’s age than in that of <b>Cicero</b> and <b>Augustus</b>. <b>Quintilian</b> also complains of the profanation of learning, by its becoming too common. “Formerly,” says <b>Juvenal</b>, “science was confined to <b>Greece</b> and <b>Italy</b>. Now the whole world emulates <b>Athens</b> and <b>Rome</b>. Eloquent <b>Gaul</b> has taught <b>Britain</b>, knowing in the laws. Even <b>Thule</b> entertains thoughts of hiring rhetoricians for its instruction<sup><a href='#n8'>[8]</a></sup>.” This state of learning <span class='page-break'>|</span>is remarkable; because <b>Juvenal</b> is himself the last of the <b>Roman</b> writers, that possessed any degree of genius. Those, who succeeded, are valued for nothing but the matters of fact, of which they give us information. I hope the late conversion of <b>Muscovy</b> to the study of the sciences will not prove a like prognostic to the present period of learning.</p>"
+    content: "<p>Lord <b>Bacon</b> has observed, that the inhabitants of the south are, in general, more ingenious than those of the north; but that, where the native of a cold climate has genius, he rises to a higher pitch than can be reached by the southern wits. This observation a late<sup><a href='#n7'>[7]</a></sup> writer confirms, by comparing the southern wits to cucumbers, which are commonly all good in their kind; but at best are an insipid fruit: While the northern geniuses are like melons, of which not one in fifty is good; but when it is so, it has an exquisite relish. I believe this remark <span class='page-break'>|</span>may be allowed just, when confined to the <b>European</b> nations, and to the present age, or rather to the preceding one: But I think it may be accounted for from moral causes. All the sciences and liberal arts have been imported to us from the south; and it is easy to imagine, that, in the first ardor of application, when excited by emulation and by glory, the few, who were addicted to them, would carry them to the greatest height, and stretch every nerve, and every faculty, to reach the pinnacle of perfection. Such illustrious examples spread knowledge every where, and begot an universal esteem for the sciences: After which, it is no wonder, that industry relaxes; while men meet not with suitable encouragement, nor arrive at such distinction by their attainments. The universal diffusion of learning among a people, and the entire banishment of gross ignorance and rusticity, is, therefore, seldom attended with any remarkable perfection in particular persons. It seems to be taken for granted in the dialogue <em>de Oratoribus</em>, that knowledge was much more common in <b>Vespasian</b>'s age than in that of <b>Cicero</b> and <b>Augustus</b>. <b>Quintilian</b> also complains of the profanation of learning, by its becoming too common. “Formerly,” says <b>Juvenal</b>, “science was confined to <b>Greece</b> and <b>Italy</b>. Now the whole world emulates <b>Athens</b> and <b>Rome</b>. Eloquent <b>Gaul</b> has taught <b>Britain</b>, knowing in the laws. Even <b>Thule</b> entertains thoughts of hiring rhetoricians for its instruction<sup><a href='#n8'>[8]</a></sup>.” This state of learning <span class='page-break'>|</span>is remarkable; because <b>Juvenal</b> is himself the last of the <b>Roman</b> writers, that possessed any degree of genius. Those, who succeeded, are valued for nothing but the matters of fact, of which they give us information. I hope the late conversion of <b>Muscovy</b> to the study of the sciences will not prove a like prognostic to the present period of learning.</p>"
   -
     id: "25"
     pages: "211"
@@ -148,19 +151,18 @@ paragraphs:
     id: "35"
     pages: "215"
     content: "<p>I shall conclude this subject with observing, that though the passion for liquor be more brutal and debasing than love, which, when properly managed, is the source of all politeness and refinement; yet this gives not so great an advantage to the southern climates, as we may be apt, at first sight, to imagine. When love goes beyond a certain pitch, it renders men jealous, and cuts off the free intercourse between the sexes, on which the politeness of a nation will commonly much depend. And if we would subtilize and refine upon this point, we might observe, that the people, in very temperate climates, are the most likely to attain all sorts of improvement; their blood not being so inflamed as to render them jealous, and yet being warm enough to make them set a due value on the charms and endowments of the fair sex.</p>"
+notes:
   -
-    id: "n1"
-    type: "endnote"
+    id: "1"
     symbol: "*"
     content: "<p>See NOTE [H].</p>"
   -
     id: "[H].1"
     type: "first"
     pages: "199"
-    content: "<p><strong>I</strong>T is a saying of <b>Menander</b>, <i>Κομψος σρατιωτης, ονδ’ αν ει πλαττει θεος Ονθεις γενοιτ’ αν.</i> <b>Men.</b> apud <b>Stobæum</b>. <em>It is not in the power even of God to make a polite soldier.</em> The contrary observation with regard to the manners of soldiers takes place in our days. This seems to me a presumption, that the ancients owed all their refinement and civility to books and study; for which, indeed, a soldier’s life is not so well calculated. Company and the world is their sphere. And if there be any politeness to be learned from company, they will certainly have a considerable share of it.</p>"
+    content: "<p><strong>I</strong>T is a saying of <b>Menander</b>, <i>Κομψος σρατιωτης, ονδ' αν ει πλαττει θεος Ονθεις γενοιτ' αν.</i> <b>Men.</b> apud <b>Stobæum</b>. <em>It is not in the power even of God to make a polite soldier.</em> The contrary observation with regard to the manners of soldiers takes place in our days. This seems to me a presumption, that the ancients owed all their refinement and civility to books and study; for which, indeed, a soldier's life is not so well calculated. Company and the world is their sphere. And if there be any politeness to be learned from company, they will certainly have a considerable share of it.</p>"
   -
-    id: "n2"
-    type: "endnote"
+    id: "2"
     symbol: "†"
     content: "<p>See NOTE [I].</p>"
   -
@@ -205,8 +207,7 @@ paragraphs:
     pages: "201"
     content: "<p>It was no bad expedient in the old <b>Romans</b>, for preventing the strong effect of the priestly character, to make it a law that no one should be received into the sacerdotal office, till he was past fifty years of age, <b>Dion.</b> <em>Hal.</em> lib. i. The living a layman till that age, it is presumed, would be able to fix the character.</p>"
   -
-    id: "n3"
-    type: "endnote"
+    id: "3"
     symbol: "*"
     content: "<p>See NOTE [K].</p>"
   -
@@ -215,8 +216,7 @@ paragraphs:
     pages: "202"
     content: "<p><strong>C</strong>ÆSAR (<em>de Bello <b>Gallico</b></em>, lib. 1.) says, that the <b>Gallic</b> horses were very good; the <b>German</b> very bad. We find in lib. vii. that he was obliged to remount some <b>German</b> cavalry with <b>Gallic</b> horses. At present, no part of <b>Europe</b> has so bad horses of all kinds as <b>France</b>: But <b>Germany</b> abounds with excellent war horses. This may beget a little suspicion, that even animals depend not on the climate; but on the different breeds, and on the skill and care in rearing them. The north of <b>England</b> abounds in the best horses of all kinds which are perhaps in the world. In the neighbouring counties, north side of the <b>Tweed</b>, no good horses of any kind are to be met with. <b>Strabo</b>, lib. ii. Rejects, in a great measure, the influence of climates upon men. All is custom and education, says he. It is not from nature, that the <b>Athenians</b> are learned, the <b>Lacedemonians</b> ignorant, and the <b>Thebans</b> too, who are still nearer neighbours to the former. Even the difference of animals, he adds, depends not on climate.</p>"
   -
-    id: "n4"
-    type: "endnote"
+    id: "4"
     symbol: "*"
     content: "<p>See NOTE [L].</p>"
   -
@@ -225,14 +225,12 @@ paragraphs:
     pages: "205"
     content: "<p><strong>A</strong> Small sect or society amidst a greater are commonly most regular in their morals; because they are more remarked, and the faults of individuals draw dishonour on the whole. The only exception to this rule is, when the superstition and prejudices of the large society are so strong as to throw an infamy on the smaller society, independent of their morals. For in that case, having no character either to save or gain, they become careless of their behaviour, except among themselves.</p>"
   -
-    id: "n5"
-    type: "note"
+    id: "5"
     pages: "206"
     symbol: "*"
     content: "<p><b>Tit. Livii</b>, lib. xxxiv. cap. 17.</p>"
   -
-    id: "n6"
-    type: "endnote"
+    id: "6"
     symbol: "†"
     content: "<p>See NOTE [M].</p>"
   -
@@ -241,38 +239,32 @@ paragraphs:
     pages: "208"
     content: "<p><strong>I</strong> Am apt to suspect the negroes to be naturally inferior to the whites. There scarcely ever was a civilized nation of that complexion, nor even any individual eminent either in action or speculation. No ingenious manufactures amongst them, no arts, no sciences. On the other hand, the most rude and barbarous of the whites, such as the ancient <b>Germans</b>, the present <b>Tartars</b>, have still something eminent about them, in their valour, form of government, or some other particular. Such a uniform and constant difference could not happen, in so many countries and ages, if nature had not made an original distinction between these breeds of men. Not to mention our colonies, there are <b>Negroe</b> slaves dispersed all over <b>Europe</b>, of whom none ever discovered any symptoms of ingenuity; though low people, without education, will start up amongst us, and distinguish themselves in every profession. In <b>Jamaica</b>, indeed, they talk of one negroe as a man of parts and learning; but it is likely he is admired for slender accomplishments, like a parrot, who speaks a few words plainly.</p>"
   -
-    id: "n7"
-    type: "note"
+    id: "7"
     pages: "209"
     symbol: "*"
     content: "<p>Dr. Berkeley: Minute Philosopher.</p>"
   -
-    id: "n8"
-    type: "note"
+    id: "8"
     pages: "210"
     symbol: "*"
     content: "<p>“Sed Cantaber unde <br><span class='tab'></span>Stoicus? antiqui præsertim ætate Metelli. <br><span class='tab'></span>Nunc totus <b>Graias</b>, nostrasque habet orbis <b>Athenas</b>. <br><span class='tab'></span><b>Gallia</b> causidicos docuit facunda <b>Britannos</b>: <br><span class='tab'></span>De conducendo loquitur jam rhetore <b>Thule</b>.” <span class='tab'></span>Sat. 15.</p>"
   -
-    id: "n9"
-    type: "note"
+    id: "9"
     pages: "212"
     symbol: "†"
-    content: "<p>Sir <b>William Temple</b>’s account of the Netherlands.</p>"
+    content: "<p>Sir <b>William Temple</b>'s account of the Netherlands.</p>"
   -
-    id: "n10"
-    type: "note"
+    id: "10"
     pages: "213"
     symbol: "*"
     content: "<p><em>Lib.</em> v. The same author ascribes taciturnity to that people; a new proof that national characters may alter very much. Taciturnity, as a national character, implies unsociableness. <b>Aristotle</b> in his Politics, book ii. cap. 2. says, that the <b>Gauls</b> are the only warlike nation, who are negligent of women.</p>"
   -
-    id: "n11"
-    type: "note"
+    id: "11"
     pages: "214"
     symbol: "*"
     content: "<p><em><b>Babylonii</b> maxime in vinum, & quæ ebrietatem sequuntur, effusi sunt.</em> <b>Quint. Cur.</b> lib. v. cap. 1.</p>"
   -
-    id: "n12"
-    type: "note"
+    id: "12"
     pages: "214"
     symbol: "†"
     content: "<p><b>Plut. Symp.</b> lib. i. quæst. 4.</p>"

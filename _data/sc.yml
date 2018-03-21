@@ -6,6 +6,9 @@ title:
   - "<h1>The <b>Sceptic</b>.</h1>"
 year: "1742, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -19,15 +22,15 @@ paragraphs:
   -
     id: "3"
     pages: "160"
-    content: "<p>But would these prejudiced reasoners reflect a moment, there are many obvious instances and arguments, sufficient to undeceive them, and make them enlarge their maxims and principles. Do they not see the vast variety of inclinations and pursuits among our species; where each man seems fully satisfied with his own course of life, and would esteem it the greatest unhappiness to be confined to that of his neighbour? Do they not feel in themselves, that what pleases at one time, displeases at another, by the change of inclination; and that it is not in their power, by their utmost efforts, to recall that taste or appetite, which formerly bestowed charms on what now appears indifferent or disagreeable? What is the meaning therefore of those general preferences of the town or country life, of a life of action or one of pleasure, of retirement or society; when besides the different inclinations of different men, every one’s experience may convince him, that each of these kinds of life is agreeable in its turn, and that their variety or their judicious mixture chiefly contributes to the rendering all of them agreeable.</p>"
+    content: "<p>But would these prejudiced reasoners reflect a moment, there are many obvious instances and arguments, sufficient to undeceive them, and make them enlarge their maxims and principles. Do they not see the vast variety of inclinations and pursuits among our species; where each man seems fully satisfied with his own course of life, and would esteem it the greatest unhappiness to be confined to that of his neighbour? Do they not feel in themselves, that what pleases at one time, displeases at another, by the change of inclination; and that it is not in their power, by their utmost efforts, to recall that taste or appetite, which formerly bestowed charms on what now appears indifferent or disagreeable? What is the meaning therefore of those general preferences of the town or country life, of a life of action or one of pleasure, of retirement or society; when besides the different inclinations of different men, every one's experience may convince him, that each of these kinds of life is agreeable in its turn, and that their variety or their judicious mixture chiefly contributes to the rendering all of them agreeable.</p>"
   -
     id: "4"
     pages: "160-1"
-    content: "<p>But shall this business be allowed to go altogether at adven<span class='page-break'>|</span>tures? And must a man consult only his humour and inclination, in order to determine his course of life, without employing his reason to inform him what road is preferable, and leads most surely to happiness<del>!</del><ins title='originally an exclamation mark; there is a question mark here in earlier versions, and it seems unlikely that the change here was deliberate'>?</ins> Is there no difference then between one man’s conduct and another?</p>"
+    content: "<p>But shall this business be allowed to go altogether at adven<span class='page-break'>|</span>tures? And must a man consult only his humour and inclination, in order to determine his course of life, without employing his reason to inform him what road is preferable, and leads most surely to happiness<del>!</del><ins title='originally an exclamation mark; there is a question mark here in earlier versions, and it seems unlikely that the change here was deliberate'>?</ins> Is there no difference then between one man's conduct and another?</p>"
   -
     id: "5"
     pages: "161"
-    content: "<p>I answer, there is a great difference. One man, following his inclination, in chusing his course of life, may employ much surer means for succeeding than another, who is led by his inclination into the same course of life, and pursues the same object. <em>Are riches the chief object of your desires?</em> Acquire skill in your profession; be diligent in the exercise of it; enlarge the circle of your friends and acquaintance; avoid pleasure and expence; and never be generous, but with a view of gaining more than you could save by frugality. <em>Would you acquire the public esteem?</em> Guard equally against the extremes of arrogance and fawning. Let it appear that you set a value upon yourself, but without despising others. If you fall into either of the extremes, you either provoke men’s pride by your insolence, or teach them to despise you by your timorous submission, and by the mean opinion which you seem to entertain of yourself.</p>"
+    content: "<p>I answer, there is a great difference. One man, following his inclination, in chusing his course of life, may employ much surer means for succeeding than another, who is led by his inclination into the same course of life, and pursues the same object. <em>Are riches the chief object of your desires?</em> Acquire skill in your profession; be diligent in the exercise of it; enlarge the circle of your friends and acquaintance; avoid pleasure and expence; and never be generous, but with a view of gaining more than you could save by frugality. <em>Would you acquire the public esteem?</em> Guard equally against the extremes of arrogance and fawning. Let it appear that you set a value upon yourself, but without despising others. If you fall into either of the extremes, you either provoke men's pride by your insolence, or teach them to despise you by your timorous submission, and by the mean opinion which you seem to entertain of yourself.</p>"
   -
     id: "6"
     pages: "161"
@@ -75,7 +78,7 @@ paragraphs:
   -
     id: "17"
     pages: "166"
-    content: "<p>The mathematician, who took no other pleasure in reading <b>Virgil</b>, but that of examining <b>Eneas</b>’s voyage by the map, might perfectly understand the meaning of every Latin word, employed by that divine author; and consequently, might have a distinct idea of the whole narration. He would even have a more distinct idea of it, than they could attain who had not studied so exactly the geography of the poem. He knew, therefore, every thing in the poem: But he was ignorant of its beauty; because the beauty, properly speaking, lies not in the poem, but in the sentiment or taste of the reader. And where a man has no such delicacy of temper, as to make him feel this sentiment, he must be ignorant of the beauty, though possessed of the science and understanding of an angel<sup><a href='#n1'>[1]</a></sup>.</p>"
+    content: "<p>The mathematician, who took no other pleasure in reading <b>Virgil</b>, but that of examining <b>Eneas</b>'s voyage by the map, might perfectly understand the meaning of every Latin word, employed by that divine author; and consequently, might have a distinct idea of the whole narration. He would even have a more distinct idea of it, than they could attain who had not studied so exactly the geography of the poem. He knew, therefore, every thing in the poem: But he was ignorant of its beauty; because the beauty, properly speaking, lies not in the poem, but in the sentiment or taste of the reader. And where a man has no such delicacy of temper, as to make him feel this sentiment, he must be ignorant of the beauty, though possessed of the science and understanding of an angel<sup><a href='#n1'>[1]</a></sup>.</p>"
   -
     id: "18"
     pages: "166"
@@ -119,11 +122,11 @@ paragraphs:
   -
     id: "28"
     pages: "168-9"
-    content: "<p>But of this resource nature has, in a great measure, deprived us. The fabric and constitution of our mind no more depends on our choice, than that of our body. The generality of men have not even the smallest notion, that any alteration in this respect can ever be desirable. As a stream necessarily <span class='page-break'>|</span>follows the several inclinations of the ground, on which it runs; so are the ignorant and thoughtless part of mankind actuated by their natural propensities. Such are effectually excluded from all pretensions to philosophy, and the <em>medicine of the mind</em>, so much boasted. But even upon the wise and thoughtful, nature has a prodigious influence; nor is it always in a man’s power, by the utmost art and industry, to correct his temper, and attain that virtuous character, to which he aspires. The empire of philosophy extends over a few; and with regard to these too, her authority is very weak and limited. Men may well be sensible of the value of virtue, and may desire to attain it; but it is not always certain, that they will be successful in their wishes.</p>"
+    content: "<p>But of this resource nature has, in a great measure, deprived us. The fabric and constitution of our mind no more depends on our choice, than that of our body. The generality of men have not even the smallest notion, that any alteration in this respect can ever be desirable. As a stream necessarily <span class='page-break'>|</span>follows the several inclinations of the ground, on which it runs; so are the ignorant and thoughtless part of mankind actuated by their natural propensities. Such are effectually excluded from all pretensions to philosophy, and the <em>medicine of the mind</em>, so much boasted. But even upon the wise and thoughtful, nature has a prodigious influence; nor is it always in a man's power, by the utmost art and industry, to correct his temper, and attain that virtuous character, to which he aspires. The empire of philosophy extends over a few; and with regard to these too, her authority is very weak and limited. Men may well be sensible of the value of virtue, and may desire to attain it; but it is not always certain, that they will be successful in their wishes.</p>"
   -
     id: "29"
     pages: "169-70"
-    content: "<p>Whoever considers, without prejudice, the course of human actions, will find, that mankind are almost entirely guided by constitution and temper, and that general maxims have little influence, but so far as they affect our taste or sentiment. If a man have a lively sense of honour and virtue, with moderate passions, his conduct will always be conformable to the rules of morality; or if he depart from them, his return will be easy and expeditious. On the other hand, where one is born of so perverse a frame of mind, of so callous and insensible a disposition, as to have no relish for virtue and humanity, no sympathy with his fellow-creatures, no desire of esteem and applause; such a one must be allowed entirely incurable, nor is there any remedy in philosophy. He reaps no satisfaction but from low and sensual objects, or from the indulgence of malignant passions: He feels no remorse to controul his vicious inclinations: He has not even that sense or taste, which is requisite to make him desire a better character: For my part, I know not how I should address myself to such a one, or by what arguments I should endeavour to reform him. Should I tell him of the inward satisfaction which results from laudable and humane actions, the delicate pleasure of disinterested love and friendship, the lasting enjoyments of a good name and an established character, he might still reply, that these were, perhaps, pleasures to such as were susceptible <span class='page-break'>|</span>of them; but that, for his part, he finds himself of a quite different turn and disposition. I must repeat it; my philosophy affords no remedy in such a case, nor could I do any thing but lament this person’s unhappy condition. But then I ask, If any other philosophy can afford a remedy; or if it be possible, by any system, to render all mankind virtuous, however perverse may be their natural frame of mind? Experience will soon convince us of the contrary; and I will venture to affirm, that, perhaps, the chief benefit, which results from philosophy, arises in an indirect manner, and proceeds more from its secret, insensible influence, than from its immediate application.</p>"
+    content: "<p>Whoever considers, without prejudice, the course of human actions, will find, that mankind are almost entirely guided by constitution and temper, and that general maxims have little influence, but so far as they affect our taste or sentiment. If a man have a lively sense of honour and virtue, with moderate passions, his conduct will always be conformable to the rules of morality; or if he depart from them, his return will be easy and expeditious. On the other hand, where one is born of so perverse a frame of mind, of so callous and insensible a disposition, as to have no relish for virtue and humanity, no sympathy with his fellow-creatures, no desire of esteem and applause; such a one must be allowed entirely incurable, nor is there any remedy in philosophy. He reaps no satisfaction but from low and sensual objects, or from the indulgence of malignant passions: He feels no remorse to controul his vicious inclinations: He has not even that sense or taste, which is requisite to make him desire a better character: For my part, I know not how I should address myself to such a one, or by what arguments I should endeavour to reform him. Should I tell him of the inward satisfaction which results from laudable and humane actions, the delicate pleasure of disinterested love and friendship, the lasting enjoyments of a good name and an established character, he might still reply, that these were, perhaps, pleasures to such as were susceptible <span class='page-break'>|</span>of them; but that, for his part, he finds himself of a quite different turn and disposition. I must repeat it; my philosophy affords no remedy in such a case, nor could I do any thing but lament this person's unhappy condition. But then I ask, If any other philosophy can afford a remedy; or if it be possible, by any system, to render all mankind virtuous, however perverse may be their natural frame of mind? Experience will soon convince us of the contrary; and I will venture to affirm, that, perhaps, the chief benefit, which results from philosophy, arises in an indirect manner, and proceeds more from its secret, insensible influence, than from its immediate application.</p>"
   -
     id: "30"
     pages: "170"
@@ -143,7 +146,7 @@ paragraphs:
   -
     id: "34"
     pages: "171"
-    content: "<p>We have already observed, that no objects are, in themselves, desirable or odious, valuable or despicable; but that objects acquire these qualities from the particular character and constitution of the mind, which surveys them. To diminish therefore, or augment any person’s value for an object, to excite or moderate his passions, there are no direct arguments or reasons, which can be employed with any force or influence. The catching of flies, like <b>Domitian</b>, if it give more pleasure, is preferable to the hunting of wild beasts, like <b>William Rufus</b>, or conquering of kingdoms, like <b>Alexander</b>.</p>"
+    content: "<p>We have already observed, that no objects are, in themselves, desirable or odious, valuable or despicable; but that objects acquire these qualities from the particular character and constitution of the mind, which surveys them. To diminish therefore, or augment any person's value for an object, to excite or moderate his passions, there are no direct arguments or reasons, which can be employed with any force or influence. The catching of flies, like <b>Domitian</b>, if it give more pleasure, is preferable to the hunting of wild beasts, like <b>William Rufus</b>, or conquering of kingdoms, like <b>Alexander</b>.</p>"
   -
     id: "35"
     pages: "172"
@@ -159,11 +162,11 @@ paragraphs:
   -
     id: "38"
     pages: "173"
-    content: "<p>It will be easy, by one glance of the eye, to find one or other of these defects in most of those philosophical reflections, so much celebrated both in ancient and modern times. <em>Let not the injuries or violence of men,</em> say the philosophers<sup><a href='#n2'>[2]</a></sup>, <em>ever discompose you by anger or hatred. Would you be angry at the ape for its malice, or the tyger for its ferocity?</em> This reflection leads us into a bad opinion of human nature, and must extinguish the social affections. It tends also to prevent all remorse for a man’s own crimes; when he considers, that vice is as natural to mankind, as the particular instincts to brute-creatures.</p>"
+    content: "<p>It will be easy, by one glance of the eye, to find one or other of these defects in most of those philosophical reflections, so much celebrated both in ancient and modern times. <em>Let not the injuries or violence of men,</em> say the philosophers<sup><a href='#n2'>[2]</a></sup>, <em>ever discompose you by anger or hatred. Would you be angry at the ape for its malice, or the tyger for its ferocity?</em> This reflection leads us into a bad opinion of human nature, and must extinguish the social affections. It tends also to prevent all remorse for a man's own crimes; when he considers, that vice is as natural to mankind, as the particular instincts to brute-creatures.</p>"
   -
     id: "39"
     pages: "173"
-    content: "<p><em>All ills arise from the order of the universe, which is absolutely perfect. Would you wish to disturb so divine an order for the sake of your own particular interest?</em> What if the ills I suffer arise from malice or oppression? <em>But the vices and imperfections of men are also comprehended in the order of the universe:</em> <blockquote><em>If plagues and earthquakes break not heav’n’s design,</em><br><em>Why then a <b>Borgia</b> or a <b>Catiline</b></em>?</blockquote> Let this be allowed; and my own vices will also be a part of the same order.</p>"
+    content: "<p><em>All ills arise from the order of the universe, which is absolutely perfect. Would you wish to disturb so divine an order for the sake of your own particular interest?</em> What if the ills I suffer arise from malice or oppression? <em>But the vices and imperfections of men are also comprehended in the order of the universe:</em> <blockquote><em>If plagues and earthquakes break not heav'n's design,</em><br><em>Why then a <b>Borgia</b> or a <b>Catiline</b></em>?</blockquote> Let this be allowed; and my own vices will also be a part of the same order.</p>"
   -
     id: "40"
     pages: "173-4"
@@ -183,7 +186,7 @@ paragraphs:
   -
     id: "44"
     pages: "174"
-    content: "<p><em>Cicero</em>’s consolation for deafness is somewhat curious. <em>How many languages are there,</em> says he, <em>which you do not understand? The <b>Punic</b>, <b>Spanish</b>, <b>Gallic</b>, <b>Ægyptian</b>, &c. With regard to all these, you are as if you were deaf, yet you are indifferent about the matter. Is it then so great a misfortune to be deaf to one language more<sup><a href='#n4'>[4]</a></sup>?</em></p>"
+    content: "<p><em>Cicero</em>'s consolation for deafness is somewhat curious. <em>How many languages are there,</em> says he, <em>which you do not understand? The <b>Punic</b>, <b>Spanish</b>, <b>Gallic</b>, <b>Ægyptian</b>, &c. With regard to all these, you are as if you were deaf, yet you are indifferent about the matter. Is it then so great a misfortune to be deaf to one language more<sup><a href='#n4'>[4]</a></sup>?</em></p>"
   -
     id: "45"
     pages: "174"
@@ -195,7 +198,7 @@ paragraphs:
   -
     id: "47"
     pages: "175"
-    content: "<p><em>Exile,</em> says <b>Plutarch</b> to a friend in banishment, <em>is no evil: Mathematicians tell us, that the whole earth is but a point, compared to the heavens. To change one’s country then is little more than to remove from one street to another. Man is not a plant, rooted to a certain spot of earth: All soils and all climates are alike suited to him<sup><a href='#n5'>[5]</a></sup>.</em> These topics are admirable, could they fall only into the hands of banished persons. But what if they come also to the knowledge of those who are employed in public affairs, and destroy all their attachment to their native country? Or will they operate like the quack’s medicine, which is equally good for a diabetes and a dropsy?</p>"
+    content: "<p><em>Exile,</em> says <b>Plutarch</b> to a friend in banishment, <em>is no evil: Mathematicians tell us, that the whole earth is but a point, compared to the heavens. To change one's country then is little more than to remove from one street to another. Man is not a plant, rooted to a certain spot of earth: All soils and all climates are alike suited to him<sup><a href='#n5'>[5]</a></sup>.</em> These topics are admirable, could they fall only into the hands of banished persons. But what if they come also to the knowledge of those who are employed in public affairs, and destroy all their attachment to their native country? Or will they operate like the quack's medicine, which is equally good for a diabetes and a dropsy?</p>"
   -
     id: "48"
     pages: "175-6"
@@ -228,9 +231,9 @@ paragraphs:
     id: "55"
     pages: "180"
     content: "<p>In a word, human life is more governed by fortune than by reason; is to be regarded more as a dull pastime than as a serious occupation; and is more influenced by particular humour, than by general principles. Shall we engage ourselves in it with passion and anxiety? It is not worthy of so much concern. Shall we be indifferent about what happens? We lose all the pleasure of the game by our phlegm and carelessness. While we are reasoning concerning life, life is gone; and death, though <em>perhaps</em> they receive him differently, yet treats alike the fool and the philosopher. To reduce life to exact rule and method, is commonly a painful, oft a fruitless occupation: And is it not also a proof, that we overvalue the prize for which we contend? Even to reason so carefully concerning it, and to fix with accuracy its just idea, would be overvaluing it, were it not that, to some tempers, this occupation is one of the most amusing, in which life could possibly be employed.</p>"
+notes:
   -
-    id: "n1"
-    type: "endnote"
+    id: "1"
     symbol: "†"
     content: "<p>See NOTE [F].</p>"
   -
@@ -239,32 +242,27 @@ paragraphs:
     pages: "166"
     content: "<p><strong>W</strong>ERE I not afraid of appearing too philosophical, I should remind my reader of that famous doctrine, supposed to be fully proved in modern times, “That tastes and colours, and all other sensible qualities, lie not in the bodies, but merely in the senses.” The case is the same with beauty and deformity, virtue and vice. This doctrine, however, takes off no more from the reality of the latter qualities, than from that of the former; nor need it give any umbrage either to critics or moralists. Though colours were allowed to lie only in the eye, would dyers or painters ever be less regarded or esteemed? There is a sufficient uniformity in the senses and feelings of mankind, to make all these qualities the objects of art and reasoning, and to have the greatest influence on life and manners. And as it is certain, that the discovery above-mentioned in natural philosophy, makes no alteration on action and conduct; why should a like discovery in moral philosophy make any alteration?</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "173"
     symbol: "†"
     content: "<p><b>Plut.</b> <em>de ira cohibenda</em>.</p>"
   -
-    id: "n3"
-    type: "note"
+    id: "3"
     pages: "174"
     symbol: "*"
     content: "<p><b>Plut.</b> <em>Lacon. Apophtheg.</em></p>"
   -
-    id: "n4"
-    type: "note"
+    id: "4"
     pages: "174"
     symbol: "‡"
     content: "<p><b>Tusc.</b> <em>Quest.</em> lib. v.</p>"
   -
-    id: "n5"
-    type: "note"
+    id: "5"
     pages: "175"
     symbol: "†"
     content: "<p><em>De exilio</em>.</p>"
   -
-    id: "n6"
-    type: "endnote"
+    id: "6"
     symbol: "*"
     content: "<p>See NOTE [G].</p>"
   -

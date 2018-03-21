@@ -6,6 +6,9 @@ title:
   - "<h1>Of <b>Commerce</b>.</h1>"
 year: "1752, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -35,7 +38,7 @@ paragraphs:
   -
     id: "7"
     pages: "257-8"
-    content: "<p>Nor is this reasoning merely chimerical; but is founded on history and experience. The republic of <b>Sparta</b> was certainly more powerful than any state now in the world, consisting of an equal number of people; and this was owing entirely to the want of commerce and luxury. The <b>Helotes</b> were the labourers: The <b>Spartans</b> were the soldiers or gentlemen. It is evident, that the labour of the <b>Helotes</b> could not have maintained so great a number of <b>Spartans</b>, had these latter lived in ease and delicacy, and given employment to a great variety of trades and manufactures. The like policy may be remarked in <b>Rome</b>. And indeed, throughout all ancient history, it is observable, that the smallest republics raised and maintained greater armies, than states consisting of triple the number of inhabitants, are able to support at present. It is computed, that, in all <b>European</b> nations, the proportion between soldiers and people does not exceed one to a hundred. But we read, that the city of <b>Rome</b> alone, with its small territory, raised and maintained, in early times, ten legions against the <b>Latins</b>. <b>Athens</b>, the whole of whose dominions was not larger than <b>Yorkshire</b>, sent to the expedition against <b>Sicily</b> near forty thousand men<sup><a href='#n2'>[2]</a></sup>. <b>Dionysius</b> the elder, it is said, <span class='page-break'>|</span>maintained a standing army of a hundred thousand foot and ten thousand horse, besides a large fleet of four hundred sail<sup><a href='#n3'>[3]</a></sup>; though his territories extended no farther than the city of <b>Syracuse</b>, about a third of the island of <b>Sicily</b>, and some sea-port towns and garrisons on the coast of <b>Italy</b> and <b>Illyricum</b>. It is true, the ancient armies, in time of war, subsisted much upon plunder: But did not the enemy plunder in their turn? which was a more ruinous way of levying a tax, than any other that could be devised. In short, no probable reason can be assigned for the great power of the more ancient states above the modern, but their want of commerce and luxury. Few artizans were maintained by the labour of the farmers, and therefore more soldiers might live upon it. <b>Livy</b> says, that <b>Rome</b>, in his time, would find it difficult to raise as large an army as that which, in her early days, she sent out against the <b>Gauls</b> and <b>Latins</b><sup><a href='#n4'>[4]</a></sup>. Instead of those soldiers who fought for liberty and empire in <b>Camillus</b>’s time, there were, in <b>Augustus</b>’s days, musicians, painters, cooks, players, and tailors; and if the land was equally cultivated at both periods, it could certainly maintain equal numbers in the one profession as in the other. They added nothing to the mere necessaries of life, in the latter period more than in the former.</p>"
+    content: "<p>Nor is this reasoning merely chimerical; but is founded on history and experience. The republic of <b>Sparta</b> was certainly more powerful than any state now in the world, consisting of an equal number of people; and this was owing entirely to the want of commerce and luxury. The <b>Helotes</b> were the labourers: The <b>Spartans</b> were the soldiers or gentlemen. It is evident, that the labour of the <b>Helotes</b> could not have maintained so great a number of <b>Spartans</b>, had these latter lived in ease and delicacy, and given employment to a great variety of trades and manufactures. The like policy may be remarked in <b>Rome</b>. And indeed, throughout all ancient history, it is observable, that the smallest republics raised and maintained greater armies, than states consisting of triple the number of inhabitants, are able to support at present. It is computed, that, in all <b>European</b> nations, the proportion between soldiers and people does not exceed one to a hundred. But we read, that the city of <b>Rome</b> alone, with its small territory, raised and maintained, in early times, ten legions against the <b>Latins</b>. <b>Athens</b>, the whole of whose dominions was not larger than <b>Yorkshire</b>, sent to the expedition against <b>Sicily</b> near forty thousand men<sup><a href='#n2'>[2]</a></sup>. <b>Dionysius</b> the elder, it is said, <span class='page-break'>|</span>maintained a standing army of a hundred thousand foot and ten thousand horse, besides a large fleet of four hundred sail<sup><a href='#n3'>[3]</a></sup>; though his territories extended no farther than the city of <b>Syracuse</b>, about a third of the island of <b>Sicily</b>, and some sea-port towns and garrisons on the coast of <b>Italy</b> and <b>Illyricum</b>. It is true, the ancient armies, in time of war, subsisted much upon plunder: But did not the enemy plunder in their turn? which was a more ruinous way of levying a tax, than any other that could be devised. In short, no probable reason can be assigned for the great power of the more ancient states above the modern, but their want of commerce and luxury. Few artizans were maintained by the labour of the farmers, and therefore more soldiers might live upon it. <b>Livy</b> says, that <b>Rome</b>, in his time, would find it difficult to raise as large an army as that which, in her early days, she sent out against the <b>Gauls</b> and <b>Latins</b><sup><a href='#n4'>[4]</a></sup>. Instead of those soldiers who fought for liberty and empire in <b>Camillus</b>'s time, there were, in <b>Augustus</b>'s days, musicians, painters, cooks, players, and tailors; and if the land was equally cultivated at both periods, it could certainly maintain equal numbers in the one profession as in the other. They added nothing to the mere necessaries of life, in the latter period more than in the former.</p>"
   -
     id: "8"
     pages: "258-9"
@@ -51,7 +54,7 @@ paragraphs:
   -
     id: "11"
     pages: "261-2"
-    content: "<p>Every thing in the world is purchased by labour; and our passions are the only causes of labour. When a nation abounds in manufactures and mechanic arts, the proprietors of land, as well as the farmers, study agriculture as a science, and redouble their industry and attention. The superfluity, which arises from their labour, is not lost; but is exchanged with manufactures for those commodities, which men’s luxury now makes them covet. By this means, land furnishes a great deal more of the necessaries of life, than what suffices for those who cultivate it. In times of peace and tranquillity, this superfluity goes to the maintenance of manufacturers, and the improvers of liberal arts. But it is easy for the public to convert many of these manufacturers into soldiers, and maintain them by that superfluity, which arises from the labour of the farmers. Accordingly we find, that this is the case in all civilized governments. When the sovereign raises an army, what is the consequence? He imposes a tax. This tax obliges all the people to retrench what is least necessary to their subsistence. Those, who labour in such commodities, must either enlist in the troops, or turn themselves to agriculture, and thereby <span class='page-break'>|</span>oblige some labourers to enlist for want of business. And to consider the matter abstractedly, manufactures encrease the power of the state only as they store up so much labour, and that of a kind to which the public may lay claim, without depriving any one of the necessaries of life. The more labour, therefore, is employed beyond mere necessaries, the more powerful is any state; since the persons engaged in that labour may easily be converted to the public service. In a state without manufactures, there may be the same number of hands; but there is not the same quantity of labour, nor of the same kind. All the labour is there bestowed upon necessaries, which can admit of little or no abatement.</p>"
+    content: "<p>Every thing in the world is purchased by labour; and our passions are the only causes of labour. When a nation abounds in manufactures and mechanic arts, the proprietors of land, as well as the farmers, study agriculture as a science, and redouble their industry and attention. The superfluity, which arises from their labour, is not lost; but is exchanged with manufactures for those commodities, which men's luxury now makes them covet. By this means, land furnishes a great deal more of the necessaries of life, than what suffices for those who cultivate it. In times of peace and tranquillity, this superfluity goes to the maintenance of manufacturers, and the improvers of liberal arts. But it is easy for the public to convert many of these manufacturers into soldiers, and maintain them by that superfluity, which arises from the labour of the farmers. Accordingly we find, that this is the case in all civilized governments. When the sovereign raises an army, what is the consequence? He imposes a tax. This tax obliges all the people to retrench what is least necessary to their subsistence. Those, who labour in such commodities, must either enlist in the troops, or turn themselves to agriculture, and thereby <span class='page-break'>|</span>oblige some labourers to enlist for want of business. And to consider the matter abstractedly, manufactures encrease the power of the state only as they store up so much labour, and that of a kind to which the public may lay claim, without depriving any one of the necessaries of life. The more labour, therefore, is employed beyond mere necessaries, the more powerful is any state; since the persons engaged in that labour may easily be converted to the public service. In a state without manufactures, there may be the same number of hands; but there is not the same quantity of labour, nor of the same kind. All the labour is there bestowed upon necessaries, which can admit of little or no abatement.</p>"
   -
     id: "12"
     pages: "262"
@@ -75,7 +78,7 @@ paragraphs:
   -
     id: "17"
     pages: "265"
-    content: "<p>It will not, I hope, be considered as a superfluous digression, if I here observe, that, as the multitude of mechanical arts is advantageous, so is the great number of persons to whose share the productions of these arts fall. A too great disproportion among the citizens weakens any state. Every person, if possible, ought to enjoy the fruits of his labour, in a full possession of all the necessaries, and many of the conveniencies of life. No one can doubt, but such an equality is most suitable to human nature, and diminishes much less from the <em>happiness</em> of the rich than it adds to that of the poor. It also augments the <em>power of the state</em>, and makes any extraordinary taxes or impositions be paid with more chearfulness. Where the riches are engrossed by a few, these must contribute very largely to the supplying of the public necessities. But when the riches are dispersed among multitudes, the burthen feels light on every shoulder, and the taxes make not a very sensible difference on any one’s way of living.</p>"
+    content: "<p>It will not, I hope, be considered as a superfluous digression, if I here observe, that, as the multitude of mechanical arts is advantageous, so is the great number of persons to whose share the productions of these arts fall. A too great disproportion among the citizens weakens any state. Every person, if possible, ought to enjoy the fruits of his labour, in a full possession of all the necessaries, and many of the conveniencies of life. No one can doubt, but such an equality is most suitable to human nature, and diminishes much less from the <em>happiness</em> of the rich than it adds to that of the poor. It also augments the <em>power of the state</em>, and makes any extraordinary taxes or impositions be paid with more chearfulness. Where the riches are engrossed by a few, these must contribute very largely to the supplying of the public necessities. But when the riches are dispersed among multitudes, the burthen feels light on every shoulder, and the taxes make not a very sensible difference on any one's way of living.</p>"
   -
     id: "18"
     pages: "265"
@@ -92,33 +95,29 @@ paragraphs:
     id: "21"
     pages: "267"
     content: "<p>We may form a similar remark with regard to the general history of mankind. What is the reason, why no people, living between the tropics, could ever yet attain to any art or civility, or reach even any police in their government, and any military discipline; while few nations in the temperate climates have been altogether deprived of these advantages? It is probable that one cause of this phænomenon is the warmth and equality of weather in the torrid zone, which render clothes and houses less requisite for the inhabitants, and thereby remove, in part, that necessity, which is the great spur to industry and invention. <em>Curis acuens mortalia corda.</em> Not to mention, that the fewer goods or possessions of this kind any people enjoy, the fewer quarrels are likely to arise amongst them, and the less necessity will there be for a settled police or regular authority to protect and defend them from foreign enemies, or from each other.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "256"
     symbol: "*"
     content: "<p>Mons. <b>Melon</b>, in his political essay on commerce, asserts, that even at present, if you divide <b>France</b> into 20 parts, 16 are labourers or peasants; two only artizans; one belonging to the law, church, and military; and one merchants, financiers, and bourgeois. This calculation is certainly very erroneous. In <b>France</b>, <b>England</b>, and indeed most parts of <b>Europe</b>, half of the inhabitants live in cities; and even of those who live in the country, a great number are artizans, perhaps above a third.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "257"
     symbol: "*"
     content: "<p><b>Thucydides</b>, lib. vii.</p>"
   -
-    id: "n3"
-    type: "note"
+    id: "3"
     pages: "258"
     symbol: "†"
     content: "<p><b>Diod. Sic.</b> lib. vii. This account, I own, is somewhat suspicious, not to say worse; chiefly because this army was not composed of citizens, but of mercenary forces.</p>"
   -
-    id: "n4"
-    type: "note"
+    id: "4"
     pages: "258"
     symbol: "‡"
     content: "<p><b>Titi livii</b>, lib. vii. cap. 24. “Adeo in quæ laboramus,” says he, “sola crevimus, divitias luxuriemque.”</p>"
   -
-    id: "n5"
-    type: "endnote"
+    id: "5"
     symbol: "*"
     content: "<p>See NOTE [O].</p>"
   -

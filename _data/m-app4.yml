@@ -7,6 +7,9 @@ title:
   - "<h1><strong>APPENDIX </strong>IV.</h1><h2>Of <b>some Verbal Disputes</b>.</h2>"
 year: "1777"
 pages: "SBN"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -20,7 +23,7 @@ paragraphs:
   -
     id: "3"
     pages: ""
-    content: "<p>But, <em>secondly</em>, it is no wonder, that languages should not be very precise in marking the boundaries between virtues and talents, vices and defects; since there is so little distinction made in our internal estimation of them. It seems indeed certain, that the <em>sentiment</em> of conscious worth, the self-satisfaction proceeding from a review of a man’s own conduct and character; it seems certain, I say, that this sentiment, which, though the most common of all others, has no proper name in our language<sup><a href='#n66'>[66]</a></sup>, arises from the endowments of courage and capacity, industry and ingenuity, as well as from any other mental excellencies. Who, on the other hand, is not deeply mortified with reflecting on his own folly and dissoluteness, and feels not a secret sting <SBN#315>or compunction, whenever his memory presents any past occurrence, where he behaved with stupidity or ill-manners? No time can efface the cruel ideas of a man’s own foolish conduct, or of affronts, which cowardice or impudence has brought upon him. They still haunt his solitary hours, damp his most aspiring thoughts, and show him, even to himself, in the most contemptible and most odious colours imaginable.</p>"
+    content: "<p>But, <em>secondly</em>, it is no wonder, that languages should not be very precise in marking the boundaries between virtues and talents, vices and defects; since there is so little distinction made in our internal estimation of them. It seems indeed certain, that the <em>sentiment</em> of conscious worth, the self-satisfaction proceeding from a review of a man's own conduct and character; it seems certain, I say, that this sentiment, which, though the most common of all others, has no proper name in our language<sup><a href='#n66'>[66]</a></sup>, arises from the endowments of courage and capacity, industry and ingenuity, as well as from any other mental excellencies. Who, on the other hand, is not deeply mortified with reflecting on his own folly and dissoluteness, and feels not a secret sting <SBN#315>or compunction, whenever his memory presents any past occurrence, where he behaved with stupidity or ill-manners? No time can efface the cruel ideas of a man's own foolish conduct, or of affronts, which cowardice or impudence has brought upon him. They still haunt his solitary hours, damp his most aspiring thoughts, and show him, even to himself, in the most contemptible and most odious colours imaginable.</p>"
   -
     id: "4"
     pages: ""
@@ -28,7 +31,7 @@ paragraphs:
   -
     id: "5"
     pages: ""
-    content: "<p>It is hard to tell, whether you hurt a man’s character most by calling him a knave or a coward, and whether a beastly glutton or drunkard be not as odious and contemptible, as a selfish, ungenerous miser. Give me my choice, and I would rather, for my own happiness and self-enjoyment, have a friendly, humane heart, than possess all the other virtues of <b>Demosthenes</b> and <b>Philip</b> united: But <SBN#316>I would rather pass with the world for one endowed with extensive genius and intrepid courage, and should thence expect stronger instances of general applause and admiration. The figure which a man makes in life, the reception which he meets with in company, the esteem paid him by his acquaintance; all these advantages depend as much upon his good sense and judgment, as upon any other part of his character. Had a man the best intentions in the world, and were the farthest removed from all injustice and violence, he would never be able to make himself be much regarded, without a moderate share, at least, of parts and understanding.</p>"
+    content: "<p>It is hard to tell, whether you hurt a man's character most by calling him a knave or a coward, and whether a beastly glutton or drunkard be not as odious and contemptible, as a selfish, ungenerous miser. Give me my choice, and I would rather, for my own happiness and self-enjoyment, have a friendly, humane heart, than possess all the other virtues of <b>Demosthenes</b> and <b>Philip</b> united: But <SBN#316>I would rather pass with the world for one endowed with extensive genius and intrepid courage, and should thence expect stronger instances of general applause and admiration. The figure which a man makes in life, the reception which he meets with in company, the esteem paid him by his acquaintance; all these advantages depend as much upon his good sense and judgment, as upon any other part of his character. Had a man the best intentions in the world, and were the farthest removed from all injustice and violence, he would never be able to make himself be much regarded, without a moderate share, at least, of parts and understanding.</p>"
   -
     id: "6"
     pages: ""
@@ -52,11 +55,11 @@ paragraphs:
   -
     id: "11"
     pages: ""
-    content: "<p>But the same Cicero, in imitation of all the ancient moralists, when he reasons as a philosopher, enlarges very much his ideas of virtue, and comprehends every laudable quality or endowment of the mind, under that honourable appellation. This leads to the <em>third</em> reflection, which we proposed to make, to wit, that the ancient moralists, the best models, made no material distinction among the different species of mental endowments and defects, but treated all alike under the appellation of virtues and vices, and made them indiscriminately the object of their moral reasonings. The <em>prudence</em> explained in <b>Cicero</b>’s <em>Offices</em><sup><a href='#n71'>[71]</a></sup>, is that sagacity, which leads to the discovery of truth, and preserves us from error and mistake. <em>Magnanimity</em>, <em>temperance</em>, <em>decency</em>, are there also at large discoursed of. And as that eloquent moralist followed the common received division of the four cardinal virtues, our social duties <SBN#319>form but one head, in the general distribution of his subject<sup><a href='#n72'>[72]</a></sup>.</p>"
+    content: "<p>But the same Cicero, in imitation of all the ancient moralists, when he reasons as a philosopher, enlarges very much his ideas of virtue, and comprehends every laudable quality or endowment of the mind, under that honourable appellation. This leads to the <em>third</em> reflection, which we proposed to make, to wit, that the ancient moralists, the best models, made no material distinction among the different species of mental endowments and defects, but treated all alike under the appellation of virtues and vices, and made them indiscriminately the object of their moral reasonings. The <em>prudence</em> explained in <b>Cicero</b>'s <em>Offices</em><sup><a href='#n71'>[71]</a></sup>, is that sagacity, which leads to the discovery of truth, and preserves us from error and mistake. <em>Magnanimity</em>, <em>temperance</em>, <em>decency</em>, are there also at large discoursed of. And as that eloquent moralist followed the common received division of the four cardinal virtues, our social duties <SBN#319>form but one head, in the general distribution of his subject<sup><a href='#n72'>[72]</a></sup>.</p>"
   -
     id: "12"
     pages: ""
-    content: "<p>We need only peruse the titles of chapters in <b>Aristotle</b>’s Ethics to be convinced, that he ranks courage, temperance, magnificence, magnanimity, modesty, prudence, and a manly openness, among the virtues, as well as justice and friendship.</p>"
+    content: "<p>We need only peruse the titles of chapters in <b>Aristotle</b>'s Ethics to be convinced, that he ranks courage, temperance, magnificence, magnanimity, modesty, prudence, and a manly openness, among the virtues, as well as justice and friendship.</p>"
   -
     id: "13"
     pages: ""
@@ -88,7 +91,7 @@ paragraphs:
   -
     id: "20"
     pages: ""
-    content: "<p>In general, we may observe, that the distinction of voluntary or involuntary was little regarded by the ancients in their moral reasonings; where they frequently treated the question as very doubtful, <em>whether virtue could be taught or not</em><sup><a href='#n78'>[78]</a></sup><em>?</em> They justly considered, that cowardice, meanness, levity, anxiety, impatience, folly, and many other qualities of the mind, might appear ridiculous and deformed, contemptible and odious, though independent of the will. Nor <SBN#322>could it be supposed, at all times, in every man’s power to attain every kind of mental, more than of exterior beauty.</p>"
+    content: "<p>In general, we may observe, that the distinction of voluntary or involuntary was little regarded by the ancients in their moral reasonings; where they frequently treated the question as very doubtful, <em>whether virtue could be taught or not</em><sup><a href='#n78'>[78]</a></sup><em>?</em> They justly considered, that cowardice, meanness, levity, anxiety, impatience, folly, and many other qualities of the mind, might appear ridiculous and deformed, contemptible and odious, though independent of the will. Nor <SBN#322>could it be supposed, at all times, in every man's power to attain every kind of mental, more than of exterior beauty.</p>"
   -
     id: "21"
     pages: ""
@@ -97,3 +100,74 @@ paragraphs:
     id: "22"
     pages: ""
     content: "<p>A blemish, a fault, a vice, a crime; these expressions seem to denote different degrees of censure and disapprobation; which are, however, all of them, at the bottom, pretty nearly all the same kind of species. The explication of one will easily lead us into a just conception of the others; and it is of greater consequence to attend to things than to verbal appellations. That we owe a duty to ourselves is confessed even in the most vulgar system of morals; and it <SBN#323>must be of consequence to examine that duty, in order to see whether it bears any affinity to that which we owe to society. It is probable, that the approbation, attending the observance of both, is of a similar nature, and arises from similar principles; whatever appellation we may give to either of these excellencies.</p>"
+notes:
+  -
+    id: "66"
+    symbol: "*"
+    content: "<p>See NOTE [SS].</p>"
+  -
+    id: "[SS].1"
+    type: "first"
+    content: "<p><strong>T</strong>HE term, pride, is commonly taken in a bad sense; but this sentiment seems indifferent, and may be either good or bad, according as it is well or ill founded, and according to the other circumstances which accompany it. The <b>French</b> express this sentiment by the term, <em>amour propre</em>, but as they also express self-love as well as vanity, by the same term, there arises thence a great confusion in <b>Rochefoucault</b>, and many of their moral writers.</p>"
+  -
+    id: "67"
+    symbol: "*"
+    content: "<p>See NOTE [TT].</p>"
+  -
+    id: "[TT].1"
+    type: "first"
+    content: "<p><strong>L</strong>OVE and esteem are nearly the same passion, and arise from similar causes. The qualities, which produce both, are such as communicate pleasure. But where this pleasure is severe and serious; or where its object is great, and makes a strong impression, or where it produces any degree of humility and awe: In all these cases, the passion, which arises from the pleasure, is more properly denominated esteem than love. Benevolence attends both: But is connected with love in a more eminent degree. There seems to be still a stronger mixture of pride in contempt than of humility in esteem; and the reason would not be difficult to one, who studied accurately the passions. All these various mixtures and compositions and appearances of sentiment form a very curious subject of speculation, but are wide of our present purpose. Throughout this enquiry, we always consider in general, what qualities are a subject of praise or of censure, without entering into all the minute differences of sentiment, which they excite. It is evident, that whatever is contemned, is also disliked, as well as what is hated; and we here endeavour to take objects, according to their most simple views and appearances. These sciences are but too apt to appear abstract to common readers, even with all the precautions which we can take to clear them from superfluous speculations, and bring them down to every capacity.</p>"
+  -
+    id: "68"
+    symbol: "†"
+    content: "<p>The Art of preserving Health. Book 4.</p>"
+  -
+    id: "69"
+    symbol: "*"
+    content: "<p><b>Polybius</b>, lib. iii. cap. 2.</p>"
+  -
+    id: "70"
+    symbol: "†"
+    content: "<p>Lib. ix. epist. 10.</p>"
+  -
+    id: "71"
+    symbol: "‡"
+    content: "<p>Lib. i. cap. 6.</p>"
+  -
+    id: "72"
+    symbol: "ǁ"
+    content: "<p>See NOTE [UU].</p>"
+  -
+    id: "[UU].1"
+    type: "first"
+    content: "<p><strong>T</strong>HE following passage of <b>Cicero</b> is worth quoting, as being the most clear and express to our purpose, that any thing can be imagined, and, in a dispute, which is chiefly verbal, must, on account of the author, carry an authority, from which there can be no appeal.</p>"
+  -
+    id: "[UU].2"
+    content: "<p>“Virtus autem, quæ est per se ipsa laudabilis, et sine qua nihil laudari potest, tamen habet plures partes, quarum alia est aliâ ad laudationem aptior. Sunt enim aliæ virtutes, quæ videntur in moribus hominum, et quadam comitate ac beneficentia positæ: aliæ quæ in ingenii aliqua facultate, aut animi magnitudine ac robore. Nam clementia, justitia, benignitas, fides, fortitudo in periculis communibus, jucunda est auditu in laudationibus. Omnes enim hæ virtutes non tam ipsis, qui eas in se habent, quam generi hominum fructuosæ putantur. Sapientia et magnitudo animi, qua omnes res humanæ, tenues et pro nihilo putantur, et in cogitando vis quædam ingenii, et ipsa eloquentia admirationis habet non minus, jucunditatis minus. Ipsos enim magis videtur, quos laudamus, quam illos, apud quos laudamus, ornare ac tueri: sed tamen in laudenda jungenda sunt etiam hæc genera virtutum. Ferunt enim aures hominum, cum illa quæ jucunda et grata, tum etiam ilia, quæ mirabilia sunt in virtute, laudari.” <em>De orat. lib.</em> ii. <em>cap.</em> 89.</p>"
+  -
+    id: "[UU].3"
+    content: "<p>I suppose, if <b>Cicero</b> were now alive, it would be found difficult to fetter his moral sentiments by narrow systems; or persuade him, that no qualities were to be admitted as <em>virtues</em>, or acknowledged to be a part of <em>personal merit</em>, but what were recommended by <em>The Whole Duty of Man</em>.</p>"
+  -
+    id: "73"
+    symbol: "*"
+    content: "<p>Psalm 49th.</p>"
+  -
+    id: "74"
+    symbol: "†"
+    content: "<p><i>Μισω σοφις ην οσις ουκ αυτω σοφος.</i> <b>Euripides</b>.</p>"
+  -
+    id: "75"
+    symbol: "‡"
+    content: "<p>Lib. xxi. cap. 4.</p>"
+  -
+    id: "76"
+    symbol: "*"
+    content: "<p>Lib. i.</p>"
+  -
+    id: "77"
+    symbol: "†"
+    content: "<p>Lib. xii.</p>"
+  -
+    id: "78"
+    symbol: "*"
+    content: "<p>Vid. <b>Plato</b> in <b>Menone</b>, <b>Seneca</b> <em>de otio sap.</em> cap. 31. So also <b>Horace</b>, <em>Virtutem doctrina paret, naturane donet</em>. Epist. lib. i. ep. 18. <b>Æschines Socraticus</b>. Dial. I.</p>"

@@ -7,6 +7,9 @@ title:
   - "<h1><strong>SECTION </strong>III.</h1><h2>Of the <b>Association</b> of <b>Ideas</b>.</h2>"
 year: "1777"
 pages: "SBN"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -20,4 +23,21 @@ paragraphs:
   -
     id: "3"
     pages: ""
-    content: "<p>That these principles serve to connect ideas will not, I believe, be much doubted. A picture naturally leads our thoughts to the original<sup><a href='#n2'>[2]</a></sup>: The mention of one apartment in a building naturally introduces an enquiry or discourse concerning the others<sup><a href='#n3'>[3]</a></sup>: And if we think of a wound, we can scarcely forbear reflecting on the pain which follows it<sup><a href='#n4'>[4]</a></sup>. But that this enumeration is compleat, and that there are no other principles of association, except these, may be difficult to prove to the satisfaction of the reader, or even to a man’s own satisfaction. All we can do, in such cases, is to run over several instances, and examine carefully the principle, which binds the different thoughts to each other, never stopping till we render the principle as general as possible<sup><a href='#n6'>[6]</a></sup>. The more instances we examine, and the more care we employ, the more assurance shall we acquire, that the enumeration, which we form from the whole, is compleat and entire.</p>"
+    content: "<p>That these principles serve to connect ideas will not, I believe, be much doubted. A picture naturally leads our thoughts to the original<sup><a href='#n2'>[2]</a></sup>: The mention of one apartment in a building naturally introduces an enquiry or discourse concerning the others<sup><a href='#n3'>[3]</a></sup>: And if we think of a wound, we can scarcely forbear reflecting on the pain which follows it<sup><a href='#n4'>[4]</a></sup>. But that this enumeration is compleat, and that there are no other principles of association, except these, may be difficult to prove to the satisfaction of the reader, or even to a man's own satisfaction. All we can do, in such cases, is to run over several instances, and examine carefully the principle, which binds the different thoughts to each other, never stopping till we render the principle as general as possible<sup><a href='#n6'>[6]</a></sup>. The more instances we examine, and the more care we employ, the more assurance shall we acquire, that the enumeration, which we form from the whole, is compleat and entire.</p>"
+notes:
+  -
+    id: "2"
+    symbol: "*"
+    content: "<p>Resemblance.</p>"
+  -
+    id: "3"
+    symbol: "†"
+    content: "<p>Contiguity.</p>"
+  -
+    id: "4"
+    symbol: "‡"
+    content: "<p>Cause and effect.</p>"
+  -
+    id: "6"
+    symbol: "§"
+    content: "<p>For instance, Contrast or Contrariety is also a connexion among Ideas: But it may, perhaps, be considered as a mixture of <em>Causation</em> and <em>Resemblance</em>. Where two objects are contrary, the one destroys the other; that is, <ins title='editorial insertion'>is</ins> the cause of its annihilation, and the idea of the annihilation of an object, implies the idea of its former existence.</p>"

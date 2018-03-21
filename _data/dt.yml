@@ -6,6 +6,9 @@ title:
   - "<h1>Of the <b>Delicacy</b> of <b>Taste</b> and <b>Passion</b>.</h1>"
 year: "1741, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -36,9 +39,9 @@ paragraphs:
     id: "7"
     pages: "7-8"
     content: "<p>In the <em>second</em> place, a delicacy of taste is favourable to love and friendship, by confining our choice to few people, and making us indifferent to the company and conversation of the greater part of men. You will seldom find, that mere men of the world, whatever strong sense they may be endowed with, are very nice in distinguishing characters, or in marking those insensible differences and gradations, which make one man preferable to another. Any one, that has competent sense, is sufficient for their entertainment: They talk to him, of their pleasure and affairs, with the same frankness that they would to another; and finding many, who are fit to supply his place, they never feel any vacancy or want in his absence. But to make use of the allusion of a celebrated French<sup><a href='#n1'>[1]</a></sup> author, the judgment may be compared to a clock or watch, where the most ordinary machine is sufficient to tell the hours; but the most elaborate alone can point out the minutes and seconds, and distinguish the smallest differences of time. One that has well digested his knowledge both of books and men, has little enjoyment but in the company of a few select companions. He feels too sensibly, how much all the rest of mankind fall short of the notions which he has entertained. And, his affections <span class='page-break'>|</span>being thus confined within a narrow circle, no wonder he carries them further, than if they were more general and undistinguished. The gaiety and frolic of a bottle companion improves with him into a solid friendship: And the ardours of a youthful appetite become an elegant passion.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "7"
     symbol: "†"
     content: "<p><em>Mons</em>. <b>Fontenelle</b>, <em>Pluralité des Mondes</em>. Soir. 6.</p>"

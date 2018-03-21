@@ -7,6 +7,9 @@ title:
   - "<h1><strong>APPENDIX </strong>II.</h1><h2>Of <b>Self-love</b>.</h2>"
 year: "1777"
 pages: "SBN"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -47,7 +50,7 @@ paragraphs:
   -
     id: "10"
     pages: ""
-    content: "<p>Is gratitude no affection of the human breast, or is that a word merely, without any meaning or reality? Have we no satisfaction in one man’s company above another’s, and no desire of the welfare of our friend, even though absence or death should prevent us from all participation in it? Or what is it commonly, that gives us any participation in it, even while alive and present, but our affection and regard to him?</p>"
+    content: "<p>Is gratitude no affection of the human breast, or is that a word merely, without any meaning or reality? Have we no satisfaction in one man's company above another's, and no desire of the welfare of our friend, even though absence or death should prevent us from all participation in it? Or what is it commonly, that gives us any participation in it, even while alive and present, but our affection and regard to him?</p>"
   -
     id: "11"
     pages: ""
@@ -59,4 +62,21 @@ paragraphs:
   -
     id: "13"
     pages: ""
-    content: "<p>Now where is the difficulty in conceiving, that this may likewise be the case with benevolence and friendship, and that, from the original frame of our temper, we may feel a desire of another’s happiness or good, which, by means of that affection, becomes our own good, and is afterwards pursued, from the combined motives of benevolence and self-enjoyment? Who sees not that vengeance, from the force alone of passion, may be so eagerly pursued, as to make us knowingly neglect every consideration of ease, interest, or safety; and, like some vindictive animals, infuse our very souls into the wounds we give an enemy<sup><a href='#n62'>[62]</a></sup>? And what a malignant philosophy must it be, that will not allow, to humanity and friendship, the same privileges, which are undisputably granted to the darker passions of enmity and resentment? Such a philosophy is more like a satyr than a true delineation or description of human nature; and may be a good foundation for paradoxical wit and raillery, but is a very bad one for any serious argument or reasoning.</p>"
+    content: "<p>Now where is the difficulty in conceiving, that this may likewise be the case with benevolence and friendship, and that, from the original frame of our temper, we may feel a desire of another's happiness or good, which, by means of that affection, becomes our own good, and is afterwards pursued, from the combined motives of benevolence and self-enjoyment? Who sees not that vengeance, from the force alone of passion, may be so eagerly pursued, as to make us knowingly neglect every consideration of ease, interest, or safety; and, like some vindictive animals, infuse our very souls into the wounds we give an enemy<sup><a href='#n62'>[62]</a></sup>? And what a malignant philosophy must it be, that will not allow, to humanity and friendship, the same privileges, which are undisputably granted to the darker passions of enmity and resentment? Such a philosophy is more like a satyr than a true delineation or description of human nature; and may be a good foundation for paradoxical wit and raillery, but is a very bad one for any serious argument or reasoning.</p>"
+notes:
+  -
+    id: "60"
+    symbol: "*"
+    content: "<p>See NOTE [OO].</p>"
+  -
+    id: "[OO].1"
+    type: "first"
+    content: "<p><strong>B</strong>E<b>nevolence</b> naturally divides into two kinds, the <em>general</em> and the <em>particular</em>. The first is, where we have no friendship or connexion or esteem for the person, but feel only a general sympathy with him or a compassion for his pains, and a congratulation with his pleasures. The other species of benevolence is founded on an opinion of virtue, on services done us, or on some particular connexions. Both these sentiments must be allowed real in human nature; but whether they will resolve into some nice considerations of self-love, is a question more curious than important. The former sentiment, to wit, that of general benevolence, or humanity, or sympathy, we shall have occasion frequently to treat of in the course of this enquiry; and I assume it as real, from general experience, without any other proof.</p>"
+  -
+    id: "61"
+    symbol: "*"
+    content: "<p>Mons. <b>Fontenelle</b>.</p>"
+  -
+    id: "62"
+    symbol: "*"
+    content: "<p>Animasque in vulnere ponunt. <span class='tab'></span><b>Virg.</b> <br>Dum alteri noceat, sui negligens, says <b>Seneca</b> of Anger. De Ira, I. i.</p>"

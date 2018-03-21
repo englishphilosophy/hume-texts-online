@@ -6,6 +6,9 @@ title:
   - "<h1>Of the <b>Balance</b> of <b>Trade</b>.</h1>"
 year: "1752, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -63,7 +66,7 @@ paragraphs:
   -
     id: "14"
     pages: "313-4"
-    content: "<p>How is the balance kept in the provinces of every kingdom among themselves, but by the force of this principle, which makes it impossible for money to lose its level, and either to rise or sink beyond the proportion of the labour and commodities which are in each province? Did not long experience make people easy on this head, what a fund of gloomy reflections might calculations afford to a melancholy <b>Yorkshireman</b>, while he computed and magnified the sums drawn to <span class='page-break'>|</span><b>London</b> by taxes, absentees, commodities, and found on comparison the opposite articles so much inferior? And no doubt, had the <em>Heptarchy</em> subsisted in <b>England</b>, the legislature of each state had been continually alarmed by the fear of a wrong balance; and as it is probable that the mutual hatred of these states would have been extremely violent on account of their close neighbourhood, they would have loaded and oppressed all commerce, by a jealous and superfluous caution. Since the union has removed the barriers between <b>Scotland</b> and <b>England</b>, which of these nations gains from the other by this free commerce? Or if the former kingdom has received any encrease of riches, can it reasonably be accounted for by any thing but the encrease of its art and industry? It was a common apprehension in <b>England</b>, before the union, as we learn from <b>L’Abbe du Bos</b><sup><a href='#n3'>[3]</a></sup>, that <b>Scotland</b> would soon drain them of their treasure, were an open trade allowed; and on the other side the <b>Tweed</b> a contrary apprehension prevailed: With what justice in both, time has shown.</p>"
+    content: "<p>How is the balance kept in the provinces of every kingdom among themselves, but by the force of this principle, which makes it impossible for money to lose its level, and either to rise or sink beyond the proportion of the labour and commodities which are in each province? Did not long experience make people easy on this head, what a fund of gloomy reflections might calculations afford to a melancholy <b>Yorkshireman</b>, while he computed and magnified the sums drawn to <span class='page-break'>|</span><b>London</b> by taxes, absentees, commodities, and found on comparison the opposite articles so much inferior? And no doubt, had the <em>Heptarchy</em> subsisted in <b>England</b>, the legislature of each state had been continually alarmed by the fear of a wrong balance; and as it is probable that the mutual hatred of these states would have been extremely violent on account of their close neighbourhood, they would have loaded and oppressed all commerce, by a jealous and superfluous caution. Since the union has removed the barriers between <b>Scotland</b> and <b>England</b>, which of these nations gains from the other by this free commerce? Or if the former kingdom has received any encrease of riches, can it reasonably be accounted for by any thing but the encrease of its art and industry? It was a common apprehension in <b>England</b>, before the union, as we learn from <b>L'Abbe du Bos</b><sup><a href='#n3'>[3]</a></sup>, that <b>Scotland</b> would soon drain them of their treasure, were an open trade allowed; and on the other side the <b>Tweed</b> a contrary apprehension prevailed: With what justice in both, time has shown.</p>"
   -
     id: "15"
     pages: "314-5"
@@ -111,11 +114,11 @@ paragraphs:
   -
     id: "26"
     pages: "318-9"
-    content: "<p>It must, however, be confessed, that, as all these questions of trade and money are extremely complicated, there are certain lights, in which this subject may be placed, so as to represent the advantages of paper-credit and banks to be superior to their disadvantages. That they banish specie and bullion from a state is undoubtedly true; and whoever looks no farther than this circumstance does well to condemn them; but specie and bullion are not of so great consequence as not to admit of a compensation, and even an overbalance from the encrease of industry and of credit, which may be promoted by the right use of paper-money. It is well known of what advan<span class='page-break'>|</span>tage it is to a merchant to be able to discount his bills upon occasion; and every thing that facilitates this species of traffic is favourable to the general commerce of a state. But private bankers are enabled to give such credit by the credit they receive from the depositing of money in their shops; and the bank of <b>England</b> in the same manner, from the liberty it has to issue its notes in all payments. There was an invention of this kind, which was fallen upon some years ago by the banks of <b>Edinburgh</b>; and which, as it is one of the most ingenious ideas that has been executed in commerce, has also been thought advantageous to <b>Scotland</b>. It is there called a <b>Bank-Credit</b>; and is of this nature. A man goes to the bank and finds surety to the amount, we shall suppose, of a thousand pounds. This money, or any part of it, he has the liberty of drawing out whenever he pleases, and he pays only the ordinary interest for it, while it is in his hands. He may, when he pleases, repay any sum so small as twenty pounds, and the interest is discounted from the very day of the repayment. The advantages, resulting from this contrivance, are manifold. As a man may find surety nearly to the amount of his substance, and his bank-credit is equivalent to ready money, a merchant does hereby in a manner coin his houses, his household furniture, the goods in his warehouse, the foreign debts due to him, his ships at sea; and can, upon occasion, employ them in all payments, as if they were the current money of the country. If a man borrow a thousand pounds from a private hand, besides that it is not always to be found when required, he pays interest for it, whether he be using it or not: His bank-credit costs him nothing except during the very moment, in which it is of service to him: And this circumstance is of equal advantage as if he had borrowed money at much lower interest. Merchants, likewise, from this invention, acquire a great facility in supporting each other’s credit, which is a considerable security against bankruptcies. A man, when his own bank-credit is exhausted, goes to any of his neighbours who is not in the same condition; and he gets the money, which he replaces at his convenience.</p>"
+    content: "<p>It must, however, be confessed, that, as all these questions of trade and money are extremely complicated, there are certain lights, in which this subject may be placed, so as to represent the advantages of paper-credit and banks to be superior to their disadvantages. That they banish specie and bullion from a state is undoubtedly true; and whoever looks no farther than this circumstance does well to condemn them; but specie and bullion are not of so great consequence as not to admit of a compensation, and even an overbalance from the encrease of industry and of credit, which may be promoted by the right use of paper-money. It is well known of what advan<span class='page-break'>|</span>tage it is to a merchant to be able to discount his bills upon occasion; and every thing that facilitates this species of traffic is favourable to the general commerce of a state. But private bankers are enabled to give such credit by the credit they receive from the depositing of money in their shops; and the bank of <b>England</b> in the same manner, from the liberty it has to issue its notes in all payments. There was an invention of this kind, which was fallen upon some years ago by the banks of <b>Edinburgh</b>; and which, as it is one of the most ingenious ideas that has been executed in commerce, has also been thought advantageous to <b>Scotland</b>. It is there called a <b>Bank-Credit</b>; and is of this nature. A man goes to the bank and finds surety to the amount, we shall suppose, of a thousand pounds. This money, or any part of it, he has the liberty of drawing out whenever he pleases, and he pays only the ordinary interest for it, while it is in his hands. He may, when he pleases, repay any sum so small as twenty pounds, and the interest is discounted from the very day of the repayment. The advantages, resulting from this contrivance, are manifold. As a man may find surety nearly to the amount of his substance, and his bank-credit is equivalent to ready money, a merchant does hereby in a manner coin his houses, his household furniture, the goods in his warehouse, the foreign debts due to him, his ships at sea; and can, upon occasion, employ them in all payments, as if they were the current money of the country. If a man borrow a thousand pounds from a private hand, besides that it is not always to be found when required, he pays interest for it, whether he be using it or not: His bank-credit costs him nothing except during the very moment, in which it is of service to him: And this circumstance is of equal advantage as if he had borrowed money at much lower interest. Merchants, likewise, from this invention, acquire a great facility in supporting each other's credit, which is a considerable security against bankruptcies. A man, when his own bank-credit is exhausted, goes to any of his neighbours who is not in the same condition; and he gets the money, which he replaces at his convenience.</p>"
   -
     id: "27"
     pages: "320"
-    content: "<p>After this practice had taken place during some years at <b>Edinburgh</b>, several companies of merchants at <b>Glasgow</b> carried the matter farther. They associated themselves into different banks, and issued notes so low as ten shillings, which they used in all payments for goods, manufactures, tradesmen’s labour of all kinds; and these notes, from the established credit of the companies, passed as money in all payments throughout the country. By this means, a stock of five thousand pounds was able to perform the same operations as if it were six or seven; and merchants were thereby enabled to trade to a greater extent, and to require less profit in all their transactions. But whatever other advantages result from these inventions, it must still be allowed that, besides giving too great facility to credit, which is dangerous, they banish the precious metals; and nothing can be a more evident proof of it, than a comparison of the past and present condition of <b>Scotland</b> in that particular. It was found, upon the recoinage made after the union, that there was near a million of specie in that country: But notwithstanding the great encrease of riches, commerce and manufactures of all kinds, it is thought, that, even where there is no extraordinary drain made by <b>England</b>, the current specie will not now amount to a third of that sum.</p>"
+    content: "<p>After this practice had taken place during some years at <b>Edinburgh</b>, several companies of merchants at <b>Glasgow</b> carried the matter farther. They associated themselves into different banks, and issued notes so low as ten shillings, which they used in all payments for goods, manufactures, tradesmen's labour of all kinds; and these notes, from the established credit of the companies, passed as money in all payments throughout the country. By this means, a stock of five thousand pounds was able to perform the same operations as if it were six or seven; and merchants were thereby enabled to trade to a greater extent, and to require less profit in all their transactions. But whatever other advantages result from these inventions, it must still be allowed that, besides giving too great facility to credit, which is dangerous, they banish the precious metals; and nothing can be a more evident proof of it, than a comparison of the past and present condition of <b>Scotland</b> in that particular. It was found, upon the recoinage made after the union, that there was near a million of specie in that country: But notwithstanding the great encrease of riches, commerce and manufactures of all kinds, it is thought, that, even where there is no extraordinary drain made by <b>England</b>, the current specie will not now amount to a third of that sum.</p>"
   -
     id: "28"
     pages: "320-1"
@@ -143,7 +146,7 @@ paragraphs:
   -
     id: "34"
     pages: "323"
-    content: "<p>The account given by <b>Appian</b><sup><a href='#n15'>[15]</a></sup> of the treasure of the <b>Ptolemies</b>, is so prodigious, that one cannot admit of it; and so much the less, because the historian says, that the other successors of <b>Alexander</b> were also frugal, and had many of them treasures not much inferior. For this saving humour of the neighbouring princes must necessarily have checked the frugality of the <b>Egyptian</b> monarchs, according to the foregoing theory. The sum he mentions is 740,000 talents, or 191,166,666 pounds 13 shillings and 4 pence, according to Dr. <b>Arbuthnot</b>’s computation. And yet <b>Appian</b> says, that he extracted his account from the public records; and he was himself a native of <b>Alexandria</b>.</p>"
+    content: "<p>The account given by <b>Appian</b><sup><a href='#n15'>[15]</a></sup> of the treasure of the <b>Ptolemies</b>, is so prodigious, that one cannot admit of it; and so much the less, because the historian says, that the other successors of <b>Alexander</b> were also frugal, and had many of them treasures not much inferior. For this saving humour of the neighbouring princes must necessarily have checked the frugality of the <b>Egyptian</b> monarchs, according to the foregoing theory. The sum he mentions is 740,000 talents, or 191,166,666 pounds 13 shillings and 4 pence, according to Dr. <b>Arbuthnot</b>'s computation. And yet <b>Appian</b> says, that he extracted his account from the public records; and he was himself a native of <b>Alexandria</b>.</p>"
   -
     id: "35"
     pages: "324"
@@ -164,27 +167,24 @@ paragraphs:
     id: "39"
     pages: "326"
     content: "<p>In short, a government has great reason to preserve with care its people and its manufactures. Its money, it may safely trust to the course of human affairs, without fear or jealousy. Or if it ever give attention to this latter circumstance, it ought only to be so far as it affects the former.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "309"
     symbol: "†"
     content: "<p><b>Plut.</b> <em>De Curiositate</em>.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "312"
     symbol: "*"
     content: "<p>There is another cause, though more limited in its operation, which checks the wrong balance of trade, to every particular nation to which the kingdom trades. When we import more goods than we export, the exchange turns against us, and this becomes a new encouragement to export; as much as the charge of carriage and insurance of the money which becomes due would amount to. For the exchange can never rise but a little higher than that sum.</p>"
   -
-    id: "n3"
-    type: "note"
+    id: "3"
     pages: "314"
     symbol: "‡"
-    content: "<p><em>Les interets d’<b>Angleterre</b> mal-entendus</em>.</p>"
+    content: "<p><em>Les interets d'<b>Angleterre</b> mal-entendus</em>.</p>"
   -
-    id: "n4"
-    type: "endnote"
+    id: "4"
     symbol: "*"
     content: "<p>See NOTE [R].</p>"
   -
@@ -193,68 +193,57 @@ paragraphs:
     pages: "315"
     content: "<p><strong>I</strong>T must carefully be remarked, that throughout this discourse, wherever I speak of the level of money, I mean always its proportional level to the commodities, labour, industry, and skill, which is in the several states. And I assert, that where these advantages are double, triple, quadruple, to what they are in the neighbouring states, the money infallibly will also be double, triple, quadruple. The only circumstance that can obstruct the exactness of these proportions, is the expence of transporting the commodities from one place to another; and this expence is sometimes unequal. Thus the corn, cattle, cheese, butter, of <b>Derbyshire</b>, cannot draw the money of <b>London</b>, so much as the manufactures of <b>London</b> draw the money of <b>Derbyshire</b>. But this objection is only a seeming one: For so far as the transport of commodities is expensive, so far is the communication between the places obstructed and imperfect.</p>"
   -
-    id: "n5"
-    type: "note"
+    id: "5"
     pages: "317"
     symbol: "‡"
     content: "<p>We observed in Essay III. <ins title='added for ease of reference'>(Of Money)</ins> that money, when encreasing, gives encouragement to industry, during the interval between the encrease of money and rise of the prices. A good effect of this nature may follow too from paper-credit; but it is dangerous to precipitate matters, at the risk of losing all by the failing of that credit, as must happen upon any violent shock in public affairs.</p>"
   -
-    id: "n6"
-    type: "note"
+    id: "6"
     pages: "321"
     symbol: "†"
     content: "<p><b>Thucydides</b>, lib. ii. and <b>Diod. Sic.</b> lib. xii.</p>"
   -
-    id: "n7"
-    type: "note"
+    id: "7"
     pages: "321"
     symbol: "‡"
     content: "<p><em>Vid.</em> <b>æschinis</b> <em>et</em> <b>Demosthenis</b> <em>Epist.</em></p>"
   -
-    id: "n8"
-    type: "note"
+    id: "8"
     pages: "322"
     symbol: "ǁ"
     content: "<p><i>Περι Σνμμοριας</i>.</p>"
   -
-    id: "n9"
-    type: "note"
+    id: "9"
     pages: "322"
     symbol: "§"
     content: "<p>Lib. ii. cap. 62.</p>"
   -
-    id: "n10"
-    type: "note"
+    id: "0"
     pages: "322"
     symbol: "†"
     content: "<p><b>Titi Livii</b>, lib. xlv. cap. 40.</p>"
   -
-    id: "n11"
-    type: "note"
+    id: "1"
     pages: "322"
     symbol: "§"
     content: "<p><b>Vel. Paterc.</b> lib. i. cap. 9.</p>"
   -
-    id: "n12"
-    type: "note"
+    id: "2"
     pages: "322"
     symbol: "‡"
     content: "<p>Lib. xxxiii. cap. 3.</p>"
   -
-    id: "n13"
-    type: "note"
+    id: "3"
     pages: "323"
     symbol: "ǁ"
     content: "<p><b>Titi Livii</b>, <em>ibid.</em></p>"
   -
-    id: "n14"
-    type: "note"
+    id: "4"
     pages: "323"
     symbol: "*"
     content: "<p>The poverty which <b>Stanian</b> speaks of is only to be seen in the most mountainous cantons, where there is no commodity to bring money. And even there the people are not poorer than in the diocese of <b>Saltsburgh</b> on the one hand, or <b>Savoy</b> on the other.</p>"
   -
-    id: "n15"
-    type: "note"
+    id: "5"
     pages: "323"
     symbol: "†*"
     content: "<p><em>Proem.</em></p>"

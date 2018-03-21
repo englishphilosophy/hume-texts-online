@@ -6,6 +6,9 @@ title:
   - "Dedication"
   - "<h3>TO</h3><h1>The Reverend Mr. Hume,</h1><h2>Author of <b>Douglas</b>, a Tragedy.</h2><p><b>My Dear Sir</b></p>"
 year: "1757"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"

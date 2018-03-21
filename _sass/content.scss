@@ -65,6 +65,12 @@
   .page-break {
     display: none;
   }
+  .page-ref {
+    font-size: .825em;
+    font-family: $sans;
+    color: lighten($black, 25%);
+    margin-right: .25rem;
+  }
 }
 
 .first {

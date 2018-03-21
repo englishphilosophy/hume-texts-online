@@ -7,6 +7,9 @@ title:
   - "<h1><strong>SECT </strong>I.</h1>"
 year: "1757, 1777"
 pages: "Bea"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -60,7 +63,7 @@ paragraphs:
   -
     id: "12"
     pages: "4"
-    content: "<p>The passions of fear and hope may arise, when the chances are equal on both sides, and no superiority can be discovered in one above the other. Nay, in this situation the passions are rather the strongest, as the mind has then the least foundation to rest upon, and is tost with the greatest uncertainty. Throw in a superior degree of probability to the side of grief, you immediately see that passion diffuse itself over the composition, and tincture it into fear. Encrease the probability, and by that means the grief; the fear prevails still more and more, ’till at last it runs insensibly, as the joy continually diminishes, into pure grief. After you have brought it to this situation, diminish the grief, by a contrary operation to that, which encreased it, to wit, by diminishing the probability on the melancholy side; and you will see the passion clear every moment, ’till it changes insensibly into hope; which again runs, by slow degrees, into joy, as you encrease that part of the composition, by the encrease of the probability. Are not these as plain proofs, that the passions of fear and hope are mixtures of grief and joy, as in optics it is a proof, that a coloured ray of the sun, passing through a prism, is a composition of two others, when, as you diminish or encrease the quantity of either, you find it prevail proportionably, more or less, in the composition?</p>"
+    content: "<p>The passions of fear and hope may arise, when the chances are equal on both sides, and no superiority can be discovered in one above the other. Nay, in this situation the passions are rather the strongest, as the mind has then the least foundation to rest upon, and is tost with the greatest uncertainty. Throw in a superior degree of probability to the side of grief, you immediately see that passion diffuse itself over the composition, and tincture it into fear. Encrease the probability, and by that means the grief; the fear prevails still more and more, 'till at last it runs insensibly, as the joy continually diminishes, into pure grief. After you have brought it to this situation, diminish the grief, by a contrary operation to that, which encreased it, to wit, by diminishing the probability on the melancholy side; and you will see the passion clear every moment, 'till it changes insensibly into hope; which again runs, by slow degrees, into joy, as you encrease that part of the composition, by the encrease of the probability. Are not these as plain proofs, that the passions of fear and hope are mixtures of grief and joy, as in optics it is a proof, that a coloured ray of the sun, passing through a prism, is a composition of two others, when, as you diminish or encrease the quantity of either, you find it prevail proportionably, more or less, in the composition?</p>"
   -
     id: "13"
     pages: "4-5"
@@ -87,7 +90,7 @@ paragraphs:
     id: "18"
     pages: "5"
     subsection: "7"
-    content: "<p>But it is not only where good or evil is uncertain as to its <em>existence</em>, but also as to its <em>kind</em>, that fear or hope arises. If any one were told that one of his sons is suddenly killed; the passion, occasioned by this event, would not settle into grief, ’till he got certain information which of his sons he had lost. Though each side of the question produces here the same passion; that passion cannot settle, but receives from the imagination, which is unfixed, a tremulous unsteady motion, resembling the mixture and contention of grief and joy.</p>"
+    content: "<p>But it is not only where good or evil is uncertain as to its <em>existence</em>, but also as to its <em>kind</em>, that fear or hope arises. If any one were told that one of his sons is suddenly killed; the passion, occasioned by this event, would not settle into grief, 'till he got certain information which of his sons he had lost. Though each side of the question produces here the same passion; that passion cannot settle, but receives from the imagination, which is unfixed, a tremulous unsteady motion, resembling the mixture and contention of grief and joy.</p>"
   -
     id: "19"
     pages: "5-6"

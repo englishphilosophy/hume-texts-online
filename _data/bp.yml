@@ -6,6 +6,9 @@ title:
   - "<h1>Of the <b>Balance</b> of <b>Power</b>.</h1>"
 year: "1752, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -19,7 +22,7 @@ paragraphs:
   -
     id: "3"
     pages: "333"
-    content: "<p>Whoever will read <b>Demosthenes</b>’s oration for the <b>Megalopolitans</b>, may see the utmost refinements on this principle, that ever entered into the head of a <b>Venetian</b> or <b>English</b> speculatist. And upon the first rise of the <b>Macedonian</b> power, this orator immediately discovered the danger, sounded the alarm throughout all <b>Greece</b>, and at last assembled that confederacy under the banners of <b>Athens</b>, which fought the great and decisive battle of <b>Chaeronea</b>.</p>"
+    content: "<p>Whoever will read <b>Demosthenes</b>'s oration for the <b>Megalopolitans</b>, may see the utmost refinements on this principle, that ever entered into the head of a <b>Venetian</b> or <b>English</b> speculatist. And upon the first rise of the <b>Macedonian</b> power, this orator immediately discovered the danger, sounded the alarm throughout all <b>Greece</b>, and at last assembled that confederacy under the banners of <b>Athens</b>, which fought the great and decisive battle of <b>Chaeronea</b>.</p>"
   -
     id: "4"
     pages: "334"
@@ -39,7 +42,7 @@ paragraphs:
   -
     id: "8"
     pages: "335-6"
-    content: "<p>The reason, why it is supposed, that the ancients were entirely ignorant of the <em>balance of power</em>, seems to be drawn from the <b>Roman</b> history more than the <b>Grecian</b>; and as the transactions of the former are generally more familiar to us, we have thence formed all our conclusions. It must be owned, that the <b>Romans</b> never met with any such general combination or confederacy against them, as might naturally have been expected from the rapid conquests and declared ambition; but <span class='page-break'>|</span>were allowed peaceably to subdue their neighbours, one after another, till they extended their dominion over the whole known world. Not to mention the fabulous history of their <b>Italic</b> wars; there was, upon <b>Hannibal</b>’s invasion of the <b>Roman</b> state, a remarkable crisis, which ought to have called up the attention of all civilized nations. It appeared afterwards (nor was it difficult to be observed at the time)<sup><a href='#n7'>[7]</a></sup> that this was a contest for universal empire; yet no prince or state seems to have been in the least alarmed about the event or issue of the quarrel. <b>Philip</b> of <b>Macedon</b> remained neuter, till he saw the victories of <b>Hannibal</b>; and then most imprudently formed an alliance with the conqueror, upon terms still more imprudent. He stipulated, that he was to assist the <b>Carthaginian</b> state in their conquest of <b>Italy</b>; after which they engaged to send over forces into <b>Greece</b>, to assist him in subduing the <b>Grecian</b> commonwealths<sup><a href='#n8'>[8]</a></sup>.</p>"
+    content: "<p>The reason, why it is supposed, that the ancients were entirely ignorant of the <em>balance of power</em>, seems to be drawn from the <b>Roman</b> history more than the <b>Grecian</b>; and as the transactions of the former are generally more familiar to us, we have thence formed all our conclusions. It must be owned, that the <b>Romans</b> never met with any such general combination or confederacy against them, as might naturally have been expected from the rapid conquests and declared ambition; but <span class='page-break'>|</span>were allowed peaceably to subdue their neighbours, one after another, till they extended their dominion over the whole known world. Not to mention the fabulous history of their <b>Italic</b> wars; there was, upon <b>Hannibal</b>'s invasion of the <b>Roman</b> state, a remarkable crisis, which ought to have called up the attention of all civilized nations. It appeared afterwards (nor was it difficult to be observed at the time)<sup><a href='#n7'>[7]</a></sup> that this was a contest for universal empire; yet no prince or state seems to have been in the least alarmed about the event or issue of the quarrel. <b>Philip</b> of <b>Macedon</b> remained neuter, till he saw the victories of <b>Hannibal</b>; and then most imprudently formed an alliance with the conqueror, upon terms still more imprudent. He stipulated, that he was to assist the <b>Carthaginian</b> state in their conquest of <b>Italy</b>; after which they engaged to send over forces into <b>Greece</b>, to assist him in subduing the <b>Grecian</b> commonwealths<sup><a href='#n8'>[8]</a></sup>.</p>"
   -
     id: "9"
     pages: "336"
@@ -84,63 +87,54 @@ paragraphs:
     id: "19"
     pages: "340-1"
     content: "<p>Enormous monarchies are, probably, destructive to hu<span class='page-break'>|</span>man nature; in their progress, in their continuance<sup><a href='#n10'>[10]</a></sup>, and even in their downfal, which never can be very distant from their establishment. The military genius, which aggrandized the monarchy, soon leaves the court, the capital, and the center of such a government; while the wars are carried on at a great distance, and interest so small a part of the state. The ancient nobility, whose affections attach them to their sovereign, live all at court; and never will accept of military employments, which would carry them to remote and barbarous frontiers, where they are distant both from their pleasures and their fortune. The arms of the state, must, therefore, be entrusted to mercenary strangers, without zeal, without attachment, without honour; ready on every occasion to turn them against the prince, and join each desperate malcontent, who offers pay and plunder. This is the necessary progress of human affairs: Thus human nature checks itself in its airy elevation: Thus ambition blindly labours for the destruction of the conqueror, of his family, and of every thing near and dear to him. The <b>Bourbons</b>, trusting to the support of their brave, faithful, and affectionate nobility, would push their advantage, without reserve or limitation. These, while fired with glory and emulation, can bear the fatigues and dangers of war; but never would submit to languish in the garrisons of <b>Hungary</b> or <b>Lithuania</b>, forgot at court, and sacrificed to the intrigues of every minion or mistress, who approaches the prince. The troops are filled with <b>Cravates</b> and <b>Tartars</b>, <b>Hussars</b> and <b>Cossacs</b>; intermingled, perhaps, with a few soldiers of fortune from the better provinces: And the melancholy fate of the <b>Roman</b> emperors, from the same cause, is renewed over and over again, till the final dissolution of the monarchy.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "332"
     symbol: "*"
     content: "<p>Lib. i.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "333"
     symbol: "†"
     content: "<p>Lib. i.</p>"
   -
-    id: "n3"
-    type: "note"
+    id: "3"
     pages: "333"
     symbol: "‡"
     content: "<p><b>Xenoph.</b> Hist. <b>Graec.</b> lib. vi. & vii.</p>"
   -
-    id: "n4"
-    type: "note"
+    id: "4"
     pages: "334-5"
     symbol: "*"
     content: "<p><b>Thucyd.</b> lib. viii.</p>"
   -
-    id: "n5"
-    type: "note"
+    id: "5"
     pages: "335"
     symbol: "†"
     content: "<p><b>Diod. Sic.</b> lib. xx.</p>"
   -
-    id: "n6"
-    type: "note"
+    id: "6"
     pages: "335"
     symbol: "*"
     content: "<p>Lib. ii. cap. 51.</p>"
   -
-    id: "n7"
-    type: "note"
+    id: "7"
     pages: "336"
     symbol: "†"
     content: "<p>It was observed by some, as appears by the speech of <b>Agelaus</b> of <b>Naupactum</b>, in the general congress of <b>Greece</b>. See <b>Polyb.</b> lib. v. cap. 104.</p>"
   -
-    id: "n8"
-    type: "note"
+    id: "8"
     pages: "336"
     symbol: "‡"
     content: "<p><b>Titi Livii</b>, lib. xxiii. cap. 33.</p>"
   -
-    id: "n9"
-    type: "note"
+    id: "9"
     pages: "337"
     symbol: "†"
     content: "<p>Lib. i. cap. 83.</p>"
   -
-    id: "n10"
-    type: "note"
+    id: "0"
     pages: "341"
     symbol: "†"
     content: "<p>If the <b>Roman</b> empire was of advantage, it could only proceed from this, that mankind were generally in a very disorderly, uncivilized condition, before its establishment.</p>"

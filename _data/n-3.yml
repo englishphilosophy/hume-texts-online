@@ -7,6 +7,9 @@ title:
   - "<h1><b>Sect. III.</b> <em>The same subject continued.</em></h1>"
 year: "1777"
 pages: "Bea"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -19,7 +22,7 @@ paragraphs:
   -
     id: "3"
     pages: "41-2"
-    content: "<p>In proportion as any man’s course of life is governed by accident, we always find, that he encreases in superstition; as may particularly be observed of gamesters and sailors, who, though, of all mankind, the least capable of serious reflection, abound most in frivolous and superstitious apprehensions. The gods, says <b>Coriolanus</b> in <b>Dionysius</b><sup><a href='#n2'>[2]</a></sup>, have an influence in every affair; but above all, in war; where the event is so uncertain. All human life, especially before the institution of order and good government, being subject to fortuitous accidents; it is natural, that superstition should prevail every where in barbarous ages, and put men on the most earnest enquiry concerning those invisible powers, who dispose of their happiness or misery. Ignorant of astronomy and the anatomy of plants and animals, and too little curious to observe the admirable adjustment of final causes; they remain still unacquainted with a first and supreme creator, and with that infinitely perfect spirit, who alone, by his almighty will, bestowed order on the whole frame of nature. Such a magnificent idea is too big for their narrow conceptions, which can neither observe the beauty of the work, nor comprehend the grandeur of its author. They suppose their deities, <span class='page-break'>|</span>however potent and invisible, to be nothing but a species of human creatures, perhaps raised from among mankind, and retaining all human passions and appetites, together with corporeal limbs and organs. Such limited beings, though masters of human fate, being, each of them, incapable of extending his influence every where, must be vastly multiplied, in order to answer that variety of events, which happen over the whole face of nature. Thus every place is stored with a crowd of local deities; and thus polytheism has prevailed, and still prevails, among the greatest part of uninstructed mankind<sup><a href='#n3'>[3]</a></sup>.</p>"
+    content: "<p>In proportion as any man's course of life is governed by accident, we always find, that he encreases in superstition; as may particularly be observed of gamesters and sailors, who, though, of all mankind, the least capable of serious reflection, abound most in frivolous and superstitious apprehensions. The gods, says <b>Coriolanus</b> in <b>Dionysius</b><sup><a href='#n2'>[2]</a></sup>, have an influence in every affair; but above all, in war; where the event is so uncertain. All human life, especially before the institution of order and good government, being subject to fortuitous accidents; it is natural, that superstition should prevail every where in barbarous ages, and put men on the most earnest enquiry concerning those invisible powers, who dispose of their happiness or misery. Ignorant of astronomy and the anatomy of plants and animals, and too little curious to observe the admirable adjustment of final causes; they remain still unacquainted with a first and supreme creator, and with that infinitely perfect spirit, who alone, by his almighty will, bestowed order on the whole frame of nature. Such a magnificent idea is too big for their narrow conceptions, which can neither observe the beauty of the work, nor comprehend the grandeur of its author. They suppose their deities, <span class='page-break'>|</span>however potent and invisible, to be nothing but a species of human creatures, perhaps raised from among mankind, and retaining all human passions and appetites, together with corporeal limbs and organs. Such limited beings, though masters of human fate, being, each of them, incapable of extending his influence every where, must be vastly multiplied, in order to answer that variety of events, which happen over the whole face of nature. Thus every place is stored with a crowd of local deities; and thus polytheism has prevailed, and still prevails, among the greatest part of uninstructed mankind<sup><a href='#n3'>[3]</a></sup>.</p>"
   -
     id: "4"
     pages: "42"
@@ -31,28 +34,25 @@ paragraphs:
   -
     id: "6"
     pages: "43"
-    content: "<p>What age or period of life is the most addicted to superstition? The weakest and most timid. What sex? The same answer must be given. <em>The leaders and examples of every kind of superstition,</em> says <b>Strabo</b><sup><a href='#n5'>[5]</a></sup>, <em>are the women. These excite the men to devotion and supplications, and the observance of religious days. It is rare to meet with one that lives apart from the females, and yet is addicted to such practices. And nothing can, for this reason, be more improbable, than the account given of an order of men among the <b>Getes</b>, who practised celibacy, and were notwithstanding the most religious fanatics.</em> A method of reasoning, which would lead us to entertain a bad idea of the devotion of monks; did we not know by an experience, not so common, perhaps, in <b>Strabo</b>’s days, that one may practise celibacy, and profess chastity; and yet maintain the closest connexions and most entire sympathy with that timorous and pious sex.</p>"
+    content: "<p>What age or period of life is the most addicted to superstition? The weakest and most timid. What sex? The same answer must be given. <em>The leaders and examples of every kind of superstition,</em> says <b>Strabo</b><sup><a href='#n5'>[5]</a></sup>, <em>are the women. These excite the men to devotion and supplications, and the observance of religious days. It is rare to meet with one that lives apart from the females, and yet is addicted to such practices. And nothing can, for this reason, be more improbable, than the account given of an order of men among the <b>Getes</b>, who practised celibacy, and were notwithstanding the most religious fanatics.</em> A method of reasoning, which would lead us to entertain a bad idea of the devotion of monks; did we not know by an experience, not so common, perhaps, in <b>Strabo</b>'s days, that one may practise celibacy, and profess chastity; and yet maintain the closest connexions and most entire sympathy with that timorous and pious sex.</p>"
+notes:
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "41"
     symbol: "*"
     content: "<p>Lib. viii.</p>"
   -
-    id: "n3"
-    type: "note"
+    id: "3"
     pages: "42"
     symbol: "*"
-    content: "<p>The following lines of <b>Euripides</b> are so much to the present purpose, that I cannot forbear quoting them: <br><span class='tab'></span><span class='tab'></span><i>Ουκ εστιν ουδεν πιςτον, ουτ ευδοξια,</i> <br><span class='tab'></span><i>Ουτ’ αν καλως πρασσοντα μη πραξειν κακως.</i> <br><span class='tab'></span><i>Φυρουσι δ’αυθ’οι θεοι παλιν τε και προσω,</i> <br><span class='tab'></span><i>Ταραγμον εντιθεντες, ως αγνωσια</i> <br><span class='tab'></span><i>Σεβωμεν αυτους.</i> <span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span><b>Hecuba</b>. <br><span class='tab'></span>“There is nothing secure in the world; no glory, no prosperity. The gods toss all life into confusion; mix every thing with its reverse; that all of us, from our ignorance and uncertainty, may pay them the more worship and reverence.”</p>"
+    content: "<p>The following lines of <b>Euripides</b> are so much to the present purpose, that I cannot forbear quoting them: <br><span class='tab'></span><span class='tab'></span><i>Ουκ εστιν ουδεν πιςτον, ουτ ευδοξια,</i> <br><span class='tab'></span><i>Ουτ' αν καλως πρασσοντα μη πραξειν κακως.</i> <br><span class='tab'></span><i>Φυρουσι δ'αυθ'οι θεοι παλιν τε και προσω,</i> <br><span class='tab'></span><i>Ταραγμον εντιθεντες, ως αγνωσια</i> <br><span class='tab'></span><i>Σεβωμεν αυτους.</i> <span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span><b>Hecuba</b>. <br><span class='tab'></span>“There is nothing secure in the world; no glory, no prosperity. The gods toss all life into confusion; mix every thing with its reverse; that all of us, from our ignorance and uncertainty, may pay them the more worship and reverence.”</p>"
   -
-    id: "n4"
-    type: "note"
+    id: "4"
     pages: "42"
     symbol: "*"
     content: "<p><b>Diod. Sic.</b> lib. iii.</p>"
   -
-    id: "n5"
-    type: "note"
+    id: "5"
     pages: "43"
     symbol: "†"
     content: "<p>Lib. vii.</p>"

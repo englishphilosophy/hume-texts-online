@@ -4,7 +4,7 @@ parent: "t-3"
 title:
   - "Part 2"
   - "Part 2. Of justice and injustice"
-  - "<h1>~PART ~II.</h1><h2>_Of justice and injustice._</h2>"
+  - "<h1><strong>PART </strong>II.</h1><h2><em>Of justice and injustice.</em></h2>"
 year: "1740"
 texts:
   - "t-3-2-1"

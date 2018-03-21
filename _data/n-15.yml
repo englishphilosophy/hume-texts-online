@@ -7,6 +7,9 @@ title:
   - "<h1><b>Sect. XV.</b> <em>General Corollary.</em></h1>"
 year: "1777"
 pages: "Bea"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -15,7 +18,7 @@ paragraphs:
   -
     id: "2"
     pages: "85"
-    content: "<p>Good and ill are universally intermingled and confounded; happiness and misery, wisdom and folly, virtue and vice. Nothing is pure and entirely of a piece. All advantages are attended with disadvantages. An universal compensation prevails in all conditions of being and existence. And it is not possible for us, by our most chimerical wishes, to form the idea of a station or situation altogether desirable. The draughts of life, according to the poet’s fiction, are always mixed from the vessels on each hand of <b>Jupiter</b>: Or if any cup be presented altogether pure, it is drawn only, as the same poet tells us, from the left-handed vessel.</p>"
+    content: "<p>Good and ill are universally intermingled and confounded; happiness and misery, wisdom and folly, virtue and vice. Nothing is pure and entirely of a piece. All advantages are attended with disadvantages. An universal compensation prevails in all conditions of being and existence. And it is not possible for us, by our most chimerical wishes, to form the idea of a station or situation altogether desirable. The draughts of life, according to the poet's fiction, are always mixed from the vessels on each hand of <b>Jupiter</b>: Or if any cup be presented altogether pure, it is drawn only, as the same poet tells us, from the left-handed vessel.</p>"
   -
     id: "3"
     pages: "85"
@@ -31,7 +34,7 @@ paragraphs:
   -
     id: "6"
     pages: "86"
-    content: "<p>What a noble privilege is it of human reason to attain the knowledge of the supreme Being; and, from the visible works of nature, be enabled to infer so sublime a principle as its supreme Creator? But turn the reverse of the medal. Survey most nations and most ages. Examine the religious principles, which have, in fact, prevailed in the world. You will scarcely be persuaded, that they are any thing but sick men’s dreams: Or perhaps will regard them more as the playsome whimsies of monkies in human shape, than the serious, positive, dogmatical asseverations of a being, who dignifies himself with the name of rational.</p>"
+    content: "<p>What a noble privilege is it of human reason to attain the knowledge of the supreme Being; and, from the visible works of nature, be enabled to infer so sublime a principle as its supreme Creator? But turn the reverse of the medal. Survey most nations and most ages. Examine the religious principles, which have, in fact, prevailed in the world. You will scarcely be persuaded, that they are any thing but sick men's dreams: Or perhaps will regard them more as the playsome whimsies of monkies in human shape, than the serious, positive, dogmatical asseverations of a being, who dignifies himself with the name of rational.</p>"
   -
     id: "7"
     pages: "86"

@@ -6,6 +6,9 @@ title:
   - "<h1>Of <b>Interest</b>.</h1>"
 year: "1752, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -47,7 +50,7 @@ paragraphs:
   -
     id: "10"
     pages: "299-300"
-    content: "<p>Every thing useful to the life of man arises from the ground; but few things arise in that condition which is requisite to render them useful. There must, therefore, beside the peasants and the proprietors of land, be another rank of men, who receiving from the former the rude materials, work them into their proper form, and retain part for their own use and subsistence. In the infancy of society, these contracts between the artisans and the peasants, and between one species of artisans and another are commonly entered into immediately by the persons themselves, who, being neighbours, are easily acquainted with each other’s necessities, and can lend their mutual assistance to supply them. But when men’s industry encreases, and their views enlarge, it is found, that the most <span class='page-break'>|</span>remote parts of the state can assist each other as well as the more contiguous, and that this intercourse of good offices may be carried on to the greatest extent and intricacy. Hence the origin of <em>merchants</em>, one of the most useful races of men, who serve as agents between those parts of the state, that are wholly unacquainted, and are ignorant of each other’s necessities. Here are in a city fifty workmen in silk and linen, and a thousand customers; and these two ranks of men, so necessary to each other, can never rightly meet, till one man erects a shop, to which all the workmen and all the customers repair. In this province, grass rises in abundance: The inhabitants abound in cheese, and butter, and cattle; but want bread and corn, which, in a neighbouring province, are in too great abundance for the use of the inhabitants. One man discovers this. He brings corn from the one province and returns with cattle; and supplying the wants of both, he is, so far, a common benefactor. As the people encrease in numbers and industry, the difficulty of their intercourse encreases: The business of the agency or merchandize becomes more intricate; and divides, subdivides, compounds, and mixes to a greater variety. In all these transactions, it is necessary, and reasonable, that a considerable part of the commodities and labour should belong to the merchant, to whom, in a great measure, they are owing. And these commodities he will sometimes preserve in kind, or more commonly convert into money, which is their common representation. If gold and silver have encreased in the state together with the industry, it will require a great quantity of these metals to represent a great quantity of commodities and labour. If industry alone has encreased, the prices of every thing must sink, and a small quantity of specie will serve as a representation.</p>"
+    content: "<p>Every thing useful to the life of man arises from the ground; but few things arise in that condition which is requisite to render them useful. There must, therefore, beside the peasants and the proprietors of land, be another rank of men, who receiving from the former the rude materials, work them into their proper form, and retain part for their own use and subsistence. In the infancy of society, these contracts between the artisans and the peasants, and between one species of artisans and another are commonly entered into immediately by the persons themselves, who, being neighbours, are easily acquainted with each other's necessities, and can lend their mutual assistance to supply them. But when men's industry encreases, and their views enlarge, it is found, that the most <span class='page-break'>|</span>remote parts of the state can assist each other as well as the more contiguous, and that this intercourse of good offices may be carried on to the greatest extent and intricacy. Hence the origin of <em>merchants</em>, one of the most useful races of men, who serve as agents between those parts of the state, that are wholly unacquainted, and are ignorant of each other's necessities. Here are in a city fifty workmen in silk and linen, and a thousand customers; and these two ranks of men, so necessary to each other, can never rightly meet, till one man erects a shop, to which all the workmen and all the customers repair. In this province, grass rises in abundance: The inhabitants abound in cheese, and butter, and cattle; but want bread and corn, which, in a neighbouring province, are in too great abundance for the use of the inhabitants. One man discovers this. He brings corn from the one province and returns with cattle; and supplying the wants of both, he is, so far, a common benefactor. As the people encrease in numbers and industry, the difficulty of their intercourse encreases: The business of the agency or merchandize becomes more intricate; and divides, subdivides, compounds, and mixes to a greater variety. In all these transactions, it is necessary, and reasonable, that a considerable part of the commodities and labour should belong to the merchant, to whom, in a great measure, they are owing. And these commodities he will sometimes preserve in kind, or more commonly convert into money, which is their common representation. If gold and silver have encreased in the state together with the industry, it will require a great quantity of these metals to represent a great quantity of commodities and labour. If industry alone has encreased, the prices of every thing must sink, and a small quantity of specie will serve as a representation.</p>"
   -
     id: "11"
     pages: "300-1"
@@ -83,32 +86,29 @@ paragraphs:
   -
     id: "19"
     pages: "306"
-    content: "<p>Accordingly we find, in <b>Rome</b>, that, so early as <b>Tiberius</b>’s time, interest had again mounted to 6 <em>per cent.</em><sup><a href='#n2'>[2]</a></sup> though no accident had happened to drain the empire of money. In <b>Trajan</b>’s time, money lent on mortgages in <b>Italy</b>, bore 6 <em>per cent.</em><sup><a href='#n3'>[3]</a></sup>; on common securities in <b>Bithynia</b>, 12<sup><a href='#n4'>[4]</a></sup>. And if interest in <b>Spain</b> has not risen to its old pitch; this can be ascribed to nothing but the continuance of the same cause that sunk it, to wit, the large fortunes continually made in the <b>Indies</b>, which come over to <b>Spain</b> from time to time, and supply the demand of the borrowers. By this accidental and extraneous cause, more money is to be lent in <b>Spain</b>, that is, more money is collected into large sums than would otherwise be found in a state, where there are so little commerce and industry.</p>"
+    content: "<p>Accordingly we find, in <b>Rome</b>, that, so early as <b>Tiberius</b>'s time, interest had again mounted to 6 <em>per cent.</em><sup><a href='#n2'>[2]</a></sup> though no accident had happened to drain the empire of money. In <b>Trajan</b>'s time, money lent on mortgages in <b>Italy</b>, bore 6 <em>per cent.</em><sup><a href='#n3'>[3]</a></sup>; on common securities in <b>Bithynia</b>, 12<sup><a href='#n4'>[4]</a></sup>. And if interest in <b>Spain</b> has not risen to its old pitch; this can be ascribed to nothing but the continuance of the same cause that sunk it, to wit, the large fortunes continually made in the <b>Indies</b>, which come over to <b>Spain</b> from time to time, and supply the demand of the borrowers. By this accidental and extraneous cause, more money is to be lent in <b>Spain</b>, that is, more money is collected into large sums than would otherwise be found in a state, where there are so little commerce and industry.</p>"
   -
     id: "20"
     pages: "306-7"
     content: "<p>As to the reduction of interest, which has followed in <b>England</b>, <b>France</b>, and other kingdoms of <b>Europe</b>, that have no mines, it has been gradual; and has not proceeded from the encrease of money, considered merely in itself; but from that of industry, which is the natural effect of the former encrease, in that interval, before it raises the price of labour and provisions. For to return to the foregoing supposition; if the industry of <b>England</b> had risen as much from other causes, (and that rise might easily have happened, though the stock of money had remained the same) must not all the same consequences have followed, which we observe at present? The same people would, in that case, be found in the kingdom, the same commodities, the same industry, manufactures, and commerce; and consequently the same mer<span class='page-break'>|</span>chants, with the same stocks, that is, with the same command over labour and commodities, only represented by a smaller number of white or yellow pieces; which being a circumstance of no moment, would only affect the waggoner, porter, and trunk-maker. Luxury, therefore, manufactures, arts, industry, frugality, flourishing equally as at present, it is evident, that interest must also have been as low; since that is the necessary result of all these circumstances; so far as they determine the profits of commerce, and the proportion between the borrowers and lenders in any state.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "305"
     symbol: "†"
     content: "<p>Lib. ii.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "306"
     symbol: "*"
     content: "<p><b>Columella</b>, lib. iii. cap. 3.</p>"
   -
-    id: "n3"
-    type: "note"
+    id: "3"
     pages: "306"
     symbol: "†"
     content: "<p><b>Plinii</b> epist. lib. vii. ep. 18.</p>"
   -
-    id: "n4"
-    type: "note"
+    id: "4"
     pages: "306"
     symbol: "‡"
     content: "<p>Id. lib. x. ep. 62.</p>"

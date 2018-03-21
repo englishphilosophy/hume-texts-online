@@ -4,7 +4,7 @@ parent: "t-2"
 title:
   - "Part 1"
   - "Part 1. Of Pride and Humility"
-  - "<h1>~PART ~I.</h1><h2>_Of Pride and Humility._</h2>"
+  - "<h1><strong>PART </strong>I.</h1><h2><em>Of Pride and Humility.</em></h2>"
 year: "1739"
 texts:
   - "t-2-1-1"

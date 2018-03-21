@@ -7,6 +7,9 @@ title:
   - "<h2>A</h2><h1><strong>DIALOGU</strong>E.</h1>"
 year: "1777"
 pages: "SBN"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -16,7 +19,7 @@ paragraphs:
   -
     id: "2"
     pages: ""
-    content: "<p>There is a country, said he, in the world, called <b>Fourli</b>, no matter for its longitude or latitude, whose inhabitants have ways of thinking, in many things, particularly in morals, diametrically opposite to ours. When I came among them, I found that I must submit to double pains; first to learn the meaning of the terms in their language, and then to know the import of those terms, and the praise or blame attached to them. After a word had been explained to me, and the character, which it expressed, had been described, I concluded, that such an epithet must necessarily be the greatest reproach in the world; and was extremely surprized to find one in a public company, apply it to a person, with whom he lived in the strictest intimacy and friendship. <em>You fancy</em>, said I, one day, to an acquaintance, <em>that</em> <b>Changius</b> <em>is your mortal enemy: I love to extinguish quarrels</em>; <em>and I must, therefore, tell you, that I heard him talk of you in the most obliging manner</em>. But to my great astonishment, when I repeated <b>Changuis</b>’s words, though I had both remembered and understood them perfectly, I found, that they were <SBN#325>taken for the most mortal affront, and that I had very innocently rendered the breach between these persons altogether irreparable.</p>"
+    content: "<p>There is a country, said he, in the world, called <b>Fourli</b>, no matter for its longitude or latitude, whose inhabitants have ways of thinking, in many things, particularly in morals, diametrically opposite to ours. When I came among them, I found that I must submit to double pains; first to learn the meaning of the terms in their language, and then to know the import of those terms, and the praise or blame attached to them. After a word had been explained to me, and the character, which it expressed, had been described, I concluded, that such an epithet must necessarily be the greatest reproach in the world; and was extremely surprized to find one in a public company, apply it to a person, with whom he lived in the strictest intimacy and friendship. <em>You fancy</em>, said I, one day, to an acquaintance, <em>that</em> <b>Changius</b> <em>is your mortal enemy: I love to extinguish quarrels</em>; <em>and I must, therefore, tell you, that I heard him talk of you in the most obliging manner</em>. But to my great astonishment, when I repeated <b>Changuis</b>'s words, though I had both remembered and understood them perfectly, I found, that they were <SBN#325>taken for the most mortal affront, and that I had very innocently rendered the breach between these persons altogether irreparable.</p>"
   -
     id: "3"
     pages: ""
@@ -28,11 +31,11 @@ paragraphs:
   -
     id: "5"
     pages: ""
-    content: "<p>I was afterwards told, that <b>Alcheic</b>’s choice of <b>Gulki</b> was very much approved of by all the good company in town; and that it was expected, while he gratified his own passion, he would perform to that young man the same good office, which he had himself owed to <b>Elcouf</b>. If seems <b>Alcheic</b> had been very handsome in his youth, and been courted by many lovers; but had bestowed his favours chiefly on the sage <b>Elcouf</b>; to whom he was supposed to owe, in a great measure, the astonishing progress which he had made in philosophy and virtue.</p>"
+    content: "<p>I was afterwards told, that <b>Alcheic</b>'s choice of <b>Gulki</b> was very much approved of by all the good company in town; and that it was expected, while he gratified his own passion, he would perform to that young man the same good office, which he had himself owed to <b>Elcouf</b>. If seems <b>Alcheic</b> had been very handsome in his youth, and been courted by many lovers; but had bestowed his favours chiefly on the sage <b>Elcouf</b>; to whom he was supposed to owe, in a great measure, the astonishing progress which he had made in philosophy and virtue.</p>"
   -
     id: "6"
     pages: ""
-    content: "<p>It gave me some surprize, that <b>Alcheic</b>’s wife (who by-the-bye happened also to be his sister) was no wise scandalized at this species of infidelity.</p>"
+    content: "<p>It gave me some surprize, that <b>Alcheic</b>'s wife (who by-the-bye happened also to be his sister) was no wise scandalized at this species of infidelity.</p>"
   -
     id: "7"
     pages: ""
@@ -40,11 +43,11 @@ paragraphs:
   -
     id: "8"
     pages: ""
-    content: "<p>Having heard <b>Alcheic</b>’s virtue so extremely celebrated, I pretended to join in the general voice of acclamation, and only asked, by way of curiosity, as a stranger, which of all his noble actions was most highly applauded; and I soon found, that all sentiments were united in giving preference to the assassination of <b>Usbek</b>. This <b>Usbek</b> has been to the last moment <b>Alcheic</b>’s intimate friend, had laid many high obligations upon him, had even saved his life on a certain occasion, and had, by his will, which was found after the murder, made him heir to a considerable part of his fortune. <b>Alcheic</b>, it seems, conspired with about twenty or thirty more, most of them also <b>Usbek</b>’s friends; and falling all together on that unhappy man, when he was not aware, they had torne him with a hundred wounds; and given him that reward for all his past favours and obligations. <b>Usbek</b>, said the general voice of the people, had many great and good qualities: His very vices were shining, magnificent, and generous: But this action of <b>Alcheic</b>’s sets him far above <b>Usbek</b> in the eyes of all judges of merit; and is one of the noblest that ever perhaps the sun shone upon.</p>"
+    content: "<p>Having heard <b>Alcheic</b>'s virtue so extremely celebrated, I pretended to join in the general voice of acclamation, and only asked, by way of curiosity, as a stranger, which of all his noble actions was most highly applauded; and I soon found, that all sentiments were united in giving preference to the assassination of <b>Usbek</b>. This <b>Usbek</b> has been to the last moment <b>Alcheic</b>'s intimate friend, had laid many high obligations upon him, had even saved his life on a certain occasion, and had, by his will, which was found after the murder, made him heir to a considerable part of his fortune. <b>Alcheic</b>, it seems, conspired with about twenty or thirty more, most of them also <b>Usbek</b>'s friends; and falling all together on that unhappy man, when he was not aware, they had torne him with a hundred wounds; and given him that reward for all his past favours and obligations. <b>Usbek</b>, said the general voice of the people, had many great and good qualities: His very vices were shining, magnificent, and generous: But this action of <b>Alcheic</b>'s sets him far above <b>Usbek</b> in the eyes of all judges of merit; and is one of the noblest that ever perhaps the sun shone upon.</p>"
   -
     id: "9"
     pages: ""
-    content: "<p>Another part of <b>Alcheic</b>’s conduct, which I also found highly applauded, was his behaviour towards <b>Calish</b>, with whom he was joined in a project or undertaking of some importance. <b>Calish</b>, being a passionate man, gave <b>Alcheic</b>, one day, a sound drubbing; which he took very patiently, waited the return of <b>Calish</b>’s good-humour, kept still a fair <SBN#327>correspondence with him; and by that means brought the affair, in which they were joined, to a happy issue, and gained to himself immortal honour by his remarkable temper and moderation.</p>"
+    content: "<p>Another part of <b>Alcheic</b>'s conduct, which I also found highly applauded, was his behaviour towards <b>Calish</b>, with whom he was joined in a project or undertaking of some importance. <b>Calish</b>, being a passionate man, gave <b>Alcheic</b>, one day, a sound drubbing; which he took very patiently, waited the return of <b>Calish</b>'s good-humour, kept still a fair <SBN#327>correspondence with him; and by that means brought the affair, in which they were joined, to a happy issue, and gained to himself immortal honour by his remarkable temper and moderation.</p>"
   -
     id: "10"
     pages: ""
@@ -52,7 +55,7 @@ paragraphs:
   -
     id: "11"
     pages: ""
-    content: "<p>The notions of this people, continued <b>Palamedes</b>, are as extraordinary with regard to good-manners and sociableness, as with regard to morals. My friend <b>Alcheic</b> formed once a party for my entertainment, composed of all the prime wits and philosophers of <b>Fourli</b>; and each of us brought his mess along with him to the place where we assembled. I observed one of them to be worse provided than the rest, and offered him a share of my mess, which happened to be a roasted pullet: And I could not but remark, that he and all the rest of the company smiled at my simplicity. I was told, that <b>Alcheic</b> had once so much interest with his club as to prevail with them to eat in common, and that he had made use of an artifice for that purpose. He persuaded those, whom he observed to be <em>worst</em> provided, to offer their mess to the company; after which, the others who had brought more delicate fare, were ashamed not to make the same offer. This is regarded as so extraordinary an event, that it has since, as I learn, been recorded in the history of <b>Alcheic</b>’s life, composed by one of the greatest geniuses of <b>Fourli</b>.</p>"
+    content: "<p>The notions of this people, continued <b>Palamedes</b>, are as extraordinary with regard to good-manners and sociableness, as with regard to morals. My friend <b>Alcheic</b> formed once a party for my entertainment, composed of all the prime wits and philosophers of <b>Fourli</b>; and each of us brought his mess along with him to the place where we assembled. I observed one of them to be worse provided than the rest, and offered him a share of my mess, which happened to be a roasted pullet: And I could not but remark, that he and all the rest of the company smiled at my simplicity. I was told, that <b>Alcheic</b> had once so much interest with his club as to prevail with them to eat in common, and that he had made use of an artifice for that purpose. He persuaded those, whom he observed to be <em>worst</em> provided, to offer their mess to the company; after which, the others who had brought more delicate fare, were ashamed not to make the same offer. This is regarded as so extraordinary an event, that it has since, as I learn, been recorded in the history of <b>Alcheic</b>'s life, composed by one of the greatest geniuses of <b>Fourli</b>.</p>"
   -
     id: "12"
     pages: ""
@@ -168,7 +171,7 @@ paragraphs:
   -
     id: "40"
     pages: ""
-    content: "<p>Sometimes too, magnanimity, greatness of mind, disdain of slavery, inflexible rigour and integrity, may better suit the circumstances of one age than those of another, and have a more kindly influence, both on public affairs, and on a man’s own safety and advancement. Our idea of merit, therefore, will also vary a little with these variations; and <b>Labeo</b>, perhaps, be censured for the same qualities, which procured <b>Cato</b> the highest approbation.</p>"
+    content: "<p>Sometimes too, magnanimity, greatness of mind, disdain of slavery, inflexible rigour and integrity, may better suit the circumstances of one age than those of another, and have a more kindly influence, both on public affairs, and on a man's own safety and advancement. Our idea of merit, therefore, will also vary a little with these variations; and <b>Labeo</b>, perhaps, be censured for the same qualities, which procured <b>Cato</b> the highest approbation.</p>"
   -
     id: "41"
     pages: ""
@@ -188,7 +191,7 @@ paragraphs:
   -
     id: "45"
     pages: ""
-    content: "<p>When <b>Demosthenes</b> prosecuted his tutors, to make them refund his patrimony, it became necessary for him, in the course of the law-suit, to prove that the marriage of <b>Aphobus</b>’s sister with <b>Oneter</b> was entirely fraudulent, and that, notwithstanding her sham marriage, she had lived with her brother at <b>Athens</b> for two years past, ever since her divorce from her former husband. And it is remarkable, that though these were people of the first fortune and distinction in the city, the orator could prove this fact no way, but by <SBN#339>calling for her female slaves to be put to the question, and by the evidence of one physician, who had seen her in her brother’s house during her illness<sup><a href='#n90'>[90]</a></sup>. So reserved were <b>Greek</b> manners.</p>"
+    content: "<p>When <b>Demosthenes</b> prosecuted his tutors, to make them refund his patrimony, it became necessary for him, in the course of the law-suit, to prove that the marriage of <b>Aphobus</b>'s sister with <b>Oneter</b> was entirely fraudulent, and that, notwithstanding her sham marriage, she had lived with her brother at <b>Athens</b> for two years past, ever since her divorce from her former husband. And it is remarkable, that though these were people of the first fortune and distinction in the city, the orator could prove this fact no way, but by <SBN#339>calling for her female slaves to be put to the question, and by the evidence of one physician, who had seen her in her brother's house during her illness<sup><a href='#n90'>[90]</a></sup>. So reserved were <b>Greek</b> manners.</p>"
   -
     id: "46"
     pages: ""
@@ -220,7 +223,7 @@ paragraphs:
   -
     id: "53"
     pages: ""
-    content: "<p>What do you understand by <em>artificial</em> lives and manners? said I. I explain myself, replied he. You know, that religion had, in ancient times, very little influence on common life, and that, after men had performed their duty in sacrifices and prayers at the temple, they thought, that the gods left the rest of their conduct to themselves, and were little pleased or offended with those virtues or vices, which only affected the peace and happiness of human society. In those ages, it was the business of philosophy alone to regulate men’s ordinary behaviour and deportment; and accordingly, we may observe, that this being the sole principle, by which a man could elevate himself above his fellows, it acquired a mighty ascendant over many, and produced great singularities of maxims and of conduct. At present, when philosophy has lost the allurement of novelty, it has no such extensive influence; but seems to confine itself mostly to speculations in the closet; in the same manner, as the <SBN#342>ancient religion was limited to sacrifices in the temple. Its place is now supplied by the modern religion, which inspects our whole conduct, and prescribes an universal rule to our actions, to our words, to our very thoughts and inclinations; a rule so much the more austere, as it is guarded by infinite, though distant, rewards and punishments; and no infaction of it can ever be concealed or disguised.</p>"
+    content: "<p>What do you understand by <em>artificial</em> lives and manners? said I. I explain myself, replied he. You know, that religion had, in ancient times, very little influence on common life, and that, after men had performed their duty in sacrifices and prayers at the temple, they thought, that the gods left the rest of their conduct to themselves, and were little pleased or offended with those virtues or vices, which only affected the peace and happiness of human society. In those ages, it was the business of philosophy alone to regulate men's ordinary behaviour and deportment; and accordingly, we may observe, that this being the sole principle, by which a man could elevate himself above his fellows, it acquired a mighty ascendant over many, and produced great singularities of maxims and of conduct. At present, when philosophy has lost the allurement of novelty, it has no such extensive influence; but seems to confine itself mostly to speculations in the closet; in the same manner, as the <SBN#342>ancient religion was limited to sacrifices in the temple. Its place is now supplied by the modern religion, which inspects our whole conduct, and prescribes an universal rule to our actions, to our words, to our very thoughts and inclinations; a rule so much the more austere, as it is guarded by infinite, though distant, rewards and punishments; and no infaction of it can ever be concealed or disguised.</p>"
   -
     id: "54"
     pages: ""
@@ -228,7 +231,7 @@ paragraphs:
   -
     id: "55"
     pages: ""
-    content: "<p>The foundation of <b>Diogenes</b>’s conduct was an endeavour to render himself an indpendent being as much as possible, and to confine all his wants and desires and pleasures within himself and his own mind: The aim of <b>Pascal</b> was to keep a perpetual sense of his dependence before his eyes, and never to forget his numberless wants and infirmites. The ancient supported himself by magnanimity, ostentation, pride, and the idea of his own superiority above his fellow-creatures. The modern made constant profession of humility and abasement, of the contempt and hatred of himself; and endeavoured to attain these supposed virtues, as far as they are attainable. The austerities of the <b>Greek</b> were in order to inure himself to hardships, and prevent his ever suffering: Those of the <b>Frenchman</b> were embraced merely for their own sake, and in order to suffer as much as possible. The philosopher indulged himself in the most beastly pleasures, even in public: The saint refused himself the most innocent, even in private. The former thought it his duty to love his friends, and to rail at them, and reprove them, and scold them: The latter endeavoured to be abso<SBN#343>lutely indifferent towards his nearest relations, and to love and speak well of his enemies. The great object of <b>Diogenes</b>’s wit was every kind of superstition, that is every kind of religion known in his time. The mortality of the soul was his standard principle; and even his sentiments of a divine providence seem to have been licentious. The most ridiculous superstitions directed <b>Pascal</b>’s faith and practice; and an extreme contempt of this life, in comparison of the future, was the chief foundation of his conduct.</p>"
+    content: "<p>The foundation of <b>Diogenes</b>'s conduct was an endeavour to render himself an indpendent being as much as possible, and to confine all his wants and desires and pleasures within himself and his own mind: The aim of <b>Pascal</b> was to keep a perpetual sense of his dependence before his eyes, and never to forget his numberless wants and infirmites. The ancient supported himself by magnanimity, ostentation, pride, and the idea of his own superiority above his fellow-creatures. The modern made constant profession of humility and abasement, of the contempt and hatred of himself; and endeavoured to attain these supposed virtues, as far as they are attainable. The austerities of the <b>Greek</b> were in order to inure himself to hardships, and prevent his ever suffering: Those of the <b>Frenchman</b> were embraced merely for their own sake, and in order to suffer as much as possible. The philosopher indulged himself in the most beastly pleasures, even in public: The saint refused himself the most innocent, even in private. The former thought it his duty to love his friends, and to rail at them, and reprove them, and scold them: The latter endeavoured to be abso<SBN#343>lutely indifferent towards his nearest relations, and to love and speak well of his enemies. The great object of <b>Diogenes</b>'s wit was every kind of superstition, that is every kind of religion known in his time. The mortality of the soul was his standard principle; and even his sentiments of a divine providence seem to have been licentious. The most ridiculous superstitions directed <b>Pascal</b>'s faith and practice; and an extreme contempt of this life, in comparison of the future, was the chief foundation of his conduct.</p>"
   -
     id: "56"
     pages: ""
@@ -237,603 +240,68 @@ paragraphs:
     id: "57"
     pages: ""
     content: "<p>An experiment, said I, which succeeds in the air, will not always succeed in a vacuum. When men depart from the maxims of common reason, and affect these <em>artificial</em> lives, as you call them, no one can answer to what will please or displease them. They are in a different element from the rest of mankind; and the natural principles of their mind play not with the same regularity, as if left to themselves, free from the illusions of religious superstition or philosophical enthusiasm.</p>"
+notes:
   -
-    id: "M notes"
-    content: "<p><DHO#Mnotes><h1><strong>NOTE</strong>S.</h1></p>"
-  -
-    id: "M n1"
-    type: "note"
+    id: "79"
     symbol: "*"
-    content: "<p>See Appendix I.</p>"
+    content: "<p>The laws of <b>Athens</b> allowed a man to marry his sister by the father. <b>Solon</b>'s law forbid pæderasty to slaves, as being an act of too great dignity for such mean persons.</p>"
   -
-    id: "M n2"
-    type: "note"
-    symbol: "*"
-    content: "<p><b>Plut.</b> in <b>Pericle</b>.</p>"
-  -
-    id: "M n3"
-    type: "note"
-    symbol: "†"
-    content: "<p><b>Cic.</b> de Officiis, lib. I.</p>"
-  -
-    id: "M n4"
-    type: "note"
-    symbol: "‡"
-    content: "<p>Sat. xv. 139 & seq.</p>"
-  -
-    id: "M n5"
-    type: "note"
-    symbol: "*"
-    content: "<p>De Nat. Deor. lib. i.</p>"
-  -
-    id: "M n6"
-    type: "note"
-    symbol: "†"
-    content: "<p><b>Sext. Emp.</b> adversus <b>Math.</b> lib. viii.</p>"
-  -
-    id: "M n7"
-    type: "note"
-    symbol: "‡"
-    content: "<p><b>Diod. Sic.</b> passim.</p>"
-  -
-    id: "M n8"
-    type: "note"
-    symbol: "*"
-    content: "<p>Sect 3d and 4th.</p>"
-  -
-    id: "M n9"
-    type: "note"
-    symbol: "†"
-    content: "<p>Sect. 5th.</p>"
-  -
-    id: "M n10"
-    type: "note"
-    symbol: "*"
-    content: "<p><b>Genesis</b>, chap. xiii. and xxi.</p>"
-  -
-    id: "M n11"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [S].</p>"
-  -
-    id: "M n12"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [T].</p>"
-  -
-    id: "M n13"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [U].</p>"
-  -
-    id: "M n14"
-    type: "note"
-    symbol: "*"
-    content: "<p>Principia, lib. iii.</p>"
-  -
-    id: "M n15"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [X].</p>"
-  -
-    id: "M n16"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [Y].</p>"
-  -
-    id: "M n17"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [Z].</p>"
-  -
-    id: "M n18"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [AA].</p>"
-  -
-    id: "M n19"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [BB].</p>"
-  -
-    id: "M n20"
-    type: "note"
-    symbol: "†"
-    content: "<p>Uti ridentibus arrident, ita flentibus adflent <br>Humani vultus. <span class='tab'></span><b>Hor.</b></p>"
-  -
-    id: "M n21"
-    type: "note"
-    symbol: "*"
-    content: "<p>“Decentior equus cujus astricta sunt ilia; sed idem velocior. Pulcher aspectu sit athleta, cujus lacertos execitatio expressit; idem certamini paratior. Nunquam enim <em>species</em> ab <em>utilitate</em> dividitur. Sed hoc quidem discernere modici judicii est.” <b>Quintilian</b>, Inst. lib. viii. cap. 3.</p>"
-  -
-    id: "M n22"
-    type: "note"
-    symbol: "†"
-    content: "<p>See NOTE [CC].</p>"
-  -
-    id: "M n23"
-    type: "note"
-    symbol: "*"
-    content: "<p><b>Plutarch</b> in vita <b>Alc.</b></p>"
-  -
-    id: "M n24"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [DD].</p>"
-  -
-    id: "M n25"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [EE].</p>"
-  -
-    id: "M n26"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [FF].</p>"
-  -
-    id: "M n27"
-    type: "note"
-    symbol: "†"
-    content: "<p>Phædo.</p>"
-  -
-    id: "M n28"
-    type: "note"
-    symbol: "*"
-    content: "<p>Lib. xvii. cap. 35.</p>"
-  -
-    id: "M n29"
-    type: "note"
-    symbol: "*"
-    content: "<p>Fuit in illo ingenium, ratio, memoria, literæ, cura, cogitatio, diligentia <em>&c.</em> <b>Phillip</b>. 2.</p>"
-  -
-    id: "M n30"
-    type: "note"
-    symbol: "*"
-    content: "<p><i>Αρετην τινα και ασωματα και ληρους μηγαλη τη φωνη ξυνειροντων.</i> <b>Luc. Timon.</b> Again, <i>Και συναγαγοντες (οι φιλοσοφοι) ενεξαπατητα μειρακια την τε πολυθρυλλητον αρετην τραγωδουσι.</i> <b>Icuro-men</b>. In another place, <i>Ηουπ γαρ εστιν η πολυθρυλλητος αρετη, και φυσις, και ιμαρμενη, και τυχη, ανυποστατα και κενα πραγματων ονοματα.</i> Deor. Concil.</p>"
-  -
-    id: "M n31"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [GG].</p>"
-  -
-    id: "M n32"
-    type: "note"
-    symbol: "†"
-    content: "<p><em>Cum alacribus, saltu; cum velocibus, cursu; cum validis recte certabat.</em> <b>Sallust</b> apud <b>Veget.</b></p>"
-  -
-    id: "M n33"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [HH].</p>"
-  -
-    id: "M n34"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [II].</p>"
-  -
-    id: "M n35"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [KK].</p>"
-  -
-    id: "M n36"
-    type: "note"
-    symbol: "*"
-    content: "<p>“J’aime la vertu, sans rudesse; <br>J’aime le plaisir, sans molesse; <br>J’aime la vie, et n’en crains point la fin.” <span class='tab'></span>St. <b>Evremond</b>.</p>"
-  -
-    id: "M n37"
-    type: "note"
-    symbol: "†"
-    content: "<p>Cap. 9.</p>"
-  -
-    id: "M n38"
-    type: "note"
-    symbol: "‡"
-    content: "<p>Idem.</p>"
-  -
-    id: "M n39"
-    type: "note"
-    symbol: "*"
-    content: "<p>Reflexion 10 sur Longin.</p>"
-  -
-    id: "M n40"
-    type: "note"
-    symbol: "†"
-    content: "<p><b>Plutarch</b> in <b>Phoc.</b></p>"
-  -
-    id: "M n41"
-    type: "note"
-    symbol: "‡"
-    content: "<p>See NOTE [LL]<ins title='there is a full-stop missing here'>.</ins></p>"
-  -
-    id: "M n42"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [MM].</p>"
-  -
-    id: "M n43"
-    type: "note"
-    symbol: "†"
-    content: "<p>Pro corona.</p>"
-  -
-    id: "M n44"
-    type: "note"
-    symbol: "†"
-    content: "<p>De moribus Germ.</p>"
-  -
-    id: "M n45"
-    type: "note"
-    symbol: "‡"
-    content: "<p>Lib. iv.</p>"
-  -
-    id: "M n46"
-    type: "note"
-    symbol: "ǁ"
-    content: "<p>Lib. i.</p>"
-  -
-    id: "M n47"
-    type: "note"
-    symbol: "†"
-    content: "<p>It is a common use, says he, amongst their gentlemen’s sons, that, as soon as they are able to use their weapons, they strait gather to themselves three or four stragglers or kern, with whom wandering a while up and down idly the country, taking only meat, he at last falleth into some bad occasion, that shall be offered; which being once made known, he is thenceforth counted a man of worth, in whom there is courage.</p>"
-  -
-    id: "M n48"
-    type: "note"
-    symbol: "*"
-    content: "<p>Sect. v. Part 2.</p>"
-  -
-    id: "M n49"
-    type: "note"
-    symbol: "†"
-    content: "<p>Chearfulness could scarce admit of blame from its excess, were it not that dissolute mirth, without a proper cause or subject, is a sure symptom and characteristic of folly, and on that account disgustful.</p>"
-  -
-    id: "M n50"
-    type: "note"
-    symbol: "†"
-    content: "<p>It is the nature, and, indeed, the definition of virtue, that it is <em>a quality of the mind agreeable to or approved of by every one, who considers or contemplates it</em>. But some qualities produce pleasure, because they are useful to society, or useful or agreeable to the person himself; others produce it more immediately: Which is the case with the class of virtues here considered.</p>"
-  -
-    id: "M n51"
-    type: "note"
-    symbol: "*"
-    content: "<p>Ethic. ad Nicomachum.</p>"
-  -
-    id: "M n52"
-    type: "note"
-    symbol: "*"
-    content: "<p><b>Quinctil.</b> lib. v. cap. 12.</p>"
-  -
-    id: "M n53"
-    type: "note"
-    symbol: "*"
-    content: "<p>Qualities useful to others.</p>"
-  -
-    id: "M n54"
-    type: "note"
-    symbol: "†"
-    content: "<p>Qualities useful to the person himself.</p>"
-  -
-    id: "M n55"
-    type: "note"
-    symbol: "‡"
-    content: "<p>Qualities immediately agreeable to others.</p>"
-  -
-    id: "M n56"
-    type: "note"
-    symbol: "*"
-    content: "<p>Qualities immediately agreeable to the person himself.</p>"
-  -
-    id: "M n57"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [NN].</p>"
-  -
-    id: "M n58"
-    type: "note"
-    symbol: "*"
-    content: "<p>Sect. I.</p>"
-  -
-    id: "M n59"
-    type: "note"
-    symbol: "†"
-    content: "<p>See Appendix III.</p>"
-  -
-    id: "M n60"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [OO].</p>"
-  -
-    id: "M n61"
-    type: "note"
-    symbol: "*"
-    content: "<p>Mons. <b>Fontenelle</b>.</p>"
-  -
-    id: "M n62"
-    type: "note"
-    symbol: "*"
-    content: "<p>Animasque in vulnere ponunt. <span class='tab'></span><b>Virg.</b> <br>Dum alteri noceat, sui negligens, says <b>Seneca</b> of Anger. De Ira, I. i.</p>"
-  -
-    id: "M n63"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [PP].</p>"
-  -
-    id: "M n64"
-    type: "note"
-    symbol: "†"
-    content: "<p>See NOTE [QQ].</p>"
-  -
-    id: "M n65"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [RR].</p>"
-  -
-    id: "M n66"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [SS].</p>"
-  -
-    id: "M n67"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [TT].</p>"
-  -
-    id: "M n68"
-    type: "note"
-    symbol: "†"
-    content: "<p>The Art of preserving Health. Book 4.</p>"
-  -
-    id: "M n69"
-    type: "note"
-    symbol: "*"
-    content: "<p><b>Polybius</b>, lib. iii. cap. 2.</p>"
-  -
-    id: "M n70"
-    type: "note"
-    symbol: "†"
-    content: "<p>Lib. ix. epist. 10.</p>"
-  -
-    id: "M n71"
-    type: "note"
-    symbol: "‡"
-    content: "<p>Lib. i. cap. 6.</p>"
-  -
-    id: "M n72"
-    type: "note"
-    symbol: "ǁ"
-    content: "<p>See NOTE [UU].</p>"
-  -
-    id: "M n73"
-    type: "note"
-    symbol: "*"
-    content: "<p>Psalm 49th.</p>"
-  -
-    id: "M n74"
-    type: "note"
-    symbol: "†"
-    content: "<p><i>Μισω σοφις ην οσις ουκ αυτω σοφος.</i> <b>Euripides</b>.</p>"
-  -
-    id: "M n75"
-    type: "note"
-    symbol: "‡"
-    content: "<p>Lib. xxi. cap. 4.</p>"
-  -
-    id: "M n76"
-    type: "note"
-    symbol: "*"
-    content: "<p>Lib. i.</p>"
-  -
-    id: "M n77"
-    type: "note"
-    symbol: "†"
-    content: "<p>Lib. xii.</p>"
-  -
-    id: "M n78"
-    type: "note"
-    symbol: "*"
-    content: "<p>Vid. <b>Plato</b> in <b>Menone</b>, <b>Seneca</b> <em>de otio sap.</em> cap. 31. So also <b>Horace</b>, <em>Virtutem doctrina paret, naturane donet</em>. Epist. lib. i. ep. 18. <b>Æschines Socraticus</b>. Dial. I.</p>"
-  -
-    id: "M n79"
-    type: "note"
-    symbol: "*"
-    content: "<p>The laws of <b>Athens</b> allowed a man to marry his sister by the father. <b>Solon</b>’s law forbid pæderasty to slaves, as being an act of too great dignity for such mean persons.</p>"
-  -
-    id: "M n80"
-    type: "note"
+    id: "80"
     symbol: "†"
     content: "<p><b>Appian</b>. Bell. Civ. lib. iii. <b>Suetonius</b> in vita <b>Cæsaris</b>.</p>"
   -
-    id: "M n81"
-    type: "note"
+    id: "81"
     symbol: "*"
     content: "<p>Mem. Soc. lib. iii. sub fine.</p>"
   -
-    id: "M n82"
-    type: "note"
+    id: "82"
     symbol: "*"
     content: "<p>The <b>Greeks</b> kept the feast of <b>Saturn</b> or <b>Chronus</b>, as well as the <b>Romans</b>. See <b>Lucian</b>. Epist. <b>Saturn</b>.</p>"
   -
-    id: "M n83"
-    type: "note"
+    id: "83"
     symbol: "*"
     content: "<p><b>Plat.</b> symp. p. 182. Ex edit. <b>Ser.</b></p>"
   -
-    id: "M n84"
-    type: "note"
+    id: "84"
     symbol: "†"
     content: "<p>See Enquiry, Sect. IV.</p>"
   -
-    id: "M n85"
-    type: "note"
+    id: "85"
     symbol: "‡"
     content: "<p><b>Plut.</b> de amore prolis, sub fine.</p>"
   -
-    id: "M n86"
-    type: "note"
+    id: "86"
     symbol: "*"
     content: "<p>Epist. lib. i. epist. 7. Also lib. i. ode 3.</p>"
   -
-    id: "M n87"
-    type: "note"
+    id: "87"
     symbol: "†"
     content: "<p>Ode 28. <b>Petronius</b> (cap. 86.) joins both these circumstances as beauties.</p>"
   -
-    id: "M n88"
-    type: "note"
+    id: "88"
     symbol: "*"
     content: "<p>Tusc. Quæst. lib. ii.</p>"
   -
-    id: "M n89"
-    type: "note"
+    id: "89"
     symbol: "†"
     content: "<p>Orat. 33.</p>"
   -
-    id: "M n90"
-    type: "note"
+    id: "90"
     symbol: "†"
     content: "<p>In Onetorem.</p>"
   -
-    id: "M n91"
-    type: "note"
+    id: "91"
     symbol: "*"
-    content: "<p>Quand on le sçait c’est peu de chose; <br>Quand on l’ignore, ce n’est rien.</p>"
+    content: "<p>Quand on le sçait c'est peu de chose; <br>Quand on l'ignore, ce n'est rien.</p>"
   -
-    id: "M n92"
-    type: "note"
+    id: "92"
     symbol: "†"
     content: "<p>See NOTE [XX].</p>"
   -
-    id: "M n93"
-    type: "note"
+    id: "[XX].1"
+    type: "first"
+    content: "<p><strong>D</strong>URING the time of the emperors, the <b>Romans</b> seem to have been more given to intrigues and gallantry than the <b>English</b> are at present: And the women of condition, in order to retain their lovers, endeavoured to fix a name of reproach on those who were addicted to wenching and low amours. They were called <b>Ancillarioli</b>. See <b>Seneca</b> de beneficiis. Lib. i. cap. 9. See also <b>Martial</b>, lib. xii. epig. 58.</p>"
+  -
+    id: "93"
     symbol: "‡"
     content: "<p>The gallantry here meant is that of amours and attachments, not that of complaisance, which is as much paid to the fair-sex in <b>England</b> as in any other country.</p>"
-  -
-    id: "M [S].1"
-    content: "<p><strong>T</strong>HIS fiction of a state of nature, as a state of war, was not first started by Mr. <b>Hobbes</b>, as is commonly imagined. <b>Plato</b> endeavours to refute an hypothesis very like it in the 2d, 3d, and 4th books de republica. <b>Cicero</b>, on the contrary, supposes it certain and universally acknowledged in the following passage. “Quis enim vestrûm, judices, ignorat, ita naturam rerum tulisse, ut quodam tempore homines, nondum neque naturali, neque civili jure descripto, fusi per agros, ac dispersi vagarentur tantumque haberent quantum manu ac viribus, per cædem ac vulnera, aut eripere, aut retinere potuissent? Qui igitur primi virtute & consilio præstanti extiterunt, ii perspecto genere humanæ docilitatis atque ingenii, dissipatos unum in locum congregarunt, eosque ex feritate illa ad justitiam ac mansuetudinem transduxerunt. Tum res ad communem utilitatem, quas publicas appellamus, tum conventicula hominum, quæ postea civitates nominatæ sunt, tum domicilia conjuncta, quas urbes dicamus, invento & divino & humano <SBN#190>jure, mœnibus sepserunt. Atque inter hanc vitam, perpolitam humanitate, & illam immanem, nihil tam interest quam JUS atque VIS. Horum utro uti nolimus, altero est utendum. Vim volumus extingui? Jus valeat necesse est, idi est, judicia, quibus omne jus continetur. Judicia displicent, ant nulla, sunt? Vis dominetur necesse est? Hæc vident omnes.” <em>Pro Sext</em>. l. 42.</p>"
-  -
-    id: "M [T].1"
-    content: "<p><strong>T</strong>HE author of <em>L’Esprit des Loix</em>. This illustrious writer, however, sets out with a different theory, and supposes all right to be founded on certain <em>rapports</em> or relations; which is a system, that, in my opinion, never will be reconciled with true philosophy. Father <b>Malebranche</b>, as far as I can learn, was the first that started this abstract theory of morals, which was afterwards adopted by <b>Cudworth</b>, <b>Clarke</b>, and others; and as it excludes all sentiment, and pretends to found every thing on reason, it has not wanted followers in this philosophic age. See Section I. Appendix I. With regard to justice, the virtue here treated of, the inference against this theory seems short and conclusive. Property is allowed to be dependent on civil laws; civil laws are allowed to have no other object, but the interest of society: This therefore must be allowed to be the sole foundation of property and justice. Not to mention, that our obligation itself to obey the magistrate and his laws is founded on nothing but the interests of society.</p>"
-  -
-    id: "M [T].2"
-    content: "<p>If the ideas of justice, sometimes, do not follow the dispositions of civil law; we shall find, that these cases, instead of objections, are confirmations of the theory delivered above. Where a civil law is so perverse as to cross all the interests of society, it loses all its authority, and men judge by the ideas of natural justice, which are conformable to those interests. Sometimes also civil laws, for useful purposes, require a ceremony or form to any deed; and where that is wanting, their decrees run contrary to the usual tenour of justice; but one who takes advantage of such chicanes, is not commonly regarded as an honest man. Thus, the interests of society require, that contracts be fulfilled; and there is not a more material article either of natural or civil justice: But the omission of a trifling circumstance will often, by law, invalidate a contract, <em>in foro humano</em>, but not <em>in foro conscientiæ</em>, as divines express themselves. In these cases, the magistrate is supposed only to withdraw his power of enforcing the right, not to have altered the right. Where his intention extends to the right, and is conformable to the interests of society; it never fails to alter the right; a clear proof of the origin of justice and of property, as assigned above.</p>"
-  -
-    id: "M [U].1"
-    content: "<p><strong>I</strong>T is evident, that the will or consent alone never transfers property, nor causes the obligation of a promise (for the same reasoning extends to both) but the will must be expressed by words or signs, in order to impose a tye upon any man. The expression being once brought in as subservient to the will, soon becomes the principal part of the promise; nor will a man be less bound by his word, though he secretly <SBN#200>give a different direction to his intention, and with-hold the assent of his mind. But though the expression makes, on most occasions, the whole of the promise, yet it does not always so; and one who should make use of any expression, of which he knows not the meaning, and which he uses without any sense of the consequences, would not certainly be bound by it. Nay, though he know its meaning, yet if he use it in jest only, and with such signs as evidently show, that he has no serious intention of binding himself, he would not lie under any obligation of performance; but it is necessary, that the words be a perfect expression of the will, without any contrary signs. Nay, even this we must not carry so far as to imagine, that one, whom, by our quickness of understanding, we conjecture, from certain signs, to have an intention of deceiving us, is not bound by his expression or verbal promise, if we accept of it; but must limit this conclusion to those cases where the signs are of a different nature from those of deceit. All these contradictions are easily accounted for, if justice arise entirely from its usefulness to society; but will never be explained on any other hypothesis.</p>"
-  -
-    id: "M [U].2"
-    content: "<p>It is remarkable that the moral decisions of the <em>Jesuits</em> and other relaxed casuists, were commonly formed in prosecution of some such subtilties of reasoning as are here pointed out, and proceed as much from the habit of scholastic refinement as from any corruption of the heart, if we may follow the authority of Mons. <b>Bayle</b>. See his Dictionary, article <b>Loyola</b>. And why has the indignation of mankind risen so high against these casuists; but because every one perceived, that human society could not subsist were such practices authorized, and that morals must always be handled with a view to public interest, more than philosophical regularity? If the secret direction of the intention, said every man of sense, could invalidate a contract; where is our security? And yet a metaphysical schoolman might think, that, where an intenintention was supposed to be requisite, if that intention really had not place, no consequence ought to follow, and no obligation be imposed. The casuistical subtilties may not be greater than the subtilties of lawyers, hinted at above; but as the former are <em>pernicious</em>, and the latter <em>innocent</em> and even <em>necessary</em>, this is the reason of the very different reception they meet with from the world.</p>"
-  -
-    id: "M [U].3"
-    content: "<p>It is a doctrine of the Church of <b>Rome</b>, that the priest, by a secret direction of his intention, can invalidate any sacrament. This position is derived from a strict and regular prosecution of the obvious truth, that empty words alone, without any meaning or intention in the speaker, can never be attended with any effect. If the same conclusion be not admitted in reasonings concerning civil contracts, where the affair is allowed to be of so much less consequence than the eternal <SBN#201>salvation of thousands, it proceeds entirely from men’s sense of the danger and inconvenience of the doctrine in the former case: And we may thence observe, that however positive, arrogant, and dogmatical any superstition may appear, it never can convey any thorough persuasion of the reality of its objects, or put them, in any degree, on a balance with the common incidents of life, which we learn from daily observation and experimental reasoning.</p>"
-  -
-    id: "M [X].1"
-    content: "<p><strong>T</strong>HE only solution, which <b>Plato</b> gives to all the objections that might be raised against the community of women, established in his imaginary commonwealth, is, <i>Καλλιςτα γαρ δη τουτο και λεγεται και λελεξεται, οτι το μεν ωφελιμον καλον. Το δε βλαβερον αισχρον.</i> <em>Scite enim istud & dicitur & dicetur, Id quod utile sit honestum esse, quod autem inutile sit turpe esse</em>. De Rep. lib. v. p. 457. ex edit. Ser. And this maxim will admit of no doubt, where public utility is concerned; which is <b>Plato</b>’s meaning. And indeed to what other purpose do all the ideas of chastity and modesty serve? <em>Nisi utile est quod facimus, frustra est gloria</em>, says <b>Phædrus</b>. <i>Καλον των βλαβερων ουδεν</i>, says <b>Plutarch</b> <em>de vitioso pudore</em>. Nihil eorum quæ damnosa sunt, pulchrum est. The same was the opinion of the Stoics. <i>Φασιν ουν οι Στωικοι αγαθον ειναι ωφελειαν η ουκ ετεραν ωφελειας, ωφελειαν μεν λεγοντες την αρετην και την σπουδαιαν πραξιν.</i> <b>Sept. Emp.</b> lib. iii. cap. 20.</p>"
-  -
-    id: "M [Y].1"
-    content: "<p><strong>T</strong>HAT the lighter machine yield to the heavier, and, in machines of the same kind, that the empty yield to the loaded; this rule is founded on convenience. That those who are going to the capital take place of those who are coming from it; this seems to be founded on some idea of dignity of the great city, and of the preference of the future to the past. From like reasons, among foot-walkers, the right-hand intitles a man to the wall, and prevents jostling, which peaceable people find very disagreeable and inconvenient.</p>"
-  -
-    id: "M [Z].1"
-    content: "<p><strong>W</strong>E ought not to imagine, because an inanimate object may be useful as well as a man, that therefore it ought also, according to this system, to merit he appellation of <em>virtuous</em>. The sentiments, excited by utility, are, in the two cases, very different; and the one is mixed with affection, esteem, approbation, <em>&c.</em> and not the other. In like manner, an inanimate object may have good colour and proportions as well as a human figure. But can we ever be in love with the former? There are a numerous set of passions and sentiments, of which thinking rational beings are, by the original constitution of nature, the only proper objects: And though the very same qualities be transferred to an insensible, inanimate being, they will not excite the same sentiments. The beneficial qualities of herbs and minerals are, indeed, sometimes called their <em>virtues</em>; but this is an effect of the caprice of language, which ought not to be regarded in reasoning. For though there be a species of approbation attending even inanimate objects, when beneficial, yet this sentiment is so weak, and so different from that which is directed to beneficent magistrates or statesman; that they ought not to be ranked under the same class or appellation.</p>"
-  -
-    id: "M [Z].2"
-    content: "<p>A very small variation of the object, even where the same qualities are preserved, will destroy a sentiment. Thus, the same beauty, transferred to a different sex, excites no amorous passion, where nature is not extremely perverted.</p>"
-  -
-    id: "M [AA].1"
-    content: "<p><strong>U</strong>N<b>dutifulness</b> to parents is disapproved of by mankind, <i>προορωμενους το ελλον, και συλλογιζομενους οτι το παραπλησιον εκαστοις αυτων συγκυρησει</i>. Ingratitude for a like reason (though he seems there to mix a more generous regard) <i>συναγανακτουντας μεν τω πελας, αναφεροντας δ’ επ’ αυτους το παραπλησιον εξ ων υπογιγνεται τις εννοια παρεκαστω του καθηκοντος δυναμεως και θεωριας</i>. Lib. vi. cap. 4. Perhaps the historian only meant, that our sympathy and humanity was more enlivened, by our considering the similarity of our case with that of the person suffering; which is a just sentiment.</p>"
-  -
-    id: "M [BB].1"
-    content: "<p><strong>I</strong>T is needless to push our researches so far as to ask, why we have humanity or a fellow-feeling with others. It is sufficient, that this is experienced to be a principle in human nature. We must stop some<SBN#220>where in our examination of causes; and there are, in every science, some general principles, beyond which we cannot hope to find any principle more general. No man is absolutely indifferent to the happiness and misery of others. The first has a natural tendency to give pleasure; the second, pain. This every one may find in himself. It is not probable, that these principles can be resolved into principles more simple and universal, whatever attempts may have been made to that purpose. But if it were possible, it belongs not to the present subject; and we may here safely consider these principles as original: Happy, if we can render all the consequences sufficiently plain and perspicuous!</p>"
-  -
-    id: "M [CC].1"
-    content: "<p><strong>I</strong>N proportion to the station which a man possesses, according to the relations in which he is placed; we always expect from him a greater or less degree of good, and when disappointed, blame his inutility; and much more do we blame him, if any ill or prejudice arise from his conduct and behaviour. When the interests of one country interfere with those of another, we estimate the merits of a statesman by the good or ill, which results to his own country from his measures and councils, without regard to the prejudice which he brings on its enemies and rivals. His fellow-citizens are the objects, which lie nearest the eye, while we determine his character. And as nature has implanted in every one a superior affection to his own country, we never expect any regard to distant nations, where a competition arises. Not to mention, that, while every man consults the good of his own community, we are sensible, that the general interest of mankind is better promoted, than any loose indeterminate views to the good of a species, whence no beneficial action could ever result, for want of a duly limited object, on which they could exert themselves.</p>"
-  -
-    id: "M [DD].1"
-    content: "<p><strong>F</strong>OR a like reason, the tendencies of actions and characters, not their real accidental consequences, are alone regarded in our moral determinations or general judgments; though in our real feeling or sentiment, we cannot help paying greater regard to one whose station, joined to virtue, renders him really useful to society, then to one, who exerts the social virtues only in good intentions and benevolent affections. Separating the character from the fortune, by an easy and necessary effort of thought, we pronounce these persons alike, and give them the same general praise. The judgment corrects or endeavours to correct the appearance: But is not able entirely to prevail over sentiment.</p>"
-  -
-    id: "M [DD].2"
-    content: "<p>Why is this peach-tree said to be better than that other; but because it produces more or better fruit? And would not the same praise be given it, though snails or vermin had destroyed the peaches, before they came to full maturity? In morals too, is not <em>the tree known by the fruit?</em> And cannot we easily distinguish between nature and accident, in the one case as well as in the other?</p>"
-  -
-    id: "M [EE].1"
-    content: "<p><strong>I</strong>T is wisely ordained by nature, that private connexions should commonly prevail over universal views and considerations; otherwise our affections and actions would be dissipated and lost, for want of a proper limited object. Thus a small benefit done to ourselves, or our near friends, excites more lively sentiments of love and approbation than a great benefit done to a distant commonwealth: But still we know here, as in all the senses, to correct these inequalities by reflection, and retain a general standard of vice and virtue, founded chiefly on a general usefulness.</p>"
-  -
-    id: "M [FF].1"
-    content: "<p><strong>O</strong>NE may venture to affirm, that there is no human nature, to whom the appearance of happiness (where envy or revenge has no place) does not give pleasure, that of misery, uneasiness. This seems inseparable from our make and constitution. But they are only the more generous minds, that are thence prompted to seek zealously the good of others, and to have a real passion for their welfare. With men of narrow and ungenerous spirits, this sympathy goes not beyond a slight feeling of the imagination, which serves only to excite sentiments of complacency or censure, and makes them apply to the object either honourable or dishonourable appellations. A griping miser, for instance, praises extremely <em>industry</em> and <em>frugality</em> even in others, and sets them, in his estimation, above all the other virtues. He knows the good that <SBN#235>results from them, and feels that species of happiness with a more lively sympathy, than any other you could represent to him; though perhaps he would not part with a shilling to make the fortune of the industrious man, whom he praises so highly.</p>"
-  -
-    id: "M [GG].1"
-    content: "<p><strong>D</strong>I<b>odorus Siculus</b>, lib. xv. It may not be improper to give the character of <b>Epaminondas</b>, as drawn by the historian, in order to show the ideas of perfect merit, which prevailed in those ages. In other illustrious men, says he, you will observe, that each possessed some one shining quality, which was the foundation of his fame: In <b>Epaminondas</b> all the <em>virtues</em> are found united; force of body, eloquence of expression, vigour of mind, contempt of riches, gentleness of disposition, and <em>what is chiefly to be regarded</em>, courage and conduct in war.</p>"
-  -
-    id: "M [HH].1"
-    content: "<p><strong>A</strong>LL men are equally liable to pain and disease and sickness; and may again recover health and ease. These circumstances, as they make no distinction between one man and another, are no source of pride or <SBN#246>humility, regard or contempt. But comparing our own species to superior ones, it is a very mortifying consideration, that we should all be so liable to diseases and infirmities; and divines accordingly employ this topic, in order to depress self-conceit and vanity. They would have more success, if the common bent of our thoughts were not perpetually turned to compare ourselves with others. The infirmities of old age are mortifying; because a comparison with the young may take place. The king’s evil is industriously concealed, because it affects others, and is often transmitted to posterity. The case is nearly the same with such diseases as convey any nauseous or frightful images; the epilepsy, for instance, ulcers, sores, scabs, <em>&c.</em></p>"
-  -
-    id: "M [II].1"
-    content: "<p><strong>T</strong>HERE is something extraordinary, and seemingly unaccountable in the operation of our passions, when we consider the fortune and situation of others. Very often another’s advancement and prosperity produces envy, which has a strong mixture of hatred, and arises chiefly from the comparison of ourselves with the person. At the very same time, or at least in very short intervals, we may feel the passion of respect, which is a species of affection or good-will, with a mixture of humility. On the other hand, the misfortunes of our fellows often cause pity, which has in it a strong mixture of good-will. This sentiment of pity is nearly allied to contempt, which is a species of dislike, with a mixture of pride. I only point out these phænomena, as a subject of speculation to such as are curious with regard to moral enquiries. It is sufficient for the present purpose to observe in general, that power and riches commonly cause respect, poverty and meanness contempt, though particular views and incidents may sometimes raise the passions of envy and of pity.</p>"
-  -
-    id: "M [KK].1"
-    content: "<p><strong>T</strong>HERE is no man, who, on particular occasions, is not affected with all the disagreeable passions, fear, anger, dejection, grief, melancholy, anxiety, <em>&c.</em> But these, so far as they are natural, and universal, make no difference between one man and another, and can never be the object of blame. It is only when the disposition gives a <em>propensity</em> to any of these disagreeable passions, that they disfigure the character, and by giving uneasiness, convey the sentiment of disapprobation to the spectator.</p>"
-  -
-    id: "M [LL].1"
-    content: "<p><strong>T</strong>ACIT. hist. lib. iii. The author entering upon the narration, says, <em>Laniata veste, fœdum spectaculum ducebatur, multis increpantibus, nullo inlacrimante:</em> deformatitas exitus misericordiam abstulerat. To enter thoroughly into this method of thinking, we must make allowance for the ancient maxims, that no one ought to prolong his life after it became dishonourable; but, as he had always a right to dispose of it, it then became a duty to part with it.</p>"
-  -
-    id: "M [MM].1"
-    content: "<p><strong>T</strong>HE absence of virtue may often be a vice; and that of the highest kind; as in the instance of ingratitude, as well as meanness. Where we <SBN#254>expect a beauty, the disappointment gives an uneasy sensation, and produces a real deformity. An abjectness of character, likewise, is disgustful and contemptible in another view. Where a man has no sense of value in himself, we are not likely to have any higher esteem of him. And if the same person, who crouches to his superiors, is insolent to his inferiors (as often happens), this contrariety of behaviour, instead of correcting the former vice, aggravates it extremely by the addition of a vice still more odious. See sect. 8.</p>"
-  -
-    id: "M [NN].1"
-    content: "<p><strong>I</strong>T seems certain, both from reason and experience, that a rude, untaught savage regulates chiefly his love and hatred by the ideas of private utility and injury, and has but faint conceptions of a general rule or system of behaviour. The man who stands opposite to him in battle, he hates heartedly, not only for the present moment, which is almost unavoidable, but for ever after; nor is he satisfied without the most extreme punishment and vengeance. But we, accustomed to society, and to more enlarged reflections, consider, that this man is serving his own country and community; that any man, in the same situation, would do the same; that we ourselves, in like circumstances, observe a like conduct; that, in general, human society is best supported on such maxims: <SBN#275>And by these suppositions and views, we correct, in some measure, our ruder and narrower passions. And though much of our friendship and enmity be still regulated by private considerations of benefit and harm, we pay, at least, this homage to general rules, which we are accustomed to respect, that we commonly pervert our adversary’s conduct, by imputing malice or injustice to him, in order to give vent to those passions, which arise from self-love and private interest. When the heart is full of rage, it never wants pretences of this nature; though sometimes as frivolous, as those from which <b>Horace</b>, being almost crushed by the fall of a tree, affects to accuse of parricide the first planter of it.</p>"
-  -
-    id: "M [OO].1"
-    content: "<p><strong>B</strong>E<b>nevolence</b> naturally divides into two kinds, the <em>general</em> and the <em>particular</em>. The first is, where we have no friendship or connexion or esteem for the person, but feel only a general sympathy with him or a compassion for his pains, and a congratulation with his pleasures. The other species of benevolence is founded on an opinion of virtue, on services done us, or on some particular connexions. Both these sentiments must be allowed real in human nature; but whether they will resolve into some nice considerations of self-love, is a question more curious than important. The former sentiment, to wit, that of general benevolence, or humanity, or sympathy, we shall have occasion frequently to treat of in the course of this enquiry; and I assume it as real, from general experience, without any other proof.</p>"
-  -
-    id: "M [PP].1"
-    content: "<p><strong>T</strong>HIS theory concerning the origin of property, and consequently of justice, is, in the main, the same with that hinted at and adopted by <b>Grotius</b>, “Hinc discimus, quæ fuerit causa, ob quam a primæva communione rerum primo mobilium, deinde & immobilium discessum est: nimirum quod cum non contenti homines vesci sponte natis, antra habitare, corpore aut nudo agere, aut corticibus arborum ferarumve pellibus vestito, vitæ genus exquisitius delegissent, industria opus fuit, quam singuli rebus singulis adhiberent. Quo minus autem fructus in commune conferrentur, primum obstitit locorum, in quæ homines discesserunt, distantia, deinde justitiæ & amoris defectus, per quem fiebat, ut nec in labore, nec in consumtione fructuum, quæ debebat, æqualitas servaretur. Simul discimus, quomodo res in proprietatem iverint; non animi actu solo, neque enim scire alii poterant, quid alii suum esse vellent, ut eo abstinerent, & idem velle plures poterant; sed pacto quodam aut expresso, ut per divisionem, aut tacito, ut per occupationem.” De jure belli & pacis. Lib. ii. cap. 2. §2. art. 4 & 5.</p>"
-  -
-    id: "M [QQ].1"
-    content: "<p><strong>N</strong>ATURAL may be opposed, either to what is <em>unusual</em>, <em>miraculous</em>, or <em>artificial</em>. In the two former senses, justice and property are undoubtedly natural. But as they suppose reason, forethought, design, and a social union and confederacy among men, perhaps, that epithet cannot <SBN#308>strictly, in the last sense, be applied to them. Had men lived without society, property had never been known, and neither justice nor injustice had ever existed. But society among human creatures, had been impossible, without reason, and forethought. Inferior animals, that unite, are guided by instinct, which supplies the place of reason. But all these disputes are merely verbal.</p>"
-  -
-    id: "M [RR].1"
-    content: "<p><strong>T</strong>HAT there be a separation or distinction of possessions, and that this separation be steady and constant; this is absolutely required by the interests of society, and hence the origin of justice and property. What possessions are assigned to particular persons; this is, generally speaking, pretty indifferent; and is often determined by very frivolous views and considerations. We shall mention a few particulars.</p>"
-  -
-    id: "M [RR].2"
-    content: "<p>Were a society formed among several independent members, the most obvious rule, which could be agreed on, would be to annex property to <em>present</em> possession, and leave every one a right to what he at present enjoys. The relation of possession, which takes place between the person and the object, naturally draws on the relation of property.</p>"
-  -
-    id: "M [RR].3"
-    content: "<p>For a like reason, occupation or first possession becomes the foundation of property.</p>"
-  -
-    id: "M [RR].4"
-    content: "<p>Where a man bestows labour and industry upon any object, which before belonged to no body; as in cutting down and shaping a tree, in cultivating a field, &c. the <del>alterations</del><ins title='originally 'alterations'; given the singular forms 'causes' and 'engages' that follow, this should presumably be the singular 'alteration', though both the 1770 and the 1772 editions have 'alterations' in the plural as well'>alteration</ins>, which he produces, causes a relation between him and the object, and naturally engages us to annex it to him by the new relation of property. This cause here concurs with the public utility, which consists in the encouragement given to industry and labour.</p>"
-  -
-    id: "M [RR].5"
-    content: "<p>Perhaps too, private humanity towards the possessor, concurs, in this instance, with the other motives, and engages us to leave with him what he has acquired by his sweat and labour; and what he has flattered himself in the constant enjoyment of. For though private humanity can, by no means, be the origin of justice; since the latter virtue so often contradicts the former; yet when the rule of separate and constant possession is once formed by the indispensable necessities of society, private humanity, and an aversion to the doing a hardship to another, may, in a particular instance, give rise to a particular rule of property.</p>"
-  -
-    id: "M [RR].6"
-    content: "<p>I am much inclined to think, that the right of succession or inheritance much depends on those connexions of the imagination, and that the relation to a former proprietor begetting a relation to the object, is the cause why the property is transferred to a man after the death of his kinsman. It is true; industry is more encouraged by the transference of possession to children or near relations: But this con<SBN#310>sideration will only have place in a cultivated society; whereas the right of succession is regarded even among the greatest Barbarians.</p>"
-  -
-    id: "M [RR].7"
-    content: "<p>Acquisition of property by <em>accession</em> can be explained no way but by having recourse to the relations and connexions of the imagination.</p>"
-  -
-    id: "M [RR].8"
-    content: "<p>The property of rivers, by the laws of most nations, and by the natural turn of our thought, is attributed to the proprietors of their banks, excepting such vast rivers as the <b>Rhine</b> or the <b>Danube</b>, which seem too large to follow as an accession to the property of the neighbouring fields. Yet even these rivers are considered as the property of that nation, through whose dominions they run; the idea of a nation being of a suitable bulk to correspond with them, and bear them such a relation in the fancy.</p>"
-  -
-    id: "M [RR].9"
-    content: "<p>The accessions, which are made to land, bordering upon rivers, follow the land, say the civilians, provided it be made by what they call <em>alluvion</em>, that is; insensibly and imperceptibly; which are circumstances, that assist the imagination in the conjunction.</p>"
-  -
-    id: "M [RR].10"
-    content: "<p>Where there is any considerable portion torn at once from one bank and added to another, it becomes not <em>his</em> property, whose land it falls on, till it unite with the land, and till the trees and plants have spread their roots into both. Before that, the thought does not sufficiently join them.</p>"
-  -
-    id: "M [RR].11"
-    content: "<p>In short, we must ever distinguish between the necessity of a separation and constancy in men’s possession, and the rules, which assign particular objects to particular persons. The first necessity is obvious, strong, and invincible: The latter may depend on a public utility more light and frivolous, on the sentiment of private humanity and aversion to private hardship, on positive laws, on precedents, analogies, and very fine connexions and turns of the imagination.</p>"
-  -
-    id: "M [SS].1"
-    content: "<p><strong>T</strong>HE term, pride, is commonly taken in a bad sense; but this sentiment seems indifferent, and may be either good or bad, according as it is well or ill founded, and according to the other circumstances which accompany it. The <b>French</b> express this sentiment by the term, <em>amour propre</em>, but as they also express self-love as well as vanity, by the same term, there arises thence a great confusion in <b>Rochefoucault</b>, and many of their moral writers.</p>"
-  -
-    id: "M [TT].1"
-    content: "<p><strong>L</strong>OVE and esteem are nearly the same passion, and arise from similar causes. The qualities, which produce both, are such as communicate pleasure. But where this pleasure is severe and serious; or where its object is great, and makes a strong impression, or where it produces any degree of humility and awe: In all these cases, the passion, which arises from the pleasure, is more properly denominated esteem than love. Benevolence attends both: But is connected with love in a more eminent degree. There seems to be still a stronger mixture of pride in contempt than of humility in esteem; and the reason would not be difficult to one, who studied accurately the passions. All these various mixtures and compositions and appearances of sentiment form a very curious subject of speculation, but are wide of our present purpose. Throughout this enquiry, we always consider in general, what qualities are a subject of praise or of censure, without entering into all the minute differences of sentiment, which they excite. It is evident, that whatever is contemned, is also disliked, as well as what is hated; and we here endeavour to take objects, according to their most simple views and appearances. These sciences are but too apt to appear abstract to common readers, even with all the precautions which we can take to clear them from superfluous speculations, and bring them down to every capacity.</p>"
-  -
-    id: "M [UU].1"
-    content: "<p><strong>T</strong>HE following passage of <b>Cicero</b> is worth quoting, as being the most clear and express to our purpose, that any thing can be imagined, and, in a dispute, which is chiefly verbal, must, on account of the author, carry an authority, from which there can be no appeal.</p>"
-  -
-    id: "M [UU].2"
-    content: "<p>“Virtus autem, quæ est per se ipsa laudabilis, et sine qua nihil laudari potest, tamen habet plures partes, quarum alia est aliâ ad laudationem aptior. Sunt enim aliæ virtutes, quæ videntur in moribus hominum, et quadam comitate ac beneficentia positæ: aliæ quæ in ingenii aliqua facultate, aut animi magnitudine ac robore. Nam clementia, justitia, benignitas, fides, fortitudo in periculis communibus, jucunda est auditu in laudationibus. Omnes enim hæ virtutes non tam ipsis, qui eas in se habent, quam generi hominum fructuosæ putantur. Sapientia et magnitudo animi, qua omnes res humanæ, tenues et pro nihilo putantur, et in cogitando vis quædam ingenii, et ipsa eloquentia admirationis habet non minus, jucunditatis minus. Ipsos enim magis videtur, quos laudamus, quam illos, apud quos laudamus, ornare ac tueri: sed tamen in laudenda jungenda sunt etiam hæc genera virtutum. Ferunt enim aures hominum, cum illa quæ jucunda et grata, tum etiam ilia, quæ mirabilia sunt in virtute, laudari.” <em>De orat. lib.</em> ii. <em>cap.</em> 89.</p>"
-  -
-    id: "M [UU].3"
-    content: "<p>I suppose, if <b>Cicero</b> were now alive, it would be found difficult to fetter his moral sentiments by narrow systems; or persuade him, that no qualities were to be admitted as <em>virtues</em>, or acknowledged to be a part of <em>personal merit</em>, but what were recommended by <em>The Whole Duty of Man</em>.</p>"
-  -
-    id: "M [XX].1"
-    content: "<p><strong>D</strong>URING the time of the emperors, the <b>Romans</b> seem to have been more given to intrigues and gallantry than the <b>English</b> are at present: And the women of condition, in order to retain their lovers, endeavoured to fix a name of reproach on those who were addicted to wenching and low amours. They were called <b>Ancillarioli</b>. See <b>Seneca</b> de beneficiis. Lib. i. cap. 9. See also <b>Martial</b>, lib. xii. epig. 58.</p>"

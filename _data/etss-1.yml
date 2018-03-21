@@ -4,7 +4,7 @@ parent: "etss"
 title:
   - "Volume 1"
   - "Essays and Treatises on Several Subjects, vol. 1"
-  - "<h1>~ESSAY~S</h1><h6>*~an~d*</h6><h1>~TREATISE~S</h1><h6>*~o~n*</h6><h2>~SEVERAL SUBJECT~S.</h2><h3>~Vo~l.~ ~I.</h3>"
+  - "<h1><strong>ESSAY</strong>S</h1><h6><b><strong>an</strong>d</b></h6><h1><strong>TREATISE</strong>S</h1><h6><b><strong>o</strong>n</b></h6><h2><strong>SEVERAL SUBJECT</strong>S.</h2><h3><strong>Vo</strong>l.<strong> </strong>I.</h3>"
 year: "1758, 1777"
 texts:
   - "ad1758"

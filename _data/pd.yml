@@ -6,6 +6,9 @@ title:
   - "<h1>Of <b>Polygamy</b> and <b>Divorces</b>.</h1>"
 year: "1742, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -59,7 +62,7 @@ paragraphs:
   -
     id: "13"
     pages: "185-6"
-    content: "<p>To render polygamy more odious, I need not recount the frightful effects of jealousy, and the constraint in which it holds the fair-sex all over the east. In those countries men are not allowed to have any commerce with the females, not even physicians, when sickness may be supposed to have extinguished all wanton passions in the bosoms of the fair, and, at the same time, has rendered them unfit objects of desire. <b>Tournefort</b> tells us, that, when he was brought into the <em>grand signior</em>’s seraglio as a physician, he was not a little surprized, in looking along a gallery, to see a great number of <span class='page-break'>|</span>naked arms, standing out from the sides of the room. He could not imagine what this could mean; till he was told, that those arms, belonged to bodies, which he must cure, without knowing any more about them, than what he could learn from the arms. He was not allowed to ask a question of the patient, or even of her attendants, lest he might find it necessary to enquire concerning circumstances, which the delicacy of the seraglio allows not to be revealed. Hence physicians in the east pretend to know all diseases from the pulse; as our quacks in <b>Europe</b> undertake to cure a person merely from seeing his water. I suppose, had <em>Monsieur</em> <b>Tournefort</b> been of this latter kind, he would not, in <b>Constantinople</b>, have been allowed by the jealous <b>Turks</b> to be furnished with materials requisite for exercising his art.</p>"
+    content: "<p>To render polygamy more odious, I need not recount the frightful effects of jealousy, and the constraint in which it holds the fair-sex all over the east. In those countries men are not allowed to have any commerce with the females, not even physicians, when sickness may be supposed to have extinguished all wanton passions in the bosoms of the fair, and, at the same time, has rendered them unfit objects of desire. <b>Tournefort</b> tells us, that, when he was brought into the <em>grand signior</em>'s seraglio as a physician, he was not a little surprized, in looking along a gallery, to see a great number of <span class='page-break'>|</span>naked arms, standing out from the sides of the room. He could not imagine what this could mean; till he was told, that those arms, belonged to bodies, which he must cure, without knowing any more about them, than what he could learn from the arms. He was not allowed to ask a question of the patient, or even of her attendants, lest he might find it necessary to enquire concerning circumstances, which the delicacy of the seraglio allows not to be revealed. Hence physicians in the east pretend to know all diseases from the pulse; as our quacks in <b>Europe</b> undertake to cure a person merely from seeing his water. I suppose, had <em>Monsieur</em> <b>Tournefort</b> been of this latter kind, he would not, in <b>Constantinople</b>, have been allowed by the jealous <b>Turks</b> to be furnished with materials requisite for exercising his art.</p>"
   -
     id: "14"
     pages: "186-7"
@@ -83,11 +86,11 @@ paragraphs:
   -
     id: "19"
     pages: "188-9"
-    content: "<p><em>Secondly</em>, If it be true, on the one hand, that the heart of man naturally delights in liberty, and hates every thing to which it is confined; it is also true, on the other, that the heart of man naturally submits to necessity, and soon loses an inclination, when there appears an absolute impossibility of gratifying it. These principles of human nature, you’ll say, are contradictory: But what is man but a heap of contradictions! Though it is remarkable, that, where principles are, after this manner, contrary in their operation, they do not always destroy each other; but the one or the other may predominate on any particular occasion, according as circumstances are more or less favourable to it. For instance, love is a restless and impatient passion, full of caprices and variations: arising in a moment from a feature, from an air, from nothing, and suddenly extinguishing after the same manner. Such a passion requires liberty above all things; and therefore <b>Eloisa</b> had reason, when, in order to preserve this passion, she refused to marry her beloved <b>Abelard</b>. <blockquote><em>How oft, when prest to marriage, have I said,<br>Curse on all laws but those which love has made: <span class='page-break'>|</span>Love, free as air, at sight of human ties,<br>Spreads his light wings, and in a moment flies.</em></blockquote> But <em>friendship</em> is a calm and sedate affection, conducted by reason and cemented by habit; springing from long acquaintance and mutual obligations; without jealousies or fears, and without those feverish fits of heat and cold, which cause such an agreeable torment in the amorous passion. So sober an affection, therefore, as friendship, rather thrives under constraint, and never rises to such a height, as when any strong interest or necessity binds two persons together, and gives them some common object of pursuit. We need not, therefore, be afraid of drawing the marriage-knot, which chiefly subsists by friendship, the closest possible. The amity between the persons, where it is solid and sincere, will rather gain by it: And where it is wavering and uncertain, this is the best expedient for fixing it. How many frivolous quarrels and disgusts are there, which people of common prudence endeavour to forget, when they lie under a necessity of passing their lives together; but which would soon be inflamed into the most deadly hatred, were they pursued to the utmost, under the prospect of an easy separation?</p>"
+    content: "<p><em>Secondly</em>, If it be true, on the one hand, that the heart of man naturally delights in liberty, and hates every thing to which it is confined; it is also true, on the other, that the heart of man naturally submits to necessity, and soon loses an inclination, when there appears an absolute impossibility of gratifying it. These principles of human nature, you'll say, are contradictory: But what is man but a heap of contradictions! Though it is remarkable, that, where principles are, after this manner, contrary in their operation, they do not always destroy each other; but the one or the other may predominate on any particular occasion, according as circumstances are more or less favourable to it. For instance, love is a restless and impatient passion, full of caprices and variations: arising in a moment from a feature, from an air, from nothing, and suddenly extinguishing after the same manner. Such a passion requires liberty above all things; and therefore <b>Eloisa</b> had reason, when, in order to preserve this passion, she refused to marry her beloved <b>Abelard</b>. <blockquote><em>How oft, when prest to marriage, have I said,<br>Curse on all laws but those which love has made: <span class='page-break'>|</span>Love, free as air, at sight of human ties,<br>Spreads his light wings, and in a moment flies.</em></blockquote> But <em>friendship</em> is a calm and sedate affection, conducted by reason and cemented by habit; springing from long acquaintance and mutual obligations; without jealousies or fears, and without those feverish fits of heat and cold, which cause such an agreeable torment in the amorous passion. So sober an affection, therefore, as friendship, rather thrives under constraint, and never rises to such a height, as when any strong interest or necessity binds two persons together, and gives them some common object of pursuit. We need not, therefore, be afraid of drawing the marriage-knot, which chiefly subsists by friendship, the closest possible. The amity between the persons, where it is solid and sincere, will rather gain by it: And where it is wavering and uncertain, this is the best expedient for fixing it. How many frivolous quarrels and disgusts are there, which people of common prudence endeavour to forget, when they lie under a necessity of passing their lives together; but which would soon be inflamed into the most deadly hatred, were they pursued to the utmost, under the prospect of an easy separation?</p>"
   -
     id: "20"
     pages: "189"
-    content: "<p>In the <em>third</em> place, we must consider, that nothing is more dangerous than to unite two persons so closely in all their interests and concerns, as man and wife, without rendering the union entire and total. The least possibility of a separate interest must be the source of endless quarrels and suspicions. The wife, not secure of her establishment, will still be driving some separate end or project; and the husband’s selfishness, being accompanied with more power, may be still more dangerous.</p>"
+    content: "<p>In the <em>third</em> place, we must consider, that nothing is more dangerous than to unite two persons so closely in all their interests and concerns, as man and wife, without rendering the union entire and total. The least possibility of a separate interest must be the source of endless quarrels and suspicions. The wife, not secure of her establishment, will still be driving some separate end or project; and the husband's selfishness, being accompanied with more power, may be still more dangerous.</p>"
   -
     id: "21"
     pages: "189-90"
@@ -96,15 +99,14 @@ paragraphs:
     id: "22"
     pages: "190"
     content: "<p>The exclusion of polygamy and divorces sufficiently recommends our present <b>European</b> practice with regard to marriage.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "186"
     symbol: "†"
-    content: "<p><em>Memoirs de la cour d’<b>Espagne</b> par Madame d’<b>Aunoy</b></em>.</p>"
+    content: "<p><em>Memoirs de la cour d'<b>Espagne</b> par Madame d'<b>Aunoy</b></em>.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "190"
     symbol: "†"
     content: "<p>Lib. ii.</p>"

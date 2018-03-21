@@ -6,11 +6,14 @@ title:
   - "Advertisement"
   - "<h1>Advertisement.</h1>"
 year: "1742"
+wordcount:
+  original: 131
+  edited: 131
 paragraphs:
   -
     id: "1"
     type: "first"
-    content: "<p><strong>’T</strong>IS proper to inform the <b>Reader</b>, that, in those <b>Essays</b>, intitled, <em>The Epicurean</em>, <em>Stoic</em>, &c. a certain Character is personated; and therefore, no Offence ought to be taken at any Sentiments contain’d in them.</p>"
+    content: "<p><strong>'T</strong>IS proper to inform the <b>Reader</b>, that, in those <b>Essays</b>, intitled, <em>The Epicurean</em>, <em>Stoic</em>, &amp;c. a certain Character is personated; and therefore, no Offence ought to be taken at any Sentiments contain'd in them.</p>"
   -
     id: "2"
-    content: "<p><b>The</b> Character of Sir <b>Robert Walpole</b> was drawn some Months ago, when that Great <b>Man</b> was in the Zenith of his Power. I must confess, that, at present, when he seems to be upon the Decline, I am inclin’d to think more favourably of him, and to suspect, that the Antipathy, which every true born <em>Briton</em> naturally bears to Ministers of State, inspir’d me with some Prejudice against him. The impartial <b>Reader</b>, if any such there be; or Posterity, if such a Trifle can reach them, will best be able to correct my Mistakes in this Particular.</p>"
+    content: "<p><b>The</b> Character of Sir <b>Robert Walpole</b> was drawn some Months ago, when that Great <b>Man</b> was in the Zenith of his Power. I must confess, that, at present, when he seems to be upon the Decline, I am inclin'd to think more favourably of him, and to suspect, that the Antipathy, which every true born <em>Briton</em> naturally bears to Ministers of State, inspir'd me with some Prejudice against him. The impartial <b>Reader</b>, if any such there be; or Posterity, if such a Trifle can reach them, will best be able to correct my Mistakes in this Particular.</p>"

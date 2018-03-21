@@ -7,6 +7,9 @@ title:
   - "<h1><b>Sect. X.</b> <em>With regard to courage or abasement.</em></h1>"
 year: "1777"
 pages: "Bea"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -32,33 +35,29 @@ paragraphs:
     id: "6"
     pages: "64"
     content: "<p><b>Brasidas</b> seized a mouse, and being bit by it, let it go. <em>There is nothing so contemptible,</em> said he, <em>but what may be safe, if it has but courage to defend itself<sup><a href='#n56'>[56]</a></sup>.</em> <b>Bellarmine</b> patiently and humbly allowed the fleas and other odious vermin to prey upon him. <em>We shall have heaven,</em> said he, <em>to reward us for our sufferings: But these poor creatures have nothing but the enjoyment of the present life<sup><a href='#n57'>[57]</a></sup>.</em> Such difference is there between the maxims of a <b>Greek</b> hero and a <b>Catholic</b> saint.</p>"
+notes:
   -
-    id: "n53"
-    type: "note"
+    id: "53"
     pages: "63"
     symbol: "*"
     content: "<p>Arrian passim.</p>"
   -
-    id: "n54"
-    type: "note"
+    id: "54"
     pages: "63"
     symbol: "†"
     content: "<p>Thucyd. lib. v.</p>"
   -
-    id: "n55"
-    type: "note"
+    id: "55"
     pages: "63"
     symbol: "‡"
     content: "<p>Discorsi, lib. vi.</p>"
   -
-    id: "n56"
-    type: "note"
+    id: "56"
     pages: "64"
     symbol: "ǁ"
     content: "<p>Plut. Apopth.</p>"
   -
-    id: "n57"
-    type: "note"
+    id: "57"
     pages: "64"
     symbol: "§"
     content: "<p>Bayle, Article <b>Bellarmine</b>.</p>"

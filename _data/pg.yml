@@ -6,12 +6,15 @@ title:
   - "<h1>Of <b>Parties</b> in <b>General</b>.</h1>"
 year: "1741, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
     type: "first"
     pages: "54-5"
-    content: "<p><strong>O</strong>F all men, that distinguish themselves by memorable atchievements, the first place of honour seems due to <b>Legislators</b> and founders of states, who transmit a system of laws and institutions to secure the peace, happiness, and liberty of future generations. The influence of useful inventions in the arts and sciences may, perhaps, extend farther than that of wise laws, whose effects are limited both in time and place; but the benefit arising from the former, is not so sensible as that which results from the latter. Speculative sciences do, indeed, improve the mind; but this advantage reaches only to a few persons, who have leisure to apply themselves to them. And as to practical arts, which encrease the commodities and enjoyments of life, it is well known, that <span class='page-break'>|</span>men’s happiness consists not so much in an abundance of these, as in the peace and security with which they possess them; and those blessings can only be derived from good government. Not to mention, that general virtue and good morals in a state, which are so requisite to happiness, can never arise from the most refined precepts of philosophy, or even the severest injunctions of religion; but must proceed entirely from the virtuous education of youth, the effect of wise laws and institutions. I must, therefore, presume to differ from Lord <b>Bacon</b> in this particular, and must regard antiquity as somewhat unjust in its distribution of honours, when it made gods of all the inventors of useful arts, such as <b>Ceres</b>, <b>Bacchus</b>, <b>Æsculapius</b>; and dignify legislators, such as <b>Romulus</b> and <b>Theseus</b>, only with the appellation of demigods and heroes.</p>"
+    content: "<p><strong>O</strong>F all men, that distinguish themselves by memorable atchievements, the first place of honour seems due to <b>Legislators</b> and founders of states, who transmit a system of laws and institutions to secure the peace, happiness, and liberty of future generations. The influence of useful inventions in the arts and sciences may, perhaps, extend farther than that of wise laws, whose effects are limited both in time and place; but the benefit arising from the former, is not so sensible as that which results from the latter. Speculative sciences do, indeed, improve the mind; but this advantage reaches only to a few persons, who have leisure to apply themselves to them. And as to practical arts, which encrease the commodities and enjoyments of life, it is well known, that <span class='page-break'>|</span>men's happiness consists not so much in an abundance of these, as in the peace and security with which they possess them; and those blessings can only be derived from good government. Not to mention, that general virtue and good morals in a state, which are so requisite to happiness, can never arise from the most refined precepts of philosophy, or even the severest injunctions of religion; but must proceed entirely from the virtuous education of youth, the effect of wise laws and institutions. I must, therefore, presume to differ from Lord <b>Bacon</b> in this particular, and must regard antiquity as somewhat unjust in its distribution of honours, when it made gods of all the inventors of useful arts, such as <b>Ceres</b>, <b>Bacchus</b>, <b>Æsculapius</b>; and dignify legislators, such as <b>Romulus</b> and <b>Theseus</b>, only with the appellation of demigods and heroes.</p>"
   -
     id: "2"
     pages: "55-6"
@@ -67,22 +70,20 @@ paragraphs:
   -
     id: "15"
     pages: "63"
-    content: "<p>I have mentioned parties from <em>affection</em> as a kind of <em>real</em> parties, beside those from <em>interest</em> and <em>principle</em>. By parties from affection, I understand those which are founded on the different attachments of men towards particular families and persons, whom they desire to rule over them. These factions are often very violent; though, I must own, it may seem unaccountable, that men should attach themselves so strongly to persons, with whom they are no wise acquainted, whom perhaps they never saw, and from whom they never received, nor can ever hope for any favour. Yet this we often find to be the case, and even with men, who, on other occasions, discover no great generosity of spirit, nor are found to be easily transported by friendship beyond their own interest. We are apt to think the relation between us and our sovereign very close and intimate. The splendour of majesty and power bestows an importance on the fortunes even of a single person. And when a man’s good-nature does not give him this imaginary interest, his ill-nature will, from spite and opposition to persons whose sentiments are different from his own.</p>"
+    content: "<p>I have mentioned parties from <em>affection</em> as a kind of <em>real</em> parties, beside those from <em>interest</em> and <em>principle</em>. By parties from affection, I understand those which are founded on the different attachments of men towards particular families and persons, whom they desire to rule over them. These factions are often very violent; though, I must own, it may seem unaccountable, that men should attach themselves so strongly to persons, with whom they are no wise acquainted, whom perhaps they never saw, and from whom they never received, nor can ever hope for any favour. Yet this we often find to be the case, and even with men, who, on other occasions, discover no great generosity of spirit, nor are found to be easily transported by friendship beyond their own interest. We are apt to think the relation between us and our sovereign very close and intimate. The splendour of majesty and power bestows an importance on the fortunes even of a single person. And when a man's good-nature does not give him this imaginary interest, his ill-nature will, from spite and opposition to persons whose sentiments are different from his own.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "57-8"
     symbol: "*"
     content: "<p>As this fact has not been much observed by antiquaries or politicians, I shall deliver it in the words of the <b>Roman</b> historian. <em>Populus <b>Tusculanus</b> cum conjugibus ac liberis <b>Romam</b> venit: Ea multitudo, veste mutata, & specie reorum tribus circuit, genibus se omnium advolvens. Plus itaque misericordia ad pœnæ veniam impetrandam, quam causa ad crimen purgandum valuit. Tribus omnes præter <b>Polliam</b>, antiquarunt legem. <b>Polliæ</b> sententia fuit, puberes verberatos necari, liberos conjugesque sub corona lege belli venire: Memoriamque ejus iræ <b>Tusculanis</b> in pœnæ tam atrocis auctores mansisse ad patris ætatem constat; nec quemquam fere ex <b>Pollia</b> tribu candidatum <b>Papiram</b> ferre solitam</em>, <b>T. Livii</b>, lib. 8. <span class='page-break'>|</span>The <b>Castelani</b> and <b>Nicolloti</b> are two mobbish factions in <b>Venice</b>, who frequently box together, and then lay aside their quarrels presently.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "58"
     symbol: "†"
     content: "<p><b>Lewis</b> XII.</p>"
   -
-    id: "n3"
-    type: "endnote"
+    id: "3"
     symbol: "*"
     content: "<p>See NOTE [C].</p>"
   -

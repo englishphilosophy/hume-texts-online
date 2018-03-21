@@ -6,6 +6,9 @@ title:
   - "<h1>Of <b>Impudence</b> and <b>Modesty</b>.</h1>"
 year: "1741, 1760"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -15,11 +18,11 @@ paragraphs:
   -
     id: "2"
     pages: "553"
-    content: "<p><b>I must</b>, however, confess, that this rule admits of an exception, with regard to one moral quality; and that <em>modesty</em> has a natural tendency to conceal a man’s talents, as <em>impudence</em> displays them to the utmost, and has been the only cause why many have risen in the world, under all the disadvantages of low birth and little merit. Such indolence and incapacity is there in the generality of mankind, that they are apt to receive a man for whatever he has a mind to put himself off for; and admit his overbearing airs as proofs of that merit which he assumes to himself. A decent assurance seems to be the natural attendant of virtue; and few men can distinguish impudence from it: As, on the other hand, diffidence, being the natural result of vice and folly, has drawn disgrace upon modesty, which in outward appearance so nearly resembles it.</p>"
+    content: "<p><b>I must</b>, however, confess, that this rule admits of an exception, with regard to one moral quality; and that <em>modesty</em> has a natural tendency to conceal a man's talents, as <em>impudence</em> displays them to the utmost, and has been the only cause why many have risen in the world, under all the disadvantages of low birth and little merit. Such indolence and incapacity is there in the generality of mankind, that they are apt to receive a man for whatever he has a mind to put himself off for; and admit his overbearing airs as proofs of that merit which he assumes to himself. A decent assurance seems to be the natural attendant of virtue; and few men can distinguish impudence from it: As, on the other hand, diffidence, being the natural result of vice and folly, has drawn disgrace upon modesty, which in outward appearance so nearly resembles it.</p>"
   -
     id: "3"
     pages: "553-4"
-    content: "<p><b>As</b> impudence, though really a vice, has the same effects upon a man’s fortune, as if it were a virtue; so we may observe, that it is almost as difficult to be attained, and is, in that respect, distinguished from all the other vices, which are acquired with little pains, and continually encrease upon indulgence. Many a man, being sensible that modesty is extremely prejudicial to him in making his fortune, has resolved to be impudent, and to put a bold face upon the matter: But, it is observable, that such people have seldom succeeded in the attempt, but have been obliged to relapse into their primitive modesty. Nothing carries a man through the world like a true genuine natural impudence. Its counterfeit is good for nothing, nor can ever support itself. In any other attempt, whatever faults a man commits and is sensible of, he is so much the nearer his end. But when he endeavours at im<span class='page-break'>|</span>pudence, if he ever failed in the attempt, the remembrance of that failure will make him blush, and will infallibly disconcert him: After which every blush is a cause for new blushes, till he be found out to be an arrant cheat, and a vain pretender to impudence.</p>"
+    content: "<p><b>As</b> impudence, though really a vice, has the same effects upon a man's fortune, as if it were a virtue; so we may observe, that it is almost as difficult to be attained, and is, in that respect, distinguished from all the other vices, which are acquired with little pains, and continually encrease upon indulgence. Many a man, being sensible that modesty is extremely prejudicial to him in making his fortune, has resolved to be impudent, and to put a bold face upon the matter: But, it is observable, that such people have seldom succeeded in the attempt, but have been obliged to relapse into their primitive modesty. Nothing carries a man through the world like a true genuine natural impudence. Its counterfeit is good for nothing, nor can ever support itself. In any other attempt, whatever faults a man commits and is sensible of, he is so much the nearer his end. But when he endeavours at im<span class='page-break'>|</span>pudence, if he ever failed in the attempt, the remembrance of that failure will make him blush, and will infallibly disconcert him: After which every blush is a cause for new blushes, till he be found out to be an arrant cheat, and a vain pretender to impudence.</p>"
   -
     id: "4"
     pages: "554"

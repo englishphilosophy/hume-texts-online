@@ -6,6 +6,9 @@ title:
   - "<h1>Of the <b>Rise</b> and <b>Progress</b> of the <b>Arts</b> and <b>Sciences</b>.</h1>"
 year: "1742, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -15,7 +18,7 @@ paragraphs:
   -
     id: "2"
     pages: "112"
-    content: "<p>The distinguishing between chance and causes must depend upon every particular man’s sagacity, in considering every particular incident. But, if I were to assign any general rule to help us in applying this distinction, it would be the following, <em>What depends upon a few persons is, in a great measure, to be ascribed to chance, or secret and unknown causes: What arises from a great number, may often be accounted for by determinate and known causes.</em></p>"
+    content: "<p>The distinguishing between chance and causes must depend upon every particular man's sagacity, in considering every particular incident. But, if I were to assign any general rule to help us in applying this distinction, it would be the following, <em>What depends upon a few persons is, in a great measure, to be ascribed to chance, or secret and unknown causes: What arises from a great number, may often be accounted for by determinate and known causes.</em></p>"
   -
     id: "3"
     pages: "112"
@@ -87,7 +90,7 @@ paragraphs:
   -
     id: "20"
     pages: "120-2"
-    content: "<p><b>Greece</b> was a cluster of little principalities, which soon became republics; and being united both by their near neighbourhood, and by the ties of the same language and interest, they entered into the closest intercourse of commerce and learning. There concurred a happy climate, a soil not unfertile, and a most harmonious and comprehensive language; so that every circumstance among that people seemed to favour the rise of the arts and sciences. Each city produced its <span class='page-break'>|</span>several artists and philosophers, who refused to yield the preference to those of the neighbouring republics: Their contention and debates sharpened the wits of men: A variety of objects was presented to the judgment, while each challenged the preference to the rest: and the sciences, not being dwarfed by the restraint of authority, were enabled to make such considerable shoots, as are, even at this time, the objects of our admiration. After the <b>Roman</b> <em>christian</em>, or <em>catholic</em> church had spread itself over the civilized world, and had engrossed all the learning of the times; being really one large state within itself, and united under one head; this variety of sects immediately disappeared, and the <b>Peripatetic</b> philosophy was alone admitted into all the schools, to the utter depravation of every kind of learning. But mankind, having at length thrown off this yoke, affairs are now returned nearly to the same situation as before, and <b>Europe</b> is at present a copy at large, of what <b>Greece</b> was formerly a pattern in miniature. We have seen the advantage of this situation in several instances. What checked the progress of the <b>Cartesian</b> philosophy, to which the <b>French</b> nation shewed such a strong propensity towards the end of the last century, but the opposition made to it by the other nations of <b>Europe</b>, who soon discovered the weak sides of that philosophy? The severest scrutiny, which <b>Newton</b>’s theory has undergone, proceeded not from his own countrymen, but from foreigners; and if it can overcome the obstacles, which it meets with at present in all parts of <b>Europe</b>, it will probably go down triumphant to the latest <span class='page-break'>|</span>posterity. The <b>English</b> are become sensible of the scandalous licentiousness of their stage, from the example of the <b>French</b> decency and morals. The <b>French</b> are convinced, that their theatre has become somewhat effeminate, by too much love and gallantry; and begin to approve of the more masculine taste of some neighbouring nations.</p>"
+    content: "<p><b>Greece</b> was a cluster of little principalities, which soon became republics; and being united both by their near neighbourhood, and by the ties of the same language and interest, they entered into the closest intercourse of commerce and learning. There concurred a happy climate, a soil not unfertile, and a most harmonious and comprehensive language; so that every circumstance among that people seemed to favour the rise of the arts and sciences. Each city produced its <span class='page-break'>|</span>several artists and philosophers, who refused to yield the preference to those of the neighbouring republics: Their contention and debates sharpened the wits of men: A variety of objects was presented to the judgment, while each challenged the preference to the rest: and the sciences, not being dwarfed by the restraint of authority, were enabled to make such considerable shoots, as are, even at this time, the objects of our admiration. After the <b>Roman</b> <em>christian</em>, or <em>catholic</em> church had spread itself over the civilized world, and had engrossed all the learning of the times; being really one large state within itself, and united under one head; this variety of sects immediately disappeared, and the <b>Peripatetic</b> philosophy was alone admitted into all the schools, to the utter depravation of every kind of learning. But mankind, having at length thrown off this yoke, affairs are now returned nearly to the same situation as before, and <b>Europe</b> is at present a copy at large, of what <b>Greece</b> was formerly a pattern in miniature. We have seen the advantage of this situation in several instances. What checked the progress of the <b>Cartesian</b> philosophy, to which the <b>French</b> nation shewed such a strong propensity towards the end of the last century, but the opposition made to it by the other nations of <b>Europe</b>, who soon discovered the weak sides of that philosophy? The severest scrutiny, which <b>Newton</b>'s theory has undergone, proceeded not from his own countrymen, but from foreigners; and if it can overcome the obstacles, which it meets with at present in all parts of <b>Europe</b>, it will probably go down triumphant to the latest <span class='page-break'>|</span>posterity. The <b>English</b> are become sensible of the scandalous licentiousness of their stage, from the example of the <b>French</b> decency and morals. The <b>French</b> are convinced, that their theatre has become somewhat effeminate, by too much love and gallantry; and begin to approve of the more masculine taste of some neighbouring nations.</p>"
   -
     id: "21"
     pages: "122"
@@ -143,15 +146,15 @@ paragraphs:
   -
     id: "34"
     pages: "128-9"
-    content: "<p>I shall also be bold to affirm, that among the ancients, there was not much delicacy of breeding, or that polite deference and respect, which civility obliges us either to express or counterfeit towards the persons with whom we converse. <b>Cicero</b> was certainly one of the finest gentlemen of his age; yet I must confess I have frequently been shocked with the poor figure under which he represents his friend <b>Atticus</b>, in <span class='page-break'>|</span>those dialogues, where he himself is introduced as a speaker. That learned and virtuous <b>Roman</b>, whose dignity, though he was only a private gentleman, was inferior to that of no one in <b>Rome</b>, is there shewn in rather a more pitiful light than <b>Philalethes</b>’s friend in our modern dialogues. He is a humble admirer of the orator, pays him frequent compliments, and receives his instructions, with all the deference which a scholar owes to his master<sup><a href='#n7'>[7]</a></sup>. Even <b>Cato</b> is treated in somewhat of a cavalier manner in the dialogues <em>de finibus</em>.</p>"
+    content: "<p>I shall also be bold to affirm, that among the ancients, there was not much delicacy of breeding, or that polite deference and respect, which civility obliges us either to express or counterfeit towards the persons with whom we converse. <b>Cicero</b> was certainly one of the finest gentlemen of his age; yet I must confess I have frequently been shocked with the poor figure under which he represents his friend <b>Atticus</b>, in <span class='page-break'>|</span>those dialogues, where he himself is introduced as a speaker. That learned and virtuous <b>Roman</b>, whose dignity, though he was only a private gentleman, was inferior to that of no one in <b>Rome</b>, is there shewn in rather a more pitiful light than <b>Philalethes</b>'s friend in our modern dialogues. He is a humble admirer of the orator, pays him frequent compliments, and receives his instructions, with all the deference which a scholar owes to his master<sup><a href='#n7'>[7]</a></sup>. Even <b>Cato</b> is treated in somewhat of a cavalier manner in the dialogues <em>de finibus</em>.</p>"
   -
     id: "35"
     pages: "129-30"
-    content: "<p>One of the most particular details of a real dialogue, which we meet with in antiquity, is related by <b>Polybius</b><sup><a href='#n8'>[8]</a></sup>; when <b>Philip</b>, king of <b>Macedon</b>, a prince of wit and parts, met with <b>Titus Flamininus</b>, one of the politest of the <b>Romans</b>, as we learn from <b>Plutarch</b><sup><a href='#n9'>[9]</a></sup>, accompanied with ambassadors from almost all the <b>Greek</b> cities. The <b>Ætolian</b> ambassador very abruptly tells the king, that he talked like a fool or a madman (<i>ληρειν</i>). <em>That’s evident,</em> says his majesty, <em>even to a blind man</em>; which was a raillery on the blindness of his excellency. Yet all this did not pass the usual bounds: For the conference was not disturbed; and <b>Flamininus</b> was very well <span class='page-break'>|</span>diverted with these strokes of humour. At the end, when <b>Philip</b> craved a little time to consult with his friends, of whom he had none present, the <b>Roman</b> general, being desirous also to shew his wit, as the historian says, tells him, <em>that perhaps the reason, why he had none of his friends with him, was because he had murdered them all</em>; which was actually the case. This unprovoked piece of rusticity is not condemned by the historian; caused no farther resentment in <b>Philip</b>, than to excite a <b>Sardonian</b> smile, or what we call a grin; and hindered him not from renewing the conference next day. <b>Plutarch</b><sup><a href='#n10'>[10]</a></sup> too mentions this raillery amongst the witty and agreeable sayings of <b>Flamininus</b>.</p>"
+    content: "<p>One of the most particular details of a real dialogue, which we meet with in antiquity, is related by <b>Polybius</b><sup><a href='#n8'>[8]</a></sup>; when <b>Philip</b>, king of <b>Macedon</b>, a prince of wit and parts, met with <b>Titus Flamininus</b>, one of the politest of the <b>Romans</b>, as we learn from <b>Plutarch</b><sup><a href='#n9'>[9]</a></sup>, accompanied with ambassadors from almost all the <b>Greek</b> cities. The <b>Ætolian</b> ambassador very abruptly tells the king, that he talked like a fool or a madman (<i>ληρειν</i>). <em>That's evident,</em> says his majesty, <em>even to a blind man</em>; which was a raillery on the blindness of his excellency. Yet all this did not pass the usual bounds: For the conference was not disturbed; and <b>Flamininus</b> was very well <span class='page-break'>|</span>diverted with these strokes of humour. At the end, when <b>Philip</b> craved a little time to consult with his friends, of whom he had none present, the <b>Roman</b> general, being desirous also to shew his wit, as the historian says, tells him, <em>that perhaps the reason, why he had none of his friends with him, was because he had murdered them all</em>; which was actually the case. This unprovoked piece of rusticity is not condemned by the historian; caused no farther resentment in <b>Philip</b>, than to excite a <b>Sardonian</b> smile, or what we call a grin; and hindered him not from renewing the conference next day. <b>Plutarch</b><sup><a href='#n10'>[10]</a></sup> too mentions this raillery amongst the witty and agreeable sayings of <b>Flamininus</b>.</p>"
   -
     id: "36"
     pages: "130"
-    content: "<p>Cardinal <b>Wolsey</b> apologized for his famous piece of insolence, in saying, <b>Ego et Rex meus</b>, <em>I and my king</em>, by observing, that this expression was conformable to the <em>Latin</em> idiom, and that a <b>Roman</b> always named himself before the person to whom, or of whom he spake. Yet this seems to have been an instance of want of civility among that people. The ancients made it a rule, that the person of the greatest dignity should be mentioned first in the discourse; insomuch, that we find the spring of a quarrel and jealousy between the <b>Romans</b> and <b>Ætolians</b>, to have been a poet’s naming the <b>Ætolians</b> before the <b>Romans</b>, in celebrating a victory gained by their united arms over the <b>Macedonians</b><sup><a href='#n11'>[11]</a></sup>. Thus <b>Livia</b> disgusted <b>Tiberius</b> by placing her own name before his in an inscription<sup><a href='#n12'>[12]</a></sup>.</p>"
+    content: "<p>Cardinal <b>Wolsey</b> apologized for his famous piece of insolence, in saying, <b>Ego et Rex meus</b>, <em>I and my king</em>, by observing, that this expression was conformable to the <em>Latin</em> idiom, and that a <b>Roman</b> always named himself before the person to whom, or of whom he spake. Yet this seems to have been an instance of want of civility among that people. The ancients made it a rule, that the person of the greatest dignity should be mentioned first in the discourse; insomuch, that we find the spring of a quarrel and jealousy between the <b>Romans</b> and <b>Ætolians</b>, to have been a poet's naming the <b>Ætolians</b> before the <b>Romans</b>, in celebrating a victory gained by their united arms over the <b>Macedonians</b><sup><a href='#n11'>[11]</a></sup>. Thus <b>Livia</b> disgusted <b>Tiberius</b> by placing her own name before his in an inscription<sup><a href='#n12'>[12]</a></sup>.</p>"
   -
     id: "37"
     pages: "130-1"
@@ -167,7 +170,7 @@ paragraphs:
   -
     id: "40"
     pages: "132-3"
-    content: "<p>But gallantry is as <em>generous</em> as it is <em>natural</em>. To correct such gross vices, as lead us to commit real injury on others, is the part of morals, and the object of the most ordinary education. Where <em>that</em> is not attended to, in some degree, no human society can subsist. But in order to render conversation, and the intercourse of minds more easy and agreeable, good-manners have been invented, and have carried the matter somewhat farther. Wherever nature has given the mind a propensity to any vice, or to any passion disagreeable to others, refined breeding has taught men to throw the biass on the opposite side, and to preserve, in all their behaviour, the appearance of sentiments different from those to which they naturally incline. Thus, as we are commonly proud and selfish, and apt to assume the preference above others, a polite man learns to behave with deference towards his companions, and to yield the superiority to them in all the common incidents of society. In like manner, wherever a person’s situation may naturally beget any disagreeable suspicion in him, it is the part of good-manners to prevent it, by a studied display of sentiments, directly contrary to those of which he is apt to be jealous. Thus, old men know their infirmities, and naturally dread contempt from the youth: Hence, well-educated youth redouble the instances of respect and deference to their elders. Strangers and foreigners are without protection: Hence, in all polite countries, they receive the highest civilities, and are entitled to the first place in every company. A man is lord in his own family, and his guests are, in a manner, subject to his authority: Hence, he is always the lowest person in the company; attentive to the wants of every one; and giving himself all the trouble, in order to please, which may not betray too visible an affectation, or impose too much constraint on his guests<sup><a href='#n15'>[15]</a></sup>. Gallantry is nothing but an instance of <span class='page-break'>|</span>the same generous attention. As nature has given <em>man</em> the superiority above <em>woman</em>, by endowing him with greater strength both of mind and body; it is his part to alleviate that superiority, as much as possible, by the generosity of his behaviour, and by a studied deference and complaisance for all her inclinations and opinions. Barbarous nations display this superiority, by reducing their females to the most abject slavery; by confining them, by beating them, by selling them, by killing them. But the male sex, among a polite people, discover their authority in a more generous, though not a less evident manner; by civility, by respect, by complaisance, and, in a word, by gallantry. In good company, you need not ask, Who is the master of the feast? The man, who sits in the lowest place, and who is always industrious in helping every one, is certainly the person. We must either condemn all such instances of generosity, as foppish and affected, or admit of gallantry among the rest. The ancient <b>Muscovites</b> wedded their wives with a whip, instead of a ring. The same people, in their own houses, took always the precedency above foreigners, even<sup><a href='#n16'>[16]</a></sup> foreign ambassadors. These two instances of their generosity and politeness are much of a piece.</p>"
+    content: "<p>But gallantry is as <em>generous</em> as it is <em>natural</em>. To correct such gross vices, as lead us to commit real injury on others, is the part of morals, and the object of the most ordinary education. Where <em>that</em> is not attended to, in some degree, no human society can subsist. But in order to render conversation, and the intercourse of minds more easy and agreeable, good-manners have been invented, and have carried the matter somewhat farther. Wherever nature has given the mind a propensity to any vice, or to any passion disagreeable to others, refined breeding has taught men to throw the biass on the opposite side, and to preserve, in all their behaviour, the appearance of sentiments different from those to which they naturally incline. Thus, as we are commonly proud and selfish, and apt to assume the preference above others, a polite man learns to behave with deference towards his companions, and to yield the superiority to them in all the common incidents of society. In like manner, wherever a person's situation may naturally beget any disagreeable suspicion in him, it is the part of good-manners to prevent it, by a studied display of sentiments, directly contrary to those of which he is apt to be jealous. Thus, old men know their infirmities, and naturally dread contempt from the youth: Hence, well-educated youth redouble the instances of respect and deference to their elders. Strangers and foreigners are without protection: Hence, in all polite countries, they receive the highest civilities, and are entitled to the first place in every company. A man is lord in his own family, and his guests are, in a manner, subject to his authority: Hence, he is always the lowest person in the company; attentive to the wants of every one; and giving himself all the trouble, in order to please, which may not betray too visible an affectation, or impose too much constraint on his guests<sup><a href='#n15'>[15]</a></sup>. Gallantry is nothing but an instance of <span class='page-break'>|</span>the same generous attention. As nature has given <em>man</em> the superiority above <em>woman</em>, by endowing him with greater strength both of mind and body; it is his part to alleviate that superiority, as much as possible, by the generosity of his behaviour, and by a studied deference and complaisance for all her inclinations and opinions. Barbarous nations display this superiority, by reducing their females to the most abject slavery; by confining them, by beating them, by selling them, by killing them. But the male sex, among a polite people, discover their authority in a more generous, though not a less evident manner; by civility, by respect, by complaisance, and, in a word, by gallantry. In good company, you need not ask, Who is the master of the feast? The man, who sits in the lowest place, and who is always industrious in helping every one, is certainly the person. We must either condemn all such instances of generosity, as foppish and affected, or admit of gallantry among the rest. The ancient <b>Muscovites</b> wedded their wives with a whip, instead of a ring. The same people, in their own houses, took always the precedency above foreigners, even<sup><a href='#n16'>[16]</a></sup> foreign ambassadors. These two instances of their generosity and politeness are much of a piece.</p>"
   -
     id: "41"
     pages: "133-4"
@@ -191,7 +194,7 @@ paragraphs:
   -
     id: "46"
     pages: "135"
-    content: "<p>A man’s genius is always, in the beginning of life, as much unknown to himself as to others; and it is only after frequent trials, attended with success, that he dares think himself equal to those undertakings, in which those, who have succeeded, have fixed the admiration of mankind. If his own nation be already possessed of many models of eloquence, he naturally compares his own juvenile exercises with these; and being sensible of the great disproportion, is discouraged from any farther attempts, and never aims at a rivalship with those authors, whom he so much admires. A noble emulation is the source of every excellence. Admiration and modesty naturally extinguish this emulation. And no one is so liable to an excess of admiration and modesty, as a truly great genius.</p>"
+    content: "<p>A man's genius is always, in the beginning of life, as much unknown to himself as to others; and it is only after frequent trials, attended with success, that he dares think himself equal to those undertakings, in which those, who have succeeded, have fixed the admiration of mankind. If his own nation be already possessed of many models of eloquence, he naturally compares his own juvenile exercises with these; and being sensible of the great disproportion, is discouraged from any farther attempts, and never aims at a rivalship with those authors, whom he so much admires. A noble emulation is the source of every excellence. Admiration and modesty naturally extinguish this emulation. And no one is so liable to an excess of admiration and modesty, as a truly great genius.</p>"
   -
     id: "47"
     pages: "136"
@@ -208,21 +211,19 @@ paragraphs:
     id: "50"
     pages: "137"
     content: "<p>In short, the arts and sciences, like some plants, require a fresh soil; and however rich the land may be, and however you may recruit it by art or care, it will never, when once exhausted, produce any thing that is perfect or finished in the kind.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "114"
     symbol: "*"
     content: "<p>Est Deus in nobis; agitante calescimus illo: <br><span class='tab'></span>Impetus hic, sacræ semina mentis habet. <br><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span><b>Ovid</b>, <em>Fast. lib.</em> i.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "117"
     symbol: "†"
     content: "<p><b>Tacit.</b> hist. lib. i.</p>"
   -
-    id: "n3"
-    type: "endnote"
+    id: "3"
     symbol: "*"
     content: "<p>See NOTE [E].</p>"
   -
@@ -231,80 +232,67 @@ paragraphs:
     pages: "122"
     content: "<p><strong>I</strong>F it be asked how we can reconcile to the foregoing principles the happiness, riches, and good police of the <b>Chinese</b>, who have always been governed by a monarch, and can scarcely form an idea of a free government; I would answer, that though the <b>Chinese</b> government be a pure monarchy, it is not, properly speaking, absolute. This proceeds from a peculiarity in the situation of that country: They have no neighbours, except the <b>Tartars</b>, from whom they were, in some measure, secured, at least seemed to be secured, by their famous wall, and by the great superiority of their numbers. By this means, military discipline has always been much neglected amongst them; and their standing forces are mere militia, of the worst kind; and unfit to suppress any general insurrection in countries so extremely populous. The sword, therefore, may properly be said to be always in the hands of the people, which is a sufficient restraint upon the monarch, and obliges him to lay his <em>mandarins</em> or governors of provinces under the restraint of general laws, in order to prevent those rebellions, which we learn from history to have been so frequent and dangerous in that government. Perhaps, a pure monarchy of this kind, were it fitted for defence against foreign enemies, would be the best of all governments, as having both the tranquillity attending kingly power, and the moderation and liberty of popular assemblies.</p>"
   -
-    id: "n4"
-    type: "note"
+    id: "4"
     pages: "127"
     symbol: "†"
-    content: "<p>C’est la politesse d’un Suisse <br><span class='tab'></span>En <b>Hollande</b> civilisé. <span class='tab'></span><span class='tab'></span><span class='tab'></span><b>Rousseau</b>.</p>"
+    content: "<p>C'est la politesse d'un Suisse <br><span class='tab'></span>En <b>Hollande</b> civilisé. <span class='tab'></span><span class='tab'></span><span class='tab'></span><b>Rousseau</b>.</p>"
   -
-    id: "n5"
-    type: "note"
+    id: "5"
     pages: "127"
     symbol: "†"
     content: "<p>It is needless to cite <b>Cicero</b> or <b>Pliny</b> on this head: They are too much noted: But one is a little surprised to find <b>Arrian</b>, a very grave, judicious writer, interrupt the thread of his narration all of a sudden, to tell his readers that he himself is as eminent among the <b>Greeks</b> for eloquence as <b>Alexander</b> was for arms. Lib. i.</p>"
   -
-    id: "n6"
-    type: "note"
+    id: "6"
     pages: "128"
     symbol: "‡"
-    content: "<p>This poet (See lib. iv. 1165.) recommends a very extraordinary cure for love, and what one expects not to meet with in so elegant and philosophical a poem. It seems to have been the original of some of Dr. <b>Swift</b>’s images. The elegant <b>Catullus</b> and <b>Phædrus</b> fall under the same censure.</p>"
+    content: "<p>This poet (See lib. iv. 1165.) recommends a very extraordinary cure for love, and what one expects not to meet with in so elegant and philosophical a poem. It seems to have been the original of some of Dr. <b>Swift</b>'s images. The elegant <b>Catullus</b> and <b>Phædrus</b> fall under the same censure.</p>"
   -
-    id: "n7"
-    type: "note"
+    id: "7"
     pages: "129"
     symbol: "‡"
     content: "<p><b>Att.</b> Non mihi videtur ad beate vivendum satis esse virtutem. <b>Mar.</b> At hercule <b>Bruto</b> meo videtur; cujus ego judicium, pace tua dixerim, longe antepono tuo. <b>Tusc.</b> Quæst lib. v.</p>"
   -
-    id: "n8"
-    type: "note"
+    id: "8"
     pages: "129"
     symbol: "*"
     content: "<p>Lib. xvii.</p>"
   -
-    id: "n9"
-    type: "note"
+    id: "9"
     pages: "129"
     symbol: "†"
     content: "<p>In vita <b>Flamin.</b></p>"
   -
-    id: "n10"
-    type: "note"
+    id: "10"
     pages: "130"
     symbol: "‡"
     content: "<p><b>Plut.</b> in vita <b>Flamin.</b></p>"
   -
-    id: "n11"
-    type: "note"
+    id: "11"
     pages: "130"
     symbol: "†"
     content: "<p>Ibid.</p>"
   -
-    id: "n12"
-    type: "note"
+    id: "12"
     pages: "130"
     symbol: "§"
     content: "<p><b>Tacit.</b> Ann. lib. iii. cap. 64.</p>"
   -
-    id: "n13"
-    type: "note"
+    id: "13"
     pages: "131"
     symbol: "†"
     content: "<p>In the <em>Self-Tormentor</em> of <b>Terence</b>, <b>Clinias</b>, whenever he comes to town, instead of waiting on his mistress, sends for her to come to him.</p>"
   -
-    id: "n14"
-    type: "note"
+    id: "14"
     pages: "131"
     symbol: "‡"
     content: "<p>Lord <b>Shaftesbury</b>, see his <em>Moralists</em>.</p>"
   -
-    id: "n15"
-    type: "note"
+    id: "15"
     pages: "132-3"
     symbol: "†"
-    content: "<p>The frequent mention in ancient authors of that ill-bred custom of the master of the family’s eating better bread or drinking better wine at table, than he afforded his guests, is but an indifferent mark of the civility of those ages. See <b>Juvenal</b>, sat. 5. <b>Plinii</b> lib. xiv. cap. 13. <span class='page-break'>|</span>Also <b>Plinii</b> <em>Epist. Lucian de mercede conductis</em>, <em>Saturnalia</em>, &c. There is scarcely any part of <b>Europe</b> at present so uncivilized as to admit of such a custom.</p>"
+    content: "<p>The frequent mention in ancient authors of that ill-bred custom of the master of the family's eating better bread or drinking better wine at table, than he afforded his guests, is but an indifferent mark of the civility of those ages. See <b>Juvenal</b>, sat. 5. <b>Plinii</b> lib. xiv. cap. 13. <span class='page-break'>|</span>Also <b>Plinii</b> <em>Epist. Lucian de mercede conductis</em>, <em>Saturnalia</em>, &c. There is scarcely any part of <b>Europe</b> at present so uncivilized as to admit of such a custom.</p>"
   -
-    id: "n16"
-    type: "note"
+    id: "16"
     pages: "133"
     symbol: "*"
     content: "<p>See <em>Relation of three Embassies</em>, by the Earl of <b>Carlisle</b>.</p>"

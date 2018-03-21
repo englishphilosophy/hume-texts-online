@@ -7,6 +7,9 @@ title:
   - "<h1><strong>SECTION </strong>I.</h1><h2>Of the <b>General Principles</b> of <b>Morals</b>.</h2>"
 year: "1777"
 pages: "SBN"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -16,7 +19,7 @@ paragraphs:
   -
     id: "2"
     pages: ""
-    content: "<p>Those who have denied the reality of moral distinctions, may be ranked among the disingenuous disputants; nor is it conceivable, that any human creature could ever seriously believe, that all characters and actions were alike entitled to <SBN#170>the affection and regard of every one. The difference, which nature has placed between one man and another, is so wide, and this difference is still so much farther widened, by education, example, and habit, that, where the opposite extremes come at once under our apprehension, there is no scepticism so scrupulous, and scarce any assurance so determined, as absolutely to deny all distinction between them. Let a man’s insensibility be ever so great, he must often be touched with the images of RIGHT and WRONG; and let his prejudices be ever so obstinate, he must observe, that others are susceptible of like impressions. The only way, therefore, of converting an antagonist of this kind, is to leave him to himself. For, finding that no body keeps up the controversy with him, it is probable he will, at last, of himself, from mere weariness, come over to the side of common sense and reason.</p>"
+    content: "<p>Those who have denied the reality of moral distinctions, may be ranked among the disingenuous disputants; nor is it conceivable, that any human creature could ever seriously believe, that all characters and actions were alike entitled to <SBN#170>the affection and regard of every one. The difference, which nature has placed between one man and another, is so wide, and this difference is still so much farther widened, by education, example, and habit, that, where the opposite extremes come at once under our apprehension, there is no scepticism so scrupulous, and scarce any assurance so determined, as absolutely to deny all distinction between them. Let a man's insensibility be ever so great, he must often be touched with the images of RIGHT and WRONG; and let his prejudices be ever so obstinate, he must observe, that others are susceptible of like impressions. The only way, therefore, of converting an antagonist of this kind, is to leave him to himself. For, finding that no body keeps up the controversy with him, it is probable he will, at last, of himself, from mere weariness, come over to the side of common sense and reason.</p>"
   -
     id: "3"
     pages: ""
@@ -28,7 +31,7 @@ paragraphs:
   -
     id: "5"
     pages: ""
-    content: "<p>It must be acknowledged, that both sides of the question are susceptible of specious arguments. Moral distinctions, it may be said, are discernible by pure <em>reason:</em> Else, whence the many disputes that reign in common life, as well as in philosophy, with regard to this subject: The long chain of proofs often produced on both sides; the examples cited, the authorities appealed to, the analogies employed, the fallacies detected, the inferences drawn, and the several conclusions adjusted to their proper principles. Truth is disputable; not taste: What exists in the nature of things is the standard of our judgment; what each man feels within himself is the standard of sentiment. Propositions in geometry may be proved, systems in physics may be controverted; but the harmony of verse, the tenderness of passion, the brilliancy of wit, must give immediate pleasure. No man reasons concerning another’s beauty; but frequently concerning the justice or injustice of his actions. In every criminal trial the first object of the prisoner is to disprove the facts alleged, and deny the actions imputed to him: The second to prove, that, even if these actions were real, they might be justified, as innocent and lawful. It is confessedly by deductions of the understanding, that the first point is ascertained: How can we suppose that a different faculty of the mind is employed in fixing the other?</p>"
+    content: "<p>It must be acknowledged, that both sides of the question are susceptible of specious arguments. Moral distinctions, it may be said, are discernible by pure <em>reason:</em> Else, whence the many disputes that reign in common life, as well as in philosophy, with regard to this subject: The long chain of proofs often produced on both sides; the examples cited, the authorities appealed to, the analogies employed, the fallacies detected, the inferences drawn, and the several conclusions adjusted to their proper principles. Truth is disputable; not taste: What exists in the nature of things is the standard of our judgment; what each man feels within himself is the standard of sentiment. Propositions in geometry may be proved, systems in physics may be controverted; but the harmony of verse, the tenderness of passion, the brilliancy of wit, must give immediate pleasure. No man reasons concerning another's beauty; but frequently concerning the justice or injustice of his actions. In every criminal trial the first object of the prisoner is to disprove the facts alleged, and deny the actions imputed to him: The second to prove, that, even if these actions were real, they might be justified, as innocent and lawful. It is confessedly by deductions of the understanding, that the first point is ascertained: How can we suppose that a different faculty of the mind is employed in fixing the other?</p>"
   -
     id: "6"
     pages: ""
@@ -53,3 +56,8 @@ paragraphs:
     id: "11"
     pages: ""
     content: "<p>We shall begin our enquiry on this head by the consideration of the social virtues, benevolence and justice. The explication of them will probably give us an opening by which the others may be accounted for.</p>"
+notes:
+  -
+    id: "1"
+    symbol: "*"
+    content: "<p>See Appendix I.</p>"

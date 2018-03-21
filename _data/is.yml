@@ -6,6 +6,9 @@ title:
   - "<h1>Of the <b>Immortality</b> of the <b>Soul</b></h1>"
 year: "1777, 1755"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -35,7 +38,7 @@ paragraphs:
   -
     id: "7"
     pages: "592"
-    content: "<p><b>Animals</b> undoubtedly feel, think, love, hate, will, and even reason, tho’ in a more imperfect manner than man. Are their souls also immaterial and immortal?</p>"
+    content: "<p><b>Animals</b> undoubtedly feel, think, love, hate, will, and even reason, tho' in a more imperfect manner than man. Are their souls also immaterial and immortal?</p>"
   -
     id: "8"
     pages: "592"
@@ -47,11 +50,11 @@ paragraphs:
   -
     id: "10"
     pages: "592"
-    content: "<p><del><b>’Tis</b></del><ins title='manuscript alteration'><b>It is</b></ins> very safe for us to affirm, that, whatever we know the deity to have actually done, is best; but <del>’tis</del><ins title='manuscript alteration'>it is</ins> very dangerous to affirm, that he must always do what to us seems best. In how many instances would this reasoning fail us with regard to the present world?</p>"
+    content: "<p><del><b>'Tis</b></del><ins title='manuscript alteration'><b>It is</b></ins> very safe for us to affirm, that, whatever we know the deity to have actually done, is best; but <del>'tis</del><ins title='manuscript alteration'>it is</ins> very dangerous to affirm, that he must always do what to us seems best. In how many instances would this reasoning fail us with regard to the present world?</p>"
   -
     id: "11"
     pages: "592"
-    content: "<p><b>But</b> if any purpose of nature be clear, we may affirm, that the whole scope and intention of man’s creation, so far as we can judge by natural reason, is limited to the present life. With how weak a concern, from the original, inherent structure of the mind and passions, does he ever look farther? What comparison, either for steddiness or efficacy, <del>betwixt</del><ins title='manuscript alteration'>between</ins> so floating an idea, and the most doubtful persuasion of any matter of fact, that occurs in common life.</p>"
+    content: "<p><b>But</b> if any purpose of nature be clear, we may affirm, that the whole scope and intention of man's creation, so far as we can judge by natural reason, is limited to the present life. With how weak a concern, from the original, inherent structure of the mind and passions, does he ever look farther? What comparison, either for steddiness or efficacy, <del>betwixt</del><ins title='manuscript alteration'>between</ins> so floating an idea, and the most doubtful persuasion of any matter of fact, that occurs in common life.</p>"
   -
     id: "12"
     pages: "593"
@@ -75,7 +78,7 @@ paragraphs:
   -
     id: "17"
     pages: "593"
-    content: "<p><b>On</b> the theory of the soul’s mortality, the inferiority of women’s capacity is easily accounted for: Their domestic life requires no higher faculties either of mind or body. This circumstance vanishes and becomes absolutely insignificant, on the religious theory: The one sex has an equal task to perform <del>as</del><ins title='manuscript alteration'>with</ins> the other: Their powers of reason and resolution ought also to have been equal, and both of them infinitely greater than at present.</p>"
+    content: "<p><b>On</b> the theory of the soul's mortality, the inferiority of women's capacity is easily accounted for: Their domestic life requires no higher faculties either of mind or body. This circumstance vanishes and becomes absolutely insignificant, on the religious theory: The one sex has an equal task to perform <del>as</del><ins title='manuscript alteration'>with</ins> the other: Their powers of reason and resolution ought also to have been equal, and both of them infinitely greater than at present.</p>"
   -
     id: "18"
     pages: "594"
@@ -95,7 +98,7 @@ paragraphs:
   -
     id: "22"
     pages: "594"
-    content: "<p><b>Punishment</b>, according to <em>our</em> conceptions, should bear some proportion to the offence. Why then eternal punishment for the temporary offences of so frail a creature as man? Can any one approve of <em>Alexander’s</em> rage, who intended to exterminate a whole nation, because they had seized his favourite horse, <em>Bucephalus</em><sup><a href='#n1'>[1]</a></sup><em>?</em></p>"
+    content: "<p><b>Punishment</b>, according to <em>our</em> conceptions, should bear some proportion to the offence. Why then eternal punishment for the temporary offences of so frail a creature as man? Can any one approve of <em>Alexander's</em> rage, who intended to exterminate a whole nation, because they had seized his favourite horse, <em>Bucephalus</em><sup><a href='#n1'>[1]</a></sup><em>?</em></p>"
   -
     id: "23"
     pages: "594"
@@ -111,11 +114,11 @@ paragraphs:
   -
     id: "26"
     pages: "595"
-    content: "<p><b>What</b> man, who has not met with personal provocation (or what good natur’d man who has) could inflict on crimes, from the sense of blame alone, even the common, legal, frivolous punishments? And does any thing steel the breast of judges and juries against the sentiments of humanity but reflections on necessity and public interest?</p>"
+    content: "<p><b>What</b> man, who has not met with personal provocation (or what good natur'd man who has) could inflict on crimes, from the sense of blame alone, even the common, legal, frivolous punishments? And does any thing steel the breast of judges and juries against the sentiments of humanity but reflections on necessity and public interest?</p>"
   -
     id: "27"
     pages: "595"
-    content: "<p><b>By</b> the Roman law, those who had been guilty of parricide and confessed their crime, were put into a sack, along with an ape, a dog, and a serpent; and thrown into the river: Death alone was the punishment of those, who denied their guilt, however fully proved. A criminal was tryed before <em>Augustus</em>, and condemned after full conviction: But the humane emperor, when he put the last interrogatory, gave it such a turn as to lead the wretch into a denial of his guilt. <em>You surely</em>, said the prince, <em>did not kill your father</em><sup><a href='#n2'>[2]</a></sup>. This lenity suits our natural ideas of <b>right</b>, even towards the greatest of all criminals, and even tho’ it prevents so inconsiderable a sufferance. Nay, even the most bigotted priest would naturally, without reflection, approve of it; provided the crime was not heresy or infidelity. For as these crimes hurt himself in his <em>temporal</em> interests and advantages; perhaps he may not be altogether so indulgent to them.</p>"
+    content: "<p><b>By</b> the Roman law, those who had been guilty of parricide and confessed their crime, were put into a sack, along with an ape, a dog, and a serpent; and thrown into the river: Death alone was the punishment of those, who denied their guilt, however fully proved. A criminal was tryed before <em>Augustus</em>, and condemned after full conviction: But the humane emperor, when he put the last interrogatory, gave it such a turn as to lead the wretch into a denial of his guilt. <em>You surely</em>, said the prince, <em>did not kill your father</em><sup><a href='#n2'>[2]</a></sup>. This lenity suits our natural ideas of <b>right</b>, even towards the greatest of all criminals, and even tho' it prevents so inconsiderable a sufferance. Nay, even the most bigotted priest would naturally, without reflection, approve of it; provided the crime was not heresy or infidelity. For as these crimes hurt himself in his <em>temporal</em> interests and advantages; perhaps he may not be altogether so indulgent to them.</p>"
   -
     id: "28"
     pages: "595"
@@ -183,7 +186,7 @@ paragraphs:
   -
     id: "44"
     pages: "598"
-    content: "<p><del>’Tis</del><ins title='manuscript alteration'><b>It is</b></ins> an infinite advantage in every controversy, to defend the negative. If the question be out of the common experienced course of nature, this circumstance is almost if not altogether decisive. By what arguments or analogies can we prove any state of existence, which no one ever saw, and which no <del>way</del><ins title='manuscript alteration'>wise</ins> resembles any that ever was seen? Who will repose such trust in any pretended philosophy, as to admit upon its testimony the reality of so marvellous a scene? Some new species of logic is requisite for that purpose; and some new faculties of the mind, which may enable us to comprehend that logic.</p>"
+    content: "<p><del>'Tis</del><ins title='manuscript alteration'><b>It is</b></ins> an infinite advantage in every controversy, to defend the negative. If the question be out of the common experienced course of nature, this circumstance is almost if not altogether decisive. By what arguments or analogies can we prove any state of existence, which no one ever saw, and which no <del>way</del><ins title='manuscript alteration'>wise</ins> resembles any that ever was seen? Who will repose such trust in any pretended philosophy, as to admit upon its testimony the reality of so marvellous a scene? Some new species of logic is requisite for that purpose; and some new faculties of the mind, which may enable us to comprehend that logic.</p>"
   -
     id: "45"
     pages: "598"

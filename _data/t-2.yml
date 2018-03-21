@@ -4,7 +4,7 @@ parent: "t"
 title:
   - "Book 2"
   - "Book 2, Of the Passions"
-  - "<h4>~Vo~l. II.</h4><h5>~OF TH~E</h5><h4>~PASSION~S.</h4>"
+  - "<h4><strong>Vo</strong>l. II.</h4><h5><strong>OF TH</strong>E</h5><h4><strong>PASSION</strong>S.</h4>"
 year: "1739"
 texts:
   - "t-2-1"

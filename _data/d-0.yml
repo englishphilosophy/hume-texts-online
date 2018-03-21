@@ -7,6 +7,10 @@ title:
   - "<h2><b>Pamphilus</b> to <b>Hermippus</b>.</h2>"
 year: "1779"
 pages: "KS"
+images: [1, 2, 3]
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"

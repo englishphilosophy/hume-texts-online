@@ -7,6 +7,9 @@ title:
   - "<h1><strong>SECT </strong>III.</h1>"
 year: "1757, 1777"
 pages: "Bea"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -39,7 +42,7 @@ paragraphs:
     id: "7"
     pages: "19"
     subsection: "4"
-    content: "<p>Compassion frequently arises, where there is no preceding esteem or friendship; and compassion is an uneasiness in the sufferings of another. It seems to spring from the intimate and strong conception of his sufferings; and our imagination proceeds by degrees, from the lively idea to the real feeling of another’s misery.</p>"
+    content: "<p>Compassion frequently arises, where there is no preceding esteem or friendship; and compassion is an uneasiness in the sufferings of another. It seems to spring from the intimate and strong conception of his sufferings; and our imagination proceeds by degrees, from the lively idea to the real feeling of another's misery.</p>"
   -
     id: "8"
     pages: "19"
@@ -48,7 +51,7 @@ paragraphs:
     id: "9"
     pages: "19"
     subsection: "5"
-    content: "<p>The similar tendency of compassion to that of benevolence, and of envy to anger, forms a very close relation between these two sets of passions; though of a different kind from that which was insisted on above. It is not a resemblance of feeling or sentiment, but a resemblance of tendency or direction. Its effect, however, is the same, in producing an association of passions. Compassion is seldom or never felt without some mixture of tenderness or friendship<del>:</del><ins title='originally a colon; the lowercase 'a' following suggests that a semi-colon was intended, and there is a semi-colon here in all the previous editions (N.B. prior to the 1772 edition, the semi-colon in the next sentence was a colon (with a capital 'A' following), but the flow clearly suggests the same apposition in each sentence, thus it is natural to suppose that Hume later aligned the punctuation accordingly)'>;</ins> and envy is naturally accompanied with anger or ill-will. To desire the happiness of another, from whatever motive, is a good preparative to affection; and to delight in another’s misery almost unavoidably begets aversion towards him.</p>"
+    content: "<p>The similar tendency of compassion to that of benevolence, and of envy to anger, forms a very close relation between these two sets of passions; though of a different kind from that which was insisted on above. It is not a resemblance of feeling or sentiment, but a resemblance of tendency or direction. Its effect, however, is the same, in producing an association of passions. Compassion is seldom or never felt without some mixture of tenderness or friendship<del>:</del><ins title='originally a colon; the lowercase 'a' following suggests that a semi-colon was intended, and there is a semi-colon here in all the previous editions (N.B. prior to the 1772 edition, the semi-colon in the next sentence was a colon (with a capital 'A' following), but the flow clearly suggests the same apposition in each sentence, thus it is natural to suppose that Hume later aligned the punctuation accordingly)'>;</ins> and envy is naturally accompanied with anger or ill-will. To desire the happiness of another, from whatever motive, is a good preparative to affection; and to delight in another's misery almost unavoidably begets aversion towards him.</p>"
   -
     id: "10"
     pages: "19"
@@ -57,7 +60,7 @@ paragraphs:
     id: "11"
     pages: "19"
     subsection: "6"
-    content: "<p>Poverty, meanness, disappointment, produce contempt and dislike: But when these misfortunes are very great, or are represented to us in very strong colours, they excite compassion, and tenderness, and friendship. How is this contradiction to be accounted for? The poverty and meanness of another, in their common appearance, gives us uneasiness, by a species of imperfect sympathy; and this uneasiness produces aversion or dislike, from the resemblance of sentiment. But when we enter more intimately into another’s concerns, and wish for his happiness, as well as feel his misery, friendship or good-will arises, from the similar tendency of the inclinations.</p>"
+    content: "<p>Poverty, meanness, disappointment, produce contempt and dislike: But when these misfortunes are very great, or are represented to us in very strong colours, they excite compassion, and tenderness, and friendship. How is this contradiction to be accounted for? The poverty and meanness of another, in their common appearance, gives us uneasiness, by a species of imperfect sympathy; and this uneasiness produces aversion or dislike, from the resemblance of sentiment. But when we enter more intimately into another's concerns, and wish for his happiness, as well as feel his misery, friendship or good-will arises, from the similar tendency of the inclinations.</p>"
   -
     id: "12"
     pages: "20"
@@ -71,9 +74,9 @@ paragraphs:
     id: "14"
     pages: "20"
     content: "<p>The amorous passion is usually compounded of complacency in beauty, a bodily appetite, and friendship or affection. The close relation of these sentiments is very obvious, as well as their origin from each other, by means of that relation. Were there no other phænomenon to reconcile us to the present theory, this alone, methinks, were sufficient.</p>"
+notes:
   -
-    id: "n4"
-    type: "note"
+    id: "4"
     pages: "18"
     symbol: "*"
     content: "<p>The affection of parents to children seems founded on an original instinct. The affection towards other relations depends on the principles here explained.</p>"

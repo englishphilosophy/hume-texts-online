@@ -7,6 +7,10 @@ title:
   - "<h1><strong>PART </strong>X.</h1>"
 year: "1779"
 pages: "KS"
+images: [61, 62, 63, 64, 65, 66, 67, 68]
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -15,7 +19,7 @@ paragraphs:
   -
     id: "2"
     pages: "193"
-    content: "<p>I am indeed persuaded, said <b>Philo</b>, that the best and indeed the only method of bringing every one to a due sense of religion, is by just representations of the misery and wickedness of men. And for that purpose a talent of eloquence and strong imagery is more requisite than that of reasoning and argument. For is it necessary to prove, what every one feels within himself? ’Tis only necessary to make us feel it, if possible, more intimately and sensibly.</p>"
+    content: "<p>I am indeed persuaded, said <b>Philo</b>, that the best and indeed the only method of bringing every one to a due sense of religion, is by just representations of the misery and wickedness of men. And for that purpose a talent of eloquence and strong imagery is more requisite than that of reasoning and argument. For is it necessary to prove, what every one feels within himself? 'Tis only necessary to make us feel it, if possible, more intimately and sensibly.</p>"
   -
     id: "3"
     pages: "193"
@@ -39,7 +43,7 @@ paragraphs:
   -
     id: "8"
     pages: "194"
-    content: "<p>And why should man, added he, pretend to an exemption from the lot of all other animals? The whole earth, believe me, <b>Philo</b>, is cursed and polluted. A perpetual war is kindled amongst all living creatures. Necessity, hunger, want, stimulate the strong and courageous: Fear, anxiety, terror, agitate the weak and infirm. The first entrance into life gives anguish to the new-born infant and to its wretched parent: Weakness, impotence, distress, attend each stage of that life: and ’tis at last finished in agony and horror.</p>"
+    content: "<p>And why should man, added he, pretend to an exemption from the lot of all other animals? The whole earth, believe me, <b>Philo</b>, is cursed and polluted. A perpetual war is kindled amongst all living creatures. Necessity, hunger, want, stimulate the strong and courageous: Fear, anxiety, terror, agitate the weak and infirm. The first entrance into life gives anguish to the new-born infant and to its wretched parent: Weakness, impotence, distress, attend each stage of that life: and 'tis at last finished in agony and horror.</p>"
   -
     id: "9"
     pages: "194-5"
@@ -59,7 +63,7 @@ paragraphs:
   -
     id: "13"
     pages: "195-6"
-    content: "<p>But though these external insults, said <b>Demea</b>, from animals, from men, from all the elements, which assault us, form a frightful catalogue of woes, they are nothing in comparison of those, which arise within ourselves, from the distempered condition of our mind and body. How many lie under the lingering torment of diseases? Hear the pathetic enumeration of the great poet. <blockquote>Intestine stone and ulcer, colic-pangs,<br>Dæmoniac frenzy, moping melancholy,<br>And moon-struck madness, pining atrophy,<br>Marasmus, and wide-wasting pestilence.<br><span class='page-break'>|</span>Dire was the tossing, deep the groans: DESPAIR<br>Tended the sick, busiest from couch to couch.<br>And over them triumphant DEATH his dart<br>Shook: but delay’d to strike, tho’ oft invok’d<br>With vows, as their chief good and final hope.</blockquote></p>"
+    content: "<p>But though these external insults, said <b>Demea</b>, from animals, from men, from all the elements, which assault us, form a frightful catalogue of woes, they are nothing in comparison of those, which arise within ourselves, from the distempered condition of our mind and body. How many lie under the lingering torment of diseases? Hear the pathetic enumeration of the great poet. <blockquote>Intestine stone and ulcer, colic-pangs,<br>Dæmoniac frenzy, moping melancholy,<br>And moon-struck madness, pining atrophy,<br>Marasmus, and wide-wasting pestilence.<br><span class='page-break'>|</span>Dire was the tossing, deep the groans: DESPAIR<br>Tended the sick, busiest from couch to couch.<br>And over them triumphant DEATH his dart<br>Shook: but delay'd to strike, tho' oft invok'd<br>With vows, as their chief good and final hope.</blockquote></p>"
   -
     id: "14"
     pages: "196"
@@ -91,11 +95,11 @@ paragraphs:
   -
     id: "21"
     pages: "197"
-    content: "<p>If you feel not human misery yourself, cried <b>Demea</b>, I congratulate you on so happy a singularity. Others, seemingly the most prosperous, have not been ashamed to vent their complaints in the most melancholy strains. Let us attend to the great, the fortunate Emperor, <b>Charles V</b>, when, tired with human grandeur, he resigned all his extensive dominions into the hands of his son. In the last harangue, which he made on that memorable occasion, he publicly avowed, <em>that the greatest prosperities which he had ever enjoyed, had been mixed with so many adversities, that he might truly say he had never enjoyed any satisfaction or contentment</em><ins title='editorial insertion'>.</ins> But did the retired life, in which he sought for shelter, afford him any greater happiness? If we may credit his son’s account, his repentance commenced the very day of his resignation.</p>"
+    content: "<p>If you feel not human misery yourself, cried <b>Demea</b>, I congratulate you on so happy a singularity. Others, seemingly the most prosperous, have not been ashamed to vent their complaints in the most melancholy strains. Let us attend to the great, the fortunate Emperor, <b>Charles V</b>, when, tired with human grandeur, he resigned all his extensive dominions into the hands of his son. In the last harangue, which he made on that memorable occasion, he publicly avowed, <em>that the greatest prosperities which he had ever enjoyed, had been mixed with so many adversities, that he might truly say he had never enjoyed any satisfaction or contentment</em><ins title='editorial insertion'>.</ins> But did the retired life, in which he sought for shelter, afford him any greater happiness? If we may credit his son's account, his repentance commenced the very day of his resignation.</p>"
   -
     id: "22"
     pages: "197"
-    content: "<p><b>Cicero</b>’s fortune, from small beginnings, rose to the greatest lustre and renown; yet what pathetic complaints of the ills of life do his familiar letters, as well as philosophical discourses, contain? And suitably to his own experience, he introduces <b>Cato</b>, the great, the fortunate <b>Cato</b>, protesting in his old age, that, had he a new life in his offer, he would reject the present.</p>"
+    content: "<p><b>Cicero</b>'s fortune, from small beginnings, rose to the greatest lustre and renown; yet what pathetic complaints of the ills of life do his familiar letters, as well as philosophical discourses, contain? And suitably to his own experience, he introduces <b>Cato</b>, the great, the fortunate <b>Cato</b>, protesting in his old age, that, had he a new life in his offer, he would reject the present.</p>"
   -
     id: "23"
     pages: "197-8"
@@ -107,7 +111,7 @@ paragraphs:
   -
     id: "25"
     pages: "198"
-    content: "<p><b>Epicurus</b>’s old questions are yet unanswered. Is he willing to prevent evil, but not able? then is he impotent. Is he able, but not willing? then is he malevolent. Is he both able and willing? whence then is evil?</p>"
+    content: "<p><b>Epicurus</b>'s old questions are yet unanswered. Is he willing to prevent evil, but not able? then is he impotent. Is he able, but not willing? then is he malevolent. Is he both able and willing? whence then is evil?</p>"
   -
     id: "26"
     pages: "198"
@@ -139,7 +143,7 @@ paragraphs:
   -
     id: "33"
     pages: "200-1"
-    content: "<p>But not to insist upon these topics, continued <b>Philo</b>, though most obvious, certain, and important; I must use the freedom to admonish you, <b>Cleanthes</b>, that you have put the controversy upon a most dangerous issue, and are, unawares introducing a total Scepticism into the most essential articles of natural and revealed theology. What! no method of fixing a just foundation for religion, unless we allow the happiness of human life, and maintain a continued existence even in this world, with all our present pains, infirmities, vexations, and <span class='page-break'>|</span>follies, to be eligible and desireable! But this is contrary to every one’s feeling and experience: It is contrary to an authority so established as nothing can subvert: No decisive proofs can ever be produced against this authority; nor is it possible for you to compute, estimate, and compare all the pains and all the pleasures in the lives of all men and of all animals: And thus by your resting the whole system of religion on a point, which, from its very nature, must for ever be uncertain, you tacitly confess, that that system is equally uncertain.</p>"
+    content: "<p>But not to insist upon these topics, continued <b>Philo</b>, though most obvious, certain, and important; I must use the freedom to admonish you, <b>Cleanthes</b>, that you have put the controversy upon a most dangerous issue, and are, unawares introducing a total Scepticism into the most essential articles of natural and revealed theology. What! no method of fixing a just foundation for religion, unless we allow the happiness of human life, and maintain a continued existence even in this world, with all our present pains, infirmities, vexations, and <span class='page-break'>|</span>follies, to be eligible and desireable! But this is contrary to every one's feeling and experience: It is contrary to an authority so established as nothing can subvert: No decisive proofs can ever be produced against this authority; nor is it possible for you to compute, estimate, and compare all the pains and all the pleasures in the lives of all men and of all animals: And thus by your resting the whole system of religion on a point, which, from its very nature, must for ever be uncertain, you tacitly confess, that that system is equally uncertain.</p>"
   -
     id: "34"
     pages: "201"
@@ -152,9 +156,9 @@ paragraphs:
     id: "36"
     pages: "201-2"
     content: "<p>Here, <b>Cleanthes</b>, I find myself at ease in my argument. Here I triumph. Formerly, when we argued concerning the <span class='page-break'>|</span>natural attributes of intelligence and design, I needed all my sceptical and metaphysical subtilty to elude your grasp. In many views of the universe, and of its parts, particularly the latter, the beauty and fitness of final causes strike us with such irresistible force, that all objections appear (what I believe they really are) mere cavils and sophisms; nor can we then imagine how it was ever possible for us to repose any weight on them. But there is no view of human life or of the condition of mankind, from which, without the greatest violence, we can infer the moral attributes, or learn that infinite benevolence, conjoined with infinite power and infinite wisdom, which we must discover by the eyes of faith alone. It is your turn now to tug the labouring oar, and to support your philosophical subtilties against the dictates of plain reason and experience.</p>"
+notes:
   -
-    id: "n9"
-    type: "note"
+    id: "9"
     pages: "194"
     symbol: "*"
     content: "<p>That sentiment had been maintained by Dr King and some few others before <b>Leibniz</b>; though by none of so great fame as that <b>German</b> philosopher.</p>"

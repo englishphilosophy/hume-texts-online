@@ -7,6 +7,9 @@ title:
   - "<h1><b>Sect. V.</b> <em>Various Forms of Polytheism: Allegory, Hero-Worship.</em></h1>"
 year: "1777"
 pages: "Bea"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -15,7 +18,7 @@ paragraphs:
   -
     id: "2"
     pages: "49"
-    content: "<p>Whoever learns by argument, the existence of invisible intelligent power, must reason from the admirable contrivance of natural objects, and must suppose the world to be the workmanship of that divine being, the original cause of all things. But the vulgar polytheist, so far from admitting that idea, deifies every part of the universe, and conceives all the conspicuous productions of nature, to be themselves so many real divinities. The sun, moon, and stars, are all gods according to his system: Fountains are inhabited by nymphs, and trees by hamadryads: Even monkies, dogs, cats, and other animals often become sacred in his eyes, and strike him with a religious veneration. And thus, however strong men’s propensity to believe invisible, intelligent power in nature, their propensity is equally strong to rest their attention on sensible, visible objects; and in order to reconcile these opposite inclinations, they are led to unite the invisible power with some visible object.</p>"
+    content: "<p>Whoever learns by argument, the existence of invisible intelligent power, must reason from the admirable contrivance of natural objects, and must suppose the world to be the workmanship of that divine being, the original cause of all things. But the vulgar polytheist, so far from admitting that idea, deifies every part of the universe, and conceives all the conspicuous productions of nature, to be themselves so many real divinities. The sun, moon, and stars, are all gods according to his system: Fountains are inhabited by nymphs, and trees by hamadryads: Even monkies, dogs, cats, and other animals often become sacred in his eyes, and strike him with a religious veneration. And thus, however strong men's propensity to believe invisible, intelligent power in nature, their propensity is equally strong to rest their attention on sensible, visible objects; and in order to reconcile these opposite inclinations, they are led to unite the invisible power with some visible object.</p>"
   -
     id: "3"
     pages: "49-50"
@@ -48,45 +51,39 @@ paragraphs:
     id: "10"
     pages: "51"
     content: "<p>Almost all idolaters, of whatever age or country, concur in these general principles and conceptions; and even the particular characters and provinces, which they assign to their deities, are not extremely different<sup><a href='#n36'>[36]</a></sup>. The <b>Greek</b> and <b>Roman</b> travellers and conquerors, without much difficulty, found their own deities every where; and said, This is <b>Mercury</b>, that <b>Venus</b>; this <b>Mars</b>, that <b>Neptune</b>; by whatever title the strange gods might be denominated. The goddess <b>Hertha</b> of our <b>Saxon</b> ancestors seems to be no other, according to <b>Tacitus</b><sup><a href='#n37'>[37]</a></sup>, than the <em>Mater Tellus</em> of the <b>Romans</b>; and his conjecture was evidently just.</p>"
+notes:
   -
-    id: "n31"
-    type: "note"
+    id: "31"
     pages: "50"
     symbol: "*"
     content: "<p><b>Hesiod</b>. Theog. l. 935.</p>"
   -
-    id: "n32"
-    type: "note"
+    id: "32"
     pages: "50"
     symbol: "†"
     content: "<p>Id. ibid. & <b>Plut.</b> in vita <b>Pelop.</b></p>"
   -
-    id: "n33"
-    type: "note"
+    id: "33"
     pages: "50"
     symbol: "‡"
     content: "<p><b>Illiad</b>. xiv. 267.</p>"
   -
-    id: "n34"
-    type: "note"
+    id: "34"
     pages: "51"
     symbol: "*"
     content: "<p><b>Herodian</b>. lib. v. <b>Jupiter Ammon</b> is represented by <b>Curtius</b> as a deity of the same kind, lib. iv. cap. 7. The <b>Arabians</b> and <b>Persinuntians</b> adored also shapeless unformed stones as their deity. <b>Arnob.</b> lib. vi. So much did their folly exceed that of the <b>Egyptians</b>.</p>"
   -
-    id: "n35"
-    type: "note"
+    id: "35"
     pages: "51"
     symbol: "†"
     content: "<p><b>Diod. Lært.</b> lib. ii.</p>"
   -
-    id: "n36"
-    type: "note"
+    id: "36"
     pages: "51"
     symbol: "*"
     content: "<p>See <b>Cæsar</b> of the religion of the <b>Gauls</b>, De bello Gallico, lib. xi.</p>"
   -
-    id: "n37"
-    type: "note"
+    id: "37"
     pages: "51"
     symbol: "†"
     content: "<p>De moribus <b>Germ.</b></p>"

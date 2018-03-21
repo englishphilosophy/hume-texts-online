@@ -6,6 +6,9 @@ title:
   - "<h1>Of <b>Public Credit</b>.</h1>"
 year: "1752, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -27,7 +30,7 @@ paragraphs:
   -
     id: "5"
     pages: "352"
-    content: "<p>It is very tempting to a minister to employ such an expedient, as enables him to make a great figure during his administration, without overburthening the people with taxes, or exciting any immediate clamours against himself. The practice, therefore, of contracting debt will almost infallibly be abused, in every government. It would scarcely be more imprudent to give a prodigal son a credit in every banker’s shop in London, than to impower a statesman to draw bills, in this manner, upon posterity.</p>"
+    content: "<p>It is very tempting to a minister to employ such an expedient, as enables him to make a great figure during his administration, without overburthening the people with taxes, or exciting any immediate clamours against himself. The practice, therefore, of contracting debt will almost infallibly be abused, in every government. It would scarcely be more imprudent to give a prodigal son a credit in every banker's shop in London, than to impower a statesman to draw bills, in this manner, upon posterity.</p>"
   -
     id: "6"
     pages: "352"
@@ -139,50 +142,44 @@ paragraphs:
   -
     id: "33"
     pages: "365"
-    content: "<p>These seem to be the events, which are not very remote, and which reason foresees as clearly almost as she can do any thing that lies in the womb of time. And though the ancients maintained, that in order to reach the gift of prophecy, a certain divine fury or madness was requisite, one may safely affirm, that, in order to deliver such prophecies as these, no more is necessary, than merely to be in one’s senses, free from the influence of popular madness and delusion.</p>"
+    content: "<p>These seem to be the events, which are not very remote, and which reason foresees as clearly almost as she can do any thing that lies in the womb of time. And though the ancients maintained, that in order to reach the gift of prophecy, a certain divine fury or madness was requisite, one may safely affirm, that, in order to deliver such prophecies as these, no more is necessary, than merely to be in one's senses, free from the influence of popular madness and delusion.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "349"
     symbol: "*"
     content: "<p>Essay V. <ins title='added for ease of reference'>[Of the Balance of Trade.]</ins></p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "349"
     symbol: "†"
     content: "<p><b>Alcib.</b> <b>i</b>.</p>"
   -
-    id: "n3"
-    type: "note"
+    id: "3"
     pages: "350"
     symbol: "‡"
     content: "<p>Lib. iii.</p>"
   -
-    id: "n4"
-    type: "note"
+    id: "4"
     pages: "350"
     symbol: "ǁ"
     content: "<p><b>Plut.</b> <em>in vita</em> <b>Alex.</b> He makes these treasures amount to 80,000 talents, or about 15 millions sterl. <b>Quintus Curtius</b> (lib. v. cap. 2.) says, that <b>Alexander</b> found in <b>Susa</b> above 50,000 talents.</p>"
   -
-    id: "n5"
-    type: "note"
+    id: "5"
     pages: "350"
     symbol: "§"
     content: "<p><b>Strabo</b>, lib. iv.</p>"
   -
-    id: "n6"
-    type: "note"
+    id: "6"
     pages: "364"
     symbol: "†"
     content: "<p><em>Hist. lib.</em> iii.</p>"
   -
-    id: "n7"
-    type: "endnote"
+    id: "7"
     symbol: "*"
     content: "<p>See NOTE [S].</p>"
   -
     id: "[S].1"
     type: "first"
     pages: "364-5"
-    content: "<p><strong>I</strong> Have heard it has been computed, that all the creditors of the public, natives and foreigners, amount only to 17,000. These make a figure at present on their income; but in case of a public bankruptcy, would, in an instant, become the lowest, as well as the most wretched of the people. The dignity and authority of the landed gentry and nobility is much better rooted; and would render the contention very unequal, if ever we come to that extremity. One would incline to assign to this event a very near period, <span class='page-break'>|</span>such as half a century, had not our fathers’ prophecies of this kind been already found fallacious, by the duration of our public credit so much beyond all reasonable expectation. When the astrologers in <b>France</b> were every year foretelling the death of <b>Henry IV</b>. <em>These fellows</em>, says he, <em>must be right at last.</em> We shall, therefore, be more cautious than to assign any precise date; and shall content ourselves with pointing out the event in general.</p>"
+    content: "<p><strong>I</strong> Have heard it has been computed, that all the creditors of the public, natives and foreigners, amount only to 17,000. These make a figure at present on their income; but in case of a public bankruptcy, would, in an instant, become the lowest, as well as the most wretched of the people. The dignity and authority of the landed gentry and nobility is much better rooted; and would render the contention very unequal, if ever we come to that extremity. One would incline to assign to this event a very near period, <span class='page-break'>|</span>such as half a century, had not our fathers' prophecies of this kind been already found fallacious, by the duration of our public credit so much beyond all reasonable expectation. When the astrologers in <b>France</b> were every year foretelling the death of <b>Henry IV</b>. <em>These fellows</em>, says he, <em>must be right at last.</em> We shall, therefore, be more cautious than to assign any precise date; and shall content ourselves with pointing out the event in general.</p>"

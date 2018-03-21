@@ -6,6 +6,9 @@ title:
   - "<h1>Of <b>Taxes</b>.</h1>"
 year: "1752, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -52,15 +55,14 @@ paragraphs:
     id: "11"
     pages: "347-8"
     content: "<p>I shall conclude this subject with observing, that we have, with regard to taxes, an instance of what frequently happens in political institutions, that the consequences of things are diametrically opposite to what we should expect on the first appearance. It is regarded as a fundamental maxim of the <b>Turkish</b> government, that the <em>Grand Signior</em>, though absolute master of the lives and fortunes of each individual, has no authority to impose a new tax; and every <b>Ottoman</b> prince, who has made such an attempt, either has been obliged to retract, or has found the fatal effects of his perseverance. One would imagine, that this prejudice or established opinion were <span class='page-break'>|</span>the firmest barrier in the world against oppression; yet it is certain, that its effect is quite contrary. The emperor, having no regular method of encreasing his revenue, must allow all the bashaws and governors to oppress and abuse the subjects: And these he squeezes after their return from their government. Whereas, if he could impose a new tax, like our <b>European</b> princes, his interest would so far be united with that of his people, that he would immediately feel the bad effects of these disorderly levies of money, and would find, that a pound, raised by a general imposition, would have less pernicious effects, than a shilling taken in so unequal and arbitrary a manner.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "344"
     symbol: "†"
     content: "<p>Epist. ad <b>Att.</b> lib. ix. ep. II.</p>"
   -
-    id: "n2"
-    type: "note"
+    id: "2"
     pages: "344"
     symbol: "‡"
     content: "<p>Account of the <b>Netherlands</b>, chap. 6.</p>"

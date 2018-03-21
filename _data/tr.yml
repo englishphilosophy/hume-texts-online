@@ -6,6 +6,9 @@ title:
   - "<h1>Of <b>Tragedy</b>.</h1>"
 year: "1757, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -19,7 +22,7 @@ paragraphs:
   -
     id: "3"
     pages: "217"
-    content: "<p>L’Abbe <b>Dubos</b>, in his reflections on poetry and painting, asserts, that nothing is in general so disagreeable to the mind as the languid, listless state of indolence, into which it falls upon the removal of all passion and occupation. To get rid of this painful situation, it seeks every amusement and pursuit; business, gaming, shews, executions; whatever will rouze the passions, and take its attention from itself. No matter what the passion is: Let it be disagreeable, afflicting, melancholy, disordered; it is still better than that insipid languor, which arises from perfect tranquillity and repose.</p>"
+    content: "<p>L'Abbe <b>Dubos</b>, in his reflections on poetry and painting, asserts, that nothing is in general so disagreeable to the mind as the languid, listless state of indolence, into which it falls upon the removal of all passion and occupation. To get rid of this painful situation, it seeks every amusement and pursuit; business, gaming, shews, executions; whatever will rouze the passions, and take its attention from itself. No matter what the passion is: Let it be disagreeable, afflicting, melancholy, disordered; it is still better than that insipid languor, which arises from perfect tranquillity and repose.</p>"
   -
     id: "4"
     pages: "217"
@@ -59,7 +62,7 @@ paragraphs:
   -
     id: "13"
     pages: "221"
-    content: "<p>Had you any intention to move a person extremely by the narration of any event, the best method of encreasing its effect would be artfully to delay informing him of it, and first to excite his curiosity and impatience before you let him into the secret. This is the artifice practised by <b>Iago</b> in the famous scene of <b>Shakespeare</b>; and every spectator is sensible, that <b>Othello</b>’s jealousy acquires additional force from his preceding impatience, and that the subordinate passion is here readily transformed into the predominant one.</p>"
+    content: "<p>Had you any intention to move a person extremely by the narration of any event, the best method of encreasing its effect would be artfully to delay informing him of it, and first to excite his curiosity and impatience before you let him into the secret. This is the artifice practised by <b>Iago</b> in the famous scene of <b>Shakespeare</b>; and every spectator is sensible, that <b>Othello</b>'s jealousy acquires additional force from his preceding impatience, and that the subordinate passion is here readily transformed into the predominant one.</p>"
   -
     id: "14"
     pages: "221"
@@ -99,7 +102,7 @@ paragraphs:
   -
     id: "23"
     pages: "223-4"
-    content: "<p>Lord <b>Clarendon</b>, when he approaches towards the catastrophe of the royal party, supposes, that his narration must then become infinitely disagreeable; and he hurries over the king’s death, without giving us one circumstance of it. He considers it as too horrid a scene to be contemplated with any satisfaction, or even without the utmost pain and aversion. He himself, as well as the readers of that age, were too deeply concerned in the events, and felt a pain from subjects, which <span class='page-break'>|</span>an historian and a reader of another age would regard as the most pathetic and most interesting, and, by consequence, the most agreeable.</p>"
+    content: "<p>Lord <b>Clarendon</b>, when he approaches towards the catastrophe of the royal party, supposes, that his narration must then become infinitely disagreeable; and he hurries over the king's death, without giving us one circumstance of it. He considers it as too horrid a scene to be contemplated with any satisfaction, or even without the utmost pain and aversion. He himself, as well as the readers of that age, were too deeply concerned in the events, and felt a pain from subjects, which <span class='page-break'>|</span>an historian and a reader of another age would regard as the most pathetic and most interesting, and, by consequence, the most agreeable.</p>"
   -
     id: "24"
     pages: "224"
@@ -120,15 +123,14 @@ paragraphs:
     id: "28"
     pages: "225"
     content: "<p>What so disagreeable as the dismal, gloomy, disastrous stories, with which melancholy people entertain their companions? The uneasy passion being there raised alone, unaccompanied with any spirit, genius, or eloquence, conveys a pure uneasiness, and is attended with nothing that can soften it into pleasure or satisfaction.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "218"
     symbol: "*"
     content: "<p>Reflexions sur la poetique, §36.</p>"
   -
-    id: "n2"
-    type: "endnote"
+    id: "2"
     symbol: "*"
     content: "<p>See NOTE [N].</p>"
   -
@@ -137,8 +139,7 @@ paragraphs:
     pages: "220"
     content: "<p><strong>P</strong>AINTERS make no scruple of representing distress and sorrow as well as any other passion: But they seem not to dwell so much on these melancholy affections as the poets, who, though they copy every motion of the human breast, yet pass quickly over the agreeable sentiments. A painter represents only one instant; and if that be passionate enough, it is sure to affect and delight the spectator: But nothing can furnish to the poet a variety of scenes and incidents and sentiments, except distress, terror, or anxiety. Compleat joy and satisfaction is attended with security, and leaves no farther room for action.</p>"
   -
-    id: "n3"
-    type: "note"
+    id: "3"
     pages: "222"
     symbol: "†"
     content: "<p>Illud vero perquam rarum ac memoria dignum, etiam suprema opera artificum, imperfectasque tabulas, sicut, <b>Irin Aristidis</b>, <b>Tyndaridas</b> <b>Nicomachi</b>, <b>Medeam Timomachi</b>, & quam diximus <b>Venerem Apellis</b>, in majori admiratione esse quam perfecta. Quippe in iis lineamenta reliqua, ipsæque cogitationes artificum spectantur, atque in lenocinio commendationis dolor est manus, cum id ageret, extinctæ. Lib. xxxv. cap. 11.</p>"

@@ -6,6 +6,9 @@ title:
   - "<h1>Of <b>Superstition</b> and <b>Enthusiasm</b>.</h1>"
 year: "1741, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -48,9 +51,9 @@ paragraphs:
     id: "10"
     pages: "79"
     content: "<p>The <em>molinists</em> and <em>jansenists</em> in <b>France</b> have a thousand unintelligible disputes, which are not worthy the reflection of a man of sense: But what principally distinguishes these two sects, and alone merits attention, is the different spirit of their religion. The <em>molinists</em> conducted by the <em>jesuits</em>, are great friends to superstition, rigid observers of external forms and ceremonies, and devoted to the authority of the priests, and to tradition. The <em>jansenists</em> are enthusiasts, and zealous promoters of the passionate devotion, and of the inward life; little influenced by authority; and, in a word, but half catholics. The consequences are exactly conformable to the foregoing reasoning. The <em>jesuits</em> are the tyrants of the people, and the slaves of the court: And the <em>jansenists</em> preserve alive the small sparks of the love of liberty, which are to be found in the <b>French</b> nation.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "78"
     symbol: "*"
     content: "<p>The <b>Chinese</b> Literati have no priests or ecclesiastical establishment.</p>"

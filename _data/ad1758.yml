@@ -6,8 +6,11 @@ title:
   - "Advertisement"
   - "<h1>ADVERTISEMENT.</h1>"
 year: "1758"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
     type: "first"
-    content: "<p><strong>S</strong>OME Alterations are made on the Titles of the Treatises, contained in the following Volume. What in former Editions was called <em>Essays moral and political</em>, is here entitled <em>Essays, moral, political, and literary, Part</em> I. The <em>political Discourses</em> form the <em>second Part</em>. What in former Editions was called, <em>Philosophical Essays concerning human Understanding</em>, is here entitled <em>An Enquiry concerning human Understanding</em>. The <em>four Dissertations</em> lately published are dispersed thro’ different Parts of this Volume.</p>"
+    content: "<p><strong>S</strong>OME Alterations are made on the Titles of the Treatises, contained in the following Volume. What in former Editions was called <em>Essays moral and political</em>, is here entitled <em>Essays, moral, political, and literary, Part</em> I. The <em>political Discourses</em> form the <em>second Part</em>. What in former Editions was called, <em>Philosophical Essays concerning human Understanding</em>, is here entitled <em>An Enquiry concerning human Understanding</em>. The <em>four Dissertations</em> lately published are dispersed thro' different Parts of this Volume.</p>"

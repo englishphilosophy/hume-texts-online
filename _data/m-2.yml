@@ -7,6 +7,9 @@ title:
   - "<h1><strong>SECTION </strong>II.</h1><h2>Of <b>Benevolence</b>.</h2>"
 year: "1777"
 pages: "SBN"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -103,3 +106,36 @@ paragraphs:
     id: "23"
     pages: ""
     content: "<p>How considerable a <em>part</em> of their merit we ought to ascribe to their utility, will better appear from future disquisitions<sup><a href='#n8'>[8]</a></sup>; as well as the reason, why this circumstance has such a command over our esteem and approbation<sup><a href='#n9'>[9]</a></sup>.</p>"
+notes:
+  -
+    id: "2"
+    symbol: "*"
+    content: "<p><b>Plut.</b> in <b>Pericle</b>.</p>"
+  -
+    id: "3"
+    symbol: "†"
+    content: "<p><b>Cic.</b> de Officiis, lib. I.</p>"
+  -
+    id: "4"
+    symbol: "‡"
+    content: "<p>Sat. xv. 139 & seq.</p>"
+  -
+    id: "5"
+    symbol: "*"
+    content: "<p>De Nat. Deor. lib. i.</p>"
+  -
+    id: "6"
+    symbol: "†"
+    content: "<p><b>Sext. Emp.</b> adversus <b>Math.</b> lib. viii.</p>"
+  -
+    id: "7"
+    symbol: "‡"
+    content: "<p><b>Diod. Sic.</b> passim.</p>"
+  -
+    id: "8"
+    symbol: "*"
+    content: "<p>Sect 3d and 4th.</p>"
+  -
+    id: "9"
+    symbol: "†"
+    content: "<p>Sect. 5th.</p>"

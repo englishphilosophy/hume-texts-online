@@ -6,6 +6,9 @@ title:
   - "<h1>Of the <b>Coalition</b> of <b>Parties</b>.</h1>"
 year: "1758, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -59,7 +62,7 @@ paragraphs:
   -
     id: "13"
     pages: "498-9"
-    content: "<p>The true rule of government is the present established practice of the age. That has most authority, because it is <span class='page-break'>|</span>recent: It is also best known, for the same reason. Who has assured those tribunes, that the <b>Plantagenets</b> did not exercise as high acts of authority as the <b>Tudors</b>? Historians, they say, do not mention them. But historians are also silent with regard to the chief exertions of prerogative by the <b>Tudors</b>. Where any power or prerogative is fully and undoubtedly established, the exercise of it passes for a thing of course, and readily escapes the notice of history and annals. Had we no other monuments of <b>Elizabeth</b>’s reign, than what are preserved even by <b>Camden</b>, the most copious, judicious, and exact of our historians, we should be entirely ignorant of the most important maxims of her government.</p>"
+    content: "<p>The true rule of government is the present established practice of the age. That has most authority, because it is <span class='page-break'>|</span>recent: It is also best known, for the same reason. Who has assured those tribunes, that the <b>Plantagenets</b> did not exercise as high acts of authority as the <b>Tudors</b>? Historians, they say, do not mention them. But historians are also silent with regard to the chief exertions of prerogative by the <b>Tudors</b>. Where any power or prerogative is fully and undoubtedly established, the exercise of it passes for a thing of course, and readily escapes the notice of history and annals. Had we no other monuments of <b>Elizabeth</b>'s reign, than what are preserved even by <b>Camden</b>, the most copious, judicious, and exact of our historians, we should be entirely ignorant of the most important maxims of her government.</p>"
   -
     id: "14"
     pages: "499"

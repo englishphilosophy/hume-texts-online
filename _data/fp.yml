@@ -6,6 +6,9 @@ title:
   - "<h1>Of the <b>First Principles</b> of <b>Government</b>.</h1>"
 year: "1741, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -31,7 +34,7 @@ paragraphs:
   -
     id: "6"
     pages: "34"
-    content: "<p>For, <em>first</em>, as to <em>self-interest</em>, by which I mean the expectation of particular rewards, distinct from the general protection which we receive from government, it is evident that the magistrate’s authority must be antecedently established, at least be hoped for, in order to produce this expectation. The prospect of reward may augment his authority with regard to some particular persons; but can never give birth to it, with regard to the public. Men naturally look for the greatest favours from their friends and acquaintance; and therefore, the hopes of any considerable number of the state would never center in any particular set of men, if these men had no other title to magistracy, and had no separate influence over the opinions of mankind. The same observation may be extended to the other two principles of <em>fear</em> and <em>affection</em>. No man would have any reason to <em>fear</em> the fury of a tyrant, if he had no authority over any but from fear; since, as a single man, his bodily force can reach but a small way, and all the farther power he possesses must be founded either on our own opinion, or on the presumed opinion of others. And though <em>affection</em> to wisdom and virtue in a <em>sovereign</em> extends very far, and has great influence; yet he must antecedently be supposed invested with a public character, otherwise the public esteem will serve him in no stead, nor will his virtue have any influence beyond a narrow sphere.</p>"
+    content: "<p>For, <em>first</em>, as to <em>self-interest</em>, by which I mean the expectation of particular rewards, distinct from the general protection which we receive from government, it is evident that the magistrate's authority must be antecedently established, at least be hoped for, in order to produce this expectation. The prospect of reward may augment his authority with regard to some particular persons; but can never give birth to it, with regard to the public. Men naturally look for the greatest favours from their friends and acquaintance; and therefore, the hopes of any considerable number of the state would never center in any particular set of men, if these men had no other title to magistracy, and had no separate influence over the opinions of mankind. The same observation may be extended to the other two principles of <em>fear</em> and <em>affection</em>. No man would have any reason to <em>fear</em> the fury of a tyrant, if he had no authority over any but from fear; since, as a single man, his bodily force can reach but a small way, and all the farther power he possesses must be founded either on our own opinion, or on the presumed opinion of others. And though <em>affection</em> to wisdom and virtue in a <em>sovereign</em> extends very far, and has great influence; yet he must antecedently be supposed invested with a public character, otherwise the public esteem will serve him in no stead, nor will his virtue have any influence beyond a narrow sphere.</p>"
   -
     id: "7"
     pages: "35"

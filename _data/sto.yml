@@ -6,6 +6,9 @@ title:
   - "<h1>The <b>Stoic</b><sup><a href='#n1'>[1]</a></sup>.</h1>"
 year: "1742, 1777"
 pages: "Mil"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -88,9 +91,9 @@ paragraphs:
     id: "20"
     pages: "154"
     content: "<p>There surely is a being who presides over the universe; and who, with infinite wisdom and power, has reduced the jarring elements into just order and proportion. Let speculative reasoners dispute, how far this beneficent being extends his care, and whether he prolongs our existence beyond the grave, in order to bestow on virtue its just reward, and render it fully triumphant. The man of morals, without deciding any thing on so dubious a subject, is satisfied with the portion, marked out to him by the supreme disposer of all things. Gratefully he accepts of that farther reward prepared for him; but if disappointed, he thinks not virtue an empty name; but justly esteeming it its own reward, he gratefully acknowledges the bounty of his creator, who, by calling him into existence, has thereby afforded him an opportunity of once acquiring so invaluable a possession.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
+    id: "1"
     pages: "146"
     symbol: "†"
     content: "<p>Or the man of action and virtue.</p>"

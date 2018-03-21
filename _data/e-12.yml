@@ -7,6 +7,9 @@ title:
   - "<h1><strong>SECTION </strong>XII.</h1><h2>Of the <b>Academical</b> or <b>Sceptical Philosophy</b>.</h2>"
 year: "1777"
 pages: "SBN"
+wordcount:
+  original: 0
+  edited: 0
 paragraphs:
   -
     id: "1"
@@ -94,7 +97,7 @@ paragraphs:
   -
     id: "21"
     pages: ""
-    content: "<p>The sceptical objections to <em>moral</em> evidence, or to the reasonings concerning matter of fact, are either <em>popular</em> or <em>philosophical</em>. The popular objections are derived from the natural weakness of human understanding; the contradictory opinions, which have been entertained in different ages and nations; the variations of our judgment in sickness and health, youth and old age, prosperity and adversity; the perpetual contradiction of each particular man’s opinions and sentiments; with many other topics of that kind. It is needless to insist farther on this head. These objections are but weak. For as, in common life, we reason every moment concerning fact and existence, and cannot possibly subsist, without continually employing this species of argument, any popular objections, derived from thence, must be insufficient to destroy that evidence. The great subverter of <em>Pyrrhonism</em> or the excessive principles of <SBN#159>scepticism, is action, and employment, and the occupations of common life. These principles may flourish and triumph in the schools; where it is, indeed, difficult, if not impossible, to refute them. But as soon as they leave the shade, and by the presence of the real objects, which actuate our passions and sentiments, are put in opposition to the more powerful principles of our nature, they vanish like smoke, and leave the most determined sceptic in the same condition as other mortals.</p>"
+    content: "<p>The sceptical objections to <em>moral</em> evidence, or to the reasonings concerning matter of fact, are either <em>popular</em> or <em>philosophical</em>. The popular objections are derived from the natural weakness of human understanding; the contradictory opinions, which have been entertained in different ages and nations; the variations of our judgment in sickness and health, youth and old age, prosperity and adversity; the perpetual contradiction of each particular man's opinions and sentiments; with many other topics of that kind. It is needless to insist farther on this head. These objections are but weak. For as, in common life, we reason every moment concerning fact and existence, and cannot possibly subsist, without continually employing this species of argument, any popular objections, derived from thence, must be insufficient to destroy that evidence. The great subverter of <em>Pyrrhonism</em> or the excessive principles of <SBN#159>scepticism, is action, and employment, and the occupations of common life. These principles may flourish and triumph in the schools; where it is, indeed, difficult, if not impossible, to refute them. But as soon as they leave the shade, and by the presence of the real objects, which actuate our passions and sentiments, are put in opposition to the more powerful principles of our nature, they vanish like smoke, and leave the most determined sceptic in the same condition as other mortals.</p>"
   -
     id: "22"
     pages: ""
@@ -148,300 +151,16 @@ paragraphs:
     id: "34"
     pages: ""
     content: "<p>When we run over libraries, persuaded of these principles, what havoc must we make? If we take in our hand any volume; of divinity or school metaphysics, for instance; let us ask, <em>Does it contain any abstract reasoning concerning quantity or number?</em> No. <em>Does it contain any experimental reasoning concerning matter of fact and existence?</em> No. Commit it then to the flames: For it can contain nothing but sophistry and illusion.</p>"
+notes:
   -
-    id: "n1"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [A].</p>"
-  -
-    id: "[A].1"
-    type: "first"
-    content: "<p><strong>I</strong>T is probable that no more was meant by those, who denied innate ideas, than that all ideas were copies of our impressions; though it must be confessed, that the terms, which they employed, were not chosen with such caution, nor so exactly defined, as to prevent all mistakes about their doctrine. For what is meant by <em>innate</em>? If innate be equivalent to natural, then all the perceptions and ideas of the mind must be allowed to be innate or natural, in whatever sense we take the latter word, whether in opposition to what is uncommon, artificial, or miraculous. If by innate be meant, contemporary to our birth, the dispute seems to be frivolous; nor is it worth while to enquire at what time thinking begins, whether before, at, or after our birth. Again, the word <em>idea</em>, seems to be commonly taken in a very loose sense, by <b>Locke</b> and others; as standing for any of our perceptions, our sensations and passions, as well as thoughts. Now in this sense, I should desire to know, what can be meant by asserting, that self-love, or resentment of injuries, or the passion between the sexes is not innate?</p>"
-  -
-    id: "[A].2"
-    content: "<p>But admitting these terms, <em>impressions</em> and <em>ideas</em>, in the sense above explained, and understanding by <em>innate</em>, what is original or copied from no precedent perception, then may we assert, that all our impressions are innate, and our ideas not innate.</p>"
-  -
-    id: "[A].3"
-    content: "<p>To be ingenuous, I must own it to be my opinion, that <b>Locke</b> was betrayed into this question by the schoolmen, who, making use of undefined terms, draw out their disputes to a tedious length, without ever touching the point in question. A like ambiguity and circumlocution seem to run through that philosopher’s reasonings on this as well as most other subjects.</p>"
-  -
-    id: "n2"
-    type: "note"
-    symbol: "*"
-    content: "<p>Resemblance.</p>"
-  -
-    id: "n3"
-    type: "note"
-    symbol: "†"
-    content: "<p>Contiguity.</p>"
-  -
-    id: "n4"
-    type: "note"
-    symbol: "‡"
-    content: "<p>Cause and effect.</p>"
-  -
-    id: "n6"
-    type: "note"
-    symbol: "§"
-    content: "<p>For instance, Contrast or Contrariety is also a connexion among Ideas: But it may, perhaps, be considered as a mixture of <em>Causation</em> and <em>Resemblance</em>. Where two objects are contrary, the one destroys the other; that is, <ins title='editorial insertion'>is</ins> the cause of its annihilation, and the idea of the annihilation of an object, implies the idea of its former existence.</p>"
-  -
-    id: "n7"
-    type: "note"
-    symbol: "*"
-    content: "<p>The word, Power, is here used in a loose and popular sense. The more accurate explication of it would give additional evidence to this argument. See Sect. 7.</p>"
-  -
-    id: "n8"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [B].</p>"
-  -
-    id: "[B].1"
-    type: "first"
-    content: "<p><strong>N</strong>OTHING is more usual than for writers, even, on <em>moral</em>, <em>political</em>, or <em>physical</em> subjects, to distinguish between <em>reason</em> and <em>experience</em>, and to suppose, that these species of argumentation are entirely different from <SBN#44>each other. The former are taken for the mere result of our intellectual faculties, which, by considering <em>à priori</em> the nature of things, and examining the effects, that must follow from their operation, establish particular principles of science and philosophy. The latter are supposed to be derived entirely from sense and observation, by which we learn what has actually resulted from the operation of particular objects, and are thence able to infer, what will, for the future, result from them. Thus, for instance, the limitations and restraints of civil government, and a legal constitution, may be defended, either from <em>reason</em>, which reflecting on the great frailty and corruption of human nature, teaches, that no man can safely be trusted with unlimited authority; or from <em>experience</em> and history, which inform us of the enormous abuses, that ambition, in every age and country, has been found to make of so imprudent a confidence.</p>"
-  -
-    id: "[B].2"
-    content: "<p>The same distinction between reason and experience is maintained in all our deliberations concerning the conduct of life; while the experienced statesman, general, physician, or merchant is trusted and followed; and the unpractised novice, with whatever natural talents endowed, neglected and despised. Though it be allowed, that reason may form very plausible conjectures with regard to the consequences of such a particular conduct in such particular circumstances; it is still supposed imperfect, without the assistance of experience, which is alone able to give stability and certainty to the maxims, derived from study and reflection.</p>"
-  -
-    id: "[B].3"
-    content: "<p>But notwithstanding that this distinction be thus universally received, both in the active <ins title='editorial insertion'>and</ins> speculative scenes of life, I shall not scruple to pronounce, that it is, at bottom, erroneous, at least, superficial.</p>"
-  -
-    id: "[B].4"
-    content: "<p>If we examine those arguments, which, in any of the sciences above-mentioned, are supposed to be the mere effects of reasoning and reflection, they will be found to terminate, at last, in some general principle or conclusion, for which we can assign no reason but observation and experience. The only difference between them and those maxims, which are vulgarly esteemed the result of pure experience, is, that the former cannot be established without some process of thought, and some reflection on what we have observed, in order to distinguish its circumstances, and trace its consequences: Whereas in the latter, the experienced event is exactly and fully similar to that which we infer as the result of any particular situation. The history of a <b>Tiberius</b> or a <b>Nero</b> makes us dread a like tyranny, were our monarchs freed from the restraints of laws and senates: But the observation of any fraud or <SBN#45>cruelty in private life is sufficient, with the aid of a little thought, to give us the same apprehension; while it serves as an instance of the general corruption of human nature, and shews us the danger which we must incur by reposing an entire confidence in mankind. In both cases, it is experience which is ultimately the foundation of our inference and conclusion.</p>"
-  -
-    id: "[B].5"
-    content: "<p>There is no man so young and unexperienced, as not to have formed, from observation, many general and just maxims concerning human affairs and the conduct of life; but it must be confessed, that, when a man comes to put these in practice, he will be extremely liable to error, till time and farther experience both enlarge these maxims, and teach him their proper use and application. In every situation or incident, there are many particular and seemingly minute circumstances, which the man of greatest talents is, at first, apt to overlook, though on them the justness of his conclusions, and consequently the prudence of his conduct, entirely depend. Not to mention, that, to a young beginner, the general observations and maxims occur not always on the proper occasions, nor can be immediately applied with due calmness and distinction. The truth is, an unexperienced reasoner could be no reasoner at all, were he absolutely unexperienced; and when we assign that character to any one, we mean it only in a comparative sense, and suppose him possessed of experience, in a smaller and more imperfect degree.</p>"
-  -
-    id: "n9"
-    type: "note"
-    symbol: "*"
-    content: "<p>“Naturane nobis, inquit, datum dicam, an errore quodam, ut, cum ea loca videamus, in quibus memoria dignos viros acceperimus multum esse versatos, magis moveamur, quam siquando eorum ipsorum aut facta audiamus aut scriptum aliquod legamus? Velut ego nunc moveor. <SBN#53>Venit enim mihi <b>Platonis</b> in mentem, quem accepimus primum hîc disputare solitum: Cujus etiam illi hortuli propinqui non memoriam solum mihi afferunt, sed ipsum videntur in conspectu meo hîc ponere. Hic <b>Speusippus</b>, hic <b>Xenocrates</b>, hic ejus auditor <b>Polemo</b>; cujus ipsa illa sessio fuit, quam videamus. Equidem etiam curiam nostram, <b>Hostiliam</b> dico, non hanc novam, quæ mihi minor esse videtur postquam est major, solebam intuens, <b>Scipionem</b>, <b>Catonem</b>, <b>Lælium</b>, nostrum vero in primis avum cogitare. Tanta vis admonitionis est in locis; ut non sine causa ex his memoriæ deducta sit disciplina.” <b>Cicero</b> <em>de Finibus</em>. Lib. v.</p>"
-  -
-    id: "n10"
-    type: "note"
-    symbol: "*"
-    content: "<p>Mr. <b>Locke</b> divides all arguments into demonstrative and probable. In this view, we must say, that it is only probable all men must die, or that the sun will rise to-morrow. But to conform our language more to common use, we ought to divide arguments into <em>demonstrations</em>, <em>proofs</em>, and <em>probabilities</em>. By proofs meaning such arguments from experience as leave no room for doubt or opposition.</p>"
-  -
-    id: "n11"
-    type: "note"
-    symbol: "*"
-    content: "<p>Section II.</p>"
-  -
-    id: "n12"
-    type: "note"
-    symbol: "*"
-    content: "<p>Mr. <b>Locke</b>, in his chapter of power, says, that, finding from experience, that there are several new productions in matter, and concluding that there must somewhere be a power capable of producing them, we arrive at last by this reasoning at the idea of power. But no reasoning can ever give us a new, original, simple idea; as this philosopher himself confesses. This, therefore, can never be the origin of that idea.</p>"
-  -
-    id: "n13"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [C].</p>"
-  -
-    id: "[C].1"
-    type: "first"
-    content: "<p><strong>I</strong>T may be pretended, that the resistance which we meet with in bodies, obliging us frequently to exert our force, and call up all our power, this gives us the idea of force and power. It is this <em>nisus</em> or strong endeavour, of which we are conscious, that is the original impression from which this idea is copied. But, first, we attribute power to a vast number of objects, where we never can suppose this resistance or exertion of force to take place; to the Supreme Being, who never meets with any resistance; to the mind in its command over its ideas and limbs, in common thinking and motion, where the effect follows immediately upon the will, without any exertion or summoning up of force; to inanimate matter, which is not capable of this sentiment. <em>Secondly</em>, This sentiment of an endeavour to overcome resistance has no known connexion with any event: What follows it, we know by experience; but could not know it <em>à priori</em>. It must, however, be confessed, that the animal <em>nisus</em>, which we experience, though it can afford no accurate precise idea of power, enters very much into that vulgar, inaccurate idea, which is formed of it.</p>"
-  -
-    id: "n14"
-    type: "note"
-    symbol: "*"
-    content: "<p><i>Θεος απο μηχανης.</i></p>"
-  -
-    id: "n15"
-    type: "note"
-    symbol: "*"
-    content: "<p>Section XII.</p>"
-  -
-    id: "n16"
-    type: "note"
-    symbol: "†"
-    content: "<p>See NOTE [D].</p>"
-  -
-    id: "[D].1"
-    type: "first"
-    content: "<p><strong>I</strong> NEED not examine at length the <em>vis inertiæ</em> which is so much talked of in the new philosophy, and which is ascribed to matter. We find by experience, that a body at rest or in motion continues for ever in its present state, till put from it by some new cause; and that a body impelled takes as much motion from the impelling body as it acquires itself. These are facts. When we call this a <em>vis inertiæ</em>, we only mark these facts, without pretending to have any idea of the inert power; in the same manner as, when we talk of gravity, we mean certain effects, without comprehending that active power. It was never the meaning of Sir <b>Isaac Newton</b> to rob second causes of all force or energy; though some of his followers have endeavoured to establish that theory upon his authority. On the contrary, that great philosopher had recourse to an etherial active fluid to explain his universal attraction; though he was so cautious and modest as to allow, that it was a mere hypothesis, not to be insisted on, without more experiments. I must confess, that there is something in the fate of opinions a little extraordinary. <b>Des Cartes</b> insinuated that doctrine of the universal and sole efficacy of the Deity, without insisting on it. <b>Malebranche</b> and other <b>Cartesians</b> made it the foundation of all their philosophy. It had, however, no authority in <b>England</b>. <b>Locke</b>, <b>Clarke</b>, and <b>Cudworth</b>, never so much as take notice of it, but suppose all along, that matter has a real, though subordinate and derived power. By what means has it become so prevalent among our modern metaphysicians?</p>"
-  -
-    id: "n17"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [E].</p>"
-  -
-    id: "[E].1"
-    type: "first"
-    content: "<p><strong>A</strong>CCORDING to these explications and definitions, the idea of <em>power</em> is relative as much as that of <em>cause</em>; and both have a reference to an effect, or some other event constantly conjoined with the former. When we consider the <em>unknown</em> circumstance of an object, by which the degree or quantity of its effect is fixed and determined, we call that its power: And accordingly, it is allowed by all philosophers, that the effect is the measure of the power. But if they had any idea of power, as it is in itself, why could not they measure it in itself? The dispute whether the force of a body in motion be as its velocity, or the square of its velocity; this dispute, I say, needed not be decided by comparing its effects in equal or unequal times; but by a direct mensuration and comparison.</p>"
-  -
-    id: "[E].2"
-    type: "endnote"
-    content: "<p>As to the frequent use of the words, Force, Power, Energy, <em>&c.</em> which every where occur in common conversation, as well as in philosophy; that is no proof, that we are acquainted, in any instance, with the connecting principle between cause and effect, or can account ultimately for the production of one thing by another. These words, as commonly <SBN#78>used, have very loose meanings annexed to them; and their ideas are very uncertain and confused. No animal can put external bodies in motion without the sentiment of a <em>nisus</em> or endeavour; and every animal has a sentiment or feeling from the stroke or blow of an external object, that is in motion. These sensations, which are merely animal, and from which we can <em>à priori</em> draw no inference, we are apt to transfer to inanimate objects, and to suppose, that they have some such feelings, whenever they transfer or receive motion. With regard to energies, which are exerted, without our annexing to them any idea of communicated motion, we consider only the constant experienced conjunction of the events; and as we feel a customary connexion between the ideas, we transfer that feeling to the objects; as nothing is more usual than to apply to external bodies every internal sensation, which they occasion.</p>"
-  -
-    id: "n18"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [F].</p>"
-  -
-    id: "[F].1"
-    type: "first"
-    content: "<p><strong>T</strong>HE prevalence of the doctrine of liberty may be accounted for, from another cause, <em>viz.</em> a false sensation or seeming experience which we have, or may have, of liberty or indifference, in many of our actions. The necessity of any action, whether of matter or of mind, is not, properly speaking, a quality in the agent, but in any thinking or intelligent being, who may consider the action; and it consists chiefly in the determination of his thoughts to infer the existence of that action from some preceding objects; as liberty, when opposed to necessity, is nothing but the want of that determination, and a certain looseness or indifference, which we feel, in passing, or not passing, from the idea of one object to that of any succeeding one. Now we may observe, that, though, in <em>reflecting</em> on human actions, we seldom feel such a looseness or indifference, but are commonly able to infer them with considerable certainty from their motives, and from the dispositions of the agent; yet it frequently happens, that, in <em>performing</em> the actions themselves, we are sensible of something like it: And as all resembling objects are readily taken for each other, this has been employed as a demonstrative and even intuitive proof of human liberty. We feel, that our actions are subject to our will, on most occasions; and imagine we feel, that the will itself is subject to nothing, because, when by a denial of it we are provoked to try, we feel, that it moves easily every way, and produces an image of itself (or a <em>Velleïty</em>, as it is called in the schools) even on that side, on which it did not settle. This image, or faint motion, we persuade ourselves, could, at that time, have been compleated into the thing itself; because, should that be denied, we find, upon a second trial, that, at present, it can. We consider not, that the fantastical desire of shewing liberty, is here the motive of our actions. And it seems certain, that, however we may imagine we feel a liberty within outselves, a spectator can commonly infer our actions from our motives and character; and even where he cannot, he concludes in general, that he might, were he perfectly acquainted with every circumstance of our situation and temper, and the most secret springs of our complexion and disposition. Now this is the very essence of necessity, according to the foregoing doctrine.</p>"
-  -
-    id: "n19"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [G].</p>"
-  -
-    id: "[G].1"
-    type: "first"
-    content: "<p><strong>T</strong>HUS, if a cause be defined, <em>that which produces any thing</em>; it is easy to observe, that <em>producing</em> is synonimous to <em>causing</em>. In like manner, if a cause be defined, <em>that by which any thing exists</em>; this is liable to the same objection. For what is meant by these words, <em>by which</em>? Had it been said, that a cause is <em>that</em> after which <em>any thing constantly exists</em>; we should have understood the terms. For this is, indeed, all we know of the matter. And this constancy forms the very essence of necessity, nor have we any other idea of it.</p>"
-  -
-    id: "n20"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [H].</p>"
-  -
-    id: "[H].1"
-    type: "first"
-    content: "<p><strong>S</strong>INCE all <del>reasonings</del><ins title='originally 'reasonings''>reasoning</ins> concerning facts or causes is derived merely from custom, it may be asked how it happens, that men so much surpass animals in reasoning, and one man so much surpasses another? Has not the same custom the same influence on all?</p>"
-  -
-    id: "[H].2"
-    content: "<p>We shall here endeavour briefly to explain the great difference in human understandings: After which the reason of the difference between men and animals will easily be comprehended.</p>"
-  -
-    id: "[H].3"
-    content: "<p>1. When we have lived any time, and have been accustomed to the uniformity of nature, we acquire a general habit, by which we always transfer the known to the unknown, and conceive the latter to resemble the former. By means of this general habitual principle, we regard even one experiment as the foundation of reasoning, and expect a similar event with some degree of certainty, where the experiment has been made accurately, and free from all foreign circumstances. It is therefore considered as a matter of great importance to observe the consequences of things; and as one man may very much surpass another in attention and memory and observation, this will make a very great difference in their reasoning.</p>"
-  -
-    id: "[H].4"
-    content: "<p>2. Where there is a complication of causes to produce any effect, one mind may be much larger than another, and better able to comprehend the whole system of objects, and to infer justly their consequences.</p>"
-  -
-    id: "[H].5"
-    content: "<p>3. One man is able to carry on a chain of consequences to a greater length than another.</p>"
-  -
-    id: "[H].6"
-    content: "<p>4. Few men can think long without running into a confusion of ideas, and mistaking one for another; and there are various degrees of this infirmity.</p>"
-  -
-    id: "[H].7"
-    content: "<p>5. The circumstance, on which the effect depends, is frequently involved in other circumstances, which are foreign and extrinsic. The separation of it often requires great attention, accuracy, and subtilty.</p>"
-  -
-    id: "[H].8"
-    content: "<p>6. The forming of general maxims from particular observation is a very nice operation; and nothing is more usual, from haste or a narrowness of mind, which sees not on all sides, than to commit mistakes in this particular.</p>"
-  -
-    id: "[H].9"
-    content: "<p>7. When we reason from analogies, the man, who has the greater experience or the greater promptitude of suggesting analogies, will be the better reasoner.</p>"
-  -
-    id: "[H].10"
-    content: "<p>8. Byasses from prejudice, education, passion, party, <em>&c.</em> hang more upon one mind than another.</p>"
-  -
-    id: "[H].11"
-    content: "<p>9. After we have acquired a confidence in human testimony, books and conversation enlarge much more the sphere of one man’s experience and thought than those of another.</p>"
-  -
-    id: "[H].12"
-    content: "<p>It would be easy to discover many other circumstances that make a difference in the understandings of men.</p>"
-  -
-    id: "n21"
-    type: "note"
-    symbol: "*"
-    content: "<p><b>Plutarch</b>, in vita Catonis.</p>"
-  -
-    id: "n22"
-    type: "note"
-    symbol: "†"
-    content: "<p>See NOTE [I].</p>"
-  -
-    id: "[I].1"
-    content: "<p><strong>N</strong>O INDIAN, it is evident, could have experience that water did not freeze in cold climates. This is placing nature in a situation quite unknown to him; and it is impossible for him to tell <em>à priori</em> what will result from it. It is making a new experiment, the consequence of which is always uncertain. One may sometimes conjecture from analogy what will follow; but still this is but conjecture. And it must be confessed, that, in the present case of freezing, the event follows contrary to the rules of analogy, and is such as a rational <b>Indian</b> would not look for. The operations of cold upon water are not gradual, according to the degrees of cold; but whenever it comes to the freezing point, the water passes in a moment, from the utmost liquidity to perfect hardness. Such an event, therefore, may be denominated <em>extraordinary</em>, and requires a pretty strong testimony, to render it credible to people in a warm climate: But still it is not <em>miraculous</em>, nor contrary to uniform experience of the course of nature in cases where all the circumstances are the same. The inhabitants of <b>Sumatra</b> have always seen water fluid in their own climate, and the freezing of their rivers ought to be deemed a prodigy: But they never saw water in <b>Muscovy</b> during the winter; and therefore they cannot reasonably be positive what would there be the consequence.</p>"
-  -
-    id: "n23"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [K].</p>"
-  -
-    id: "[K].1"
-    content: "<p><strong>S</strong>OMETIMES an event may not, <em>in itself, seem</em> to be contrary to the laws of nature, and yet, if it were real, it might, by reason of some circumstances, be denominated a miracle; because, in <em>fact</em>, it is contrary to these laws. Thus if a person, claiming a divine authority, should command a sick person to be well, a healthful man to fall down dead, the clouds to pour rain, the winds to blow, in short, should order many natural events, which immediately follow upon his command; these might justly be esteemed miracles, because they are really, in this case, contrary to the laws of nature. For if any suspicion remain, that the event and command concurred by accident, there is no miracle and no transgression of the laws of nature. If this suspicion be removed, there is evidently a miracle, and a transgression of these laws; because nothing can be more contrary to nature than that the voice or command of a man should have such an influence. A miracle may be accurately defined, <em>a transgression of a law of nature by a particular volition of the Deity, or by the interposition of some invisible agent</em>. A miracle may either be discoverable by men or not. This alters not its nature and essence. The raising of a house or ship into the air is a visible miracle. The raising of a feather, when the wind wants ever so little of a force requisite for that purpose, is as real a miracle, though not so sensible with regard to us.</p>"
-  -
-    id: "n24"
-    type: "note"
-    symbol: "*"
-    content: "<p>Hist. lib. v. cap. 8. <b>Suetonius</b> gives nearly the same account <em>in vita</em> <b>Vesp</b>.</p>"
-  -
-    id: "n25"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [L].</p>"
-  -
-    id: "[L].1"
-    content: "<p><strong>T</strong>HIS book was writ by Mons. <b>Montgeron</b>, counsellor or judge of the parliament of <b>Paris</b>, a man of figure and character, who was also a martyr to the cause, and is now said to be somewhere in a dungeon on account of his book.</p>"
-  -
-    id: "[L].2"
-    content: "<p>There is another book in three volumes (called <em>Recueil des Miracles de l’Abbé</em> <b>Paris</b>) giving an account of many of these miracles, and accompanied with prefatory discourses, which are very well written. There runs, however, through the whole of these a ridiculous comparison between the miracles of our Saviour and those of the Abbé; wherein it is asserted, that the evidence for the latter is equal to that for the former: As if the testimony of men could ever be put in the balance with that of God himself, who conducted the pen of the inspired writers. If these writers, indeed, were to be considered merely as human testimony, the <b>French</b> author is very moderate in his comparison; since he might, with some appearance of reason, pretend, that the <b>Jansenist</b> miracles much surpass the other in evidence and authority. The following circumstances are drawn from authentic papers, inserted in the above-mentioned book.</p>"
-  -
-    id: "[L].3"
-    content: "<p>Many of the miracles of <em>Abbé</em> <b>Paris</b> were proved immediately by witnesses before the officiality or bishop’s court at <b>Paris</b>, under the eye of cardinal <b>Noailles</b>, whose character for integrity and capacity was never contested even by his enemies.</p>"
-  -
-    id: "[L].4"
-    content: "<p>His successor in the archbishopric was an enemy to the <b>Jansenists</b>, and for that reason promoted to the see by the court. Yet 22 rectors or <em>cures</em> of <b>Paris</b>, with infinite earnestness, press him to examine those miracles, which they assert to be known to the whole world, and undisputably certain: But he wisely forbore.</p>"
-  -
-    id: "[L].5"
-    content: "<p>The <b>Molinist</b> party had tried to discredit these miracles in one instance, that of Mademoiselle le <b>Franc</b>. But, besides that their proceedings were in many respects the most irregular in the world, particularly in citing only a few of the <b>Jansenist</b> witnesses, <SBN#345>whom they tampered with: Besides this, I say, they soon found themselves overwhelmed by a cloud of new witnesses, one hundred and twenty in number, most of them persons of credit and substance in <b>Paris</b>, who gave oath for the miracle. This was accompanied with a solemn and earnest appeal to the parliament. But the parliament were forbidden by authority to meddle in the affair. It was at last observed, that where men are heated by zeal and enthusiasm, there is no degree of human testimony so strong as may not be procured for the greatest absurdity: And those who will be so silly as to examine the affair by that medium, and seek particular flaws in the testimony, are almost sure to be confounded. It must be a miserable imposture, indeed, that does not prevail in that contest.</p>"
-  -
-    id: "[L].6"
-    content: "<p>All who have been in <b>France</b> about that time have heard of the reputation of Mons. <b>Heraut</b>, the <em>lieutenant de Police</em>, whose vigilance, penetration, activity, and extensive intelligence have been much talked of. This magistrate, who by the nature of his office is almost absolute, was invested with full powers, on purpose to suppress or discredit these miracles; and he frequently seized immediately, and examined the witnesses and subjects of them: But never could reach any thing satisfactory against them.</p>"
-  -
-    id: "[L].7"
-    content: "<p>In the case of Mademoiselle <b>Thibaut</b> he sent the famous <b>De Sylva</b> to examine her; whose evidence is very curious. The physician declares, that it was impossible she could have been so ill as was proved by witnesses; because it was impossible she could, in so short a time, have recovered so perfectly as he found her. He reasoned, like a man of sense, from natural causes; but the opposite party told him, that the whole was a miracle, and that his evidence was the very best proof of it.</p>"
-  -
-    id: "[L].8"
-    content: "<p>The <b>Molinists</b> were in a sad dilemma. They durst not assert the absolute insufficiency of human evidence, to prove a miracle. They were obliged to say, that these miracles were wrought by witchcraft and the devil. But they were told, that this was the resource of the <b>Jews</b> of old.</p>"
-  -
-    id: "[L].9"
-    content: "<p>No <b>Jansenist</b> was ever embarrassed to account for the cessation of the miracles, when the church-yard was shut up by the king’s edict. It was the touch of the tomb, which produced these extraordinary effects; and when no one could approach the tomb, no effects could be expected. God, indeed, could have thrown down the walls in a moment; but he is master of his own graces and works, and it belongs not to us to account <SBN#346>for them. He did not throw down the walls of every city like those of <b>Jericho</b>, on the sounding of the rams horns, nor break up the prison of every apostle, like that of St. <b>Paul</b>.</p>"
-  -
-    id: "[L].10"
-    content: "<p>No less a man, than the Duc de <b>Chatillon</b>, a duke and peer of <b>France</b>, of the highest rank and family, gives evidence of a miraculous cure, performed upon a servant of his, who had lived several years in his house with a visible and palpable infirmity.</p>"
-  -
-    id: "[L].11"
-    content: "<p>I shall conclude with observing, that no clergy are more celebrated for strictness of life and manners than the secular clergy of <b>France</b>, particularly the rectors or curés of <b>Paris</b>, who bear testimony to these impostures.</p>"
-  -
-    id: "[L].12"
-    content: "<p>The learning, genius, and probity of the gentlemen, and the austerity of the nuns of <b>Port-Royal</b>, have been much celebrated all over <b>Europe</b>. Yet they all give evidence for a miracle, wrought on the niece of the famous <b>Pascal</b>, whose sanctity of life, as well as extraordinary capacity, is well known. The famous <b>Racine</b> gives an account of this miracle in his famous history of <b>Port Royal</b>, and fortifies it with all the proofs, which a multitude of nuns, priests, physicians, and men of the world, all of them of undoubted credit, could bestow upon it. Several men of letters, particularly the bishop of <b>Tournay</b>, thought this miracle so certain, as to employ it in the refutation of atheists and freethinkers. The queen-regent of <b>France</b>, who was extremely prejudiced against the <b>Port-Royal</b>, send her own physician to examine the miracle, who returned an absolute convert. In short, the supernatural cure was so uncontestable, that it saved, for a time, that famous monastery from the ruin with which it was threatened by the <b>Jesuits</b>. Had it been a cheat, it had certainly been detected by such sagacious and powerful antagonists, and must have hastened the ruin of the contrivers. Our divines, who can build up a formidable castle from such despicable materials; what a prodigious fabric could they have reared from these and many other circumstances, which I have not mentioned! How often would the great names of <b>Pascal</b>, <b>Racine</b>, <b>Arnaud</b>, <b>Nicole</b>, have resounded in our ears? But if they be wise, they had better adopt the miracle, as being more worth, a thousand times, than all the rest of their collection. Besides, it may serve very much to their purpose. For that miracle was really performed by the touch of an authentic holy prickle of the holy thorn, which composed the holy crown, which, <em>&c</em>.</p>"
-  -
-    id: "n26"
-    type: "note"
-    symbol: "*"
-    content: "<p><b>Lucret</b>.</p>"
-  -
-    id: "n27"
-    type: "note"
-    symbol: "*"
-    content: "<p>Nov. Org. lib. ii. aph. 29.</p>"
-  -
-    id: "n28"
-    type: "note"
-    symbol: "*"
-    content: "<p><b>Luciani</b> <i>συμπ. η, λαπιθαι</i>.</p>"
-  -
-    id: "n29"
-    type: "note"
-    symbol: "*"
-    content: "<p><b>Luciani</b> <i>ευνουχος</i>.</p>"
-  -
-    id: "n30"
-    type: "note"
-    symbol: "†"
-    content: "<p>Id. & Dio.</p>"
-  -
-    id: "n31"
-    type: "note"
-    symbol: "*"
-    content: "<p>See NOTE [M].</p>"
-  -
-    id: "[M].1"
-    type: "first"
-    content: "<p><strong>I</strong>N general, it may, I think, be established as a maxim, that where any cause is known only by its particular effects, it must be impossible to infer any new effects from that cause; since the qualities, which are requisite to produce these new effects along with the former, must either be different, or superior, or of more extensive operation, than those which simply produced the effect, whence alone the cause is supposed to be known to us. We can never, therefore, have any reason to suppose the existence of these qualities. To say, that the new effects proceed only from a continuation of the same energy, which is already known from the first effects, will not remove the difficulty. For even granting this to be the case (which can seldom be supposed), the very continuation and exertion of a like energy (for it is impossible it can be absolutely the same), I say, this exertion of a like energy, in a different period of space and time, is a very arbitrary supposition, and what there cannot possibly be any traces of in the effects, from which all our knowledge of the cause is originally derived. Let the <em>inferred</em> cause be exactly proportioned (as it should be) to the known effect; and it is impossible that it can possess any qualities, from which new or different effects can be <em>inferred</em>.</p>"
-  -
-    id: "n32"
-    type: "note"
+    id: "32"
     symbol: "*"
     content: "<p>See NOTE [N].</p>"
   -
     id: "[N].1"
     content: "<p><strong>T</strong>HIS argument is drawn from Dr. <b>Berkley</b>; and indeed most of the writings of that very ingenious author form the best lessons of scepticism, which are to be found either among the ancient or modern philosophers, <b>Bayle</b> not excepted. He professes, however, in his title-page (and undoubtedly with great truth) to have composed his book against the sceptics as well as against the atheists and free-thinkers. But that all his arguments, though otherwise intended, are, in reality, merely sceptical, appears from this, <em>that they admit of no answer and produce no conviction</em>. Their only effect is to cause that momentary amazement and irresolution and confusion, which is the result of scepticism.</p>"
   -
-    id: "n33"
-    type: "note"
+    id: "33"
     symbol: "*"
     content: "<p>See NOTE [O].</p>"
   -
@@ -449,16 +168,14 @@ paragraphs:
     type: "first"
     content: "<p><strong>W</strong>HATEVER disputes there may be about mathematical points, we must allow that there are physical points; that is, parts of extension, which cannot be divided or lessened, either by the eye or imagination. These images, then, which are present to the fancy or senses, are absolutely indivisible, and consequently must be allowed by mathematicians to be infinitely less than any real part of extension; and yet nothing appears more certain to reason, than that an infinite number of them composes an infinite extension. How much more an infinite number of those infinitely small parts of extension, which are still supposed infinitely divisible.</p>"
   -
-    id: "n34"
-    type: "note"
+    id: "34"
     symbol: "*"
     content: "<p>See NOTE [P].</p>"
   -
     id: "[P].1"
     content: "<p><strong>I</strong>T seems to me not impossible to avoid these absurdities and contradictions, if it be admitted, that there is no such thing as abstract or general ideas, properly speaking; but that all general ideas are, in reality, particular ones, attached to a general term, which recalls, upon occasion, other particular ones, that resemble, in certain circumstances, the idea, present to the mind. Thus when the term Horse is pronounced, we immediately figure to ourselves the idea of a black or a white animal, of a particular size or figure: But as that term is also usually applied to animals of other colours, figures and sizes, these ideas, though not actually present to the imagination, are easily recalled; and our reasoning and conclusion proceed in the same way, as if they were actually present. If this be admitted (as seems reasonable) it follows that all the ideas of quantity, upon which mathematicians reason, are nothing but particular, and such as are suggested by the senses and imagination, and consequently, cannot be infinitely divisible. It is sufficient to have dropped this hint at present, without prosecuting it any farther. It certainly concerns all lovers of science not to expose themselves to the ridicule and contempt of the ignorant by their conclusions; and this seems the readiest solution of these difficulties.</p>"
   -
-    id: "n35"
-    type: "note"
+    id: "35"
     symbol: "*"
     content: "<p>See NOTE [Q].</p>"
   -
