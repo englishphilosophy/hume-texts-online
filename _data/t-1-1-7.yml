@@ -92,6 +92,7 @@ notes:
     content: "<p>Dr. <em>Berkeley</em>.</p>"
   -
     id: "5"
+    type: "added"
     pages: "637"
     symbol: "added"
     content: "<p><ins title='Appendix addition'>'<b>Tis</b> evident, that even different simple ideas may have a similarity or resemblance to each other; nor is it necessary, that the point or circumstance of resemblance shou'd be distinct or separable from that in which they differ. <em>Blue</em> and <em>green</em> are different simple ideas, but are more resembling that <em>blue</em> and <em>scarlet</em>; tho' their perfect simplicity excludes all possibility of separation or distinction. 'Tis the same case with particular sounds, and tastes and smells. These admit of infinite resemblances upon the general appearance and comparison, without having any common circumstance the same. And of this we may be certain, even from the very abstract terms <em>simple idea</em>. They comprehend all simple ideas under them. These resemble each other in their simplicity. And yet from their very nature, which excludes all composition, this circumstance, in which they resemble, is not distinguishable nor separable from the rest. 'Tis the same case with all the degrees in any quality. They are all resembling, and yet the quality, in any individual, is not distinct from the degree.</ins></p>"

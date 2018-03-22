@@ -5,29 +5,29 @@
   <div class="content title">{{ text.title[2] }}</div>
 </div>
 {% for variant in text.variants %}
-  <div class="block">
+  <div class="block explanation">
     <div class="meta"></div>
-    <div class="content explanation">
+    <div class="content">
       <small>{{ variant.explanation }}</small>
     </div>
   </div>
   {% for paragraph in variant.paragraphs %}
-    <div class="block" id="{{ paragraph.id }}">
+    <div class="block{% if paragraph.type %} {{ paragraph.type }}{% endif %}" id="{{ paragraph.id }}">
       <div class="meta">
         {{ text.label | append: '.' | append: paragraph.id | replace_first: '.', ' ' }}{% if paragraph.pages %}, {{ text.pages }} {{ paragraph.pages }}{% endif %}
       </div>
-      <div class="content{% if paragraph.type %} {{ paragraph.type }}{% endif %}">{{ paragraph.content }}</div>
+      <div class="content">{{ paragraph.content }}</div>
     </div>
   {% endfor %}
-  {% if variant.notes %}
-    <hr>
-  {% endif %}
   {% for note in variant.notes %}
-    <div class="block" id="n{{ note.id }}">
+    {% if forloop.first %}
+      <hr>
+    {% endif %}
+    <div class="block note{% if note.type %} {{ note.type }}{% endif %}" id="n{{ note.id }}">
       <div class="meta">
         {{ text.label | append: '.' | append: 'n' | append: note.id | replace_first: '.', ' ' }}{% if note.pages %}, {{ text.pages }} {{ note.pages }}{% endif %}
       </div>
-      <div class="content note">{{ note.content | replace_first: '<p>', '' | prepend: '. ' | prepend: note.id | prepend: '<p>' }}</div>
+      <div class="content">{{ note.content | replace_first: '<p>', '' | prepend: '. ' | prepend: note.id | prepend: '<p>' }}</div>
     </div>
   {% endfor %}
 {% endfor %}

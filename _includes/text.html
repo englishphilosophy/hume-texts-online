@@ -10,21 +10,28 @@
       <div class="content">{{ paragraph.title }}</div>
     </div>
   {% endif %}
-  <div class="block" id="{{ paragraph.id }}">
+  <div class="block{% if paragraph.type %} {{ paragraph.type }}{% endif %}" id="{{ paragraph.id }}">
     <div class="meta">
       {{ text.label | append: '.' | append: paragraph.id | replace_first: '.', ' ' }}{% if paragraph.pages %}, {{ text.pages }} {{ paragraph.pages }}{% endif %}
     </div>
-    <div class="content{% if paragraph.type %} {{ paragraph.type }}{% endif %}">{{ paragraph.content }}</div>
+    <div class="content">
+      {% if paragraph.subsection %}<span class="subsection">{{ paragraph.subsection }}.</span>{% endif %}
+      {{ paragraph.content }}
+    </div>
   </div>
 {% endfor %}
-{% if text.notes %}
-  <hr>
-{% endif %}
 {% for note in text.notes %}
-  <div class="block" id="n{{ note.id }}">
+  {% if forloop.first %}
+    <hr>
+  {% endif %}
+  <div class="block note{% if note.type %} {{ note.type }}{% endif %}" id="n{{ note.id }}">
     <div class="meta">
       {{ text.label | append: '.' | append: 'n' | append: note.id | replace_first: '.', ' ' }}{% if note.pages %}, {{ text.pages }} {{ note.pages }}{% endif %}
     </div>
-    <div class="content note">{{ note.content | replace_first: '<p>', '' | prepend: '. ' | prepend: note.id | prepend: '<p>' }}</div>
+    <div class="content">
+      {% assign first = note.id | slice: 0 %}
+      {% if first != '[' %}<span class="subsection">{{ note.id }}.</span>{% endif %}
+      {{ note.content }}
+    </div>
   </div>
 {% endfor %}

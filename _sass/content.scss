@@ -1,8 +1,5 @@
 .content {
   font-family: 'IM Fell English';
-  .title {
-    margin-top: 2em;
-  }
   h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-weight: 400;
@@ -58,6 +55,16 @@
     font-family: 'GFS Didot';
     font-style: normal;
   }
+  .stars {
+    letter-spacing: 4em;
+    padding-left: 2em;
+    text-align: center;
+  }
+  .subsection {
+    float: left;
+    margin-left: 2em;
+    margin-right: .5em;
+  }
   .tab {
     display: inline-block;
     width: 2em;
@@ -73,20 +80,22 @@
   }
 }
 
-.first {
+.first .content {
   p:first-child {
     text-indent: 0;
   }
-}
-
-.note {
-  p {
-    font-size: .9em;
-    text-indent: 2em;
+  .subsection {
+    margin-left: 0;
   }
 }
 
-.explanation {
+.note .content {
+  p, blockquote, .subsection {
+    font-size: .9em;
+  }
+}
+
+.explanation .content {
   border: 1px solid $gray;
   padding: .25em .5em;
   small {
@@ -110,6 +119,10 @@
   ins {
     display: none;
   }
+}
+
+.original .added {
+  display: none;
 }
 
 .changes .content {
