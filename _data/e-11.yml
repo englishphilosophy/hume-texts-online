@@ -144,7 +144,7 @@ notes:
   -
     id: "30"
     symbol: "†"
-    content: "<p>Id. & Dio.</p>"
+    content: "<p>Id. &amp; Dio.</p>"
   -
     id: "31"
     symbol: "*"

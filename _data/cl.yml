@@ -46,7 +46,7 @@ paragraphs:
   -
     id: "9"
     pages: "92"
-    content: "<p>It has become an established opinion, that commerce can never flourish but in a free government; and this opinion seems to be founded on a longer and larger experience than the foregoing, with regard to the arts and sciences. If we trace commerce in its progress through <b>Tyre</b>, <b>Athens</b>, <b>Syracuse</b>, <b>Carthage</b>, <b>Venice</b>, <b>Florence</b>, <b>Genoa</b>, <b>Antwerp</b>, <b>Holland</b>, <b>England</b>, &c. we shall always find it to have fixed its seat in free governments. The three greatest trading towns now in Europe, are <b>London</b>, <b>Amsterdam</b>, and <b>Hamburgh</b>; all free cities, and protestant cities; that is, enjoying a double liberty. It must, however, be observed, that the great jealousy entertained of late, with regard to the commerce of <b>France</b>, seems to prove, that this maxim is no more certain and infallible than the foregoing, and that the subjects of an absolute prince may become our rivals in commerce, as well as in learning.</p>"
+    content: "<p>It has become an established opinion, that commerce can never flourish but in a free government; and this opinion seems to be founded on a longer and larger experience than the foregoing, with regard to the arts and sciences. If we trace commerce in its progress through <b>Tyre</b>, <b>Athens</b>, <b>Syracuse</b>, <b>Carthage</b>, <b>Venice</b>, <b>Florence</b>, <b>Genoa</b>, <b>Antwerp</b>, <b>Holland</b>, <b>England</b>, &amp;c. we shall always find it to have fixed its seat in free governments. The three greatest trading towns now in Europe, are <b>London</b>, <b>Amsterdam</b>, and <b>Hamburgh</b>; all free cities, and protestant cities; that is, enjoying a double liberty. It must, however, be observed, that the great jealousy entertained of late, with regard to the commerce of <b>France</b>, seems to prove, that this maxim is no more certain and infallible than the foregoing, and that the subjects of an absolute prince may become our rivals in commerce, as well as in learning.</p>"
   -
     id: "10"
     pages: "92-3"
@@ -72,7 +72,7 @@ notes:
     id: "1"
     pages: "88"
     symbol: "†"
-    content: "<p><b>Xenophon</b> mentions it; but with a doubt if it be of any advantage to a state. <i>Ει δε και εμπορια ωφελει τι πολιν</i>, &c. <b>Xen. Hiero</b>. <b>Plato</b> totally excludes it from his imaginary republic. De legibus, lib. iv.</p>"
+    content: "<p><b>Xenophon</b> mentions it; but with a doubt if it be of any advantage to a state. <i>Ει δε και εμπορια ωφελει τι πολιν</i>, &amp;c. <b>Xen. Hiero</b>. <b>Plato</b> totally excludes it from his imaginary republic. De legibus, lib. iv.</p>"
   -
     id: "2"
     pages: "90"

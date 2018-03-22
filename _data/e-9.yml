@@ -19,7 +19,7 @@ paragraphs:
   -
     id: "2"
     pages: ""
-    content: "<p><em>First</em>, It seems evident, that animals, as well as men learn many things from experience, and infer, that the same events will always follow from the same causes. By this principle they become acquainted with the more obvious properties of external objects, and gradually, from their birth, treasure up a knowledge of the nature of fire, water, earth, stones, heights, depths, <em>&c.</em> and of the effects, which result from their operation. The ignorance and inexperience of the young are here plainly distinguishable from the cunning and sagacity of the old, who have learned, by long observation, to avoid what hurt them, and to pursue what gave ease or pleasure. A horse, that has been accustomed to the field, becomes acquainted with the proper height, which he can leap, and will never attempt what exceeds his force and ability. An old greyhound will trust the more fatiguing part of the chace to the younger, and will place himself so as to meet the hare in her doubles; nor are the conjectures, which he forms on this occasion, founded in any thing but his observation and experience.</p>"
+    content: "<p><em>First</em>, It seems evident, that animals, as well as men learn many things from experience, and infer, that the same events will always follow from the same causes. By this principle they become acquainted with the more obvious properties of external objects, and gradually, from their birth, treasure up a knowledge of the nature of fire, water, earth, stones, heights, depths, <em>&amp;c.</em> and of the effects, which result from their operation. The ignorance and inexperience of the young are here plainly distinguishable from the cunning and sagacity of the old, who have learned, by long observation, to avoid what hurt them, and to pursue what gave ease or pleasure. A horse, that has been accustomed to the field, becomes acquainted with the proper height, which he can leap, and will never attempt what exceeds his force and ability. An old greyhound will trust the more fatiguing part of the chace to the younger, and will place himself so as to meet the hare in her doubles; nor are the conjectures, which he forms on this occasion, founded in any thing but his observation and experience.</p>"
   -
     id: "3"
     pages: ""
@@ -71,7 +71,7 @@ notes:
     content: "<p>7. When we reason from analogies, the man, who has the greater experience or the greater promptitude of suggesting analogies, will be the better reasoner.</p>"
   -
     id: "[H].10"
-    content: "<p>8. Byasses from prejudice, education, passion, party, <em>&c.</em> hang more upon one mind than another.</p>"
+    content: "<p>8. Byasses from prejudice, education, passion, party, <em>&amp;c.</em> hang more upon one mind than another.</p>"
   -
     id: "[H].11"
     content: "<p>9. After we have acquired a confidence in human testimony, books and conversation enlarge much more the sphere of one man's experience and thought than those of another.</p>"

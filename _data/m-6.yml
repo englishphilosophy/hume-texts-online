@@ -174,7 +174,7 @@ notes:
   -
     id: "29"
     symbol: "*"
-    content: "<p>Fuit in illo ingenium, ratio, memoria, literæ, cura, cogitatio, diligentia <em>&c.</em> <b>Phillip</b>. 2.</p>"
+    content: "<p>Fuit in illo ingenium, ratio, memoria, literæ, cura, cogitatio, diligentia <em>&amp;c.</em> <b>Phillip</b>. 2.</p>"
   -
     id: "30"
     symbol: "*"
@@ -198,7 +198,7 @@ notes:
   -
     id: "[HH].1"
     type: "first"
-    content: "<p><strong>A</strong>LL men are equally liable to pain and disease and sickness; and may again recover health and ease. These circumstances, as they make no distinction between one man and another, are no source of pride or <SBN#246>humility, regard or contempt. But comparing our own species to superior ones, it is a very mortifying consideration, that we should all be so liable to diseases and infirmities; and divines accordingly employ this topic, in order to depress self-conceit and vanity. They would have more success, if the common bent of our thoughts were not perpetually turned to compare ourselves with others. The infirmities of old age are mortifying; because a comparison with the young may take place. The king's evil is industriously concealed, because it affects others, and is often transmitted to posterity. The case is nearly the same with such diseases as convey any nauseous or frightful images; the epilepsy, for instance, ulcers, sores, scabs, <em>&c.</em></p>"
+    content: "<p><strong>A</strong>LL men are equally liable to pain and disease and sickness; and may again recover health and ease. These circumstances, as they make no distinction between one man and another, are no source of pride or <SBN#246>humility, regard or contempt. But comparing our own species to superior ones, it is a very mortifying consideration, that we should all be so liable to diseases and infirmities; and divines accordingly employ this topic, in order to depress self-conceit and vanity. They would have more success, if the common bent of our thoughts were not perpetually turned to compare ourselves with others. The infirmities of old age are mortifying; because a comparison with the young may take place. The king's evil is industriously concealed, because it affects others, and is often transmitted to posterity. The case is nearly the same with such diseases as convey any nauseous or frightful images; the epilepsy, for instance, ulcers, sores, scabs, <em>&amp;c.</em></p>"
   -
     id: "34"
     symbol: "*"

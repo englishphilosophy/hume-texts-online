@@ -118,7 +118,7 @@ notes:
   -
     id: "4"
     symbol: "‡"
-    content: "<p>Sat. xv. 139 & seq.</p>"
+    content: "<p>Sat. xv. 139 &amp; seq.</p>"
   -
     id: "5"
     symbol: "*"

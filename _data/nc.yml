@@ -38,7 +38,7 @@ paragraphs:
   -
     id: "7"
     pages: "200-2"
-    content: "<p>As to <em>physical</em> causes, I am inclined to doubt altogether of their operation in this particular; nor do I think, that men owe any thing of their temper or genius to the air, food, or climate. <span class='page-break'>|</span>I confess, that the contrary opinion may justly, at first sight, seem probable; since we find, that these circumstances have an influence over every other animal, and that even those <span class='page-break'>|</span>creatures, which are fitted to live in all climates, such as dogs, horses, <em>&c.</em> do not attain the same perfection in all. The courage of bull-dogs and game-cocks seems peculiar to <b>England</b>. <b>Flanders</b> is remarkable for large and heavy horses: <b>Spain</b> for horses light, and of good mettle. And any breed of these creatures, transplanted from one country to another, will soon lose the qualities, which they derived from their native climate. It may be asked, why not the same with men<sup><a href='#n3'>[3]</a></sup>?</p>"
+    content: "<p>As to <em>physical</em> causes, I am inclined to doubt altogether of their operation in this particular; nor do I think, that men owe any thing of their temper or genius to the air, food, or climate. <span class='page-break'>|</span>I confess, that the contrary opinion may justly, at first sight, seem probable; since we find, that these circumstances have an influence over every other animal, and that even those <span class='page-break'>|</span>creatures, which are fitted to live in all climates, such as dogs, horses, <em>&amp;c.</em> do not attain the same perfection in all. The courage of bull-dogs and game-cocks seems peculiar to <b>England</b>. <b>Flanders</b> is remarkable for large and heavy horses: <b>Spain</b> for horses light, and of good mettle. And any breed of these creatures, transplanted from one country to another, will soon lose the qualities, which they derived from their native climate. It may be asked, why not the same with men<sup><a href='#n3'>[3]</a></sup>?</p>"
   -
     id: "8"
     pages: "202"
@@ -262,7 +262,7 @@ notes:
     id: "11"
     pages: "214"
     symbol: "*"
-    content: "<p><em><b>Babylonii</b> maxime in vinum, & quæ ebrietatem sequuntur, effusi sunt.</em> <b>Quint. Cur.</b> lib. v. cap. 1.</p>"
+    content: "<p><em><b>Babylonii</b> maxime in vinum, &amp; quæ ebrietatem sequuntur, effusi sunt.</em> <b>Quint. Cur.</b> lib. v. cap. 1.</p>"
   -
     id: "12"
     pages: "214"

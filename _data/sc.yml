@@ -186,7 +186,7 @@ paragraphs:
   -
     id: "44"
     pages: "174"
-    content: "<p><em>Cicero</em>'s consolation for deafness is somewhat curious. <em>How many languages are there,</em> says he, <em>which you do not understand? The <b>Punic</b>, <b>Spanish</b>, <b>Gallic</b>, <b>Ægyptian</b>, &c. With regard to all these, you are as if you were deaf, yet you are indifferent about the matter. Is it then so great a misfortune to be deaf to one language more<sup><a href='#n4'>[4]</a></sup>?</em></p>"
+    content: "<p><em>Cicero</em>'s consolation for deafness is somewhat curious. <em>How many languages are there,</em> says he, <em>which you do not understand? The <b>Punic</b>, <b>Spanish</b>, <b>Gallic</b>, <b>Ægyptian</b>, &amp;c. With regard to all these, you are as if you were deaf, yet you are indifferent about the matter. Is it then so great a misfortune to be deaf to one language more<sup><a href='#n4'>[4]</a></sup>?</em></p>"
   -
     id: "45"
     pages: "174"
@@ -313,7 +313,7 @@ notes:
   -
     id: "[G].12"
     pages: "178"
-    content: "<p>11. I desire to be rich. Why? That I may possess many fine objects; houses, gardens, equipage, <em>&c.</em> How many fine objects does nature offer to every one without expence? If enjoyed, sufficient. If not: See the effect of custom or of temper, which would soon take off the relish of the riches.</p>"
+    content: "<p>11. I desire to be rich. Why? That I may possess many fine objects; houses, gardens, equipage, <em>&amp;c.</em> How many fine objects does nature offer to every one without expence? If enjoyed, sufficient. If not: See the effect of custom or of temper, which would soon take off the relish of the riches.</p>"
   -
     id: "[G].13"
     pages: "179"

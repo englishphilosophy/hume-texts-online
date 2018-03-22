@@ -31,7 +31,7 @@ paragraphs:
   -
     id: "5"
     pages: "14"
-    content: "<p>3. <b>After</b> identity the most universal and comprehensive relations are those of <em>Space</em> and <em>Time</em>, which are the sources of an infinite number of comparisons, such as <em>distant, contiguous, above, below, before, after</em>, &c.</p>"
+    content: "<p>3. <b>After</b> identity the most universal and comprehensive relations are those of <em>Space</em> and <em>Time</em>, which are the sources of an infinite number of comparisons, such as <em>distant, contiguous, above, below, before, after</em>, &amp;c.</p>"
   -
     id: "6"
     pages: "14-5"

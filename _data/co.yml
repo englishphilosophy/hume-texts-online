@@ -22,7 +22,7 @@ paragraphs:
   -
     id: "3"
     pages: "255"
-    content: "<p>I thought this introduction necessary before the following discourses on <em>commerce</em>, <em>money</em>, <em>interest</em>, <em>balance of trade</em>, <em>&c.</em> where, perhaps, there will occur some principles which are uncommon, and which may seem too refined and subtile for such vulgar subjects. If false, let them be rejected: But no one ought to entertain a prejudice against them, merely because they are out of the common road.</p>"
+    content: "<p>I thought this introduction necessary before the following discourses on <em>commerce</em>, <em>money</em>, <em>interest</em>, <em>balance of trade</em>, <em>&amp;c.</em> where, perhaps, there will occur some principles which are uncommon, and which may seem too refined and subtile for such vulgar subjects. If false, let them be rejected: But no one ought to entertain a prejudice against them, merely because they are out of the common road.</p>"
   -
     id: "4"
     pages: "255-6"

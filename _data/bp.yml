@@ -102,7 +102,7 @@ notes:
     id: "3"
     pages: "333"
     symbol: "‡"
-    content: "<p><b>Xenoph.</b> Hist. <b>Graec.</b> lib. vi. & vii.</p>"
+    content: "<p><b>Xenoph.</b> Hist. <b>Graec.</b> lib. vi. &amp; vii.</p>"
   -
     id: "4"
     pages: "334-5"

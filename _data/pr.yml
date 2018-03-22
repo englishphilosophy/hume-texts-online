@@ -90,7 +90,7 @@ paragraphs:
   -
     id: "20"
     pages: "30-1"
-    content: "<p>I would not be understood to mean, that public affairs deserve no care and attention at all. Would men be moderate and consistent, their claims might be admitted; at least might be examined. The <em>country-party</em> might still assert, that our constitution, though excellent, will admit of mal-administration to a certain degree; and therefore, if the minister be bad, it is proper to oppose him with a <em>suitable</em> degree of zeal. And, on the other hand, the <em>court-party</em> may be allowed, upon the <span class='page-break'>|</span>supposition that the minister were good, to defend, and with <em>some</em> zeal too, his administration. I would only persuade men not to contend, as if they were fighting <em>pro aris & focis</em>, and change a good constitution into a bad one, by the violence of their factions.</p>"
+    content: "<p>I would not be understood to mean, that public affairs deserve no care and attention at all. Would men be moderate and consistent, their claims might be admitted; at least might be examined. The <em>country-party</em> might still assert, that our constitution, though excellent, will admit of mal-administration to a certain degree; and therefore, if the minister be bad, it is proper to oppose him with a <em>suitable</em> degree of zeal. And, on the other hand, the <em>court-party</em> may be allowed, upon the <span class='page-break'>|</span>supposition that the minister were good, to defend, and with <em>some</em> zeal too, his administration. I would only persuade men not to contend, as if they were fighting <em>pro aris &amp; focis</em>, and change a good constitution into a bad one, by the violence of their factions.</p>"
   -
     id: "21"
     pages: "31"
@@ -134,7 +134,7 @@ notes:
     id: "7"
     pages: "24-5"
     symbol: "*"
-    content: "<p><em>Essempio veramente raro, & da Filosofi intante loro imaginate & vedute Republiche mai non trovato, vedere dentro ad un medesimo cerchio, fra medesimi cittadini, la liberta, & la tirannide, la vita civile & la corotta, la giustitia & la licenza; perche quello ordine solo mantiere quella citta piena di costumi antichi & venerabili. E s'egli auvenisse (che col tempo in ogni modo auverrà) que <b>San <span class='page-break'>|</span>Giorgio</b> tutta quel la città occupasse, sarrebbe quella una Republica piu dalla <b>Venetiana</b> memorabile.</em> Della Hist. Florentinè, lib. 8.</p>"
+    content: "<p><em>Essempio veramente raro, &amp; da Filosofi intante loro imaginate &amp; vedute Republiche mai non trovato, vedere dentro ad un medesimo cerchio, fra medesimi cittadini, la liberta, &amp; la tirannide, la vita civile &amp; la corotta, la giustitia &amp; la licenza; perche quello ordine solo mantiere quella citta piena di costumi antichi &amp; venerabili. E s'egli auvenisse (che col tempo in ogni modo auverrà) que <b>San <span class='page-break'>|</span>Giorgio</b> tutta quel la città occupasse, sarrebbe quella una Republica piu dalla <b>Venetiana</b> memorabile.</em> Della Hist. Florentinè, lib. 8.</p>"
   -
     id: "8"
     pages: "25"

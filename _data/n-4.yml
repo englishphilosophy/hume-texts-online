@@ -107,7 +107,7 @@ notes:
     id: "13"
     pages: "45"
     symbol: "‡"
-    content: "<p>Pere Brumoy, Theatre des Grecs; & Fontenelle, Histoire des Oracles.</p>"
+    content: "<p>Pere Brumoy, Theatre des Grecs; &amp; Fontenelle, Histoire des Oracles.</p>"
   -
     id: "14"
     pages: "45"
@@ -142,12 +142,12 @@ notes:
     id: "20"
     pages: "46"
     symbol: "§"
-    content: "<p>Herodot. lib. ii. Lucian. <em>Jupiter confutatus, de luctu, Saturn.</em>&c.</p>"
+    content: "<p>Herodot. lib. ii. Lucian. <em>Jupiter confutatus, de luctu, Saturn.</em>&amp;c.</p>"
   -
     id: "21"
     pages: "46"
     symbol: "†"
-    content: "<p><i>Ως ομιθεν γεγαασι θεοι θνητοι τ' ανθρωποι.</i> Hes. Opera & Dies, l. 108.</p>"
+    content: "<p><i>Ως ομιθεν γεγαασι θεοι θνητοι τ' ανθρωποι.</i> Hes. Opera &amp; Dies, l. 108.</p>"
   -
     id: "22"
     pages: "46"

@@ -58,7 +58,7 @@ notes:
     id: "44"
     pages: "61"
     symbol: "*"
-    content: "<p>Plutarch. de Isid. & Osiride.</p>"
+    content: "<p>Plutarch. de Isid. &amp; Osiride.</p>"
   -
     id: "45"
     pages: "61"

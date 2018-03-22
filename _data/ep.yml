@@ -90,4 +90,4 @@ notes:
     id: "3"
     pages: "143"
     symbol: "*"
-    content: "<p>An imitation of the <b>Syrens</b> song in <b>Tasso</b>. <br><q>O Giovinetti, mentre <b>Aprile</b> & <b>Maggio</b> <br>V' ammantan di fiorité & verde spoglie,</q> &c. <br><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span>Giuresalemme liberata, <em>Canto</em> 14.</p>"
+    content: "<p>An imitation of the <b>Syrens</b> song in <b>Tasso</b>. <br><q>O Giovinetti, mentre <b>Aprile</b> &amp; <b>Maggio</b> <br>V' ammantan di fiorité &amp; verde spoglie,</q> &amp;c. <br><span class='tab'></span><span class='tab'></span><span class='tab'></span><span class='tab'></span>Giuresalemme liberata, <em>Canto</em> 14.</p>"

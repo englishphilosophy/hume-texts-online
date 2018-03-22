@@ -55,7 +55,7 @@ paragraphs:
   -
     id: "11"
     pages: "168"
-    content: "<p>And why not become a perfect Anthropomorphite? Why not assert the deity or deities to be corporeal, and to have eyes, a nose, mouth, ears, &c.? <b>Epicurus</b> maintained, that no man had ever seen reason but in a human figure; therefore the gods must have a human figure. And this argument, which is deservedly so much ridiculed by <b>Cicero</b>, becomes, according to you, solid and philosophical.</p>"
+    content: "<p>And why not become a perfect Anthropomorphite? Why not assert the deity or deities to be corporeal, and to have eyes, a nose, mouth, ears, &amp;c.? <b>Epicurus</b> maintained, that no man had ever seen reason but in a human figure; therefore the gods must have a human figure. And this argument, which is deservedly so much ridiculed by <b>Cicero</b>, becomes, according to you, solid and philosophical.</p>"
   -
     id: "12"
     pages: "168-9"

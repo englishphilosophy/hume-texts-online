@@ -61,7 +61,7 @@ notes:
     id: "32"
     pages: "50"
     symbol: "†"
-    content: "<p>Id. ibid. & <b>Plut.</b> in vita <b>Pelop.</b></p>"
+    content: "<p>Id. ibid. &amp; <b>Plut.</b> in vita <b>Pelop.</b></p>"
   -
     id: "33"
     pages: "50"

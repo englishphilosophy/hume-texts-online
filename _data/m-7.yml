@@ -59,7 +59,7 @@ paragraphs:
   -
     id: "12"
     pages: ""
-    content: "<p>Under what shining colours does <b>Demosthenes</b><sup><a href='#n43'>[43]</a></sup> represent <b>Philip</b>; where the orator apologizes for his own administration, and justifies that pertinacious love of liberty, with which he had inspired the <b>Athenians</b>. <q>I beheld <b>Philip</b>,</q> says he, <q>he with whom was your contest, resolutely, while in pursuit of empire and dominion, exposing himself to every wound; his eye goared, his neck wrested, his arm, his thigh pierced, whatever part of his body fortune should seize on, that cheerfully relinquishing; provided that, with what remained, he might live in honour and renown. And shall it be said, that he, born in <b>Pella</b>, a place heretofore mean and ignoble, should be inspired with so high an ambition and thirst of fame: While you, <b>Athenians</b>, <em>&c.</em></q> These praises excite the most lively admiration; but the views presented by the orator, carry us not, we see, beyond the hero himself, nor ever regard the future advantageous consequences of his valour.</p>"
+    content: "<p>Under what shining colours does <b>Demosthenes</b><sup><a href='#n43'>[43]</a></sup> represent <b>Philip</b>; where the orator apologizes for his own administration, and justifies that pertinacious love of liberty, with which he had inspired the <b>Athenians</b>. <q>I beheld <b>Philip</b>,</q> says he, <q>he with whom was your contest, resolutely, while in pursuit of empire and dominion, exposing himself to every wound; his eye goared, his neck wrested, his arm, his thigh pierced, whatever part of his body fortune should seize on, that cheerfully relinquishing; provided that, with what remained, he might live in honour and renown. And shall it be said, that he, born in <b>Pella</b>, a place heretofore mean and ignoble, should be inspired with so high an ambition and thirst of fame: While you, <b>Athenians</b>, <em>&amp;c.</em></q> These praises excite the most lively admiration; but the views presented by the orator, carry us not, we see, beyond the hero himself, nor ever regard the future advantageous consequences of his valour.</p>"
   -
     id: "13"
     pages: ""
@@ -136,7 +136,7 @@ notes:
   -
     id: "[KK].1"
     type: "first"
-    content: "<p><strong>T</strong>HERE is no man, who, on particular occasions, is not affected with all the disagreeable passions, fear, anger, dejection, grief, melancholy, anxiety, <em>&c.</em> But these, so far as they are natural, and universal, make no difference between one man and another, and can never be the object of blame. It is only when the disposition gives a <em>propensity</em> to any of these disagreeable passions, that they disfigure the character, and by giving uneasiness, convey the sentiment of disapprobation to the spectator.</p>"
+    content: "<p><strong>T</strong>HERE is no man, who, on particular occasions, is not affected with all the disagreeable passions, fear, anger, dejection, grief, melancholy, anxiety, <em>&amp;c.</em> But these, so far as they are natural, and universal, make no difference between one man and another, and can never be the object of blame. It is only when the disposition gives a <em>propensity</em> to any of these disagreeable passions, that they disfigure the character, and by giving uneasiness, convey the sentiment of disapprobation to the spectator.</p>"
   -
     id: "36"
     symbol: "*"
