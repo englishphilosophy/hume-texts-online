@@ -93,6 +93,9 @@
   p, blockquote, .subsection {
     font-size: .9em;
   }
+  p:not(:first-of-type) {
+    text-indent: 2em;
+  }
 }
 
 .explanation .content {

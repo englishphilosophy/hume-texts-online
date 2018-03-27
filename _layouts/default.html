@@ -14,7 +14,11 @@ layout: compress
     <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/hume.scss %}">
     <title>{{ site.title }}</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    <script defer src="{{ site.baseurl }}{% link assets/hume.js %}"></script>
+    {% if layout.section == 'texts' %}
+      <script defer src="{{ site.baseurl }}{% link assets/texts.js %}"></script>
+    {% elsif page.subsection == 'bibliographies' %}
+      <script defer src="{{ site.baseurl }}{% link assets/bibliographies.js %}"></script>
+    {% endif %}
   </head>
   <body>
     <header>

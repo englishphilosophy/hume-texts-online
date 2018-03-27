@@ -240,7 +240,6 @@ The standard biography of Hume, which is thorough, generally accurate, and provi
 The traditional accusation that Hume was led to write the *Enquiry* for vulgar motives of popular notoriety (discussed in §4 of Chapter&nbsp;1 of Millican (2001)) has long since been thoroughly disposed of, the two best-known refutations being:
 
 - Kemp Smith, Norman, *The Philosophy of David Hume* (London: Macmillan, 1941), ch. 24
-
 - Mossner, Ernest Campbell, 'Philosophy and Biography: The Case of David Hume', *Philosophical Review* 59 (1950), 184-201; repr. in V. C. Chappell (ed.), *Hume* (London and Melbourne: Macmillan, 1968), 6-34
 
 More recently the same ground has been covered by:

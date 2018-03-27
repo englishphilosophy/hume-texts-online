@@ -17,11 +17,11 @@ It is standard practice to refer to Hume's texts using abbreviations, though not
 | N | _[Natural History of Religion]({{ site.baseurl }}{% link texts/n/index.html %})_                 |
 | D | _[Dialogues Concerning Natural Religion]({{ site.baseurl }}{% link texts/d/index.html %})_       |
 
-### Essays (as ordered in Miller’s standard edition)
+### Essays (as ordered in Miller's standard edition)
 
 {% assign suis = 'su,is' | split: ',' %}
-{% assign ids = site.data.empl-1.texts | concat: site.data.empl-2.texts | concat: site.data.empw.texts | concat: suis %}
+{% assign ids = site.data.texts.empl-1.texts | concat: site.data.texts.empl-2.texts | concat: site.data.texts.empw.texts | concat: suis %}
 {% for id in ids %}
-{%- assign text = site.data[id] -%}
+{%- assign text = site.data.texts[id] -%}
 | {{ text.label }} | _[{{ text.title[0] }}]({{ site.baseurl }}/texts/{{ text.label | downcase }}/)_ |
 {% endfor %}

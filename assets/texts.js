@@ -2,7 +2,7 @@
 layout: null
 ---
 const data = (() => {
-  const texts = {{ site.data | jsonify }};
+  const texts = {{ site.data.texts | jsonify }};
   const id = label =>
     label.toLowerCase().replace(/\./g, '-');
   const text = label =>
@@ -15,7 +15,7 @@ const data = (() => {
     text.paragraphs
       ? augmented(text, text.paragraphs).concat(augmented(text, text.notes))
       : text.texts.map(x => blocks(texts[x])).reduce((y, z) => y.concat(z), []);
-  return { text: text, blocks: blocks };
+  return { text, blocks };
 })();
 
 const options = (() => {
@@ -27,7 +27,7 @@ const options = (() => {
   if (get('edited') === null) set('edited', true);
   if (get('changes') === null) set('changes', false);
   if (get('breaks') === null) set('breaks', false);
-  return { set: set, get: get };
+  return { set, get };
 })();
 
 const prepare = ((data, options) => {
@@ -43,7 +43,7 @@ const prepare = ((data, options) => {
     rich(content).replace(/(<([^>]+)>)/g, '').replace(/\s\s/g, ' ').trim();
   const words = text =>
     data.blocks(text).map(x => plain(x.content).split(' ').length).reduce((y, z) => y + z, 0);
-  return { rich: rich, plain: plain, words: words };
+  return { rich, plain, words };
 })(data, options);
 
 const search = ((options, prepare) => {
@@ -71,7 +71,7 @@ const search = ((options, prepare) => {
       : new RegExp(`(${simplify(query)})`, 'gi');
   const filter = (blocks, query) =>
     blocks.filter(x => prepare.plain(x.content).match(regex(query)));
-  return { regex: regex, filter: filter };
+  return { regex, filter };
 })(options, prepare);
 
 const display = ((data) => {
@@ -95,7 +95,7 @@ const display = ((data) => {
     </div>`;
   const blocks = (blocks, query) =>
     blocks.map(block.bind(null, query)).join('');
-  return { summary: summary, blocks: blocks };
+  return { summary, blocks };
 })(data);
 
 const page = ((data) => {
@@ -151,32 +151,30 @@ const page = ((data) => {
     }
   };
   const init = () => {
-    if ($('tools')) {
-      $$('.tab').forEach(x => x.addEventListener('click', clickTab));
-      $('search').addEventListener('submit', submitSearch);
-      $('advanced').checked = options.get('advanced');
-      $('edited').checked = options.get('edited');
-      $('breaks').checked = options.get('breaks');
-      $('changes').checked = options.get('changes');
-      $('advanced').addEventListener('change', () => {
-        options.set('advanced', $('advanced').checked);
-      });
-      $('edited').addEventListener('change', () => {
-        options.set('edited', $('edited').checked);
-        updateText();
-      });
-      $('breaks').addEventListener('change', () => {
-        options.set('breaks', $('breaks').checked);
-        updateText();
-      });
-      $('changes').addEventListener('change', () => {
-        options.set('changes', $('changes').checked);
-        updateText();
-      });
+    $$('.tab').forEach(x => x.addEventListener('click', clickTab));
+    $('search').addEventListener('submit', submitSearch);
+    $('advanced').checked = options.get('advanced');
+    $('edited').checked = options.get('edited');
+    $('breaks').checked = options.get('breaks');
+    $('changes').checked = options.get('changes');
+    $('advanced').addEventListener('change', () => {
+      options.set('advanced', $('advanced').checked);
+    });
+    $('edited').addEventListener('change', () => {
+      options.set('edited', $('edited').checked);
       updateText();
-    }
+    });
+    $('breaks').addEventListener('change', () => {
+      options.set('breaks', $('breaks').checked);
+      updateText();
+    });
+    $('changes').addEventListener('change', () => {
+      options.set('changes', $('changes').checked);
+      updateText();
+    });
+    updateText();
   };
-  return { show: show, init: init };
+  return { show, init };
 })(data);
 
 page.init();

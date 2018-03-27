@@ -2,7 +2,7 @@
 layout: default
 section: texts
 ---
-{% assign text = site.data[page.text] %}
+{% assign text = site.data.texts[page.text] %}
 
 <div class="tool box" id="tools" data-text="{{ page.text }}">
   {% include tools.html text=page.text %}
