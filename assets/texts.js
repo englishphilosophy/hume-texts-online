@@ -63,6 +63,7 @@ const search = ((options, prepare) => {
       .replace(/ae/g, '(ae|æ)')
       .replace(/economy/g, '(e|oe)conomy')
       .replace(/oe/g, '(oe|œ)')
+      .replace(/\ba\b/g, '(a|à)')
       .replace(/\bit (is|was|were)\b/g, '(it $1|\'t$1)')
       .replace(/\s/g, '[.,;:?!]? ');
   const regex = query =>
