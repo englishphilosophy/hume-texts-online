@@ -39,7 +39,7 @@ paragraphs:
   -
     id: "7"
     pages: "15"
-    content: "<p>5. <b>When</b> any two objects possess the same <em>quality</em>  in common, the <em>degrees</em>, in which they possess it, form a fifth species of relation. Thus of two objects, which are both heavy, the one may be either of greater, or less weight than <del>with the other</del><ins title='originally 'with the other'; ERRATA deletion (N.B. the ERRATA page points to line 17 of page 24, but this is line 17 of page 34)'>the other</ins>. Two colours, that are of the same kind, may yet be of different shades, and in that respect admit of comparison.</p>"
+    content: "<p>5. <b>When</b> any two objects possess the same <em>quality</em>  in common, the <em>degrees</em>, in which they possess it, form a fifth species of relation. Thus of two objects, which are both heavy, the one may be either of greater, or less weight than <del>with the other</del><ins title='ERRATA change (the ERRATA page points to line 17 of page 24, but this is line 17 of page 34)'>the other</ins>. Two colours, that are of the same kind, may yet be of different shades, and in that respect admit of comparison.</p>"
   -
     id: "8"
     pages: "15"
@@ -47,7 +47,7 @@ paragraphs:
   -
     id: "9"
     pages: "15"
-    content: "<p>7. <b>All</b> other objects, such as fire and water, <del>heat, and cold</del><ins title='originally 'heat, and cold'; from the sense it seems that the comma was a mistake'>heat and cold</ins>, are only found to be contrary from experience, and from the contrariety of their <em>causes</em> or <em>effects</em>; which relation of cause and effect is a seventh philosophical relation, as well as a natural one. The resemblance implied in this relation, shall be explain'd afterwards.</p>"
+    content: "<p>7. <b>All</b> other objects, such as fire and water, <del>heat, and cold</del><ins title='editorial change'>heat and cold</ins>, are only found to be contrary from experience, and from the contrariety of their <em>causes</em> or <em>effects</em>; which relation of cause and effect is a seventh philosophical relation, as well as a natural one. The resemblance implied in this relation, shall be explain'd afterwards.</p>"
   -
     id: "10"
     pages: "15"

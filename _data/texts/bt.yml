@@ -34,7 +34,7 @@ paragraphs:
   -
     id: "6"
     pages: "310"
-    content: "<p>The writings of Mr. <del>Gee</del><ins title='originally not in small capitals; edited to match formatting preferences elsewhere, and also here in earlier editions'><b>Gee</b></ins> struck the nation with an universal panic, when they saw it plainly demonstrated, by a detail of particulars, that the balance was against them for so considerable a sum as must leave them without a single shilling in five or six years. But luckily, twenty years have since elapsed, with an expensive foreign war; yet is it commonly supposed, that money is still more plentiful among us than in any former period.</p>"
+    content: "<p>The writings of Mr. <del>Gee</del><ins title='edited to match the preferences elsewhere, and also here in earlier editions'><b>Gee</b></ins> struck the nation with an universal panic, when they saw it plainly demonstrated, by a detail of particulars, that the balance was against them for so considerable a sum as must leave them without a single shilling in five or six years. But luckily, twenty years have since elapsed, with an expensive foreign war; yet is it commonly supposed, that money is still more plentiful among us than in any former period.</p>"
   -
     id: "7"
     pages: "310-1"
@@ -158,7 +158,7 @@ paragraphs:
   -
     id: "37"
     pages: "324-5"
-    content: "<p>All taxes, however, upon foreign commodities, are not to be regarded as prejudicial or useless, but those only which are founded on the jealousy above-mentioned. A tax on <del>German</del><ins title='not originally in small capitals; edited to match preferences elsewhere'><b>German</b></ins> linen encourages home manufactures, and thereby multiplies our people and industry. A tax on brandy encreases the sale of rum, and supports our southern colonies. And as it is necessary, that imposts should be levied, for the support of government, it may be thought more convenient to lay them on foreign commodities, which can easily be intercepted at the port, and subjected to the impost. We ought, however, always to remember the maxim of Dr. <b>Swift</b>, That, in the arithmetic of the customs, two and two make not four, but often make only one. It can scarcely be doubted, but if the duties on <span class='page-break'>|</span>wine were lowered to a third, they would yield much more to the government than at present: Our people might thereby afford to drink commonly a better and more wholesome liquor; and no prejudice would ensue to the balance of trade, of which we are so jealous. The manufacture of ale beyond the agriculture is but inconsiderable, and gives employment to few hands. The transport of wine and corn would not be much inferior.</p>"
+    content: "<p>All taxes, however, upon foreign commodities, are not to be regarded as prejudicial or useless, but those only which are founded on the jealousy above-mentioned. A tax on <del>German</del><ins title='edited to match the preferences elsewhere'><b>German</b></ins> linen encourages home manufactures, and thereby multiplies our people and industry. A tax on brandy encreases the sale of rum, and supports our southern colonies. And as it is necessary, that imposts should be levied, for the support of government, it may be thought more convenient to lay them on foreign commodities, which can easily be intercepted at the port, and subjected to the impost. We ought, however, always to remember the maxim of Dr. <b>Swift</b>, That, in the arithmetic of the customs, two and two make not four, but often make only one. It can scarcely be doubted, but if the duties on <span class='page-break'>|</span>wine were lowered to a third, they would yield much more to the government than at present: Our people might thereby afford to drink commonly a better and more wholesome liquor; and no prejudice would ensue to the balance of trade, of which we are so jealous. The manufacture of ale beyond the agriculture is but inconsiderable, and gives employment to few hands. The transport of wine and corn would not be much inferior.</p>"
   -
     id: "38"
     pages: "325-6"
@@ -196,7 +196,7 @@ notes:
     id: "5"
     pages: "317"
     symbol: "‡"
-    content: "<p>We observed in Essay III. <ins title='added for ease of reference'>(Of Money)</ins> that money, when encreasing, gives encouragement to industry, during the interval between the encrease of money and rise of the prices. A good effect of this nature may follow too from paper-credit; but it is dangerous to precipitate matters, at the risk of losing all by the failing of that credit, as must happen upon any violent shock in public affairs.</p>"
+    content: "<p>We observed in Essay III. <ins title='added for ease of reference'>[Of Money]</a></ins> that money, when encreasing, gives encouragement to industry, during the interval between the encrease of money and rise of the prices. A good effect of this nature may follow too from paper-credit; but it is dangerous to precipitate matters, at the risk of losing all by the failing of that credit, as must happen upon any violent shock in public affairs.</p>"
   -
     id: "6"
     pages: "321"

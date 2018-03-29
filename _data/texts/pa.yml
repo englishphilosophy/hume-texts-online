@@ -18,7 +18,7 @@ paragraphs:
   -
     id: "2"
     pages: "379-80"
-    content: "<p>There are indeed some more <em>particular physical</em> causes of importance. Diseases are mentioned in antiquity, which are almost unknown to modern medicine; and new diseases have arisen and propagated themselves, of which there are no traces in ancient history. In this particular we may observe, upon comparison, that the disadvantage is much on the side of the moderns. Not to mention some others of less moment; the small-pox <del>commit</del><ins title='originally 'commit'; 'commits' in earlier editions, which is clearly what was intended'>commits</ins> such ravages, as would almost alone account for the great superiority ascribed to ancient times. The tenth or the twelfth part of mankind, destroyed every gener<span class='page-break'>|</span>ation, should make a vast difference, it may be thought, in the numbers of the people; and when joined to venereal distempers, a new plague diffused every where, this disease is perhaps equivalent, by its constant operation, to the three great scourges of mankind, war, pestilence, and famine. Were it certain, therefore, that ancient times were more populous than the present, and could no moral causes be assigned for so great a change; these physical causes alone, in the opinion of many, would be sufficient to give us satisfaction on that head.</p>"
+    content: "<p>There are indeed some more <em>particular physical</em> causes of importance. Diseases are mentioned in antiquity, which are almost unknown to modern medicine; and new diseases have arisen and propagated themselves, of which there are no traces in ancient history. In this particular we may observe, upon comparison, that the disadvantage is much on the side of the moderns. Not to mention some others of less moment; the small-pox <del>commit</del><ins title='evidently an error, given the singular subject; this change agrees with earlier editions'>commits</ins> such ravages, as would almost alone account for the great superiority ascribed to ancient times. The tenth or the twelfth part of mankind, destroyed every gener<span class='page-break'>|</span>ation, should make a vast difference, it may be thought, in the numbers of the people; and when joined to venereal distempers, a new plague diffused every where, this disease is perhaps equivalent, by its constant operation, to the three great scourges of mankind, war, pestilence, and famine. Were it certain, therefore, that ancient times were more populous than the present, and could no moral causes be assigned for so great a change; these physical causes alone, in the opinion of many, would be sufficient to give us satisfaction on that head.</p>"
   -
     id: "3"
     pages: "380-1"
@@ -494,7 +494,7 @@ paragraphs:
   -
     id: "121"
     pages: "431"
-    content: "<p><em>Tenthly</em>, <b>Chios</b> is said by <b>Thucydides</b><sup><a href='#n161'>[161]</a></sup>, to contain more slaves than any <b>Greek</b> city, except <b>Sparta</b>. <b>Sparta</b> then had more than <b>Athens</b>, in proportion to the number of citizens. The <b>Spartans</b> were 9000 in the town, 30,000 in the country<sup><a href='#n162'>[162]</a></sup>. The male slaves, therefore, of full age, must have been more than <del>78,000</del><ins title='originally '78,000'; the text reads '780,000' in earlier editions, and the larger number is required by Hume's argument'>780,000</ins>; the whole more than 3,120,000. A number impossible to be maintained in a narrow barren country, such as <b>Laconia</b>, which had no trade. Had the <b>Helotes</b> been so very numerous, the murder of 2000 mentioned by <b>Thucydides</b><sup><a href='#n163'>[163]</a></sup>, would have irritated them, without weakening them.</p>"
+    content: "<p><em>Tenthly</em>, <b>Chios</b> is said by <b>Thucydides</b><sup><a href='#n161'>[161]</a></sup>, to contain more slaves than any <b>Greek</b> city, except <b>Sparta</b>. <b>Sparta</b> then had more than <b>Athens</b>, in proportion to the number of citizens. The <b>Spartans</b> were 9000 in the town, 30,000 in the country<sup><a href='#n162'>[162]</a></sup>. The male slaves, therefore, of full age, must have been more than <del>78,000</del><ins title='the larger number is required by the argument, and this change agrees with earlier editions'>780,000</ins>; the whole more than 3,120,000. A number impossible to be maintained in a narrow barren country, such as <b>Laconia</b>, which had no trade. Had the <b>Helotes</b> been so very numerous, the murder of 2000 mentioned by <b>Thucydides</b><sup><a href='#n163'>[163]</a></sup>, would have irritated them, without weakening them.</p>"
   -
     id: "122"
     pages: "431-2"
@@ -926,7 +926,7 @@ notes:
     id: "31"
     pages: "393"
     symbol: "‡"
-    content: "<p>The slaves in the great houses had little rooms assigned to them, called <em>cellæ</em>. Whence the name of cell was transferred to the <del>monks</del><ins title='originally 'monks''>monk's</ins> room in a convent. See farther on this head, <b>Just. Lipsius</b>, Saturn. i. cap. 14. These form strong presumptions against the marriage and propagation of the family slaves.</p>"
+    content: "<p>The slaves in the great houses had little rooms assigned to them, called <em>cellæ</em>. Whence the name of cell was transferred to the <del>monks</del><ins title='evidently an error'>monk's</ins> room in a convent. See farther on this head, <b>Just. Lipsius</b>, Saturn. i. cap. 14. These form strong presumptions against the marriage and propagation of the family slaves.</p>"
   -
     id: "32"
     pages: "393"
@@ -1044,7 +1044,7 @@ notes:
   -
     id: "[Z].2"
     pages: "400"
-    content: "<p>It may justly be thought, that the liberty of divorces in <b>Rome</b> was another discouragement to marriage. Such a practice prevents not quarrels from <em>humour</em>, but rather encreases them; and occasions also those from <em>interest</em>, which are much more dangerous and destructive. See farther on this head, Part I. Essay <del>XVIII</del><ins title='originally 'XVIII'; essay 18 is 'The Sceptic', but Hume presumably means essay 19, 'Of Polygamy and Divorces''>XIX</ins>. <ins title='added for ease of reference'>[Of Polygamy and Divorces.]</ins> Perhaps too the unnatural lusts of the ancients ought to be taken into consideration, as of some moment.</p>"
+    content: "<p>It may justly be thought, that the liberty of divorces in <b>Rome</b> was another discouragement to marriage. Such a practice prevents not quarrels from <em>humour</em>, but rather encreases them; and occasions also those from <em>interest</em>, which are much more dangerous and destructive. See farther on this head, Part I. Essay <del>XVIII</del><ins title='essay 18 is The Sceptic, but Hume presumably means essay 19, Of Polygamy and Divorces'>XIX</ins>. <ins title='added for ease of reference'>[Of Polygamy and Divorces.]</ins> Perhaps too the unnatural lusts of the ancients ought to be taken into consideration, as of some moment.</p>"
   -
     id: "54"
     pages: "401"
@@ -1360,7 +1360,7 @@ notes:
     id: "113"
     pages: "420"
     symbol: "*"
-    content: "<p>See Part I. <del>Essay XI.</del><ins title='originally 'Essay XI.'; the sense suggests that Hume meant essay 12 ('Of Civil Liberty'), rather than essay 11 ('Of the Dignity or Meanness of Human Nature'); the 1772 edition refers to essay 11, but essay 11 in that edition was 'Of Civil Liberty', which becomes number 12 in this collection with the insertion of 'Of the Origin of Government' before it'>Essay XII.</ins> <ins title='added for ease of reference'>[Of Civil Liberty.]</ins></p>"
+    content: "<p>See Part I. <del>Essay XI.</del><ins title='the sense suggests that Hume meant essay 12 (Of Civil Liberty), rather than essay 11 (Of the Dignity or Meanness of Human Nature); the 1772 edition refers to essay 11, but essay 11 in that edition was Of Civil Liberty, which becomes number 12 in this collection with the insertion of Of the Origin of Government before it'>Essay XII.</ins> <ins title='added for ease of reference'>[Of Civil Liberty.]</ins></p>"
   -
     id: "114"
     pages: "421"
@@ -1685,7 +1685,7 @@ notes:
     id: "174"
     pages: "433"
     symbol: "ǁ"
-    content: "<p><del><b>Polyc.</b></del><ins title='originally 'Polyc.''><b>Polyb.</b></ins> lib. ix. cap. 20.</p>"
+    content: "<p><del><b>Polyc.</b></del><ins title='evidently an error'><b>Polyb.</b></ins> lib. ix. cap. 20.</p>"
   -
     id: "175"
     pages: "434"
@@ -2061,7 +2061,7 @@ notes:
     id: "242"
     pages: "454"
     symbol: "§"
-    content: "<p>Lib<del>,</del><ins title='originally a comma'>.</ins> iv.</p>"
+    content: "<p>Lib<del>,</del><ins title='evidently an error'>.</ins> iv.</p>"
   -
     id: "243"
     pages: "454"

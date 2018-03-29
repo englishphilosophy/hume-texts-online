@@ -51,7 +51,7 @@ paragraphs:
     id: "9"
     pages: "19"
     subsection: "5"
-    content: "<p>The similar tendency of compassion to that of benevolence, and of envy to anger, forms a very close relation between these two sets of passions; though of a different kind from that which was insisted on above. It is not a resemblance of feeling or sentiment, but a resemblance of tendency or direction. Its effect, however, is the same, in producing an association of passions. Compassion is seldom or never felt without some mixture of tenderness or friendship<del>:</del><ins title='originally a colon; the lowercase 'a' following suggests that a semi-colon was intended, and there is a semi-colon here in all the previous editions (N.B. prior to the 1772 edition, the semi-colon in the next sentence was a colon (with a capital 'A' following), but the flow clearly suggests the same apposition in each sentence, thus it is natural to suppose that Hume later aligned the punctuation accordingly)'>;</ins> and envy is naturally accompanied with anger or ill-will. To desire the happiness of another, from whatever motive, is a good preparative to affection; and to delight in another's misery almost unavoidably begets aversion towards him.</p>"
+    content: "<p>The similar tendency of compassion to that of benevolence, and of envy to anger, forms a very close relation between these two sets of passions; though of a different kind from that which was insisted on above. It is not a resemblance of feeling or sentiment, but a resemblance of tendency or direction. Its effect, however, is the same, in producing an association of passions. Compassion is seldom or never felt without some mixture of tenderness or friendship<del>:</del><ins title='the lowercase letter following suggests that a semi-colon was intended, and there is a semi-colon here in all the previous editions'>;</ins> and envy is naturally accompanied with anger or ill-will. To desire the happiness of another, from whatever motive, is a good preparative to affection; and to delight in another's misery almost unavoidably begets aversion towards him.</p>"
   -
     id: "10"
     pages: "19"
@@ -64,7 +64,7 @@ paragraphs:
   -
     id: "12"
     pages: "20"
-    content: "<p>A bankrupt, at first, while the idea of his misfortunes is fresh and recent, and while the comparison of his present unhappy situation with his former prosperity operates strongly upon us, meets with compassion and friendship. After these ideas are weakened or obliterated by time, he is in danger of <del>compassion</del><ins title='originally 'compassion'; from the context it seems clear that this is an error (N.B. this paragraph was first added in the 1777 edition, so unfortunately there are no other editions to check)'>dislike</ins> and contempt.</p>"
+    content: "<p>A bankrupt, at first, while the idea of his misfortunes is fresh and recent, and while the comparison of his present unhappy situation with his former prosperity operates strongly upon us, meets with compassion and friendship. After these ideas are weakened or obliterated by time, he is in danger of <del>compassion</del><ins title='from the context it seems clear that this is an error; this paragraph was first added in the 1777 edition, so unfortunately there are no other editions to check'>dislike</ins> and contempt.</p>"
   -
     id: "13"
     pages: "20"

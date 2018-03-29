@@ -93,9 +93,9 @@ notes:
     id: "58"
     pages: "318"
     symbol: "*"
-    content: "<p>Part II. Sect. <del>3</del><ins title='originally '3'; ERRATA change'>4</ins>.</p>"
+    content: "<p>Part II. Sect. <del>3</del><ins title='ERRATA change'>4</ins>. <ins title='added for ease of reference'>[Difficulties solv'd]</ins></p>"
   -
     id: "59"
     pages: "321"
     symbol: "*"
-    content: "<p>Book I. Part III. Sect. 10.</p>"
+    content: "<p>Book I. Part III. Sect. 10. <ins title='added for ease of reference'>[Of the influence of belief]</ins></p>"
