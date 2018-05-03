@@ -35,6 +35,10 @@
     p {
       margin-bottom: 1em;
     }
+    blockquote {
+      margin: 0 3em 1em;
+      color: lighten($black, 25%);
+    }
     ol, ul {
       margin-left: 2em;
       margin-bottom: 1em;

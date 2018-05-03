@@ -6,9 +6,9 @@ subsection: help
 
 At the top of each text is a tool box with a breadcrumb, various options, a search box, and icons for switching between different parts of the page. We hope the features here are as self-explanatory as possible, but please take a moment to read through these help notes, to ensure you are getting the most out of this site.
 
-### Breadcrumb and Icons
+### 1. Breadcrumb and icons
 
-When viewing structured texts (such as the *Treatise*, which is divided into Books, parts, and sections), a "breadcrumb" trail is shown in the red bar at the top of the tool box. Use this navigate between sections.
+When viewing structured texts (such as the *Treatise*, which is divided into Books, parts, and sections), a "breadcrumb" trail is shown in the red bar at the top of the tool box. Use this to navigate between sections.
 
 At the bottom right of the tool box are various icons representing different parts of the page. Note that not every icon shows up on every page, since some features are not available or relevant to every text.
 
@@ -19,15 +19,15 @@ At the bottom right of the tool box are various icons representing different par
 | <span class="icon"><i class="fas fa-file-image"></i></span> | Click on this icon to see manuscript images for the current text. This only applies to the *Dialogues concerning Natural Religion*, which is sadly the only one of Hume's works for which the manuscript survives.<br> |
 | <span class="icon"><i class="fas fa-edit"></i></span> | Click on this icon to see editorial notes pertaining to the current text. |
 
-### Options
+### 2. Options
 
 By default, the edited version of the text is shown (see the notes on the [Edited Versions]({{ 'notes/edited' | relative_url }})). When displaying the edited text, check "Show Changes" to see the editorial interventions we have made. Deletions will appear with a line through them, and additions underlined; by hovering your mouse over the change, you will see a brief explanation of the edit. Our interventions are minimal, consisting mostly of changes sanctioned by Hume himself, together with corrections of just a few very obvious errors.
 
 Alternatively, you can deselect the "Edited Text" checkbox to see the original edition, a faithful reproduction of the copytext save for some systematic and insignificant changes intended to make the text easier to read and navigate (see the notes on the [Original Editions]({{ '/notes/original' | relative_url }})). Note that this will effect the text against which your search queries are tested as well as the text shown on the screen.
 
-Page numbers from standard editions are shown alongside each paragraph. For paragraphs that range over more than one page, page breaks can be displayed in the text as a pipe (|), by checking "Show Page Breaks".
+Page numbers from standard editions are shown alongside each paragraph. For paragraphs that range over more than one page, page breaks can be displayed in the text as a pipe (\|), by checking "Show Page Breaks".
 
-### Simple and Advanced Search
+### 3. Simple and advanced search
 
 There are two kinds of search, _simple_ and _advanced_. The former is intended to help you find a passage or quotation from Hume's works, the location of which you cannot remember. It will look for the complete phrase that you enter, ignoring capitalisation and punctuation. More importantly, it will also broaden your search in straightforward and presumptively helpful ways, to maximise your chance of finding the passage. For example, "it is" will also match "'tis"; "though" will also match "tho'"; "-ed" at the end of a word will also match "-'d"; "-ction" and "-xion" at the end of a word will be treated as equivalent (as in "reflection"/"reflexion", "connection"/"connexion"); and so on.
 
