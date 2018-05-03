@@ -7,13 +7,15 @@ const data = (() => {
     label.toLowerCase().replace(/\./g, '-');
   const text = label =>
     texts[id(label)];
-  const augment = (text, block) =>
-    Object.assign({ section: text.label, reference: text.pages }, block);
-  const augmented = (text, blocks) =>
-    blocks ? blocks.map(augment.bind(null, text)) : [];
+  const augment = (text, isnote, block) =>
+    isnote
+      ? Object.assign({ section: text.label, reference: text.pages, type: 'note' }, block)
+      : Object.assign({ section: text.label, reference: text.pages }, block);
+  const augmented = (text, blocks, isnote) =>
+    blocks ? blocks.map(augment.bind(null, text, isnote)) : [];
   const blocks = text =>
     text.paragraphs
-      ? augmented(text, text.paragraphs).concat(augmented(text, text.notes))
+      ? augmented(text, text.paragraphs, false).concat(augmented(text, text.notes, true))
       : text.texts.map(x => blocks(texts[x])).reduce((y, z) => y.concat(z), []);
   return { text, blocks };
 })();
@@ -37,22 +39,22 @@ const prepare = ((data, options) => {
       : content.replace(/<ins( title='(.*?)')?>(.*?)<\/ins>/g, '');
   const rich = content =>
     edition(content).replace(/<sup>(.*?)<\/sup>/g, '')
-      .replace(/<span class='page-break'>\|<\/span>/g, '')
-      .replace(/<span class='marker'>(.*?)<\/span>/g, '');
+      .replace(/<span class='page-ref'>(.*?)<\/span>/g, '')
+      .replace(/<span class='page-break'>\|<\/span>/g, '');
   const plain = content =>
-    rich(content).replace(/(<([^>]+)>)/g, '').replace(/\s\s/g, ' ').trim();
+    rich(content).replace(/(<(.*?)>)/g, '').replace(/\s\s/g, ' ').trim();
+  const display = content =>
+    plain(rich(content).replace(/<(\/?(p|blockquote))>/g, '@$1@')).replace(/@(.*?)@/g, '<$1>');
   const words = text =>
     data.blocks(text).map(x => plain(x.content).split(' ').length).reduce((y, z) => y + z, 0);
-  return { rich, plain, words };
+  return { rich, plain, display, words };
 })(data, options);
 
 const search = ((options, prepare) => {
   const simplify = query =>
     query.replace(/[.,;:?!]/g, '')
       .replace(/(ct|x)ion\b/g, '(ct|x)ion')
-      .replace(/\bcould\b/g, 'cou(l|\')d')
-      .replace(/\bshould\b/g, 'shou(l|\')d')
-      .replace(/\bwould\b/g, 'wou(l|\')d')
+      .replace(/ould\b/g, 'ou(l|\')d')
       .replace(/ied\b/g, '(ied|y\'d)')
       .replace(/ed\b/g, '(ed|\'d)')
       .replace(/though\b/g, 'tho(ugh|\')')
@@ -84,15 +86,19 @@ const display = ((data) => {
   const url = text =>
     `{{ site.baseurl }}/texts/${text.label.toLowerCase().replace(/(\.|-)/g, '/')}`;
   const label = block =>
-    `${block.section}.${block.id}`.replace('.', ' ');
+    (block.type === 'note')
+      ? `${block.section}, n${block.id}`.replace('.', ' ')
+      : `${block.section}.${block.id}`.replace('.', ' ');
   const pages = block =>
     block.pages ? `, ${block.reference} ${block.pages}` : '';
+  const id = block =>
+    (block.type === 'note') ? `n${block.id}` : block.id;
   const ref = block =>
-    `<a href="${url(data.text(block.section))}/#${block.id}">${label(block)}${pages(block)}</a>`;
+    `<a href="${url(data.text(block.section))}/#${id(block)}">${label(block)}${pages(block)}</a>`;
   const block = (query, block) =>
-    `<div class="block">
+    `<div class="block ${block.type}">
       <div class="meta">${ref(block)}</div>
-      <div class="content ${block.type}"><p>${prepare.plain(block.content).replace(search.regex(query), '<mark>$&</mark>')}</p></div>
+      <div class="content">${prepare.display(block.content).replace(search.regex(query), '<mark>$&</mark>')}</div>
     </div>`;
   const blocks = (blocks, query) =>
     blocks.map(block.bind(null, query)).join('');

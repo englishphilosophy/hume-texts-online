@@ -8,6 +8,14 @@ The edited versions available on this site differ from the copytexts in various 
 
 In any event, differences between the edited version and the original version can be inspected *in situ* by checking the "Show Changes" option at the top of each text. Hovering over any such change with the mouse will then bring up a brief comment explaining the intervention.
 
+## Apostrophes
+
+Conventions regarding the use of the apostrophe changed around the middle of the eighteenth century. At the start of this century, it was common to use apostrophes in place of letters that are not pronounced (as in "cou'd", "deriv'd", or "thro'"), and to abbreviate "it is" as "’tis". It was also common to use an apostrophe for possessive pronouns, but not for possessive nouns (the exact reverse of the present practice), though there seems to have been no very precise convention in this regard. By the end of the century, however, the apostrophe was used exactly as it is today.
+
+Most of Hume's publications conform to the old-fashioned conventions (with some inconsistency regarding the use of the apostrophe for possessive nouns and pronouns). From the 1770 edition of his *Essays and Treatises on Several Subjects* onwards, meanwhile, the modern conventions are used. Consequently all the texts on this site that appeared in that collection conform to these modern conventions, while those that did not (the *Treatise*, the *Abstract*, and some previously withdrawn essays) exhibit the old-fashioned conventions.
+
+We have elected _not_ to edit these earlier works so as to conform to the modern conventions, since this is the least intrusive option. In leaving the apostrophes in place of letters that are not pronounced, we are agreeing with both Selby-Bigge's and the Nortons' editions of the *Treatise* and *Abstract*. In leaving the possessive apostrophes as they were, however, we are diverging from those editions. Selby-Bigge seems inconsistently to have changed some possessive apostrophes and not others. The Nortons seem to have intended to change them all, though they missed at least one: "three or four hour's amusement" at T&nbsp; 1.4.7.9 should by modern lights be "three or four hours' amusement".
+
 ## Footnotes and Endnotes
 
 In respect of those texts that were included within the 1777 *Essays and Treatises on Several Subjects*, we continue to draw a distinction between notes that appeared as footnotes in the copytext and those that appeared as endnotes. Since no other modern edition draws any such distinction, and even Beauchamp's (otherwise excellent) critical editions fail to indicate which notes took each form, our policy is perhaps worth discussing in a bit more detail.

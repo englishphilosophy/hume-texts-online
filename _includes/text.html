@@ -26,7 +26,7 @@
   {% endif %}
   <div class="block note{% if note.type %} {{ note.type }}{% endif %}" id="n{{ note.id }}">
     <div class="meta">
-      {{ text.label | append: '.' | append: 'n' | append: note.id | replace_first: '.', ' ' }}{% if note.pages %}, {{ text.pages }} {{ note.pages }}{% endif %}
+      {{ text.label | append: ', n' | append: note.id | replace_first: '.', ' ' }}{% if note.pages %}, {{ text.pages }} {{ note.pages }}{% endif %}
     </div>
     <div class="content">
       {% assign first = note.id | slice: 0 %}

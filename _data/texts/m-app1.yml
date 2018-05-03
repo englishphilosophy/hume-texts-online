@@ -13,6 +13,7 @@ wordcount:
 paragraphs:
   -
     id: "1"
+    type: "first"
     pages: "285"
     content: "<p><strong>I</strong>F the foregoing hypothesis be received, it will now be easy for us to determine the question first started<sup><a href='#n58'>[58]</a></sup>, concerning the general principles of morals; and though we postponed the decision of that question, lest it should then involve us in intricate speculations, which are unfit for moral discourses, we may resume it at present, and examine how far either <em>reason</em> or <em>sentiment</em> enters into all decisions of praise or censure.</p>"
   -
