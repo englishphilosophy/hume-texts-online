@@ -85,14 +85,12 @@ const display = ((data) => {
     </div>`;
   const url = text =>
     `{{ site.baseurl }}/texts/${text.label.toLowerCase().replace(/(\.|-)/g, '/')}`;
-  const label = block =>
-    (block.type === 'note')
-      ? `${block.section}, n${block.id}`.replace('.', ' ')
-      : `${block.section}.${block.id}`.replace('.', ' ');
-  const pages = block =>
-    block.pages ? `, ${block.reference} ${block.pages}` : '';
   const id = block =>
     (block.type === 'note') ? `n${block.id}` : block.id;
+  const label = block =>
+    `${block.section}.${id(block)}`.replace('.', ' ');
+  const pages = block =>
+    block.pages ? `, ${block.reference} ${block.pages}` : '';
   const ref = block =>
     `<a href="${url(data.text(block.section))}/#${id(block)}">${label(block)}${pages(block)}</a>`;
   const block = (query, block) =>
