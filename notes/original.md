@@ -4,7 +4,7 @@ subsection: original
 ---
 ## Original Versions
 
-By default, every text is displayed in its edited form. By deselecting the "Edited Text" checkbox at the top of the page, however, you can switch to the original version. (This effects searches as well as the text displayed on the screen.) Original versions aim to be exact reproductions of the copytexts except for the following silent alterations.
+By default, every text is displayed in its edited form. By deselecting the "Edited Text" checkbox at the top of the page, however, you can switch to the original version. (This affects searches as well as the text displayed on the screen.) Original versions aim to be exact reproductions of the copytexts except for the following silent alterations.
 
 ### 1. Labels and pagination
 
