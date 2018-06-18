@@ -59,71 +59,68 @@ paragraphs:
 notes:
   -
     id: "63"
-    pages: "307"
     symbol: "*"
     content: "<p>See NOTE [PP].</p>"
   -
-    id: "[PP].1"
+    id: "63.1"
     type: "first"
     pages: "307"
     content: "<p><strong>T</strong>HIS theory concerning the origin of property, and consequently of justice, is, in the main, the same with that hinted at and adopted by <b>Grotius</b>, <q>Hinc discimus, quæ fuerit causa, ob quam a primæva communione rerum primo mobilium, deinde &amp; immobilium discessum est: nimirum quod cum non contenti homines vesci sponte natis, antra habitare, corpore aut nudo agere, aut corticibus arborum ferarumve pellibus vestito, vitæ genus exquisitius delegissent, industria opus fuit, quam singuli rebus singulis adhiberent. Quo minus autem fructus in commune conferrentur, primum obstitit locorum, in quæ homines discesserunt, distantia, deinde justitiæ &amp; amoris defectus, per quem fiebat, ut nec in labore, nec in consumtione fructuum, quæ debebat, æqualitas servaretur. Simul discimus, quomodo res in proprietatem iverint; non animi actu solo, neque enim scire alii poterant, quid alii suum esse vellent, ut eo abstinerent, &amp; idem velle plures poterant; sed pacto quodam aut expresso, ut per divisionem, aut tacito, ut per occupationem.</q> De jure belli &amp; pacis. Lib. ii. cap. 2. §2. art. 4 &amp; 5.</p>"
   -
     id: "64"
-    pages: "307"
     symbol: "†"
     content: "<p>See NOTE [QQ].</p>"
   -
-    id: "[QQ].1"
+    id: "64.1"
     type: "first"
     pages: "307-8"
     content: "<p><strong>N</strong>ATURAL may be opposed, either to what is <em>unusual</em>, <em>miraculous</em>, or <em>artificial</em>. In the two former senses, justice and property are undoubtedly natural. But as they suppose reason, forethought, design, and a social union and confederacy among men, perhaps, that epithet cannot <span class='page-break'>|</span>strictly, in the last sense, be applied to them. Had men lived without society, property had never been known, and neither justice nor injustice had ever existed. But society among human creatures, had been impossible, without reason, and forethought. Inferior animals, that unite, are guided by instinct, which supplies the place of reason. But all these disputes are merely verbal.</p>"
   -
     id: "65"
-    pages: "309"
     symbol: "*"
     content: "<p>See NOTE [RR].</p>"
   -
-    id: "[RR].1"
+    id: "65.1"
     type: "first"
     pages: "309"
     content: "<p><strong>T</strong>HAT there be a separation or distinction of possessions, and that this separation be steady and constant; this is absolutely required by the interests of society, and hence the origin of justice and property. What possessions are assigned to particular persons; this is, generally speaking, pretty indifferent; and is often determined by very frivolous views and considerations. We shall mention a few particulars.</p>"
   -
-    id: "[RR].2"
+    id: "65.2"
     pages: "309"
     content: "<p>Were a society formed among several independent members, the most obvious rule, which could be agreed on, would be to annex property to <em>present</em> possession, and leave every one a right to what he at present enjoys. The relation of possession, which takes place between the person and the object, naturally draws on the relation of property.</p>"
   -
-    id: "[RR].3"
+    id: "65.3"
     pages: "309"
     content: "<p>For a like reason, occupation or first possession becomes the foundation of property.</p>"
   -
-    id: "[RR].4"
+    id: "65.4"
     pages: "309"
     content: "<p>Where a man bestows labour and industry upon any object, which before belonged to no body; as in cutting down and shaping a tree, in cultivating a field, &amp;c. the <del>alterations</del><ins title='presumably an error, given the form of the verb that follows; though the 1770 and the 1772 editions do not agree'>alteration</ins>, which he produces, causes a relation between him and the object, and naturally engages us to annex it to him by the new relation of property. This cause here concurs with the public utility, which consists in the encouragement given to industry and labour.</p>"
   -
-    id: "[RR].5"
+    id: "65.5"
     pages: "309"
     content: "<p>Perhaps too, private humanity towards the possessor, concurs, in this instance, with the other motives, and engages us to leave with him what he has acquired by his sweat and labour; and what he has flattered himself in the constant enjoyment of. For though private humanity can, by no means, be the origin of justice; since the latter virtue so often contradicts the former; yet when the rule of separate and constant possession is once formed by the indispensable necessities of society, private humanity, and an aversion to the doing a hardship to another, may, in a particular instance, give rise to a particular rule of property.</p>"
   -
-    id: "[RR].6"
+    id: "65.6"
     pages: "309-10"
     content: "<p>I am much inclined to think, that the right of succession or inheritance much depends on those connexions of the imagination, and that the relation to a former proprietor begetting a relation to the object, is the cause why the property is transferred to a man after the death of his kinsman. It is true; industry is more encouraged by the transference of possession to children or near relations: But this con<span class='page-break'>|</span>sideration will only have place in a cultivated society; whereas the right of succession is regarded even among the greatest Barbarians.</p>"
   -
-    id: "[RR].7"
+    id: "65.7"
     pages: "310"
     content: "<p>Acquisition of property by <em>accession</em> can be explained no way but by having recourse to the relations and connexions of the imagination.</p>"
   -
-    id: "[RR].8"
+    id: "65.8"
     pages: "310"
     content: "<p>The property of rivers, by the laws of most nations, and by the natural turn of our thought, is attributed to the proprietors of their banks, excepting such vast rivers as the <b>Rhine</b> or the <b>Danube</b>, which seem too large to follow as an accession to the property of the neighbouring fields. Yet even these rivers are considered as the property of that nation, through whose dominions they run; the idea of a nation being of a suitable bulk to correspond with them, and bear them such a relation in the fancy.</p>"
   -
-    id: "[RR].9"
+    id: "65.9"
     pages: "310"
     content: "<p>The accessions, which are made to land, bordering upon rivers, follow the land, say the civilians, provided it be made by what they call <em>alluvion</em>, that is; insensibly and imperceptibly; which are circumstances, that assist the imagination in the conjunction.</p>"
   -
-    id: "[RR].10"
+    id: "65.10"
     pages: "310"
     content: "<p>Where there is any considerable portion torn at once from one bank and added to another, it becomes not <em>his</em> property, whose land it falls on, till it unite with the land, and till the trees and plants have spread their roots into both. Before that, the thought does not sufficiently join them.</p>"
   -
-    id: "[RR].11"
+    id: "65.11"
     pages: "310"
     content: "<p>In short, we must ever distinguish between the necessity of a separation and constancy in men's possession, and the rules, which assign particular objects to particular persons. The first necessity is obvious, strong, and invincible: The latter may depend on a public utility more light and frivolous, on the sentiment of private humanity and aversion to private hardship, on positive laws, on precedents, analogies, and very fine connexions and turns of the imagination.</p>"

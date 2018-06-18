@@ -157,11 +157,10 @@ paragraphs:
 notes:
   -
     id: "26"
-    pages: "234"
     symbol: "*"
     content: "<p>See NOTE [FF].</p>"
   -
-    id: "[FF].1"
+    id: "26.1"
     type: "first"
     pages: "234-5"
     content: "<p><strong>O</strong>NE may venture to affirm, that there is no human nature, to whom the appearance of happiness (where envy or revenge has no place) does not give pleasure, that of misery, uneasiness. This seems inseparable from our make and constitution. But they are only the more generous minds, that are thence prompted to seek zealously the good of others, and to have a real passion for their welfare. With men of narrow and ungenerous spirits, this sympathy goes not beyond a slight feeling of the imagination, which serves only to excite sentiments of complacency or censure, and makes them apply to the object either honourable or dishonourable appellations. A griping miser, for instance, praises extremely <em>industry</em> and <em>frugality</em> even in others, and sets them, in his estimation, above all the other virtues. He knows the good that <span class='page-break'>|</span>results from them, and feels that species of happiness with a more lively sympathy, than any other you could represent to him; though perhaps he would not part with a shilling to make the fortune of the industrious man, whom he praises so highly.</p>"
@@ -187,11 +186,10 @@ notes:
     content: "<p><i>Αρετην τινα και ασωματα και ληρους μηγαλη τη φωνη ξυνειροντων.</i> <b>Luc. Timon.</b> Again, <i>Και συναγαγοντες (οι φιλοσοφοι) ενεξαπατητα μειρακια την τε πολυθρυλλητον αρετην τραγωδουσι.</i> <b>Icuro-men</b>. In another place, <i>Ηουπ γαρ εστιν η πολυθρυλλητος αρετη, και φυσις, και ιμαρμενη, και τυχη, ανυποστατα και κενα πραγματων ονοματα.</i> Deor. Concil.</p>"
   -
     id: "31"
-    pages: "245"
     symbol: "*"
     content: "<p>See NOTE [GG].</p>"
   -
-    id: "[GG].1"
+    id: "31.1"
     type: "first"
     pages: "245"
     content: "<p><strong>D</strong>I<b>odorus Siculus</b>, lib. xv. It may not be improper to give the character of <b>Epaminondas</b>, as drawn by the historian, in order to show the ideas of perfect merit, which prevailed in those ages. In other illustrious men, says he, you will observe, that each possessed some one shining quality, which was the foundation of his fame: In <b>Epaminondas</b> all the <em>virtues</em> are found united; force of body, eloquence of expression, vigour of mind, contempt of riches, gentleness of disposition, and <em>what is chiefly to be regarded</em>, courage and conduct in war.</p>"
@@ -202,21 +200,19 @@ notes:
     content: "<p><em>Cum alacribus, saltu; cum velocibus, cursu; cum validis recte certabat.</em> <b>Sallust</b> apud <b>Veget.</b></p>"
   -
     id: "33"
-    pages: "245"
     symbol: "*"
     content: "<p>See NOTE [HH].</p>"
   -
-    id: "[HH].1"
+    id: "33.1"
     type: "first"
     pages: "245-6"
     content: "<p><strong>A</strong>LL men are equally liable to pain and disease and sickness; and may again recover health and ease. These circumstances, as they make no distinction between one man and another, are no source of pride or <span class='page-break'>|</span>humility, regard or contempt. But comparing our own species to superior ones, it is a very mortifying consideration, that we should all be so liable to diseases and infirmities; and divines accordingly employ this topic, in order to depress self-conceit and vanity. They would have more success, if the common bent of our thoughts were not perpetually turned to compare ourselves with others. The infirmities of old age are mortifying; because a comparison with the young may take place. The king's evil is industriously concealed, because it affects others, and is often transmitted to posterity. The case is nearly the same with such diseases as convey any nauseous or frightful images; the epilepsy, for instance, ulcers, sores, scabs, <em>&amp;c.</em></p>"
   -
     id: "34"
-    pages: "248"
     symbol: "*"
     content: "<p>See NOTE [II].</p>"
   -
-    id: "[II].1"
+    id: "34.1"
     type: "first"
     pages: "248"
     content: "<p><strong>T</strong>HERE is something extraordinary, and seemingly unaccountable in the operation of our passions, when we consider the fortune and situation of others. Very often another's advancement and prosperity produces envy, which has a strong mixture of hatred, and arises chiefly from the comparison of ourselves with the person. At the very same time, or at least in very short intervals, we may feel the passion of respect, which is a species of affection or good-will, with a mixture of humility. On the other hand, the misfortunes of our fellows often cause pity, which has in it a strong mixture of good-will. This sentiment of pity is nearly allied to contempt, which is a species of dislike, with a mixture of pride. I only point out these phænomena, as a subject of speculation to such as are curious with regard to moral enquiries. It is sufficient for the present purpose to observe in general, that power and riches commonly cause respect, poverty and meanness contempt, though particular views and incidents may sometimes raise the passions of envy and of pity.</p>"

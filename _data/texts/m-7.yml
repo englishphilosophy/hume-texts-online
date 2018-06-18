@@ -131,11 +131,10 @@ paragraphs:
 notes:
   -
     id: "35"
-    pages: "251"
     symbol: "*"
     content: "<p>See NOTE [KK].</p>"
   -
-    id: "[KK].1"
+    id: "35.1"
     type: "first"
     pages: "251"
     content: "<p><strong>T</strong>HERE is no man, who, on particular occasions, is not affected with all the disagreeable passions, fear, anger, dejection, grief, melancholy, anxiety, <em>&amp;c.</em> But these, so far as they are natural, and universal, make no difference between one man and another, and can never be the object of blame. It is only when the disposition gives a <em>propensity</em> to any of these disagreeable passions, that they disfigure the character, and by giving uneasiness, convey the sentiment of disapprobation to the spectator.</p>"
@@ -166,21 +165,19 @@ notes:
     content: "<p><b>Plutarch</b> in <b>Phoc.</b></p>"
   -
     id: "41"
-    pages: "253"
     symbol: "‡"
     content: "<p>See NOTE [LL]<ins title='there is a full-stop missing here'>.</ins></p>"
   -
-    id: "[LL].1"
+    id: "41.1"
     type: "first"
     pages: "253"
     content: "<p><strong>T</strong>ACIT. hist. lib. iii. The author entering upon the narration, says, <em>Laniata veste, fœdum spectaculum ducebatur, multis increpantibus, nullo inlacrimante:</em> deformatitas exitus misericordiam abstulerat. To enter thoroughly into this method of thinking, we must make allowance for the ancient maxims, that no one ought to prolong his life after it became dishonourable; but, as he had always a right to dispose of it, it then became a duty to part with it.</p>"
   -
     id: "42"
-    pages: "253"
     symbol: "*"
     content: "<p>See NOTE [MM].</p>"
   -
-    id: "[MM].1"
+    id: "42.1"
     type: "first"
     pages: "253-4"
     content: "<p><strong>T</strong>HE absence of virtue may often be a vice; and that of the highest kind; as in the instance of ingratitude, as well as meanness. Where we <span class='page-break'>|</span>expect a beauty, the disappointment gives an uneasy sensation, and produces a real deformity. An abjectness of character, likewise, is disgustful and contemptible in another view. Where a man has no sense of value in himself, we are not likely to have any higher esteem of him. And if the same person, who crouches to his superiors, is insolent to his inferiors (as often happens), this contrariety of behaviour, instead of correcting the former vice, aggravates it extremely by the addition of a vice still more odious. See sect. 8.</p>"

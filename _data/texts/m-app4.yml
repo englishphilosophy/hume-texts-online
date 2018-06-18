@@ -103,21 +103,19 @@ paragraphs:
 notes:
   -
     id: "66"
-    pages: "314"
     symbol: "*"
     content: "<p>See NOTE [SS].</p>"
   -
-    id: "[SS].1"
+    id: "66.1"
     type: "first"
     pages: "314"
     content: "<p><strong>T</strong>HE term, pride, is commonly taken in a bad sense; but this sentiment seems indifferent, and may be either good or bad, according as it is well or ill founded, and according to the other circumstances which accompany it. The <b>French</b> express this sentiment by the term, <em>amour propre</em>, but as they also express self-love as well as vanity, by the same term, there arises thence a great confusion in <b>Rochefoucault</b>, and many of their moral writers.</p>"
   -
     id: "67"
-    pages: "317"
     symbol: "*"
     content: "<p>See NOTE [TT].</p>"
   -
-    id: "[TT].1"
+    id: "67.1"
     type: "first"
     pages: "317"
     content: "<p><strong>L</strong>OVE and esteem are nearly the same passion, and arise from similar causes. The qualities, which produce both, are such as communicate pleasure. But where this pleasure is severe and serious; or where its object is great, and makes a strong impression, or where it produces any degree of humility and awe: In all these cases, the passion, which arises from the pleasure, is more properly denominated esteem than love. Benevolence attends both: But is connected with love in a more eminent degree. There seems to be still a stronger mixture of pride in contempt than of humility in esteem; and the reason would not be difficult to one, who studied accurately the passions. All these various mixtures and compositions and appearances of sentiment form a very curious subject of speculation, but are wide of our present purpose. Throughout this enquiry, we always consider in general, what qualities are a subject of praise or of censure, without entering into all the minute differences of sentiment, which they excite. It is evident, that whatever is contemned, is also disliked, as well as what is hated; and we here endeavour to take objects, according to their most simple views and appearances. These sciences are but too apt to appear abstract to common readers, even with all the precautions which we can take to clear them from superfluous speculations, and bring them down to every capacity.</p>"
@@ -143,20 +141,19 @@ notes:
     content: "<p>Lib. i. cap. 6.</p>"
   -
     id: "72"
-    pages: "319"
     symbol: "ǁ"
     content: "<p>See NOTE [UU].</p>"
   -
-    id: "[UU].1"
+    id: "72.1"
     type: "first"
     pages: "319"
     content: "<p><strong>T</strong>HE following passage of <b>Cicero</b> is worth quoting, as being the most clear and express to our purpose, that any thing can be imagined, and, in a dispute, which is chiefly verbal, must, on account of the author, carry an authority, from which there can be no appeal.</p>"
   -
-    id: "[UU].2"
+    id: "72.2"
     pages: "319"
     content: "<p><q>Virtus autem, quæ est per se ipsa laudabilis, et sine qua nihil laudari potest, tamen habet plures partes, quarum alia est aliâ ad laudationem aptior. Sunt enim aliæ virtutes, quæ videntur in moribus hominum, et quadam comitate ac beneficentia positæ: aliæ quæ in ingenii aliqua facultate, aut animi magnitudine ac robore. Nam clementia, justitia, benignitas, fides, fortitudo in periculis communibus, jucunda est auditu in laudationibus. Omnes enim hæ virtutes non tam ipsis, qui eas in se habent, quam generi hominum fructuosæ putantur. Sapientia et magnitudo animi, qua omnes res humanæ, tenues et pro nihilo putantur, et in cogitando vis quædam ingenii, et ipsa eloquentia admirationis habet non minus, jucunditatis minus. Ipsos enim magis videtur, quos laudamus, quam illos, apud quos laudamus, ornare ac tueri: sed tamen in laudenda jungenda sunt etiam hæc genera virtutum. Ferunt enim aures hominum, cum illa quæ jucunda et grata, tum etiam ilia, quæ mirabilia sunt in virtute, laudari.</q> <em>De orat. lib.</em> ii. <em>cap.</em> 89.</p>"
   -
-    id: "[UU].3"
+    id: "72.3"
     pages: "319"
     content: "<p>I suppose, if <b>Cicero</b> were now alive, it would be found difficult to fetter his moral sentiments by narrow systems; or persuade him, that no qualities were to be admitted as <em>virtues</em>, or acknowledged to be a part of <em>personal merit</em>, but what were recommended by <em>The Whole Duty of Man</em>.</p>"
   -

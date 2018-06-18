@@ -67,11 +67,10 @@ paragraphs:
 notes:
   -
     id: "60"
-    pages: "298"
     symbol: "*"
     content: "<p>See NOTE [OO].</p>"
   -
-    id: "[OO].1"
+    id: "60.1"
     type: "first"
     pages: "298"
     content: "<p><strong>B</strong>E<b>nevolence</b> naturally divides into two kinds, the <em>general</em> and the <em>particular</em>. The first is, where we have no friendship or connexion or esteem for the person, but feel only a general sympathy with him or a compassion for his pains, and a congratulation with his pleasures. The other species of benevolence is founded on an opinion of virtue, on services done us, or on some particular connexions. Both these sentiments must be allowed real in human nature; but whether they will resolve into some nice considerations of self-love, is a question more curious than important. The former sentiment, to wit, that of general benevolence, or humanity, or sympathy, we shall have occasion frequently to treat of in the course of this enquiry; and I assume it as real, from general experience, without any other proof.</p>"

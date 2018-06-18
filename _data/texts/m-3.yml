@@ -214,44 +214,41 @@ notes:
     content: "<p><b>Genesis</b>, chap. xiii. and xxi.</p>"
   -
     id: "11"
-    pages: "189"
     symbol: "*"
     content: "<p>See NOTE [S].</p>"
   -
-    id: "[S].1"
+    id: "11.1"
     type: "first"
     pages: "189-90"
     content: "<p><strong>T</strong>HIS fiction of a state of nature, as a state of war, was not first started by Mr. <b>Hobbes</b>, as is commonly imagined. <b>Plato</b> endeavours to refute an hypothesis very like it in the 2d, 3d, and 4th books de republica. <b>Cicero</b>, on the contrary, supposes it certain and universally acknowledged in the following passage. <q>Quis enim vestrûm, judices, ignorat, ita naturam rerum tulisse, ut quodam tempore homines, nondum neque naturali, neque civili jure descripto, fusi per agros, ac dispersi vagarentur tantumque haberent quantum manu ac viribus, per cædem ac vulnera, aut eripere, aut retinere potuissent? Qui igitur primi virtute &amp; consilio præstanti extiterunt, ii perspecto genere humanæ docilitatis atque ingenii, dissipatos unum in locum congregarunt, eosque ex feritate illa ad justitiam ac mansuetudinem transduxerunt. Tum res ad communem utilitatem, quas publicas appellamus, tum conventicula hominum, quæ postea civitates nominatæ sunt, tum domicilia conjuncta, quas urbes dicamus, invento &amp; divino &amp; humano <span class='page-break'>|</span>jure, mœnibus sepserunt. Atque inter hanc vitam, perpolitam humanitate, &amp; illam immanem, nihil tam interest quam JUS atque VIS. Horum utro uti nolimus, altero est utendum. Vim volumus extingui? Jus valeat necesse est, idi est, judicia, quibus omne jus continetur. Judicia displicent, ant nulla, sunt? Vis dominetur necesse est? Hæc vident omnes.</q> <em>Pro Sext</em>. l. 42.</p>"
   -
     id: "12"
-    pages: "197"
     symbol: "*"
     content: "<p>See NOTE [T].</p>"
   -
-    id: "[T].1"
+    id: "12.1"
     type: "first"
     pages: "197"
     content: "<p><strong>T</strong>HE author of <em>L'Esprit des Loix</em>. This illustrious writer, however, sets out with a different theory, and supposes all right to be founded on certain <em>rapports</em> or relations; which is a system, that, in my opinion, never will be reconciled with true philosophy. Father <b>Malebranche</b>, as far as I can learn, was the first that started this abstract theory of morals, which was afterwards adopted by <b>Cudworth</b>, <b>Clarke</b>, and others; and as it excludes all sentiment, and pretends to found every thing on reason, it has not wanted followers in this philosophic age. See Section I. Appendix I. With regard to justice, the virtue here treated of, the inference against this theory seems short and conclusive. Property is allowed to be dependent on civil laws; civil laws are allowed to have no other object, but the interest of society: This therefore must be allowed to be the sole foundation of property and justice. Not to mention, that our obligation itself to obey the magistrate and his laws is founded on nothing but the interests of society.</p>"
   -
-    id: "[T].2"
+    id: "12.2"
     pages: "197"
     content: "<p>If the ideas of justice, sometimes, do not follow the dispositions of civil law; we shall find, that these cases, instead of objections, are confirmations of the theory delivered above. Where a civil law is so perverse as to cross all the interests of society, it loses all its authority, and men judge by the ideas of natural justice, which are conformable to those interests. Sometimes also civil laws, for useful purposes, require a ceremony or form to any deed; and where that is wanting, their decrees run contrary to the usual tenour of justice; but one who takes advantage of such chicanes, is not commonly regarded as an honest man. Thus, the interests of society require, that contracts be fulfilled; and there is not a more material article either of natural or civil justice: But the omission of a trifling circumstance will often, by law, invalidate a contract, <em>in foro humano</em>, but not <em>in foro conscientiæ</em>, as divines express themselves. In these cases, the magistrate is supposed only to withdraw his power of enforcing the right, not to have altered the right. Where his intention extends to the right, and is conformable to the interests of society; it never fails to alter the right; a clear proof of the origin of justice and of property, as assigned above.</p>"
   -
     id: "13"
-    pages: "199"
     symbol: "*"
     content: "<p>See NOTE [U].</p>"
   -
-    id: "[U].1"
+    id: "13.1"
     type: "first"
     pages: "199-200"
     content: "<p><strong>I</strong>T is evident, that the will or consent alone never transfers property, nor causes the obligation of a promise (for the same reasoning extends to both) but the will must be expressed by words or signs, in order to impose a tye upon any man. The expression being once brought in as subservient to the will, soon becomes the principal part of the promise; nor will a man be less bound by his word, though he secretly <span class='page-break'>|</span>give a different direction to his intention, and with-hold the assent of his mind. But though the expression makes, on most occasions, the whole of the promise, yet it does not always so; and one who should make use of any expression, of which he knows not the meaning, and which he uses without any sense of the consequences, would not certainly be bound by it. Nay, though he know its meaning, yet if he use it in jest only, and with such signs as evidently show, that he has no serious intention of binding himself, he would not lie under any obligation of performance; but it is necessary, that the words be a perfect expression of the will, without any contrary signs. Nay, even this we must not carry so far as to imagine, that one, whom, by our quickness of understanding, we conjecture, from certain signs, to have an intention of deceiving us, is not bound by his expression or verbal promise, if we accept of it; but must limit this conclusion to those cases where the signs are of a different nature from those of deceit. All these contradictions are easily accounted for, if justice arise entirely from its usefulness to society; but will never be explained on any other hypothesis.</p>"
   -
-    id: "[U].2"
+    id: "13.2"
     pages: "200"
     content: "<p>It is remarkable that the moral decisions of the <em>Jesuits</em> and other relaxed casuists, were commonly formed in prosecution of some such subtilties of reasoning as are here pointed out, and proceed as much from the habit of scholastic refinement as from any corruption of the heart, if we may follow the authority of Mons. <b>Bayle</b>. See his Dictionary, article <b>Loyola</b>. And why has the indignation of mankind risen so high against these casuists; but because every one perceived, that human society could not subsist were such practices authorized, and that morals must always be handled with a view to public interest, more than philosophical regularity? If the secret direction of the intention, said every man of sense, could invalidate a contract; where is our security? And yet a metaphysical schoolman might think, that, where an intenintention was supposed to be requisite, if that intention really had not place, no consequence ought to follow, and no obligation be imposed. The casuistical subtilties may not be greater than the subtilties of lawyers, hinted at above; but as the former are <em>pernicious</em>, and the latter <em>innocent</em> and even <em>necessary</em>, this is the reason of the very different reception they meet with from the world.</p>"
   -
-    id: "[U].3"
+    id: "13.3"
     pages: "200-1"
     content: "<p>It is a doctrine of the Church of <b>Rome</b>, that the priest, by a secret direction of his intention, can invalidate any sacrament. This position is derived from a strict and regular prosecution of the obvious truth, that empty words alone, without any meaning or intention in the speaker, can never be attended with any effect. If the same conclusion be not admitted in reasonings concerning civil contracts, where the affair is allowed to be of so much less consequence than the eternal <span class='page-break'>|</span>salvation of thousands, it proceeds entirely from men's sense of the danger and inconvenience of the doctrine in the former case: And we may thence observe, that however positive, arrogant, and dogmatical any superstition may appear, it never can convey any thorough persuasion of the reality of its objects, or put them, in any degree, on a balance with the common incidents of life, which we learn from daily observation and experimental reasoning.</p>"
   -
