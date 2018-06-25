@@ -45,7 +45,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [AAA].</p>"
   -
-    id: "[AAA].1"
+    id: "42.1"
     type: "first"
     pages: "60"
     content: "<p><strong>V</strong>ERRIUS <b>Flaccus</b>, cited by <b>Pliny</b>, lib. xxviii. cap. 2. affirmed, that it was usual for the <b>Romans</b>, before they laid siege to any town, to invocate the tutelar deity of the place, and by promising him greater honours than those he at present enjoyed, bribe him to betray his old friends and votaries. The name of the tutelar deity of <b>Rome</b> was for this reason kept a most religious mystery; lest the enemies of the republic should be able, in the same manner, to draw him over to their service. For without the name, they thought, nothing of that kind could be practised. <b>Pliny</b> says, that the common form of invocation was preserved to his time in the ritual of the pontifs. And <b>Macrobius</b> has transmitted a copy of it from the secret things of <b>Sammonicus Serenus</b>.</p>"
@@ -94,7 +94,7 @@ notes:
     symbol: "‡"
     content: "<p>See NOTE [BBB].</p>"
   -
-    id: "[BBB].1"
+    id: "51.1"
     type: "first"
     pages: "62"
     content: "<p><strong>M</strong>OST nations have fallen into this guilt of human sacrifices; though, perhaps, that impious superstition has never prevailed very much in any civilized nation, unless we except the <b>Carthaginians</b>. For the <b>Tyrians</b> soon abolished it. A sacrifice is conceived as a present; and any present is delivered to their deity by destroying it and rendering it useless to men; by burning what is solid, pouring out the liquid, and killing the animate. For want of a better way of doing him service, we do ourselves an injury; and fancy that we thereby express, at least, the heartiness of our good-will and adoration. Thus our mercenary devotion deceives ourselves, and imagines it deceives the deity.</p>"

@@ -30,7 +30,7 @@
     </div>
     <div class="content">
       {% assign first = note.id | slice: 0 %}
-      {% if first != '[' %}<span class="subsection">{{ note.id }}.</span>{% endif %}
+      {% if note.id contains '.' %}<span class="subsection">{{ note.id }}.</span>{% endif %}
       {{ note.content }}
     </div>
   </div>

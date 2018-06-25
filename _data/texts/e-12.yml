@@ -158,7 +158,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [N].</p>"
   -
-    id: "[N].1"
+    id: "32.1"
     type: "first"
     pages: "155"
     content: "<p><strong>T</strong>HIS argument is drawn from Dr. <b>Berkley</b>; and indeed most of the writings of that very ingenious author form the best lessons of scepticism, which are to be found either among the ancient or modern philosophers, <b>Bayle</b> not excepted. He professes, however, in his title-page (and undoubtedly with great truth) to have composed his book against the sceptics as well as against the atheists and free-thinkers. But that all his arguments, though otherwise intended, are, in reality, merely sceptical, appears from this, <em>that they admit of no answer and produce no conviction</em>. Their only effect is to cause that momentary amazement and irresolution and confusion, which is the result of scepticism.</p>"
@@ -168,7 +168,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [O].</p>"
   -
-    id: "[O].1"
+    id: "33.1"
     type: "first"
     pages: "156"
     content: "<p><strong>W</strong>HATEVER disputes there may be about mathematical points, we must allow that there are physical points; that is, parts of extension, which cannot be divided or lessened, either by the eye or imagination. These images, then, which are present to the fancy or senses, are absolutely indivisible, and consequently must be allowed by mathematicians to be infinitely less than any real part of extension; and yet nothing appears more certain to reason, than that an infinite number of them composes an infinite extension. How much more an infinite number of those infinitely small parts of extension, which are still supposed infinitely divisible.</p>"
@@ -178,7 +178,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [P].</p>"
   -
-    id: "[P].1"
+    id: "34.1"
     type: "first"
     pages: "158"
     content: "<p><strong>I</strong>T seems to me not impossible to avoid these absurdities and contradictions, if it be admitted, that there is no such thing as abstract or general ideas, properly speaking; but that all general ideas are, in reality, particular ones, attached to a general term, which recalls, upon occasion, other particular ones, that resemble, in certain circumstances, the idea, present to the mind. Thus when the term Horse is pronounced, we immediately figure to ourselves the idea of a black or a white animal, of a particular size or figure: But as that term is also usually applied to animals of other colours, figures and sizes, these ideas, though not actually present to the imagination, are easily recalled; and our reasoning and conclusion proceed in the same way, as if they were actually present. If this be admitted (as seems reasonable) it follows that all the ideas of quantity, upon which mathematicians reason, are nothing but particular, and such as are suggested by the senses and imagination, and consequently, cannot be infinitely divisible. It is sufficient to have dropped this hint at present, without prosecuting it any farther. It certainly concerns all lovers of science not to expose themselves to the ridicule and contempt of the ignorant by their conclusions; and this seems the readiest solution of these difficulties.</p>"
@@ -188,7 +188,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [Q].</p>"
   -
-    id: "[Q].1"
+    id: "35.1"
     type: "first"
     pages: "164"
     content: "<p><strong>T</strong>HAT impious maxim of the ancient philosophy, <em>Ex nihilo, nihil fit</em>, by which the creation of matter was excluded, ceases to be a maxim, according to this philosophy. Not only the will of the supreme Being may create matter; but, for aught we know <em>à priori</em>, the will of any other being might create it, or any other cause, that the most whimsical imagination can assign.</p>"
