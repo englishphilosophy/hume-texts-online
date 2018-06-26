@@ -157,7 +157,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [H].</p>"
   -
-    id: "[H].1"
+    id: "1.1"
     type: "first"
     pages: "199"
     content: "<p><strong>I</strong>T is a saying of <b>Menander</b>, <i>Κομψος σρατιωτης, ονδ' αν ει πλαττει θεος Ονθεις γενοιτ' αν.</i> <b>Men.</b> apud <b>Stobæum</b>. <em>It is not in the power even of God to make a polite soldier.</em> The contrary observation with regard to the manners of soldiers takes place in our days. This seems to me a presumption, that the ancients owed all their refinement and civility to books and study; for which, indeed, a soldier's life is not so well calculated. Company and the world is their sphere. And if there be any politeness to be learned from company, they will certainly have a considerable share of it.</p>"
@@ -166,44 +166,44 @@ notes:
     symbol: "†"
     content: "<p>See NOTE [I].</p>"
   -
-    id: "[I].1"
+    id: "2.1"
     type: "first"
     pages: "199-200"
     content: "<p><strong>T</strong>H<b>ough</b> all mankind have a strong propensity to religion at certain times and in certain dispositions; yet are there few or none, who have it to that degree, and with that constancy, which is requisite to support the character of this profession. It must, therefore, happen, that clergymen, being drawn from the common mass of mankind, as people are to other employments, by the views of profit, the greater part, though no atheists or free-thinkers, will find it necessary, on particular occasions, to feign more devotion than <span class='page-break'>|</span>they are, at that time, possessed of, and to maintain the appearance of fervor and seriousness, even when jaded with the exercises of their religion, or when they have their minds engaged in the common occupations of life. They must not, like the rest of the world, give scope to their natural movements and sentiments: They must set a guard over their looks and words and actions: And in order to support the veneration paid them by the multitude, they must not only keep a remarkable reserve, but must promote the spirit of superstition, by a continued grimace and hypocrisy. This dissimulation often destroys the candor and ingenuity of their temper, and makes an irreparable breach in their character.</p>"
   -
-    id: "[I].2"
+    id: "2.2"
     pages: "200"
     content: "<p>If by chance any of them be possessed of a temper more susceptible of devotion than usual, so that he has but little occasion for hypocrisy to support the character of his profession; it is so natural for him to over-rate this advantage, and to think that it atones for every violation of morality, that frequently he is not more virtuous than the hypocrite. And though few dare openly avow those exploded opinions, <em>that every thing is lawful to the saints</em>, and <em>that they alone have property in their goods</em>; yet may we observe, that these principles lurk in every bosom, and represent a zeal for religious observances as so great a merit, that it may compensate for many vices and enormities. This observation is so common, that all prudent men are on their guard, when they meet with any extraordinary appearance of religion; though at the same time, they confess, that there are many exceptions to this general rule, and that probity and superstition, or even probity and fanaticism, are not altogether and in every instance incompatible.</p>"
   -
-    id: "[I].3"
+    id: "2.3"
     pages: "200"
     content: "<p>Most men are ambitious; but the ambition of other men may commonly be satisfied, by excelling in their particular profession, and thereby promoting the interests of society. The ambition of the clergy can often be satisfied only by promoting ignorance and superstition and implicit faith and pious frauds. And having got what <b>Archimedes</b> only wanted, (namely, another world, on which he could fix his engines) no wonder they move this world at their pleasure.</p>"
   -
-    id: "[I].4"
+    id: "2.4"
     pages: "200"
     content: "<p>Most men have an overweaning conceit of themselves; but <em>these</em> have a peculiar temptation to that vice, who are regarded with such veneration, and are even deemed sacred, by the ignorant multitude.</p>"
   -
-    id: "[I].5"
+    id: "2.5"
     pages: "200-1"
     content: "<p>Most men are apt to bear a particular regard for members of their own profession; but as a lawyer, or physician, or merchant, does, each of them, follow out his business apart, the interests of men of these professions are not so closely united as the interests of clergymen of the same religion; <span class='page-break'>|</span>where the whole body gains by the veneration, paid to their common tenets, and by the suppression of antagonists.</p>"
   -
-    id: "[I].6"
+    id: "2.6"
     pages: "201"
     content: "<p>Few men can bear contradiction with patience; but the clergy too often proceed even to a degree of fury on this head: Because all their credit and livelihood depend upon the belief, which their opinions meet with; and they alone pretend to a divine and supernatural authority, or have any colour for representing their antagonists as impious and prophane. The <em>Odium Theologicum</em>, or Theological Hatred, is noted even to a proverb, and means that degree of rancour, which is the most furious and implacable.</p>"
   -
-    id: "[I].7"
+    id: "2.7"
     pages: "201"
     content: "<p>Revenge is a natural passion to mankind; but seems to reign with the greatest force in priests and women: Because, being deprived of the immediate exertion of anger, in violence and combat, they are apt to fancy themselves despised on that account; and their pride supports their vindictive disposition.</p>"
   -
-    id: "[I].8"
+    id: "2.8"
     pages: "201"
     content: "<p>Thus many of the vices of human nature are, by fixed moral causes, inflamed in that profession; and though several individuals escape the contagion, yet all wise governments will be on their guard against the attempts of a society, who will for ever combine into one faction, and while it acts as a society, will for ever be actuated by ambition, pride, revenge, and a persecuting spirit.</p>"
   -
-    id: "[I].9"
+    id: "2.9"
     pages: "201"
     content: "<p>The temper of religion is grave and serious; and this is the character required of priests, which confines them to strict rules of decency, and commonly prevents irregularity and intemperance amongst them. The gaiety, much less the excesses of pleasure, is not permitted in that body; and this virtue is, perhaps, the only one which they owe to their profession. In religions, indeed, founded on speculative principles, and where public discourses make a part of religious service, it may also be supposed that the clergy will have a considerable share in the learning of the times; though it is certain that their taste in eloquence will always be greater than their proficiency in reasoning and philosophy. But whoever possesses the other noble virtues of humanity, meekness, and moderation, as very many of them, no doubt, do, is beholden for them to nature or reflection, not to the genius of his calling.</p>"
   -
-    id: "[I].10"
+    id: "2.10"
     pages: "201"
     content: "<p>It was no bad expedient in the old <b>Romans</b>, for preventing the strong effect of the priestly character, to make it a law that no one should be received into the sacerdotal office, till he was past fifty years of age, <b>Dion.</b> <em>Hal.</em> lib. i. The living a layman till that age, it is presumed, would be able to fix the character.</p>"
   -
@@ -211,7 +211,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [K].</p>"
   -
-    id: "[K].1"
+    id: "3.1"
     type: "first"
     pages: "202"
     content: "<p><strong>C</strong>ÆSAR (<em>de Bello <b>Gallico</b></em>, lib. 1.) says, that the <b>Gallic</b> horses were very good; the <b>German</b> very bad. We find in lib. vii. that he was obliged to remount some <b>German</b> cavalry with <b>Gallic</b> horses. At present, no part of <b>Europe</b> has so bad horses of all kinds as <b>France</b>: But <b>Germany</b> abounds with excellent war horses. This may beget a little suspicion, that even animals depend not on the climate; but on the different breeds, and on the skill and care in rearing them. The north of <b>England</b> abounds in the best horses of all kinds which are perhaps in the world. In the neighbouring counties, north side of the <b>Tweed</b>, no good horses of any kind are to be met with. <b>Strabo</b>, lib. ii. Rejects, in a great measure, the influence of climates upon men. All is custom and education, says he. It is not from nature, that the <b>Athenians</b> are learned, the <b>Lacedemonians</b> ignorant, and the <b>Thebans</b> too, who are still nearer neighbours to the former. Even the difference of animals, he adds, depends not on climate.</p>"
@@ -220,7 +220,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [L].</p>"
   -
-    id: "[L].1"
+    id: "4.1"
     type: "first"
     pages: "205"
     content: "<p><strong>A</strong> Small sect or society amidst a greater are commonly most regular in their morals; because they are more remarked, and the faults of individuals draw dishonour on the whole. The only exception to this rule is, when the superstition and prejudices of the large society are so strong as to throw an infamy on the smaller society, independent of their morals. For in that case, having no character either to save or gain, they become careless of their behaviour, except among themselves.</p>"
@@ -234,7 +234,7 @@ notes:
     symbol: "†"
     content: "<p>See NOTE [M].</p>"
   -
-    id: "[M].1"
+    id: "6.1"
     type: "first"
     pages: "208"
     content: "<p><strong>I</strong> Am apt to suspect the negroes to be naturally inferior to the whites. There scarcely ever was a civilized nation of that complexion, nor even any individual eminent either in action or speculation. No ingenious manufactures amongst them, no arts, no sciences. On the other hand, the most rude and barbarous of the whites, such as the ancient <b>Germans</b>, the present <b>Tartars</b>, have still something eminent about them, in their valour, form of government, or some other particular. Such a uniform and constant difference could not happen, in so many countries and ages, if nature had not made an original distinction between these breeds of men. Not to mention our colonies, there are <b>Negroe</b> slaves dispersed all over <b>Europe</b>, of whom none ever discovered any symptoms of ingenuity; though low people, without education, will start up amongst us, and distinguish themselves in every profession. In <b>Jamaica</b>, indeed, they talk of one negroe as a man of parts and learning; but it is likely he is admired for slender accomplishments, like a parrot, who speaks a few words plainly.</p>"

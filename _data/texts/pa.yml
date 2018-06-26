@@ -761,7 +761,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [T].</p>"
   -
-    id: "[T].1"
+    id: "1.1"
     type: "first"
     pages: "378"
     content: "<p><strong>C</strong>O<b>lumella</b> says, lib. iii. cap. 8. that in <b>Ægypt</b> and <b>Africa</b> the bearing of twins was frequent, and even customary; <em>gemini partus familiares, ac pæne solennes sunt</em>. If this was true, there is a physical difference both in countries and ages. For travellers make no such remarks on these countries at present. On the contrary, we are apt to suppose the northern nations more prolific. As those two countries were provinces of the <b>Roman</b> empire, it is difficult, though not altogether absurd, to suppose that such a man as <b>Columella</b> might be mistaken with regard to them.</p>"
@@ -820,7 +820,7 @@ notes:
     symbol: "‡"
     content: "<p>See NOTE [U].</p>"
   -
-    id: "[U].1"
+    id: "12.1"
     type: "first"
     pages: "386"
     content: "<p><strong><em>E</em></strong><em>PIST.</em> 122. The inhuman sports exhibited at <b>Rome</b>, may justly be considered too as an effect of the people's contempt for slaves, and was also a great cause of the general inhumanity of their princes and rulers. Who can read the accounts of the amphitheatrical entertainments without horror? Or who is surprised, that the emperors should treat that people in the same way the people treated their inferiors? One's humanity is apt to renew the barbarous wish of <b>Caligula</b>, that the people had but one neck: A man could almost be pleased, by a single blow, to put an end to such a race of monsters. You may thank God, says the author above cited, (<em>epist.</em> 7.) addressing himself to the <b>Roman</b> people, that you have a master (to wit the mild and merciful <b>Nero</b>) who is incapable of learning cruelty from your example. This was spoke in the beginning of his reign: But he fitted them very well afterwards; and, no doubt, was considerably improved by the sight of the barbarous objects, to which he had, from his infancy, been accustomed.</p>"
@@ -849,7 +849,7 @@ notes:
     symbol: "ǁ"
     content: "<p>See NOTE [X].</p>"
   -
-    id: "[X].1"
+    id: "17.1"
     type: "first"
     pages: "389"
     content: "<p><strong>A</strong>S <em>servus</em> was the name of the genus, and verna of the species, without any correlative, this forms a strong presumption, that the latter were by far the least numerous. It is an universal observation which we may form upon language, that where two related parts of a whole bear any proportion to each other, in numbers, rank or consideration, there are always correlative terms invented, which answer to both the parts, and express their mutual relation. If they bear no proportion to each other, the term is only invented for the less, and marks its distinction from the whole. Thus <em>man</em> and <em>woman</em>, <em>master</em> and <em>servant</em>, <em>father</em> and <em>son</em>, <em>prince</em> and <em>subject</em>, <em>stranger</em> and <em>citizen</em>, are correlative terms. But the words <em>seaman</em>, <em>carpenter</em>, <em>smith</em>, <em>tailor</em>, &amp;c. have no correspondent terms, which express those who are no seamen, no carpenters, <em>&amp;c.</em> Languages differ very much with regard to the particular words where this distinction obtains; and may thence afford very strong inferences, concerning the manners and customs of different nations. The military government of the <b>Roman</b> emperors had exalted the soldiery so high, that they balanced all the other orders of the state: Hence <em>miles</em> and <em>paganus</em> became relative terms; a thing, till then, unknown to ancient, and still so to modern languages. Modern superstition exalted the clergy so high, that they overbalanced the whole state: Hence <em>clergy</em> and <em>laity</em> are terms opposed in all modern languages; and in these alone. And from the same principles I infer, that if the number of slaves bought by the <b>Romans</b> from foreign countries, had not extremely exceeded those which were bred at home, <em>verna</em> would have had a correlative, which would have expressed the former species of slaves. But these, it would seem, composed the main body of the ancient slaves, and the latter were but a few exceptions.</p>"
@@ -913,7 +913,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [Y].</p>"
   -
-    id: "[Y].1"
+    id: "29.1"
     type: "first"
     pages: "392-3"
     content: "<p><strong><q>N</strong>ON temere ancillæ ejus rei causa comparantur ut pariant.</q> <em>Digest.</em> lib. v. tit. 3. <em>de hæred. petit. lex</em> 27. The following texts are to the same purpose, <q>Spadonem morbosum non esse, neque vitiosum, verius mihi videtur; sed sanum esse, sicuti illum qui unum testiculum habet, qui etiam generare potest.</q> <em>Digest.</em> lib. ii. tit. 1. <em>de ædilitio edicto, lex</em> 6. § 2. <q>Sin autem quis ita spado sit, ut tam necessaria pars corporis penitus absit, morbosus est.</q> <em>Id. lex</em> 7.  His impotence, it seems, was only regarded so far as his health or life might be affected by it. In other respects, he was full as valuable. The same reasoning is employed with regard to female slaves. <q>Quæritur de ea muliere quæ semper mortuos parit, an morbosa sit? et ait Sabinus, si vulvæ vitio hoc contingit, morbosam esse.</q> <em>Id. lex</em> 14.  It had even been doubted, whether a woman pregnant was morbid or vitiated; and it is determined, that she is sound, not on account of the value of her offspring, but because it is the natural part or office of women to bear children. <q>Si mulier prægnans venerit, inter omnes convenit sanam eam esse. Maximum enim ac præcipuum munus fœminarum accipere ac tueri conceptum. Puerperam quoque sanam esse; si modo nihil extrinsecus accedit, quod corpus ejus in aliquam valetudinem immitteret. De sterili <span class='page-break'>|</span>Cœlius distinguere Trebatium dicit, ut si natura sterilis sit, sana sit; si vitio corporis, contra.</q> <em>Id.</em></p>"
@@ -1037,12 +1037,12 @@ notes:
     symbol: "†"
     content: "<p>See NOTE [Z].</p>"
   -
-    id: "[Z].1"
+    id: "53.1"
     type: "first"
     pages: "400"
     content: "<p><strong>T</strong>HE practice of leaving great sums of money to friends, though one had near relations, was common in <b>Greece</b> as well as <b>Rome</b>; as we may gather from <b>Lucian</b>. This practice prevails much less in modern times; and <b>Ben. Johnson</b>'s <b>Volpone</b> is therefore almost entirely extracted from ancient authors, and suits better the manners of those times.</p>"
   -
-    id: "[Z].2"
+    id: "53.2"
     pages: "400"
     content: "<p>It may justly be thought, that the liberty of divorces in <b>Rome</b> was another discouragement to marriage. Such a practice prevents not quarrels from <em>humour</em>, but rather encreases them; and occasions also those from <em>interest</em>, which are much more dangerous and destructive. See farther on this head, Part I. Essay <del>XVIII</del><ins title='essay 18 is The Sceptic, but Hume presumably means essay 19, Of Polygamy and Divorces'>XIX</ins>. <ins title='added for ease of reference'>[Of Polygamy and Divorces.]</ins> Perhaps too the unnatural lusts of the ancients ought to be taken into consideration, as of some moment.</p>"
   -
@@ -1100,7 +1100,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [AA].</p>"
   -
-    id: "[AA].1"
+    id: "64.1"
     type: "first"
     pages: "403-4"
     content: "<p><strong>P</strong>LIN. lib. xviii. cap. 3. The same author, in cap. 6. says, <em>Verumque fatentibus latifundia perdidere <span class='page-break'>|</span><b>ITALIAM</b>; jam vero et provincias. Sex domi semissem <b>Africæ</b> possidebant, cum interfecit eos <b>Nero</b> princeps.</em> In this view the barbarous butchery committed by the first <b>Roman</b> emperors, was not, perhaps, so destructive to the public as we may imagine. These never ceased till they had extinguished all the illustrious families, which had enjoyed the plunder of the world, during the latter ages of the republic. The new nobles who arose in their place, were less splendid, as we learn from <b>Tacit.</b> <em>Ann.</em> lib. iii. cap. 55.</p>"
@@ -1204,7 +1204,7 @@ notes:
     symbol: "<b></b>"
     content: "<p>See NOTE [BB].</p>"
   -
-    id: "[BB].1"
+    id: "84.1"
     type: "first"
     pages: "409-10"
     content: "<p><strong>W</strong>E shall mention from <b>Diodorus Siculus</b> alone a few massacres, which passed in the course of sixty years, during the most shining age of <b>Greece</b>. <span class='page-break'>|</span>There were banished from <b>Sybaris</b> 500 of the nobles and their partizans; lib. xii. p. 77. <em>ex edit.</em> <b>Rhodomanni</b>. Of <b>Chians</b>, 600 citizens banished; lib. xiii. p. 189. At <b>Ephesus</b>, 340 killed, 1000 banished; lib. xiii. p. 223. Of <b>Cyrenians</b>, 500 nobles killed, all the rest banished; lib. xiv. p. 263. The <b>Corinthians</b> killed 120, banished 500; lib. xiv. p. 304. <b>Phæbidas</b> the <b>Spartan</b> banished 300 <b>Bæotians</b>; lib. xv. p. 342. Upon the fall of the <b>Lacedæmonians</b>, Democracies were restored in many cities, and severe vengeance taken of the nobles, after the <b>Greek</b> manner. But matters did not end there. For the banished nobles, returning in many places, butchered their adversaries at <b>Phialæ</b>, in <b>Corinth</b>, in <b>Megara</b>, in <b>Phliasia</b>. In this last place they killed 300 of the people; but these again revolting, killed above 600 of the nobles, and banished the rest; lib. xv. p. 357. In <b>Arcadia</b> 1400 banished, besides many killed. The banished retired to <b>Sparta</b> and to <b>Pallantium</b>: The latter were delivered up to their countrymen, and all killed; lib. xv. p. 373. Of the banished from <b>Argos</b> and <b>Thebes</b>, there were 509 in the <b>Spartan</b> army; <em>id.</em> p. 374. Here is a detail of the most remarkable of <b>Agathocles</b>'s cruelties from the same author. The people before his usurpation had banished 600 nobles; lib. xix. p. 655. Afterwards that tyrant, in concurrence with the people, killed 4000 nobles, and banished 6000; <em>id.</em> p. 647. He killed 4000 people at <b>Gela</b>; <em>id.</em> p. 741. By <b>Agathocles</b>'s brother 8000 banished from <b>Syracuse</b>; lib. xx. p. 757. The inhabitants of <b>Ægesta</b>, to the number of 40,000, were killed, man, woman, and child; and with tortures, for the sake of their money; <em>id.</em> p. 802. All the relations, to wit, father, brother, children, grandfather, of his <b>Libyan</b> army, killed; <em>id.</em> p. 803. He killed 7000 exiles after capitulation; <em>id.</em> p. 816. It is to be remarked, that <b>Agathocles</b> was a man of great sense and courage, and is not to be suspected of wanton cruelty, contrary to the maxims of his age.</p>"
@@ -1228,7 +1228,7 @@ notes:
     symbol: "‡"
     content: "<p>See NOTE [CC].</p>"
   -
-    id: "[CC].1"
+    id: "88.1"
     type: "first"
     pages: "412"
     content: "<p><strong>I</strong>N order to recommend his client to the favour of the people, he enumerates all the sums he had expended. When <i>χορηγος</i>, 30 minas: Upon a chorus of men 20 minas; <i>εις πυρριχιστας</i>, 8 minas; <i>ανδρασι χορηγων</i>, 50 minas; <i>κυκλικω χορω</i>, 3 minas; Seven times trierarch, where he spent 6 talents: Taxes, once 30 minas, another time 40; <i>γυμνασιαρχων</i>, 12 minas; <i>χορηγος παιδικω χορω</i>, 15 minas; <i>κωμωδοις χορηγων</i>, 18 minas; <i>πυρριχισταις αγενειοις</i>, 7 minas; <i>τριηρει αμμιλωμενος</i>, 15 minas; <i>αρχιθεωρος</i>, 30 minas: In the whole ten talents 38 minas. An immense sum for an <b>Athenian</b> fortune, and what alone would be esteemed great riches, <em>Orat.</em> 20. It is true, he says, the law did not oblige him absolutely to be at so much expence, not above a fourth. But without the favour of the people, no body was so much as safe; and this was the only way to gain it. See farther, <em>orat.</em> 24. <em>de pop. statu.</em> In another place, he introduces a speaker, who says that he had spent his whole fortune, and an immense one, eighty talents, for the people. <em>Orat.</em> 25. <em>de prob. <b>Evandri</b>.</em>  The <i>μετοικοι</i>, or strangers, find, says he, if they do not contribute largely enough to the people's fancy, that they have reason to repent it. <em>Orat.</em> 30. <em>contra</em> <b>Phil.</b> You may see with what care <b>Demosthenes</b> displays his expences of this nature, when he pleads for himself <em>de corona;</em> and how he exaggerates <b>Midias</b>'s stinginess in this particular, in his accusation of that criminal. All this, by the by, is a mark of a very iniquitous judicature: And yet the <b>Athenians</b> valued themselves on having the most legal and regular administration of any people in <b>Greece</b>.</p>"
@@ -1252,7 +1252,7 @@ notes:
     symbol: "‡"
     content: "<p>See NOTE [DD].</p>"
   -
-    id: "[DD].1"
+    id: "92.1"
     type: "first"
     pages: "414"
     content: "<p><strong>T</strong>HE authorities cited above, are all historians, orators, and philosophers, whose testimony is unquestioned. It is dangerous to rely upon writers who deal in ridicule and satyr. What will posterity, for instance, infer from this passage of Dr. <b>Swift</b>: <q>I told him, that in the kingdom of <b>Tribnia</b> (<b>Britain</b>) by the natives called <b>Langdon</b> (<b>London</b>) where I had sojourned some time in my travels, the bulk of the people consist, in a manner, wholly of discoverers, witnesses, informers, accusers, prosecutors, evidences, swearers, together with their several subservient and subaltern instruments, all under the colours, the conduct, and pay of ministers of state and their deputies. The plots in that kingdom are usually the workmanship of those persons,</q> <em>&amp;c.</em> <del><b>Gulliver</b>s</del><ins title='the apostrophe is missing in the 1777 edition, but present in earlier editions'><b>Gulliver</b>'s</ins> <em>travels</em>. Such a representation might suit the government of <b>Athens</b>; not that of <b>England</b>, which is remarkable even in modern times, for humanity, justice, and liberty. Yet the Doctor's satyr, though carried to extremes, as is usual with him, even beyond other satyrical writers, did not altogether want an object. The Bishop of <b>Rochester</b>, who was his friend, and of the same party, had been banished a little before by bill of attainder, with great justice, but without such a proof as was legal, or according to the strict forms of common law.</p>"
@@ -1371,7 +1371,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [EE].</p>"
   -
-    id: "[EE].1"
+    id: "115.1"
     type: "first"
     pages: "422"
     content: "<p><strong>I</strong>N general, there is more candour and sincerity in ancient historians, but less exactness and care, than in the moderns. Our speculative factions, especially those of religion, throw such an illusion over our minds, that men seem to regard impartiality to their adversaries and to heretics, as a vice or weakness: But the commonness of books, by means of printing, has obliged modern historians to be more careful in avoiding contradictions and incongruities. <b>Diodorus Siculus</b> is a good writer, but it is with pain I see his narration contradict, in so many particulars, the two most authentic pieces of all <b>Greek</b> history, to wit, <b>Xenophon</b>'s expedition, and <b>Demosthenes</b>'s orations. <b>Plutarch</b> and <b>Appian</b> seem scarce ever to have read <b>Cicero</b>'s epistles.</p>"
@@ -1450,7 +1450,7 @@ notes:
     symbol: "†*"
     content: "<p>See NOTE [FF].</p>"
   -
-    id: "[FF].1"
+    id: "130.1"
     type: "first"
     pages: "425"
     content: "<p><strong>P</strong>LINY, lib. vii. cap. 25. says, that <b>Cæsar</b> used to boast, that there had fallen in battle against him one million one hundred and ninety-two thousand men, besides those who perished in the civil wars. It is not probable, that that conqueror could ever pretend to be so exact in his computation. But allowing the fact, it is likely, that the <b>Helvetii</b>, <b>Germans</b>, and <b>Britons</b>, whom he slaughtered, would amount to near a half of the number.</p>"
@@ -1534,7 +1534,7 @@ notes:
     symbol: "§"
     content: "<p>See NOTE [GG].</p>"
   -
-    id: "[GG].1"
+    id: "146.1"
     type: "first"
     pages: "428"
     content: "<p><strong>W</strong>E are to observe, that when <b>Dionysius Halycarnassæus</b>  says, that if we regard the ancient walls of <b>Rome</b>, the extent of that city will not appear greater than that of <b>Athens</b>; he must mean the <b>Acropolis</b> and high town only. No ancient author ever speaks of the <b>Pyræum</b>, <b>Phalerus</b>, and <b>Munychia</b>, as the same with <b>Athens</b>. Much less can it be supposed, that <b>Dionysius</b> would consider the matter in that light, after the walls of <b>Cimon</b> and <b>Pericles</b> were destroyed, and <b>Athens</b> was entirely separated from these other towns. This observation destroys all <b>Vossius</b>'s reasonings, and introduces common sense into these calculations.</p>"
@@ -1643,7 +1643,7 @@ notes:
     symbol: "†"
     content: "<p>See NOTE [HH].</p>"
   -
-    id: "[HH].1"
+    id: "167.1"
     type: "first"
     pages: "432"
     content: "<p><strong>D</strong>EMOST. <em>contra</em> <b>Lept.</b>  The <b>Athenians</b> brought yearly from <b>Pontus</b> 400,000 medimni or bushels of corn, as appeared from the custom-house books. And this was the greater part of their importation of corn. This by the by is a strong proof that there is some great mistake in the foregoing passage of <b>Athenæus</b>. For <b>Attica</b> itself was so barren of corn, that it produced not enough even to maintain the peasants. <b>Tit. Liv.</b> lib. xliii. cap. 6. And 400,000 medimni would scarcely feed 100,000 men during a twelvemonth. <b>Lucian</b>, in his <em>navigium sive vota</em>, says, that a ship, which, by the dimensions he gives, seems to have been about the size of our third rates, carried as much corn as would maintain all <b>Attica</b> for a twelve-month. But perhaps <b>Athens</b> was decayed at that time; and besides, it is not safe to trust to such loose rhetorical calculations.</p>"
@@ -1662,7 +1662,7 @@ notes:
     symbol: "¶"
     content: "<p>See NOTE [II].</p>"
   -
-    id: "[II].1"
+    id: "170.1"
     type: "first"
     pages: "433"
     content: "<p><strong>D</strong>IOD. <b>Sic.</b> lib. xvii. When <b>Alexander</b> attacked <b>Thebes</b>, we may safely conclude, that almost all the inhabitants were present. Whoever is acquainted with the spirit of the <b>Greeks</b>, especially of the <b>Thebans</b>, will never suspect, that any of them would desert their country, when it was reduced to such extreme peril and distress. As <b>Alexander</b> took the town by storm, all those who bore arms were put to the sword without mercy; and they amounted only to 6000 men. Among these were some strangers and manumitted slaves. The captives, consisting of old men, women, children, and slaves, were sold, and they amounted to 30,000. We may therefore conclude that the free citizens in <b>Thebes</b>, of both sexes and all ages, were near 24,000; the strangers and slaves about 12,000. These last, we may observe, were somewhat fewer in proportion than at <b>Athens</b>; as is reasonable to imagine from this circumstance, that <b>Athens</b> was a town of more trade to support slaves, and of more entertainment to allure strangers. It is also to be remarked, that thirty-six thousand was the whole number of people, both in the city of <b>Thebes</b>, and the neighbouring territory: A very moderate number, it must be confessed; and this computation, being founded on facts which appear indisputable, must have great weight in the present controversy. The above-mentioned number of <b>Rhodians</b> too were all the inhabitants of the island, who were free, and able to bear arms.</p>"
@@ -1766,7 +1766,7 @@ notes:
     symbol: "‡"
     content: "<p>See NOTE [KK].</p>"
   -
-    id: "[KK].1"
+    id: "190.1"
     type: "first"
     pages: "437"
     content: "<p><strong>S</strong>TRABO, liv. v. says, that the emperor <b>Augustus</b> prohibited the raising houses higher than seventy feet. In another passage, lib. xvi. he speaks of the houses of <b>Rome</b> as remarkably high. See also to the same purpose <b>Vitruvius</b>, lib. ii. cap. 8. <b>Aristides</b> the sophist, in his oration <i>εις Ρωμην</i>, says, that <b>Rome</b> consisted of cities on the top of cities; and that if one were to spread it out, and unfold it, it would cover the whole surface of <b>Italy</b>. Where an author indulges himself in such extravagant declamations, and gives so much into the hyperbolical style, one knows not how far he must be reduced. But this reasoning seems natural: If <b>Rome</b> was built in so scattered a manner as <b>Dionysius</b> says, and ran so much into the country, there must have been very few streets where the houses were raised so high. It is only for want of room, that any body builds in that inconvenient manner.</p>"
@@ -1775,7 +1775,7 @@ notes:
     symbol: "§"
     content: "<p>See NOTE [LL].</p>"
   -
-    id: "[LL].1"
+    id: "191.1"
     type: "first"
     pages: "438"
     content: "<p><strong>L</strong>IB. ii. epist. 16. lib. v. epist. 6. It is true, <b>Pliny</b> there describes a country-house: But since that was the idea which the ancients formed of a magnificent and convenient building, the great men would certainly build the same way in town. <q>In laxitatem ruris excurrunt,</q> says <b>Seneca</b> of the rich and voluptuous, epist. 114. <b>Valerius Maximus</b>, lib. iv. cap. 4. speaking of <b>Cincinnatus</b>'s field of four acres, says, <q>Auguste se habitare nunc putat, cujus domus tantum patet quantum <b>Cincinnati</b> rura patuerant.</q> To the same purpose see lib. xxxvi. cap. 15. also lib. xviii. cap. 2.</p>"
@@ -1789,24 +1789,24 @@ notes:
     symbol: "†*"
     content: "<p>See NOTE [MM].</p>"
   -
-    id: "[MM].1"
+    id: "193.1"
     type: "first"
     pages: "438-9"
     content: "<p><strong><q>M</strong>OENIA ejus (<b>Romæ</b>) collegere ambitu imperatoribus, censoribusque <b>Vespasianis</b>, A. U. C. 828. pass. xiii. MCC. complexa montes septem, ipsa dividitur in regiones quatuordecim, compita earum 265. Ejusdem spatii mensura, currente a milliario in capite <b>Rom.</b> Fori statuto, ad singulas portas, quæ sunt hodie numero 37, ita ut duodecim portæ semel numerentur, prætereanturque ex veteribus septem, quæ esse desierunt, efficit passuum per directum 30,775. Ad extrema veto tectorum cum castris prætoriis ab eodem Milliario, per vicos omnium viarum, mensura <span class='page-break'>|</span>collegit paulo amplius septuaginta millia passuum. Quo si quis altitudinem tectorum addat, dignam profecto, æstimationem concipiat, fateaturque nullius urbis magnitudinem in toto orbe potuisse ei comparari.</q> <b>Plin.</b> lib. iii. cap. 5.</p>"
   -
-    id: "[MM].2"
+    id: "193.2"
     pages: "439"
     content: "<p>All the best manuscripts of <b>Pliny</b> read the passage as here cited, and fix the compass of the walls of <b>Rome</b> to be thirteen miles. The question is, What <b>Pliny</b> means by 30,775 paces, and how that number was formed? The manner in which I conceive it, is this. <b>Rome</b> was a semicircular area of thirteen miles circumference. The Forum, and consequently the Milliarium, we know, was situated on the banks of the <b>Tyber</b>, and near the center of the circle, or upon the diameter of the semicircular area. Though there were thirty-seven gates to <b>Rome</b>, yet only twelve of them had straight streets, leading from them to the Milliarium. <b>Pliny</b>, therefore, having assigned the circumference of <b>Rome</b>, and knowing that that alone was not sufficient to give us a just notion of its surface, uses this farther method. He supposes all the streets, leading from the Milliarium to the twelve gates, to be laid together into one straight line, and supposes we run along that line, so as to count each gate once: In which case, he says, that the whole line is 30,775 paces: Or, in other words, that each street or radius of the semicircular area is upon an average two miles and a half; and the whole length of <b>Rome</b> is five miles, and its breadth about half as much, besides the scattered suburbs.</p>"
   -
-    id: "[MM].3"
+    id: "193.3"
     pages: "439-40"
     content: "<p><b>Pere Hardouin</b> understands this passage in the same manner; with regard to <span class='page-break'>|</span>the laying together the several streets of <b>Rome</b> into one line, in order to compose 30,775 paces: But then he supposes, that streets led from the Milliarium to every gate, and that no street exceeded 800 paces in length. But (1.) a semicircular area, whose radius was only 800 paces, could never have a circumference near thirteen miles, the compass of <b>Rome</b> as assigned by <b>Pliny</b>. A radius of two miles and a half forms very nearly that circumference. (2.) There is an absurdity in supposing a city so built as to have streets running to its center from every gate in its circumference. These streets must interfere as they approach. (3.) This diminishes too much from the greatness of ancient <b>Rome</b>, and reduces that city below even <b>Bristol</b> or <b>Rotterdam</b>.</p>"
   -
-    id: "[MM].4"
+    id: "193.4"
     pages: "440-1"
     content: "<p>The sense which <b>Vossius</b> in his <em>Observationes variæ</em> puts on this passage of <b>Pliny</b>, errs widely in the other extreme. One manuscript of no authority, instead of thirteen miles, has assigned thirty miles for the compass of the walls of <b>Rome</b>. And <b>Vossius</b> understands this only of the curvilinear part of the circumference; supposing, that as the <b>Tyber</b> formed the diameter, there were no walls built on that side. But (1.) this reading is allowed to be contrary to almost all the manuscripts. (2.) Why should <b>Pliny</b>, a concise writer, repeat the compass of the walls of <b>Rome</b> in two successive sentences? (3.) Why repeat it with so sensible a variation? (4.) What is the meaning of <b>Pliny</b>'s mentioning twice the <b>Milliarium</b>, if a line was measured that had no dependence on the <b>Milliarium</b>? (5.) <b>Aurelian</b>'s wall is said by <b>Vopiscus</b> to have been drawn <em>laxiore ambitu</em>, and to have comprehended all the buildings and suburbs on the north side of the <b>Tyber</b>; yet its compass was only fifty miles; and even here critics suspect some mistake or corruption in the text; since the walls, which remain, and which are supposed to be the same with <b>Aurelian</b>'s, exceed not twelve miles. It is not probable, that <b>Rome</b> would diminish from <b>Augustus</b> to <b>Aurelian</b>. It remained still the capital of the same empire; and none of the civil wars in that long period, except the tumults on the death of <b>Maximus</b> and <b>Balbinus</b>, ever affected the city. <b>Caracalla</b> is said by <b>Aurelius Victor</b> to have encreased <b>Rome</b>. (6.) There are no remains of ancient buildings, which mark any such greatness of <b>Rome</b>. <b>Vossius</b>'s reply to this objection seems absurd, that the rubbish would sink sixty or seventy feet under ground. It appears from <b>Spartian</b> (<em>in vita Severi</em>) that the five-mile stone <em>in via Lavicana</em> was out of the city. (7.) <b>Olympiodorus</b> and <b>Publius Victor</b> fix the number of houses in <b>Rome</b> to be betwixt forty and fifty thousand. (8.) The very extravagance of the consequences drawn by this critic, as well as <b>Lipsius</b><span class='page-break'>|</span>, if they be necessary, destroys the foundation on which they are grounded: That <b>Rome</b> contained fourteen millions of inhabitants; while the whole kingdom of <b>France</b> contains only five, according to his computation, &amp;c.</p>"
   -
-    id: "[MM].5"
+    id: "193.5"
     pages: "441"
     content: "<p>The only objection to the sense which we have affixed above to the passage of <b>Pliny</b>, seems to lie in this, That <b>Pliny</b>, after mentioning the thirty-seven gates of <b>Rome</b>, assigns only a reason for suppressing the seven old ones, and says nothing of the eighteen gates, the streets leading from which terminated, according to my opinion, before they reached the Forum. But as <b>Pliny</b> was writing to the <b>Romans</b>, who perfectly knew the disposition of the streets, it is not strange he should take a circumstance for granted, which was so familiar to every body. Perhaps too, many of these gates led to wharfs upon the river.</p>"
   -
@@ -1864,7 +1864,7 @@ notes:
     symbol: "ǁ"
     content: "<p>See NOTE [NN].</p>"
   -
-    id: "[NN].1"
+    id: "204.1"
     type: "first"
     pages: "443-4"
     content: "<p><strong>Q</strong>U<b>intus Curtius</b> says, its walls were ten miles in circumference, when founded by <b>Alexander</b>; lib. iv. cap. 8. <b>Strabo</b>, who had travelled to <b>Alexandria</b>, as well as <b>Diodorus Siculus</b>, says it was scarce four miles long, and in most places about a mile broad; lib. 17. <b>Pliny</b> says it resembled a <b>Macedonian</b> cassock, stretching out in the corners; lib. v. cap. 10. Notwithstanding this bulk of <b>Alexandria</b>, which seems but moderate, <b>Diodorus Siculus</b>, speaking of its circuit as drawn by <b>Alexander</b> (which it never exceeded, as we learn from <b>Ammianus Marcellinus</b>, lib. xxii. cap. 16.) says it was <i>μεγεθει διαφεροντα</i>, <em>extremely great</em>, ibid. The reason which he assigns for its surpassing all cities in the world (for he excepts not <b>Rome</b>) is, that it contained 300,000 free inhabitants. He also mentions the reve<span class='page-break'>|</span>nues of the kings, to wit, 6000 talents, as another circumstance to the same purpose: No such mighty sum in our eyes, even though we make allowance for the different value of money. What <b>Strabo</b> says of the neighbouring country, means only that it was well peopled, <i>οικουμενα καλως</i>. Might not one affirm, without any great hyperbole, that the whole banks of the river from <b>Gravesend</b> to <b>Windsor</b> are one city? This is even more than <b>Strabo</b> says of the banks of the lake <b>Mareotis</b>, and of the canal to <b>Canopus</b>. It is a vulgar saying in <b>Italy</b>, that the king of <b>Sardinia</b> has but one town in <b>Piedmont</b>; for it is all a town. <b>Agrippa</b>, in <b>Josephus</b> <em>de bello</em> <b>Judaic.</b> lib. ii. cap. 16. to make his audience comprehend the excessive greatness of <b>Alexandria</b>, which he endeavours to magnify, describes only the compass of the city as drawn by <b>Alexander</b>: A clear proof that the bulk of the inhabitants were lodged there, and that the neighbouring country was no more than what might be expected about all great towns, very well cultivated, and well peopled.</p>"
@@ -1888,7 +1888,7 @@ notes:
     symbol: "†"
     content: "<p>See NOTE [OO].</p>"
   -
-    id: "[OO].1"
+    id: "208.1"
     type: "first"
     pages: "444-5"
     content: "<p><strong>H</strong>E says (in <b>Nerone</b>, cap. 30.) that a portico or piazza of it was 3000 feet long; <q>tanta laxitas ut porticus triplices milliarias haberet.</q> He cannot mean three miles. For the <span class='page-break'>|</span>whole extent of the house from the <b>Palatine</b> to the <b>Esquiline</b> was not near so great. So when <b>Vopisc.</b> in <b>Aureliano</b> mentions a portico in <b>Sallust</b>'s gardens, which he calls <em>porticus milliarensis</em>, it must be understood of a thousand feet. So also <b>Horace</b>: <blockquote><span class='tab'></span><q>Nulla decempedis<br>Metata privatis opacam<br>Porticus exciplebat Arcton.</q> <span class='tab'></span>Lib. ii. ode 15.</blockquote> So also in lib. i. satyr. 8. <blockquote><q>Mille pedes in fronte, trecentos cippus in agrum<br>Hic dabat.</q></blockquote></p>"
@@ -2072,12 +2072,12 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [PP].</p>"
   -
-    id: "[PP].1"
+    id: "244.1"
     type: "first"
     pages: "455"
     content: "<p><strong>I</strong>T appears from <b>Cæsar</b>'s account, that the <b>Gauls</b> had no domestic slaves, who formed a different order from the <em>Plebes</em>. The whole common people were indeed a kind of slaves to the nobility, as the people of <b>Poland</b> are at this day: And a nobleman of <b>Gaul</b> had sometimes ten thousand dependents of this kind. Nor can we doubt, that the armies were composed of the people as well as of the nobility. The fighting men amongst the <b>Helvetii</b> were the fourth part of the inhabitants; a clear proof that all the males of military age bore arms. See <b>Cæsar</b> <em>de bello Gall.</em> lib. i.</p>"
   -
-    id: "[PP].2"
+    id: "244.2"
     pages: "455"
     content: "<p>We may remark, that the numbers in <b>Cæsar</b>'s commentaries can be more depended on than those of any other ancient author, because of the <b>Greek</b> translation, which still remains, and which checks the <b>Latin</b> original.</p>"
   -
@@ -2135,12 +2135,12 @@ notes:
     symbol: "‡"
     content: "<p>See NOTE [QQ].</p>"
   -
-    id: "[QQ].1"
+    id: "255.1"
     type: "first"
     pages: "458-9"
     content: "<p><strong>T</strong>HE inhabitants of <b>Marseilles</b> lost not their superiority over the <b>Gauls</b> in commerce and the mechanic arts, till the <b>Roman</b> dominion turned the latter from arms to agriculture and civil life. See <b>Strabo</b>, lib. iv. That author, in several places, repeats the observation concerning the improvement arising from the <b>Roman</b> arts and civility: And he lived at the time when the change was new, and would be more sensible. So also <b>Pliny</b>: <q>Quis enim non, communicato orbe terrarum, majestate <b>Romani</b> imperii, profecisse vitam putet, commercio rerum ac societate festæ pacis, omniaque etiam, quæ occulta antea fuerant, in promiscuo usu facta.</q> Lib. xiv. proœm. <q>Numine deûm electa (speaking of <b>Italy</b>) quæ cœlum ipsum clarius faceret, sparsa congregaret imperia, ritusque molliret, &amp; tot populorum discordes, ferasque linguas sermonis commercio contraheret ad colloquia, &amp; humanitatem homini daret; breviterque, una cunctarum gentium in toto orbe patria fieret;</q> lib. ii. cap. 5. Nothing can be stronger to this purpose than the following passage from <b>Tertullian</b>, who lived about the age of <b>Severus</b>. <q>Certe quidem ipse orbis in promptu est, cultior de die &amp; instructior pristino. Omnia jam pervia, omnia nota, omnia negotiosa. Sol<span class='page-break'>|</span>itudines famosas retro fundi amœnissimi obliteraverunt, silvas arva domuerunt, feras pecora fugaverunt; arenæ seruntur, saxa panguntur, paludes eliquantur, tantæ urbes, quantæ non casæ quondam. Jam nec insulæ horrent, nec scopuli terrent; ubique domus, ubique populus, ubique respublica, ubique vita. Summum testimonium frequentiæ humanæ, onerosi sumus mundo, vix nobis elementa sufficiunt; &amp; necessitates arctiores, et querelæ apud omnes, dum jam nos natura non sustinet.</q> De anima, cap. 30. The air of rhetoric and declamation which appears in this passage, diminishes somewhat from its authority, but does not entirely destroy it. The same remark may be extended to the following passage of <b>Aristides</b> the sophist, who lived in the age of <b>Adrian</b>. <q>The whole world,</q> says he, addressing himself to the <b>Romans</b>, <q>seems to keep one holiday; and mankind, laying aside the sword which they formerly wore, now betake themselves to feasting and to joy. The cities, forgetting their ancient animosities, preserve only one emulation, which shall embellish itself most by every art and ornament; Theatres every where arise, amphitheatres, porticoes, aqueducts, temples, schools, academies; and one may safely pronounce, that the sinking world has been again raised by your auspicious empire. Nor have cities alone received an encrease of ornament and beauty; but the whole earth, like a garden or paradise, is cultivated and adorned: Insomuch, that such of mankind as are placed out of the limits of your empire (who are but few) seem to merit our sympathy and compassion.</q></p>"
   -
-    id: "[QQ].2"
+    id: "255.2"
     pages: "459-60"
     content: "<p>It is remarkable, that though <b>Diodorus Siculus</b> makes the inhabitants of <b>Ægypt</b>, when conquered by the <b>Romans</b>, amount only to three millions<span class='page-break'>|</span>; yet <b>Joseph.</b> <em>de bello Jud.</em> lib. ii. cap. 16. says, that its inhabitants, excluding those of <b>Alexandria</b>, were seven millions and a half, in the reign of <b>Nero</b>: And he expressly says, that he drew this account from the books of the <b>Roman</b> publicans, who levied the poll-tax. <b>Strabo</b>, lib. xvii. praises the superior police of the <b>Romans</b> with regard to the finances of <b>Ægypt</b>, above that of its former monarchs: And no part of administration is more essential to the happiness of a people. Yet we read in <b>Athenæus</b>, (lib. i. cap. 25.) who flourished during the reign of the <b>Antonines</b>, that the town <b>Mareia</b>, near <b>Alexandria</b>, which was formerly a large city, had dwindled into a village. This is not, properly speaking, a contradiction. <b>Suidas</b> (<b>August.</b>) says, that the Emperor <b>Augustus</b>, having numbered the whole <b>Roman</b> empire, found it contained only 4,101,017 men (<i>ανδρες</i>). There is here surely some great mistake, either in the author or transcriber. But this authority, feeble as it is, may be sufficient to counterbalance the exaggerated accounts of <b>Herodotus</b> and <b>Diodorus Siculus</b> with regard to more early times.</p>"
   -
@@ -2158,7 +2158,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [RR].</p>"
   -
-    id: "[RR].1"
+    id: "258.1"
     type: "first"
     pages: "461"
     content: "<p><strong>L</strong>IB. ii. cap. 62. It may perhaps be imagined, that <b>Polybius</b>, being dependent on <b>Rome</b>, would naturally extol the <b>Roman</b> dominion. But, in the <em>first</em> place, <b>Polybius</b>, though one sees sometimes instances of his caution, discovers no symptoms of flattery. <em>Secondly</em>, This opinion is only delivered in a single stroke, by the by, while he is intent upon another subject; and it is allowed, if there be any suspicion of an author's insincerity, that these oblique propositions discover his real opinion better than his more formal and direct assertions.</p>"
@@ -2187,16 +2187,16 @@ notes:
     symbol: "†"
     content: "<p>See NOTE [SS].</p>"
   -
-    id: "[SS].1"
+    id: "263.1"
     type: "first"
     pages: "463"
     content: "<p><strong>I</strong> Must confess that that discourse of <b>Plutarch</b>, concerning the silence of the oracles, is in general of so odd a texture, and so unlike his other productions, that one is at a loss what judgment to form of it. It is written in dialogue, which is a method of composition that <b>Plutarch</b> commonly but little affects. The personages he introduces advance very wild, absurd, and contradictory opinions, more like the visionary systems or ravings of <b>Plato</b> than the plain sense of <b>Plutarch</b>. There runs also through the whole an air of superstition and credulity, which resembles very little the spirit that appears in other philosophical compositions of that author. For it is remarkable, that, though <b>Plutarch</b> be an historian as superstitious as <b>Herodotus</b> or <b>Livy</b>, yet there is scarcely, in all antiquity, a philosopher less superstitious, excepting <b>Cicero</b> and <b>Lucian</b>. I must therefore confess, that a passage of <b>Plutarch</b>, cited from this discourse, has much less authority with me, than if it had been found in most of his other compositions.</p>"
   -
-    id: "[SS].2"
+    id: "263.2"
     pages: "463"
     content: "<p>There is only one other discourse of <b>Plutarch</b> liable to like objections, to wit, that <em>concerning those whose punishment is delayed by the Deity</em>. It is also writ in dialogue, contains like superstitious, wild visions, and seems to have been chiefly composed in rivalship to <b>Plato</b>, particularly his last book <em>de republica</em>.</p>"
   -
-    id: "[SS].3"
+    id: "263.3"
     pages: "463"
     content: "<p>And here I cannot but observe, that Mons. <b>Fontenelle</b>, a writer eminent for candor, seems to have departed a little from his usual character, when he endeavours to throw a ridicule upon <b>Plutarch</b> on account of passages to be met with in this dialogue concerning oracles. The absurdities here put into the mouths of the several personages are not to be ascribed to <b>Plutarch</b>. He makes them refute each other; and, in general, he seems to intend the ridiculing of those very opinions, which <b>Fontenelle</b> would ridicule him for maintaining. See <em>Histoire des oracles</em>.</p>"
   -

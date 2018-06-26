@@ -134,7 +134,7 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [N].</p>"
   -
-    id: "[N].1"
+    id: "2.1"
     type: "first"
     pages: "220"
     content: "<p><strong>P</strong>AINTERS make no scruple of representing distress and sorrow as well as any other passion: But they seem not to dwell so much on these melancholy affections as the poets, who, though they copy every motion of the human breast, yet pass quickly over the agreeable sentiments. A painter represents only one instant; and if that be passionate enough, it is sure to affect and delight the spectator: But nothing can furnish to the poet a variety of scenes and incidents and sentiments, except distress, terror, or anxiety. Compleat joy and satisfaction is attended with security, and leaves no farther room for action.</p>"

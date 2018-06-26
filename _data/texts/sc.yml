@@ -237,7 +237,7 @@ notes:
     symbol: "†"
     content: "<p>See NOTE [F].</p>"
   -
-    id: "[F].1"
+    id: "1.1"
     type: "first"
     pages: "166"
     content: "<p><strong>W</strong>ERE I not afraid of appearing too philosophical, I should remind my reader of that famous doctrine, supposed to be fully proved in modern times, <q>That tastes and colours, and all other sensible qualities, lie not in the bodies, but merely in the senses.</q> The case is the same with beauty and deformity, virtue and vice. This doctrine, however, takes off no more from the reality of the latter qualities, than from that of the former; nor need it give any umbrage either to critics or moralists. Though colours were allowed to lie only in the eye, would dyers or painters ever be less regarded or esteemed? There is a sufficient uniformity in the senses and feelings of mankind, to make all these qualities the objects of art and reasoning, and to have the greatest influence on life and manners. And as it is certain, that the discovery above-mentioned in natural philosophy, makes no alteration on action and conduct; why should a like discovery in moral philosophy make any alteration?</p>"
@@ -266,59 +266,59 @@ notes:
     symbol: "*"
     content: "<p>See NOTE [G].</p>"
   -
-    id: "[G].1"
+    id: "6.1"
     type: "first"
     pages: "177"
     content: "<p><strong>T</strong>HE Sceptic, perhaps, carries the matter too far, when he limits all philosophical topics and reflections to these two. There seem to be others, whose truth is undeniable, and whose natural tendency is to tranquillize and soften all the passions. Philosophy greedily seizes these, studies them, weighs them, commits them to the memory, and familiarizes them to the mind: And their influence on tempers, which are thoughtful, gentle, and moderate, may be considerable. But what is their influence, you will say, if the temper be antecedently disposed after the same manner as that to which they pretend to form it? They may, at least, fortify that temper, and furnish it with views, by which it may entertain and nourish itself. Here are a few examples of such philosophical reflections.</p>"
   -
-    id: "[G].2"
+    id: "6.2"
     pages: "177"
     content: "<p>1. Is it not certain, that every condition has concealed ills? Then why envy any body?</p>"
   -
-    id: "[G].3"
+    id: "6.3"
     pages: "177"
     content: "<p>2. Every one has known ills; and there is a compensation throughout. Why not be contented with the present?</p>"
   -
-    id: "[G].4"
+    id: "6.4"
     pages: "177"
     content: "<p>3. Custom deadens the sense both of the good and the ill, and levels every thing.</p>"
   -
-    id: "[G].5"
+    id: "6.5"
     pages: "178"
     content: "<p>4. Health and humour all. The rest of little consequence, except these be affected.</p>"
   -
-    id: "[G].6"
+    id: "6.6"
     pages: "178"
     content: "<p>5. How many other good things have I? Then why be vexed for one ill?</p>"
   -
-    id: "[G].7"
+    id: "6.7"
     pages: "178"
     content: "<p>6. How many are happy in the condition of which I complain? How many envy me?</p>"
   -
-    id: "[G].8"
+    id: "6.8"
     pages: "178"
     content: "<p>7. Every good must be paid for: Fortune by labour, favour by flattery. Would I keep the price, yet have the commodity?</p>"
   -
-    id: "[G].9"
+    id: "6.9"
     pages: "178"
     content: "<p>8. Expect not too great happiness in life. Human nature admits it not.</p>"
   -
-    id: "[G].10"
+    id: "6.10"
     pages: "178"
     content: "<p>9. Propose not a happiness too complicated. But does that depend on me? Yes: The first choice does. Life is like a game: One may choose the game: And passion, by degrees, seizes the proper object.</p>"
   -
-    id: "[G].11"
+    id: "6.11"
     pages: "178"
     content: "<p>10. Anticipate by your hopes and fancy future consolation, which time infallibly brings to every affliction.</p>"
   -
-    id: "[G].12"
+    id: "6.12"
     pages: "178"
     content: "<p>11. I desire to be rich. Why? That I may possess many fine objects; houses, gardens, equipage, <em>&amp;c.</em> How many fine objects does nature offer to every one without expence? If enjoyed, sufficient. If not: See the effect of custom or of temper, which would soon take off the relish of the riches.</p>"
   -
-    id: "[G].13"
+    id: "6.13"
     pages: "179"
     content: "<p>12. I desire fame. Let this occur: If I act well, I shall have the esteem of all my acquaintance. And what is all the rest to me?</p>"
   -
-    id: "[G].14"
+    id: "6.14"
     pages: "179"
     content: "<p>These reflections are so obvious, that it is a wonder they occur not to every man: So convincing, that it is a wonder they persuade not every man. But perhaps they do occur to and persuade most men; when they consider human life, by a general and calm survey: But where any real, affecting incident happens; when passion is awakened, fancy agitated, example draws, and counsel urges; the philosopher is lost in the man, and he seeks in vain for that persuasion which before seemed so firm and unshaken. What remedy for this inconvenience? Assist yourself by a frequent perusal of the entertaining moralists: Have recourse to the learning of <b>Plutarch</b>, the imagination of <b>Lucian</b>, the eloquence of <b>Cicero</b>, the wit of <b>Seneca</b>, the gaiety of <b>Montaigne</b>, the sublimity of <b>Shaftesbury</b>. Moral precepts, so couched, strike deep, and fortify the mind against the illusions of passion. But trust not altogether to external aid: By habit and study acquire that philosophical temper which both gives force to reflection, and by rendering a great part of your happiness independent, takes off the edge from all disorderly passions, and tranquillizes the mind. Despise not these helps; but confide not too much in them neither; unless nature has been favourable in the temper, with which she has endowed you.</p>"
