@@ -1,7 +1,19 @@
 .box {
   margin: .5rem;
   .box-body {
-    padding: .5rem;
+    padding: .5em;
+    a, button, label {
+      cursor: pointer;
+    }
+    button {
+      background: transparent;
+    }
+    label {
+      white-space: nowrap;
+    }
+    button, input[type='text'], label {
+      padding: .25em .5em;
+    }
   }
 }
 

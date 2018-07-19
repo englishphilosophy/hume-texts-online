@@ -4,6 +4,7 @@
     flex-wrap: wrap;
     background: $red;
     color: #fff;
+    margin-bottom: .5em;
     a {
       color: #fff;
     }
@@ -27,17 +28,14 @@
   }
   .box-body {
     padding: 0;
-    a, button, label {
-      background: transparent;
-      cursor: pointer;
-      white-space: nowrap;
-    }
-    a, button, input[type='text'], label {
-      padding: .25em .5em;
+  }
+  .hidden {
+    display: none;
+    &.active {
+      display: block;
     }
   }
   .options {
-    margin: .5em 0;
     border: 1px solid $gray;
     .labels {
       display: flex;
@@ -50,19 +48,28 @@
         &:not(:last-child) {
           border-right: 1px solid $gray;
         }
+        &.active {
+          background: lightyellow;
+        }
       }
     }
-    input[type='checkbox'] {
+    input[type='checkbox'], input[type='radio'] {
       margin-right: .5em;
     }
     .disabled {
       cursor: not-allowed;
       color: $gray;
     }
+    &.yellow {
+      label {
+        background: lightyellow;
+      }
+    }
   }
   .search {
     border: 1px solid $gray;
     display: flex;
+    margin-top: .5em;
     input[type='text'] {
       flex: 1;
     }
@@ -80,31 +87,39 @@
 
 @media(min-width: $break1) {
   .tool {
+    .box-head {
+      margin-bottom: 0;
+    }
     .box-body {
       padding: 0;
     }
     .search {
       border: 0;
+      margin-top: 0;
     }
     .options {
-      margin: 0;
       border: 0;
+      margin: 0;
       .labels {
         border-bottom: 1px solid $gray;
       }
+    }
+    .search-help {
+      border: 0;
+      border-bottom: 1px solid $gray;
+      margin-bottom: 0;
     }
   }
 }
 
 @media(min-width: $break2) {
-  .tool {
-    .options {
-      display: flex;
-      .labels {
-        flex: 1;
-        &:not(:last-child) {
-          border-right: 1px solid $gray;
-        }
+  .options {
+    display: flex;
+    .labels {
+      flex: 1;
+      &:not(:last-child) {
+        border-bottom: 0;
+        border-right: 1px solid $gray;
       }
     }
   }

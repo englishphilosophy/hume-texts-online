@@ -9,8 +9,70 @@ section: texts
 </div>
 
 <div class="tab-pane" id="results-pane">
+  <div class="tool box">
+    <div class="box-head">
+      <h2>Search within</h2>
+    </div>
+    <div class="box-body">
+      <div class="options">
+        <div class="labels">
+          <label for="search-current"><input type="radio" name="search-type" id="search-current"> Current text</label>
+          <label for="search-results"><input type="radio" name="search-type" id="search-results"> Current results</label>
+        </div>
+        <div class="labels">
+          <label for="search-custom"><input type="radio" name="search-type" id="search-custom"> Custom range</label>
+          <label for="search-variants"><input type="checkbox" id="search-variants"> Include variants</label>
+        </div>
+      </div>
+      <div class="hidden" id="custom-range">
+        <div class="options yellow">
+          <div class="labels">
+            <label for="search-all"><input type="checkbox" id="search-all" checked="checked"> Select/deselect all</label>
+            <label for="search-t-0-1"><input type="checkbox" id="search-t-0-1" checked="checked" data-search="t-0-1"> Treatise Book 1</label>
+          </div>
+          <div class="labels">
+            <label for="search-t-2"><input type="checkbox" id="search-t-2" checked="checked" data-search="t-2"> Treatise Book 2</label>
+            <label for="search-t-3"><input type="checkbox" id="search-t-3" checked="checked" data-search="t-3"> Treatise Book 3</label>
+          </div>
+        </div>
+        <div class="options yellow">
+          <div class="labels">
+            <label for="search-n"><input type="checkbox" id="search-n" checked="checked" data-search="n"> Natural History</label>
+            <label for="search-e"><input type="checkbox" id="search-e" checked="checked" data-search="e"> First Enquiry</label>
+          </div>
+          <div class="labels">
+            <label for="search-p"><input type="checkbox" id="search-p" checked="checked" data-search="p"> Dissertation</label>
+            <label for="search-m"><input type="checkbox" id="search-m" checked="checked" data-search="m"> Moral Enquiry</label>
+          </div>
+        </div>
+        <div class="options yellow">
+          <div class="labels">
+            <label for="search-a"><input type="checkbox" id="search-a" checked="checked" data-search="a"> Abstract</label>
+            <label for="search-l"><input type="checkbox" id="search-l" checked="checked" data-search="l"> Letter from a Gentleman</label>
+          </div>
+          <div class="labels">
+            <label for="search-empl-1"><input type="checkbox" id="search-empl-1" checked="checked" data-search="empl-1"> Essays Part 1</label>
+            <label for="search-empl-2"><input type="checkbox" id="search-empl-2" checked="checked" data-search="empl-2"> Essays Part 2</label>
+          </div>
+        </div>
+        <div class="options yellow">
+          <div class="labels">
+            <label for="search-empwu"><input type="checkbox" id="search-empwu" checked="checked" data-search="empwu"> Other Essays</label>
+            <label for="search-mol"><input type="checkbox" id="search-mol" checked="checked" data-search="mol"> My Own Life</label>
+          </div>
+          <div class="labels">
+            <label for="search-d"><input type="checkbox" id="search-d" checked="checked" data-search="d"> Dialogues</label>
+            <label for="search-ads"><input type="checkbox" id="search-ads" checked="checked" data-search="ads"> Advertisements</label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="text box">
-    <div class="box-body" id="results"></div>
+    <div class="box-body">
+      <div class="summary" id="summary"></div>
+      <div id="results"></div>
+    </div>
   </div>
 </div>
 
