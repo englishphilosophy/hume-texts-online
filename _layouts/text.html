@@ -16,11 +16,11 @@ section: texts
     <div class="box-body">
       <div class="options">
         <div class="labels">
-          <label for="search-current"><input type="radio" name="search-type" id="search-current"> Current Text</label>
+          <label for="search-current"><input type="radio" name="search-type" id="search-current"> Current Text ({{ text.label | replace_first: '.', ' ' }})</label>
           <label for="search-results"><input type="radio" name="search-type" id="search-results"> Current Results</label>
         </div>
         <div class="labels">
-          <label for="search-custom"><input type="radio" name="search-type" id="search-custom"> Custom Range</label>
+          <label for="search-custom"><input type="radio" name="search-type" id="search-custom"> Specific Texts</label>
           <label for="search-variants"><input type="checkbox" id="search-variants"> Include Variants</label>
         </div>
       </div>

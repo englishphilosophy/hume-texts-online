@@ -40,3 +40,5 @@ Advanced search is intended for scholarship purposes, to interrogate Hume's text
 - "govern(ed\|ment)?" - question marks and pipes can be combined; this matches "govern", "governed", and "government"
 - "(govern\|governed\|government)" - this is equivalent to the previous example, but easier to read; in some cases an explicit disjunction may get the job done just as well
 - "hypothes.s" - a full stop is a wild-card that matches any character, hence this matches both "hypothesis" and "hypotheses" (as well as, in theory, "hypothesas", "hypothesbs", "hypothescs", etc.)
+
+There is no easy way to perform conjunctive searches using regular expressions. To search for paragraphs containing two or more expressions, search for the first expression, and then search for subsequent expressions within the range of the current results.

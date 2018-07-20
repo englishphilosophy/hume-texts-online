@@ -140,8 +140,9 @@ const page = ((data, options, search, display) => {
     $('search-results').checked = (options.get('search-range') === 'results');
     $('search-custom').checked = (options.get('search-range') === 'custom');
     $('search-variants').checked = options.get('search-variants');
-    if (options.get('search') === 'custom') toggleCustomRange(true);
+    if (options.get('search-range') === 'custom') toggleCustomRange(true);
     $$('.tab').forEach(x => x.addEventListener('click', clickTab));
+    $('query').addEventListener('focus', show.bind(null, 'results-pane'));
     $('search').addEventListener('submit', submitSearch);
     $('search-advanced').addEventListener('change', setSearchOption.bind(null, 'search-advanced'));
     $('show-edited').addEventListener('change', setTextOption.bind(null, 'show-edited'));
