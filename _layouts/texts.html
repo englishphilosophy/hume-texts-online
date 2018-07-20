@@ -11,11 +11,11 @@ section: texts
   </div>
   <div class="box">
     <nav class="box-tabs">
-      <a class="active" data-show="text-pane">Text</a>
+      <a class="active" data-show="text-pane">{% if text.texts %}Contents{% else %}Text{% endif %}</a>
       {% if text.variants %}<a data-show="variants-pane">Textual Variants</a>{% endif %}
       {% if text.images %}<a data-show="images-pane">Manuscript Images</a>{% endif %}
-      <a data-show="notes-pane">Editorial Notes</a>
       <div class="spacer"></div>
+      <a data-show="notes-pane">Editorial Notes</a>
       <a data-show="options-pane">Display Options</a>
     </nav>
     <div class="tab-pane active" id="text-pane">
@@ -51,7 +51,7 @@ section: texts
       </div>
     </div>
     <div class="tab-pane" id="options-pane">
-      <div class="box-body options">
+      <div class="box-body notes">
         {% include options.html text=page.text %}
       </div>
     </div>

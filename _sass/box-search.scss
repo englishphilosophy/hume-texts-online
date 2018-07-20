@@ -1,0 +1,78 @@
+.box.search {
+  h3 {
+    margin-bottom: .5em;
+    &:not(:first-child) {
+      margin-top: .75em;
+    }
+  }
+  input, button, label {
+    padding: .25em .5em;
+  }
+  button, label {
+    cursor: pointer;
+  }
+  form {
+    display: flex;
+    input {
+      flex: 1;
+      border: 1px solid $gray;
+      border-right: 0;
+    }
+    button {
+      background: $red;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+  .options {
+    border: 1px solid $gray;
+    & + .options {
+      margin-top: -1px;
+    }
+    .labels {
+      display: flex;
+      flex-wrap: wrap;
+      &:not(:last-child) {
+        border-bottom: 1px solid $gray;
+      }
+      label {
+        flex: 1;
+        &:not(:last-child) {
+          border-right: 1px solid $gray;
+        }
+        &.active {
+          background: lightyellow;
+        }
+      }
+    }
+    input[type='checkbox'], input[type='radio'] {
+      margin-right: .5em;
+    }
+    .disabled {
+      cursor: not-allowed;
+      color: $gray;
+    }
+  }
+}
+
+@media(min-width: $break1) {
+  .box.search {
+    padding: .5em;
+  }
+}
+
+@media(min-width: $break2) {
+  .box.search {
+    padding: 1em;
+    .options {
+      display: flex;
+      .labels {
+        flex: 1;
+        &:not(:last-child) {
+          border-bottom: 0;
+          border-right: 1px solid $gray;
+        }
+      }
+    }
+  }
+}

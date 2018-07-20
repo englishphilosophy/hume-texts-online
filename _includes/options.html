@@ -1,10 +1,12 @@
-<div class="options">
-  <div class="labels">
-    <label for="search-advanced"><input type="checkbox" id="search-advanced">Advanced Search</label>
-    <label for="show-edited"><input type="checkbox" id="show-edited">Edited Text</label>
-  </div>
-  <div class="labels">
-    <label for="show-changes"><input type="checkbox" id="show-changes">Show Changes</label>
-    <label for="show-breaks"><input type="checkbox" id="show-breaks">Show Page Breaks</label>
-  </div>
+<h3>Edition Used for Search and Display</h3>
+<div class="labels">
+  <label for="show-original"><input type="radio" name="edition" id="show-original">Original Version</label>
+  <label for="show-edited"><input type="radio" name="edition" id="show-edited">Edited Version</label>
 </div>
+<p>Original versions aim to be exact reproductions of the copytexts, except for the addition of some helpful metadata (e.g. paragraph ids and footnote numbers) and some insubstantial formatting changes. Edited versions include some additional changes, either sanctioned by Hume himself or felt necessary by us for one reason or another. See the <a href="{{ site.baseurl }}{% link notes/index.md %}">Notes</a> for more details.</p>
+<h3>Further Display Options</h3>
+<div class="labels">
+  <label for="show-changes"><input type="checkbox" id="show-changes">Show Changes</label>
+  <label for="show-breaks"><input type="checkbox" id="show-breaks">Show Page Breaks</label>
+</div>
+<p>When displaying the edited text, you can optionally show changes; these will appear with the original text crossed out, and the inserted text underlined. Hovering over the change will then bring up a tooltip briefly explaining the intervention. For paragraphs that span more than one page, page breaks can optionally be displayed (they will show up as a pipe symbol &ldquo;|&rdquo;).</p>

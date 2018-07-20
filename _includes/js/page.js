@@ -35,37 +35,35 @@ const page = ((data, options, search, display) => {
   let hits;
 
   const getBlocks = () => {
-    const text = $('tools').getAttribute('data-text');
-    const custom = $$('[data-search]')
+    const specific = $$('[data-search]')
       .filter(x => x.checked)
       .map(x => x.getAttribute('data-search'));
     switch (options.get('search-range')) {
-      case 'custom':
-        return data.some(custom);
       case 'results':
         return hits;
       default:
-        return (text === 'all') ? data.all : data.one(text);
+        return data.some(specific);
     }
   };
 
   const submitSearch = (event) => {
-    if (event && event.type === 'submit') event.preventDefault();
-    show('results-pane');
+    event.preventDefault();
     if ($('query').value.length > 0) {
       const blocks = options.get('search-variants')
         ? getBlocks()
         : getBlocks().filter(x => !x.variant);
+      $('help').style.display = 'none';
       $('summary').innerHTML = 'searching...';
       $('results').innerHTML = '';
-      hits = search.filter(blocks, $('query').value);
-      $('summary').innerHTML = display.summary(hits, blocks);
-      $('results').innerHTML = display.blocks(hits, $('query').value);
-      Array.from($('results').querySelectorAll('a')).forEach((x) => {
-        x.addEventListener('click', (e) => { page.show('text-pane'); });
+      window.requestAnimationFrame(() => {
+        hits = search.filter(blocks, $('query').value);
+        $('summary').innerHTML = display.summary(hits, blocks);
+        $('results').innerHTML = display.blocks(hits, $('query').value);
       });
     } else {
-      $('summary').innerHTML = 'Enter your query into the search box above, and press ENTER or click the search icon to see results.';
+      $('summary').innerHTML = '';
+      $('results').innerHTML = '';
+      $('help').style.display = 'block';
     }
   };
 
@@ -80,20 +78,6 @@ const page = ((data, options, search, display) => {
       $('custom-range').classList.remove('active');
       $('search-custom').parentElement.classList.remove('active');
     }
-  };
-
-  const setSearchOption = (option) => {
-    if ([ 'current', 'results', 'custom' ].indexOf(option) > -1) {
-      options.set('search-range', option);
-      if (option === 'custom') {
-        toggleCustomRange(true);
-      } else {
-        toggleCustomRange(false);
-      }
-    } else {
-      options.set(option, $(option).checked);
-    }
-    submitSearch();
   };
 
   const updateText = () => {
@@ -118,8 +102,8 @@ const page = ((data, options, search, display) => {
     }
   };
 
-  const setTextOption = (option) => {
-    options.set(option, $(option).checked);
+  const toggleTextOption = (option) => {
+    options.toggle(option);
     updateText();
   };
 
@@ -133,34 +117,30 @@ const page = ((data, options, search, display) => {
 
   const initText = () => {
     if (!$('breadcrumb')) return;
-    $('search-advanced').checked = options.get('search-advanced');
+    $('show-original').checked = !options.get('show-edited');
     $('show-edited').checked = options.get('show-edited');
     $('show-breaks').checked = options.get('show-breaks');
     $('show-changes').checked = options.get('show-changes');
     $$('[data-show]').forEach(x => x.addEventListener('click', clickTab));
-    $('show-edited').addEventListener('change', setTextOption.bind(null, 'show-edited'));
-    $('show-breaks').addEventListener('change', setTextOption.bind(null, 'show-breaks'));
-    $('show-changes').addEventListener('change', setTextOption.bind(null, 'show-changes'));
+    $('show-original').addEventListener('change', toggleTextOption.bind(null, 'show-edited'));
+    $('show-edited').addEventListener('change', toggleTextOption.bind(null, 'show-edited'));
+    $('show-breaks').addEventListener('change', toggleTextOption.bind(null, 'show-breaks'));
+    $('show-changes').addEventListener('change', toggleTextOption.bind(null, 'show-changes'));
     updateText();
   };
 
   const initSearch = () => {
     if (!$('search')) return;
-    $('search-current').checked = (options.get('search-range') === 'current');
-    $('search-results').checked = (options.get('search-range') === 'results');
-    $('search-custom').checked = (options.get('search-range') === 'custom');
+    $('search-simple').checked = !options.get('search-advanced');
+    $('search-advanced').checked = options.get('search-advanced');
+    $('show-edited').checked = options.get('show-edited');
     $('search-variants').checked = options.get('search-variants');
-    if (options.get('search-range') === 'custom') toggleCustomRange(true);
-    $('query').addEventListener('focus', show.bind(null, 'results-pane'));
     $('search').addEventListener('submit', submitSearch);
-    $('search-advanced').addEventListener('change', setSearchOption.bind(null, 'search-advanced'));
-    $('search-current').addEventListener('change', setSearchOption.bind(null, 'current'));
-    $('search-results').addEventListener('change', setSearchOption.bind(null, 'results'));
-    $('search-custom').addEventListener('change', setSearchOption.bind(null, 'custom'));
-    $('search-variants').addEventListener('change', setSearchOption.bind(null, 'search-variants'));
+    $('search-simple').addEventListener('change', options.toggle.bind(null, 'search-advanced'));
+    $('search-advanced').addEventListener('change', options.toggle.bind(null, 'search-advanced'));
+    $('show-edited').addEventListener('change', options.toggle.bind(null, 'search-variants'));
+    $('search-variants').addEventListener('change', options.toggle.bind(null, 'search-variants'));
     $('search-all').addEventListener('change', toggleAllTexts);
-    $('search-all').addEventListener('change', submitSearch);
-    $$('[data-search]').forEach(x => x.addEventListener('click', submitSearch));
   };
 
   return { initText, initSearch };

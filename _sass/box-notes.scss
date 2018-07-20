@@ -42,6 +42,25 @@
       text-align: center;
     }
   }
+  .labels {
+    display: flex;
+    border: 1px solid $gray;
+    margin-bottom: 1em;
+    label {
+      flex: 1;
+      cursor: pointer;
+      &:not(:last-child) {
+        border-right: 1px solid $gray;
+      }
+      &.disabled {
+        cursor: not-allowed;
+        color: $gray;
+      }
+    }
+    input[type="radio"], input[type="checkbox"] {
+      margin-right: .5em;
+    }
+  }
 }
 
 @media(min-width: $break2) {

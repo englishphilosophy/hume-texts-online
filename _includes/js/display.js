@@ -2,8 +2,8 @@ const display = ((options, search) => {
 
   const summary = (hits, blocks) =>
     options.get('search-advanced')
-      ? `<p>Advanced search matched ${hits.length} of ${blocks.length} paragraphs or notes. Advanced search uses <em>regular expressions</em> for pattern matching. See the <a href="{{ site.baseurl }}/notes/help#3-simple-and-advanced-search">Help</a> page for more information.</p>`
-      : `<p>Simple search matched ${hits.length} of ${blocks.length} paragraphs or notes. See the <a href="{{ site.baseurl }}/notes/help#3-simple-and-advanced-search">Help</a> page for advice on how to search effectively.</p>`;
+      ? `<p>Advanced search matched ${hits.length} of ${blocks.length} paragraphs or notes.</p>`
+      : `<p>Simple search matched ${hits.length} of ${blocks.length} paragraphs or notes.</p>`;
 
   const url = block =>
     `{{ site.baseurl }}/texts/${block.text.toLowerCase().replace(/\./g, '/')}`;

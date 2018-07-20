@@ -6,6 +6,10 @@ const options = (() => {
   const get = item =>
     JSON.parse(localStorage.getItem(item));
 
+  const toggle = item => {
+    set(item, !get(item));
+  };
+
   if (get('search-advanced') === null) set('search-advanced', false);
 
   if (get('search-range') === null) set('search-range', 'current');
@@ -18,6 +22,6 @@ const options = (() => {
 
   if (get('show-breaks') === null) set('show-breaks', false);
 
-  return { set, get };
+  return { set, get, toggle };
 
 })();
