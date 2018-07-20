@@ -3,18 +3,7 @@ layout: default
 section: search
 ---
 <div class="box search">
-  <h3>Search Options</h3>
-  <div class="options">
-    <div class="labels">
-      <label for="search-simple"><input type="radio" name="type" id="search-simple"> Simple Search</label>
-      <label for="search-advanced"><input type="radio" name="type" id="search-advanced"> Advanced Search</label>
-    </div>
-    <div class="labels">
-      <label for="show-edited"><input type="checkbox" id="show-edited"> Edited Version</label>
-      <label for="search-variants"><input type="checkbox" id="search-variants"> Include Variants</label>
-    </div>
-  </div>
-  <h3>Search Range</h3>
+  <h3>Range</h3>
   <div class="options">
     <div class="labels">
       <label for="search-all"><input type="checkbox" id="search-all" checked="checked"> Select/deselect all</label>
@@ -55,7 +44,18 @@ section: search
       <label for="search-ads"><input type="checkbox" id="search-ads" checked="checked" data-search="ads"> Advertisements</label>
     </div>
   </div>
-  <h3>Search Query</h3>
+  <h3>Options</h3>
+  <div class="options">
+    <div class="labels">
+      <label for="search-simple"><input type="radio" name="type" id="search-simple"> Simple Query</label>
+      <label for="search-advanced"><input type="radio" name="type" id="search-advanced"> Advanced Query</label>
+    </div>
+    <div class="labels">
+      <label for="show-edited"><input type="checkbox" id="show-edited"> Edited Version</label>
+      <label for="search-variants"><input type="checkbox" id="search-variants"> Include Variants</label>
+    </div>
+  </div>
+  <h3>Query</h3>
   <form id="search">
     <input type="text" placeholder="enter your query" id="query">
     <button title="Search" type="submit">search</button>
