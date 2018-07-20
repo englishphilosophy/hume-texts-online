@@ -1,5 +1,31 @@
 ---
-layout: text
-text: 'all'
-contents: 'all'
+layout: default
+section: texts
 ---
+<div class="box banner">
+  <img src="{{ site.baseurl }}{% link assets/banner.png %}">
+</div>
+<div class="box-row">
+  <div class="box">
+    <div class="box-body notes marginless">
+      {% include contents.html text='tal' %}
+    </div>
+  </div>
+  <div class="box">
+    <div class="box-body notes marginless">
+      {% include contents.html text='etss' %}
+    </div>
+  </div>
+</div>
+<div class="box-row">
+  <div class="box">
+    <div class="box-body notes marginless">
+      {% include contents.html text='post' %}
+    </div>
+  </div>
+  <div class="box">
+    <div class="box-body notes marginless">
+      {% include contents.html text='other' %}
+    </div>
+  </div>
+</div>

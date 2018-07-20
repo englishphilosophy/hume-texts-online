@@ -1,0 +1,9 @@
+.box .images {
+  img {
+    display: block;
+    width: 100%;
+    &:not(:last-child) {
+      margin-bottom: 1em;
+    }
+  }
+}

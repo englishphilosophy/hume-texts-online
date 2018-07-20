@@ -7,4 +7,5 @@ layout: null
 {% include js/display.js %}
 {% include js/page.js %}
 
-page();
+page.initText();
+page.initSearch();

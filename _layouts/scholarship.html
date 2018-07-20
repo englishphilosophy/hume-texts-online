@@ -2,7 +2,7 @@
 layout: default
 section: scholarship
 ---
-<div class="notes box">
+<div class="box">
   <nav class="box-tabs">
     <a{% if page.subsection == 'scholarship' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/index.md %}">Scholarship</a>
     <a{% if page.subsection == 'bibliographies' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/bibliographies.md %}">Bibliographies</a>
@@ -10,5 +10,7 @@ section: scholarship
     <a{% if page.subsection == 'workshops' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/workshops.md %}">Workshops</a>
     <a{% if page.subsection == 'links' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/links.md %}">Links</a>
   </nav>
-  <div class="box-body">{{ content }}</div>
+  <div class="box-body notes">
+    {{ content }}
+  </div>
 </div>

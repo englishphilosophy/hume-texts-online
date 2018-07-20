@@ -2,14 +2,15 @@
 layout: default
 section: notes
 ---
-<div class="notes box">
+<div class="box">
   <nav class="box-tabs">
     <a{% if page.subsection == 'notes' %} class="active"{% endif %} href="{{ site.baseurl }}{% link notes/index.md %}">Notes</a>
     <a{% if page.subsection == 'abbreviations' %} class="active"{% endif %} href="{{ site.baseurl }}{% link notes/abbreviations.md %}">Abbreviations</a>
     <a{% if page.subsection == 'copytexts' %} class="active"{% endif %} href="{{ site.baseurl }}{% link notes/copytexts.md %}">Copytexts</a>
     <a{% if page.subsection == 'original' %} class="active"{% endif %} href="{{ site.baseurl }}{% link notes/original.md %}">Original Versions</a>
     <a{% if page.subsection == 'edited' %} class="active"{% endif %} href="{{ site.baseurl }}{% link notes/edited.md %}">Edited Versions</a>
-    <a{% if page.subsection == 'help' %} class="active"{% endif %} href="{{ site.baseurl }}{% link notes/help.md %}">Help</a>
   </nav>
-  <div class="box-body">{{ content }}</div>
+  <div class="box-body notes">
+    {{ content }}
+  </div>
 </div>

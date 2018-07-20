@@ -23,7 +23,7 @@ const page = ((data, options, search, display) => {
   };
 
   const show = what => {
-    $$('.tab').forEach(toggleTab.bind(null, what));
+    $$('[data-show]').forEach(toggleTab.bind(null, what));
     $$('.tab-pane').forEach(togglePane.bind(null, what));
   };
 
@@ -98,23 +98,23 @@ const page = ((data, options, search, display) => {
 
   const updateText = () => {
     if (options.get('show-edited')) {
-      $('text').classList.remove('original');
+      $('text-pane').classList.remove('original');
       $('show-changes').disabled = false;
       $('show-changes').parentElement.classList.remove('disabled');
     } else {
-      $('text').classList.add('original');
+      $('text-pane').classList.add('original');
       $('show-changes').disabled = true;
       $('show-changes').parentElement.classList.add('disabled');
     }
     if (options.get('show-breaks')) {
-      $('text').classList.add('breaks');
+      $('text-pane').classList.add('breaks');
     } else {
-      $('text').classList.remove('breaks');
+      $('text-pane').classList.remove('breaks');
     }
     if (options.get('show-changes')) {
-      $('text').classList.add('changes');
+      $('text-pane').classList.add('changes');
     } else {
-      $('text').classList.remove('changes');
+      $('text-pane').classList.remove('changes');
     }
   };
 
@@ -131,23 +131,29 @@ const page = ((data, options, search, display) => {
     }
   };
 
-  const init = () => {
+  const initText = () => {
+    if (!$('breadcrumb')) return;
     $('search-advanced').checked = options.get('search-advanced');
     $('show-edited').checked = options.get('show-edited');
     $('show-breaks').checked = options.get('show-breaks');
     $('show-changes').checked = options.get('show-changes');
+    $$('[data-show]').forEach(x => x.addEventListener('click', clickTab));
+    $('show-edited').addEventListener('change', setTextOption.bind(null, 'show-edited'));
+    $('show-breaks').addEventListener('change', setTextOption.bind(null, 'show-breaks'));
+    $('show-changes').addEventListener('change', setTextOption.bind(null, 'show-changes'));
+    updateText();
+  };
+
+  const initSearch = () => {
+    if (!$('search')) return;
     $('search-current').checked = (options.get('search-range') === 'current');
     $('search-results').checked = (options.get('search-range') === 'results');
     $('search-custom').checked = (options.get('search-range') === 'custom');
     $('search-variants').checked = options.get('search-variants');
     if (options.get('search-range') === 'custom') toggleCustomRange(true);
-    $$('.tab').forEach(x => x.addEventListener('click', clickTab));
     $('query').addEventListener('focus', show.bind(null, 'results-pane'));
     $('search').addEventListener('submit', submitSearch);
     $('search-advanced').addEventListener('change', setSearchOption.bind(null, 'search-advanced'));
-    $('show-edited').addEventListener('change', setTextOption.bind(null, 'show-edited'));
-    $('show-breaks').addEventListener('change', setTextOption.bind(null, 'show-breaks'));
-    $('show-changes').addEventListener('change', setTextOption.bind(null, 'show-changes'));
     $('search-current').addEventListener('change', setSearchOption.bind(null, 'current'));
     $('search-results').addEventListener('change', setSearchOption.bind(null, 'results'));
     $('search-custom').addEventListener('change', setSearchOption.bind(null, 'custom'));
@@ -155,9 +161,8 @@ const page = ((data, options, search, display) => {
     $('search-all').addEventListener('change', toggleAllTexts);
     $('search-all').addEventListener('change', submitSearch);
     $$('[data-search]').forEach(x => x.addEventListener('click', submitSearch));
-    updateText();
   };
 
-  return init;
+  return { initText, initSearch };
 
 })(data, options, search, display);

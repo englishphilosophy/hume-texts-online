@@ -14,20 +14,16 @@ layout: compress
     <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/hume.scss %}">
     <title>{{ site.title }}</title>
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-    {% if layout.section == 'texts' %}
-      <script defer src="{{ site.baseurl }}{% link assets/texts.js %}"></script>
-    {% elsif page.subsection == 'bibliographies' %}
-      <script defer src="{{ site.baseurl }}{% link assets/bibliographies.js %}"></script>
-    {% endif %}
+    <script defer src="{{ site.baseurl }}{% link assets/texts.js %}"></script>
   </head>
   <body>
     <header>
       <h1>davidhume.org</h1>
       <nav>
-        <a{% if layout.section == 'texts' %} class="active"{% endif %} href="{{ site.baseurl }}{% link index.html %}">Texts</a>
+        <a{% if page.section == 'texts' or layout.section == 'texts' %} class="active"{% endif %} href="{{ site.baseurl }}{% link index.html %}">Texts</a>
         <a{% if layout.section == 'notes' %} class="active"{% endif %} href="{{ site.baseurl }}{% link notes/index.md %}">Notes</a>
         <a{% if layout.section == 'scholarship' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/index.md %}">Scholarship</a>
-        <a{% if layout.section == 'about' %} class="active"{% endif %} href="{{ site.baseurl }}{% link about/index.md %}">About</a>
+        <a{% if page.section == 'search' %} class="active"{% endif %} href="{{ site.baseurl }}{% link search.html %}">Search</a>
       </nav>
     </header>
     <main>

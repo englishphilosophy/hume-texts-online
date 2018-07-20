@@ -1,5 +1,26 @@
 .box {
   margin: .5rem;
+  .box-tabs {
+    background: #fff;
+    display: flex;
+    border-bottom: .125em solid $red;
+    overflow-y: auto;
+    a {
+      display: block;
+      cursor: pointer;
+      padding: .25em .5em .125em;
+      white-space: nowrap;
+      text-align: center;
+      &.active, &:hover {
+        background: $red;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+    .spacer {
+      flex: 1;
+    }
+  }
   .box-body {
     padding: .5em;
     a, button, label {

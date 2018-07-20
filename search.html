@@ -1,0 +1,64 @@
+---
+layout: default
+section: search
+---
+<div class="box">
+  <div class="box-body search">
+    <form class="search" id="search">
+      <input type="text" placeholder="search" id="query">
+      <button class="tab" title="Search" type="submit" data-show="results-pane"><i class="fas fa-search"></i></button>
+    </form>
+    <div class="options">
+      <div class="labels">
+        <label for="search-current"><input type="radio" name="search-type" id="search-current"> Current Text ({{ text.label | replace_first: '.', ' ' }})</label>
+        <label for="search-results"><input type="radio" name="search-type" id="search-results"> Current Results</label>
+      </div>
+      <div class="labels">
+        <label for="search-custom"><input type="radio" name="search-type" id="search-custom"> Specific Texts</label>
+        <label for="search-variants"><input type="checkbox" id="search-variants"> Include Variants</label>
+      </div>
+    </div>
+    <div class="hidden" id="custom-range">
+      <div class="options yellow">
+        <div class="labels">
+          <label for="search-all"><input type="checkbox" id="search-all" checked="checked"> Select/deselect all</label>
+          <label for="search-t-0"><input type="checkbox" id="search-t-0" checked="checked" data-search="t-0"> Treatise Introduction</label>
+        </div>
+        <div class="labels">
+          <label for="search-t-1"><input type="checkbox" id="search-t-1" checked="checked" data-search="t-1"> Treatise Book 1</label>
+          <label for="search-t-2"><input type="checkbox" id="search-t-2" checked="checked" data-search="t-2"> Treatise Book 2</label>
+        </div>
+      </div>
+      <div class="options yellow">
+        <div class="labels">
+          <label for="search-t-3"><input type="checkbox" id="search-t-3" checked="checked" data-search="t-3"> Treatise Book 3</label>
+          <label for="search-t-app"><input type="checkbox" id="search-t-app" checked="checked" data-search="t-app"> Treatise Appendix</label>
+        </div>
+        <div class="labels">
+          <label for="search-a"><input type="checkbox" id="search-a" checked="checked" data-search="a"> Abstract</label>
+          <label for="search-l"><input type="checkbox" id="search-l" checked="checked" data-search="l"> Letter from a Gentleman</label>
+        </div>
+      </div>
+      <div class="options yellow">
+        <div class="labels">
+          <label for="search-e"><input type="checkbox" id="search-e" checked="checked" data-search="e"> First Enquiry</label>
+          <label for="search-p"><input type="checkbox" id="search-p" checked="checked" data-search="p"> Dissertation</label>
+        </div>
+        <div class="labels">
+          <label for="search-m"><input type="checkbox" id="search-m" checked="checked" data-search="m"> Moral Enquiry</label>
+          <label for="search-n"><input type="checkbox" id="search-n" checked="checked" data-search="n"> Natural History</label>
+        </div>
+      </div>
+      <div class="options yellow">
+        <div class="labels">
+          <label for="search-essays"><input type="checkbox" id="search-essays" checked="checked" data-search="essays"> Essays</label>
+          <label for="search-d"><input type="checkbox" id="search-d" checked="checked" data-search="d"> Dialogues</label>
+        </div>
+        <div class="labels">
+          <label for="search-mol"><input type="checkbox" id="search-mol" checked="checked" data-search="mol"> My Own Life</label>
+          <label for="search-ads"><input type="checkbox" id="search-ads" checked="checked" data-search="ads"> Advertisements</label>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

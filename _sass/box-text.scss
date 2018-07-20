@@ -1,4 +1,4 @@
-.text {
+.box .text {
   font-size: 1.25em;
   hr {
     border-bottom: 1px solid $gray;
@@ -24,7 +24,7 @@
 }
 
 @media(min-width: $break2) {
-  .text {
+  .box .text {
     font-size: 1.375em;
     padding: 2rem;
     .block {
