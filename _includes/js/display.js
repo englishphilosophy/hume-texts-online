@@ -1,27 +1,31 @@
-const display = ((data) => {
+const display = ((options, search) => {
 
   const summary = (hits, blocks) =>
     `<p>Query matched ${hits.length} of ${blocks.length} paragraphs or notes.</p>`;
 
-  const url = text =>
-    `{{ site.baseurl }}/texts/${text.label.toLowerCase().replace(/(\.|-)/g, '/')}`;
-
-  const id = block =>
-    (block.type === 'note') ? `n${block.id}` : block.id;
+  const url = block =>
+    `{{ site.baseurl }}/texts/${block.text.toLowerCase().replace(/\./g, '/')}`;
 
   const label = block =>
-    `${block.section}.${id(block)}`.replace('.', ' ');
-
-  const pages = block =>
-    block.pages ? `, ${block.reference} ${block.pages}` : '';
+    `${block.text}.${block.id}`.replace('.', ' ');
 
   const ref = block =>
-    `<a href="${url(data.text(block.section))}/#${id(block)}">${label(block)}${pages(block)}</a>`;
+    block.pages
+      ? `<a href="${url(block)}/#${block.id}">${label(block)} ${block.pages}</a>`
+      : `<a href="${url(block)}/#${block.id}">${label(block)}</a>`;
+
+  const classes = block =>
+    block.type ? `block ${block.type}` : 'block';
+
+  const content = block =>
+    options.get('show-edited') ? block.edited.rich : block.original.rich;
 
   const block = (query, block) =>
-    `<div class="block ${block.type}">
+    `<div class="${classes(block)}">
       <div class="meta">${ref(block)}</div>
-      <div class="content">${prepare.display(block.content).replace(search.regex(query), '<mark>$&</mark>')}</div>
+      <div class="content">
+        ${content(block).replace(search.regex(query), '<mark>$&</mark>')}
+      </div>
     </div>`;
 
   const blocks = (blocks, query) =>
@@ -29,4 +33,4 @@ const display = ((data) => {
 
   return { summary, blocks };
 
-})(data);
+})(options, search);

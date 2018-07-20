@@ -1,4 +1,4 @@
-const search = ((options, prepare) => {
+const search = ((options) => {
 
   const simplify = query =>
     query.replace(/[.,;:?!]/g, '')
@@ -19,13 +19,15 @@ const search = ((options, prepare) => {
       .replace(/\s/g, '[.,;:?!]? ');
 
   const regex = query =>
-    options.get('advanced')
+    options.get('search-advanced')
       ? new RegExp(`(${query})`, 'gi')
       : new RegExp(`(${simplify(query)})`, 'gi');
 
   const filter = (blocks, query) =>
-    blocks.filter(x => prepare.plain(x.content).match(regex(query)));
+    options.get('show-edited')
+      ? blocks.filter(x => x.edited.plain.match(regex(query)))
+      : blocks.filter(x => x.original.plain.match(regex(query)));
 
   return { regex, filter };
 
-})(options, prepare);
+})(options);

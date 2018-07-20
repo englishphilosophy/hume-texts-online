@@ -6,17 +6,17 @@ const options = (() => {
   const get = item =>
     JSON.parse(localStorage.getItem(item));
 
-  if (get('advanced') === null) set('advanced', false);
+  if (get('search-advanced') === null) set('search-advanced', false);
 
-  if (get('edited') === null) set('edited', true);
+  if (get('search-range') === null) set('search-range', 'current');
 
-  if (get('changes') === null) set('changes', false);
+  if (get('search-variants') === null) set('search-variants', true);
 
-  if (get('breaks') === null) set('breaks', false);
+  if (get('show-edited') === null) set('show-edited', true);
 
-  if (get('search') === null) set('search', 'current');
+  if (get('show-changes') === null) set('show-changes', false);
 
-  if (get('variants') === null) set('variants', true);
+  if (get('show-breaks') === null) set('show-breaks', false);
 
   return { set, get };
 

@@ -39,22 +39,25 @@ const page = ((data, options, search, display) => {
     const custom = $$('[data-search]')
       .filter(x => x.checked)
       .map(x => x.getAttribute('data-search'));
-    switch (options.get('search')) {
+    switch (options.get('search-range')) {
       case 'custom':
-        return custom.map(data.text)
-          .map(x => data.blocks(options.get('variants'), x))
-          .reduce((x, y) => x.concat(y), []);
+        return data.some(custom);
       case 'results':
         return hits;
       default:
-        return data.blocks(data.text(text), options.get('variants'));
+        return (text === 'all') ? data.all : data.one(text);
     }
   };
 
   const submitSearch = (event) => {
     if (event && event.type === 'submit') event.preventDefault();
+    show('results-pane');
     if ($('query').value.length > 0) {
-      const blocks = getBlocks();
+      const blocks = options.get('search-variants')
+        ? getBlocks()
+        : getBlocks().filter(x => !x.variant);
+      $('summary').innerHTML = 'searching...';
+      $('results').innerHTML = '';
       hits = search.filter(blocks, $('query').value);
       $('summary').innerHTML = display.summary(hits, blocks);
       $('results').innerHTML = display.blocks(hits, $('query').value);
@@ -62,10 +65,8 @@ const page = ((data, options, search, display) => {
         x.addEventListener('click', (e) => { page.show('text-pane'); });
       });
     } else {
-      getBlocks();
       $('summary').innerHTML = 'Enter your query into the search box above, and press ENTER or click the search icon to see results.';
     }
-    show('results-pane');
   };
 
   const toggleCustomRange = (active = null) => {
@@ -83,34 +84,34 @@ const page = ((data, options, search, display) => {
 
   const setSearchOption = (option) => {
     if ([ 'current', 'results', 'custom' ].indexOf(option) > -1) {
-      options.set('search', option);
+      options.set('search-range', option);
       if (option === 'custom') {
         toggleCustomRange(true);
       } else {
         toggleCustomRange(false);
       }
     } else {
-      options.set(option, $(`search-${option}`).checked);
+      options.set(option, $(option).checked);
     }
     submitSearch();
   };
 
   const updateText = () => {
-    if (options.get('edited')) {
+    if (options.get('show-edited')) {
       $('text').classList.remove('original');
-      $('changes').disabled = false;
-      $('changes').parentElement.classList.remove('disabled');
+      $('show-changes').disabled = false;
+      $('show-changes').parentElement.classList.remove('disabled');
     } else {
       $('text').classList.add('original');
-      $('changes').disabled = true;
-      $('changes').parentElement.classList.add('disabled');
+      $('show-changes').disabled = true;
+      $('show-changes').parentElement.classList.add('disabled');
     }
-    if (options.get('breaks')) {
+    if (options.get('show-breaks')) {
       $('text').classList.add('breaks');
     } else {
       $('text').classList.remove('breaks');
     }
-    if (options.get('changes')) {
+    if (options.get('show-changes')) {
       $('text').classList.add('changes');
     } else {
       $('text').classList.remove('changes');
@@ -118,7 +119,7 @@ const page = ((data, options, search, display) => {
   };
 
   const setTextOption = (option) => {
-    options.set(option, $(options).checked);
+    options.set(option, $(option).checked);
     updateText();
   };
 
@@ -131,31 +132,31 @@ const page = ((data, options, search, display) => {
   };
 
   const init = () => {
-    $('advanced').checked = options.get('advanced');
-    $('edited').checked = options.get('edited');
-    $('breaks').checked = options.get('breaks');
-    $('changes').checked = options.get('changes');
-    $('search-current').checked = (options.get('search') === 'current');
-    $('search-results').checked = (options.get('search') === 'results');
-    $('search-custom').checked = (options.get('search') === 'custom');
-    $('search-variants').checked = options.get('variants');
+    $('search-advanced').checked = options.get('search-advanced');
+    $('show-edited').checked = options.get('show-edited');
+    $('show-breaks').checked = options.get('show-breaks');
+    $('show-changes').checked = options.get('show-changes');
+    $('search-current').checked = (options.get('search-range') === 'current');
+    $('search-results').checked = (options.get('search-range') === 'results');
+    $('search-custom').checked = (options.get('search-range') === 'custom');
+    $('search-variants').checked = options.get('search-variants');
     if (options.get('search') === 'custom') toggleCustomRange(true);
     $$('.tab').forEach(x => x.addEventListener('click', clickTab));
     $('search').addEventListener('submit', submitSearch);
-    $('advanced').addEventListener('change', setSearchOption.bind(null, 'advanced'));
-    $('edited').addEventListener('change', setTextOption.bind(null, 'edited'));
-    $('breaks').addEventListener('change', setTextOption.bind(null, 'breaks'));
-    $('changes').addEventListener('change', setTextOption.bind(null, 'changes'));
+    $('search-advanced').addEventListener('change', setSearchOption.bind(null, 'search-advanced'));
+    $('show-edited').addEventListener('change', setTextOption.bind(null, 'show-edited'));
+    $('show-breaks').addEventListener('change', setTextOption.bind(null, 'show-breaks'));
+    $('show-changes').addEventListener('change', setTextOption.bind(null, 'show-changes'));
     $('search-current').addEventListener('change', setSearchOption.bind(null, 'current'));
     $('search-results').addEventListener('change', setSearchOption.bind(null, 'results'));
     $('search-custom').addEventListener('change', setSearchOption.bind(null, 'custom'));
-    $('search-variants').addEventListener('change', setSearchOption.bind(null, 'variants'));
+    $('search-variants').addEventListener('change', setSearchOption.bind(null, 'search-variants'));
     $('search-all').addEventListener('change', toggleAllTexts);
     $('search-all').addEventListener('change', submitSearch);
     $$('[data-search]').forEach(x => x.addEventListener('click', submitSearch));
     updateText();
   };
 
-  return { show, init };
+  return init;
 
 })(data, options, search, display);
