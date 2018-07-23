@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: notes
 subsection: update-2012
 ---
 ## Update, May 2012

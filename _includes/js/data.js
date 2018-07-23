@@ -2,18 +2,34 @@ const data = (() => {
 
   const texts = {{ site.data.texts | jsonify }};
 
-  const edition = (content, edited) =>
+  const baseContent = (content, edited) =>
     edited
       ? content.replace(/<del( title='(.*?)')?>(.*?)<\/del>/g, '')
       : content.replace(/<ins( title='(.*?)')?>(.*?)<\/ins>/g, '');
 
-  const rich = (content, edited) =>
-    edition(content, edited).replace(/<sup>(.*?)<\/sup>/g, '')
+  const richContent = (content, edited) =>
+    baseContent(content, edited)
+      .replace(/<sup>(.*?)<\/sup>/g, '')
       .replace(/<span class='page-ref'>(.*?)<\/span>/g, '')
-      .replace(/<span class='page-break'>\|<\/span>/g, '');
+      .replace(/<span class='page-break'>\|<\/span>/g, '')
+      .replace(/\s\s/g, ' ')
+      .trim();
 
-  const plain = (content, edited) =>
-    rich(content).replace(/(<(.*?)>)/g, '').replace(/\s\s/g, ' ').trim();
+  const plainContent = (content, edited) =>
+    richContent(content, edited)
+      .replace(/(<(.*?)>)/g, '')
+      .replace(/\s\s/g, ' ')
+      .trim();
+
+  const wordCount = content =>
+    content.split(' ').length;
+
+  const fullContent = (content, edited) => {
+    const rich = richContent(content, edited);
+    const plain = plainContent(content, edited);
+    const words = wordCount(plain);
+    return { rich, plain, words };
+  };
 
   const prepare = (text, note, variant, block) =>
     ({
@@ -23,8 +39,8 @@ const data = (() => {
       type: block.type,
       note,
       variant,
-      original: { rich: rich(block.content, false), plain: plain(block.content, false) },
-      edited: { rich: rich(block.content, true), plain: plain(block.content, true) },
+      original: fullContent(block.content, false),
+      edited: fullContent(block.content, true),
     });
 
   const blocks = (id) => {
@@ -69,6 +85,12 @@ const data = (() => {
   const some = (ids) =>
     ids.map(one).reduce((x, y) => x.concat(y), []);
 
-  return { all, one, some };
+  const words = (id) =>
+    ({
+      original: one(id).map(x => x.original.words).reduce((x, y) => x + y, 0),
+      edited: one(id).map(x => x.edited.words).reduce((x, y) => x + y, 0),
+    });
+
+  return { all, one, some, words };
 
 })();

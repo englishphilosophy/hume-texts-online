@@ -1,0 +1,77 @@
+---
+layout: default
+section: search
+---
+<div class="box search">
+  <h3>Range</h3>
+  <div class="options">
+    <div class="labels">
+      <label for="search-all"><input type="checkbox" id="search-all"> Select/deselect all</label>
+      <label for="search-t-0"><input type="checkbox" id="search-t-0" data-search="t-0"> Treatise Introduction</label>
+    </div>
+    <div class="labels">
+      <label for="search-t-1"><input type="checkbox" id="search-t-1" data-search="t-1"> Treatise Book 1</label>
+      <label for="search-t-2"><input type="checkbox" id="search-t-2" data-search="t-2"> Treatise Book 2</label>
+    </div>
+  </div>
+  <div class="options">
+    <div class="labels">
+      <label for="search-t-3"><input type="checkbox" id="search-t-3" data-search="t-3"> Treatise Book 3</label>
+      <label for="search-t-app"><input type="checkbox" id="search-t-app" data-search="t-app"> Treatise Appendix</label>
+    </div>
+    <div class="labels">
+      <label for="search-a"><input type="checkbox" id="search-a" data-search="a"> Abstract</label>
+      <label for="search-l"><input type="checkbox" id="search-l" data-search="l"> Letter from a Gentleman</label>
+    </div>
+  </div>
+  <div class="options">
+    <div class="labels">
+      <label for="search-e"><input type="checkbox" id="search-e" data-search="e"> First Enquiry</label>
+      <label for="search-p"><input type="checkbox" id="search-p" data-search="p"> Dissertation</label>
+    </div>
+    <div class="labels">
+      <label for="search-m"><input type="checkbox" id="search-m" data-search="m"> Moral Enquiry</label>
+      <label for="search-n"><input type="checkbox" id="search-n" data-search="n"> Natural History</label>
+    </div>
+  </div>
+  <div class="options">
+    <div class="labels">
+      <label for="search-essays"><input type="checkbox" id="search-essays" data-search="essays"> Essays</label>
+      <label for="search-d"><input type="checkbox" id="search-d" data-search="d"> Dialogues</label>
+    </div>
+    <div class="labels">
+      <label for="search-mol"><input type="checkbox" id="search-mol" data-search="mol"> My Own Life</label>
+      <label for="search-ads"><input type="checkbox" id="search-ads" data-search="ads"> Advertisements</label>
+    </div>
+  </div>
+  <h3>Options</h3>
+  <div class="options">
+    <div class="labels">
+      <label for="search-simple"><input type="radio" name="type" id="search-simple"> Simple Query</label>
+      <label for="search-advanced"><input type="radio" name="type" id="search-advanced"> Advanced Query</label>
+    </div>
+    <div class="labels">
+      <label for="show-edited"><input type="checkbox" id="show-edited"> Edited Version</label>
+      <label for="search-variants"><input type="checkbox" id="search-variants"> Include Variants</label>
+    </div>
+  </div>
+  <h3>Query</h3>
+  <form id="search">
+    <input type="text" placeholder="enter your query" id="query">
+    <div class="buttons">
+      <a title="Sub Search" style="display:none;" id="sub-search">search current results</a>
+      <button title="New Search" type="submit" id="new-search">new search</button>
+    </div>
+  </form>
+</div>
+<div class="box" id="help">
+  <div class="box-body notes">
+    {{ content }}
+  </div>
+</div>
+<div class="box" id="results" style="display:none;">
+  <div class="box-body text">
+    <div class="summary" id="summary"></div>
+    <div class="hits" id="hits"></div>
+  </div>
+</div>

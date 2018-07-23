@@ -2,10 +2,9 @@
 layout: null
 ---
 {% include js/data.js %}
-{% include js/options.js %}
+{% include js/session.js %}
+{% include js/texts.js %}
 {% include js/search.js %}
-{% include js/display.js %}
-{% include js/page.js %}
 
-page.initText();
-page.initSearch();
+texts.init();
+search.init();

@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: notes
 subsection: history
 ---
 ## The Leeds Hume Project (archived page, July 2001)
@@ -19,5 +19,5 @@ This is a new web project co-ordinated by Peter Millican, Director of the Leeds 
 
   It is intended that each Hume text published here be accompanied (either immediately, or in due course) by a _survey of the relevant secondary literature_, to enable those researching, teaching, or studying the text to get to grips with current debates quickly and easily. This type of resource is particularly suitable for delivery via the Web, because the secondary literature on Hume is growing so quickly. The bibliographic surveys on the site will be updated regularly, and interested scholars or students are advised to 'bookmark' them for future reference.
 - **Works by, and associated with, David Hume**
-  
+
   This project will publish not only works by Hume himself, but also works associated with him, from contemporary sources to essays by modern scholars. Hume scholars are invited to offer their work for publication here, but such work will be accepted only with the written agreement of the copyright holder, and only if the author guarantees that the work is in a reliable and permanent form.

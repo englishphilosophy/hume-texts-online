@@ -5,23 +5,32 @@
       margin-top: .75em;
     }
   }
-  input, button, label {
+  a, input, button, label {
     padding: .25em .5em;
   }
-  button, label {
+  a, button, label {
     cursor: pointer;
   }
-  form {
-    display: flex;
-    input {
-      flex: 1;
-      border: 1px solid $gray;
-      border-right: 0;
+  a, button {
+    background: $red;
+    color: #fff;
+    text-transform: uppercase;
+    margin-left: .5em;
+    &:hover {
+      box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+      text-decoration: none;
     }
-    button {
-      background: $red;
-      color: #fff;
-      text-transform: uppercase;
+  }
+  form {
+    input {
+      display: block;
+      width: 100%;
+      border: 1px solid $gray;
+      margin-bottom: .5em;
+    }
+    .buttons {
+      display: flex;
+      justify-content: flex-end;
     }
   }
   .options {
