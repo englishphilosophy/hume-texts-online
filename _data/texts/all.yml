@@ -1,9 +1,6 @@
 ---
-label: "All Texts"
-title:
-  - "Texts"
-  - "Texts"
-year: "1739-79"
+label: "All"
+type: "search"
 texts:
   - "t-0"
   - "t-1"
@@ -16,14 +13,7 @@ texts:
   - "p"
   - "m"
   - "n"
+  - "essays"
   - "d"
-  - "empl"
-  - "empw"
   - "mol"
-  - "ad1739"
-  - "ad1740"
-  - "ad1741"
-  - "ad1742"
-  - "ad1757"
-  - "ad1758"
-  - "ad1777"
+  - "ads"

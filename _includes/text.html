@@ -1,4 +1,5 @@
 {% assign text = site.data.texts[include.text] %}
+
 <div class="block">
   <div class="meta"></div>
   <div class="content title">{{ text.title[2] }}</div>
@@ -21,9 +22,7 @@
   </div>
 {% endfor %}
 {% for note in text.notes %}
-  {% if forloop.first %}
-    <hr>
-  {% endif %}
+  {% if forloop.first %}<hr>{% endif %}
   <div class="block note{% if note.type %} {{ note.type }}{% endif %}" id="n{{ note.id }}">
     <div class="meta">
       {{ text.label | append: '.n' | append: note.id | replace_first: '.', ' ' }}{% if note.pages %}, {{ text.pages }} {{ note.pages }}{% endif %}
@@ -34,4 +33,8 @@
       {{ note.content }}
     </div>
   </div>
+{% endfor %}
+{% for id in text.texts %}
+  <hr>
+  {% include text.html text=id %}
 {% endfor %}

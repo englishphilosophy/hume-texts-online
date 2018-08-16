@@ -1,7 +1,9 @@
 ---
 label: "A"
+url: "a"
+type: "small"
 title:
-  - "Abstract of the Treatise"
+  - "Abstract"
   - "An Abstract of a Book Lately Published"
   - "<h4>AN</h4><h1>ABSTRACT</h1><h4><strong>O</strong>F</h4><h3>A BOOK lately <b>Published</b>;</h3><h5><b>entituled</b>,</h5><h5>A</h5><h2><strong>TREATIS</strong>E</h2><h5>OF</h5><h2><em>Human Nature</em>, &amp;c.</h2><h5><b>wherein</b></h5><h6>The CHIEF ARGUMENT of that BOOK is farther <b>illustrated</b> and <b>explained</b>.</h6>"
 year: "1740"

@@ -1,5 +1,7 @@
 ---
 label: "T.2"
+type: "large"
+fulltext: true
 parent: "t"
 title:
   - "Book 2"

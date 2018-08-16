@@ -1,5 +1,7 @@
 ---
 label: "M"
+type: "large"
+fulltext: true
 title:
   - "An Enquiry concerning the Principles of Morals"
   - "An Enquiry concerning the Principles of Morals"

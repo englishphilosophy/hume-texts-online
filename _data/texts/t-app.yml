@@ -1,5 +1,6 @@
 ---
 label: "T.App"
+type: "small"
 parent: "t"
 title:
   - "Appendix"

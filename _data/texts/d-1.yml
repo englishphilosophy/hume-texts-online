@@ -1,5 +1,6 @@
 ---
 label: "D.1"
+type: "section"
 parent: "d"
 title:
   - "Part 1"
@@ -16,7 +17,7 @@ paragraphs:
     id: "1"
     type: "first"
     pages: "130"
-    content: "<p><del><strong>A</strong>F<b>ter</b></del><ins title='edited to match the preferences elsewhere'><strong>A</strong>FTER</ins> I joined the company, whom I found sitting in <b>Cleanthes</b>'s library, <b>Demea</b> paid <b>Cleanthes</b> some compliments, on the great care, which he took of my education, and on his unwearied perseverance and constancy in all his friendships. The father of <b>Pamphilus</b>, said he, was your intimate friend: The son is your pupil, and may indeed be regarded as your adopted son; were we to judge by the pains which you bestow in conveying to him every useful branch of literature and science. You are no more wanting, I am persuaded, in prudence than in industry. I shall, therefore, communicate to you a maxim which I have observed with regard to my own children, that I may learn how far it agrees with your practice. The method I follow in their education is founded on the saying of an ancient, <q><em>That students of philosophy ought first to learn Logics, then Ethics, next Physics, last of all, the Nature of the gods</em><sup><a href='#n1'>[1]</a></sup>.</q> This science of Natural Theology, according to him, being the most profound and abstruse of any, required the maturest judgement in its students; and none but a mind, enriched with all the other sciences, can safely be entrusted with it.</p>"
+    content: "<p><strong>A</strong>F<del><b>ter</b></del><ins title='edited to match the preferences elsewhere'>TER</ins> I joined the company, whom I found sitting in <b>Cleanthes</b>'s library, <b>Demea</b> paid <b>Cleanthes</b> some compliments, on the great care, which he took of my education, and on his unwearied perseverance and constancy in all his friendships. The father of <b>Pamphilus</b>, said he, was your intimate friend: The son is your pupil, and may indeed be regarded as your adopted son; were we to judge by the pains which you bestow in conveying to him every useful branch of literature and science. You are no more wanting, I am persuaded, in prudence than in industry. I shall, therefore, communicate to you a maxim which I have observed with regard to my own children, that I may learn how far it agrees with your practice. The method I follow in their education is founded on the saying of an ancient, <q><em>That students of philosophy ought first to learn Logics, then Ethics, next Physics, last of all, the Nature of the gods</em><sup><a href='#n1'>[1]</a></sup>.</q> This science of Natural Theology, according to him, being the most profound and abstruse of any, required the maturest judgement in its students; and none but a mind, enriched with all the other sciences, can safely be entrusted with it.</p>"
   -
     id: "2"
     pages: "130-1"

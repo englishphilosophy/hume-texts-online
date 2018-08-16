@@ -1,9 +1,9 @@
 ---
 label: "ETSS"
+type: "home"
 title:
   - "Essays and Treatises on Several Subjects"
   - "Essays and Treatises on Several Subjects"
-  - "<h1><strong>ESSAY</strong>S</h1><h6><b><strong>an</strong>d</b></h6><h1><strong>TREATISE</strong>S</h1><h6><b><strong>o</strong>n</b></h6><h2><strong>SEVERAL SUBJECT</strong>S.</h2>"
 year: "1758, 1777"
 texts:
   - "etss-1"

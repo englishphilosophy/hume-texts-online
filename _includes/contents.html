@@ -1,11 +1,12 @@
 {% assign text = site.data.texts[include.text] %}
 
-<h2><a href="{{ site.baseurl }}/texts/{{ include.text | replace: '-', '/' }}">{{ text.title[1] }}{% if text.year %} ({{ text.year }}){% endif %}</a></h2>
+<h2>{{ text.title[1] }}{% if text.year %}{% unless text.type == 'section' %} ({{ text.year }}){% endunless %}{% endif %}</h2>
 <ul>
+  {% unless text.type == 'home' %}<li><a href="{{ site.baseurl }}/texts/{{ include.text | replace: '-', ',' }}/full"><em>Full Text</em></a></li>{% endunless %}
   {% for id in text.texts %}
     {% assign subtext = site.data.texts[id] %}
     <li>
-      <a href="{{ site.baseurl }}/texts/{{ id | replace: '-', '/' }}">{{ subtext.title[1] }}{% if subtext.year %} ({{ subtext.year }}){% endif %}</a>
+      <a href="{{ site.baseurl }}/texts/{{ id | replace: '-', '/' }}">{{ subtext.title[1] }}{% if subtext.year %}{% unless subtext.type == 'section' %} ({{ subtext.year }}){% endunless %}{% endif %}</a>
       {% if id == 't' or id == 'etss-1' or id == 'etss-2' %}
         <ul>
           {% for subid in subtext.texts %}

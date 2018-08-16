@@ -1,8 +1,10 @@
 ---
 label: "Ad1741"
+url: "emp/1/ad1741"
+type: "advertisement"
 parent: "emp-1"
 title:
-  - "Advertisement (1741)"
+  - "Advertisement"
   - "Advertisement"
   - "<h1>Advertisement.</h1>"
 year: "1741"

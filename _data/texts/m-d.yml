@@ -1,5 +1,6 @@
 ---
 label: "M.D"
+type: "section"
 parent: "m"
 title:
   - "A Dialogue"

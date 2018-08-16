@@ -1,9 +1,6 @@
 ---
 label: "Ads"
-title:
-  - "Advertisements"
-  - "Advertisements"
-year: "1739-77"
+type: "search"
 texts:
   - "ad1739"
   - "ad1740"

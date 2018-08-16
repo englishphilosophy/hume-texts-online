@@ -21,16 +21,19 @@ const search = ((session) => {
   const regex = query =>
     session.get('search-advanced')
       ? new RegExp(`(${query})`, 'gi')
-      : new RegExp(`(${simplify(query)})`, 'gi');
+      : new RegExp(`\\b(${simplify(query)})\\b`, 'gi');
 
-  const filter = (blocks, query) =>
-    session.get('show-edited')
+  const filter = (blocks, query) => {
+    console.log(regex(query));
+    return session.get('show-edited')
       ? blocks.filter(x => x.edited.plain.match(regex(query)))
       : blocks.filter(x => x.original.plain.match(regex(query)));
+    };
 
   const dom = {
     search: document.getElementById('search'),
     query: document.getElementById('query'),
+    showHelp: document.getElementById('show-help'),
     subSearch: document.getElementById('sub-search'),
     simple: document.getElementById('search-simple'),
     advanced: document.getElementById('search-advanced'),
@@ -89,6 +92,7 @@ const search = ((session) => {
     dom.hits.innerHTML = showHits(hits);
     dom.help.style.display = 'none';
     dom.results.style.display = 'block';
+    dom.showHelp.style.display = 'block';
     dom.subSearch.style.display = 'block';
   };
 
@@ -106,6 +110,7 @@ const search = ((session) => {
       dom.hits.innerHTML = '';
       dom.results.style.display = 'none';
       dom.help.style.display = 'block';
+      dom.showHelp.style.display = 'none';
       dom.subSearch.style.display = 'none';
       session.set('search-query', null);
       session.set('search-hits', null);
@@ -146,6 +151,11 @@ const search = ((session) => {
     dom.search.addEventListener('submit', (e) => {
       e.preventDefault();
       runSearch(true);
+    });
+    dom.showHelp.addEventListener('click', (e) => {
+      e.preventDefault();
+      dom.query.value = '';
+      runSearch(false)
     });
     dom.subSearch.addEventListener('click', (e) => {
       e.preventDefault();

@@ -1,10 +1,11 @@
 ---
 label: "N.0"
+type: "section"
+parent: "n"
 title:
   - "Introduction"
   - "Introduction"
   - "<h1><strong>INTRODUCTIO</strong>N.</h1>"
-parent: "n"
 year: "1777"
 pages: "Bea"
 wordcount:

@@ -1,5 +1,6 @@
 ---
 label: "T.2.2.2"
+type: "section"
 parent: "t-2-2"
 title:
   - "2. Experiments to confirm this system"

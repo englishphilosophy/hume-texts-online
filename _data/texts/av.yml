@@ -1,5 +1,7 @@
 ---
 label: "Av"
+type: "essay"
+parent: "empw"
 title:
   - "Of Avarice"
   - "Of Avarice"

@@ -1,5 +1,6 @@
 ---
 label: "P.4"
+type: "section"
 parent: "p"
 title:
   - "Section 4"

@@ -1,5 +1,6 @@
 ---
 label: "T.2.1.6"
+type: "section"
 parent: "t-2-1"
 title:
   - "6. Limitations of this system"

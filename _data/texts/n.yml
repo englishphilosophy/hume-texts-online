@@ -1,5 +1,7 @@
 ---
 label: "N"
+type: "large"
+fulltext: true
 title:
   - "The Natural History of Religion"
   - "The Natural History of Religion"

@@ -1,5 +1,7 @@
 ---
 label: "P"
+type: "large"
+fulltext: true
 title:
   - "A Dissertation on the Passions"
   - "A Dissertation on the Passions"

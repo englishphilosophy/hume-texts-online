@@ -1,5 +1,7 @@
 ---
 label: "T.3.1"
+type: "large"
+fulltext: true
 parent: "t-3"
 title:
   - "Part 1"

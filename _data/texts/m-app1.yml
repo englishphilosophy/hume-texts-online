@@ -1,8 +1,9 @@
 ---
 label: "M.App1"
+type: "section"
 parent: "m"
 title:
-  - "App1. Concerning Moral Sentiment"
+  - "Appendix 1"
   - "Appendix 1. Concerning Moral Sentiment"
   - "<h1><strong>APPENDIX </strong>I.</h1><h2><b>Concerning Moral Sentiment</b>.</h2>"
 year: "1777"
