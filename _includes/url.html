@@ -1,0 +1,2 @@
+{%- assign parent = site.data.texts[include.id].parent -%}
+{{ site.baseurl }}/texts/{% if parent %}{{ parent | replace: '-', '/' }}/{% endif %}{{ include.id | replace: '-', '/' }}{% if include.full %}/full{% endif %}

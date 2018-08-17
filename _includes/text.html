@@ -2,7 +2,7 @@
 
 <div class="block">
   <div class="meta"></div>
-  <div class="content title">{{ text.title[2] }}</div>
+  <div class="content title {{ include.text }}">{% if include.number %}<h1><strong>ESSAY </strong>{%- include roman.html number=include.number -%}.</h1>{% endif %}{{ text.title[2] }}</div>
 </div>
 {% for paragraph in text.paragraphs %}
   {% if paragraph.title %}

@@ -1,6 +1,6 @@
 ---
 label: "D"
-type: "large"
+fulltext: true
 title:
   - "Dialogues"
   - "Dialogues concerning Natural Religion"

@@ -1,8 +1,6 @@
 ---
 label: "T.2"
-type: "large"
 fulltext: true
-parent: "t"
 title:
   - "Book 2"
   - "Book 2, Of the Passions"

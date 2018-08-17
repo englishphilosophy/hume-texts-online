@@ -1,6 +1,6 @@
 ---
 label: "T"
-type: "large"
+fulltext: true
 title:
   - "Treatise"
   - "A Treatise of Human Nature"

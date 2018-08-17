@@ -3,30 +3,41 @@ layout: default
 section: texts
 ---
 {% assign text = site.data.texts[page.text] %}
-{% assign trail = page.breadcrumb | append: ',' | split: ',' %}
 
 <div class="box">
   <nav class="box-tabs">
-    {% for id in trail %}
-      <a href="{{ site.baseurl }}/texts/{{ id | replace: '-', '/' }}">{{ site.data.texts[id].title[0] }} &gt;</a>
+    {% for id in page.breadcrumb %}
+      <a href="{%- include url.html id=id -%}">{{ site.data.texts[id].title[0] }} &gt;</a>
     {% endfor %}
     <a class="active" data-show="text-pane">
-      {% if page.show == 'fulltext' %}Full Text{% else %}{{ text.title[0] }}{% endif %}
+      {% if page.number %}
+        {{ page.number }}. {{ text.title[0] }}
+      {% elsif page.contents %}
+        {{ text.title[0] }}
+      {% elsif text.texts %}
+        Full Text
+      {% else %}
+        {{ text.title[0] }}
+      {% endif %}
     </a>
     <div class="spacer"></div>
-    {% if text.variants %}<a data-show="variants-pane">Textual Variants</a>{% endif %}
-    {% if text.images %}<a data-show="images-pane">Manuscript Images</a>{% endif %}
+    {% if text.variants %}
+      <a data-show="variants-pane">Textual Variants</a>
+    {% endif %}
+    {% if text.images %}
+      <a data-show="images-pane">Manuscript Images</a>
+    {% endif %}
     <a data-show="notes-pane">Editorial Notes</a>
     <a data-show="options-pane">Display Options</a>
   </nav>
   <div class="tab-pane active" id="text-pane">
-    {% if text.texts and page.show == 'contents' %}
+    {% if page.contents %}
       <div class="box-body notes">
         {% include contents.html text=page.text %}
       </div>
     {% else %}
       <div class="box-body text">
-        {% include text.html text=page.text %}
+        {% include text.html text=page.text number=page.number %}
       </div>
     {% endif %}
   </div>

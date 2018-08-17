@@ -1,10 +1,8 @@
 ---
 label: "EMP.1"
-type: "large"
 fulltext: true
-parent: "emp"
 title:
-  - "Volume 1"
+  - "Early Essays, Volume 1"
   - "Essays, Moral and Political, vol. 1"
   - "<h1>ESSAYS, MORAL and POLITICAL</h1><h2>Vol. 1</h2>"
 year: "1741"
