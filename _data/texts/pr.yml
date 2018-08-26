@@ -2,6 +2,9 @@
 label: "PR"
 type: "essay"
 parent: "empl-1"
+number:
+  empl-1: 3
+  emp-1: 4
 title:
   - "That Politics may be reduced to a Science"
   - "That Politics may be reduced to a Science"

@@ -2,6 +2,9 @@
 label: "LM"
 type: "essay"
 parent: "empw"
+number:
+  emp-1: 6
+  empw: 2
 title:
   - "Of Love and Marriage"
   - "Of Love and Marriage"

@@ -2,5 +2,6 @@
 layout: texts
 text: 'pgb'
 breadcrumb:
-  - 'empl-1'
+  - 'emp'
+  - 'emp-1'
 ---

@@ -2,5 +2,6 @@
 layout: texts
 text: 'pr'
 breadcrumb:
-  - 'empl-1'
+  - 'emp'
+  - 'emp-1'
 ---

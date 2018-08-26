@@ -2,6 +2,9 @@
 label: "Pl"
 type: "essay"
 parent: "empl-1"
+number:
+  empl-1: 17
+  emp-2: 8
 title:
   - "The Platonist"
   - "The Platonist"

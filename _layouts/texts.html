@@ -32,12 +32,12 @@ section: texts
   </nav>
   <div class="tab-pane active" id="text-pane">
     {% if page.contents %}
-      <div class="box-body notes">
+      <div class="box-body notes wide">
         {% include contents.html text=page.text relative=page.relative %}
       </div>
     {% else %}
       <div class="box-body text">
-        {% assign parent = page.breadcrumb[0] %}
+        {% assign parent = page.breadcrumb.last %}
         {% include text.html text=page.text parent=parent %}
       </div>
     {% endif %}

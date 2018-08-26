@@ -2,6 +2,8 @@
 label: "OG"
 type: "essay"
 parent: "empl-1"
+number:
+  empl-1: 5
 title:
   - "Of the Origin of Government"
   - "Of the Origin of Government"

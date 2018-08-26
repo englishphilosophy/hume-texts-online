@@ -42,5 +42,5 @@
 {% endfor %}
 {% for id in text.texts %}
   <hr>
-  {% include text.html text=id %}
+  {% include text.html text=id parent=include.parent %}
 {% endfor %}

@@ -2,6 +2,9 @@
 label: "MP"
 type: "essay"
 parent: "empw"
+number:
+  emp-2: 3
+  empw: 6
 title:
   - "Of Moral Prejudices"
   - "Of Moral Prejudices"

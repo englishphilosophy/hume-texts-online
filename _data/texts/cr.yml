@@ -2,6 +2,9 @@
 label: "CR"
 type: "essay"
 parent: "empw"
+number:
+  emp-2: 12
+  empw: 8
 title:
   - "A Character of Sir Robert Walpole"
   - "A Character of Sir Robert Walpole"

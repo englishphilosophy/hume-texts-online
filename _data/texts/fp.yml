@@ -2,6 +2,9 @@
 label: "FP"
 type: "essay"
 parent: "empl-1"
+number:
+  empl-1: 4
+  emp-1: 5
 title:
   - "Of the First Principles of Government"
   - "Of the First Principles of Government"
