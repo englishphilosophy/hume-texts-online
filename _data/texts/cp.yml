@@ -1,6 +1,9 @@
 ---
 label: "CP"
+type: "essay"
 parent: "empl-2"
+number:
+  empl-2: 14
 title:
   - "Of the Coalition of Parties"
   - "Of the Coalition of Parties"

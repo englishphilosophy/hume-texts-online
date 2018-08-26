@@ -1,0 +1,2 @@
+{%- assign text = site.data.texts[include.id] -%}
+{{ text.title[1] }}{% if text.year %} ({{ text.year }}){% endif %}

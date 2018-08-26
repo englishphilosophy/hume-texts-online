@@ -1,6 +1,9 @@
 ---
 label: "PO"
+type: "essay"
 parent: "empl-2"
+number:
+  empl-2: 13
 title:
   - "Of Passive Obedience"
   - "Of Passive Obedience"

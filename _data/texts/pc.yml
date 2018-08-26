@@ -1,6 +1,10 @@
 ---
 label: "PC"
+type: "essay"
 parent: "empl-2"
+number:
+  empl-2: 9
+  pld: 8
 title:
   - "Of Public Credit"
   - "Of Public Credit"

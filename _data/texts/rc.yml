@@ -1,6 +1,10 @@
 ---
 label: "RC"
+type: "essay"
 parent: "empl-2"
+number:
+  empl-2: 10
+  pld: 9
 title:
   - "Of some Remarkable Customs"
   - "Of some Remarkable Customs"

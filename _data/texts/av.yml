@@ -1,6 +1,10 @@
 ---
 label: "Av"
+type: "essay"
 parent: "empw"
+number:
+  empw: 4
+  emp-1: 13
 title:
   - "Of Avarice"
   - "Of Avarice"
