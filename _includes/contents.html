@@ -1,8 +1,8 @@
-{% assign text = site.data.texts[include.text] %}
+{% assign text = site.data.texts[include.id] %}
 
 <h2>{{ text.title[1] }}{% if text.year %} ({{ text.year }}){% endif %}</h2>
 <ul>
-  {% if text.fulltext %}<li><a href="{%- include url.html id=include.text full=true -%}"><em>Full Text</em></a></li>{% endif %}
+  {% if text.fulltext %}<li><a href="{%- include url.html id=include.id full=true -%}"><em>Full Text</em></a></li>{% endif %}
   {% for id in text.texts %}
     <li>
       <a href="{%- include url.html id=id relative=include.relative -%}">{%- include title.html id=id -%}</a>

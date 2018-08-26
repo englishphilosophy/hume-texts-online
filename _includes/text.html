@@ -1,4 +1,4 @@
-{% assign text = site.data.texts[include.text] %}
+{% assign text = site.data.texts[include.id] %}
 
 <div class="block">
   <div class="meta"></div>
@@ -42,5 +42,5 @@
 {% endfor %}
 {% for id in text.texts %}
   <hr>
-  {% include text.html text=id parent=include.parent %}
+  {% include text.html id=id parent=include.parent %}
 {% endfor %}

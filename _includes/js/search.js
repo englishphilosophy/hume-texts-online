@@ -23,12 +23,10 @@ const search = ((session) => {
       ? new RegExp(`(${query})`, 'gi')
       : new RegExp(`\\b(${simplify(query)})\\b`, 'gi');
 
-  const filter = (blocks, query) => {
-    console.log(regex(query));
-    return session.get('show-edited')
+  const filter = (blocks, query) =>
+    session.get('show-edited')
       ? blocks.filter(x => x.edited.plain.match(regex(query)))
       : blocks.filter(x => x.original.plain.match(regex(query)));
-    };
 
   const dom = {
     search: document.getElementById('search'),
@@ -52,16 +50,13 @@ const search = ((session) => {
       ? `<p>Advanced search matched ${hitsLength} of ${blocksLength} paragraphs or notes.</p>`
       : `<p>Simple search matched ${hitsLength} of ${blocksLength} paragraphs or notes.</p>`;
 
-  const url = block =>
-    `{{ site.baseurl }}/texts/${block.text.toLowerCase().replace(/\./g, '/')}`;
-
   const label = block =>
     `${block.text}.${block.id}`.replace('.', ' ');
 
   const ref = block =>
     block.pages
-      ? `<a href="${url(block)}/#${block.id}">${label(block)} ${block.pages}</a>`
-      : `<a href="${url(block)}/#${block.id}">${label(block)}</a>`;
+      ? `<a href="${block.url}#${block.id}">${label(block)} ${block.pages}</a>`
+      : `<a href="${block.url}#${block.id}">${label(block)}</a>`;
 
   const classes = block =>
     block.type ? `block ${block.type}` : 'block';

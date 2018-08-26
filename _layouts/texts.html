@@ -33,19 +33,19 @@ section: texts
   <div class="tab-pane active" id="text-pane">
     {% if page.contents %}
       <div class="box-body notes wide">
-        {% include contents.html text=page.text relative=page.relative %}
+        {% include contents.html id=page.text relative=page.relative %}
       </div>
     {% else %}
       <div class="box-body text">
         {% assign parent = page.breadcrumb.last %}
-        {% include text.html text=page.text parent=parent %}
+        {% include text.html id=page.text parent=parent %}
       </div>
     {% endif %}
   </div>
   {% if text.variants %}
     <div class="tab-pane" id="variants-pane">
       <div class="box-body text">
-        {% include variants.html text=page.text %}
+        {% include variants.html id=page.text %}
       </div>
     </div>
   {% endif %}
@@ -60,12 +60,12 @@ section: texts
   {% endif %}
   <div class="tab-pane" id="notes-pane">
     <div class="box-body notes">
-      {% include notes.html text=page.text %}
+      {% include notes.html id=page.text %}
     </div>
   </div>
   <div class="tab-pane" id="options-pane">
     <div class="box-body notes">
-      {% include options.html text=page.text %}
+      {% include options.html %}
     </div>
   </div>
 </div>
