@@ -25,21 +25,25 @@ paragraphs:
     content: "<p>That these principles serve to connect ideas will not, I believe, be much doubted. A picture naturally leads our thoughts to the original<sup><a href='#n2'>[2]</a></sup>: The mention of one apartment in a building naturally introduces an enquiry or discourse concerning the others<sup><a href='#n3'>[3]</a></sup>: And if we think of a wound, we can scarcely forbear reflecting on the pain which follows it<sup><a href='#n4'>[4]</a></sup>. But that this enumeration is compleat, and that there are no other principles of association, except these, may be difficult to prove to the satisfaction of the reader, or even to a man's own satisfaction. All we can do, in such cases, is to run over several instances, and examine carefully the principle, which binds the different thoughts to each other, never stopping till we render the principle as general as possible<sup><a href='#n6'>[6]</a></sup>. The more instances we examine, and the more care we employ, the more assurance shall we acquire, that the enumeration, which we form from the whole, is compleat and entire.</p>"
 notes:
   -
+    paragraph: "3"
     id: "2"
     pages: "24"
     symbol: "*"
     content: "<p>Resemblance.</p>"
   -
+    paragraph: "3"
     id: "3"
     pages: "24"
     symbol: "†"
     content: "<p>Contiguity.</p>"
   -
+    paragraph: "3"
     id: "4"
     psage: "24"
     symbol: "‡"
     content: "<p>Cause and effect.</p>"
   -
+    paragraph: "3"
     id: "6"
     pages: "24"
     symbol: "§"
@@ -90,7 +94,7 @@ variants:
         content: "<p>As the difference, therefore, between history and epic poetry consists only in the degrees of connexion, which bind together those several events, of which their subject is composed, it will be difficult, if not impossible, by words, to determine exactly the bounds, which separate them from each other. That is a matter of taste more than of reasoning; and perhaps, this unity may often be discovered in a subject, where, at first view, and from an abstract consideration, we should least expect to find it.</p>"
       -
         id: "16"
-        content: "<p>It is evident, that <b>Homer</b>, in the course of his narration, exceeds the first proposition of his subject; and that the anger of <b>Achilles</b>, which caused the death of <b>Hector</b>, is not the same with that which produced so many ills to the <b>Greeks</b>. But the strong connexion between these two movements, the quick transition from one to another, the contrast<sup><a href='#n6v'>[6]</a></sup> between the effects of concord and discord among the princes, and the natural curiosity  which we have to see <b>Achilles</b> in action, after so long a repose; all these causes carry on the reader, and produce a sufficient unity in the subject.</p>"
+        content: "<p>It is evident, that <b>Homer</b>, in the course of his narration, exceeds the first proposition of his subject; and that the anger of <b>Achilles</b>, which caused the death of <b>Hector</b>, is not the same with that which produced so many ills to the <b>Greeks</b>. But the strong connexion between these two movements, the quick transition from one to another, the contrast<sup><a href='#n6v'>[6v]</a></sup> between the effects of concord and discord among the princes, and the natural curiosity  which we have to see <b>Achilles</b> in action, after so long a repose; all these causes carry on the reader, and produce a sufficient unity in the subject.</p>"
       -
         id: "17"
         content: "<p>It may be objected to <b>Milton</b>, that he has traced up his causes to too great a distance, and that the rebellion of the angels produces the fall of man by a train of events, which is both very long and very casual. Not to mention, that the creation of the world, which he has related at length, is no more the cause of that catastrophe, than of the battle of <b>Pharsalia</b>, or any other event, that has ever happened. But if we consider, on the other hand, that all these events, the rebellion of the angels, the creation of the world, and the fall of man, <em>resemble</em> each other, in being miraculous and out of the common course of nature; that they are supposed to be <em>contiguous</em> in time; and that being detached from all other events, and being the only original facts, which revelation discovers, they strike the eye at once, and naturally recall each other to the thought or imagination: If we consider all these circumstances, I say, we shall find, that these parts of the action have a sufficient unity to make them be comprehended in one fable or narration. To which we may add, that the rebellion of the angels and the fall of man have a peculiar resemblance, as being counterparts to each other, and presenting to the reader the same moral, of obedience to our Creator.</p>"
@@ -99,8 +103,10 @@ variants:
         content: "<p>These loose hints I have thrown together, in order to excite the curiosity of philosophers, and beget a suspicion at least, if not a full persuasion, that this subject is very copious, and that many operations of the human mind depend on the connexion or association of ideas, which is here explained. Particularly, the sympathy between the passions and imagination will, perhaps, appear remarkable; while we observe that the affections, excited by one object, pass easily to another object connected with it; but transfuse themselves with difficulty, or not at all, along different objects, which have no manner of connexion together. By introducing, into any composition, personages and actions, foreign to each other, an injudicious author loses that communication of emotions, by which alone he can interest the heart, and raise the passions to their proper height and period. The full explication of this principle and all its consequences would lead us into reasonings too profound and too copious for this enquiry. It is sufficient, at present, to have established this conclusion, that the three connecting principles of all ideas are the relations of <em>Resemblance</em>, <em>Contiguity</em>, and <em>Causation</em>.</p>"
     notes:
       -
+        paragraph: "10"
         id: "5"
         content: "Contrary to <b>Aristotle</b>, <i>Μνθος δ' εστιν εις, ουχ, ωσπερ τινες οιονται, εαν περι θ' ενα η. Πολλα γαρ, και απειρα τω γενει Συμβαινει, εξ ων ενιων εξ εστιν εν. Ουτως δε και πραξεις, ενος πολλαι εσιν, εξ ων μια ουδεμια γινεται πραξις</i>, &amp;c. <i>Κεφ. η.</i>"
       -
+        paragraph: "16"
         id: "6v"
         content: "<p>Contrast or contrariety is a connexion among ideas, which may, perhaps, be considered as a mixture of causation and resemblance. Where two objects are contrary, the one destroys the other, i.e. is the cause of its annihilation, and the idea of the annihilation of an object implies the idea of its former existence.</p>"
