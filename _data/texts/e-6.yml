@@ -1,11 +1,9 @@
 ---
 label: "E.6"
-parent: "e"
 title:
-  - "6. Of Probability"
+  - "Section 6"
   - "Section 6. Of Probability"
   - "<h1><strong>SECTION </strong>VI.</h1><h2>Of <b>Probability</b><sup><a href='#n10'>[10]</a></sup>.</h2>"
-year: "1777"
 pages: "SBN"
 wordcount:
   original: 0
@@ -30,6 +28,7 @@ paragraphs:
     content: "<p>The case is the same with the probability of causes, as with that of chance. There are some causes, which are entirely uniform and constant in producing a particular effect; and no instance has ever yet been found of any failure or irregularity in their operation. Fire has always burned, and water suffocated every human creature: The production of motion by impulse and gravity is an universal law, which has hitherto admitted of no exception. But there are other causes, which have been found more irregular and uncertain; nor has rhubarb always proved a purge, or <span class='page-break'>|</span>opium a soporific to every one, who has taken these medicines. It is true, when any cause fails of producing its usual effect, philosophers ascribe not this to any irregularity in nature; but suppose, that some secret causes, in the particular structure of parts, have prevented the operation. Our reasonings, however, and conclusions concerning the event are the same as if this principle had no place. Being determined by custom to transfer the past to the future, in all our inferences; where the past has been entirely regular and uniform, we expect the event with the greatest assurance, and leave no room for any contrary supposition. But where different effects have been found to follow from causes, which are to <em>appearance</em> exactly similar, all these various effects must occur to the mind in transferring the past to the future, and enter into our consideration, when we determine the probability of the event. Though we give the preference to that which has been found most usual, and believe that this effect will exist, we must not overlook the other effects, but must assign to each of them a particular weight and authority, in proportion as we have found it to be more or less frequent. It is more probable, in almost every country of <b>Europe</b>, that there will be frost sometime in <b>January</b>, than that the weather will continue open throughout that whole month; though this probability varies according to the different climates, and approaches to a certainty in the more northern kingdoms. Here then it seems evident, that, when we transfer the past to the future, in order to determine the effect, which will result from any cause, we transfer all the different events, in the same proportion as they have appeared in the past, and conceive one to have existed a hundred times, for instance, another ten times, and another once. As a great number of views do here concur in one event, they fortify and confirm it to the imagination, beget that sentiment which we call <em>belief</em>, and give its object the preference above the contrary event, which is not supported by an equal number of <span class='page-break'>|</span>experiments, and recurs not so frequently to the thought in transferring the past to the future. Let any one try to account for this operation of the mind upon any of the received systems of philosophy, and he will be sensible of the difficulty. For my part, I shall think it sufficient, if the present hints excite the curiosity of philosophers, and make them sensible how defective all common theories are in treating of such curious and such sublime subjects.</p>"
 notes:
   -
+    paragraph: "0"
     id: "10"
     pages: "56"
     symbol: "*"

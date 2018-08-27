@@ -1,5 +1,10 @@
 ---
 label: "PS"
+type: "essay"
+parent: "empl-2"
+number:
+  empl-2: 15
+  pld: 11
 title:
   - "Of the Protestant Succession"
   - "Of the Protestant Succession"

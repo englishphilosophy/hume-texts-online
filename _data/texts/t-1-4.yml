@@ -1,11 +1,10 @@
 ---
 label: "T.1.4"
-parent: "t-1"
+fulltext: true
 title:
   - "Part 4"
   - "Part 4. Of the Sceptical and other systems of philosophy"
   - "<h1><strong>PART </strong>IV.</h1><h2><em>Of the Sceptical and other systems of philosophy.</em></h2>"
-year: "1739"
 texts:
   - "t-1-4-1"
   - "t-1-4-2"

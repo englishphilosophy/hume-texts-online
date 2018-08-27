@@ -1,11 +1,10 @@
 ---
 label: "T.2.3"
-parent: "t-2"
+fulltext: true
 title:
   - "Part 3"
   - "Part 3. Of the will and direct passions"
   - "<h1><strong>PART </strong>III.</h1><h2><em>Of the will and direct passions.</em></h2>"
-year: "1739"
 texts:
   - "t-2-3-1"
   - "t-2-3-2"

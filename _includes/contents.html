@@ -1,16 +1,15 @@
-{% assign text = site.data.texts[include.text] %}
+{% assign text = site.data.texts[include.id] %}
 
-<h2><a href="{{ site.baseurl }}/texts/{{ include.text | replace: '-', '/' }}">{{ text.title[1] }}{% if text.year %} ({{ text.year }}){% endif %}</a></h2>
+<h2>{{ text.title[1] }}{% if text.year %} ({{ text.year }}){% endif %}</h2>
 <ul>
+  {% if text.fulltext %}<li><a href="{%- include url.html id=include.id full=true -%}"><em>Full Text</em></a></li>{% endif %}
   {% for id in text.texts %}
-    {% assign subtext = site.data.texts[id] %}
     <li>
-      <a href="{{ site.baseurl }}/texts/{{ id | replace: '-', '/' }}">{{ subtext.title[1] }}{% if subtext.year %} ({{ subtext.year }}){% endif %}</a>
-      {% if id == 't' or id == 'etss-1' or id == 'etss-2' %}
+      <a href="{%- include url.html id=id relative=include.relative -%}">{%- include title.html id=id -%}</a>
+      {% if id == 't' or id == 'etss' %}
         <ul>
-          {% for subid in subtext.texts %}
-            {% assign subsubtext = site.data.texts[subid] %}
-            <li><a href="{{ site.baseurl }}/texts/{{ subid | replace: '-', '/' }}">{{ subsubtext.title[1] }}{% if subsubtext.year %} ({{ subsubtext.year }}){% endif %}</a></li>
+          {% for id in site.data.texts[id].texts %}
+            <li><a href="{%- include url.html id=id relative=include.relative -%}">{%- include title.html id=id -%}</a></li>
           {% endfor %}
         </ul>
       {% endif %}

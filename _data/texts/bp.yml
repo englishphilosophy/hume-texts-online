@@ -1,5 +1,10 @@
 ---
 label: "BP"
+type: "essay"
+parent: "empl-2"
+number:
+  empl-2: 7
+  pld: 6
 title:
   - "Of the Balance of Power"
   - "Of the Balance of Power"

@@ -1,5 +1,9 @@
 ---
 label: "ST"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 23
 title:
   - "Of the Standard of Taste"
   - "Of the Standard of Taste"

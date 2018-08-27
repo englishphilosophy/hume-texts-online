@@ -1,5 +1,10 @@
 ---
 label: "PD"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 19
+  emp: 25
 title:
   - "Of Polygamy and Divorces"
   - "Of Polygamy and Divorces"

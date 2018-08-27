@@ -24,6 +24,14 @@ const data = (() => {
   const wordCount = content =>
     content.split(' ').length;
 
+  const tourl = label =>
+    label.toLowerCase().replace(/(\.|\-)/g, '/');
+
+  const url = text =>
+    text.parent
+      ? `${tourl(text.parent)}/${tourl(text.label)}`
+      : tourl(text.label);
+
   const fullContent = (content, edited) => {
     const rich = richContent(content, edited);
     const plain = plainContent(content, edited);
@@ -35,6 +43,7 @@ const data = (() => {
     ({
       text: text.label,
       id: note ? `n${block.id}` : block.id,
+      url: `{{ site.baseurl }}/texts/${url(text)}`,
       pages: block.pages ? `${text.pages} ${block.pages}` : '',
       type: block.type,
       note,

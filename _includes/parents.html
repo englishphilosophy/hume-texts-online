@@ -1,6 +1,0 @@
-{% assign id = trail | first %}
-{% if site.data.texts[id].parent %}
-  {% assign more = site.data.texts[id].parent | append: ',' | split: ',' %}
-  {% assign trail = more | concat: trail %}
-  {% include parents.html %}
-{% endif %}

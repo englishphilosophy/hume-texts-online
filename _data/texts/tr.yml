@@ -1,5 +1,9 @@
 ---
 label: "Tr"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 22
 title:
   - "Of Tragedy"
   - "Of Tragedy"

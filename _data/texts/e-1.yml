@@ -1,11 +1,9 @@
 ---
 label: "E.1"
-parent: "e"
 title:
-  - "1. Of the Different Species of Philosophy"
+  - "Section 1"
   - "Section 1. Of the Different Species of Philosophy"
   - "<h1><strong>SECTION </strong>I.</h1><h2>Of the <b>Different Species</b> of <b>Philosophy</b>.</h2>"
-year: "1777"
 pages: "SBN"
 wordcount:
   original: 0
@@ -85,11 +83,14 @@ variants:
     explanation: "Paragraph 14 originally ended with this note, which appeared only in the 1748 and 1750 editions."
     notes:
       -
+        paragraph: "14"
         id: "a"
         content: "<p>That Faculty, by which we discern Truth and Falshood, and that by which we perceive Vice and Virtue had long been confounded with each other, and all Morality was suppos'd to be built on eternal and immutable Relations, which to every intelligent Mind were equally invariable as any Proposition concerning Quantity or Number. But a<sup><a href='#nb'>[b]</a></sup> late Philosopher has taught us, by the most convincing Arguments, that Morality is nothing in the abstract Nature of Things, but is entirely relative to the Sentiment or mental Taste of each particular Being; in the same Manner as the Distinctions of sweet and bitter, hot and cold, arise from the particular Feeling of each Sense or Organ. Moral Perceptions therefore, ought not to be clas'd  with the Operations of the Understanding, but with the Tastes or Sentiments.</p><p>It had been usual with Philosophers to divide all the Passions of the Mind into two Classes, the selfish and benevolent, which were suppos'd to stand in constant Opposition and Contrariety; nor was it thought that the latter could ever attain their proper Object but at the Expense of the former. Among the selfish Passions were rank'd Avarice, Ambition, Revenge: Among the benevolent, natural Affection, Friendship, Public spirit. Philosophers may now<sup><a href='#nc'>[c]</a></sup> perceive the Impropriety of this Division. It has been prov'd, beyond all Controversy, that even the Passions, commonly esteem'd selfish, carry the Mind beyond Self, directly to the Object; that tho' the Satisfaction of these Passions gives us Enjoyment, yet the Prospect of this Enjoyment is not the Cause of the Passion, but on the contrary the Passion is antecedent to the Enjoyment, and without the former, the latter could never possibly exist; that the Case is precisely the same with the Passions, denominated benevolent, and consequently that a Man is no more interested when he seeks his own Glory than when the Happiness of his Friend is the Object of his Wishes; nor is he any more disinterested when he sacrifices his Ease and Quiet to public Good than when he labours for the Gratification of Avarice and Ambition. Here therefore is a considerable Adjustment in the Boundaries of the Passions, which had been confounded by the Negligence or Inaccuracy of former Philosophers. These two Instances may suffice to show us the Nature and Importance of this Species of Philosophy.</p>"
       -
+        paragraph: "14"
         id: "b"
         content: "Mr. <em>Hutcheson</em>."
       -
+        paragraph: "14"
         id: "c"
         content: "See <em>Butler</em>'s Sermons."

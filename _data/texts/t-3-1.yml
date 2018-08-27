@@ -1,11 +1,10 @@
 ---
 label: "T.3.1"
-parent: "t-3"
+fulltext: true
 title:
   - "Part 1"
   - "Part 1. Of Vice and Virtue in general"
   - "<h1><strong>PART </strong>I.</h1><h2><em>Of Virtue and Vice in general.</em></h2>"
-year: "1740"
 texts:
   - "t-3-1-1"
   - "t-3-1-2"

@@ -1,5 +1,10 @@
 ---
 label: "DT"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 1
+  emp: 1
 title:
   - "Of the Delicacy of Taste and Passion"
   - "Of the Delicacy of Taste and Passion"

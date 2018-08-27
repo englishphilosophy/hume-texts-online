@@ -1,5 +1,10 @@
 ---
 label: "El"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 13
+  emp: 17
 title:
   - "Of Eloquence"
   - "Of Eloquence"

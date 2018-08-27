@@ -44,6 +44,7 @@
   }
   .labels {
     display: flex;
+    flex-wrap: wrap;
     border: 1px solid $gray;
     margin-bottom: 1em;
     label {
@@ -67,6 +68,9 @@
   .box .notes {
     margin-left: 20rem;
     margin-right: 6rem;
+    &.wide {
+      margin-right: 2rem;
+    }
     &.marginless {
       margin: 0;
     }

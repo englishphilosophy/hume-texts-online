@@ -1,5 +1,9 @@
 ---
 label: "NC"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 21
 title:
   - "Of National Characters"
   - "Of National Characters"

@@ -1,5 +1,10 @@
 ---
 label: "MS"
+type: "essay"
+parent: "empw"
+number:
+  emp: 19
+  empw: 7
 title:
   - "Of the Middle Station of Life"
   - "Of the Middle Station of Life"

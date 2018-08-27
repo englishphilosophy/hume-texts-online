@@ -1,9 +1,10 @@
 ---
 label: "EMP.W"
+fulltext: true
 title:
+  - "Withdrawn Essays"
   - "Essays, Moral and Political [withdrawn essays]"
-  - "Essays, Moral and Political [withdrawn essays]"
-  - "<h1>ESSAYS, MORAL and POLITICAL</h1><h2>[Subsequently Withdrawn Essays]</h2>"
+  - "<h1><strong>ESSAY</strong>S,<h1><h2><strong>MORA</strong>L</h2><h4><strong>an</strong>d</h4><h3><strong>POLITICA</strong>L.</h3><h5>[Subsequently Withdrawn Essays]</h5>"
 year: "1741-2"
 texts:
   - "im"

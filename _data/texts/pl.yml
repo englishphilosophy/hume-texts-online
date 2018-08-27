@@ -1,5 +1,10 @@
 ---
 label: "Pl"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 17
+  emp: 23
 title:
   - "The Platonist"
   - "The Platonist"

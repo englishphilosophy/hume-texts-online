@@ -1,5 +1,10 @@
 ---
 label: "IPC"
+type: "essay"
+parent: "empl-2"
+number:
+  empl-2: 16
+  pld: 12
 title:
   - "Idea of a Perfect Commonwealth"
   - "Idea of a Perfect Commonwealth"

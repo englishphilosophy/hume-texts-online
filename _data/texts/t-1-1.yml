@@ -1,11 +1,10 @@
 ---
 label: "T.1.1"
-parent: "t-1"
+fulltext: true
 title:
   - "Part 1"
   - "Part 1. Of Ideas, their Origin, Composition, Abstraction, Connexion, &amp;c."
   - "<h1><strong>PART </strong>I.</h1><h2><em>Of Ideas, their Origin, Composition, Connexion, Abstraction,</em> &amp;c.</h2>"
-year: "1739"
 texts:
   - "t-1-1-1"
   - "t-1-1-2"

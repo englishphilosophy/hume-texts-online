@@ -1,5 +1,10 @@
 ---
 label: "RA"
+type: "essay"
+parent: "empl-2"
+number:
+  empl-2: 2
+  pld: 2
 title:
   - "Of Refinement in the Arts"
   - "Of Refinement in the Arts"

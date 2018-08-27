@@ -1,5 +1,10 @@
 ---
 label: "Sc"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 18
+  emp: 24
 title:
   - "The Sceptic"
   - "The Sceptic"

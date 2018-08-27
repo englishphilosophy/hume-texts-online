@@ -1,5 +1,10 @@
 ---
 label: "PA"
+type: "essay"
+parent: "empl-2"
+number:
+  empl-2: 11
+  pld: 10
 title:
   - "Of the Populousness of Ancient Nations"
   - "Of the Populousness of Ancient Nations"

@@ -1,5 +1,10 @@
 ---
 label: "RP"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 14
+  emp: 20
 title:
   - "Of the Rise and Progress of the Arts and Sciences"
   - "Of the Rise and Progress of the Arts and Sciences"

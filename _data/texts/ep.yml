@@ -1,5 +1,10 @@
 ---
 label: "Ep"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 15
+  emp: 21
 title:
   - "The Epicurean"
   - "The Epicurean"

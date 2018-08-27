@@ -1,5 +1,10 @@
 ---
 label: "BT"
+type: "essay"
+parent: "empl-2"
+number:
+  empl-2: 5
+  pld: 5
 title:
   - "Of the Balance of Trade"
   - "Of the Balance of Trade"

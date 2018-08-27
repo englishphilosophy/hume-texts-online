@@ -4,55 +4,68 @@ section: texts
 ---
 {% assign text = site.data.texts[page.text] %}
 
-  <div class="breadcrumb box" id="breadcrumb" data-text="{{ page.text }}">
-    {% assign trail = page.text | append: ',' | split: ',' %}
-    {% include parents.html %}
-    {% include breadcrumb.html trail=trail %}
-  </div>
-  <div class="box">
-    <nav class="box-tabs">
-      <a class="active" data-show="text-pane">{% if text.texts %}Contents{% else %}Text{% endif %}</a>
-      {% if text.variants %}<a data-show="variants-pane">Textual Variants</a>{% endif %}
-      {% if text.images %}<a data-show="images-pane">Manuscript Images</a>{% endif %}
-      <div class="spacer"></div>
-      <a data-show="notes-pane">Editorial Notes</a>
-      <a data-show="options-pane">Display Options</a>
-    </nav>
-    <div class="tab-pane active" id="text-pane">
-      {% if text.texts %}
-        <div class="box-body notes">
-          {% include contents.html text=page.text %}
-        </div>
+<div class="box">
+  <nav class="box-tabs">
+    {% for id in page.breadcrumb %}
+      <a href="{%- include url.html id=id -%}">{{ site.data.texts[id].title[0] }} &gt;</a>
+    {% endfor %}
+    <a class="active" data-show="text-pane">
+      {% if page.number %}
+        {{ page.number }}. {{ text.title[0] }}
+      {% elsif page.contents %}
+        {{ text.title[0] }}
+      {% elsif text.texts %}
+        Full Text
       {% else %}
-        <div class="box-body text">
-          {% include text.html text=page.text %}
-        </div>
+        {{ text.title[0] }}
       {% endif %}
-    </div>
+    </a>
+    <div class="spacer"></div>
     {% if text.variants %}
-      <div class="tab-pane" id="variants-pane">
-        <div class="box-body text">
-          {% include variants.html text=page.text %}
-        </div>
-      </div>
+      <a data-show="variants-pane">Textual Variants</a>
     {% endif %}
     {% if text.images %}
-      <div class="tab-pane" id="images-pane">
-        <div class="box-body images">
-          {% for image in text.images %}
-            <img src="{{ site.baseurl }}/assets/img/{{ image }}.jpg" alt="image of manuscript page {{ image }}">
-          {% endfor %}
-        </div>
+      <a data-show="images-pane">Manuscript Images</a>
+    {% endif %}
+    <a data-show="notes-pane">Editorial Notes</a>
+    <a data-show="options-pane">Display Options</a>
+  </nav>
+  <div class="tab-pane active" id="text-pane">
+    {% if page.contents %}
+      <div class="box-body notes wide">
+        {% include contents.html id=page.text relative=page.relative %}
+      </div>
+    {% else %}
+      <div class="box-body text">
+        {% assign parent = page.breadcrumb.last %}
+        {% include text.html id=page.text parent=parent %}
       </div>
     {% endif %}
-    <div class="tab-pane" id="notes-pane">
-      <div class="box-body notes">
-        {% include notes.html text=page.text %}
+  </div>
+  {% if text.variants %}
+    <div class="tab-pane" id="variants-pane">
+      <div class="box-body text">
+        {% include variants.html id=page.text %}
       </div>
     </div>
-    <div class="tab-pane" id="options-pane">
-      <div class="box-body notes">
-        {% include options.html text=page.text %}
+  {% endif %}
+  {% if text.images %}
+    <div class="tab-pane" id="images-pane">
+      <div class="box-body images">
+        {% for image in text.images %}
+          <img src="{{ site.baseurl }}/assets/img/{{ image }}.jpg" alt="image of manuscript page {{ image }}">
+        {% endfor %}
       </div>
+    </div>
+  {% endif %}
+  <div class="tab-pane" id="notes-pane">
+    <div class="box-body notes">
+      {% include notes.html id=page.text %}
     </div>
   </div>
+  <div class="tab-pane" id="options-pane">
+    <div class="box-body notes">
+      {% include options.html %}
+    </div>
+  </div>
+</div>

@@ -1,9 +1,5 @@
-{% assign key = include.text | split: '-' | first %}
+{% assign key = include.id | split: '-' | first %}
 {% case key %}
-  {% when 'all' %}
-    {% capture notes %}{% include notes/all.md %}{% endcapture %}
-  {% when 'tal' %}
-    {% capture notes %}{% include notes/tal.md %}{% endcapture %}
   {% when 't' %}
     {% capture notes %}{% include notes/t.md %}{% endcapture %}
   {% when 'ad1739' %}
@@ -30,8 +26,8 @@
     {% capture notes %}{% include notes/m.md %}{% endcapture %}
   {% when 'n' %}
     {% capture notes %}{% include notes/n.md %}{% endcapture %}
-  {% when 'post' %}
-    {% capture notes %}{% include notes/post.md %}{% endcapture %}
+  {% when 'h' %}
+    {% capture notes %}{% include notes/h.md %}{% endcapture %}
   {% when 'mol' %}
     {% capture notes %}{% include notes/mol.md %}{% endcapture %}
   {% when 'su' %}
@@ -40,13 +36,11 @@
     {% capture notes %}{% include notes/suis.md %}{% endcapture %}
   {% when 'd' %}
     {% capture notes %}{% include notes/d.md %}{% endcapture %}
-  {% when 'other' %}
-    {% capture notes %}{% include notes/other.md %}{% endcapture %}
   {% when 'emp' %}
     {% capture notes %}{% include notes/empl.md %}{% endcapture %}
   {% when 'empw' %}
     {% capture notes %}{% include notes/empl.md %}{% endcapture %}
-  {% when 'pd' %}
+  {% when 'pld' %}
     {% capture notes %}{% include notes/empl.md %}{% endcapture %}
   {% when 'fd' %}
     {% capture notes %}{% include notes/fd.md %}{% endcapture %}

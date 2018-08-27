@@ -1,5 +1,9 @@
 ---
 label: "JT"
+type: "essay"
+parent: "empl-2"
+number:
+  empl-2: 6
 title:
   - "Of the Jealousy of Trade"
   - "Of the Jealousy of Trade"

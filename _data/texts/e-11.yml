@@ -1,11 +1,9 @@
 ---
 label: "E.11"
-parent: "e"
 title:
-  - "11. Of a Particular Providence and of a Future State"
+  - "Section 11"
   - "Section 11. Of a Particular Providence and of a Future State"
   - "<h1><strong>SECTION </strong>XI.</h1><h2>Of a <b>Particular Providence</b> and of a <b>Future State</b>.</h2>"
-year: "1777"
 pages: "SBN"
 wordcount:
   original: 0
@@ -134,26 +132,31 @@ paragraphs:
     content: "<p>But there occurs to me (continued I) with regard to your <span class='page-break'>|</span>main topic, a difficulty, which I shall just propose to you, without insisting on it; lest it lead into reasonings of too nice and delicate a nature. In a word, I much doubt whether it be possible for a cause to be known only by its effect (as you have all along supposed) or to be of so singular and particular a nature as to have no parallel and no similarity with any other cause or object, that has ever fallen under our observation. It is only when two <em>species</em> of objects are found to be constantly conjoined, that we can infer the one from the other; and were an effect presented, which was entirely singular, and could not be comprehended under any known <em>species</em>, I do not see, that we could form any conjecture or inference at all concerning its cause. If experience and observation and analogy be, indeed, the only guides which we can reasonably follow in inferences of this nature; both the effect and cause must bear a similarity and resemblance to other effects and causes, which we know, and which we have found, in many instances, to be conjoined with each other. I leave it to your own reflection to pursue the consequences of this principle. I shall just observe, that, as the antagonists of <b>Epicurus</b> always suppose the universe, an effect quite singular and unparalleled, to be the proof of a Deity, a cause no less singular and unparalleled; your reasonings, upon that supposition, seem, at least, to merit our attention. There is, I own, some difficulty, how we can ever return from the cause to the effect, and, reasoning from our ideas of the former, infer any alteration on the latter, or any addition to it.</p>"
 notes:
   -
+    paragraph: "2"
     id: "28"
     pages: "132"
     symbol: "*"
     content: "<p><b>Luciani</b> <i>συμπ. η, λαπιθαι</i>.</p>"
   -
+    paragraph: "2"
     id: "29"
     pages: "132"
     symbol: "*"
     content: "<p><b>Luciani</b> <i>ευνουχος</i>.</p>"
   -
+    paragraph: "2"
     id: "30"
     pages: "133"
     symbol: "†"
     content: "<p>Id. &amp; Dio.</p>"
   -
+    paragraph: "26"
     id: "31"
     pages: "145"
     symbol: "*"
     content: "<p>See NOTE [M].</p>"
   -
+    paragraph: "26"
     id: "31.1"
     type: "first"
     pages: "145"

@@ -1,5 +1,9 @@
 ---
 label: "OC"
+type: "essay"
+parent: "empl-2"
+number:
+  empl-2: 12
 title:
   - "Of the Original Contract"
   - "Of the Original Contract"

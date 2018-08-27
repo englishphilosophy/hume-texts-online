@@ -1,11 +1,9 @@
 ---
 label: "E.8"
-parent: "e"
 title:
-  - "8. Of Liberty and Necessity"
+  - "Section 8"
   - "Section 8. Of Liberty and Necessity"
   - "<h1><strong>SECTION </strong>VIII.</h1><h2>Of <b>Liberty</b> and <b>Necessity</b>.</h2>"
-year: "1777"
 pages: "SBN"
 wordcount:
   original: 0
@@ -160,21 +158,25 @@ paragraphs:
     content: "<p>The <em>second</em> objection admits not of so easy and satisfactory an answer; nor is it possible to explain distinctly, how the Deity can be the mediate cause of all the actions of men, without being the author of sin and moral turpitude. These are mysteries, which mere natural and unassisted reason is very unfit to handle; and whatever system she embraces, she must find herself involved in inextricable difficulties, and even contradictions, at every step which she takes with regard to such subjects. To reconcile the indifference and contingency of human actions with prescience; or to defend absolute decrees, and yet free the Deity from being the author of sin, has been found hitherto to exceed all the power of philosophy. Happy, if she be thence sensible of her temerity, when she pries into these sublime mysteries; and leaving a scene so full of obscurities and perplexities, return, with suitable modesty, to her true and proper province, the examination of common life; where she will find difficulties enow to employ her enquiries, without launching into so boundless an ocean of doubt, uncertainty, and contradiction!</p>"
 notes:
   -
+    paragraph: "22"
     id: "18"
     pages: "94"
     symbol: "*"
     content: "<p>See NOTE [F].</p>"
   -
+    paragraph: "22"
     id: "18.1"
     type: "first"
     pages: "94"
     content: "<p><strong>T</strong>HE prevalence of the doctrine of liberty may be accounted for, from another cause, <em>viz.</em> a false sensation or seeming experience which we have, or may have, of liberty or indifference, in many of our actions. The necessity of any action, whether of matter or of mind, is not, properly speaking, a quality in the agent, but in any thinking or intelligent being, who may consider the action; and it consists chiefly in the determination of his thoughts to infer the existence of that action from some preceding objects; as liberty, when opposed to necessity, is nothing but the want of that determination, and a certain looseness or indifference, which we feel, in passing, or not passing, from the idea of one object to that of any succeeding one. Now we may observe, that, though, in <em>reflecting</em> on human actions, we seldom feel such a looseness or indifference, but are commonly able to infer them with considerable certainty from their motives, and from the dispositions of the agent; yet it frequently happens, that, in <em>performing</em> the actions themselves, we are sensible of something like it: And as all resembling objects are readily taken for each other, this has been employed as a demonstrative and even intuitive proof of human liberty. We feel, that our actions are subject to our will, on most occasions; and imagine we feel, that the will itself is subject to nothing, because, when by a denial of it we are provoked to try, we feel, that it moves easily every way, and produces an image of itself (or a <em>Velleïty</em>, as it is called in the schools) even on that side, on which it did not settle. This image, or faint motion, we persuade ourselves, could, at that time, have been compleated into the thing itself; because, should that be denied, we find, upon a second trial, that, at present, it can. We consider not, that the fantastical desire of shewing liberty, is here the motive of our actions. And it seems certain, that, however we may imagine we feel a liberty within outselves, a spectator can commonly infer our actions from our motives and character; and even where he cannot, he concludes in general, that he might, were he perfectly acquainted with every circumstance of our situation and temper, and the most secret springs of our complexion and disposition. Now this is the very essence of necessity, according to the foregoing doctrine.</p>"
   -
+    paragraph: "25"
     id: "19"
     pages: "96"
     symbol: "*"
     content: "<p>See NOTE [G].</p>"
   -
+    paragraph: "25"
     id: "19.1"
     type: "first"
     pages: "96"

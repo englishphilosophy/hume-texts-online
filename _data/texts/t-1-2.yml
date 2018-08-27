@@ -1,11 +1,10 @@
 ---
 label: "T.1.2"
-parent: "t-1"
+fulltext: true
 title:
   - "Part 2"
   - "Part 2. Of the ideas of space and time"
   - "<h1><strong>PART </strong>II.</h1><h2><em>Of the ideas of space and time.</em></h2>"
-year: "1739"
 texts:
   - "t-1-2-1"
   - "t-1-2-2"

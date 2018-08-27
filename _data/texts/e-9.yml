@@ -1,11 +1,9 @@
 ---
 label: "E.9"
-parent: "e"
 title:
-  - "9. Of the Reason of Animals"
+  - "Section 9"
   - "Section 9. Of the Reason of Animals"
   - "<h1><strong>SECTION </strong>IX.</h1><h2>Of the <b>Reason</b> of <b>Animals</b>.</h2>"
-year: "1777"
 pages: "SBN"
 wordcount:
   original: 0
@@ -38,56 +36,69 @@ paragraphs:
     content: "<p>But though animals learn many parts of their knowledge from observation, there are also many parts of it, which they derive from the original hand of nature; which much exceed the share of capacity they possess on ordinary occasions; and in which they improve, little or nothing, by the longest practice and experience. These we denominate <b>Instincts</b>, and are so apt to admire, as something very extraordinary, and inexplicable by all the disquisitions of human understanding. But our wonder will, perhaps, cease or diminish; when we consider, that the experimental reasoning itself, which we possess in common with beasts, and on which the whole conduct of life depends, is nothing but a species of instinct or mechanical power, that acts in us unknown to ourselves; and in its chief operations, is not directed by any such relations or comparisons of ideas, as are the proper objects of our intellectual faculties. Though the instinct be different, yet still it is an instinct, which teaches a man to avoid the fire; as much as that, which teaches a bird, with such exactness, the art of incubation, and the whole œconomy and order of its nursery.</p>"
 notes:
   -
+    paragraph: "5"
     id: "20"
     pages: "107"
     symbol: "*"
     content: "<p>See NOTE [H].</p>"
   -
+    paragraph: "5"
     id: "20.1"
     type: "first"
     pages: "107"
     content: "<p><strong>S</strong>INCE all <del>reasonings</del><ins title='evidently an error, given the verb following'>reasoning</ins> concerning facts or causes is derived merely from custom, it may be asked how it happens, that men so much surpass animals in reasoning, and one man so much surpasses another? Has not the same custom the same influence on all?</p>"
   -
+    paragraph: "5"
     id: "20.2"
     pages: "107"
     content: "<p>We shall here endeavour briefly to explain the great difference in human understandings: After which the reason of the difference between men and animals will easily be comprehended.</p>"
   -
+    paragraph: "5"
     id: "20.3"
     pages: "107"
     content: "<p>1. When we have lived any time, and have been accustomed to the uniformity of nature, we acquire a general habit, by which we always transfer the known to the unknown, and conceive the latter to resemble the former. By means of this general habitual principle, we regard even one experiment as the foundation of reasoning, and expect a similar event with some degree of certainty, where the experiment has been made accurately, and free from all foreign circumstances. It is therefore considered as a matter of great importance to observe the consequences of things; and as one man may very much surpass another in attention and memory and observation, this will make a very great difference in their reasoning.</p>"
   -
+    paragraph: "5"
     id: "20.4"
     pages: "107"
     content: "<p>2. Where there is a complication of causes to produce any effect, one mind may be much larger than another, and better able to comprehend the whole system of objects, and to infer justly their consequences.</p>"
   -
+    paragraph: "5"
     id: "20.5"
     pages: "107"
     content: "<p>3. One man is able to carry on a chain of consequences to a greater length than another.</p>"
   -
+    paragraph: "5"
     id: "20.6"
     pages: "107"
     content: "<p>4. Few men can think long without running into a confusion of ideas, and mistaking one for another; and there are various degrees of this infirmity.</p>"
   -
+    paragraph: "5"
     id: "20.7"
     pages: "107"
     content: "<p>5. The circumstance, on which the effect depends, is frequently involved in other circumstances, which are foreign and extrinsic. The separation of it often requires great attention, accuracy, and subtilty.</p>"
   -
+    paragraph: "5"
     id: "20.8"
     pages: "107"
     content: "<p>6. The forming of general maxims from particular observation is a very nice operation; and nothing is more usual, from haste or a narrowness of mind, which sees not on all sides, than to commit mistakes in this particular.</p>"
   -
+    paragraph: "5"
     id: "20.9"
     pages: "107"
     content: "<p>7. When we reason from analogies, the man, who has the greater experience or the greater promptitude of suggesting analogies, will be the better reasoner.</p>"
   -
+    paragraph: "5"
     id: "20.10"
     pages: "107"
     content: "<p>8. Byasses from prejudice, education, passion, party, <em>&amp;c.</em> hang more upon one mind than another.</p>"
   -
+    paragraph: "5"
     id: "20.11"
     pages: "107"
     content: "<p>9. After we have acquired a confidence in human testimony, books and conversation enlarge much more the sphere of one man's experience and thought than those of another.</p>"
   -
+    paragraph: "5"
     id: "20.12"
     pages: "107"
     content: "<p>It would be easy to discover many other circumstances that make a difference in the understandings of men.</p>"

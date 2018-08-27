@@ -1,5 +1,0 @@
-{% for id in include.trail %}
-  {% if id != 'all' %}
-    <h2><a href="{{ site.baseurl }}/texts/{{ id | replace: '-', '/' }}">{{ site.data.texts[id].title[0] }}</a></h2>
-  {% endif %}
-{% endfor %}

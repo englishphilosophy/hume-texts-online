@@ -1,5 +1,10 @@
 ---
 label: "In"
+type: "essay"
+parent: "empl-2"
+number:
+  empl-2: 4
+  pld: 4
 title:
   - "Of Interest"
   - "Of Interest"

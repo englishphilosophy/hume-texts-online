@@ -1,9 +1,9 @@
 ---
 label: "Ad1741"
-parent: "emp-1"
+parent: "emp"
 title:
-  - "Advertisement (1741)"
   - "Advertisement"
+  - "<em>Advertisement</em>"
   - "<h1>Advertisement.</h1>"
 year: "1741"
 wordcount:

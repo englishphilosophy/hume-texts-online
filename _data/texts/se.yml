@@ -1,5 +1,10 @@
 ---
 label: "SE"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 10
+  emp: 12
 title:
   - "Of Superstition and Enthusiasm"
   - "Of Superstition and Enthusiasm"

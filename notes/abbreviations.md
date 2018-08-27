@@ -8,14 +8,15 @@ It is standard practice to refer to Hume's texts using abbreviations, though not
 
 ### 1. Major works (in chronological order)
 
-| T | _[Treatise of Human Nature]({{ site.baseurl }}{% link texts/t/index.html %})_                    |
-| A | _[Abstract of the Treatise]({{ site.baseurl }}{% link texts/a/index.html %})_                    |
-| L | _[Letter from a Gentleman]({{ site.baseurl }}{% link texts/l/index.html %})_                     |
-| E | _[Enquiry Concerning Human Understanding]({{ site.baseurl }}{% link texts/e/index.html %})_      |
-| M | _[Enquiry Concerning the Principles of Morals]({{ site.baseurl }}{% link texts/m/index.html %})_ |
-| P | _[Dissertation on the Passions]({{ site.baseurl }}{% link texts/p/index.html %})_                |
-| N | _[Natural History of Religion]({{ site.baseurl }}{% link texts/n/index.html %})_                 |
-| D | _[Dialogues Concerning Natural Religion]({{ site.baseurl }}{% link texts/d/index.html %})_       |
+| T | _[Treatise of Human Nature]({{ site.baseurl }}/texts/t)_                    |
+| A | _[Abstract of the Treatise]({{ site.baseurl }}/texts/a)_                    |
+| L | _[Letter from a Gentleman]({{ site.baseurl }}/texts/l)_                     |
+| E | _[Enquiry Concerning Human Understanding]({{ site.baseurl }}/texts/e)_      |
+| M | _[Enquiry Concerning the Principles of Morals]({{ site.baseurl }}/texts/m)_ |
+| P | _[Dissertation on the Passions]({{ site.baseurl }}/texts/p)_                |
+| N | _[Natural History of Religion]({{ site.baseurl }}/texts/n)_                 |
+| D | _[Dialogues Concerning Natural Religion]({{ site.baseurl }}/texts/d)_       |
+| H | _[History of England]({{ site.baseurl }}/texts/h)_       |
 
 ### 2. Essays (as ordered in Miller's standard edition)
 
@@ -23,5 +24,5 @@ It is standard practice to refer to Hume's texts using abbreviations, though not
 {% assign ids = site.data.texts.empl-1.texts | concat: site.data.texts.empl-2.texts | concat: site.data.texts.empw.texts | concat: suis %}
 {% for id in ids %}
 {%- assign text = site.data.texts[id] -%}
-| {{ text.label }} | _[{{ text.title[0] }}]({{ site.baseurl }}/texts/{{ text.label | downcase }}/)_ |
+| {{ text.label }} | _[{{ text.title[0] }}]({{ site.baseurl }}/texts/{{ text.parent | replace: '-', '/' }}/{{ text.label | downcase }}/)_ |
 {% endfor %}

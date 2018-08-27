@@ -1,5 +1,10 @@
 ---
 label: "CL"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 12
+  emp: 15
 title:
   - "Of Civil Liberty"
   - "Of Civil Liberty"

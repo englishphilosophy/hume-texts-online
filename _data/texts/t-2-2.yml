@@ -1,11 +1,10 @@
 ---
 label: "T.2.2"
-parent: "t-2"
+fulltext: true
 title:
   - "Part 2"
   - "Part 2. Of love and hatred"
   - "<h1><strong>PART </strong>II.</h1><h2><em>Of love and hatred.</em></h2>"
-year: "1739"
 texts:
   - "t-2-2-1"
   - "t-2-2-2"

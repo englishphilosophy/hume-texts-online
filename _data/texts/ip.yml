@@ -1,5 +1,10 @@
 ---
 label: "IP"
+type: "essay"
+parent: "empl-1"
+number:
+  empl-1: 6
+  emp: 8
 title:
   - "Of the Independency of Parliament"
   - "Of the Independency of Parliament"

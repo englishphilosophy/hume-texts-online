@@ -21,7 +21,7 @@ const search = ((session) => {
   const regex = query =>
     session.get('search-advanced')
       ? new RegExp(`(${query})`, 'gi')
-      : new RegExp(`(${simplify(query)})`, 'gi');
+      : new RegExp(`\\b(${simplify(query)})\\b`, 'gi');
 
   const filter = (blocks, query) =>
     session.get('show-edited')
@@ -31,6 +31,7 @@ const search = ((session) => {
   const dom = {
     search: document.getElementById('search'),
     query: document.getElementById('query'),
+    showHelp: document.getElementById('show-help'),
     subSearch: document.getElementById('sub-search'),
     simple: document.getElementById('search-simple'),
     advanced: document.getElementById('search-advanced'),
@@ -49,16 +50,13 @@ const search = ((session) => {
       ? `<p>Advanced search matched ${hitsLength} of ${blocksLength} paragraphs or notes.</p>`
       : `<p>Simple search matched ${hitsLength} of ${blocksLength} paragraphs or notes.</p>`;
 
-  const url = block =>
-    `{{ site.baseurl }}/texts/${block.text.toLowerCase().replace(/\./g, '/')}`;
-
   const label = block =>
     `${block.text}.${block.id}`.replace('.', ' ');
 
   const ref = block =>
     block.pages
-      ? `<a href="${url(block)}/#${block.id}">${label(block)} ${block.pages}</a>`
-      : `<a href="${url(block)}/#${block.id}">${label(block)}</a>`;
+      ? `<a href="${block.url}#${block.id}">${label(block)} ${block.pages}</a>`
+      : `<a href="${block.url}#${block.id}">${label(block)}</a>`;
 
   const classes = block =>
     block.type ? `block ${block.type}` : 'block';
@@ -89,6 +87,7 @@ const search = ((session) => {
     dom.hits.innerHTML = showHits(hits);
     dom.help.style.display = 'none';
     dom.results.style.display = 'block';
+    dom.showHelp.style.display = 'block';
     dom.subSearch.style.display = 'block';
   };
 
@@ -106,6 +105,7 @@ const search = ((session) => {
       dom.hits.innerHTML = '';
       dom.results.style.display = 'none';
       dom.help.style.display = 'block';
+      dom.showHelp.style.display = 'none';
       dom.subSearch.style.display = 'none';
       session.set('search-query', null);
       session.set('search-hits', null);
@@ -146,6 +146,11 @@ const search = ((session) => {
     dom.search.addEventListener('submit', (e) => {
       e.preventDefault();
       runSearch(true);
+    });
+    dom.showHelp.addEventListener('click', (e) => {
+      e.preventDefault();
+      dom.query.value = '';
+      runSearch(false)
     });
     dom.subSearch.addEventListener('click', (e) => {
       e.preventDefault();

@@ -1,5 +1,10 @@
 ---
 label: "Ta"
+type: "essay"
+parent: "empl-2"
+number:
+  empl-2: 8
+  pld: 7
 title:
   - "Of Taxes"
   - "Of Taxes"
