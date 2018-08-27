@@ -16,6 +16,7 @@ It is standard practice to refer to Hume's texts using abbreviations, though not
 | P | _[Dissertation on the Passions]({{ site.baseurl }}/texts/p)_                |
 | N | _[Natural History of Religion]({{ site.baseurl }}/texts/n)_                 |
 | D | _[Dialogues Concerning Natural Religion]({{ site.baseurl }}/texts/d)_       |
+| H | _[History of England]({{ site.baseurl }}/texts/h)_       |
 
 ### 2. Essays (as ordered in Miller's standard edition)
 
