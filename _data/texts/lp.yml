@@ -4,7 +4,7 @@ type: "essay"
 parent: "empl-1"
 number:
   empl-1: 2
-  emp-1: 2
+  emp: 2
 title:
   - "Of the Liberty of the Press"
   - "Of the Liberty of the Press"

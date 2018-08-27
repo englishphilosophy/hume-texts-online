@@ -4,7 +4,7 @@ type: "essay"
 parent: "empl-1"
 number:
   empl-1: 16
-  emp-2: 7
+  emp: 22
 title:
   - "The Stoic"
   - "The Stoic"

@@ -3,7 +3,7 @@ label: "IM"
 type: "essay"
 parent: "empw"
 number:
-  emp-1: 3
+  emp: 3
   empw: 1
 title:
   - "Of Impudence and Modesty"
