@@ -79,6 +79,39 @@
   }
 }
 
+.title.t {
+  h1, h2, h3, h4, h5, h6, blockquote {
+    margin: 0 auto 1.5rem;
+    max-width: 28rem;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.25em;
+  }
+  h6 {
+    font-size: .75em;
+  }
+  blockquote {
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+    padding: 1em 0;
+    cite {
+      float: right;
+    }
+  }
+}
+
+.title.t-1 {
+  h1 {
+    font-size: 1.5em;
+  }
+  h2 {
+    font-size: 1.25em;
+  }
+}
+
 .first .content {
   p:first-child {
     text-indent: 0;

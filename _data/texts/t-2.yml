@@ -4,7 +4,7 @@ fulltext: true
 title:
   - "Book 2"
   - "Book 2, Of the Passions"
-  - "<h4><strong>Vo</strong>l. II.</h4><h5><strong>OF TH</strong>E</h5><h4><strong>PASSION</strong>S.</h4>"
+  - "<h1><strong>BOOK </strong>II.</h1><h2><em>Of the <b>Passions</b>.</em></h2>"
 year: "1739"
 texts:
   - "t-2-1"

@@ -4,7 +4,7 @@ fulltext: true
 title:
   - "Book 1"
   - "Book 1, Of the Understanding"
-  - "<h4><strong>Vo</strong>l. I.</h4><h5><strong>OF TH</strong>E</h5><h4><strong>UNDERSTANDIN</strong>G.</h4>"
+  - "<h1><strong>BOOK </strong>I.</h1><h2><em>Of the <b>Understanding</b>.</em></h2>"
 year: "1739"
 texts:
   - "t-1-1"

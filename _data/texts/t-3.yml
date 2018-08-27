@@ -4,7 +4,7 @@ fulltext: true
 title:
   - "Book 3"
   - "Book 3, Of Morals"
-  - "<h4><strong>Vo</strong>l. III.</h4><h5><strong>O</strong>F</h5><h4><strong>MORAL</strong>S.</h4>"
+  - "<h1><strong>BOOK </strong>III.</h1><h2><em>Of <b>Morals</b>.</em></h2>"
 year: "1740"
 texts:
   - "t-3-1"

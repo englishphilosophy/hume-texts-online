@@ -2,7 +2,7 @@
 
 <div class="block">
   <div class="meta"></div>
-  <div class="content title {{ include.text }}">
+  <div class="content title {{ include.id }}">
     {% if text.type == 'essay' %}
       {% assign number = text.number[include.parent] %}
       <h1><strong>ESSAY </strong>{%- include roman.html number=number -%}.</h1>
