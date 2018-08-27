@@ -6,7 +6,7 @@
   {% for id in text.texts %}
     <li>
       <a href="{%- include url.html id=id relative=include.relative -%}">{%- include title.html id=id -%}</a>
-      {% if id == 't' or id == 'etss-1' or id == 'etss-2' %}
+      {% if id == 't' or id == 'etss' %}
         <ul>
           {% for id in site.data.texts[id].texts %}
             <li><a href="{%- include url.html id=id relative=include.relative -%}">{%- include title.html id=id -%}</a></li>
