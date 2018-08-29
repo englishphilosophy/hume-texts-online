@@ -1,5 +1,7 @@
 ---
 layout: texts
-text: 'h'
+text: 'h-part2'
 contents: true
+breadcrumb:
+  - 'h'
 ---

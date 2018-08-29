@@ -3,8 +3,12 @@ label: "H"
 title:
   - "History of England"
   - "The History of England"
-  - "<h1>The History of England</h1><h2>[coming soon]</h2>"
-year: "1754-63, 1778"
+  - "<h4>THE</h4><h2>HISTORY</h2><h4>OF</h4><h1>ENGLAND,</h1><h4>FROM THEN</h4><h3>INVASION OF JULIUS CEASAR</h3><h4><b>to</b></h4><h3>The <strong>REVOLUTION</strong> in 1688.</h3>"
+year: "1754-62, 1778"
 wordcount:
   original: 0
   edited: 0
+texts:
+  - "h-part1"
+  - "h-part2"
+  - "h-part3"
