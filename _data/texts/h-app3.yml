@@ -3,7 +3,14 @@ label: "H.App3"
 title:
   - "Appendix 3"
   - "Appendix 3. Appendix to the Reign of Elizabeth"
-  - "<h2><strong>APPENDI</strong>X. III.</h2></p>"
+  - "<h2><strong>APPENDI</strong>X.<strong> </strong>III.</h2>"
+sections:
+  - "Government of England"
+  - "Revenues"
+  - "Commerce"
+  - "Military force"
+  - "Manners"
+  - "Learning"
 wordcount:
   original: 0
   edited: 0

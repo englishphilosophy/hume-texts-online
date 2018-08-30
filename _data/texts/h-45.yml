@@ -3,7 +3,16 @@ label: "H.45"
 title:
   - "Chapter 45"
   - "Chapter 45. James I"
-  - "<h2><strong>CHA</strong>P. XLV.</h2><h1>JAMES I.</h1>"
+  - "<h2><strong>CHA</strong>P.<strong> </strong>XLV.</h2><h1>JAMES I.</h1>"
+sections:
+  - "Introduction"
+  - "James's first transactions"
+  - "State of Europe"
+  - "Rosni's negociations"
+  - "Raleigh's conspiracy"
+  - "Hampton-court conference"
+  - "A Parliament"
+  - "Peace with Spain"
 wordcount:
   original: 0
   edited: 0

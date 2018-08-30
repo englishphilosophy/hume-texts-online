@@ -1,7 +1,7 @@
 ---
 layout: texts
-text: 'h-35'
+text: 'h-vol6'
+contents: true
 breadcrumb:
   - 'h'
-  - 'h-vol3'
 ---

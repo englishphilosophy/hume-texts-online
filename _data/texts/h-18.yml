@@ -3,7 +3,17 @@ label: "H.18"
 title:
   - "Chapter 18"
   - "Chapter 18. Henry IV"
-  - "<h2><strong>CHA</strong>P. XVIII.</h2><h1>HENRY IV.</h1>"
+  - "<h2><strong>CHA</strong>P.<strong> </strong>XVIII.</h2><h1>HENRY IV.</h1>"
+sections:
+  - "Title of the king"
+  - "An insurrection"
+  - "An insurrection in Wales"
+  - "The earl of Northumberland rebels"
+  - "Battle of Shrewsbury"
+  - "State of Scotland"
+  - "Parliamentary transactions"
+  - "Death"
+  - "and character of the king"
 wordcount:
   original: 0
   edited: 0
