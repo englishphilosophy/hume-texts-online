@@ -21,9 +21,9 @@ const session = (() => {
       case 'search-p': // fallthrough
       case 'search-m': // fallthrough
       case 'search-n': // fallthrough
-      case 'search-essays': // fallthrough
+      case 'search-h': // fallthrough
       case 'search-d': // fallthrough
-      case 'search-mol': // fallthrough
+      case 'search-essays': // fallthrough
       case 'search-ads': // fallthrough
       case 'search-query': // fallthrough
       case 'search-hits': // fallthrough
@@ -60,9 +60,9 @@ const session = (() => {
   if (get('search-p') === null) set('search-p', true);
   if (get('search-m') === null) set('search-m', true);
   if (get('search-n') === null) set('search-n', true);
-  if (get('search-essays') === null) set('search-essays', true);
+  if (get('search-h') === null) set('search-h', true);
   if (get('search-d') === null) set('search-d', true);
-  if (get('search-mol') === null) set('search-mol', true);
+  if (get('search-essays') === null) set('search-essays', true);
   if (get('search-ads') === null) set('search-ads', true);
 
   return { set, get, toggle };

@@ -17,12 +17,6 @@
     <p class="sections"><em>{% for section in text.sections %}{{ section }}{% if forloop.last %}.{% else %}&mdash;&mdash;{% endif %}{% endfor %}</em></p>
   </div>
 </div>
-<div class="block first">
-  <div class="meta"></div>
-  <div class="content">
-    <p>[Coming soon.]</p>
-  </div>
-</div>
 {% endif %}
 {% for paragraph in text.paragraphs %}
   {% if paragraph.title %}

@@ -55,7 +55,7 @@ const search = ((session) => {
 
   const ref = block =>
     block.pages
-      ? `<a href="${block.url}#${block.id}">${label(block)} ${block.pages}</a>`
+      ? `<a href="${block.url}#${block.id}">${label(block)}, ${block.pages}</a>`
       : `<a href="${block.url}#${block.id}">${label(block)}</a>`;
 
   const classes = block =>
