@@ -1,43 +1,12 @@
+// basic settings for content boxes
 .content {
   font-family: 'IM Fell English';
   h1, h2, h3, h4, h5, h6 {
     text-align: center;
     font-weight: 400;
-    margin-bottom: 1rem;
-    strong {
-      letter-spacing: 1rem;
-      font-weight: normal;
-    }
-  }
-  h1 {
-    font-size: 1.25em;
   }
   p {
     text-align: justify;
-    &:first-child {
-      text-indent: 2em;
-    }
-    strong {
-      float: left;
-      font-size: 3.35em;
-      font-weight: normal;
-      line-height: 1;
-      margin-top: -0.03em;
-      margin-bottom: -0.1em;
-    }
-  }
-  blockquote {
-    margin: 1em 0 1em 2em;
-    text-indent: 0;
-  }
-  sup {
-    color: $red;
-  }
-  del {
-    display: none;
-  }
-  ins {
-    text-decoration: none;
   }
   em {
     font-style: italic;
@@ -54,10 +23,86 @@
     font-family: 'GFS Didot';
     font-style: normal;
   }
-  .stars {
-    letter-spacing: 4em;
-    padding-left: 2em;
-    text-align: center;
+  strong {
+    font-weight: normal;
+  }
+  sup {
+    color: $red;
+  }
+}
+
+// addition settings for title content boxes
+.content.title {
+  // defaults
+  h1, h2, h3, h4, h5, h6, p, blockquote {
+    margin-bottom: 1rem;
+  }
+  p {
+    font-style: italic;
+    text-indent: -1.5em;
+    margin-left: 1.5em;
+  }
+  blockquote {
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+    padding: 1em 0;
+    cite {
+      float: right;
+    }
+  }
+  strong {
+    letter-spacing: .5rem;
+  }
+  // treatise title specifics
+  &.t {
+    h1, h2, h3, h4, h5, h6, blockquote {
+      margin-bottom: 1.5rem;
+    }
+    h6 {
+      font-size: .75em;
+    }
+  }
+  // abstract and letter from a gentleman title specifics
+  &.a, &.l {
+    h6 {
+      text-align: justify;
+      text-indent: -1em;
+    }
+    strong {
+      letter-spacing: .25rem;
+    }
+  }
+  // first and second enquiry title specifics
+  &.e, &.m {
+    h1, h2, h3, h4 {
+      margin-bottom: 1.5rem;
+    }
+    h2 {
+      max-width: 100%;
+    }
+  }
+}
+
+// additional settings for paragraph and note content boxes
+.content.paragraph, .content.note {
+  p {
+    &:first-child {
+      text-indent: 2em;
+    }
+  }
+  &.first {
+    p:first-child {
+      text-indent: 0;
+    }
+    .subsection {
+      margin-left: 0;
+    }
+  }
+  del {
+    display: none;
+  }
+  ins {
+    text-decoration: none;
   }
   .subsection {
     float: left;
@@ -71,90 +116,41 @@
   .page-break {
     display: none;
   }
-  .page-ref {
-    font-size: .825em;
-    font-family: $sans;
-    color: lighten($black, 25%);
-    margin-right: .25rem;
-  }
 }
 
-.title {
-  h1, h2, h3, h4, h5, h6, blockquote {
-    margin: 0 auto 1rem;
-    max-width: 26rem;
-  }
-  h1 {
-    font-size: 1.75em;
-  }
-  h2 {
-    font-size: 1.5em;
-  }
-  strong {
-    letter-spacing: .5rem;
-  }
-}
-
-.title.t {
-  h1, h2, h3, h4, h5, h6, blockquote {
-    margin-bottom: 1.5rem;
-  }
-  h6 {
-    font-size: .75em;
-  }
-  blockquote {
-    border-top: 1px solid $gray;
-    border-bottom: 1px solid $gray;
-    padding: 1em 0;
-    cite {
-      float: right;
+// additional settings for paragraph content boxes
+.content.paragraph {
+  p {
+    strong {
+      float: left;
+      font-size: 3.35em;
+      font-weight: normal;
+      line-height: 1;
+      margin-top: -0.03em;
+      margin-bottom: -0.1em;
     }
   }
-}
-
-.title.a, .title.l {
-  h6 {
-    text-align: justify;
-    text-indent: -1em;
-  }
-  strong {
-    letter-spacing: .25rem;
-  }
-}
-
-.title.empl-1, .title.empl-2 {}
-
-.title.emp {}
-
-.title.pld {}
-
-.title.fd {}
-
-.title.e, .title.m {
-  h1, h2, h3, h4 {
-    margin-bottom: 1.5rem;
-  }
-  h2 {
-    max-width: 100%;
-  }
-}
-
-.title.p {}
-
-.title.n {}
-
-.title.d {}
-
-.first .content {
-  p:first-child {
+  blockquote {
+    margin: 1em 0 1em 2em;
     text-indent: 0;
   }
-  .subsection {
-    margin-left: 0;
+  .stars {
+    letter-spacing: 4em;
+    padding-left: 2em;
+    text-align: center;
+  }
+  .margin-comment {
+    float: right;
+    font-size: .85em;
+    background: $gray;
+    text-indent: 0;
+    padding: 0 .25em;
+    margin-left: 1em;
   }
 }
 
-.note .content {
+// additional settings for note content boxes
+.content.note {
   p, blockquote, .subsection {
     font-size: .9em;
   }
@@ -163,7 +159,8 @@
   }
 }
 
-.explanation .content {
+// additional settings for explanation content boxes
+.content.explanation {
   border: 1px solid $gray;
   padding: .25em .5em;
   small {
@@ -173,35 +170,43 @@
   }
 }
 
-.breaks .content {
-  .page-break {
-    display: inline;
+// changes if page breaks are being shown
+.breaks {
+  .content {
+    .page-break {
+      display: inline;
+    }
   }
 }
 
-.original .content {
-  del {
-    display: inline;
-    text-decoration: none !important;
+// changes if original content is being shown
+.original {
+  .content {
+    del {
+      display: inline;
+      text-decoration: none !important;
+    }
+    ins {
+      display: none;
+    }
   }
-  ins {
+  .added {
     display: none;
   }
 }
 
-.original .added {
-  display: none;
-}
-
-.changes .content {
-  del {
-    display: inline;
-    text-decoration: line-through;
-  }
-  ins {
-    text-decoration: underline;
-  }
-  del + ins {
-    margin-left: .25em;
+// changes if editorial changes are being highlighting
+.changes {
+  .content {
+    del {
+      display: inline;
+      text-decoration: line-through;
+    }
+    ins {
+      text-decoration: underline;
+    }
+    del + ins {
+      margin-left: .25em;
+    }
   }
 }

@@ -4,14 +4,14 @@ const data = (() => {
 
   const baseContent = (content, edited) =>
     edited
-      ? content.replace(/<del( title='(.*?)')?>(.*?)<\/del>/g, '')
-      : content.replace(/<ins( title='(.*?)')?>(.*?)<\/ins>/g, '');
+      ? content.replace(/<del( title=['"](.*?)['"])?>(.*?)<\/del>/g, '')
+      : content.replace(/<ins( title=['"](.*?)['"])?>(.*?)<\/ins>/g, '');
 
   const richContent = (content, edited) =>
     baseContent(content, edited)
       .replace(/<sup>(.*?)<\/sup>/g, '')
-      .replace(/<span class='page-ref'>(.*?)<\/span>/g, '')
-      .replace(/<span class='page-break'>\|<\/span>/g, '')
+      .replace(/<span class=['"]margin-comment['"]>(.*?)<\/span>/g, '')
+      .replace(/<span class=['"]page-break['"]>\|<\/span>/g, '')
       .replace(/\s\s/g, ' ')
       .trim();
 

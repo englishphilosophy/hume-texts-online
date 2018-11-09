@@ -2,7 +2,7 @@
 
 <div class="block">
   <div class="meta"></div>
-  <div class="content{% if text.texts %} title {{ include.id }}{% endif %}">
+  <div class="content title {{ include.id }}">
     {% if text.type == 'essay' %}
       {% assign number = text.number[include.parent] %}
       <h1><strong>ESSAY </strong>{%- include roman.html number=number -%}.</h1>
@@ -14,14 +14,14 @@
   {% if paragraph.title %}
     <div class="block">
       <div class="meta"></div>
-      <div class="content">{{ paragraph.title }}</div>
+      <div class="content title">{{ paragraph.title }}</div>
     </div>
   {% endif %}
-  <div class="block{% if paragraph.type %} {{ paragraph.type }}{% endif %}" id="{{ paragraph.id }}">
+  <div class="block" id="{{ paragraph.id }}">
     <div class="meta">
       {{ text.label | append: '.' | append: paragraph.id | replace_first: '.', ' ' }}{% if paragraph.pages %}, {{ text.pages }} {{ paragraph.pages }}{% endif %}
     </div>
-    <div class="content">
+    <div class="content paragraph{% if paragraph.type %} {{ paragraph.type }}{% endif %}">
       {% if paragraph.subsection %}<span class="subsection">{{ paragraph.subsection }}.</span>{% endif %}
       {{ paragraph.content }}
     </div>
@@ -29,11 +29,11 @@
 {% endfor %}
 {% for note in text.notes %}
   {% if forloop.first %}<hr>{% endif %}
-  <div class="block note{% if note.type %} {{ note.type }}{% endif %}" id="n{{ note.id }}">
+  <div class="block" id="n{{ note.id }}">
     <div class="meta">
       {{ text.label | append: '.n' | append: note.id | replace_first: '.', ' ' }}{% if note.pages %}, {{ text.pages }} {{ note.pages }}{% endif %}
     </div>
-    <div class="content">
+    <div class="content note{% if note.type %} {{ note.type }}{% endif %}">
       {% assign first = note.id | slice: 0 %}
       {% unless note.id contains '.' %}<span class="subsection">{{ note.id }}.</span>{% endunless %}
       {{ note.content }}
