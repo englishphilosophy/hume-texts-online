@@ -4,6 +4,8 @@ layout: compress
 <!doctype html>
 <html lang="en">
   <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23731986-1"></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-23731986-1');</script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -11,14 +13,14 @@ layout: compress
     <meta name="description" content="{{ site.description }}">
     <link rel="shortcut icon" href="{{ site.baseurl }}{% link assets/hume.ico %}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC|IM+Fell+English:400,400italic|GFS+Didot">
-    <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/hume.scss %}?v=2">
+    <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/hume.scss %}?v=3">
     <link rel="manifest" href="{{ site.baseurl }}{% link assets/hume.webmanifest %}">
     <title>{{ site.title }}</title>
-    <script defer src="{{ site.baseurl }}{% link assets/texts.js %}?v=2"></script>
+    <script defer type="module" src="{{ site.baseurl }}{% link assets/js/hume.js %}?v=3"></script>
   </head>
   <body>
     <header>
-      <h1>Hume Texts Online</h1>
+      <h1><a href="/">Hume Texts Online</a></h1>
       <nav>
         <a{% if layout.section == 'texts' %} class="active"{% endif %} href="{{ site.baseurl }}{% link index.md %}">Texts</a>
         <a{% if layout.section == 'notes' %} class="active"{% endif %} href="{{ site.baseurl }}{% link notes/index.md %}">Notes</a>
@@ -26,6 +28,12 @@ layout: compress
         <a{% if layout.section == 'search' %} class="active"{% endif %} href="{{ site.baseurl }}{% link search.md %}">Search</a>
       </nav>
     </header>
+    <nav>
+      <form id="jump-form">
+        <input type="text" placeholder="e.g. T 2.3.9.8" id="jump-input">
+        <button type="submit">Jump</button>
+      </form>
+    </nav>
     <main>
       {{ content }}
     </main>

@@ -57,22 +57,27 @@ section: search
   </div>
   <h3>Query</h3>
   <form id="search">
-    <input type="text" placeholder="enter your query" id="query">
+    <input type="text" placeholder="search query" id="query">
     <div class="buttons">
-      <a title="Show Help" style="display:none;" id="show-help">clear search &amp; show help</a>
       <a title="Sub Search" style="display:none;" id="sub-search">search current results</a>
-      <button title="New Search" type="submit" id="new-search">new search</button>
+      <button title="New Search" type="submit" disabled id="new-search">new search</button>
     </div>
   </form>
 </div>
-<div class="box" id="help">
-  <div class="box-body notes">
-    {{ content }}
+<div class="box" id="results">
+  <nav class="box-tabs">
+    <a data-show="help" class="active">Help</a>
+    <a data-show="results">Search Results</a>
+  </nav>
+  <div class="tab-pane active" id="help">
+    <div class="box-body notes">
+      {{ content }}
+    </div>
   </div>
-</div>
-<div class="box" id="results" style="display:none;">
-  <div class="box-body text">
-    <div class="summary" id="summary"></div>
-    <div class="hits" id="hits"></div>
+  <div class="tab-pane" id="results">
+    <div class="box-body text">
+      <div class="summary" id="summary">Enter your search query into the form above.</div>
+      <div class="hits" id="hits"></div>
+    </div>
   </div>
 </div>

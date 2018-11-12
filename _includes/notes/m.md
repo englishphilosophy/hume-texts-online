@@ -1,6 +1,6 @@
 ## An Enquiry concerning the Principles of Morals (1751, 1777)
 
-_edited by Peter Millican_
+_prepared by Peter Millican_
 
 *An Enquiry Concerning the Principles of Morals*---commonly known as Hume's second *Enquiry*---was originally published in 1751, by Andrew Millar of the Strand, London. A companion work to the first *Enquiry*, it is a recasting of the moral theory of *Treatise* Book 3, which preserves most of the spirit of the original while differing significantly in detail. Some of Hume's most influential and controversial arguments against (what we now call) moral realism and rationalism are removed: a change traditionally considered to be a symptom of shortening and simplifying rather than any change of mind (though this traditional assumption has more recently been questioned). Likewise the associationist psychology of the *Treatise*---such as the explanation of sympathy---fades into the background, and instead Hume focuses on the attempt to find systematic principles for ordering our everyday judgements of virtues and vices, as manifested in common language. This results in a view with strong elements of both utilitarianism and of virtue ethics, characterising the virtues as "mental qualities, useful or agreeable to the person himself, or to others" (M&nbsp;9.1).
 

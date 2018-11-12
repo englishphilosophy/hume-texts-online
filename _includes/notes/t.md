@@ -1,6 +1,6 @@
 ## A Treatise of Human Nature (1739-40)
 
-_edited by Amyas Merivale and Peter Millican_
+_prepared by Amyas Merivale and Peter Millican_
 
 Though relatively unsuccessful in its own time, Hume's first publication, the *Treatise of Human Nature*, is now widely considered to be a philosophical masterpiece, and it is this work more than any other that has earned Hume his well-deserved reputation as the greatest English-speaking philosopher.
 

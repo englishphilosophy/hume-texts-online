@@ -1,6 +1,6 @@
 ## Essays, Moral, and Political, and Literary (1741, 1777)
 
-_edited by Amyas Merivale_
+_prepared by Amyas Merivale_
 
 Disappointed with the poor reception of his *Treatise*, Hume turned to the essay style of writing, and published the first volume of his *Essays, Moral and Political* in 1741, with a second volume following in 1742. Following the success of this collection, Hume published three additional essays in 1748 (*Of National Characters*, *Of the Original Contract*, and *Of Passive Obedience*), and then a third edition of the set, also in 1748, that incorporated these three.
 

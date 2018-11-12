@@ -1,5 +1,5 @@
 ## Essays and Treatises on Several Subjects (1758, 1777)
 
-_edited by Amyas Merivale and Peter Millican_
+_prepared by Amyas Merivale and Peter Millican_
 
 Hume first published a set of *Essays and Treatises on Several Subjects* in 1753. It was a four-volume set containing (in this order) the *Essays, Moral and Political*, the first *Enquiry*, the second *Enquiry*, and the *Political Discourses*. In 1754 he published another edition of volume 4 (the *Political Discourses*), and in 1756 another edition of volume 2 (the first *Enquiry*). It is the next edition, in 1758, that is particularly interesting, however, since it is here that Hume renames and reorders his philosophical writings for the last time. A large single-volume set, this collection contained the *Essays, Moral and Political* and the *Political Discourses*, now renamed *Essays, Moral, Political, and Literary* parts 1 and 2, the first *Enquiry* (now called an enquiry, rather than philosophical essays), the *Dissertation on the Passions*, the second *Enquiry*, and the *Natural History of Religion*. Though subsequent editions of these *Essays and Treatises* were sometimes in two volumes, sometimes in four, the structure from this point onwards remained the same, right up to the posthumous 1777 edition, which Hume was working on until his death in 1776.

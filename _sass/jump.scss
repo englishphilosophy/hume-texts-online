@@ -1,0 +1,30 @@
+.jump {
+  display: flex;
+  input, button {
+    padding: .25em .5em .5em;
+  }
+  input {
+    flex: 1;
+    border-bottom: 1px solid $gray;
+  }
+  button {
+    background: $red;
+    color: #fff;
+    cursor: pointer;
+    flex-basis: 4.4375em;
+  }
+}
+
+@media (min-width: $break1) {
+  .jump {
+    justify-content: flex-end;
+    input {
+      flex-basis: 19.72em;
+      flex-grow: 0;
+      border-left: 1px solid $gray;
+    }
+    button {
+      margin-right: .75em;
+    }
+  }
+}

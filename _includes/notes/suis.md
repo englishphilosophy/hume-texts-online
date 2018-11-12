@@ -1,8 +1,8 @@
 ## Of Suicide and Of the Immortality of the Soul
 
-_Of Suicide edited by Amyas Merivale_
+_Of Suicide prepared by Amyas Merivale_
 
-_Of the Immortality of the Soul edited by Peter Millican_
+_Of the Immortality of the Soul prepared by Peter Millican_
 
 The two essays *Of Suicide* and *Of the Immortality of the Soul* were briefly planned for publication in a projected 1755 collection called *Five Dissertations*, but Hume decided to withdraw them prior to publication. They were replaced with *Of the Standard of Taste*, and the collection appeared in 1757 under the name *Four Dissertations*. The suppressed essays were eventually published posthumously and anonymously in 1777, but the text here---like the standard edition of Miller (1987)---follows instead the 1755 version, of which a proof-copy exists in the National Library of Scotland with some corrections in Hume's handwriting.
 

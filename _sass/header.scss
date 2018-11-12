@@ -7,11 +7,16 @@ header {
     text-align: center;
     margin: .5em 0;
     padding: .25em;
+    a {
+      color: inherit;
+      &:hover {
+        text-decoration: none;
+      }
+    }
   }
   nav {
     display: flex;
     justify-content: center;
-    padding: 0 .125em;
     overflow-y: auto;
     a {
       padding: .5em .75em;
@@ -22,6 +27,24 @@ header {
         color: #fff;
         text-decoration: none;
       }
+    }
+  }
+  & + nav {
+    form {
+      display: flex;
+    }
+    input, button {
+      padding: .25em .5em .5em;
+    }
+    input {
+      flex: 1;
+      border-bottom: 1px solid $gray;
+    }
+    button {
+      background: $red;
+      color: #fff;
+      cursor: pointer;
+      flex-basis: 4.4375em;
     }
   }
 }
@@ -37,6 +60,25 @@ header {
     h1 {
       margin: 0;
       padding: .25em;
+    }
+    nav {
+      flex-basis: 20em;
+      justify-content: space-between;
+      a {
+        margin: 0;
+      }
+    }
+    & + nav {
+      display: flex;
+      justify-content: flex-end;
+      form {
+        flex-basis: 20em;
+        margin-right: .5em;
+        box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+      }
+      input {
+        border: 0;
+      }
     }
   }
 }
