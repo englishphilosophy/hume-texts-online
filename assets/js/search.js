@@ -45,11 +45,11 @@ const block = (text, note, variant, block) =>
 // functions needed to augment a block
 export const textUrl = text =>
   text.parent
-    ? `${labelUrl(text.parent)}/${labelUrl(text.label)}`
-    : labelUrl(text.label)
+    ? `/texts/${labelUrl(text.parent)}/${labelUrl(text.label)}`
+    : `/texts/${labelUrl(text.label)}`
 
 const labelUrl = label =>
-  `/texts/${label.toLowerCase().replace(/(\.|-)/g, '/')}`
+  label.toLowerCase().replace(/(\.|-)/g, '/')
 
 const fullContent = (content, edited) =>
   ({
