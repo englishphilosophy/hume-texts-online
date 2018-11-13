@@ -1,9 +1,9 @@
-import * as dom from './dom.js'
-import * as search from './search.js'
+import * as dom from './dom.js?v=4'
+import * as search from './search.js?v=4'
 
 // load text data for searching and paragraph lookup
 let texts, blocks
-window.fetch('/assets/js/data.json').then((response) => {
+window.fetch('/assets/js/data.json?v=4').then((response) => {
   if (response.status === 200) {
     response.json().then((data) => {
       texts = data
@@ -91,7 +91,12 @@ dom.tabs.forEach((x) => {
   })
 })
 
-// setup jump box
+// setup jump link and jump box
+dom.jumpLink.addEventListener('click', (e) => {
+  e.currentTarget.classList.toggle('active')
+  dom.jumpForm.classList.toggle('active')
+})
+
 dom.jumpForm.addEventListener('submit', (e) => {
   e.preventDefault()
   jump()
@@ -124,7 +129,7 @@ if (dom.textPane) {
 if (dom.search) {
   // update elements to match session variables
   dom.searchAll.checked = dom.get('search-all')
-  dom.searchTexts.forEach(x => { x.checked = dom.get(x.id) })
+  dom.searchTexts.forEach((x) => { x.checked = dom.get(x.id) })
   dom.searchSimple.checked = !dom.get('search-advanced')
   dom.searchAdvanced.checked = dom.get('search-advanced')
   dom.showEdited.checked = dom.get('show-edited')
@@ -133,7 +138,7 @@ if (dom.search) {
   dom.searchAll.addEventListener('change', (e) => {
     dom.toggle('search-all')
     dom.searchTexts.forEach((x) => { x.checked = e.currentTarget.checked })
-    dom.searchTexts.forEach((x) => { dom.set(x.id, false) })
+    dom.searchTexts.forEach((x) => { dom.set(x.id, e.currentTarget.checked) })
   })
   dom.searchTexts.forEach((x) => {
     x.addEventListener('change', (e) => { dom.toggle(x.id) })

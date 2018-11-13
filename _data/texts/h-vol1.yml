@@ -4,7 +4,7 @@ fulltext: true
 title:
   - "Volume 1"
   - "Volume 1. The Early History of England, Part 1"
-  - "<h4>THE</h4><h2>HISTORY</h2><h4>OF</h4><h1>ENGLAND,</h1><h4>from the invasion of Julius Caesar to the accession of Henry VII</h4>"
+  - "<h4>THE</h4><h2><strong>HISTOR</strong>Y</h2><h4>OF</h4><h1><strong>ENGLAN</strong>D,</h1><h4><b>from the</b><h3>INVASION OF JULIUS CAESAR</h3><h4><b>to the</b><h3>ACCESSION OF HENRY VII.</h3>"
 year: "1762, 1778"
 wordcount:
   original: 0

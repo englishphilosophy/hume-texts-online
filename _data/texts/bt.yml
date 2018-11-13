@@ -201,7 +201,7 @@ notes:
     id: "5"
     pages: "317"
     symbol: "‡"
-    content: "<p>We observed in Essay III. <ins title='added for ease of reference'>[Of Money]</a></ins> that money, when encreasing, gives encouragement to industry, during the interval between the encrease of money and rise of the prices. A good effect of this nature may follow too from paper-credit; but it is dangerous to precipitate matters, at the risk of losing all by the failing of that credit, as must happen upon any violent shock in public affairs.</p>"
+    content: "<p>We observed in Essay III. <ins title='added for ease of reference'>[Of Money]</ins> that money, when encreasing, gives encouragement to industry, during the interval between the encrease of money and rise of the prices. A good effect of this nature may follow too from paper-credit; but it is dangerous to precipitate matters, at the risk of losing all by the failing of that credit, as must happen upon any violent shock in public affairs.</p>"
   -
     id: "6"
     pages: "321"
@@ -223,32 +223,32 @@ notes:
     symbol: "§"
     content: "<p>Lib. ii. cap. 62.</p>"
   -
-    id: "0"
+    id: "10"
     pages: "322"
     symbol: "†"
     content: "<p><b>Titi Livii</b>, lib. xlv. cap. 40.</p>"
   -
-    id: "1"
+    id: "11"
     pages: "322"
     symbol: "§"
     content: "<p><b>Vel. Paterc.</b> lib. i. cap. 9.</p>"
   -
-    id: "2"
+    id: "12"
     pages: "322"
     symbol: "‡"
     content: "<p>Lib. xxxiii. cap. 3.</p>"
   -
-    id: "3"
+    id: "13"
     pages: "323"
     symbol: "ǁ"
     content: "<p><b>Titi Livii</b>, <em>ibid.</em></p>"
   -
-    id: "4"
+    id: "14"
     pages: "323"
     symbol: "*"
     content: "<p>The poverty which <b>Stanian</b> speaks of is only to be seen in the most mountainous cantons, where there is no commodity to bring money. And even there the people are not poorer than in the diocese of <b>Saltsburgh</b> on the one hand, or <b>Savoy</b> on the other.</p>"
   -
-    id: "5"
+    id: "15"
     pages: "323"
     symbol: "†*"
     content: "<p><em>Proem.</em></p>"

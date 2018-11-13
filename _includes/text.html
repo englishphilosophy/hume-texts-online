@@ -1,16 +1,16 @@
-{% assign text = site.data.texts[include.id] %}
+{% assign t = site.data.texts[include.id] %}
 
 <div class="block">
   <div class="meta"></div>
-  <div class="content title {{ include.id }}">
-    {% if text.type == 'essay' %}
-      {% assign number = text.number[include.parent] %}
-      <h1><strong>ESSAY </strong>{%- include roman.html number=number -%}.</h1>
+  <div class="content{% if t.texts %} title {{ include.id }}{% endif %}">
+    {% if t.type == 'essay' %}
+      {% assign number = t.number[include.parent] %}
+      <h2><strong>ESSAY </strong>{%- include roman.html number=number -%}.</h2>
     {% endif %}
-    {{ text.title[2] }}
+    {{ t.title[2] }}
   </div>
 </div>
-{% for paragraph in text.paragraphs %}
+{% for paragraph in t.paragraphs %}
   {% if paragraph.title %}
     <div class="block">
       <div class="meta"></div>
@@ -19,7 +19,7 @@
   {% endif %}
   <div class="block" id="{{ paragraph.id }}">
     <div class="meta">
-      {{ text.label | append: '.' | append: paragraph.id | replace_first: '.', ' ' }}{% if paragraph.pages %}, {{ text.pages }} {{ paragraph.pages }}{% endif %}
+      {{ t.label | append: '.' | append: paragraph.id | replace_first: '.', ' ' }}{% if paragraph.pages %}, {{ t.pages }} {{ paragraph.pages }}{% endif %}
     </div>
     <div class="content paragraph{% if paragraph.type %} {{ paragraph.type }}{% endif %}">
       {% if paragraph.subsection %}<span class="subsection">{{ paragraph.subsection }}.</span>{% endif %}
@@ -27,11 +27,11 @@
     </div>
   </div>
 {% endfor %}
-{% for note in text.notes %}
+{% for note in t.notes %}
   {% if forloop.first %}<hr>{% endif %}
   <div class="block" id="n{{ note.id }}">
     <div class="meta">
-      {{ text.label | append: '.n' | append: note.id | replace_first: '.', ' ' }}{% if note.pages %}, {{ text.pages }} {{ note.pages }}{% endif %}
+      {{ t.label | append: '.n' | append: note.id | replace_first: '.', ' ' }}{% if note.pages %}, {{ t.pages }} {{ note.pages }}{% endif %}
     </div>
     <div class="content note{% if note.type %} {{ note.type }}{% endif %}">
       {% assign first = note.id | slice: 0 %}
@@ -40,7 +40,7 @@
     </div>
   </div>
 {% endfor %}
-{% for id in text.texts %}
+{% for id in t.texts %}
   <hr>
   {% include text.html id=id parent=include.parent %}
 {% endfor %}

@@ -24,6 +24,7 @@ export const toggle = item => {
 // dom elements
 export const tabs = Array.from(document.querySelectorAll('[data-show]'))
 export const panes = Array.from(document.querySelectorAll('.tab-pane'))
+export const jumpLink = document.getElementById('jump-link')
 export const jumpForm = document.getElementById('jump-form')
 export const jumpInput = document.getElementById('jump-input')
 export const textPane = document.getElementById('text-pane')

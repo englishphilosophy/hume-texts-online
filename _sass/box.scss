@@ -17,8 +17,12 @@
         text-decoration: none;
       }
     }
-    .spacer {
-      flex: 1;
+    &.bottom {
+      border: 0;
+      justify-content: flex-end;
+      a {
+        padding: .125em .5em .25em;
+      }
     }
   }
   .box-body {
@@ -60,6 +64,22 @@
       }
       &:last-child {
         margin: 0 1rem 0 .5rem;
+      }
+    }
+  }
+  .box {
+    .box-tabs-wrapper {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: .125em solid $red;
+      overflow-y: auto;
+      .box-tabs {
+        border: 0;
+        &.bottom {
+          a {
+            padding: .25em .5em .125em;
+          }
+        }
       }
     }
   }

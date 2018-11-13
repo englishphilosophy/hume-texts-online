@@ -5,31 +5,34 @@ section: texts
 {% assign text = site.data.texts[page.text] %}
 
 <div class="box">
-  <nav class="box-tabs">
-    {% for id in page.breadcrumb %}
-      <a href="{%- include url.html id=id -%}">{{ site.data.texts[id].title[0] }} &gt;</a>
-    {% endfor %}
-    <a class="active" data-show="text-pane">
-      {% if page.number %}
-        {{ page.number }}. {{ text.title[0] }}
-      {% elsif page.contents %}
-        {{ text.title[0] }}
-      {% elsif text.texts %}
-        Full Text
-      {% else %}
-        {{ text.title[0] }}
+  <div class="box-tabs-wrapper">
+    <nav class="box-tabs top">
+      {% for id in page.breadcrumb %}
+        <a href="{%- include url.html id=id -%}">{{ site.data.texts[id].title[0] }} &gt;</a>
+      {% endfor %}
+      <a class="active" data-show="text-pane">
+        {% if page.number %}
+          {{ page.number }}. {{ text.title[0] }}
+        {% elsif page.contents %}
+          {{ text.title[0] }}
+        {% elsif text.texts %}
+          Full Text
+        {% else %}
+          {{ text.title[0] }}
+        {% endif %}
+      </a>
+    </nav>
+    <nav class="box-tabs bottom">
+      {% if text.variants %}
+        <a data-show="variants-pane">Textual Variants</a>
       {% endif %}
-    </a>
-    <div class="spacer"></div>
-    {% if text.variants %}
-      <a data-show="variants-pane">Textual Variants</a>
-    {% endif %}
-    {% if text.images %}
-      <a data-show="images-pane">Manuscript Images</a>
-    {% endif %}
-    <a data-show="notes-pane">Editorial Notes</a>
-    <a data-show="options-pane">Display Options</a>
-  </nav>
+      {% if text.images %}
+        <a data-show="images-pane">Manuscript Images</a>
+      {% endif %}
+      <a data-show="notes-pane">Editorial Notes</a>
+      <a data-show="options-pane">Display Options</a>
+    </nav>
+  </div>
   <div class="tab-pane active" id="text-pane">
     {% if page.contents %}
       <div class="box-body notes wide">
