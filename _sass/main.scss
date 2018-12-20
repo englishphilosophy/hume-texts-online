@@ -1,4 +1,4 @@
-main {
+.main {
   line-height: 1.5;
   margin: 0 auto;
   max-width: $box-small;
@@ -12,14 +12,14 @@ main {
 }
 
 @media(min-width: $break1) {
-  main {
+  .main {
     margin: 1rem auto;
     max-width: $break1;
   }
 }
 
 @media(min-width: $break2) {
-  main {
+  .main {
     max-width: $break2;
   }
 }

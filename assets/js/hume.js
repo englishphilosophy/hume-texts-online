@@ -1,23 +1,25 @@
-import * as dom from './dom.js?v=4'
-import * as search from './search.js?v=4'
+import * as dom from './dom.js?v=5'
+import * as search from './search.js?v=5'
 
 // load text data for searching and paragraph lookup
-let texts, blocks
-window.fetch('/assets/js/data.json?v=4').then((response) => {
-  if (response.status === 200) {
+const ids = [ 'a', 'ads', 'd', 'e', 'essays', 'h', 'l', 'm', 'n', 'p', 't0', 't1', 't2', 't3', 'tapp' ]
+const blocks = window.blocks = {}
+const urls = window.urls = {}
+const ready = () => Object.keys(blocks).length === ids.length
+ids.forEach((id) => {
+  window.fetch(`/assets/js/data/${id}.json`).then((response) => {
     response.json().then((data) => {
-      texts = data
-      blocks = search.prepare(texts)
+      blocks[id] = data.map(search.prepare).reduce((y, z) => y.concat(z), [])
+      blocks[id].forEach((block) => { urls[`${block.text}.${block.id}`.toLowerCase()] = block.url })
     })
-  }
+  })
 })
 
 // define the search function
 let results // keep around for searches within current results
 const doSearch = (newSearch) => {
   if (dom.query.value.length > 0) {
-    // try again in 10ms if paragraph data is not yet ready
-    if (blocks === undefined) {
+    if (!ready()) {
       window.setTimeout(doSearch.bind(null, newSearch), 10)
       return
     }
@@ -26,38 +28,26 @@ const doSearch = (newSearch) => {
     const range = newSearch
       ? search.range(texts, blocks, ids, dom.get('search-variants'))
       : results
-    results = search.results(range, regex, dom.get('edited'))
-    dom.showResults(results, range.length, regex)
+    results = search.results(range, regex, dom.get('show-edited'))
+    dom.showResults(results, range.length, regex, dom.get('search-advanced'), dom.get('show-edited'))
     dom.set('search-query', dom.query.value)
-    dom.set('search-hits', results)
-    dom.set('search-blocks-length', range.length)
   }
 }
 
 // define jump function
 const jump = () => {
   if (dom.jumpInput.value.length > 0) {
-    // try again in 10ms if paragraph data is not yet ready
-    if (blocks === undefined) {
+    if (!ready()) {
       window.setTimeout(jump, 10)
       return
     }
-    const id = dom.jumpInput.value.replace(' ', '.').toLowerCase()
-    // look for text
-    const text = texts[id.replace(/\./g, '-')]
-    if (text) {
-      window.location.hash = ''
-      window.location.pathname = search.textUrl(text)
-      return
+    const id = dom.jumpInput.value.replace(/\s/g, '.').toLowerCase()
+    const href = urls[id] || urls[`${id}.1`] || urls[`${id}.1.1`]
+    if (href) {
+      window.location.href = href
+    } else {
+      window.alert('This does not appear to be a valid reference.')
     }
-    // look for paragraph/note
-    const block = blocks.find(x => `${x.text}.${x.id}`.toLowerCase() === id)
-    if (block) {
-      window.location.hash = block.id
-      window.location.pathname = block.url
-      return
-    }
-    window.alert('This does not appear to be a valid reference.')
   }
 }
 
@@ -68,11 +58,11 @@ if (dom.get('show-breaks') === null) dom.set('show-breaks', false)
 if (dom.get('search-advanced') === null) dom.set('search-advanced', false)
 if (dom.get('search-variants') === null) dom.set('search-variants', true)
 if (dom.get('search-all') === null) dom.set('search-all', true)
-if (dom.get('search-t-0') === null) dom.set('search-t-0', true)
-if (dom.get('search-t-1') === null) dom.set('search-t-1', true)
-if (dom.get('search-t-2') === null) dom.set('search-t-2', true)
-if (dom.get('search-t-3') === null) dom.set('search-t-3', true)
-if (dom.get('search-t-app') === null) dom.set('search-t-app', true)
+if (dom.get('search-t0') === null) dom.set('search-t0', true)
+if (dom.get('search-t1') === null) dom.set('search-t1', true)
+if (dom.get('search-t2') === null) dom.set('search-t2', true)
+if (dom.get('search-t3') === null) dom.set('search-t3', true)
+if (dom.get('search-tapp') === null) dom.set('search-tapp', true)
 if (dom.get('search-a') === null) dom.set('search-a', true)
 if (dom.get('search-l') === null) dom.set('search-l', true)
 if (dom.get('search-e') === null) dom.set('search-e', true)
@@ -168,7 +158,6 @@ if (dom.search) {
   // maybe preload previous search results
   if (dom.get('search-query') !== null) {
     dom.query.value = dom.get('search-query')
-    results = dom.get('search-hits')
-    dom.showResults(results, dom.get('search-blocks-length'), search.regex(dom.query.value))
+    doSearch(true)
   }
 }

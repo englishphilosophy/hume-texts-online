@@ -1,4 +1,4 @@
-header {
+.header {
   background: #fff;
   border-bottom: .5em solid $red;
   h1 {
@@ -33,7 +33,7 @@ header {
 }
 
 @media(min-width: $break1) {
-  header {
+  .header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;

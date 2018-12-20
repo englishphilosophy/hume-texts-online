@@ -1,0 +1,9 @@
+<div class="block" id="n{{ note.id }}">
+  <div class="meta">
+    {{ text.id | append: '.' | append: note.paragraph | append: 'n' | append: note.id | replace_first: '.', ' ' }}{% if note.pages %}, {{ text.pages }} {{ note.pages }}{% endif %}
+  </div>
+  <div class="content note{% if note.type %} {{ note.type }}{% endif %}">
+    {% unless note.id contains '.' %}<span class="before">{{ note.id }}.</span>{% endunless %}
+    {{ note.content | replace: '|', '<span class="page-break">|</span>' }}
+  </div>
+</div>

@@ -1,0 +1,49 @@
+{% comment %}
+  Assign a text to a `text` variable, based on the value of `include.id`.
+{% endcomment %}
+
+{% assign bits = include.id | downcase | split: '.' %}
+{% assign one = bits[0] %}
+{% assign two = bits[1] %}
+{% assign three = bits[2] %}
+{% assign four = bits[3] %}
+
+{% assign trail = bits | slice: 0, 0 %}
+
+{% assign second = bits | slice: 0, 2 | join: '.' %}
+{% assign third = bits | slice: 0, 3 | join: '.' %}
+
+{% if four %}
+  {% assign text = site.data[one][two][three][four] %}
+  {% assign trail = trail | push: one %}
+  {% assign trail = trail | push: second %}
+  {% assign trail = trail | push: third %}
+{% elsif three %}
+  {% assign text = site.data[one][two][three] %}
+  {% unless text.id %}{% assign text = site.data[one][two][three].index %}{% endunless %}
+  {% assign trail = trail | push: one %}
+  {% assign trail = trail | push: second %}
+{% elsif two %}
+  {% assign text = site.data[one][two] %}
+  {% unless text.id %}{% assign text = site.data[one][two].index %}{% endunless %}
+  {% assign trail = trail | push: one %}
+{% else %}
+  {% assign text = site.data[one] %}
+  {% unless text.id %}{% assign text = site.data[one].index %}{% endunless %}
+{% endif %}
+
+{% assign url = text.id | downcase | replace: '.', '/' %}
+
+{% if include.parent %}
+  {% assign url = url | prepend: '/' | prepend: include.parent | downcase %}
+  {% assign trail = trail | push: include.parent %}
+{% else %}
+  {% assign essays = 'EMPL1,EMPL2,EMPW' | split: ',' %}
+  {% assign ads = 'Ad1739,Ad1740,Ad1741,Ad1742,Ad1757,Ad1758,Ad1777' | split: ',' %}
+  {% if essays contains text.parent or ads contains text.id %}
+    {% assign url = url | prepend: '/' | prepend: text.parent | downcase %}
+    {% assign trail = trail | push: text.parent %}
+  {% endif %}
+{% endif %}
+
+{% assign url = url | prepend: '/texts/' %}

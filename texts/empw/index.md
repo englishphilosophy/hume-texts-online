@@ -1,6 +1,9 @@
 ---
-layout: texts
-text: 'empw'
+layout: 'texts'
+text: 'EMPW'
+tab: 'text'
 contents: true
-relative: 'empw'
+fulltext: true
+context: 'EMPW'
+notes: true
 ---

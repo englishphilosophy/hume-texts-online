@@ -1,6 +1,7 @@
 ---
 layout: texts
-text: 'rc'
-breadcrumb:
-  - 'pld'
+text: 'RC'
+parent: 'PLD'
+essay: 9
+tab: 'text'
 ---

@@ -1,5 +1,8 @@
 ---
 layout: texts
-text: 'fd'
+text: 'FD'
+tab: 'text'
 contents: true
+fulltext: true
+notes: true
 ---

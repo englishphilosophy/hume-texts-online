@@ -1,6 +1,7 @@
 ---
 layout: texts
-text: 'ipc'
-breadcrumb:
-  - 'pld'
+text: 'IPC'
+parent: 'PLD'
+essay: 12
+tab: 'text'
 ---

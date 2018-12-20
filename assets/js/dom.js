@@ -95,7 +95,7 @@ const showBlock = (block, regex, edited) =>
   `<div class="${classes(block)}">
     <div class="meta">${ref(block)}</div>
     <div class="content">
-      ${content(block).replace(regex, '<mark>$&</mark>')}
+      ${content(block, edited).replace(regex, '<mark>$&</mark>')}
     </div>
   </div>`
 

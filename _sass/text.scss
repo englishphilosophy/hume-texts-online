@@ -1,0 +1,249 @@
+.text {
+  font-size: 1.25em;
+  hr {
+    border-bottom: 1px solid $gray;
+    margin-bottom: 1em;
+  }
+  img {
+    display: block;
+    width: 100%;
+    &:not(:last-child) {
+      margin-bottom: 1em;
+    }
+  }
+  .meta {
+    font-size: .825em;
+    color: $red;
+    text-align: right;
+    margin-bottom: .5em;
+  }
+  .content {
+    font-family: $old;
+    h1, h2, h3, h4, h5, h6, p, blockquote {
+      margin-bottom: 1rem;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      text-align: center;
+      font-weight: 400;
+      strong {
+        letter-spacing: .2em;
+      }
+    }
+    h1 {
+      font-size: 1.5em;
+    }
+    h2 {
+      font-size: 1.25em;
+    }
+    h3 {
+      font-size: 1.2em;
+    }
+    h4 {
+      font-size: 1.1em;
+    }
+    p {
+      text-align: justify;
+      strong {
+        float: left;
+        font-size: 3.35em;
+        line-height: 1;
+        margin-top: -0.03em;
+        margin-bottom: -0.1em;
+      }
+      &.headings {
+        font-style: italic;
+      }
+    }
+    em {
+      font-style: italic;
+      em {
+        font-style: normal;
+        em {
+          font-style: italic;
+        }
+      }
+    }
+    b {
+      font-family: $oldSC;
+      font-style: normal;
+      font-weight: normal;
+    }
+    i {
+      font-style: normal;
+    }
+    sup {
+      color: $red;
+    }
+    del {
+      display: none;
+    }
+    ins {
+      text-decoration: none;
+    }
+    label {
+      float: right;
+      font-size: .85em;
+      background: $gray;
+      text-indent: 0;
+      padding: 0 .25em;
+      margin-left: 1em;
+    }
+  }
+}
+
+@media(min-width: $break2) {
+  .text {
+    font-size: 1.375em;
+    padding: 2rem;
+    .block {
+      display: flex;
+      .meta {
+        flex: 1;
+        text-align: left;
+      }
+      .content {
+        flex-basis: 27.2em;
+      }
+    }
+  }
+}
+
+// addition settings for title content boxes
+.content.title {
+  // defaults
+  p {
+    text-indent: -1.5em;
+    margin-left: 1.5em;
+  }
+  blockquote {
+    border-top: 1px solid $gray;
+    border-bottom: 1px solid $gray;
+    padding: 1em .25em;
+    cite {
+      display: block;
+      text-align: right;
+    }
+  }
+  // treatise title specifics
+  &.t {
+    h6 {
+      font-size: .75em;
+    }
+  }
+  // abstract and letter from a gentleman title specifics
+  &.a, &.l {
+    h6 {
+      text-align: justify;
+      text-indent: -1em;
+      margin-left: 1em;
+    }
+  }
+  // first and second enquiry title specifics
+  &.e, &.m {
+    h4 {
+      font-size: .75em;
+    }
+  }
+  // dialogues title specifics
+  &.d {
+    h1, h2, h4 {
+      margin-bottom: 1.5rem;
+    }
+    h4 {
+      font-size: .75em
+    }
+  }
+}
+
+// additional settings for paragraph and note content boxes
+.content.paragraph, .content.note {
+  p {
+    &:first-child {
+      text-indent: 2em;
+    }
+  }
+  blockquote {
+    margin: 1em 0 1em 2em;
+    text-indent: 0;
+  }
+  &.first {
+    p:first-child {
+      text-indent: 0;
+    }
+    .before {
+      margin-left: 0;
+    }
+  }
+  .before {
+    float: left;
+    margin-left: 2em;
+    margin-right: .5em;
+  }
+  .page-break {
+    display: none;
+  }
+}
+
+// additional settings for note content boxes
+.content.note {
+  p, blockquote, .before {
+    font-size: .9em;
+  }
+  p:not(:first-of-type) {
+    text-indent: 2em;
+  }
+}
+
+// additional settings for explanation content boxes
+.content.explanation {
+  border: 1px solid $gray;
+  padding: .25em .5em;
+  margin-bottom: 1em;
+  small {
+    font-family: $sans;
+    font-size: .8em;
+    text-indent: 0;
+  }
+}
+
+// changes if page breaks are being shown
+.breaks {
+  .content {
+    .page-break {
+      display: inline;
+      background: yellow;
+    }
+  }
+}
+
+// changes if original content is being shown
+.original {
+  .content {
+    del {
+      display: inline;
+      text-decoration: none !important;
+    }
+    ins {
+      display: none;
+    }
+  }
+  .added {
+    display: none;
+  }
+}
+
+// changes if editorial changes are being highlighting
+.changes {
+  .content {
+    del {
+      display: inline;
+      text-decoration: line-through;
+    }
+    ins {
+      text-decoration: underline;
+    }
+    del + ins {
+      margin-left: .25em;
+    }
+  }
+}

@@ -1,4 +1,4 @@
-#jump-link {
+.jump-link {
   display: none;
 }
 
@@ -10,6 +10,7 @@
   }
   input {
     flex: 1;
+    border-bottom: 1px solid $gray;
   }
   button {
     background: $red;
@@ -19,7 +20,7 @@
 }
 
 @media (min-width: $break1) {
-  #jump-link {
+  .jump-link {
     display: inline;
   }
   .jump {
@@ -32,6 +33,9 @@
     opacity: 0;
     pointer-events: none;
     transition: opacity .3s;
+    input {
+      border-bottom: 0;
+    }
     &.active {
       opacity: 1;
       pointer-events: auto;

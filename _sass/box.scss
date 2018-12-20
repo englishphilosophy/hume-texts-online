@@ -1,44 +1,46 @@
 .box {
   margin: .5rem;
-  .box-tabs {
-    background: #fff;
-    display: flex;
-    border-bottom: .125em solid $red;
-    overflow-y: auto;
-    a {
-      display: block;
-      cursor: pointer;
-      padding: .25em .5em .125em;
-      white-space: nowrap;
-      text-align: center;
-      &.active, &:hover {
-        background: $red;
-        color: #fff;
-        text-decoration: none;
-      }
-    }
-    &.bottom {
-      border: 0;
-      justify-content: flex-end;
-      a {
-        padding: .125em .5em .25em;
-      }
+}
+
+.box-tabs {
+  background: #fff;
+  display: flex;
+  border-bottom: .125em solid $red;
+  overflow-x: auto;
+  a {
+    display: block;
+    cursor: pointer;
+    padding: .25em .5em .125em;
+    white-space: nowrap;
+    text-align: center;
+    &.active, &:hover {
+      background: $red;
+      color: #fff;
+      text-decoration: none;
     }
   }
-  .box-body {
-    padding: .5em;
-    a, button, label {
-      cursor: pointer;
+  &.bottom {
+    border: 0;
+    justify-content: flex-end;
+    a {
+      padding: .125em .5em .25em;
     }
-    button {
-      background: transparent;
-    }
-    label {
-      white-space: nowrap;
-    }
-    button, input[type='text'], label {
-      padding: .25em .5em;
-    }
+  }
+}
+
+.box-body {
+  padding: .5em;
+  a, button, label {
+    cursor: pointer;
+  }
+  button {
+    background: transparent;
+  }
+  label {
+    white-space: nowrap;
+  }
+  button, input[type='text'], label {
+    padding: .25em .5em;
   }
 }
 
@@ -47,9 +49,9 @@
     background: #fff;
     box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
     margin: 1rem;
-    .box-body {
-      padding: 1rem;
-    }
+  }
+  .box-body {
+    padding: 1rem;
   }
 }
 

@@ -1,6 +1,6 @@
 ---
-layout: texts
-text: 'e'
-breadcrumb:
-  - 'e'
+layout: 'texts'
+text: 'E'
+tab: 'text'
+notes: true
 ---

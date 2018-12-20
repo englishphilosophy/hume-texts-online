@@ -1,4 +1,0 @@
----
-layout: texts
-text: 'mol'
----

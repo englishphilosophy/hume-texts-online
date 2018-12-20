@@ -1,6 +1,6 @@
 ---
-layout: texts
-text: 'd'
-breadcrumb:
-  - 'd'
+layout: 'texts'
+text: 'D'
+tab: 'text'
+notes: true
 ---

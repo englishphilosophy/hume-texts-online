@@ -1,7 +1,5 @@
 ---
 layout: texts
-text: 'h-vol3'
-breadcrumb:
-  - 'h'
-  - 'h-vol3'
+text: 'H.Vol3'
+tab: 'text'
 ---

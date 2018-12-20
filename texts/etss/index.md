@@ -1,5 +1,7 @@
 ---
 layout: texts
-text: 'etss'
+text: 'ETSS'
+tab: 'text'
 contents: true
+notes: true
 ---

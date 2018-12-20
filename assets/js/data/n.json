@@ -1,0 +1,3 @@
+---
+---
+[{% for id in site.data.n.index.texts %}{% assign sub = id | split: '.' | last %}{{ site.data.n[sub] | jsonify }}{% unless forloop.last %},{% endunless %}{% endfor %}]

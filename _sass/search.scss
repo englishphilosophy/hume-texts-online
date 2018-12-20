@@ -1,0 +1,98 @@
+.search {
+  h3 {
+    margin-bottom: .5em;
+    &:not(:first-child) {
+      margin-top: .75em;
+    }
+  }
+  a, input, button, label {
+    padding: .25em .5em;
+  }
+  a, button, label {
+    cursor: pointer;
+  }
+  a, button {
+    background: $red;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    &:hover {
+      box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+      text-decoration: none;
+    }
+    &:not(:first-child) {
+      margin-left: .5em;
+    }
+  }
+  form {
+    input {
+      display: block;
+      width: 100%;
+      border: 1px solid $gray;
+      margin-bottom: .5em;
+    }
+    .buttons {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  .options {
+    border: 1px solid $gray;
+    & + .options {
+      margin-top: -1px;
+    }
+    .labels {
+      display: flex;
+      flex-wrap: wrap;
+      &:not(:last-child) {
+        border-bottom: 1px solid $gray;
+      }
+      label {
+        flex: 1;
+        &:not(:last-child) {
+          border-right: 1px solid $gray;
+        }
+        &.active {
+          background: lightyellow;
+        }
+      }
+    }
+    input[type='checkbox'], input[type='radio'] {
+      margin-right: .5em;
+    }
+    .disabled {
+      cursor: not-allowed;
+      color: $gray;
+    }
+  }
+}
+
+.summary {
+  font-size: .825em;
+}
+
+.hits {
+  margin-top: 1.5em;
+}
+
+@media(min-width: $break1) {
+  .search {
+    padding: .5em;
+  }
+}
+
+@media(min-width: $break2) {
+  .search {
+    padding: 1em;
+    .options {
+      display: flex;
+      .labels {
+        flex: 1;
+        &:not(:last-child) {
+          border-bottom: 0;
+          border-right: 1px solid $gray;
+        }
+      }
+    }
+  }
+}

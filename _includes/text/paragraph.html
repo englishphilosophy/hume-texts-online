@@ -1,0 +1,15 @@
+{% if paragraph.title %}
+  <div class="block">
+    <div class="meta"></div>
+    <div class="content title">{{ paragraph.title }}</div>
+  </div>
+{% endif %}
+<div class="block" id="{{ paragraph.id }}">
+  <div class="meta">
+    {{ text.id | append: '.' | append: paragraph.id | replace_first: '.', ' ' }}{% if paragraph.pages %}, {{ text.pages }} {{ paragraph.pages }}{% endif %}
+  </div>
+  <div class="content paragraph{% if paragraph.type %} {{ paragraph.type }}{% endif %}">
+    {% if paragraph.before %}<span class="before">{{ paragraph.before }}.</span>{% endif %}
+    {{ paragraph.content | replace: '|', '<span class="page-break">|</span>' }}
+  </div>
+</div>

@@ -1,6 +1,6 @@
 ---
 layout: texts
-text: 'pld'
-breadcrumb:
-  - 'pld'
+text: 'PLD'
+tab: 'text'
+notes: true
 ---

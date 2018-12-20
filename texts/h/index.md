@@ -1,5 +1,7 @@
 ---
 layout: texts
-text: 'h'
+text: 'H'
+tab: 'text'
 contents: true
+notes: true
 ---

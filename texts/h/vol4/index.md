@@ -1,7 +1,7 @@
 ---
 layout: texts
-text: 'h-vol4'
+text: 'H.Vol4'
+tab: 'text'
 contents: true
-breadcrumb:
-  - 'h'
+fulltext: true
 ---

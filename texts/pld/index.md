@@ -1,6 +1,9 @@
 ---
 layout: texts
-text: 'pld'
+text: 'PLD'
+tab: 'text'
 contents: true
-relative: 'pld'
+fulltext: true
+context: 'PLD'
+notes: true
 ---

@@ -1,0 +1,3 @@
+---
+---
+[{{ site.data.ad1739 | jsonify }},{{ site.data.ad1740 | jsonify }},{{ site.data.ad1741 | jsonify }},{{ site.data.ad1742 | jsonify }},{{ site.data.ad1757 | jsonify }},{{ site.data.ad1758 | jsonify }},{{ site.data.ad1777 | jsonify }}]

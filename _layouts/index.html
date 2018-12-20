@@ -1,6 +1,6 @@
 ---
-layout: default
-section: texts
+layout: 'default'
+section: 'texts'
 ---
 <!-- hide banner while notice is displayed
 <div class="box banner">
@@ -16,24 +16,74 @@ section: texts
 <div class="box-row">
   <div class="box">
     <div class="box-body notes marginless">
-      {% include contents.html id='anon' %}
+      <h2>Anonymous Works (1739-45)</h2>
+      <ul>
+        {%- include assign/text.html id='T' -%}
+        <li>
+          <a href="{{ url }}">{%- include text/title.html -%}</a>
+          <ul>
+            {% for id in text.texts %}
+              {%- include assign/text.html id=id -%}
+              <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {%- include assign/text.html id='A' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='L' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+      </ul>
     </div>
   </div>
   <div class="box">
     <div class="box-body notes marginless">
-      {% include contents.html id='ack' %}
+      <h2>Acknowledged Works (1741-78)</h2>
+      <ul>
+        {%- include assign/text.html id='ETSS' -%}
+        <li>
+          <a href="{{ url }}">{%- include text/title.html -%}</a>
+          <ul>
+            {% for id in text.texts %}
+              {%- include assign/text.html id=id -%}
+              <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {%- include assign/text.html id='H' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+      </ul>
     </div>
   </div>
 </div>
 <div class="box-row">
   <div class="box">
     <div class="box-body notes marginless">
-      {% include contents.html id='post' %}
+      <h2>Posthumous Works</h2>
+      <ul>
+        {%- include assign/text.html id='MOL' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='Su' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='IS' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='D' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+      </ul>
     </div>
   </div>
   <div class="box">
     <div class="box-body notes marginless">
-      {% include contents.html id='other' %}
+      <h2>Other Collections</h2>
+      <ul>
+        {%- include assign/text.html id='EMP' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='EMPW' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='PLD' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='FD' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+      </ul>
     </div>
   </div>
 </div>
