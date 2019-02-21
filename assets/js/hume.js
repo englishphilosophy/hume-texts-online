@@ -48,17 +48,26 @@ if (searchForm) {
       hits.innerHTML = ''
       view.activate('results')
       if (newSearch) {
-        search.newSearch(query.value).then((res) => {
-          results = res
-          summary.innerHTML = `Search query matched ${results.length} paragraphs.`
-          hits.innerHTML += results.map(search.display.bind(null, query.value)).join('')
-          subSearch.style.display = 'block'
-        })
+        search.newSearch(query.value).then(showSearchResults)
       } else {
-        results = search.subSearch(query.value, results)
-        summary.innerHTML = `Search query matched ${results.length} paragraphs.`
-        hits.innerHTML += results.map(search.display.bind(null, query.value)).join('')
+        showSearchResults(search.subSearch(query.value, results))
       }
+    }
+  }
+
+  // define function for displaying search results
+  const showSearchResults = (results) => {
+    summary.innerHTML = `Search query matched ${results.length} paragraphs.`
+    hits.innerHTML = results.map(search.display.bind(null, query.value)).join('')
+    subSearch.style.display = 'block'
+    try {
+      session.set('summary-html', summary.innerHTML)
+      session.set('hits-html', hits.innerHTML)
+    } catch (ignore) {
+      summary.innerHTML += '<br><br><strong>Note:</strong> There are too many results to be saved in this session; leaving this page will clear your results.'
+      session.set('last-query', null)
+      session.set('summary-html', null)
+      session.set('hits-html', null)
     }
   }
 
@@ -74,9 +83,11 @@ if (searchForm) {
     doSearch(false)
   })
 
-  // rerun last search when the page first loads
+  // show results of last search when the page first loads
   if (session.get('last-query')) {
     query.value = session.get('last-query')
-    doSearch(true)
+    summary.innerHTML = session.get('summary-html')
+    hits.innerHTML = session.get('hits-html')
+    view.activate('results')
   }
 }
