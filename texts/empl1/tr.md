@@ -2,6 +2,6 @@
 layout: texts
 text: 'Tr'
 parent: 'EMPL1'
-number: 22
+essay: 22
 tab: 'text'
 ---

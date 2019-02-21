@@ -6,75 +6,75 @@ section: 'search'
   <h3>Range</h3>
   <div class="options">
     <div class="labels">
-      <label for="search-all"><input type="checkbox" id="search-all"> Select/deselect all</label>
-      <label for="search-t0"><input type="checkbox" id="search-t0" data-search="t0"> Treatise Introduction</label>
+      <label for="search-all"><input type="checkbox" data-session="search-all" id="search-all"> Select/deselect all</label>
+      <label for="search-t0"><input type="checkbox" data-session="search-t0" data-search="t0" id="search-t0"> Treatise Introduction</label>
     </div>
     <div class="labels">
-      <label for="search-t1"><input type="checkbox" id="search-t1" data-search="t1"> Treatise Book 1</label>
-      <label for="search-t2"><input type="checkbox" id="search-t2" data-search="t2"> Treatise Book 2</label>
-    </div>
-  </div>
-  <div class="options">
-    <div class="labels">
-      <label for="search-t3"><input type="checkbox" id="search-t3" data-search="t3"> Treatise Book 3</label>
-      <label for="search-tapp"><input type="checkbox" id="search-tapp" data-search="tapp"> Treatise Appendix</label>
-    </div>
-    <div class="labels">
-      <label for="search-a"><input type="checkbox" id="search-a" data-search="a"> Abstract</label>
-      <label for="search-l"><input type="checkbox" id="search-l" data-search="l"> Letter from a Gentleman</label>
+      <label for="search-t1"><input type="checkbox" data-session="search-t1" data-search="t1" id="search-t1"> Treatise Book 1</label>
+      <label for="search-t2"><input type="checkbox" data-session="search-t2" data-search="t2" id="search-t2"> Treatise Book 2</label>
     </div>
   </div>
   <div class="options">
     <div class="labels">
-      <label for="search-e"><input type="checkbox" id="search-e" data-search="e"> First Enquiry</label>
-      <label for="search-p"><input type="checkbox" id="search-p" data-search="p"> Dissertation</label>
+      <label for="search-t3"><input type="checkbox" data-session="search-t3" data-search="t3" id="search-t3"> Treatise Book 3</label>
+      <label for="search-tapp"><input type="checkbox" data-session="search-tapp" data-search="tapp" id="search-tapp"> Treatise Appendix</label>
     </div>
     <div class="labels">
-      <label for="search-m"><input type="checkbox" id="search-m" data-search="m"> Moral Enquiry</label>
-      <label for="search-n"><input type="checkbox" id="search-n" data-search="n"> Natural History</label>
+      <label for="search-a"><input type="checkbox" data-session="search-a" data-search="a" id="search-a"> Abstract</label>
+      <label for="search-l"><input type="checkbox" data-session="search-l" data-search="l" id="search-l"> Letter from a Gentleman</label>
     </div>
   </div>
   <div class="options">
     <div class="labels">
-      <label for="search-h"><input type="checkbox" id="search-h" data-search="h"> History</label>
-      <label for="search-d"><input type="checkbox" id="search-d" data-search="d"> Dialogues</label>
+      <label for="search-e"><input type="checkbox" data-session="search-e" data-search="e" id="search-e"> First Enquiry</label>
+      <label for="search-p"><input type="checkbox" data-session="search-p" data-search="p" id="search-p"> Dissertation</label>
     </div>
     <div class="labels">
-      <label for="search-essays"><input type="checkbox" id="search-essays" data-search="essays"> Essays &amp; My Own Life</label>
-      <label for="search-ads"><input type="checkbox" id="search-ads" data-search="ads"> Advertisements</label>
+      <label for="search-m"><input type="checkbox" data-session="search-m" data-search="m" id="search-m"> Moral Enquiry</label>
+      <label for="search-n"><input type="checkbox" data-session="search-n" data-search="n" id="search-n"> Natural History</label>
+    </div>
+  </div>
+  <div class="options">
+    <div class="labels">
+      <label for="search-h"><input type="checkbox" data-session="search-h" data-search="h" id="search-h"> History</label>
+      <label for="search-d"><input type="checkbox" data-session="search-d" data-search="d" id="search-d"> Dialogues</label>
+    </div>
+    <div class="labels">
+      <label for="search-essays"><input type="checkbox" data-session="search-essays" data-search="essays" id="search-essays"> Essays &amp; My Own Life</label>
+      <label for="search-ads"><input type="checkbox" data-session="search-ads" data-search="ads" id="search-ads"> Advertisements</label>
     </div>
   </div>
   <h3>Options</h3>
   <div class="options">
     <div class="labels">
-      <label for="search-simple"><input type="radio" name="type" id="search-simple"> Simple Query</label>
-      <label for="search-advanced"><input type="radio" name="type" id="search-advanced"> Advanced Query</label>
+      <label for="search-simple"><input type="radio" name="type" data-session="search-advanced" data-invert="true" id="search-simple"> Simple Query</label>
+      <label for="search-advanced"><input type="radio" name="type" data-session="search-advanced" id="search-advanced"> Advanced Query</label>
     </div>
     <div class="labels">
-      <label for="show-edited"><input type="checkbox" id="show-edited"> Edited Version</label>
-      <label for="search-variants"><input type="checkbox" id="search-variants"> Include Variants</label>
+      <label for="show-edited"><input type="checkbox" data-session="show-edited" id="show-edited"> Edited Version</label>
+      <label for="search-variants"><input type="checkbox" data-session="search-variants" id="search-variants"> Include Variants</label>
     </div>
   </div>
   <h3>Query</h3>
-  <form id="search">
-    <input type="text" placeholder="search query" id="query">
+  <form id="search-form">
+    <input type="text" placeholder="search query" id="search-input">
     <div class="buttons">
       <a title="Sub Search" style="display:none;" id="sub-search">search current results</a>
       <button title="New Search" type="submit" id="new-search">new search</button>
     </div>
   </form>
 </div>
-<div class="box" id="results">
+<div class="box">
   <nav class="box-tabs">
-    <a data-show="help" class="active">Help</a>
-    <a data-show="results">Search Results</a>
+    <a data-tab="help" data-group="search-tabs" class="active">Help</a>
+    <a data-tab="results" data-group="search-tabs">Search Results</a>
   </nav>
-  <div class="tab-pane active" id="help">
+  <div class="tab-pane active" data-group="search-tabs" id="help">
     <div class="box-body notes">
       {{ content }}
     </div>
   </div>
-  <div class="tab-pane" id="results">
+  <div class="tab-pane" data-group="search-tabs" id="results">
     <div class="box-body text">
       <div class="summary" id="summary">Enter your search query into the form above.</div>
       <div class="hits" id="hits"></div>

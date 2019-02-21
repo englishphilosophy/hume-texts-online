@@ -11,12 +11,12 @@ section: 'texts'
           {% include contents.html id=page.text %}
         </div>
       {% else %}
-        <div class="box-body text">
+        <div class="box-body text" id="text-pane">
           {% include text.html id=page.text %}
         </div>
       {% endif %}
     {% when 'variants' %}
-      <div class="box-body text">
+      <div class="box-body text" id="text-pane">
         {% include variants.html id=page.text %}
       </div>
     {% when 'images' %}

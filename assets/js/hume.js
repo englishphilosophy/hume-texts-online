@@ -1,163 +1,82 @@
-import * as dom from './dom.js?v=5'
-import * as search from './search.js?v=5'
+---
+---
+import jump from './jump.js?v={{ site.version }}'
+import * as search from './search.js?v={{ site.version }}'
+import * as session from './session.js?v={{ site.version }}'
+import * as view from './view.js?v={{ site.version }}'
 
-// load text data for searching and paragraph lookup
-const ids = [ 'a', 'ads', 'd', 'e', 'essays', 'h', 'l', 'm', 'n', 'p', 't0', 't1', 't2', 't3', 'tapp' ]
-const blocks = window.blocks = {}
-const urls = window.urls = {}
-const ready = () => Object.keys(blocks).length === ids.length
-ids.forEach((id) => {
-  window.fetch(`/assets/js/data/${id}.json`).then((response) => {
-    response.json().then((data) => {
-      blocks[id] = data.map(search.prepare).reduce((y, z) => y.concat(z), [])
-      blocks[id].forEach((block) => { urls[`${block.text}.${block.id}`.toLowerCase()] = block.url })
-    })
-  })
+// setup event listeners for toggles
+Array.from(document.querySelectorAll('[data-toggle]')).forEach((element) => {
+  element.addEventListener('click', (e) => { view.toggle(e.currentTarget) })
 })
 
-// define the search function
-let results // keep around for searches within current results
-const doSearch = (newSearch) => {
-  if (dom.query.value.length > 0) {
-    if (!ready()) {
-      window.setTimeout(doSearch.bind(null, newSearch), 10)
-      return
+// setup event listeners for tabs
+Array.from(document.querySelectorAll('[data-tab]')).forEach((element) => {
+  element.addEventListener('click', (e) => { view.tab(e.currentTarget) })
+})
+
+// setup inputs bound to session variables
+Array.from(document.querySelectorAll('[data-session]')).forEach((input) => {
+  input.addEventListener('change', (e) => { session.toggle(input.dataset.session) })
+})
+
+// setup jump form
+const jumpForm = document.getElementById('jump-form')
+const jumpInput = document.getElementById('jump-input')
+if (jumpForm) {
+  jumpForm.addEventListener('submit', (e) => {
+    e.preventDefault()
+    if (jumpInput.value.length > 0) jump(jumpInput.value)
+  })
+}
+
+// setup search form
+const searchForm = document.getElementById('search-form')
+const subSearch = document.getElementById('sub-search')
+const query = document.getElementById('search-input')
+const summary = document.getElementById('summary')
+const hits = document.getElementById('hits')
+if (searchForm) {
+  // keep reference to previous results around for future sub searches
+  let results
+
+  // define search function
+  const doSearch = (newSearch) => {
+    if (query.value.length > 0) {
+      session.set('last-query', query.value)
+      summary.innerHTML = 'Searching...'
+      hits.innerHTML = ''
+      view.activate('results')
+      if (newSearch) {
+        search.newSearch(query.value).then((res) => {
+          results = res
+          summary.innerHTML = `Search query matched ${results.length} paragraphs.`
+          hits.innerHTML += results.map(search.display.bind(null, query.value)).join('')
+          subSearch.style.display = 'block'
+        })
+      } else {
+        results = search.subSearch(query.value, results)
+        summary.innerHTML = `Search query matched ${results.length} paragraphs.`
+        hits.innerHTML += results.map(search.display.bind(null, query.value)).join('')
+      }
     }
-    const regex = search.regex(dom.query.value)
-    const ids = dom.searchTexts.filter(x => x.checked).map(x => x.getAttribute('data-search'))
-    const range = newSearch
-      ? search.range(texts, blocks, ids, dom.get('search-variants'))
-      : results
-    results = search.results(range, regex, dom.get('show-edited'))
-    dom.showResults(results, range.length, regex, dom.get('search-advanced'), dom.get('show-edited'))
-    dom.set('search-query', dom.query.value)
   }
-}
 
-// define jump function
-const jump = () => {
-  if (dom.jumpInput.value.length > 0) {
-    if (!ready()) {
-      window.setTimeout(jump, 10)
-      return
-    }
-    const id = dom.jumpInput.value.replace(/\s/g, '.').toLowerCase()
-    const href = urls[id] || urls[`${id}.1`] || urls[`${id}.1.1`]
-    if (href) {
-      window.location.href = href
-    } else {
-      window.alert('This does not appear to be a valid reference.')
-    }
-  }
-}
-
-// set session variable defaults if they are not yet set
-if (dom.get('show-edited') === null) dom.set('show-edited', true)
-if (dom.get('show-changes') === null) dom.set('show-changes', false)
-if (dom.get('show-breaks') === null) dom.set('show-breaks', false)
-if (dom.get('search-advanced') === null) dom.set('search-advanced', false)
-if (dom.get('search-variants') === null) dom.set('search-variants', true)
-if (dom.get('search-all') === null) dom.set('search-all', true)
-if (dom.get('search-t0') === null) dom.set('search-t0', true)
-if (dom.get('search-t1') === null) dom.set('search-t1', true)
-if (dom.get('search-t2') === null) dom.set('search-t2', true)
-if (dom.get('search-t3') === null) dom.set('search-t3', true)
-if (dom.get('search-tapp') === null) dom.set('search-tapp', true)
-if (dom.get('search-a') === null) dom.set('search-a', true)
-if (dom.get('search-l') === null) dom.set('search-l', true)
-if (dom.get('search-e') === null) dom.set('search-e', true)
-if (dom.get('search-p') === null) dom.set('search-p', true)
-if (dom.get('search-m') === null) dom.set('search-m', true)
-if (dom.get('search-n') === null) dom.set('search-n', true)
-if (dom.get('search-h') === null) dom.set('search-h', true)
-if (dom.get('search-d') === null) dom.set('search-d', true)
-if (dom.get('search-essays') === null) dom.set('search-essays', true)
-if (dom.get('search-ads') === null) dom.set('search-ads', true)
-
-// setup tabs
-dom.tabs.forEach((x) => {
-  x.addEventListener('click', (e) => {
-    dom.showTab(x.getAttribute('data-show'))
-  })
-})
-
-// setup jump link and jump box
-dom.jumpLink.addEventListener('click', (e) => {
-  e.currentTarget.classList.toggle('active')
-  dom.jumpForm.classList.toggle('active')
-})
-
-dom.jumpForm.addEventListener('submit', (e) => {
-  e.preventDefault()
-  jump()
-})
-
-// setup a page with a text
-if (dom.textPane) {
-  // update elements to match session variables
-  dom.showEdited.checked = dom.get('show-edited')
-  dom.showBreaks.checked = dom.get('show-breaks')
-  dom.showChanges.checked = dom.get('show-changes')
-  // add event listeners
-  dom.showEdited.addEventListener('change', () => {
-    dom.toggle('show-edited')
-    dom.updateText()
-  })
-  dom.showBreaks.addEventListener('change', () => {
-    dom.toggle('show-breaks')
-    dom.updateText()
-  })
-  dom.showChanges.addEventListener('change', () => {
-    dom.toggle('show-changes')
-    dom.updateText()
-  })
-  // update the text style to match session variables
-  dom.updateText()
-}
-
-// setup the search page
-if (dom.search) {
-  // update elements to match session variables
-  dom.searchAll.checked = dom.get('search-all')
-  dom.searchTexts.forEach((x) => { x.checked = dom.get(x.id) })
-  dom.searchSimple.checked = !dom.get('search-advanced')
-  dom.searchAdvanced.checked = dom.get('search-advanced')
-  dom.showEdited.checked = dom.get('show-edited')
-  dom.searchVariants.checked = dom.get('search-variants')
-  // add event listeners
-  dom.searchAll.addEventListener('change', (e) => {
-    dom.toggle('search-all')
-    dom.searchTexts.forEach((x) => { x.checked = e.currentTarget.checked })
-    dom.searchTexts.forEach((x) => { dom.set(x.id, e.currentTarget.checked) })
-  })
-  dom.searchTexts.forEach((x) => {
-    x.addEventListener('change', (e) => { dom.toggle(x.id) })
-  })
-  dom.searchSimple.addEventListener('change', (e) => {
-    dom.toggle('search-advanced')
-  })
-  dom.searchAdvanced.addEventListener('change', (e) => {
-    dom.toggle('search-advanced')
-  })
-  dom.showEdited.addEventListener('change', (e) => {
-    dom.toggle('show-edited')
-  })
-  dom.searchVariants.addEventListener('change', (e) => {
-    dom.toggle('search-variants')
-  })
-  // new search
-  dom.search.addEventListener('submit', (e) => {
+  // setup new search
+  searchForm.addEventListener('submit', (e) => {
     e.preventDefault()
     doSearch(true)
   })
-  // search within current results
-  dom.subSearch.addEventListener('click', (e) => {
+
+  // setup sub search
+  subSearch.addEventListener('click', (e) => {
     e.preventDefault()
     doSearch(false)
   })
-  // maybe preload previous search results
-  if (dom.get('search-query') !== null) {
-    dom.query.value = dom.get('search-query')
+
+  // rerun last search when the page first loads
+  if (session.get('last-query')) {
+    query.value = session.get('last-query')
     doSearch(true)
   }
 }

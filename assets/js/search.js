@@ -1,3 +1,55 @@
+import * as session from './session.js'
+
+// text data object
+const blocks = {}
+
+// load the text data for searching and paragraph lookup
+const init = async () => {
+  const get = async (id) => {
+    const text = await window.fetch(`/assets/js/data/${id}.json`)
+    const data = await text.json()
+    return data.map(prepare).reduce((x, y) => x.concat(y), [])
+  }
+  blocks['t0'] = await get('t0')
+  blocks['t1'] = await get('t1')
+  blocks['t2'] = await get('t2')
+  blocks['t3'] = await get('t3')
+  blocks['tapp'] = await get('tapp')
+  blocks['a'] = await get('a')
+  blocks['l'] = await get('l')
+  blocks['e'] = await get('e')
+  blocks['p'] = await get('p')
+  blocks['m'] = await get('m')
+  blocks['n'] = await get('n')
+  blocks['h'] = await get('h')
+  blocks['d'] = await get('d')
+  blocks['essays'] = await get('essays')
+  blocks['ads'] = await get('ads')
+}
+
+// new search query
+export const newSearch = async (query) => {
+  if (Object.keys(blocks).length !== 15) await init()
+  const outer = session.getRange().map(id => blocks[id]).reduce((x, y) => x.concat(y), [])
+  const inner = session.get('search-variants') ? outer : outer.filter(x => !x.variant)
+  return subSearch(query, inner)
+}
+
+// search within given results
+export const subSearch = (query, range) =>
+  session.get('show-edited')
+    ? range.filter(x => x.edited.plain.match(regex(query)))
+    : range.filter(x => x.original.plain.match(regex(query)))
+
+// display search result
+export const display = (query, block) =>
+  `<div class="${classes(block)}">
+    <div class="meta">${ref(block)}</div>
+    <div class="content">
+      ${content(block).replace(regex(query), '<mark>$&</mark>')}
+    </div>
+  </div>`
+
 // get an array of all the searchable blocks from a text
 export const prepare = (text) => {
   let result = text.paragraphs.map(block.bind(null, text, false, false))
@@ -32,7 +84,7 @@ const block = (text, note, variant, block) =>
   })
 
 // functions needed to augment a block
-export const textUrl = text =>
+const textUrl = text =>
   text.parent
     ? `/texts/${idlUrl(text.parent)}/${idlUrl(text.id)}`
     : `/texts/${idlUrl(text.id)}`
@@ -65,8 +117,10 @@ const baseContent = (content, edited) =>
     : content.replace(/<ins( title="(.*?)")?>(.*?)<\/ins>/g, '').replace(/<del( title="(.*?)")?>(.*?)<\/del>/g, '$3')
 
 // turn a query string into a regular expression
-export const regex = (query, advanced) =>
-  advanced ? new RegExp(`(${query})`, 'gi') : new RegExp(`\\b(${simplify(query)})\\b`, 'gi')
+const regex = (query) =>
+  session.get('search-advanced')
+    ? new RegExp(`(${query})`, 'gi')
+    : new RegExp(`\\b(${simplify(query)})\\b`, 'gi')
 
 const simplify = query =>
   query.replace(/[.,;:?!]/g, '')
@@ -86,27 +140,19 @@ const simplify = query =>
     .replace(/\bit (is|was|were)\b/g, '(it $1|\'t$1)')
     .replace(/\s/g, '[.,;:?!]? ')
 
-// filter blocks to get search range
-export const range = (texts, blocks, ids, variants) =>
-  variants ? some(texts, blocks, ids) : some(texts, blocks, ids).filter(x => !x.variant)
+// functions needed to display a block
+const classes = block =>
+  block.type ? `block ${block.type}` : 'block'
 
-const some = (texts, blocks, ids) =>
-  ids.map(id => one(texts, blocks, id)).reduce((x, y) => x.concat(y), [])
+const ref = block =>
+  block.pages
+    ? `<a href="${block.url}#${block.id}">${label(block)}, ${block.pages}</a>`
+    : `<a href="${block.url}#${block.id}">${label(block)}</a>`
 
-const one = (texts, blocks, id) => {
-  const arr = ids(texts, id)
-  return blocks.filter(x => arr.indexOf(x.text) > -1)
-}
+const label = block =>
+  `${block.text}.${block.id}`.replace('.', ' ')
 
-const ids = (texts, id) => {
-  const text = texts[id]
-  return text.texts
-    ? text.texts.map(id => ids(texts, id)).reduce((x, y) => x.concat(y), [])
-    : [text.id]
-}
-
-// filter search range to get results
-export const results = (blocks, regex, edited) =>
-  edited
-    ? blocks.filter(x => x.edited.plain.match(regex))
-    : blocks.filter(x => x.original.plain.match(regex))
+const content = (block) =>
+  session.get('show-edited')
+    ? block.edited.rich
+    : block.original.rich
