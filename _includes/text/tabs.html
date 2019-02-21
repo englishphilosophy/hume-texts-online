@@ -1,0 +1,22 @@
+<div class="box-tabs-wrapper">
+  <nav class="box-tabs top">
+    {% include assign/text.html id=page.text parent=page.parent %}
+    {% for id in trail %}
+      {% include assign/text.html id=id %}
+      <a href="{{ url }}">{{ text.breadcrumb }} &gt;</a>
+    {% endfor %}
+    {% include assign/text.html id=page.text parent=page.parent %}
+    <a href="{{ url }}"{% if include.active == 'text' %} class="active"{% endif %}>{{ text.breadcrumb }}</a>
+  </nav>
+  <nav class="box-tabs bottom">
+    {% if text.variants %}
+      <a href="{{ url }}v"{% if include.active == 'variants' %} class="active"{% endif %}>Textual Variants</a>
+    {% endif %}
+    {% if text.images %}
+      <a href="{{ url }}m"{% if include.active == 'images' %} class="active"{% endif %}>Manuscript Images</a>
+    {% endif %}
+    {% if page.notes %}
+      <a href="{{ url }}/notes"{% if include.active == 'notes' %} class="active"{% endif %}>Editorial Notes</a>
+    {% endif %}
+  </nav>
+</div>

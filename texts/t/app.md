@@ -1,6 +1,5 @@
 ---
-layout: texts
-text: 't-app'
-breadcrumb:
-  - 't'
+layout: 'texts'
+text: 'T.App'
+tab: 'text'
 ---

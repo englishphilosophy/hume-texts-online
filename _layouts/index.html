@@ -1,6 +1,6 @@
 ---
-layout: default
-section: texts
+layout: 'default'
+section: 'texts'
 ---
 <!-- hide banner while notice is displayed
 <div class="box banner">
@@ -9,31 +9,81 @@ section: texts
 -->
 <div class="box notice">
   <div class="box-body">
-    <h3>** Update November 2018 **</h3>
-    <p>We are delighted to announce that the text for Hume's <a href="/texts/h"><i>History of England</i></a> is finally available, meaning that we now have a complete set of everything Hume published. The inclusion of this work coincides (not coincidentally) with the start of a new project, <i>English Philosophical Texts Online</i>, the aim of which is to collect together the best digital editions of a broad canon of English philosphical works from Hobbes to Mill. These texts will be made freely available on the web, alongside user-friendly tools for performing sophisticated searches, textual comparisons, and stylometric analyses. For more information, watch this space, or email <a href="mailto:amyas.merivale@philosophy.ox.ac.uk">amyas.merivale@philosophy.ox.ac.uk</a>.</p>
+    <h3>** Update February 2019 **</h3>
+    <p>Friends of <i>Hume Texts Online</i> may wish to visit our larger project, <a href="https://englishphilosophy.org"><i>English Philosophical Texts Online</i></a>, the aim of which is to collect together the best digital editions of a broad canon of English philosphical works from Hobbes to Mill. These texts will all be freely available, alongside user-friendly tools for performing sophisticated searches, textual comparisons, and stylometric analyses. Head over to <a href="https://englishphilosophy.org">englishphilosophy.org</a> for more information.</p>
   </div>
 </div>
 <div class="box-row">
   <div class="box">
     <div class="box-body notes marginless">
-      {% include contents.html id='anon' %}
+      <h2>Anonymous Works (1739-45)</h2>
+      <ul>
+        {%- include assign/text.html id='T' -%}
+        <li>
+          <a href="{{ url }}">{%- include text/title.html -%}</a>
+          <ul>
+            {% for id in text.texts %}
+              {%- include assign/text.html id=id -%}
+              <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {%- include assign/text.html id='A' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='L' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+      </ul>
     </div>
   </div>
   <div class="box">
     <div class="box-body notes marginless">
-      {% include contents.html id='ack' %}
+      <h2>Acknowledged Works (1741-78)</h2>
+      <ul>
+        {%- include assign/text.html id='ETSS' -%}
+        <li>
+          <a href="{{ url }}">{%- include text/title.html -%}</a>
+          <ul>
+            {% for id in text.texts %}
+              {%- include assign/text.html id=id -%}
+              <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+        {%- include assign/text.html id='H' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+      </ul>
     </div>
   </div>
 </div>
 <div class="box-row">
   <div class="box">
     <div class="box-body notes marginless">
-      {% include contents.html id='post' %}
+      <h2>Posthumous Works</h2>
+      <ul>
+        {%- include assign/text.html id='MOL' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='Su' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='IS' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='D' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+      </ul>
     </div>
   </div>
   <div class="box">
     <div class="box-body notes marginless">
-      {% include contents.html id='other' %}
+      <h2>Other Collections</h2>
+      <ul>
+        {%- include assign/text.html id='EMP' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='EMPW' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='PLD' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+        {%- include assign/text.html id='FD' -%}
+        <li><a href="{{ url }}">{%- include text/title.html -%}</a></li>
+      </ul>
     </div>
   </div>
 </div>

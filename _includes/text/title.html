@@ -1,0 +1,1 @@
+{{ text.title }}{% if text.published %} ({{ text.published }}{% if text.copytext %}{% unless text.published == text.copytext %}, {{ text.copytext }}{% endunless %}{% endif %}){% endif %}

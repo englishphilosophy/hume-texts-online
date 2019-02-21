@@ -1,0 +1,3 @@
+---
+---
+[{% for id in site.data.empl1.index.texts %}{% assign sub = id | downcase %}{{ site.data[sub] | jsonify }},{% endfor %}{% for id in site.data.empl2.index.texts %}{% assign sub = id | downcase %}{{ site.data[sub] | jsonify }},{% endfor %}{% for id in site.data.empw.index.texts %}{% assign sub = id | downcase %}{{ site.data[sub] | jsonify }},{% endfor %}{{ site.data.su | jsonify }},{{ site.data.is | jsonify }},{{ site.data.mol | jsonify }}]

@@ -1,46 +1,22 @@
-{% assign t = site.data.texts[include.id] %}
+{%- include assign/text.html id=include.id -%}
 
 <div class="block">
   <div class="meta"></div>
-  <div class="content{% if t.texts %} title {{ include.id }}{% endif %}">
-    {% if t.type == 'essay' %}
-      {% assign number = t.number[include.parent] %}
-      <h2><strong>ESSAY </strong>{%- include roman.html number=number -%}.</h2>
+  <div class="content title">
+    {% if page.essay %}
+      <h2>ESSAY {% include text/roman.html number=page.essay %}.</h2>
     {% endif %}
-    {{ t.title[2] }}
+    {{ text.fulltitle }}
   </div>
 </div>
-{% for paragraph in t.paragraphs %}
-  {% if paragraph.title %}
-    <div class="block">
-      <div class="meta"></div>
-      <div class="content title">{{ paragraph.title }}</div>
-    </div>
-  {% endif %}
-  <div class="block" id="{{ paragraph.id }}">
-    <div class="meta">
-      {{ t.label | append: '.' | append: paragraph.id | replace_first: '.', ' ' }}{% if paragraph.pages %}, {{ t.pages }} {{ paragraph.pages }}{% endif %}
-    </div>
-    <div class="content paragraph{% if paragraph.type %} {{ paragraph.type }}{% endif %}">
-      {% if paragraph.subsection %}<span class="subsection">{{ paragraph.subsection }}.</span>{% endif %}
-      {{ paragraph.content }}
-    </div>
-  </div>
+{% for paragraph in text.paragraphs %}
+  {% include text/paragraph.html %}
 {% endfor %}
-{% for note in t.notes %}
+{% for note in text.notes %}
   {% if forloop.first %}<hr>{% endif %}
-  <div class="block" id="n{{ note.id }}">
-    <div class="meta">
-      {{ t.label | append: '.n' | append: note.id | replace_first: '.', ' ' }}{% if note.pages %}, {{ t.pages }} {{ note.pages }}{% endif %}
-    </div>
-    <div class="content note{% if note.type %} {{ note.type }}{% endif %}">
-      {% assign first = note.id | slice: 0 %}
-      {% unless note.id contains '.' %}<span class="subsection">{{ note.id }}.</span>{% endunless %}
-      {{ note.content }}
-    </div>
-  </div>
+  {% include text/note.html %}
 {% endfor %}
-{% for id in t.texts %}
+{% for id in text.texts %}
   <hr>
-  {% include text.html id=id parent=include.parent %}
+  {% include text.html id=id %}
 {% endfor %}

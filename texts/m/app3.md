@@ -1,6 +1,5 @@
 ---
-layout: texts
-text: 'm-app3'
-breadcrumb:
-  - 'm'
+layout: 'texts'
+text: 'M.App3'
+tab: 'text'
 ---

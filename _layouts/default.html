@@ -1,39 +1,46 @@
 ---
-layout: compress
+layout: 'compress'
 ---
 <!doctype html>
 <html lang="en">
   <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23731986-1"></script>
     <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'UA-23731986-1');</script>
+    <script defer type="module" src="{{ site.baseurl }}{% link assets/js/hume.js %}?v={{ site.version }}"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="hume, david hume, texts, scholarship">
     <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
     <link rel="shortcut icon" href="{{ site.baseurl }}{% link assets/hume.ico %}">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC|IM+Fell+English:400,400italic|GFS+Didot">
-    <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/hume.scss %}?v=4">
+    <link rel="stylesheet" href="{{ site.baseurl }}{% link assets/css/hume.scss %}?v={{ site.version }}">
     <link rel="manifest" href="{{ site.baseurl }}{% link assets/hume.webmanifest %}">
     <title>{{ site.title }}</title>
-    <script defer type="module" src="{{ site.baseurl }}{% link assets/js/hume.js %}?v=4"></script>
   </head>
   <body>
-    <header>
-      <h1><a href="/">Hume Texts Online</a></h1>
-      <nav>
-        <a{% if layout.section == 'texts' %} class="active"{% endif %} href="{{ site.baseurl }}{% link index.md %}">Texts</a>
-        <a{% if layout.section == 'notes' %} class="active"{% endif %} href="{{ site.baseurl }}{% link notes/index.md %}">Notes</a>
-        <a{% if layout.section == 'scholarship' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/index.md %}">Scholarship</a>
-        <a{% if layout.section == 'search' %} class="active"{% endif %} href="{{ site.baseurl }}{% link search.md %}">Search</a>
-        <a id="jump-link">Jump</a>
-      </nav>
+    <header class="header">
+      <div class="header-top">
+        <h1><a href="/">Hume Texts Online</a></h1>
+        <nav>
+          <a{% if layout.section == 'texts' %} class="active"{% endif %} href="{{ site.baseurl }}{% link index.md %}">Texts</a>
+          <a{% if layout.section == 'notes' %} class="active"{% endif %} href="{{ site.baseurl }}{% link notes/index.md %}">Notes</a>
+          <a{% if layout.section == 'scholarship' %} class="active"{% endif %} href="{{ site.baseurl }}{% link scholarship/index.md %}">Scholarship</a>
+          <a{% if layout.section == 'search' %} class="active"{% endif %} href="{{ site.baseurl }}{% link search.md %}">Search</a>
+          <a data-toggle="header-bottom" data-altcontent="<i class='fas fa-angle-double-up'></i>"><i class="fas fa-angle-double-down"></i></a>
+        </nav>
+      </div>
+      <div class="header-bottom" data-group="header" id="header-bottom">
+        <label for="show-edited"><input type="checkbox" data-session="show-edited" id="show-edited">Edited Version</label>
+        <label for="show-changes"><input type="checkbox" data-session="show-changes" id="show-changes">Show Changes</label>
+        <label for="show-breaks"><input type="checkbox" data-session="show-breaks" id="show-breaks">Show Page Breaks</label>
+        <form class="jump" id="jump-form">
+          <input type="text" placeholder="e.g. T 2.3.9.8" id="jump-input">
+          <button type="submit">Jump</button>
+        </form>
+      </div>
     </header>
-    <form class="jump" id="jump-form">
-      <input type="text" placeholder="e.g. T 2.3.9.8" id="jump-input">
-      <button type="submit">Go</button>
-    </form>
-    <main>
+    <main class="main">
       {{ content }}
     </main>
   </body>

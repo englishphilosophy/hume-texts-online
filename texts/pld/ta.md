@@ -1,6 +1,7 @@
 ---
 layout: texts
-text: 'ta'
-breadcrumb:
-  - 'pld'
+text: 'Ta'
+parent: 'PLD'
+essay: 7
+tab: 'text'
 ---

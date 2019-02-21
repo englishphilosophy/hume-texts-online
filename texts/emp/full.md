@@ -1,6 +1,6 @@
 ---
-layout: texts
-text: 'emp'
-breadcrumb:
-  - 'emp'
+layout: 'texts'
+text: 'EMP'
+tab: 'text'
+notes: true
 ---

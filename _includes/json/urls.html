@@ -1,0 +1,11 @@
+"{{ include.text.id | downcase }}": "{{ include.url }}",
+{%- if include.text.paragraphs -%}
+{%- for paragraph in include.text.paragraphs -%}
+"{{ include.text.id | downcase }}.{{ paragraph.id }}": "{{ include.url }}#{{ paragraph.id }}",
+{%- endfor -%}
+{%- else -%}
+{%- for id in include.text.texts -%}
+{% include assign/text.html id=id -%}
+{% include json/urls.html text=text url=url %}
+{%- endfor -%}
+{%- endif -%}

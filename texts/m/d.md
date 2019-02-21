@@ -1,6 +1,5 @@
 ---
-layout: texts
-text: 'm-d'
-breadcrumb:
-  - 'm'
+layout: 'texts'
+text: 'M.D'
+tab: 'text'
 ---

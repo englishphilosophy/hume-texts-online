@@ -1,8 +1,7 @@
 ---
-layout: texts
-text: 't-1-4'
-breadcrumb:
-  - 't'
-  - 't-1'
+layout: 'texts'
+text: 'T.1.4'
+tab: 'text'
 contents: true
+fulltext: true
 ---

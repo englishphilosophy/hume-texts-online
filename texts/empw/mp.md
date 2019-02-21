@@ -1,6 +1,6 @@
 ---
-layout: texts
-text: 'mp'
-breadcrumb:
-  - 'empw'
+layout: 'texts'
+text: 'MP'
+parent: 'EMPW'
+tab: 'text'
 ---

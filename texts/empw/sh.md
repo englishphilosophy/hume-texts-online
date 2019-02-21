@@ -1,6 +1,6 @@
 ---
-layout: texts
-text: 'sh'
-breadcrumb:
-  - 'empw'
+layout: 'texts'
+text: 'SH'
+parent: 'EMPW'
+tab: 'text'
 ---

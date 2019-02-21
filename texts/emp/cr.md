@@ -1,6 +1,7 @@
 ---
 layout: texts
-text: 'cr'
-breadcrumb:
-  - 'emp'
+text: 'CR'
+parent: 'EMP'
+essay: 27
+tab: 'text'
 ---

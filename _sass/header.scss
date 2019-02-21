@@ -1,48 +1,90 @@
-header {
+.header {
   background: #fff;
-  border-bottom: .5em solid $red;
-  h1 {
-    font-size: 1.5em;
-    font-weight: normal;
-    text-align: center;
-    margin: .5em 0;
-    padding: .25em;
-    a {
-      color: inherit;
-      &:hover {
-        text-decoration: none;
+  .header-top {
+    border-bottom: .5em solid $red;
+    h1 {
+      font-size: 1.5em;
+      font-weight: normal;
+      text-align: center;
+      margin: .5em 0;
+      padding: .25em;
+      a {
+        color: inherit;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      overflow-y: auto;
+      a {
+        padding: .5em .75em;
+        margin: 0 .125em;
+        white-space: nowrap;
+        cursor: pointer;
+        &:hover, &.active {
+          background: $red;
+          color: #fff;
+          text-decoration: none;
+        }
       }
     }
   }
-  nav {
-    display: flex;
-    justify-content: center;
-    overflow-y: auto;
-    a {
-      padding: .5em .75em;
-      margin: 0 .125em;
-      white-space: nowrap;
-      cursor: pointer;
-      &:hover, &.active {
+  .header-bottom {
+    display: none;
+    &.active {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      border-bottom: 1px solid $gray;
+      form {
+        flex: 1;
+        display: flex;
+      }
+      input, button, label {
+        padding: .5em .75em;
+      }
+      input, label {
+        flex: 1;
+      }
+      button {
         background: $red;
         color: #fff;
-        text-decoration: none;
+        cursor: pointer;
+      }
+      label {
+        cursor: pointer;
+        border-right: 1px solid $gray;
+        &.disabled {
+          cursor: not-allowed;
+          color: $gray;
+        }
+      }
+      input[type="checkbox"] {
+        margin-right: .5em;
       }
     }
   }
 }
 
 @media(min-width: $break1) {
-  header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: baseline;
-    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
-    padding: .25em .5em 0;
-    h1 {
-      margin: 0;
-      padding: .25em;
+  .header {
+    .header-top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: .25em .5em 0;
+      h1 {
+        margin: 0;
+        padding: .25em;
+      }
+    }
+    .header-bottom.active {
+      border-bottom: 0;
+      box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
     }
   }
 }
