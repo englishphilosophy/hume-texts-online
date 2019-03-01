@@ -20,11 +20,11 @@ It is standard practice to refer to Hume's texts using abbreviations, though not
 
 ### 2. Essays (as ordered in Miller's standard edition)
 
-{% comment %}
 {% assign suis = 'su,is' | split: ',' %}
-{% assign ids = site.data.texts.empl-1.texts | concat: site.data.texts.empl-2.texts | concat: site.data.texts.empw.texts | concat: suis %}
+
+{% assign ids = site.data.empl1.index.texts | concat: site.data.empl2.index.texts | concat: site.data.empw.index.texts | concat: suis %}
+
 {% for id in ids %}
-{%- assign text = site.data.texts[id] -%}
-| {{ text.label }} | _[{{ text.title[0] }}]({{ site.baseurl }}/texts/{{ text.parent | replace: '-', '/' }}/{{ text.label | downcase }}/)_ |
+{%- include assign/text.html id=id -%}
+{{ text.id }} | _[{{ text.title }}]({{ url }})_ |
 {% endfor %}
-{% endcomment %}
