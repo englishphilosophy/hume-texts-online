@@ -48,9 +48,13 @@ if (searchForm) {
       hits.innerHTML = ''
       view.activate('results')
       if (newSearch) {
-        search.newSearch(query.value).then(showSearchResults)
+        search.newSearch(query.value).then((r) => {
+          results = r
+          showSearchResults(results)
+        })
       } else {
-        showSearchResults(search.subSearch(query.value, results))
+        results = search.subSearch(query.value, results)
+        showSearchResults(results)
       }
     }
   }
