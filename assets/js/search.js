@@ -73,7 +73,7 @@ export const prepare = (text) => {
 const block = (text, note, variant, block) =>
   ({
     text: text.id,
-    id: note ? `n${block.id}` : block.id,
+    id: note ? `${block.paragraph}n${block.id}` : block.id,
     url: variant ? `${textUrl(text)}v` : textUrl(text),
     pages: block.pages ? `${text.pages} ${block.pages}` : '',
     type: block.type,

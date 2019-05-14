@@ -1,5 +1,3 @@
-import { get } from './session.js'
-
 // function to toggle an element
 export const toggle = (element) => {
   const altcontent = element.dataset.altcontent
