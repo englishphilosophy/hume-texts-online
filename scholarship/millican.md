@@ -20,10 +20,10 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 
 ### 2019
 
-- ["What Hume Really Thought about Causation"]({{ site.baseurl }}{% link scholarship/papers/millican/2019_Hume_Causation_Cambridge_Handout.pdf %}) – Handout, *Cambridge Moral Sciences Club* (November)
+- ["What Hume Really Thought about Causation"]({{ site.baseurl }}{% link scholarship/papers/millican/2019_Hume_Causation_Cambridge_Handout.pdf %}) – handout, *Cambridge Moral Sciences Club* (November)
 - [Colour slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2019_Hume_Causation_Cambridge_ppt.pdf %})
 - [Greyscale slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2019_Hume_Causation_Cambridge_ppt_grey.pdf %})
-- ["Hume on the Will, and on Free Will"]({{ site.baseurl }}{% link scholarship/papers/millican/2019_Hume_on_the_Will_ppt.pdf %}), colour slides, "Recasting the Treatise", Workshop on Book 2, Oxford (March)
+- ["Hume on the Will, and on Free Will"]({{ site.baseurl }}{% link scholarship/papers/millican/2019_Hume_on_the_Will_ppt.pdf %}), colour slides, *"Recasting the Treatise" Workshop on Book 2*, Oxford (March)
 - [Greyscale slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2019_Hume_on_the_Will_ppt_grey.pdf %})
 
 ### 2018
