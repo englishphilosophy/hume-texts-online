@@ -17,15 +17,4 @@ subsection: scholarship
 
 ### Talks
 
-- "Hume's Mature Account of the Indirect Passions"
-
-  *37th International Hume Conference*, Antwerp, July 2010
-- "Hume's Attack on Superstition in the *Natural History of Religion*"
-
-  *Hume on Morality and Religion: Tercentennial Hume Workshop*, St Andrews, March 2011
-- "Mixed Feelings, Mixed Metaphors: Hume on Tragic Pleasure"
-
-  *38th International Hume Conference*, Edinburgh, July 2011
-- "The Unity of Hume's *Four Dissertations*"
-
-  *45th International Hume Conference*, Budapest, July 2018
+Slides from my talks are available here: [https://merivale.uk/talks/](https://merivale.uk/talks/).

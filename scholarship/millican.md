@@ -10,10 +10,36 @@ _(Please note that this page is under continuous development, and makes no claim
 
 Most of these files are in "PDF" form, to maintain platform independence. Any PowerPoint slides have been reduced to six or twelve per page, and are available in both a colour and a greyscale form (the former for viewing, the latter for printing).
 
+### 2021
+
+- ["Hume on Modality"]({{ site.baseurl }}{% link scholarship/papers/millican/2021_Hume_on_Modality.pdf %}), forthcoming in Otávio Bueno and Scott Shalkowski (eds), *The Routledge Handbook of Modality*, Routledge, 2021
+
+### 2020
+
+- ["The Relation between Hume's Two Enquiries"]({{ site.baseurl }}{% link scholarship/papers/millican/2020_Hume's_Two_Enquiries.pdf %}), in Jacqueline Taylor (ed.), *Reading Hume on the Principles of Morals*, Oxford University Press, pp. 273-99
+
+### 2019
+
+- ["What Hume Really Thought about Causation"]({{ site.baseurl }}{% link scholarship/papers/millican/2019_Hume_Causation_Cambridge_Handout.pdf %}) – Handout, *Cambridge Moral Sciences Club* (November)
+- [Colour slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2019_Hume_Causation_Cambridge_ppt.pdf %})
+- [Greyscale slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2019_Hume_Causation_Cambridge_ppt_grey.pdf %})
+- ["Hume on the Will, and on Free Will"]({{ site.baseurl }}{% link scholarship/papers/millican/2019_Hume_on_the_Will_ppt.pdf %}), colour slides, "Recasting the Treatise", Workshop on Book 2, Oxford (March)
+- [Greyscale slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2019_Hume_on_the_Will_ppt_grey.pdf %})
+
+### 2018
+
+- ["Hume's Decisive Turn Away From Egoism"]({{ site.baseurl }}{% link scholarship/papers/millican/2018_Hume's_Decisive_Turn_From_Egoism.pdf %}), *Hume Conference*, Budapest (July)
+- [Colour slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2018_Hume's_Decisive_Turn_ppt.pdf %})
+- [Greyscale slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2018_Hume's_Decisive_Turn_ppt_grey.pdf %})
+
 ### 2017
 
 - ["Defending the Common-Core/Diversity Dilemma: One Author's Reply to Abram, Heim, Lukasiewicz, Moser, Oppy, Salamon, Senor, Taliaferro &amp; Porot"]({{ site.baseurl }}{% link scholarship/papers/millican/2017_EJPR_Reply.pdf %}), *European Journal for Philosophy of Religion* 9, pp. 81-106
 - ["Hume's Fork, and His Theory of Relations"]({{ site.baseurl }}{% link scholarship/papers/millican/2017_Hume's_Fork.pdf %}), *Philosophy and Phenomenological Research* 95, pp. 3-65
+- ["Why Hume Disowned His Treatise of Human Nature"]({{ site.baseurl }}{% link scholarship/papers/millican/2017_Edinburgh_Disowning_Treatise_ppt.pdf %}), colour slides, *Scottish Seminar in Early Modern Philosophy*, Edinburgh (April)
+- [Greyscale slides from the above]{{ site.baseurl }}{% link scholarship/papers/millican/2017_Edinburgh_Disowning_Treatise_ppt_grey.pdf %}()
+- ["Hume's Miracle Maxim: Where It's Right and Where It's Wrong"]({{ site.baseurl }}{% link scholarship/papers/millican/2017_Hume's_Miracle_Maxim_ppt.pdf %}), colour slides, Singapore National University (April)
+- [Greyscale slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2017_Hume's_Miracle_Maxim_ppt_grey.pdf %})
 
 ### 2016
 
@@ -58,7 +84,6 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 - "Hume's Sceptical Stance: 3. Scepticism"<br>Extramural Course at Rewley House, Oxford (January)
 
 ### 2010
-
 
 - "Hume on Miracles: A flawed argument, with an enduring moral"<br>Institute for Advanced Studies in the Humanities, Edinburgh (September 22nd)
 - ["Hume's Determinism"]({{ site.baseurl }}{% link scholarship/papers/millican/2010_Determinism.pdf %}), *Canadian Journal of Philosophy* 40, pp. 611-42
