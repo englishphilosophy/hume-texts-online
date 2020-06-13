@@ -37,7 +37,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 - ["Defending the Common-Core/Diversity Dilemma: One Author's Reply to Abram, Heim, Lukasiewicz, Moser, Oppy, Salamon, Senor, Taliaferro &amp; Porot"]({{ site.baseurl }}{% link scholarship/papers/millican/2017_EJPR_Reply.pdf %}), *European Journal for Philosophy of Religion* 9, pp. 81-106
 - ["Hume's Fork, and His Theory of Relations"]({{ site.baseurl }}{% link scholarship/papers/millican/2017_Hume's_Fork.pdf %}), *Philosophy and Phenomenological Research* 95, pp. 3-65
 - ["Why Hume Disowned His Treatise of Human Nature"]({{ site.baseurl }}{% link scholarship/papers/millican/2017_Edinburgh_Disowning_Treatise_ppt.pdf %}), colour slides, *Scottish Seminar in Early Modern Philosophy*, Edinburgh (April)
-- [Greyscale slides from the above]{{ site.baseurl }}{% link scholarship/papers/millican/2017_Edinburgh_Disowning_Treatise_ppt_grey.pdf %}()
+- [Greyscale slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2017_Edinburgh_Disowning_Treatise_ppt_grey.pdf %})
 - ["Hume's Miracle Maxim: Where It's Right and Where It's Wrong"]({{ site.baseurl }}{% link scholarship/papers/millican/2017_Hume's_Miracle_Maxim_ppt.pdf %}), colour slides, Singapore National University (April)
 - [Greyscale slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2017_Hume's_Miracle_Maxim_ppt_grey.pdf %})
 
