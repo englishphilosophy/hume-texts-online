@@ -12,7 +12,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 
 ### 2021
 
-- ["Hume's Pivotal Argument, and His Supposed Obligation of Reason"]({{ site.baseurl }}{% link scholarship/papers/millican/2021_Hume's_Pivotal_Argument.pdf %}), forthcoming in *Hume Studies*
+- ["Hume's Pivotal Argument, and His Supposed Obligation of Reason"]({{ site.baseurl }}{% link scholarship/papers/millican/2021_Hume's_Pivotal_Argument.pdf %}), *Hume Studies* 44, pp. 167-208
 - ["Hume on Modality"]({{ site.baseurl }}{% link scholarship/papers/millican/2021_Hume_on_Modality.pdf %}), forthcoming in Otávio Bueno and Scott Shalkowski (eds), *The Routledge Handbook of Modality*, Routledge, 2021
 
 ### 2020
