@@ -10,6 +10,10 @@ _(Please note that this page is under continuous development, and makes no claim
 
 Most of these files are in "PDF" form, to maintain platform independence. Any PowerPoint slides have been reduced to six or twelve per page, and are available in both a colour and a greyscale form (the former for viewing, the latter for printing).
 
+### 2023
+
+- ["Hume's Ethical Theory"]({{ site.baseurl }}{% link scholarship/papers/millican/2023_Hume's_Ethics.pdf %}), in Tom Angier (ed.), *Ethics: The Key Thinkers*, Bloomsbury, second edition, pp. 89-111
+
 ### 2021
 
 - ["Hume's Pivotal Argument, and His Supposed Obligation of Reason"]({{ site.baseurl }}{% link scholarship/papers/millican/2021_Hume's_Pivotal_Argument.pdf %}), *Hume Studies* 44, pp. 167-208
