@@ -17,7 +17,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 ### 2021
 
 - ["Hume's Pivotal Argument, and His Supposed Obligation of Reason"]({{ site.baseurl }}{% link scholarship/papers/millican/2021_Hume's_Pivotal_Argument.pdf %}), *Hume Studies* 44, pp. 167-208
-- ["Hume on Modality"]({{ site.baseurl }}{% link scholarship/papers/millican/2021_Hume_on_Modality.pdf %}), forthcoming in Otávio Bueno and Scott Shalkowski (eds), *The Routledge Handbook of Modality*, Routledge, 2021
+- ["Hume on Modality"]({{ site.baseurl }}{% link scholarship/papers/millican/2021_Hume_on_Modality.pdf %}), in Otávio Bueno and Scott Shalkowski (eds), *The Routledge Handbook of Modality*, Routledge, pp. 364-77
 
 ### 2020
 
@@ -54,7 +54,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 ### 2015
 
 - ["The Common-Core/Diversity Dilemma: Revisions of Humean Thought, New Empirical Research, and the Limits of Rational Religious Belief"]({{ site.baseurl }}{% link scholarship/papers/millican/2015_EJPR_CCDD.pdf %}) (joint with Branden Thornhill-Miller), *European Journal for Philosophy of Religion* 7, pp. 1-49
-- ["Locke on Substance and Our Ideas of Substances"]({{ site.baseurl }}{% link scholarship/papers/millican/2015_Locke_Substance.pdf %}), in Paul Lodge and Tom Stoneham (eds), *Locke and Leibniz on Substance*, Routledge, pp. 8-27
+- ["Locke on Substance and Our Ideas of Substances"]({{ site.baseurl }}{% link scholarship/papers/millican/2015_Locke_on_Substance.pdf %}), in Paul Lodge and Tom Stoneham (eds), *Locke and Leibniz on Substance*, Routledge, pp. 8-27
 
 ### 2014
 
@@ -71,7 +71,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 
 ### 2011
 
-- ["Hume, Causal Realism, and Free Will"]({{ site.baseurl }}{% link scholarship/papers/millican/2011_Causation_FreeWill.pdf %}), in Keith Allen and Tom Stoneham (eds), *Causation and Modern Philosophy* (Routledge), pp. 123-65
+- ["Hume, Causal Realism, and Free Will"]({{ site.baseurl }}{% link scholarship/papers/millican/2011_Hume_Causal_Realism_FreeWill.pdf %}), in Keith Allen and Tom Stoneham (eds), *Causation and Modern Philosophy* (Routledge), pp. 123-65
 - "Hume's 'Scepticism' about Induction"<br>Invited talk at [Moscow Conference on "David Hume and Contemporary Philosophy"](http://www.humesociety.org/conferences/cfp/David.pdf) (November)
 - ["Learning from 300 Years of Hume"]({{ site.baseurl }}{% link scholarship/papers/millican/2011_Learning_from_300_years_of_Hume.pdf %})<br>Bentham Lecture at University College, London (November 24th)
 - "Norms, Virtue and Autonomy in 17th and 18th-Century Philosophy"<br>Invited talk at Neuchâtel Conference (October)
@@ -128,7 +128,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 - [Handout from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2007 Humes Old and New Handout.pdf %})
 - [Colour slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2007 Humes Old and New ppt.pdf %})
 - [Greyscale slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2007 Humes Old and New ppt grey.pdf %})
-- [Introduction to "World's Classics" Edition of Hume's First *Enquiry*]({{ site.baseurl }}{% link scholarship/papers/millican/2007 Introduction.pdf %}), Oxford University Press, pp. ix-lvi
+- [Introduction to "World's Classics" Edition of Hume's First *Enquiry*]({{ site.baseurl }}{% link scholarship/papers/millican/2007_Enquiry_Introduction.pdf %}), Oxford University Press, pp. ix-lvi
 
 ### 2006
 
