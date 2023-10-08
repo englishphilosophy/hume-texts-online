@@ -12,11 +12,11 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 
 ### 2023
 
+- ["Hume on Free Will and Responsibility"]({{ site.baseurl }}{% link scholarship/papers/millican/2023_Hume_Free_Will_Responsibility.pdf %}), in Maximilian Kiener (ed.), *The Routledge Handbook of Responsibility*, Routledge, pp. 68-81
 - ["Hume's Ethical Theory"]({{ site.baseurl }}{% link scholarship/papers/millican/2023_Hume's_Ethics.pdf %}), in Tom Angier (ed.), *Ethics: The Key Thinkers*, Bloomsbury, second edition, pp. 89-111
 
 ### 2021
 
-- ["Hume's Pivotal Argument, and His Supposed Obligation of Reason"]({{ site.baseurl }}{% link scholarship/papers/millican/2021_Hume's_Pivotal_Argument.pdf %}), *Hume Studies* 44, pp. 167-208
 - ["Hume on Modality"]({{ site.baseurl }}{% link scholarship/papers/millican/2021_Hume_on_Modality.pdf %}), in Otávio Bueno and Scott Shalkowski (eds), *The Routledge Handbook of Modality*, Routledge, pp. 364-77
 
 ### 2020
@@ -62,7 +62,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 
 ### 2013
 
-- ["Earman on Hume on Miracles"]({{ site.baseurl }}{% link scholarship/papers/millican/2013_Earman_Miracles.pdf %}), in Stewart Duncan and Antonia Lolordo (eds), *Debates in Modern Philosophy*, Routledge, pp. 271-83
+- ["Earman on Hume on Miracles"]({{ site.baseurl }}{% link scholarship/papers/millican/2013_Millican_Earman_Miracles.pdf %}), in Stewart Duncan and Antonia Lolordo (eds), *Debates in Modern Philosophy*, Routledge, pp. 271-83, commenting on John Earman, ["Bayes, Hume, Price, and Miracles"]({{ site.baseurl }}{% link scholarship/papers/millican/2013_Earman_Miracles.pdf %}), in the same volume, pp. 258-70
 
 ### 2012
 
