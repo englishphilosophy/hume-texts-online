@@ -62,7 +62,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 ### 2012
 
 - ["Hume's 'Scepticism' about Induction"]({{ site.baseurl }}{% link scholarship/papers/millican/2012_Induction.pdf %}), in Alan Bailey and Dan O'Brien (eds), *The Continuum Companion to Hume*, Continuum, pp. 57-103
-- ["Hume's Theory of Morals"]({{ site.baseurl }}{% link scholarship/papers/millican/2012_Hume_Ethics.pdf %}), in Tom Angier (ed.), *Ethics: The Key Thinkers*, Continuum, pp. 105-31
+- ["Hume's Theory of Morals"]({{ site.baseurl }}{% link scholarship/papers/millican/2012_Hume's_Ethics.pdf %}), in Tom Angier (ed.), *Ethics: The Key Thinkers*, Continuum, pp. 105-31
 
 ### 2011
 
