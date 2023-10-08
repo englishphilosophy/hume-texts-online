@@ -29,6 +29,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 
 ### 2018
 
+- ["Hume's Pivotal Argument, and His Supposed Obligation of Reason"]({{ site.baseurl }}{% link scholarship/papers/millican/2018_Hume's_Pivotal_Argument.pdf %}), *Hume Studies* 44, pp. 167-208
 - ["Hume's Decisive Turn Away From Egoism"]({{ site.baseurl }}{% link scholarship/papers/millican/2018_Hume's_Decisive_Turn_From_Egoism.pdf %}), *Hume Conference*, Budapest (July)
 - [Colour slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2018_Hume's_Decisive_Turn_ppt.pdf %})
 - [Greyscale slides from the above]({{ site.baseurl }}{% link scholarship/papers/millican/2018_Hume's_Decisive_Turn_ppt_grey.pdf %})
