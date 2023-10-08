@@ -71,7 +71,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 
 ### 2011
 
-- ["Hume, Causal Realism, and Free Will"]({{ site.baseurl }}{% link scholarship/papers/millican/2011_Hume_Causal_Realism_FreeWill.pdf %}), in Keith Allen and Tom Stoneham (eds), *Causation and Modern Philosophy* (Routledge), pp. 123-65
+- ["Hume, Causal Realism, and Free Will"]({{ site.baseurl }}{% link scholarship/papers/millican/2011_Hume_Causal_Realism_Free_Will.pdf %}), in Keith Allen and Tom Stoneham (eds), *Causation and Modern Philosophy* (Routledge), pp. 123-65
 - "Hume's 'Scepticism' about Induction"<br>Invited talk at [Moscow Conference on "David Hume and Contemporary Philosophy"](http://www.humesociety.org/conferences/cfp/David.pdf) (November)
 - ["Learning from 300 Years of Hume"]({{ site.baseurl }}{% link scholarship/papers/millican/2011_Learning_from_300_years_of_Hume.pdf %})<br>Bentham Lecture at University College, London (November 24th)
 - "Norms, Virtue and Autonomy in 17th and 18th-Century Philosophy"<br>Invited talk at Neuchâtel Conference (October)

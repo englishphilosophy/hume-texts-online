@@ -1,0 +1,12 @@
+---
+layout: 'default'
+section: 'teaching'
+---
+<div class="box">
+  <nav class="box-tabs">
+    <a{% if page.subsection == 'teaching' %} class="active"{% endif %} href="{{ site.baseurl }}{% link teaching/index.md %}">Teaching Materials</a>
+  </nav>
+  <div class="box-body notes">
+    {{ content }}
+  </div>
+</div>
