@@ -15,7 +15,7 @@ The following link gives access to three sets of recorded lectures (with 8 hour-
 
 ### Teaching Handouts on Hume 
 
-As further materials are added, this section will acquire greater structure, but for the present the documents are all listed simply on this index page.
+As further materials are added, this section will acquire greater structure, but currently the documents are listed simply on this index page. Their order here reflects the ordering of topics in Hume's *Treatise of Human Nature*.
 
 - [Overview of *Treatise* Book 1 Part 1]({{ site.baseurl }}{% link teaching/documents/Overview_of_Treatise_1_1.pdf %})
 - [Some Notes on Hume's Copy Principle]({{ site.baseurl }}{% link teaching/documents/Copy_Principle.pdf %})
