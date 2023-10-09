@@ -12,7 +12,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 
 ### 2023
 
-- ["Hume on Free Will and Responsibility"]({{ site.baseurl }}{% link scholarship/papers/millican/2023_Hume_Free_Will_Responsibility.pdf %}), in Maximilian Kiener (ed.), *The Routledge Handbook of Responsibility*, Routledge, pp. 68-81
+- ["Hume on Free Will and Moral Responsibility"]({{ site.baseurl }}{% link scholarship/papers/millican/2023_Hume_Free_Will_Responsibility.pdf %}), in Maximilian Kiener (ed.), *The Routledge Handbook of Responsibility*, Routledge, pp. 68-81
 - ["Hume's Ethical Theory"]({{ site.baseurl }}{% link scholarship/papers/millican/2023_Hume's_Ethics.pdf %}), in Tom Angier (ed.), *Ethics: The Key Thinkers*, Bloomsbury, second edition, pp. 89-111
 
 ### 2021
