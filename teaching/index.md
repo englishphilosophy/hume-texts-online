@@ -21,3 +21,4 @@ As further materials are added, this section will acquire greater structure, but
 - [Some Notes on Hume's Copy Principle]({{ site.baseurl }}{% link teaching/documents/Copy_Principle.pdf %})
 - [Overview of *Treatise* Book 1 Part 3 Sections 1-5]({{ site.baseurl }}{% link teaching/documents/Overview_of_Treatise_1_3_1-5.pdf %})
 - [Hume's Argument concerning Induction in *Treatise* 1.3.6]({{ site.baseurl }}{% link teaching/documents/Induction_Treatise_1_3_6.pdf %})
+- [Hume's Sceptical Texts 1: Induction]({{ site.baseurl }}{% link teaching/documents/Hume's_Sceptical_Texts_1_Induction.pdf %})
