@@ -24,3 +24,6 @@ As further materials are added, this section will acquire greater structure, but
 - [Hume's Argument concerning Induction in *Treatise* 1.3.6]({{ site.baseurl }}{% link teaching/documents/Induction_Treatise_1_3_6.pdf %})
 - [Notes on Hume's Argument(s) concerning Induction]({{ site.baseurl }}{% link teaching/documents/Hume_Notes_Induction.pdf %})
 - [Hume's Sceptical Texts 1: Induction]({{ site.baseurl }}{% link teaching/documents/Hume's_Sceptical_Texts_1_Induction.pdf %})
+- [Notes on Hume on Causation (from Cambridge talke)]({{ site.baseurl }}{% link teaching/documents/Hume_Causation_Cambridge_Handout.pdf %})
+- [Hume's Sceptical Texts 2: Scepticism with Regard to Reason]({{ site.baseurl }}{% link teaching/documents/Hume's_Sceptical_Texts_2_Reason.pdf %})
+
