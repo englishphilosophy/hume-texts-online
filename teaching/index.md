@@ -39,5 +39,5 @@ The following teaching notes discuss complex topics where interpretative neutral
 - [Notes on Hume's Copy Principle]({{ site.baseurl }}{% link teaching/documents/Hume_Notes_Copy_Principle.pdf %})
 - [Notes on Hume's Argument(s) concerning Induction]({{ site.baseurl }}{% link teaching/documents/Hume_Notes_Induction.pdf %})
 - [Notes on Hume on Causation (from Cambridge talk)]({{ site.baseurl }}{% link teaching/documents/Hume_Causation_Cambridge_Handout.pdf %})
-- [Notes on Hume's View of the External World)]({{ site.baseurl }}{% link teaching/documents/Hume_Notes_External_World.pdf %})
+- [Notes on Hume's View of the External World]({{ site.baseurl }}{% link teaching/documents/Hume_Notes_External_World.pdf %})
 
