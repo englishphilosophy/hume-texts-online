@@ -22,7 +22,7 @@ The following documents are annotated summaries of some of the most important se
 
 ### Analysis of Hume's "Sceptical Texts"
 
-The following documents focus on the texts of the *Treatise* which are - or have been alleged to be - sceptical in intent, attempting to clarify the extent of their scepticism. Though less deliberately neutral than the outlines above, they again aim to stay very close to the texts and to the scholarly consensus.
+The following documents focus on sections of the *Treatise* which are - or have been alleged to be - sceptical in intent, attempting to clarify the extent of their scepticism. Though less deliberately neutral than the outlines above, they again aim to stay very close to the texts and to the scholarly consensus.
 
 - [Hume's Sceptical Texts 1: Induction]({{ site.baseurl }}{% link teaching/documents/Hume's_Sceptical_Texts_1_Induction.pdf %})
 - [Hume's Sceptical Texts 2: Scepticism with Regard to Reason]({{ site.baseurl }}{% link teaching/documents/Hume's_Sceptical_Texts_2_Reason.pdf %})
