@@ -4,7 +4,7 @@ subsection: teaching
 ---
 ## Teaching Materials
 
-This section of the website is currently under development. When completed, it will make available materials that have been used for teaching Hume at the University of Oxford, especially within the upper-year course on Early Modern Philosophy, but also within the postgraduate BPhil. Most of these materials concern the topics covered in Book 1 of Hume's *Treatise of Human Nature* and his *Enquiry concerning Human Understanding*.
+This section of the website is currently under development. When completed, it will make available materials that have been prepared over the years by Peter Millican for teaching Hume at the University of Oxford, especially within the upper-year course on Early Modern Philosophy, but also within the postgraduate BPhil. Most of these materials concern the topics covered in Book 1 of Hume's *Treatise of Human Nature* and his *Enquiry concerning Human Understanding*.
 
 ### Oxford Lectures on Hume
 
@@ -16,6 +16,8 @@ The following link gives access to three sets of recorded lectures (with 8 hour-
 ### Outline of Humean Texts
 
 The following documents are annotated summaries of some of the most important sections of Hume's *Treatise of Human Nature*, provided to aid comprehension while reading his texts. They are intended to be relatively uncontroversial and interpretatively neutral, tied very closely to Hume's own words (though of course that does not mean readers should uncritically accept the readings offered).
+
+For Hume's texts themselves, go to [the "Texts" area of this website]({% link https://davidhume.org/ %}), which includes all of Hume's published philosophical works, in reliable and searchable editions.
 
 - [Overview of *Treatise* Book 1 Part 1]({{ site.baseurl }}{% link teaching/documents/Overview_of_Treatise_1_1.pdf %})
 - [Overview of *Treatise* Book 1 Part 3 Sections 1-8]({{ site.baseurl }}{% link teaching/documents/Overview_of_Treatise_1_3_1-8.pdf %})
@@ -41,3 +43,4 @@ The following teaching notes discuss complex topics where interpretative neutral
 - [Notes on Hume on Causation (from Cambridge talk)]({{ site.baseurl }}{% link teaching/documents/Hume_Causation_Cambridge_Handout.pdf %})
 - [Notes on Hume's View of the External World]({{ site.baseurl }}{% link teaching/documents/Hume_Notes_External_World.pdf %})
 
+Where references are made to my own papers on Hume, these can be found within the "Scholarship" area of this website, in the page on [Peter Millican's Papers and Talks on Hume and Early Modern Philosophy]({% link https://davidhume.org/scholarship/millican %}).
