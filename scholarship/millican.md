@@ -23,6 +23,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 
 ### 2021
 
+- ["Hume on Causation and Causal Powers"]({{ site.baseurl }}{% link scholarship/papers/millican/2021_Hume_on_Causal_Powers.pdf %}), in Benjamin Hill, Henrik Lagerlund and Stathis Psillos (eds), *Reconsidering Causal Powers: Historical and Conceptual Perspectives*, Oxford Univesity Press, pp. 206-40
 - ["Hume on Modality"]({{ site.baseurl }}{% link scholarship/papers/millican/2021_Hume_on_Modality.pdf %}), in Otávio Bueno and Scott Shalkowski (eds), *The Routledge Handbook of Modality*, Routledge, pp. 364-77
 
 ### 2020
