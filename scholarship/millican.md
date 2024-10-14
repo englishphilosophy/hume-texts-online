@@ -4,11 +4,16 @@ subsection: scholarship
 ---
 ## Peter Millican's Papers and Talks on Hume and Early Modern Philosophy
 
-[Peter Millican](http://www.millican.org) is Gilbert Ryle Fellow and Professor of Philosophy at [Hertford College](http://philosophy.hertford.ox.ac.uk/index.htm), [University of Oxford](http://www.ox.ac.uk/). He is a member of both the Oxford Faculties of Philosophy and Computer Science. From 1985 until 2005 he lectured in Philosophy and Computing at the [University of Leeds](http://www.leeds.ac.uk), where he founded the Electronic Text Centre and started the "Leeds Hume Project" from which **davidhume.org** developed. In 2005 he moved to Oxford University, and from 2005 until 2010 he was Co-Editor of the journal [Hume Studies](http://www.humestudies.org).
+[Peter Millican](http://www.millican.org) is Gilbert Ryle Fellow and Professor of Philosophy at [Hertford College](https://www.hertford.ox.ac.uk/), [University of Oxford](http://www.ox.ac.uk/). Since 2022 he has also been Visiting Professor of Philosophy at [The National University of Singapore](https://nus.edu.sg/). From 1985 until 2005 he lectured in Philosophy and Computing at the [University of Leeds](http://www.leeds.ac.uk), where he founded the Electronic Text Centre and started the "Leeds Hume Project" from which **davidhume.org** developed. In 2005 he moved to Oxford University, and from 2005 until 2010 he was Co-Editor of the journal [Hume Studies](http://www.humestudies.org).
 
 _(Please note that this page is under continuous development, and makes no claim to completeness. In particular, I have not yet made any attempt to include unpublished talks beyond 2011, though I hope to do so before too long. Some earlier items are listed but not yet included on the website, usually because they have proved hard to track down. For a selection of papers on other topics - e.g. Ethics, Philosophy of Computing, Philosophy of Language, Philosophy of Religion - please go to [PAPERS ON OTHER TOPICS](http://www.millican.org/research.htm).)_
 
 Most of these files are in "PDF" form, to maintain platform independence. Any PowerPoint slides have been reduced to six or twelve per page, and are available in both a colour and a greyscale form (the former for viewing, the latter for printing).
+
+### 2024
+
+- ["Weighing Up Hume's 'Of Miracles'"]({{ site.baseurl }}{% link scholarship/papers/millican/2024_Weighing_Miracles.pdf %}), to appear in Paul Russell (ed.), *Hume's Dialogues concerning Natural Religion: A Critical Guide*, Cambridge University Press
+- ["Hume, Naturalism and Scepticism: Rejecting an Influential Narrative"]({{ site.baseurl }}{% link scholarship/papers/millican/2024_Naturalism_Scepticism.pdf %}), to appear in John Hyman and Michael Thorne (eds), *Scepticism and Naturalism: Hume, Wittgenstein, Strawson*, Brill Studies in Scepticism
 
 ### 2023
 
