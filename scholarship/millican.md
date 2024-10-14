@@ -14,6 +14,7 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 
 - ["Weighing Up Hume's 'Of Miracles'"]({{ site.baseurl }}{% link scholarship/papers/millican/2024_Weighing_Miracles.pdf %}), to appear in Paul Russell (ed.), *Hume's Dialogues concerning Natural Religion: A Critical Guide*, Cambridge University Press
 - ["Hume, Naturalism and Scepticism: Rejecting an Influential Narrative"]({{ site.baseurl }}{% link scholarship/papers/millican/2024_Hume_Naturalism_Scepticism.pdf %}), to appear in John Hyman and Michael Thorne (eds), *Scepticism and Naturalism: Hume, Wittgenstein, Strawson*, Brill Studies in Scepticism
+- ["Hume as Regularity Theorist - After All!: Completing a Counter-Revolution"]({{ site.baseurl }}{% link scholarship/papers/millican/2024_Hume_Regularity_Theorist.pdf %}), *Hume Studies* 49, pp. 101-162
 
 ### 2023
 
