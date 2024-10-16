@@ -2,6 +2,12 @@
 layout: teaching
 subsection: teaching
 ---
+## 2024 Oxford Lectures on David Hume
+
+Below are links to handouts from Peter Millican's Hume lectures in autumn 2024:
+
+- ["Handout for Lecture 1, 16 October 2024 (from PowerPoint slides)"]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_1.pdf %})
+
 ## Oxford Lectures on David Hume
 
 Below are links to Peter Millican's Hume lectures (in reverse historical order) from 2021, 2018, 2011 and 2010:
