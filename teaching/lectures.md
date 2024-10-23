@@ -6,9 +6,9 @@ subsection: teaching
 
 Below are links to lecture slides and handouts from Peter Millican's Hume lectures in autumn 2024:
 
-- ["Slides for lectures that have already taken place"]({{ site.baseurl }}{% link teaching/lectures/2024_Hume_MT_current.pptx %})
-- ["Handout for Lecture 1, 16 October 2024 (from PowerPoint slides)"]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_1.pdf %})
-- ["Handout for Lecture 1, 23 October 2024 (from PowerPoint slides)"]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_2.pdf %})
+- [Slides for lectures that have already taken place]({{ site.baseurl }}{% link teaching/lectures/2024_Hume_MT_current.pptx %})
+- [Handout for Lecture 1, 16 October 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_1.pdf %})
+- [Handout for Lecture 1, 23 October 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_2.pdf %})
 
 ## Previous Oxford Lectures on David Hume
 
@@ -27,10 +27,10 @@ The 2021 lectures - which are not available in video, but have the most extensiv
 
 The handouts for all four sets are suitable for printing with six slides per page:
 
-- ["Complete Handouts for 2021 Lectures (from 468 PowerPoint slides)"]({{ site.baseurl }}{% link teaching/lectures/Hume_2021_Handouts.pdf %})
-- ["Complete Handouts for 2018 Lectures (from 408 PowerPoint slides)"]({{ site.baseurl }}{% link teaching/lectures/Hume_2018_Handouts.pdf %})
-- ["Complete Handouts for 2011 Lectures (from 336 PowerPoint slides)"]({{ site.baseurl }}{% link teaching/lectures/Hume_2011_Handouts.pdf %})
-- ["Complete Handouts for 2010 Lectures (from 294 PowerPoint slides)"]({{ site.baseurl }}{% link teaching/lectures/Hume_2010_Handouts.pdf %})
+- [Complete Handouts for 2021 Lectures (from 468 PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2021_Handouts.pdf %})
+- [Complete Handouts for 2018 Lectures (from 408 PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2018_Handouts.pdf %})
+- [Complete Handouts for 2011 Lectures (from 336 PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2011_Handouts.pdf %})
+- [Complete Handouts for 2010 Lectures (from 294 PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2010_Handouts.pdf %})
 
 ### Lecture Videos
 
