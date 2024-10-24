@@ -37,7 +37,7 @@ The following teaching notes discuss complex topics where interpretative neutral
 - [Notes on Hume on Ideas and Impressions]({{ site.baseurl }}{% link teaching/documents/Hume_Notes_Ideas_Impressions.pdf %})
 - [Notes on Hume's Copy Principle]({{ site.baseurl }}{% link teaching/documents/Hume_Notes_Copy_Principle.pdf %})
 - [Notes on Hume's Argument(s) concerning Induction]({{ site.baseurl }}{% link teaching/documents/Hume_Notes_Induction.pdf %})
-- [Notes on Hume on Causation (from Cambridge talk)]({{ site.baseurl }}{% link teaching/documents/Hume_Causation_Cambridge_Handout.pdf %})
+- [Notes on Hume on Causation]({{ site.baseurl }}{% link teaching/documents/Hume_Notes_Causation.pdf %})
 - [Notes on Hume's View of the External World]({{ site.baseurl }}{% link teaching/documents/Hume_Notes_External_World.pdf %})
 
 Where references are made to my own papers on Hume, these can be found within the "Scholarship" area of this website, in the page on [Peter Millican's Papers and Talks on Hume and Early Modern Philosophy](https://davidhume.org/scholarship/millican).
