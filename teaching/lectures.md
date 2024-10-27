@@ -6,7 +6,7 @@ subsection: teaching
 
 Below are links to lecture slides and handouts from Peter Millican's Hume lectures in autumn 2024:
 
-- [Slides for lectures that have already taken place]({{ site.baseurl }}{% link teaching/lectures/2024_Hume_MT_current.pptx %})
+- [Slides for lectures that have already taken place (or are imminent)]({{ site.baseurl }}{% link teaching/lectures/2024_Hume_MT_current.pptx %})
 - [Handout for Lecture 1, 16 October 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_1.pdf %})
 - [Handout for Lecture 2, 23 October 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_2.pdf %})
 - [Handout for Lecture 3, 30 October 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_3.pdf %})
