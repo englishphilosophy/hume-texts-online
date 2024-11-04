@@ -17,7 +17,7 @@ The following link gives access to three sets of recorded lectures (with 8 hour-
 The following documents are annotated summaries of some of the most important sections of Hume's *Treatise of Human Nature*, provided to aid comprehension while reading his texts. They are intended to be relatively uncontroversial and interpretatively neutral, tied very closely to Hume's own words (though of course that does not mean readers should uncritically accept the readings offered). *For Hume's texts themselves, go to [the "Texts" area of this website](https://davidhume.org/), which includes all of Hume's published philosophical works, in reliable and searchable editions.*
 
 - [Overview of *Treatise* Book 1 Part 1]({{ site.baseurl }}{% link teaching/documents/Overview_of_Treatise_1_1.pdf %})
-- [Overview of *Treatise* Book 1 Part 3 Sections 1-8]({{ site.baseurl }}{% link teaching/documents/Overview_of_Treatise_1_3_1-8.pdf %})
+- [Overview of *Treatise* Book 1 Part 3 Sections 1-10]({{ site.baseurl }}{% link teaching/documents/Overview_of_Treatise_1_3_1-10.pdf %})
 - [Hume's Argument concerning Induction in *Treatise* 1.3.6]({{ site.baseurl }}{% link teaching/documents/Induction_Treatise_1_3_6.pdf %})
 
 ### Analysis of Hume's "Sceptical Texts"
