@@ -14,6 +14,7 @@ Below are links to lecture slides and handouts from Peter Millican's Hume lectur
 - [Handout for Lecture 5, 13 November 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_5.pdf %})
 - [Handout for Lecture 6, 20 November 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_6.pdf %})
 - [Handout for Lecture 7, 27 November 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_7.pdf %})
+- [Handout for Lecture 8, 4 December 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_8.pdf %})
 
 ## Previous Oxford Lectures on David Hume
 
