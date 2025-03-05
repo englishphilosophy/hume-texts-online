@@ -10,6 +10,11 @@ _(Please note that this page is under continuous development, and makes no claim
 
 Most of these files are in "PDF" form, to maintain platform independence. Any PowerPoint slides have been reduced to six or twelve per page, and are available in both a colour and a greyscale form (the former for viewing, the latter for printing).
 
+### 2025
+
+- ["Weighing Up Hume on Miracles"]({{ site.baseurl }}{% link scholarship/papers/millican/2025_Miracles_Canterbury.pdf %})<br>University of Canterbury, New Zealand (March)
+- ["Hume, Naturalism and Scepticism: Rejecting an Influential Narrative"]({{ site.baseurl }}{% link scholarship/papers/millican/2025_Naturalism_Otago.pdf %})<br>University of Otago, New Zealand (February)
+
 ### 2024
 
 - ["Weighing Up Hume's 'Of Miracles'"]({{ site.baseurl }}{% link scholarship/papers/millican/2024_Weighing_Miracles.pdf %}), to appear in Paul Russell (ed.), *Hume's Dialogues concerning Natural Religion: A Critical Guide*, Cambridge University Press
