@@ -12,8 +12,10 @@ Most of these files are in "PDF" form, to maintain platform independence. Any Po
 
 ### 2025
 
-- ["Weighing Up Hume on Miracles"]({{ site.baseurl }}{% link scholarship/papers/millican/2025_Miracles_Canterbury.pdf %})<br>University of Canterbury, New Zealand (March)
-- ["Hume, Naturalism and Scepticism: Rejecting an Influential Narrative"]({{ site.baseurl }}{% link scholarship/papers/millican/2025_Naturalism_Otago.pdf %})<br>University of Otago, New Zealand (February)
+- ["Weighing Up Hume on Miracles" - slides]({{ site.baseurl }}{% link scholarship/papers/millican/2025_Miracles_Canterbury.pptx %})<br>University of Canterbury, New Zealand (March)
+- ["Weighing Up Hume on Miracles" - handout]({{ site.baseurl }}{% link scholarship/papers/millican/2025_Miracles_Canterbury.pdf %})<br>University of Canterbury, New Zealand (March)
+- ["Hume, Naturalism and Scepticism: Rejecting an Influential Narrative" - slides]({{ site.baseurl }}{% link scholarship/papers/millican/2025_Naturalism_Otago.pptx %})<br>University of Otago, New Zealand (February)
+- ["Hume, Naturalism and Scepticism: Rejecting an Influential Narrative" - handout]({{ site.baseurl }}{% link scholarship/papers/millican/2025_Naturalism_Otago.pdf %})<br>University of Otago, New Zealand (February)
 
 ### 2024
 
