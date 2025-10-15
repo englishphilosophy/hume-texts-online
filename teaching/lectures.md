@@ -2,37 +2,32 @@
 layout: teaching
 subsection: teaching
 ---
-## 2024 Oxford Lectures on David Hume
+## 2025 Oxford Lectures on David Hume
 
-Below are links to lecture slides and handouts from Peter Millican's Hume lectures in autumn 2024:
+Below are links to lecture slides and handouts from Peter Millican's Hume lectures in autumn 2025:
 
-- [Complete set of slides]({{ site.baseurl }}{% link teaching/lectures/2024_Hume_MT_complete.pptx %})
-- [Handout for Lecture 1, 16 October 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_1.pdf %})
-- [Handout for Lecture 2, 23 October 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_2.pdf %})
-- [Handout for Lecture 3, 30 October 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_3.pdf %})
-- [Handout for Lecture 4, 6 November 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_4.pdf %})
-- [Handout for Lecture 5, 13 November 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_5.pdf %})
-- [Handout for Lecture 6, 20 November 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_6.pdf %})
-- [Handout for Lecture 7, 27 November 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_7.pdf %})
-- [Handout for Lecture 8, 4 December 2024 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Lecture_8.pdf %})
+- [Complete set of slides so far]({{ site.baseurl }}{% link teaching/lectures/2025_Hume_MT_current.pptx %})
+- [Handout for Lecture 1, 15 October 2025 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2025_Lecture_1.pdf %})
 
 ## Previous Oxford Lectures on David Hume
 
-Below are links to Peter Millican's Hume lectures (in reverse historical order) from 2021, 2018, 2011 and 2010:
+Below are links to Peter Millican's Hume lectures (in reverse historical order) from 2024, 2021, 2018, 2011 and 2010:
 
+- 2024 Lectures: "David Hume"
 - 2021 Lectures: "David Hume"
 - 2018 Lectures: "David Hume"
 - 2011 Lectures: "Hume's Central Principles"
 - 2010 Lectures: "Hume's *Treatise of Human Nature*, Book I"
 
-The four sets of lectures have a lot of material in common, though with different emphasis. The 2010 set focused most closely on the text of *Treatise* Book 1 (but with a false start in section numbering: section 2 should have been combined with section 1, but I realised only later that subdividing the long following sections would be artificial). The 2011 set focused more on Hume's central principles, with less textual ordering. The 2018 set was quite significantly revised, to reflect my later research and thinking. Thus where these sets of lectures cover the same material in similar detail, the 2018 version is to be preferred. The most notable omission from the 2018 lectures is the material on Space and Time, which is only in the 2010 version.
+The 2024 lectures are the basis for the current set of lectures, though numerous improvements are being made. The other four sets of lectures have a lot of material in common, though with different emphasis. The 2010 set focused most closely on the text of *Treatise* Book 1 (but with a false start in section numbering: section 2 should have been combined with section 1, but I realised only later that subdividing the long following sections would be artificial). The 2011 set focused more on Hume's central principles, with less textual ordering. The 2018 set was quite significantly revised, to reflect my later research and thinking. Thus where these sets of lectures cover the same material in similar detail, the 2018 version is to be preferred. The most notable omission from the 2018 lectures is the material on Space and Time, which is only in the 2010 version.
 
 The 2021 lectures - which are not available in video, but have the most extensive handouts - were intended to complement and build on the 2018 lectures, rather than to supplant them (except in the case of the first lecture, which covered the same content in both sets, but was improved). These later lectures included a lot of the same slides as the 2018 set, but often I went through these very quickly, referring students back to the earlier lectures for more detail. This left time for a significant proportion of new slides that went in depth into some key issues, especially those most relevant to the Early Modern Philosophy examinations.
 
 ### Lecture Handouts
 
-The handouts for all four sets are suitable for printing with six slides per page:
+The handouts for all five sets are suitable for printing with six slides per page:
 
+- [Complete Handouts for 2024 Lectures (from 390 PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2024_Handouts.pdf %})
 - [Complete Handouts for 2021 Lectures (from 468 PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2021_Handouts.pdf %})
 - [Complete Handouts for 2018 Lectures (from 408 PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2018_Handouts.pdf %})
 - [Complete Handouts for 2011 Lectures (from 336 PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2011_Handouts.pdf %})
