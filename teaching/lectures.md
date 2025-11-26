@@ -13,6 +13,7 @@ Below are links to lecture slides and handouts from Peter Millican's Hume lectur
 - [Handout for Lecture 4, 5 November 2025 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2025_Lecture_4.pdf %})
 - [Handout for Lecture 5, 12 November 2025 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2025_Lecture_5.pdf %})
 - [Handout for Lecture 6, 19 November 2025 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2025_Lecture_6.pdf %})
+- [Handout for Lecture 7, 19 November 2025 (from PowerPoint slides)]({{ site.baseurl }}{% link teaching/lectures/Hume_2025_Lecture_7.pdf %})
 - [Handout for Appendix on "Scepticism with Regard to Reason", 19 November 2025]({{ site.baseurl }}{% link teaching/lectures/Hume_2025_on_T_1_4_1.pdf %})
 
 ## Previous Oxford Lectures on David Hume
